@@ -1,0 +1,440 @@
+{
+  "version": "unseen.v1",
+  "frozenAt": "2026-08-21",
+  "purpose": "Companies produced by the discovery mechanisms, never seen by any classifier. Measures whether classification generalises beyond the hand-built benchmark.",
+  "selection": "Deterministic stride across each mechanism candidate list, quota per mechanism, benchmark members excluded, then entity resolution. No hand-picking and no look-ahead at classification output.",
+  "groundTruth": "NONE. These carry no labels. Discovery provenance is a hint, not a label: being carried by a distributor implies channel motion but does not prove the vendor operates the programme itself.",
+  "resolutionYield": "56 resolved of 62 attempted",
+  "companies": [
+    {
+      "name": "A10 Networks",
+      "domain": "a10networks.com",
+      "mechanism": "distributor_inversion:infinigate",
+      "segmentHint": "it_security",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "Alteryx",
+      "domain": "alteryx.com",
+      "mechanism": "distributor_inversion:infinigate",
+      "segmentHint": "it_security",
+      "resolution": "guessed alteryx.com; page corroborates every name token"
+    },
+    {
+      "name": "Anomali",
+      "domain": "anomali.com",
+      "mechanism": "distributor_inversion:exclusive_networks",
+      "segmentHint": "cybersecurity",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "Anybus",
+      "domain": "anybus.com",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed anybus.com; page corroborates every name token"
+    },
+    {
+      "name": "AvePoint",
+      "domain": "avepoint.com",
+      "mechanism": "distributor_inversion:infinigate",
+      "segmentHint": "it_security",
+      "resolution": "guessed avepoint.com; page corroborates every name token"
+    },
+    {
+      "name": "backoffice",
+      "domain": "backoffice.de",
+      "mechanism": "platform_tenancy:introw.io",
+      "segmentHint": "prm_tenant",
+      "resolution": "guessed backoffice.de; page corroborates every name token"
+    },
+    {
+      "name": "Bata",
+      "domain": "bata.com",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed bata.com; page corroborates every name token"
+    },
+    {
+      "name": "BeyondTrust",
+      "domain": "beyondtrust.com",
+      "mechanism": "distributor_inversion:exclusive_networks",
+      "segmentHint": "cybersecurity",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "BOVER",
+      "domain": "bover.de",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed bover.de; page corroborates every name token"
+    },
+    {
+      "name": "Cato Networks",
+      "domain": "catonetworks.com",
+      "mechanism": "distributor_inversion:infinigate",
+      "segmentHint": "it_security",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "Circutor",
+      "domain": "circutor.com",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed circutor.com; page corroborates every name token"
+    },
+    {
+      "name": "Commvault",
+      "domain": "commvault.com",
+      "mechanism": "distributor_inversion:infinigate",
+      "segmentHint": "it_security",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "Corelight",
+      "domain": "corelight.com",
+      "mechanism": "distributor_inversion:exclusive_networks",
+      "segmentHint": "cybersecurity",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "Deep Instinct",
+      "domain": "deepinstinct.com",
+      "mechanism": "distributor_inversion:infinigate",
+      "segmentHint": "it_security",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "DELTA LIGHT",
+      "domain": "deltalight.com",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed deltalight.com; page corroborates every name token"
+    },
+    {
+      "name": "Docker",
+      "domain": "docker.com",
+      "mechanism": "distributor_inversion:exclusive_networks",
+      "segmentHint": "cybersecurity",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "ECODORA",
+      "domain": "ecodora.com",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed ecodora.com; page corroborates every name token"
+    },
+    {
+      "name": "EURO 300",
+      "domain": "euro300.de",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed euro300.de; page corroborates every name token"
+    },
+    {
+      "name": "ExtraHop",
+      "domain": "extrahop.com",
+      "mechanism": "distributor_inversion:exclusive_networks",
+      "segmentHint": "cybersecurity",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "FLUKE",
+      "domain": "fluke.com",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed fluke.com; page corroborates every name token"
+    },
+    {
+      "name": "Forcepoint",
+      "domain": "forcepoint.com",
+      "mechanism": "distributor_inversion:exclusive_networks",
+      "segmentHint": "cybersecurity",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "Fortra",
+      "domain": "fortra.es",
+      "mechanism": "distributor_inversion:infinigate",
+      "segmentHint": "it_security",
+      "resolution": "guessed fortra.es; page corroborates every name token"
+    },
+    {
+      "name": "Gigamon",
+      "domain": "gigamon.com",
+      "mechanism": "distributor_inversion:exclusive_networks",
+      "segmentHint": "cybersecurity",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "Hafu",
+      "domain": "hafu.de",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed hafu.de; page corroborates every name token"
+    },
+    {
+      "name": "Huawei",
+      "domain": "huawei.com",
+      "mechanism": "distributor_inversion:exclusive_networks",
+      "segmentHint": "cybersecurity",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "IFM",
+      "domain": "ifm.com",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed ifm.com; page corroborates every name token"
+    },
+    {
+      "name": "Illumio",
+      "domain": "illumio.com",
+      "mechanism": "distributor_inversion:infinigate",
+      "segmentHint": "it_security",
+      "resolution": "guessed illumio.com; page corroborates every name token"
+    },
+    {
+      "name": "iQSol",
+      "domain": "iqsol.biz",
+      "mechanism": "distributor_inversion:exclusive_networks",
+      "segmentHint": "cybersecurity",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "KDS",
+      "domain": "kds.eu",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed kds.eu; page corroborates every name token"
+    },
+    {
+      "name": "Kingston",
+      "domain": "kingston.it",
+      "mechanism": "distributor_inversion:infinigate",
+      "segmentHint": "it_security",
+      "resolution": "guessed kingston.it; page corroborates every name token"
+    },
+    {
+      "name": "LEINE & LINDE",
+      "domain": "leinelinde.com",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed leinelinde.com; page corroborates every name token"
+    },
+    {
+      "name": "Luzifer",
+      "domain": "luzifer.com",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed luzifer.com; page corroborates every name token"
+    },
+    {
+      "name": "Microsoft",
+      "domain": "microsoft.com",
+      "mechanism": "distributor_inversion:infinigate",
+      "segmentHint": "it_security",
+      "resolution": "guessed microsoft.com; page corroborates every name token"
+    },
+    {
+      "name": "MITUTOYO",
+      "domain": "mitutoyo.com",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed mitutoyo.com; page corroborates every name token"
+    },
+    {
+      "name": "NetApp",
+      "domain": "netapp.com",
+      "mechanism": "distributor_inversion:exclusive_networks",
+      "segmentHint": "cybersecurity",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "Nokia",
+      "domain": "nokia.com",
+      "mechanism": "distributor_inversion:infinigate",
+      "segmentHint": "it_security",
+      "resolution": "guessed nokia.com; page corroborates every name token"
+    },
+    {
+      "name": "Nutanix",
+      "domain": "nutanix.com",
+      "mechanism": "distributor_inversion:exclusive_networks",
+      "segmentHint": "cybersecurity",
+      "resolution": "guessed nutanix.com; page corroborates every name token"
+    },
+    {
+      "name": "Opengear",
+      "domain": "opengear.com",
+      "mechanism": "distributor_inversion:exclusive_networks",
+      "segmentHint": "cybersecurity",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "domain": "paloaltonetworks.com",
+      "mechanism": "distributor_inversion:infinigate",
+      "segmentHint": "it_security",
+      "resolution": "guessed paloaltonetworks.com; page corroborates every name token"
+    },
+    {
+      "name": "partners",
+      "domain": "partners.com",
+      "mechanism": "platform_tenancy:introw.io",
+      "segmentHint": "prm_tenant",
+      "resolution": "guessed partners.com; page corroborates every name token"
+    },
+    {
+      "name": "pronostiek",
+      "domain": "pronostiek.com",
+      "mechanism": "platform_tenancy:introw.io",
+      "segmentHint": "prm_tenant",
+      "resolution": "guessed pronostiek.com; page corroborates every name token"
+    },
+    {
+      "name": "Proofpoint",
+      "domain": "proofpoint.com",
+      "mechanism": "distributor_inversion:exclusive_networks",
+      "segmentHint": "cybersecurity",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "PROTAPE",
+      "domain": "protape.ch",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed protape.ch; page corroborates every name token"
+    },
+    {
+      "name": "Riverbed",
+      "domain": "riverbed.com",
+      "mechanism": "distributor_inversion:infinigate",
+      "segmentHint": "it_security",
+      "resolution": "guessed riverbed.com; page corroborates every name token"
+    },
+    {
+      "name": "Röhm",
+      "domain": "rohm.com",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed rohm.com; page corroborates every name token"
+    },
+    {
+      "name": "rooms",
+      "domain": "rooms.io",
+      "mechanism": "platform_tenancy:introw.io",
+      "segmentHint": "prm_tenant",
+      "resolution": "guessed rooms.io; page corroborates every name token"
+    },
+    {
+      "name": "SailPoint",
+      "domain": "sailpoint.com",
+      "mechanism": "distributor_inversion:exclusive_networks",
+      "segmentHint": "cybersecurity",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "Semperis",
+      "domain": "semperis.com",
+      "mechanism": "distributor_inversion:exclusive_networks",
+      "segmentHint": "cybersecurity",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "Seneca",
+      "domain": "seneca.com",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed seneca.com; page corroborates every name token"
+    },
+    {
+      "name": "SentinelOne",
+      "domain": "sentinelone.com",
+      "mechanism": "distributor_inversion:infinigate",
+      "segmentHint": "it_security",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "Solinteg",
+      "domain": "solinteg.com",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed solinteg.com; page corroborates every name token"
+    },
+    {
+      "name": "Sophos",
+      "domain": "sophos.com",
+      "mechanism": "distributor_inversion:infinigate",
+      "segmentHint": "it_security",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "Tekmar",
+      "domain": "tekmar.com",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed tekmar.com; page corroborates every name token"
+    },
+    {
+      "name": "Thales",
+      "domain": "thalesgroup.com",
+      "mechanism": "distributor_inversion:exclusive_networks",
+      "segmentHint": "cybersecurity",
+      "resolution": "outbound link on discovering page matches company name"
+    },
+    {
+      "name": "TREND NETWORKS",
+      "domain": "trendnetworks.net",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed trendnetworks.net; page corroborates every name token"
+    },
+    {
+      "name": "VINTAGE",
+      "domain": "vintage.com",
+      "mechanism": "distributor_inversion:cebeo",
+      "segmentHint": "electrical_industrial",
+      "resolution": "guessed vintage.com; page corroborates every name token"
+    }
+  ],
+  "resolutionFailures": [
+    {
+      "name": "F5",
+      "mechanism": "distributor_inversion:infinigate",
+      "state": "unresolved",
+      "method": "no corroborated domain found"
+    },
+    {
+      "name": "AARDING & NAAKT KOPER",
+      "mechanism": "distributor_inversion:cebeo",
+      "state": "unresolved",
+      "method": "no corroborated domain found"
+    },
+    {
+      "name": "PEPPERL & FUCHS",
+      "mechanism": "distributor_inversion:cebeo",
+      "state": "unresolved",
+      "method": "no corroborated domain found"
+    },
+    {
+      "name": "NORTHERN LIGHTING",
+      "mechanism": "distributor_inversion:cebeo",
+      "state": "unresolved",
+      "method": "no corroborated domain found"
+    },
+    {
+      "name": "lemtrail",
+      "mechanism": "platform_tenancy:introw.io",
+      "state": "unresolved",
+      "method": "no corroborated domain found"
+    },
+    {
+      "name": "crmoxy internal",
+      "mechanism": "platform_tenancy:introw.io",
+      "state": "unresolved",
+      "method": "no corroborated domain found"
+    }
+  ]
+}

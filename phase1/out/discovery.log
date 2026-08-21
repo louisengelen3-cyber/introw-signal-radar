@@ -1,0 +1,22 @@
+M1 exclusive_networks     ok=true candidates=73
+M1 infinigate             ok=true candidates=106
+M1 cebeo                  ok=true candidates=991
+M2 cumulocity.com         ok=true candidates=0
+M2 egnyte.com             ok=true candidates=2
+M2 sharegate.com          ok=true candidates=1
+M3 introw.io              candidates=9
+M3 magentrix.com          candidates=0
+M3 partnerstack.com       candidates=0
+M3 allbound.com           candidates=0
+M3 impartner.com          candidates=0
+M3 kiflo.com              candidates=0
+  resolved 10/60
+  resolved 20/60
+  resolved 30/60
+  resolved 40/60
+  resolved 50/60
+  resolved 60/60
+
+benchmark overlap: byDomain=0 byName=2 viaResolution=0
+  cubbit.io, niko.eu
+wrote /Users/louisengelen/Introw-signal-radar/phase1/out/discovery.v1.json

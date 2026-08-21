@@ -1,12 +1,31 @@
 {
   "name": "introw-signal-radar",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
-  "description": "Introw Signal Radar — partner-program targeting instrument",
+  "description": "Introw Signal Radar — a partner-channel discovery and qualification instrument",
   "scripts": {
-    "p0:fetch": "node phase0/run-fetch.mjs",
-    "p0:detect": "node phase0/run-detect.mjs",
-    "p0:persona": "node phase0/run-persona.mjs"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit",
+    "test": "vitest run",
+    "p1:discover": "tsx phase1/run-discovery.ts",
+    "p1:classify": "tsx phase1/run-classify.ts",
+    "p1:report": "tsx phase1/run-report.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
