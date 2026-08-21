@@ -1,0 +1,211 @@
+[
+  {
+    "name": "Cumulocity",
+    "domain": "cumulocity.com",
+    "personaClaim": "Global VP Partners & Alliances named in Introw case study",
+    "sources": {
+      "company_team_page": {
+        "inspected": [
+          "/company"
+        ],
+        "found": []
+      },
+      "partner_page": {
+        "inspected": [],
+        "found": []
+      }
+    }
+  },
+  {
+    "name": "Factorial",
+    "domain": "factorialhr.com",
+    "personaClaim": "Partner Revenue Operations named in Introw case study",
+    "sources": {
+      "company_team_page": {
+        "inspected": [],
+        "found": []
+      },
+      "partner_page": {
+        "inspected": [
+          "https://factorialhr.com/integrations-partner-program",
+          "https://factorialhr.com/partnerships"
+        ],
+        "found": []
+      }
+    }
+  },
+  {
+    "name": "SafeBreach",
+    "domain": "safebreach.com",
+    "personaClaim": "Channel Director named in Introw case study",
+    "sources": {
+      "company_team_page": {
+        "inspected": [
+          "/team"
+        ],
+        "found": []
+      },
+      "partner_page": {
+        "inspected": [
+          "https://www.safebreach.com/partners/",
+          "https://www.safebreach.com/channel-partners/",
+          "https://www.safebreach.com/partners/hunters-siem-2/"
+        ],
+        "found": []
+      }
+    }
+  },
+  {
+    "name": "Xelix",
+    "domain": "xelix.com",
+    "personaClaim": "Head of Partnerships named in Introw case study",
+    "sources": {
+      "company_team_page": {
+        "inspected": [
+          "/about-us"
+        ],
+        "found": []
+      },
+      "partner_page": {
+        "inspected": [
+          "https://xelix.com/partners"
+        ],
+        "found": []
+      }
+    }
+  },
+  {
+    "name": "Sedai",
+    "domain": "sedai.io",
+    "personaClaim": "Head of Partners & Alliances named in Introw case study",
+    "sources": {
+      "company_team_page": {
+        "inspected": [
+          "/about",
+          "/team",
+          "/company"
+        ],
+        "found": []
+      },
+      "partner_page": {
+        "inspected": [
+          "https://sedai.io/partners"
+        ],
+        "found": []
+      }
+    }
+  },
+  {
+    "name": "Zenity",
+    "domain": "zenity.io",
+    "personaClaim": "Partner Lead named in Introw case study",
+    "sources": {
+      "company_team_page": {
+        "inspected": [
+          "/company"
+        ],
+        "found": [
+          {
+            "name": "Marketing Harrison Johnson",
+            "title": "VP Partners & Alliances Gal Malka VP of",
+            "persona": "t1_partner_leadership",
+            "sourceUrl": "https://www.zenity.io/company",
+            "retrievedAt": "2026-08-21T12:43:56.231Z"
+          }
+        ]
+      },
+      "partner_page": {
+        "inspected": [
+          "https://zenity.io/partners"
+        ],
+        "found": []
+      }
+    }
+  },
+  {
+    "name": "Quatt",
+    "domain": "quatt.io",
+    "personaClaim": "BDM owns installer network — non-partner title (path B test)",
+    "sources": {
+      "company_team_page": {
+        "inspected": [
+          "/about-us"
+        ],
+        "found": []
+      },
+      "partner_page": {
+        "inspected": [
+          "https://www.quatt.io/zakelijk/partner-programma"
+        ],
+        "found": []
+      }
+    }
+  },
+  {
+    "name": "Loxone",
+    "domain": "loxone.com",
+    "personaClaim": "unknown — non-customer industrial, tests path B generalisation",
+    "sources": {
+      "company_team_page": {
+        "inspected": [
+          "/about",
+          "/about-us",
+          "/team",
+          "/our-team"
+        ],
+        "found": []
+      },
+      "partner_page": {
+        "inspected": [
+          "https://www.loxone.com/cscz/partner/",
+          "https://shop.loxone.com/nlnl",
+          "https://www.loxone.com/nlnl/bestel-loxone/partner-vinden/"
+        ],
+        "found": []
+      }
+    }
+  },
+  {
+    "name": "Teamleader",
+    "domain": "teamleader.eu",
+    "personaClaim": "unknown — non-customer EU SaaS, tests path A generalisation",
+    "sources": {
+      "company_team_page": {
+        "inspected": [
+          "/about",
+          "/company"
+        ],
+        "found": []
+      },
+      "partner_page": {
+        "inspected": [
+          "https://www.teamleader.eu/es/blog/tags/agencies"
+        ],
+        "found": []
+      }
+    }
+  },
+  {
+    "name": "Enphase Energy",
+    "domain": "enphase.com",
+    "personaClaim": "unknown — large installer network, tests path B at scale",
+    "sources": {
+      "company_team_page": {
+        "inspected": [
+          "/about-us",
+          "/leadership",
+          "/company"
+        ],
+        "found": []
+      },
+      "partner_page": {
+        "inspected": [
+          "https://enphase.com/nl-be/installers",
+          "https://enphase.com/nl-be/support/installers",
+          "https://enphase.com/ev-chargers/installers"
+        ],
+        "found": []
+      }
+    }
+  }
+]

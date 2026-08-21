@@ -1,0 +1,12 @@
+{
+  "name": "introw-signal-radar",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Introw Signal Radar — partner-program targeting instrument",
+  "scripts": {
+    "p0:fetch": "node phase0/run-fetch.mjs",
+    "p0:detect": "node phase0/run-detect.mjs",
+    "p0:persona": "node phase0/run-persona.mjs"
+  }
+}

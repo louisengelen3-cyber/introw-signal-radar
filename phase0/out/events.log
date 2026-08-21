@@ -1,0 +1,9 @@
+catalyst_partnership_leaders   status=200 pages=8 people=56 tier1=8 withCompany=16
+catalyst_nyc                   status=200 pages=7 people=54 tier1=8 withCompany=5
+catalyst_agenda                status=200 pages=5 people=20 tier1=0 withCompany=2
+partnertechx_speakers          status=200 pages=9 people=117 tier1=6 withCompany=53
+channelfocus                   status=200 pages=9 people=118 tier1=7 withCompany=51
+partnershipleaders             status=200 pages=1 people=15 tier1=1 withCompany=4
+channelpartners_conf           status=200 pages=2 people=5 tier1=0 withCompany=0
+impartner_events               status=200 pages=3 people=12 tier1=0 withCompany=0
+wrote phase0/out/events.v1.json

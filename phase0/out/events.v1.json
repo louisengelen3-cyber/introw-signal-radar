@@ -1,0 +1,3691 @@
+[
+  {
+    "id": "catalyst_partnership_leaders",
+    "root": "https://www.joincatalyst.com/",
+    "status": 200,
+    "pagesInspected": [
+      "https://www.joincatalyst.com/",
+      "https://www.joincatalyst.com/agenda-catalyst-26",
+      "https://www.joincatalyst.com/catalyst-26-speakers",
+      "https://www.joincatalyst.com/sponsors",
+      "https://www.joincatalyst.com/beyond-the-sessions",
+      "https://www.joincatalyst.com/speaker-interest",
+      "https://www.joincatalyst.com/summit-speaker-application",
+      "https://www.joincatalyst.com/sponsor-interest"
+    ],
+    "people": [
+      {
+        "name": "Nicole Dezen",
+        "title": "Chief Partner Officer and CVP Global Partner Solutions, Microsoft",
+        "company": null,
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Chief Partner Officer",
+        "method": "jsonld_person",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Jack Grey",
+        "title": "Global Head, Alliance Ecosystem and Programs, BCG",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "jsonld_person",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Julia Foster",
+        "title": "VP, Partner Marketing, Salesforce",
+        "company": null,
+        "persona": "t2_partner_marketing",
+        "matchedOn": "Partner Marketing",
+        "method": "jsonld_person",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Karthik Balakrishnan",
+        "title": "GM, AWS Marketplace International Expansion, AWS",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "jsonld_person",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Jeff Johnston",
+        "title": "Head, Global Fraud Partner Team at TransUnion",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Toni Andres",
+        "title": "Director, Partnerships at Dynamic Yield by Mastercard",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "James Stacey",
+        "title": "Principal Program Marketing Manager at Redhat",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Osvaldo Villareal",
+        "title": "Sales Representative at JetBrains",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Trent Mortensen",
+        "title": "VP of Partnerships (97th Floor)",
+        "company": null,
+        "persona": "t1_partner_leadership",
+        "matchedOn": "VP of Partnerships",
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Tim Greve",
+        "title": "Head of Partner Marketing (Hydrolix)",
+        "company": null,
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Head of Partner",
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Follow Us",
+        "title": "© 2026 Partnership Leaders All rights reserved.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Chief Partner Officer",
+        "title": "OneStream Software Kristin Heisner Head of Partner Marketing",
+        "company": "Commvault Chris Danelz General Manager",
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Head of Partner",
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "America Strategic Alliances",
+        "title": "NTT DATA Jack Grey Executive Director",
+        "company": "Global Head",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Stratman Global Leader",
+        "title": "EY Partner Ecosystem Strategy and Operations",
+        "company": "EY Alan Chhabra EVP",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Worldwide Partners",
+        "title": "Cerebras Systems Swati Gokhale Chief Partner Officer",
+        "company": "ZS Ulrich Seibold VP of Global Service Provide",
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Chief Partner Officer",
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Vu Managing Director",
+        "title": "Cloud Marketplace",
+        "company": "Google Erica Moore Head of Global Engagement &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Experience Marketing",
+        "title": "SAP Saqib Mustafa Head Of Partner Marketing",
+        "company": "Anthropic Joanna Raitano Vice President",
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Head Of Partner",
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Ecosystem Sales",
+        "title": "Americas",
+        "company": "IBM Dion Smith EVP Global Partner Ecosystem",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Incentives Strategy",
+        "title": "OpenAI Sumit Baluja SVP",
+        "company": "Partnerships",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Operations Strategy",
+        "title": "Oracle Ara Kharazian Lead Economist",
+        "company": "Ramp Maria Lechner Consulting Alliances Leader",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Chief Commercial Officer",
+        "title": "Eliza Chandos Quill SVP Channels & Alliances",
+        "company": "Epsilon Craig Patterson Global Channel Chief",
+        "persona": "t1_partner_leadership",
+        "matchedOn": "SVP Channels & Alliances",
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Raitano Vice President",
+        "title": "Ecosystem Sales",
+        "company": "Americas",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "National Systems Integrators",
+        "title": "Microsoft Maciek Szczesniak Global SMB and Channel Expert",
+        "company": "Outconomy Thomas Koletas Chief Revenue Officer",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Executive Vice President",
+        "title": "Global Head of Partnerships",
+        "company": "Bain & Company Uddhav Gupta Ex-President",
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Global Head of Partnerships",
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Adams Street",
+        "title": "Brooklyn, NY, 11201",
+        "company": "US We have a limited block of rooms for",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Power Circles",
+        "title": "Partnership Leaders Elevate Certifications, and real networking. August",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Managing Director",
+        "title": "North America Strategic Alliances, NTT DATA Jack Grey Executive",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Global Head",
+        "title": "Partner Ecosystems and Programs, BCG Kelly Stratman Global Leader, EY",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Vice President",
+        "title": "Ecosystem Sales, Americas, IBM Dion Smith EVP Global Partner Ecosystem",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Alliances Leader",
+        "title": "RSM US LLP Brian Benedict Co-Founder/Chief Commercial Officer, Eliza",
+        "company": null,
+        "persona": "t2_coo_founder",
+        "matchedOn": "Co-Founder",
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Global Channel Chief",
+        "title": "Exabeam Joanna Raitano Vice President, Ecosystem Sales, Americas, IBM",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Danelz General Manager",
+        "title": "Global Partner Solutions - National Systems Integrators, Microsoft",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Channel Expert",
+        "title": "Outconomy Thomas Koletas Chief Revenue Officer, Digitalzone Philippe",
+        "company": null,
+        "persona": "t2_cro_vp_sales",
+        "matchedOn": "Chief Revenue Officer",
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Jeff Johnston Head",
+        "title": "Global Fraud Partner Team at TransUnion",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Toni Andres Director",
+        "title": "Partnerships at Dynamic Yield by Mastercard",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Brooklyn Bridge",
+        "title": "New York City. Catalyst 26 is the full",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Steve Agnor",
+        "title": "Principal Analyst at Partnership Leaders. Offered separately at",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/"
+      },
+      {
+        "name": "Partner Fleet",
+        "title": "A better way to promote and scale your partner ecosystem.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Google Gemini Enterprise",
+        "title": "Vertex AI",
+        "company": "AWS Bedrock",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Ashleigh Vogstad",
+        "title": "a visionary leader in marketing and storytelling",
+        "company": "Transcends delivers breakthrough campaigns",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Google Cloud",
+        "title": "and Microsoft. Tackle works with more than 550 software companies",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "New Relic",
+        "title": "Snyk, and many more at every",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Partner Account Manager",
+        "title": "Euler eliminates manual busywork and surfaces actionable insights in",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "At Bridge Partners",
+        "title": "we are growth leaders for the world's largest and most innovative tech",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Microsoft Teams",
+        "title": "Slack and WhatsApp",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "At Wahoo Learning",
+        "title": "we help organisations unlock more revenue from their channel partners",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Unifyr One",
+        "title": "consolidates partner relationship management, through-channel marketing",
+        "company": null,
+        "persona": "t2_partner_marketing",
+        "matchedOn": "channel marketing",
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Services Suites",
+        "title": "we help organizations manage the programs, workflows, and experiences",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Channel Mechanics",
+        "title": "Channelscaler was formed after Allbound acquired Channel Mechanics in",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Lumen Technologies",
+        "title": "and thousands of other customers use PartnerTap to scale up",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Brooklyn Improv",
+        "title": "— 64 N 9th St, comedy sets at 7:30 PM and 9:00 PM",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/beyond-the-sessions"
+      },
+      {
+        "name": "Two Distinct Moods",
+        "title": "All-ages and easygoing until 9 PM, then the room shifts into full electronic energy.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/beyond-the-sessions"
+      },
+      {
+        "name": "Catalyst After Dark",
+        "title": "Wed Night Tuesday",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/beyond-the-sessions"
+      },
+      {
+        "name": "Kelly Sarabyn",
+        "title": "HubSpot More Info Tuesday",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/beyond-the-sessions"
+      },
+      {
+        "name": "Golf Brooklyn",
+        "title": "catch two stand-up sets at Brooklyn Improv, or do both, they're a short",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/beyond-the-sessions"
+      },
+      {
+        "name": "Full Catalyst Experience",
+        "title": "On and Off the Main Stage. Sessions are where you learn what's next.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/beyond-the-sessions"
+      }
+    ]
+  },
+  {
+    "id": "catalyst_nyc",
+    "root": "https://www.joincatalyst.com/catalyst-summit-nyc-2026",
+    "status": 200,
+    "pagesInspected": [
+      "https://www.joincatalyst.com/catalyst-summit-nyc-2026",
+      "https://www.joincatalyst.com/agenda-catalyst-26",
+      "https://www.joincatalyst.com/catalyst-26-speakers",
+      "https://www.joincatalyst.com/sponsors",
+      "https://www.joincatalyst.com/beyond-the-sessions",
+      "https://www.joincatalyst.com/summit-speaker-application",
+      "https://www.joincatalyst.com/sponsor-interest"
+    ],
+    "people": [
+      {
+        "name": "Asher Matthew",
+        "title": "Co-Founder &amp; CEO",
+        "company": null,
+        "persona": "t2_coo_founder",
+        "matchedOn": "Co-Founder",
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Asher Mathew",
+        "title": "Co-Founder &amp; CEO",
+        "company": null,
+        "persona": "t2_coo_founder",
+        "matchedOn": "Co-Founder",
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Chris Samila",
+        "title": "Co-Founder, Chief Partner Officer",
+        "company": null,
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Chief Partner Officer",
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Ryan Clare",
+        "title": "Global Head, Capital Markets Go-To-Market",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Sankalp Bajpai",
+        "title": "Senior Vice President North America Expansion",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "David Winter",
+        "title": "Chief Cloud &amp; Strategic Partnerships Officer",
+        "company": null,
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Chief Cloud &amp; Strategic Partnerships",
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Kelly Sarabyn",
+        "title": "Director, Technology Partner Programs",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Brian Power",
+        "title": "Global Vice President, Strategic Alliances",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Jessie Cooper",
+        "title": "Partnership Leader",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Bill Kenney",
+        "title": "Founder &amp; Client Advocate",
+        "company": null,
+        "persona": "t2_coo_founder",
+        "matchedOn": "Founder",
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Corinne Bartow",
+        "title": "Head of Channel Partnerships",
+        "company": null,
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Head of Channel",
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Jared Epstein",
+        "title": "Global Head of Channel Partnerships",
+        "company": null,
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Global Head of Channel",
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Vanessa Thomas",
+        "title": "Global Senior Director, Channel Strategy &amp; Partner Programs",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Tom Balanda",
+        "title": "Head of Brand &amp; Agency Partnerships",
+        "company": null,
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Head of Brand &amp; Agency Partnerships",
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Andrew Beckmann",
+        "title": "Travel &amp; Hospitality Industry GTM Lead",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Jonathan Bensimon",
+        "title": "Partnership Lead",
+        "company": null,
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Partnership Lead",
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Christi Williams",
+        "title": "Principal Marketing Manager, Partner GTM",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Aiasha Khalid",
+        "title": "Senior Partner Marketing Manager",
+        "company": null,
+        "persona": "anti_equity_partner",
+        "matchedOn": "Senior Partner",
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Travis Bradley",
+        "title": "Private Equity &amp; Venture Capital Alliances Lead",
+        "company": null,
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Alliances Lead",
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Ian Cugniere",
+        "title": "Partnerships Lead",
+        "company": null,
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Partnerships Lead",
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Andrew Trager",
+        "title": "Director, Business / Partner Development - Small Business Services",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Ruth Hubbard",
+        "title": "Director, Data Product Strategy &amp; Partnerships, Data Commerce Solutions&nbsp",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Firstname Lastname",
+        "title": "Title Lorem Ipsum Dolor",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Follow Us",
+        "title": "© 2026 Partnership Leaders All rights reserved.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Clare Global Head",
+        "title": "Capital Markets Go-To-Market ServiceNow Eric Schnorr Director",
+        "company": "Partner Global Industries and Solutions Servic",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Global Vice President",
+        "title": "Strategic Alliances Dataiku Emily McLellan VP",
+        "company": "Partner and Customer Experience Bongo Jessie C",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Ruth Hubbard Director",
+        "title": "Data Product Strategy & Partnerships",
+        "company": "Data Commerce Solutions Fiserv Interested in B",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "New York",
+        "title": "NY 10001 Share on LinkedIn Join partnership leaders from New York for a",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Kelly Sarabyn Director",
+        "title": "Technology Partner Programs Hubspot Barbara Badelt Ford SVP Commercial",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Global Senior Director",
+        "title": "Channel Strategy & Partner Programs 8x8 Tom Balanda Head of Brand &",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Principal Marketing Manager",
+        "title": "Partner GTM Hubspot Aiasha Khalid Senior Partner Marketing Manager Brex",
+        "company": null,
+        "persona": "anti_equity_partner",
+        "matchedOn": "Senior Partner",
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Andrew Trager Director",
+        "title": "Business / Partner Development - Small Business Services ADP Ruth",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Hubbard Director",
+        "title": "Data Product Strategy & Partnerships, Data Commerce Solutions Fiserv",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Business Transformation",
+        "title": "and it all begins with workflows. We are a single platform that brings",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Channel Sales Enablement",
+        "title": "and Partner Ecosystem Orchestration into a single, high-performance",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "North America",
+        "title": "Europe, and beyond. View Upcoming Events",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/catalyst-summit-nyc-2026"
+      },
+      {
+        "name": "Partner Fleet",
+        "title": "A better way to promote and scale your partner ecosystem.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Google Gemini Enterprise",
+        "title": "Vertex AI",
+        "company": "AWS Bedrock",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Ashleigh Vogstad",
+        "title": "a visionary leader in marketing and storytelling",
+        "company": "Transcends delivers breakthrough campaigns",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Google Cloud",
+        "title": "and Microsoft. Tackle works with more than 550 software companies",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "New Relic",
+        "title": "Snyk, and many more at every",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Partner Account Manager",
+        "title": "Euler eliminates manual busywork and surfaces actionable insights in",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "At Bridge Partners",
+        "title": "we are growth leaders for the world's largest and most innovative tech",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Microsoft Teams",
+        "title": "Slack and WhatsApp",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "At Wahoo Learning",
+        "title": "we help organisations unlock more revenue from their channel partners",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Unifyr One",
+        "title": "consolidates partner relationship management, through-channel marketing",
+        "company": null,
+        "persona": "t2_partner_marketing",
+        "matchedOn": "channel marketing",
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Services Suites",
+        "title": "we help organizations manage the programs, workflows, and experiences",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Channel Mechanics",
+        "title": "Channelscaler was formed after Allbound acquired Channel Mechanics in",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Lumen Technologies",
+        "title": "and thousands of other customers use PartnerTap to scale up",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Brooklyn Improv",
+        "title": "— 64 N 9th St, comedy sets at 7:30 PM and 9:00 PM",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/beyond-the-sessions"
+      },
+      {
+        "name": "Two Distinct Moods",
+        "title": "All-ages and easygoing until 9 PM, then the room shifts into full electronic energy.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/beyond-the-sessions"
+      },
+      {
+        "name": "Catalyst After Dark",
+        "title": "Wed Night Tuesday",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/beyond-the-sessions"
+      },
+      {
+        "name": "Golf Brooklyn",
+        "title": "catch two stand-up sets at Brooklyn Improv, or do both, they're a short",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/beyond-the-sessions"
+      },
+      {
+        "name": "Full Catalyst Experience",
+        "title": "On and Off the Main Stage. Sessions are where you learn what's next.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/beyond-the-sessions"
+      }
+    ]
+  },
+  {
+    "id": "catalyst_agenda",
+    "root": "https://www.joincatalyst.com/agenda-catalyst-26",
+    "status": 200,
+    "pagesInspected": [
+      "https://www.joincatalyst.com/agenda-catalyst-26",
+      "https://www.joincatalyst.com/agenda-catalyst-26",
+      "https://www.joincatalyst.com/catalyst-26-speakers",
+      "https://www.joincatalyst.com/sponsors",
+      "https://www.joincatalyst.com/beyond-the-sessions"
+    ],
+    "people": [
+      {
+        "name": "Follow Us",
+        "title": "© 2026 Partnership Leaders All rights reserved.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/agenda-catalyst-26"
+      },
+      {
+        "name": "Partner Fleet",
+        "title": "A better way to promote and scale your partner ecosystem.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Google Gemini Enterprise",
+        "title": "Vertex AI",
+        "company": "AWS Bedrock",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Ashleigh Vogstad",
+        "title": "a visionary leader in marketing and storytelling",
+        "company": "Transcends delivers breakthrough campaigns",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Google Cloud",
+        "title": "and Microsoft. Tackle works with more than 550 software companies",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "New Relic",
+        "title": "Snyk, and many more at every",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Partner Account Manager",
+        "title": "Euler eliminates manual busywork and surfaces actionable insights in",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "At Bridge Partners",
+        "title": "we are growth leaders for the world's largest and most innovative tech",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Microsoft Teams",
+        "title": "Slack and WhatsApp",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "At Wahoo Learning",
+        "title": "we help organisations unlock more revenue from their channel partners",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Unifyr One",
+        "title": "consolidates partner relationship management, through-channel marketing",
+        "company": null,
+        "persona": "t2_partner_marketing",
+        "matchedOn": "channel marketing",
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Services Suites",
+        "title": "we help organizations manage the programs, workflows, and experiences",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Channel Mechanics",
+        "title": "Channelscaler was formed after Allbound acquired Channel Mechanics in",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Lumen Technologies",
+        "title": "and thousands of other customers use PartnerTap to scale up",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/sponsors"
+      },
+      {
+        "name": "Brooklyn Improv",
+        "title": "— 64 N 9th St, comedy sets at 7:30 PM and 9:00 PM",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/beyond-the-sessions"
+      },
+      {
+        "name": "Two Distinct Moods",
+        "title": "All-ages and easygoing until 9 PM, then the room shifts into full electronic energy.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://www.joincatalyst.com/beyond-the-sessions"
+      },
+      {
+        "name": "Catalyst After Dark",
+        "title": "Wed Night Tuesday",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/beyond-the-sessions"
+      },
+      {
+        "name": "Kelly Sarabyn",
+        "title": "HubSpot More Info Tuesday",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/beyond-the-sessions"
+      },
+      {
+        "name": "Golf Brooklyn",
+        "title": "catch two stand-up sets at Brooklyn Improv, or do both, they're a short",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/beyond-the-sessions"
+      },
+      {
+        "name": "Full Catalyst Experience",
+        "title": "On and Off the Main Stage. Sessions are where you learn what's next.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://www.joincatalyst.com/beyond-the-sessions"
+      }
+    ]
+  },
+  {
+    "id": "partnertechx_speakers",
+    "root": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/",
+    "status": 200,
+    "pagesInspected": [
+      "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/",
+      "https://channelfocuscommunity.net/2026-channel-focus-agenda/",
+      "https://channelfocuscommunity.net/2026-speakers-and-experts/",
+      "https://channelfocuscommunity.net/sponsors-2026/",
+      "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/",
+      "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/",
+      "https://channelfocuscommunity.net/partnertechx-2026/2026-ptx-sponsors/",
+      "https://channelfocuscommunity.net/channel-focus-2025/agenda/",
+      "https://channelfocuscommunity.net/channel-focus-2025/speakers/"
+    ],
+    "people": [
+      {
+        "name": "Accessibility Policy",
+        "title": "Channel Focus Group is committed to keeping our site accessible to everyone. We",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Saranath Global Director",
+        "title": "Partner Programs Strategy & Incentives Stacey Whitley Director",
+        "company": "Strategic Membership Meg Brennan VP of Global",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Partner Sales",
+        "title": "Alliances & Hyperscalers Cara Parfitt Vice President",
+        "company": "Technology Alliances Vaughn Mordecai CEO & Fou",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Global Senior Director",
+        "title": "Channel Ecosystem & Partner Led Growth Veer Makwana Director",
+        "company": "Strategy & Operations Maggie Bauer Senior Dire",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Jennifer Annett Director",
+        "title": "Global Partner Engagement Ann Erickson Director",
+        "company": "Global Partner Programs & Operations Cassie Fu",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Chris Engler Director",
+        "title": "WW Partner Sales Programs Scott Willock Global Senior Director",
+        "company": "Distribution & Cloud Transformation Shawn Pear",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Ashley Eikenberry Director",
+        "title": "Global Alliances and Channel Marketing Maisa Fernandez Director",
+        "company": "Global Partner Marketing Mike Blumenstein Sr.",
+        "persona": "t2_partner_marketing",
+        "matchedOn": "Channel Marketing",
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Adler Managing Director",
+        "title": "Partner Ecosystem Market Francesca Salamone Director",
+        "company": "Global Channel Operations Ole Dame Sr. Manager",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Global Partner Strategy",
+        "title": "Programs & Experience Brad Pace COO Chris Millerick Global Vice",
+        "company": null,
+        "persona": "t2_coo_founder",
+        "matchedOn": "COO",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Manager Parts Management",
+        "title": "ASBD Carlos McKinley Chief ISV Technology Strategist",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Bauer Senior Director",
+        "title": "Global Partner Operations and Programs Frank Hanzlik VP & GM, Global",
+        "company": null,
+        "persona": "t1_partner_revops",
+        "matchedOn": "Partner Operations",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Tiffany Harris Head",
+        "title": "Global Partner Operations Jenn Reed Consultant David Meister Global",
+        "company": null,
+        "persona": "t1_partner_revops",
+        "matchedOn": "Partner Operations",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Colleen Farris Director",
+        "title": "Partner Operations Nikki Johnston VP of Enterprise Sales Jennifer",
+        "company": null,
+        "persona": "t1_partner_revops",
+        "matchedOn": "Partner Operations",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Annett Director",
+        "title": "Global Partner Engagement Ann Erickson Director, Global Partner",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Lahiri Global Director",
+        "title": "Partner Incentives & Investments Coletta Vigh Director of One-Hitachi",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Marsee General Manager",
+        "title": "Intel Partner Alliance Hannibal Scipio Ecosystem Strategist and",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Elizondo Senior Director",
+        "title": "Global GTM Partner Operations James Gregory Director, Global Partner",
+        "company": null,
+        "persona": "t1_partner_revops",
+        "matchedOn": "Partner Operations",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Tulchinsky Global Leader",
+        "title": "Partner Programs & Enablement Raegan Wilson VP of Ecosystems Steven",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "April Cohen Director",
+        "title": "Partner Programs and Strategy Vanessa Thomas Senior Director Global",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Amplify Commercial Lead",
+        "title": "HP and Heather K. Margolis",
+        "company": "CEO & Founder",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Channel Maven",
+        "title": "Theresa Caragol",
+        "company": "CEO & Founder",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Anderson Vice President",
+        "title": "NA Partner Ecosystem & Channels Andrew Kisslo Senior Vice President",
+        "company": "Partner Programs & Strategy 9",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Global Vice President",
+        "title": "WW Partner Sales",
+        "company": "Alliances & Hyperscalers Session 02 The Keys t",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Group Vice President",
+        "title": "Americas Global Partnerships & Channels Tricia Atchison VP",
+        "company": "Global Partner & Americas Marketing Nikki John",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "New Roles",
+        "title": "New Margins",
+        "company": "New Models Panel",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "North America Partner",
+        "title": "GSI and Alliance Sales Moderator Meaghan Moore Group Vice President",
+        "company": "Global Partner Marketing Session 09 Are",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Evening Panel Stop",
+        "title": "Start",
+        "company": "Continue",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Worldwide Partner Strategy",
+        "title": "Programs & Experience Jamie Mendez Vice President",
+        "company": "Ecosystem Transformation & Programs Nancy Sper",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Heather Sindelar Supervisor",
+        "title": "Solution Development Services Lisa Citron SVP",
+        "company": "Global Partner Ecosystem Moderator Session 15",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "New Skills",
+        "title": "New Roles",
+        "company": "New Goals",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "April Vice President",
+        "title": "Research and Market Intelligence Josh Medeiros VP",
+        "company": "Customer Solutions & Sales Acceleration Divya",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Women’s Leadership Council",
+        "title": "Opening Remarks Meg Brennan -Global Partneer Strategy and Amplify",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Commercial Lead",
+        "title": "HP and Heather K. Margolis",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Be Noticed",
+        "title": "add confidence gap 3. Conversations you Should Never Avoid",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Speed Mentoring",
+        "title": "Get personal advice from some of the most powerful Women Channel",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Closing Remarks",
+        "title": "Meg Brennan -Global Partneer Strategy and Amplify Commercial Lead",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Strategic Partnerships",
+        "title": "Professional Services & Business Development Harbinder Khera CEO and",
+        "company": null,
+        "persona": "t3_growth_bd",
+        "matchedOn": "Business Development",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Your Partner Roles",
+        "title": "Coverage Models and Partner Economics Panel/Speakers Chris Millerick",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Vice President Sales",
+        "title": "Global Channel and Alliances",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Stop Automating",
+        "title": "Start",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Mazza Vice President",
+        "title": "Indirect Sales",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Nominate Someone Thursday",
+        "title": "October 22nd",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Sperry Vice President",
+        "title": "US Partner Sales Harbinder Khera CEO and Founder Moderator Gretchen",
+        "company": null,
+        "persona": "t2_coo_founder",
+        "matchedOn": "Founder",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Allen Vice President",
+        "title": "Geo Sales Leader Moderator Rachel Tuller Vice President Global Partner",
+        "company": null,
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Vice President Global Partner",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Rajagopalan Vice President",
+        "title": "Partner Strategic Operations Shiraz Hasan Head of Channel Sales Session",
+        "company": null,
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Head of Channel",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Suzanne Ronca Director",
+        "title": "MSSP",
+        "company": "GSI and Telco Partners Scott Willock Global Sr",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-speakers-and-experts/"
+      },
+      {
+        "name": "Kolsen Diehl Director",
+        "title": "Global Partner Enablement",
+        "company": "Operations & Programs Troy Macias Vice Preside",
+        "persona": "t3_partner_ic",
+        "matchedOn": "Partner Enablement",
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-speakers-and-experts/"
+      },
+      {
+        "name": "Vice President",
+        "title": "WW Partner Sales",
+        "company": "Alliances & Hyperscalers Katie Rowen Channel S",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-speakers-and-experts/"
+      },
+      {
+        "name": "Mendez Vice President",
+        "title": "Ecosystem Transformation & Programs Nancy Sperry Vice President",
+        "company": "US Partner Sales Gretchen O&",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-speakers-and-experts/"
+      },
+      {
+        "name": "Senior Vice President",
+        "title": "Partner Programs & Strategy Jennifer Odess Group Vice President",
+        "company": "Americas Global Partnerships & Channels Meagha",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-speakers-and-experts/"
+      },
+      {
+        "name": "Ganapathy Global Head",
+        "title": "Partner Program Strategy & Mgmt Janice Savage Senior Channel Sales",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-speakers-and-experts/"
+      },
+      {
+        "name": "Francesca Salamone Director",
+        "title": "Channel Growth & Partner Strategy Shannon Batson Global Director Cloud",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-speakers-and-experts/"
+      },
+      {
+        "name": "Westin Carlsbad Resort",
+        "title": "Carlsbad",
+        "company": "CA About The Event &gt",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/sponsors-2026/"
+      },
+      {
+        "name": "Sofia Tulchinsky",
+        "title": "Snowflake",
+        "company": "Divya Rajagopalan",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Vanessa Thomas",
+        "title": "Jim Gregory",
+        "company": "Siemens",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Gary Hill",
+        "title": "Nokia",
+        "company": "David Meister &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Christine Gassman",
+        "title": "OpenText",
+        "company": "Ashley Eikenberry",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Arctic Wolf",
+        "title": "Mike Blumentstein",
+        "company": "Smartsheet",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Brad Pace",
+        "title": "Impartner",
+        "company": "Veer Makwana &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Check Point",
+        "title": "Arjun Lahiri",
+        "company": "Google",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Maisa Fernandez",
+        "title": "ServiceNow",
+        "company": "Janice Savage &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Vaughn Mordecai",
+        "title": "Mindmatrix",
+        "company": "Jenn Reed &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Colleen Farris",
+        "title": "Cribl",
+        "company": "Tiffany Harris",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Balaji Subramanian",
+        "title": "Channelscaler",
+        "company": "Cassie Fuhr &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Coletta Vigh",
+        "title": "Hitachi",
+        "company": "Nikki Johnston &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Michelle Morgan",
+        "title": "Allan Adler",
+        "company": "Ryan Meye Everything",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Cassie Jeppson",
+        "title": "Lenovo",
+        "company": "Stefanie Rice &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Ann Erickson",
+        "title": "ENTRUST",
+        "company": "John Osley",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Kiley Callister",
+        "title": "ServiceNow",
+        "company": "Jason Elizondo &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Gavin Quinlan",
+        "title": "Ansys",
+        "company": "Chris Engler",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Jennifer Annett",
+        "title": "ENTRUST",
+        "company": "Balaji Subramanian &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Harbinder Khera",
+        "title": "Mindmatrix",
+        "company": "Veer Makwana &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Shawn Pearson",
+        "title": "Infoblox",
+        "company": "Brad Pace &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Irais Faura",
+        "title": "Ansira",
+        "company": "Steven Kellam",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Judy Loehr",
+        "title": "PartnerTap",
+        "company": "Bryan Dunn &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Raegan Wilson",
+        "title": "Reply",
+        "company": "Francesca Salamone",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Stacey Whitley Director",
+        "title": "Strategic Membership Cara Parfitt Vice President",
+        "company": "Technology Alliances Dan Shapero President & C",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Salesforce Joshua Keating",
+        "title": "Kevin McCoy",
+        "company": "Chris Lim Salesforce Partner Cloud",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Steven Kellam",
+        "title": "Structured",
+        "company": "Kevin McCoy &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Tony Surma",
+        "title": "Microsoft 2.Partner Onboarding Programs Panelists",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Pablo Onnias",
+        "title": "Akamai 5.The Partner Portal Evolution",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Chris Millerick",
+        "title": "Infoblox 8.TCMA",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Hannibal Scipio",
+        "title": "Intuit",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Ashley Eikenberry",
+        "title": "ServiceNow",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Jason Elizondo",
+        "title": "SentinelOne",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Sponsor Grow Faster",
+        "title": "Together. Each day millions of partners from multiple industries across",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/2026-ptx-sponsors/"
+      },
+      {
+        "name": "Partner Marketing",
+        "title": "Marketplaces and Sales Enablement together in one system, with AI",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/2026-ptx-sponsors/"
+      },
+      {
+        "name": "At Crossbeam",
+        "title": "we help businesses grow through their partner ecosystems. As the first",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/2026-ptx-sponsors/"
+      },
+      {
+        "name": "Buck Ryan",
+        "title": "Crossbeam merged with Reveal in June 2024, creating a unified data",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/2026-ptx-sponsors/"
+      },
+      {
+        "name": "At Spur Reply",
+        "title": "we implement, optimize, and maintain ecosystem platforms that do more",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/2026-ptx-sponsors/"
+      },
+      {
+        "name": "Google Cloud",
+        "title": "automating everything from product listing and private offers to usage",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/2026-ptx-sponsors/"
+      },
+      {
+        "name": "Sponsor Engaging People",
+        "title": "Elevating Performance People drive business, and Maritz knows what",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/2026-ptx-sponsors/"
+      },
+      {
+        "name": "Ellen Linkenhoker",
+        "title": "&#8211; ITA Group",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Mark Tina",
+        "title": "&#8211; Verizon",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Derek Nowak",
+        "title": "&#8211; Docusign",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Kevin Rooney",
+        "title": "&#8211; Veeam Software",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Kenneth Fox",
+        "title": "&#8211; Channelscaler",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Marc Monday",
+        "title": "&#8211; Servicenow",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Larissa Crandall",
+        "title": "&#8211; New Relic",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Phil Barry",
+        "title": "&#8211; 360insights",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Ellen Linkenholker",
+        "title": "&#8211; ITA Group",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Dave Allen",
+        "title": "&#8211",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Dani Pickens",
+        "title": "&#8211; Xcitium",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Kathy Mazza",
+        "title": "&#8211; Ooma",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Chris Jones",
+        "title": "&#8211; GTT",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Nikki Johnston",
+        "title": "&#8211; Crossbeam",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Margaret Adam",
+        "title": "&#8211; Channelscaler",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Andrew Marsee",
+        "title": "&#8211; Intel",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Mark Bateman",
+        "title": "&#8211; Spirent",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Welcome Event Wednesday",
+        "title": "October 8th",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Focus Awards Thursday",
+        "title": "October 9th",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Corporate Vice President",
+        "title": "Microsoft",
+        "company": "Americas",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/speakers/"
+      },
+      {
+        "name": "Market Executive",
+        "title": "Cloud",
+        "company": "SaaS",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/speakers/"
+      },
+      {
+        "name": "Gregor Falko Head",
+        "title": "Global Partner Marketing & Partner Program Office Connect With Laura on",
+        "company": null,
+        "persona": "t2_partner_marketing",
+        "matchedOn": "Partner Marketing",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/speakers/"
+      },
+      {
+        "name": "Jason Beal Presidnet",
+        "title": "NA Connect With Jason on",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/speakers/"
+      },
+      {
+        "name": "President Partner Channel",
+        "title": "Americas Connect With Chris on",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/speakers/"
+      },
+      {
+        "name": "Rooney Vice President",
+        "title": "Americas Channel Sales Connect With Kevin on",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/speakers/"
+      }
+    ]
+  },
+  {
+    "id": "channelfocus",
+    "root": "https://channelfocuscommunity.net/",
+    "status": 200,
+    "pagesInspected": [
+      "https://channelfocuscommunity.net/",
+      "https://channelfocuscommunity.net/2026-channel-focus-agenda/",
+      "https://channelfocuscommunity.net/2026-speakers-and-experts/",
+      "https://channelfocuscommunity.net/sponsors-2026/",
+      "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/",
+      "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/",
+      "https://channelfocuscommunity.net/partnertechx-2026/2026-ptx-sponsors/",
+      "https://channelfocuscommunity.net/channel-focus-2025/agenda/",
+      "https://channelfocuscommunity.net/channel-focus-2025/speakers/"
+    ],
+    "people": [
+      {
+        "name": "Accessibility Policy",
+        "title": "Channel Focus Group is committed to keeping our site accessible to everyone. We",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/"
+      },
+      {
+        "name": "Channel Strategy",
+        "title": "sales, marketing and programs. Click below to see our latest events",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/"
+      },
+      {
+        "name": "Amplify Commercial Lead",
+        "title": "HP and Heather K. Margolis",
+        "company": "CEO & Founder",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Channel Maven",
+        "title": "Theresa Caragol",
+        "company": "CEO & Founder",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Anderson Vice President",
+        "title": "NA Partner Ecosystem & Channels Andrew Kisslo Senior Vice President",
+        "company": "Partner Programs & Strategy 9",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Global Vice President",
+        "title": "WW Partner Sales",
+        "company": "Alliances & Hyperscalers Session 02 The Keys t",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Group Vice President",
+        "title": "Americas Global Partnerships & Channels Tricia Atchison VP",
+        "company": "Global Partner & Americas Marketing Nikki John",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "New Roles",
+        "title": "New Margins",
+        "company": "New Models Panel",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "North America Partner",
+        "title": "GSI and Alliance Sales Moderator Meaghan Moore Group Vice President",
+        "company": "Global Partner Marketing Session 09 Are",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Evening Panel Stop",
+        "title": "Start",
+        "company": "Continue",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Worldwide Partner Strategy",
+        "title": "Programs & Experience Jamie Mendez Vice President",
+        "company": "Ecosystem Transformation & Programs Nancy Sper",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Heather Sindelar Supervisor",
+        "title": "Solution Development Services Lisa Citron SVP",
+        "company": "Global Partner Ecosystem Moderator Session 15",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "New Skills",
+        "title": "New Roles",
+        "company": "New Goals",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "April Vice President",
+        "title": "Research and Market Intelligence Josh Medeiros VP",
+        "company": "Customer Solutions & Sales Acceleration Divya",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Women’s Leadership Council",
+        "title": "Opening Remarks Meg Brennan -Global Partneer Strategy and Amplify",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Commercial Lead",
+        "title": "HP and Heather K. Margolis",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Be Noticed",
+        "title": "add confidence gap 3. Conversations you Should Never Avoid",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Speed Mentoring",
+        "title": "Get personal advice from some of the most powerful Women Channel",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Closing Remarks",
+        "title": "Meg Brennan -Global Partneer Strategy and Amplify Commercial Lead",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Strategic Partnerships",
+        "title": "Professional Services & Business Development Harbinder Khera CEO and",
+        "company": null,
+        "persona": "t3_growth_bd",
+        "matchedOn": "Business Development",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Your Partner Roles",
+        "title": "Coverage Models and Partner Economics Panel/Speakers Chris Millerick",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Vice President Sales",
+        "title": "Global Channel and Alliances",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Stop Automating",
+        "title": "Start",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Mazza Vice President",
+        "title": "Indirect Sales",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Nominate Someone Thursday",
+        "title": "October 22nd",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Sperry Vice President",
+        "title": "US Partner Sales Harbinder Khera CEO and Founder Moderator Gretchen",
+        "company": null,
+        "persona": "t2_coo_founder",
+        "matchedOn": "Founder",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Allen Vice President",
+        "title": "Geo Sales Leader Moderator Rachel Tuller Vice President Global Partner",
+        "company": null,
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Vice President Global Partner",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Rajagopalan Vice President",
+        "title": "Partner Strategic Operations Shiraz Hasan Head of Channel Sales Session",
+        "company": null,
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Head of Channel",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-channel-focus-agenda/"
+      },
+      {
+        "name": "Suzanne Ronca Director",
+        "title": "MSSP",
+        "company": "GSI and Telco Partners Scott Willock Global Sr",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-speakers-and-experts/"
+      },
+      {
+        "name": "Kolsen Diehl Director",
+        "title": "Global Partner Enablement",
+        "company": "Operations & Programs Troy Macias Vice Preside",
+        "persona": "t3_partner_ic",
+        "matchedOn": "Partner Enablement",
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-speakers-and-experts/"
+      },
+      {
+        "name": "April Cohen Director",
+        "title": "Partner Programs and Operations Amy Slater VP",
+        "company": "North America Partner",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-speakers-and-experts/"
+      },
+      {
+        "name": "Vice President",
+        "title": "WW Partner Sales",
+        "company": "Alliances & Hyperscalers Katie Rowen Channel S",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-speakers-and-experts/"
+      },
+      {
+        "name": "Mendez Vice President",
+        "title": "Ecosystem Transformation & Programs Nancy Sperry Vice President",
+        "company": "US Partner Sales Gretchen O&",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-speakers-and-experts/"
+      },
+      {
+        "name": "Senior Vice President",
+        "title": "Partner Programs & Strategy Jennifer Odess Group Vice President",
+        "company": "Americas Global Partnerships & Channels Meagha",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-speakers-and-experts/"
+      },
+      {
+        "name": "Ganapathy Global Head",
+        "title": "Partner Program Strategy & Mgmt Janice Savage Senior Channel Sales",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-speakers-and-experts/"
+      },
+      {
+        "name": "Chris Engler Director",
+        "title": "WW Partner Sales Programs Shawn Pearson Director Global Hyperscaler",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-speakers-and-experts/"
+      },
+      {
+        "name": "Francesca Salamone Director",
+        "title": "Channel Growth & Partner Strategy Shannon Batson Global Director Cloud",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-speakers-and-experts/"
+      },
+      {
+        "name": "Global Senior Director",
+        "title": "Partner Engagement Experience Kate Caday Managing Director Kristen Cole",
+        "company": null,
+        "persona": "t2_coo_founder",
+        "matchedOn": "Managing Director",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/2026-speakers-and-experts/"
+      },
+      {
+        "name": "Westin Carlsbad Resort",
+        "title": "Carlsbad",
+        "company": "CA About The Event &gt",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/sponsors-2026/"
+      },
+      {
+        "name": "Manager Parts Management",
+        "title": "ASBD Tony Surma CTO",
+        "company": "Americas Enterprise Partner Solutions Marc Mon",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Sofia Tulchinsky",
+        "title": "Snowflake",
+        "company": "Divya Rajagopalan",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Vanessa Thomas",
+        "title": "Jim Gregory",
+        "company": "Siemens",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Gary Hill",
+        "title": "Nokia",
+        "company": "David Meister &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Christine Gassman",
+        "title": "OpenText",
+        "company": "Ashley Eikenberry",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Arctic Wolf",
+        "title": "Mike Blumentstein",
+        "company": "Smartsheet",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Brad Pace",
+        "title": "Impartner",
+        "company": "Veer Makwana &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Check Point",
+        "title": "Arjun Lahiri",
+        "company": "Google",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Maisa Fernandez",
+        "title": "ServiceNow",
+        "company": "Janice Savage &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Vaughn Mordecai",
+        "title": "Mindmatrix",
+        "company": "Jenn Reed &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Colleen Farris",
+        "title": "Cribl",
+        "company": "Tiffany Harris",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Balaji Subramanian",
+        "title": "Channelscaler",
+        "company": "Cassie Fuhr &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Coletta Vigh",
+        "title": "Hitachi",
+        "company": "Nikki Johnston &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Michelle Morgan",
+        "title": "Allan Adler",
+        "company": "Ryan Meye Everything",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Cassie Jeppson",
+        "title": "Lenovo",
+        "company": "Stefanie Rice &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Ann Erickson",
+        "title": "ENTRUST",
+        "company": "John Osley",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Kiley Callister",
+        "title": "ServiceNow",
+        "company": "Jason Elizondo &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Gavin Quinlan",
+        "title": "Ansys",
+        "company": "Chris Engler",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Jennifer Annett",
+        "title": "ENTRUST",
+        "company": "Balaji Subramanian &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Harbinder Khera",
+        "title": "Mindmatrix",
+        "company": "Veer Makwana &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Shawn Pearson",
+        "title": "Infoblox",
+        "company": "Brad Pace &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Irais Faura",
+        "title": "Ansira",
+        "company": "Steven Kellam",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Judy Loehr",
+        "title": "PartnerTap",
+        "company": "Bryan Dunn &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Raegan Wilson",
+        "title": "Reply",
+        "company": "Francesca Salamone",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Stacey Whitley Director",
+        "title": "Strategic Membership Cara Parfitt Vice President",
+        "company": "Technology Alliances Dan Shapero President & C",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Salesforce Joshua Keating",
+        "title": "Kevin McCoy",
+        "company": "Chris Lim Salesforce Partner Cloud",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Steven Kellam",
+        "title": "Structured",
+        "company": "Kevin McCoy &",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Global Partner Strategy",
+        "title": "Programs & Experience Divya Rajagopalan Vice President Global Partner",
+        "company": null,
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Vice President Global Partner",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Saranath Global Director",
+        "title": "Partner Programs Strategy & Incentives",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Tony Surma",
+        "title": "Microsoft 2.Partner Onboarding Programs Panelists",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Pablo Onnias",
+        "title": "Akamai 5.The Partner Portal Evolution",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Chris Millerick",
+        "title": "Infoblox 8.TCMA",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Hannibal Scipio",
+        "title": "Intuit",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Ashley Eikenberry",
+        "title": "ServiceNow",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Partner Sales",
+        "title": "Alliances & Hyperscalers",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Jason Elizondo",
+        "title": "SentinelOne",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-agenda/"
+      },
+      {
+        "name": "Jennifer Annett Director",
+        "title": "Global Partner Engagement Ann Erickson Director",
+        "company": "Global Partner Programs & Operations Cassie Fu",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Ashley Eikenberry Director",
+        "title": "Global Alliances and Channel Marketing Maisa Fernandez Director",
+        "company": "Global Partner Marketing Mike Blumenstein Sr.",
+        "persona": "t2_partner_marketing",
+        "matchedOn": "Channel Marketing",
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Adler Managing Director",
+        "title": "Partner Ecosystem Market Francesca Salamone Director",
+        "company": "Global Channel Operations Ole Dame Sr. Manager",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Bauer Senior Director",
+        "title": "Global Partner Operations and Programs Frank Hanzlik VP & GM, Global",
+        "company": null,
+        "persona": "t1_partner_revops",
+        "matchedOn": "Partner Operations",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Tiffany Harris Head",
+        "title": "Global Partner Operations Jenn Reed Consultant David Meister Global",
+        "company": null,
+        "persona": "t1_partner_revops",
+        "matchedOn": "Partner Operations",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Colleen Farris Director",
+        "title": "Partner Operations Nikki Johnston VP of Enterprise Sales Jennifer",
+        "company": null,
+        "persona": "t1_partner_revops",
+        "matchedOn": "Partner Operations",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Annett Director",
+        "title": "Global Partner Engagement Ann Erickson Director, Global Partner",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Lahiri Global Director",
+        "title": "Partner Incentives & Investments Coletta Vigh Director of One-Hitachi",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Marsee General Manager",
+        "title": "Intel Partner Alliance Hannibal Scipio Ecosystem Strategist and",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Elizondo Senior Director",
+        "title": "Global GTM Partner Operations James Gregory Director, Global Partner",
+        "company": null,
+        "persona": "t1_partner_revops",
+        "matchedOn": "Partner Operations",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Tulchinsky Global Leader",
+        "title": "Partner Programs & Enablement Raegan Wilson VP of Ecosystems Steven",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/partnertechx-2026-speakers-and-experts/"
+      },
+      {
+        "name": "Sponsor Grow Faster",
+        "title": "Together. Each day millions of partners from multiple industries across",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/2026-ptx-sponsors/"
+      },
+      {
+        "name": "Partner Marketing",
+        "title": "Marketplaces and Sales Enablement together in one system, with AI",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/2026-ptx-sponsors/"
+      },
+      {
+        "name": "At Crossbeam",
+        "title": "we help businesses grow through their partner ecosystems. As the first",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/2026-ptx-sponsors/"
+      },
+      {
+        "name": "Buck Ryan",
+        "title": "Crossbeam merged with Reveal in June 2024, creating a unified data",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/2026-ptx-sponsors/"
+      },
+      {
+        "name": "At Spur Reply",
+        "title": "we implement, optimize, and maintain ecosystem platforms that do more",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/2026-ptx-sponsors/"
+      },
+      {
+        "name": "Google Cloud",
+        "title": "automating everything from product listing and private offers to usage",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/2026-ptx-sponsors/"
+      },
+      {
+        "name": "Sponsor Engaging People",
+        "title": "Elevating Performance People drive business, and Maritz knows what",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/partnertechx-2026/2026-ptx-sponsors/"
+      },
+      {
+        "name": "Ellen Linkenhoker",
+        "title": "&#8211; ITA Group",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Mark Tina",
+        "title": "&#8211; Verizon",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Derek Nowak",
+        "title": "&#8211; Docusign",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Kevin Rooney",
+        "title": "&#8211; Veeam Software",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Kenneth Fox",
+        "title": "&#8211; Channelscaler",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Marc Monday",
+        "title": "&#8211; Servicenow",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Larissa Crandall",
+        "title": "&#8211; New Relic",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Phil Barry",
+        "title": "&#8211; 360insights",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Ellen Linkenholker",
+        "title": "&#8211; ITA Group",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Dave Allen",
+        "title": "&#8211",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Dani Pickens",
+        "title": "&#8211; Xcitium",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Kathy Mazza",
+        "title": "&#8211; Ooma",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Chris Jones",
+        "title": "&#8211; GTT",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Nikki Johnston",
+        "title": "&#8211; Crossbeam",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Margaret Adam",
+        "title": "&#8211; Channelscaler",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Andrew Marsee",
+        "title": "&#8211; Intel",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Mark Bateman",
+        "title": "&#8211; Spirent",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Welcome Event Wednesday",
+        "title": "October 8th",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Focus Awards Thursday",
+        "title": "October 9th",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/agenda/"
+      },
+      {
+        "name": "Corporate Vice President",
+        "title": "Microsoft",
+        "company": "Americas",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/speakers/"
+      },
+      {
+        "name": "Market Executive",
+        "title": "Cloud",
+        "company": "SaaS",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/speakers/"
+      },
+      {
+        "name": "Gregor Falko Head",
+        "title": "Global Partner Marketing & Partner Program Office Connect With Laura on",
+        "company": null,
+        "persona": "t2_partner_marketing",
+        "matchedOn": "Partner Marketing",
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/speakers/"
+      },
+      {
+        "name": "Jason Beal Presidnet",
+        "title": "NA Connect With Jason on",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/speakers/"
+      },
+      {
+        "name": "President Partner Channel",
+        "title": "Americas Connect With Chris on",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/speakers/"
+      },
+      {
+        "name": "Rooney Vice President",
+        "title": "Americas Channel Sales Connect With Kevin on",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelfocuscommunity.net/channel-focus-2025/speakers/"
+      }
+    ]
+  },
+  {
+    "id": "partnershipleaders",
+    "root": "https://partnershipleaders.com/",
+    "status": 200,
+    "pagesInspected": [
+      "https://partnershipleaders.com/"
+    ],
+    "people": [
+      {
+        "name": "Christina Walker",
+        "title": "Director, Enterprise Channel and Alliances",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://partnershipleaders.com/"
+      },
+      {
+        "name": "Deven Ravel",
+        "title": "Partner Acceleration Leader - Financial Services, ServiceNow",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://partnershipleaders.com/"
+      },
+      {
+        "name": "Casey Clarke",
+        "title": "Director of Partnerships, MobileMind",
+        "company": null,
+        "persona": "t1_partner_leadership",
+        "matchedOn": "Director of Partnerships",
+        "method": "heading_sibling",
+        "sourceUrl": "https://partnershipleaders.com/"
+      },
+      {
+        "name": "Daniel Lancioni Director",
+        "title": "EMEA & APAC Partnerships",
+        "company": "Deel I&",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://partnershipleaders.com/"
+      },
+      {
+        "name": "Senior Partnerships Manager",
+        "title": "Employment Hero The PL community has been an extremely valuable to me",
+        "company": "I can access immediate advice and idea generat",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://partnershipleaders.com/"
+      },
+      {
+        "name": "Christina Walker Director",
+        "title": "Enterprise Channel and Alliances Christina Walker Director",
+        "company": "Enterprise Channel and Alliances Partnership L",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://partnershipleaders.com/"
+      },
+      {
+        "name": "Financial Services",
+        "title": "ServiceNow Deven Ravel Partner Acceleration Leader - Financial Services",
+        "company": "ServiceNow This is by far the most valuable pr",
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_triple",
+        "sourceUrl": "https://partnershipleaders.com/"
+      },
+      {
+        "name": "Strategic Partnership Network",
+        "title": "insights, and education",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://partnershipleaders.com/"
+      },
+      {
+        "name": "Apply Now Interact",
+        "title": "learn from and work",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://partnershipleaders.com/"
+      },
+      {
+        "name": "Spallino Strategic Partnerships",
+        "title": "Box Partnership Leaders has been a fantastic resource for me. The",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://partnershipleaders.com/"
+      },
+      {
+        "name": "Strauss Product Partnerships",
+        "title": "Coda",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://partnershipleaders.com/"
+      },
+      {
+        "name": "Bonavota Technology Partnerships",
+        "title": "G2 The source of truth in partnerships Executives We guide visionaries",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://partnershipleaders.com/"
+      },
+      {
+        "name": "Global Partner Programs",
+        "title": "Oyster Like most roles in partnerships, the role PL plays in my life",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://partnershipleaders.com/"
+      },
+      {
+        "name": "Strategic Partnerships",
+        "title": "Clutch My experience with Partnership Leaders has been transformative.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://partnershipleaders.com/"
+      },
+      {
+        "name": "Partnership Leaders",
+        "title": "quickly evolved into an active, growing partnership Lachlan Baxter",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://partnershipleaders.com/"
+      }
+    ]
+  },
+  {
+    "id": "channelpartners_conf",
+    "root": "https://www.channelpartnersconference.com/",
+    "status": 200,
+    "pagesInspected": [
+      "https://channelpartnersconference.com/",
+      "https://channelpartnersconference.com/official-tech-sponsors/"
+    ],
+    "people": [
+      {
+        "name": "Kam Kaila",
+        "title": "President",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelpartnersconference.com/"
+      },
+      {
+        "name": "Bana Qashu",
+        "title": "EVP, Strategic Partnerships",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelpartnersconference.com/"
+      },
+      {
+        "name": "Shawnee Delaney",
+        "title": "Founder &amp; CEO",
+        "company": null,
+        "persona": "t2_coo_founder",
+        "matchedOn": "Founder",
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelpartnersconference.com/"
+      },
+      {
+        "name": "Ken Mills",
+        "title": "President",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://channelpartnersconference.com/"
+      },
+      {
+        "name": "Venetian Las Vegas",
+        "title": "NV 30 Years in the Making. Thank you for making 2026 our largest event",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://channelpartnersconference.com/"
+      }
+    ]
+  },
+  {
+    "id": "impartner_events",
+    "root": "https://impartner.com/events-live/",
+    "status": 200,
+    "pagesInspected": [
+      "https://impartner.com/events/",
+      "https://impartner.com/program-compliance-manager/",
+      "https://impartner.com/partner-referral-programs/"
+    ],
+    "people": [
+      {
+        "name": "Why Impartner",
+        "title": "See why customers and analysts choose us.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://impartner.com/events/"
+      },
+      {
+        "name": "Partner Communications",
+        "title": "Activate your partner audience.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://impartner.com/events/"
+      },
+      {
+        "name": "All Integrations",
+        "title": "Seamless integration with your existing tech stack.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://impartner.com/events/"
+      },
+      {
+        "name": "Partner Services",
+        "title": "Let us run PRM for you.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://impartner.com/events/"
+      },
+      {
+        "name": "Our Integrations",
+        "title": "Seamless integration with your existing tech stack.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://impartner.com/events/"
+      },
+      {
+        "name": "Trending Resources",
+        "title": "Fresh perspectives and outstanding events found here.",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://impartner.com/events/"
+      },
+      {
+        "name": "Sign In",
+        "title": "Success Portal",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://impartner.com/events/"
+      },
+      {
+        "name": "Our Solutions",
+        "title": "Partner Lifecycle Management",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://impartner.com/events/"
+      },
+      {
+        "name": "More Resources",
+        "title": "Industry Insights",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "heading_sibling",
+        "sourceUrl": "https://impartner.com/events/"
+      },
+      {
+        "name": "Brooklyn Bridge",
+        "title": "New York City Where Partnerships Leaders Shape the Next Wave of Tech",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://impartner.com/events/"
+      },
+      {
+        "name": "With Impartner",
+        "title": "your B2B influencers such as affiliates, influencers, referral",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://impartner.com/partner-referral-programs/"
+      },
+      {
+        "name": "Operations Manager Self-service",
+        "title": "hyper-personalized referral program management Self-service",
+        "company": null,
+        "persona": "unclassified",
+        "matchedOn": null,
+        "method": "text_pair",
+        "sourceUrl": "https://impartner.com/partner-referral-programs/"
+      }
+    ]
+  }
+]
