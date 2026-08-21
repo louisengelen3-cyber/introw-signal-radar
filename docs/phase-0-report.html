@@ -1,0 +1,656 @@
+<title>Introw Radar Phase 0</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap">
+
+<style>
+/* ── Tokens ─────────────────────────────────────────────────────────────
+   The palette IS the subject: this report is about evidence states, so
+   confirmed / caution / unknown / failed are the page's semantic colours,
+   and the Introw brown is reserved as the single accent.               */
+:root{
+  --paper:#FAF7F2;
+  --paper-2:#F3EEE5;
+  --paper-3:#EAE3D7;
+  --ink:#1F1B17;
+  --ink-2:#413A32;
+  --muted:#7A7167;
+  --rule:#E1D8CA;
+  --rule-strong:#CDC1AE;
+  --accent:#9A5B32;
+  --accent-soft:#F0E1D6;
+  --ok:#3D6B47;      --ok-soft:#E3EDE1;
+  --warn:#8E6317;    --warn-soft:#F4E9D2;
+  --unk:#7E766C;     --unk-soft:#EDE8DF;
+  --bad:#9C3826;     --bad-soft:#F6E1DC;
+  --shadow:0 1px 0 rgba(31,27,23,.04);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#15120F; --paper-2:#1D1916; --paper-3:#26211C;
+    --ink:#F2ECE3; --ink-2:#D6CCBF; --muted:#9A9086;
+    --rule:#332C25; --rule-strong:#4A4038;
+    --accent:#D08A5A; --accent-soft:#3A281C;
+    --ok:#8FBE93;   --ok-soft:#20291F;
+    --warn:#D6AC5E; --warn-soft:#2C2416;
+    --unk:#A19890;  --unk-soft:#242019;
+    --bad:#E08A76;  --bad-soft:#2E1A15;
+    --shadow:0 1px 0 rgba(0,0,0,.3);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#15120F; --paper-2:#1D1916; --paper-3:#26211C;
+  --ink:#F2ECE3; --ink-2:#D6CCBF; --muted:#9A9086;
+  --rule:#332C25; --rule-strong:#4A4038;
+  --accent:#D08A5A; --accent-soft:#3A281C;
+  --ok:#8FBE93;   --ok-soft:#20291F;
+  --warn:#D6AC5E; --warn-soft:#2C2416;
+  --unk:#A19890;  --unk-soft:#242019;
+  --bad:#E08A76;  --bad-soft:#2E1A15;
+  --shadow:0 1px 0 rgba(0,0,0,.3);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Public Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size:17px; line-height:1.62; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1140px;margin:0 auto;padding:0 28px 120px;display:grid;grid-template-columns:1fr;gap:0}
+@media(min-width:1000px){
+  .wrap{grid-template-columns:200px minmax(0,1fr);gap:56px;padding-right:44px}
+}
+
+/* ── Masthead ───────────────────────────────────────────────────────── */
+.mast{grid-column:1/-1;border-bottom:1px solid var(--rule-strong);padding:56px 0 30px;margin-bottom:44px}
+.eyebrow{
+  font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);
+  display:flex;flex-wrap:wrap;gap:6px 16px;margin-bottom:20px
+}
+h1{
+  font-family:"Newsreader",Georgia,"Times New Roman",serif;
+  font-weight:600;font-size:clamp(2.5rem,6vw,4.1rem);line-height:1.02;
+  letter-spacing:-.022em;margin:0 0 14px;text-wrap:balance;
+}
+h1 em{font-style:italic;color:var(--accent)}
+.standfirst{
+  font-family:"Newsreader",Georgia,serif;font-size:clamp(1.1rem,2.2vw,1.36rem);
+  line-height:1.5;color:var(--ink-2);max-width:60ch;margin:0 0 26px;text-wrap:pretty
+}
+.meta{display:flex;flex-wrap:wrap;gap:10px 26px;
+  font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted)}
+.meta b{color:var(--ink-2);font-weight:500}
+
+/* ── Side nav ───────────────────────────────────────────────────────── */
+nav.toc{display:none}
+@media(min-width:1000px){
+  nav.toc{display:block;position:sticky;top:32px;align-self:start;padding-top:4px}
+  nav.toc ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+  nav.toc a{
+    display:flex;gap:9px;text-decoration:none;color:var(--muted);
+    font-size:13px;line-height:1.35;padding:5px 0;border-bottom:1px solid transparent
+  }
+  nav.toc a:hover{color:var(--accent)}
+  nav.toc .n{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--rule-strong);padding-top:1px}
+  nav.toc a:hover .n{color:var(--accent)}
+}
+main{min-width:0}
+
+/* ── Sections ───────────────────────────────────────────────────────── */
+section{margin:0 0 62px;scroll-margin-top:24px}
+h2{
+  font-family:"Newsreader",Georgia,serif;font-weight:600;
+  font-size:clamp(1.6rem,3.4vw,2.15rem);line-height:1.14;letter-spacing:-.015em;
+  margin:0 0 8px;text-wrap:balance;display:flex;gap:14px;align-items:baseline
+}
+h2 .sec{
+  font-family:"JetBrains Mono",monospace;font-size:.62em;font-weight:500;
+  color:var(--accent);letter-spacing:.02em;flex:none
+}
+.deck{color:var(--muted);font-size:15px;margin:0 0 26px;max-width:62ch}
+h3{
+  font-family:"Public Sans",sans-serif;font-weight:700;font-size:1.02rem;
+  letter-spacing:-.005em;margin:34px 0 10px;color:var(--ink)
+}
+h4{font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+   color:var(--muted);margin:30px 0 10px;font-family:"Public Sans",sans-serif}
+p{margin:0 0 15px;max-width:68ch;text-wrap:pretty}
+ul,ol{margin:0 0 16px;padding-left:20px;max-width:66ch}
+li{margin-bottom:7px}
+a{color:var(--accent)}
+strong{font-weight:600;color:var(--ink)}
+em{font-style:italic}
+code,.mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.86em}
+code{background:var(--paper-3);padding:1px 5px;border-radius:3px;color:var(--ink-2)}
+hr{border:0;border-top:1px solid var(--rule);margin:40px 0}
+
+/* ── Verdict chips: the report's core vocabulary ────────────────────── */
+.v{display:inline-flex;align-items:center;gap:6px;
+  font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:700;
+  letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:3px;
+  white-space:nowrap;vertical-align:2px}
+.v::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
+.v-ok{color:var(--ok);background:var(--ok-soft)}
+.v-warn{color:var(--warn);background:var(--warn-soft)}
+.v-unk{color:var(--unk);background:var(--unk-soft)}
+.v-bad{color:var(--bad);background:var(--bad-soft)}
+.v-acc{color:var(--accent);background:var(--accent-soft)}
+
+/* ── Finding blocks ─────────────────────────────────────────────────── */
+.finding{border-left:3px solid var(--rule-strong);padding:2px 0 2px 20px;margin:0 0 30px}
+.finding.ok{border-left-color:var(--ok)}
+.finding.bad{border-left-color:var(--bad)}
+.finding.warn{border-left-color:var(--warn)}
+.finding-h{display:flex;flex-wrap:wrap;gap:10px;align-items:baseline;margin-bottom:9px}
+.finding-h .t{font-weight:700;font-size:1.03rem;line-height:1.35;color:var(--ink)}
+
+/* ── Callout ────────────────────────────────────────────────────────── */
+.callout{
+  background:var(--paper-2);border:1px solid var(--rule);border-radius:6px;
+  padding:22px 24px;margin:26px 0;box-shadow:var(--shadow)
+}
+.callout.alarm{background:var(--bad-soft);border-color:transparent}
+.callout p:last-child{margin-bottom:0}
+.callout p{max-width:none}
+.callout .lbl{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--muted);display:block;margin-bottom:9px}
+.callout.alarm .lbl{color:var(--bad)}
+
+/* ── Data ───────────────────────────────────────────────────────────── */
+.scroll{overflow-x:auto;margin:20px 0;border:1px solid var(--rule);border-radius:6px;background:var(--paper-2)}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:520px}
+th{
+  text-align:left;font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:700;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--muted);
+  padding:11px 14px;border-bottom:1px solid var(--rule-strong);white-space:nowrap;vertical-align:bottom
+}
+td{padding:11px 14px;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.45}
+tr:last-child td{border-bottom:0}
+td.num{font-family:"JetBrains Mono",monospace;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.name{font-weight:600;white-space:nowrap}
+.dim{color:var(--muted)}
+
+pre{
+  font-family:"JetBrains Mono",monospace;font-size:12.5px;line-height:1.72;
+  background:var(--paper-2);border:1px solid var(--rule);border-radius:6px;
+  padding:18px 20px;overflow-x:auto;margin:20px 0;color:var(--ink-2)
+}
+pre b{color:var(--accent);font-weight:500}
+
+/* ── Stat grid ──────────────────────────────────────────────────────── */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:1px;
+  background:var(--rule);border:1px solid var(--rule);border-radius:6px;overflow:hidden;margin:24px 0}
+.stat{background:var(--paper-2);padding:17px 18px 15px}
+.stat .fig{font-family:"Newsreader",Georgia,serif;font-weight:600;font-size:2.05rem;
+  line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums;margin-bottom:7px}
+.stat .lab{font-size:12px;line-height:1.35;color:var(--muted)}
+.stat.g .fig{color:var(--ok)} .stat.r .fig{color:var(--bad)} .stat.a .fig{color:var(--accent)}
+
+/* ── Decision block ─────────────────────────────────────────────────── */
+.decision{border:1px solid var(--accent);border-radius:6px;overflow:hidden;margin:28px 0}
+.decision-h{background:var(--accent-soft);padding:16px 22px;border-bottom:1px solid var(--accent)}
+.decision-h .k{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--accent);display:block;margin-bottom:5px}
+.decision-h .q{font-weight:700;font-size:1.05rem;line-height:1.35;color:var(--ink)}
+.decision-b{padding:18px 22px}
+.decision-b p{max-width:none;margin-bottom:0}
+
+footer{grid-column:1/-1;border-top:1px solid var(--rule-strong);margin-top:20px;padding-top:24px;
+  font-size:13px;color:var(--muted);max-width:70ch}
+
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <div class="eyebrow"><span>Introw Signal Radar</span><span>Phase 0</span><span>21 Aug 2026</span><span>Approval gate</span></div>
+  <h1>What the Radar can <em>actually</em> see</h1>
+  <p class="standfirst">The commercial thesis is largely right about what makes an account interesting, and substantially wrong about what is observable. Three of its four hard gates cannot be operated as gates. Here is the evidence, and the model that survives it.</p>
+  <div class="meta">
+    <span><b>Benchmark</b> cohorts.v1 · 69 companies · frozen before first run</span>
+    <span><b>Verdict</b> Conditional GO</span>
+    <span><b>Blocking questions</b> 2</span>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Contents">
+  <ol>
+    <li><a href="#method"><span class="n">00</span><span>Method</span></a></li>
+    <li><a href="#survived"><span class="n">A1</span><span>What survived</span></a></li>
+    <li><a href="#failed"><span class="n">A2</span><span>What failed</span></a></li>
+    <li><a href="#changed"><span class="n">A3</span><span>Changed in degree</span></a></li>
+    <li><a href="#model"><span class="n">B</span><span>Qualification model</span></a></li>
+    <li><a href="#personas"><span class="n">C</span><span>Personas</span></a></li>
+    <li><a href="#signals"><span class="n">D</span><span>Signal model</span></a></li>
+    <li><a href="#obs"><span class="n">E</span><span>Observability map</span></a></li>
+    <li><a href="#sources"><span class="n">F</span><span>Source architecture</span></a></li>
+    <li><a href="#detectors"><span class="n">G</span><span>Detectors</span></a></li>
+    <li><a href="#missing"><span class="n">H</span><span>Missing data</span></a></li>
+    <li><a href="#risks"><span class="n">I/J</span><span>Failure classes</span></a></li>
+    <li><a href="#arch"><span class="n">K</span><span>Architecture</span></a></li>
+    <li><a href="#design"><span class="n">L</span><span>Design impact</span></a></li>
+    <li><a href="#results"><span class="n">M</span><span>Benchmark results</span></a></li>
+    <li><a href="#gonogo"><span class="n">N</span><span>Go / No-Go</span></a></li>
+  </ol>
+</nav>
+
+<main>
+
+<section id="method">
+  <h2><span class="sec">00</span>How this was answered</h2>
+  <p class="deck">Phase 0 asked whether the intelligence the Radar wants to display can actually be discovered, dated, resolved and verified reliably enough for production.</p>
+  <p>I did not answer it by reasoning about the thesis. I froze a 69-company benchmark <em>before</em> running anything, built the detectors, and ran them. Every number here comes from a real request made on 21 Aug 2026. Where a source was not tested, it says so rather than estimating.</p>
+  <p>The benchmark has four cohorts: <strong>22 known Introw customers</strong> (fit reconstruction), <strong>20 likely-fit non-customers</strong> chosen by independent structural reasoning (generalisation), <strong>17 controls and traps</strong> (precision), and a <strong>10-company persona gold set</strong>. Customer status and trap class are ground truth. Everything else — segment labels, domain mappings, expected verdicts — is human judgment, and Cohort B carries no labels at all by design.</p>
+  <div class="callout">
+    <span class="lbl">Known leakage, stated up front</span>
+    <p>Cohort A companies are live Introw customers <em>now</em>. Their current portal and PRM fingerprint are plausibly Introw's own product. Cohort A therefore measures discoverability, classification and <strong>customer suppression</strong> — never timing. Reading a portal detection on Cohort A as a prospecting result would be circular.</p>
+  </div>
+</section>
+
+<section id="survived">
+  <h2><span class="sec">A1</span>What survived, and got stronger</h2>
+
+  <div class="finding ok">
+    <div class="finding-h"><span class="t">Transacting partners ≠ integration partners — and the distinction is detectable</span><span class="v v-ok">Upgraded</span></div>
+    <p>The thesis calls integration-ecosystem presence "the single most dangerous buildable signal." Measured: <strong>4 of 4</strong> integration-only controls — Linear, Sentry, PostHog, Vercel — were correctly refused a transacting verdict, while <strong>18 of 19</strong> reachable known customers exposed a partner surface. The load-bearing distinction in the whole model holds empirically. It moves from reasoned inference to measured.</p>
+  </div>
+
+  <div class="finding ok">
+    <div class="finding-h"><span class="t">PRM fingerprinting is far stronger than the thesis assumed — and it runs on DNS</span><span class="v v-ok">Upgraded</span></div>
+    <p>The thesis rates PRM fingerprinting "moderate" observability via login-page artifacts. The real mechanism is DNS: <code>partners.&lt;domain&gt;</code> CNAMEs straight to the vendor. Measured on Cohort A: <strong>9 of 19 reachable known customers (47%) resolve to <code>cname.introw.io</code>, with zero false positives anywhere in the 69-company benchmark.</strong></p>
+<pre>partners.cumulocity.com   → <b>cm4ll6dsj0004dsj1l96pxq9x.cname.introw.io</b>
+partners.axon.com         → <b>cmal3shoq006yqv01kifwdicp.cname.introw.io</b>
+partners.quatt.io · partners.cubbit.io · partners.epiphan.com
+partner.sharegate.com · partners.coder.com
+partners.reversinglabs.com · partners.parloa.com</pre>
+    <p>Two consequences the thesis does not draw. First, this generalises to every competitor with a hosted portal, which turns <strong>PRM displacement from a nurture hope into a detectable segment</strong>. Second, and this is a release gate: it is an <strong>existing-customer suppression detector</strong>. Nine accounts in a 69-company benchmark are current Introw customers. At scale, cold-mailing your own customers is the most embarrassing failure this system can produce, and this is the cheapest guard against it.</p>
+  </div>
+
+  <div class="finding ok">
+    <div class="finding-h"><span class="t">A public partner surface is close to proof a channel exists</span><span class="v v-ok">Held</span></div>
+    <p>No control company lacking a channel produced a transacting verdict on a real partner page.</p>
+  </div>
+</section>
+
+<section id="failed">
+  <h2><span class="sec">A2</span>What failed, and must change before implementation</h2>
+  <p class="deck">Four load-bearing specification items did not survive contact with measurement. Each is written correctly in the thesis's prose and wrongly in its radar specification.</p>
+
+  <div class="finding bad">
+    <div class="finding-h"><span class="t">1. The CRM gate cannot operate as a hard gate</span><span class="v v-bad">Failed</span></div>
+    <p>The thesis calls HubSpot "the hardest qualification gate in the model — harder than industry, geography, or size," and specifies it as <code>gate_1</code> at CONFIRMED evidence standard. Measured, sweeping up to ten form-bearing pages per company:</p>
+    <div class="scroll"><table>
+      <thead><tr><th>Cohort</th><th>Any CRM artifact</th><th>HubSpot</th><th>Salesforce</th><th>Unknown</th></tr></thead>
+      <tbody>
+        <tr><td class="name">A — known customers</td><td class="num">74%</td><td class="num">68%</td><td class="num">11%</td><td class="num">26%</td></tr>
+        <tr><td class="name">B — realistic prospects</td><td class="num"><strong>22%</strong></td><td class="num"><strong>17%</strong></td><td class="num"><strong>0%</strong></td><td class="num"><strong>78%</strong></td></tr>
+        <tr><td class="name">C — controls</td><td class="num">7%</td><td class="num">7%</td><td class="num">0%</td><td class="num">93%</td></tr>
+      </tbody>
+    </table></div>
+    <p>And on the four customers whose HubSpot use Introw itself publishes: <strong>Cumulocity — not detected. Factorial — not detected</strong>, across nine inspected pages. Factorial's own application config carries <code>showHubspotChatModal</code> flags — their code references HubSpot — but no live artifact is served.</p>
+    <div class="callout alarm">
+      <span class="lbl">Consequence</span>
+      <p>Applied as specified, this gate discards roughly <strong>four-fifths of a realistic prospect universe on absence of evidence</strong> — and discards two of Introw's own flagship references. That directly violates the thesis's own invariant: <em>absence of evidence is never scored as negative evidence.</em></p>
+    </div>
+  </div>
+
+  <div class="finding bad">
+    <div class="finding-h"><span class="t">2. Salesforce accounts are not a secondary ICP — one of them is a customer</span><span class="v v-bad">Contradicted</span></div>
+    <p><code>partners.axon.com</code> CNAMEs to Introw. Axon's own distributor page serves <code>go.pardot.com</code> — Salesforce. No HubSpot artifact appears anywhere on the site. Independently re-verified outside the cache.</p>
+    <div class="stats">
+      <div class="stat g"><div class="fig">6</div><div class="lab">CNAME-confirmed customers running HubSpot</div></div>
+      <div class="stat a"><div class="fig">1</div><div class="lab">running Salesforce (Axon)</div></div>
+      <div class="stat"><div class="fig">2</div><div class="lab">no CRM detectable at all</div></div>
+    </div>
+    <p>The thesis's "4/4 disclosed stacks are HubSpot" is an artifact of which case studies Introw chose to publish — exactly as its own bias section warned. HubSpot is the dominant pattern, not a binary gate. And because Salesforce is the <em>less</em> detectable of the two, a hard gate compounds a marketing-selection bias with an observability bias pointing the same way.</p>
+  </div>
+
+  <div class="finding bad">
+    <div class="finding-h"><span class="t">3. The two-partner-manager floor is the model's most expensive gate, not its cheapest</span><span class="v v-bad">Failed on observability</span></div>
+    <p>The thesis: <em>"a single LinkedIn title count — the least ambiguous, fastest, lowest-cost qualification step in the entire model,"</em> to be run <strong>first</strong>, before any crawl.</p>
+    <p>Measured. LinkedIn company people pages return a login wall; profile URLs return HTTP 999. Both are also ToS-constrained. The free alternatives, against a ten-company gold set:</p>
+    <ul>
+      <li><strong>Company team / about / leadership pages: 1 named partner-persona person across 10 companies.</strong> Sedai's about page lists seven executives — CEO, CTO, CRO, VP Marketing, SVP Engineering, VP Product, VP Engineering — and no partner leader, while Introw's own case study names Sedai's Head of Partners &amp; Alliances. The partner leader sits below the published executive cut, systematically.</li>
+      <li><strong>Company partner pages: 0 named partner-persona people across 10 companies.</strong></li>
+    </ul>
+    <p>The denominator of the model's primary scoring variable is not observable from free public sources. This is the BOND person-discovery failure repeating in a new form — caught this time <em>before</em> discovery rather than after.</p>
+  </div>
+
+  <div class="finding bad">
+    <div class="finding-h"><span class="t">4. Partner-leverage ratio cannot be the primary scoring variable</span><span class="v v-bad">Failed</span></div>
+    <p><strong>Numerator.</strong> A partner count was directly countable for <strong>5 of 61</strong> reachable companies by explicit stated count, 24 by any method, and 37 not at all. Where it is countable it is a <em>lower bound, not a census</em> — Cumulocity's public directory holds 78 entries (extracted from its PartnerPage.io payload) against a company-stated "100+", a ~22% undercount.</p>
+    <p><strong>Denominator.</strong> Unavailable, per finding 3.</p>
+    <p><strong>And the threshold is contradicted by Introw's own evidence.</strong> The specification calls <code>≥ 20</code> strong. Factorial — 500+ partners, 100+ partnership managers — is a ratio of <strong>~5</strong>. Introw's flagship enterprise reference sits in the specification's "weak" band. The ratio is an excellent <em>description</em> of the pain. It is not a computable primary score.</p>
+  </div>
+</section>
+
+<section id="changed">
+  <h2><span class="sec">A3</span>Changed in degree</h2>
+
+  <div class="finding warn">
+    <div class="finding-h"><span class="t">Partnership events: right about precision, wrong about population</span><span class="v v-warn">Weakened</span></div>
+    <p>The thesis promotes event attendance to Tier 1 and argues the public subset — exhibitors, sponsors, speakers — "is the higher-intent subset anyway." Measured across eight partnership and channel organisers: 233 people extracted, 70 by clean structured methods, of which <strong>21 (30%) are Tier-1 partner leadership</strong> with usable titles. Precision is genuinely high.</p>
+    <p>But <strong>26% of the corpus references large-cap employers</strong> — Microsoft, AWS, SAP, Oracle, IBM, Salesforce, BCG, EY, NTT DATA, Mastercard, ServiceNow, Snowflake. Introw's G2 enterprise share is 1.9%.</p>
+    <div class="callout">
+      <span class="lbl">The refinement that matters</span>
+      <p>Introw buys $50k booths to meet mid-market partner managers <em>in the aisles</em>. Those people are attendees, and attendee lists are private. <strong>The published part of the event population is the part Introw does not sell to.</strong> The signal is real; its observable slice is systematically the wrong size band. Tier 1 for <em>person</em> discovery — not for account prioritisation.</p>
+    </div>
+  </div>
+
+  <h3>Still unresolved</h3>
+  <ul>
+    <li><strong>Carve-out / MBO detection.</strong> The thesis's highest-conviction trigger, with two independent customer confirmations. No M&amp;A feed or company registry was tested this session. It is the one Tier-1 trigger with <em>no measured observability basis</em>. <span class="v v-unk">Unresolved</span></li>
+    <li><strong>The two-manager floor itself.</strong> Founder-stated with churn evidence behind it; I have no way to test it externally and no reason to doubt it. It is the <em>measurement</em> that failed, not the rule.</li>
+    <li><strong>The ~400 unconverted free-tier installs.</strong> Untestable without access. The thesis calls this the highest-leverage action available and I agree — nothing I built beats it.</li>
+  </ul>
+</section>
+
+<section id="model">
+  <h2><span class="sec">B</span>The qualification model that survives</h2>
+  <p class="deck">Five sequential hard gates become one hard gate, a suppression pass, and four eligibility states. The change is forced: only one gate can be evaluated reliably enough to exclude on.</p>
+
+  <h4>The single hard gate</h4>
+<pre>GATE  transacting_channel_evidence == present
+      satisfied by ANY of:
+        · a partner subdomain with a vendor-attributable CNAME   <b>(strongest)</b>
+        · a partner page classified transacting on main content
+        · a deal-registration or partner-login surface
+        · a countable partner / dealer / installer directory
+      AND NOT matched by an active suppression rule</pre>
+
+  <h4>Suppression — fires before anything else</h4>
+  <div class="scroll"><table>
+    <thead><tr><th>Rule</th><th>Basis</th><th>Measured</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Already an Introw customer</td><td>Release-critical</td><td>9 of 69 in benchmark <span class="v v-ok">Works</span></td></tr>
+      <tr><td class="name">Integration-ecosystem only</td><td>Thesis + measured</td><td>4 of 4 controls suppressed <span class="v v-ok">Works</span></td></tr>
+      <tr><td class="name">Affiliate / performance marketing only</td><td>Thesis</td><td>Semrush suppressed <span class="v v-ok">Works</span></td></tr>
+      <tr><td class="name">Professional-services equity-partner firm</td><td>Thesis</td><td>Fails on Deloitte <span class="v v-bad">Broken</span></td></tr>
+      <tr><td class="name">Staffing / recruitment marketplace</td><td>Thesis</td><td>Both controls bot-blocked <span class="v v-unk">Untested</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <h4>Eligibility states, not gates</h4>
+  <div class="scroll"><table>
+    <thead><tr><th>Dimension</th><th>States</th><th>Effect</th></tr></thead>
+    <tbody>
+      <tr><td class="name">CRM environment</td><td class="mono">hubspot_confirmed · salesforce_confirmed · incompatible_confirmed · <strong>unknown</strong></td><td>Only <code>incompatible_confirmed</code> excludes. <code>unknown</code> is the <em>majority</em> state and routes to Research.</td></tr>
+      <tr><td class="name">Programme scale</td><td class="mono">countable(n) · stated(n) · present_uncountable · unknown</td><td>Ranks; never gates. Always shown with its method.</td></tr>
+      <tr><td class="name">Partner team</td><td class="mono">verified(n) · unknown</td><td><code>unknown</code> is the default. Blocks <em>GTM Ready</em>, not account inclusion.</td></tr>
+      <tr><td class="name">Enterprise complexity</td><td class="mono">multi_tier_suspected</td><td>Soft demotion. SAP, Cisco and Schneider all classify transacting — correctly — and the model must not read that as a win.</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="callout">
+    <span class="lbl">The one structural change to make</span>
+    <p>The thesis orders gates cheapest-first and fails fast. Measurement inverts the cost order. The correct order is <strong>evidence-density-first</strong>: run the cheap, high-precision, high-availability checks — DNS, certificate transparency, Common Crawl, site crawl — across the whole universe, and spend the scarce expensive resource, human research and any licensed people-data credits, only on accounts that already cleared the channel gate. Gate 0 moves from first to last, and stops being a gate at all.</p>
+  </div>
+</section>
+
+<section id="personas">
+  <h2><span class="sec">C</span>Personas — and the blocking finding</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Tier</th><th>Persona</th><th>Thesis evidence</th><th>Can a source see it?</th></tr></thead>
+    <tbody>
+      <tr><td class="num">1</td><td class="name">Head / VP Partnerships · Alliances · Channel</td><td>DSC ×5</td><td>Person-first <strong>yes</strong> (21/70 clean extractions). Company-first <strong>no free source</strong>.</td></tr>
+      <tr><td class="num">1</td><td class="name">Partner RevOps / Partner Ops</td><td>DSC ×1 + DSI</td><td>Person-first yes, low volume. Company-first no.</td></tr>
+      <tr><td class="num">2</td><td class="name">Partner Marketing Manager</td><td>DSC ×2</td><td>Person-first yes, low volume. Company-first no.</td></tr>
+      <tr><td class="num">2</td><td class="name">CRO / VP Sales</td><td>DSI only</td><td><strong>Yes</strong> — the one persona leadership pages reliably carry.</td></tr>
+      <tr><td class="num">2</td><td class="name">COO / Founder (small co.)</td><td>DSC ×1</td><td><strong>Yes</strong> — leadership pages.</td></tr>
+      <tr><td class="num">3</td><td class="name">Growth / BD generalist owning partners</td><td>DSC ×4</td><td><strong>No.</strong> Needs site attribution that does not exist — 0 of 10 partner pages named a contact.</td></tr>
+      <tr><td class="name">Anti</td><td class="name">HR BP · equity partner · corp dev · marketplace · affiliate</td><td>RI</td><td>Classifier verified in <em>both</em> directions on real titles.</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="callout alarm">
+    <span class="lbl">Blocking finding</span>
+    <p>For the company-first question the product is built around — <em>"who should an Introw seller contact at this account?"</em> — <strong>there is no viable free public source for the Tier-1 persona.</strong> Company team pages yielded one named partner person across ten companies. Partner pages yielded none. LinkedIn is technically blocked and ToS-constrained. Sanctioned web search resolved one attempt in four.</p>
+  </div>
+
+  <p>This forces a product decision rather than an engineering one. Three options, not mutually exclusive:</p>
+  <ol>
+    <li><strong>Procure a licensed people-data provider</strong> — Proxycurl, People Data Labs, Apollo, Cognism or equivalent. Needs credentials and budget. Untested; I hold no credentials.</li>
+    <li><strong>Run person-first as a parallel lane.</strong> Event and community corpora give name + title + employer with no company-first lookup at all. That population is enterprise-skewed, so it seeds some accounts well and most badly.</li>
+    <li><strong>Model <code>person: unknown</code> as a first-class state</strong> that routes to Research and blocks GTM-Ready without blocking the account.</li>
+  </ol>
+  <p>Option 3 is mandatory regardless. Without option 1, the majority of qualified accounts reach the queue with no named contact, and the product's honest answer to "who do I call?" is <em>"we don't know yet — here is the research task."</em></p>
+</section>
+
+<section id="signals">
+  <h2><span class="sec">D</span>Signal model</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Signal</th><th>Effect</th><th>Verdict</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Partner subdomain with vendor CNAME</td><td>Increase priority; confirms channel; identifies incumbent</td><td><span class="v v-ok">Build — highest value</span></td></tr>
+      <tr><td class="name">Introw CNAME detected</td><td>Suppress — existing customer</td><td><span class="v v-ok">Build — release gate</span></td></tr>
+      <tr><td class="name">Competitor PRM CNAME</td><td>Increase priority; route to displacement</td><td><span class="v v-ok">Build</span></td></tr>
+      <tr><td class="name">Partner page classified transacting</td><td>Increase priority</td><td><span class="v v-ok">Build</span></td></tr>
+      <tr><td class="name">Deal-registration / partner-login surface</td><td>Increase priority</td><td><span class="v v-ok">Build</span></td></tr>
+      <tr><td class="name">Countable partner directory</td><td>Context + ranking, always with method and lower-bound label</td><td><span class="v v-warn">Build with modification</span></td></tr>
+      <tr><td class="name">Directory grew between dated observations</td><td><strong>Why Now</strong></td><td><span class="v v-ok">Build</span> — backfill history from Common Crawl rather than waiting six months</td></tr>
+      <tr><td class="name">Self-declared programme vocabulary</td><td>Raises confidence in the transacting verdict</td><td><span class="v v-ok">Build</span> — a company labelling its own programme beats our lexicon</td></tr>
+      <tr><td class="name">Partner-titled person at a partnership event</td><td>Person resolution only — <em>not</em> account prioritisation</td><td><span class="v v-warn">Build with modification</span></td></tr>
+      <tr><td class="name">Carve-out / MBO / divestiture</td><td>Increase priority — highest conviction</td><td><span class="v v-unk">Unresolved — observability untested</span></td></tr>
+      <tr><td class="name">CRM artifact</td><td>Priority modifier + environment state</td><td><span class="v v-warn">Build, demoted from gate</span></td></tr>
+      <tr><td class="name">Integration / app-directory presence</td><td>Suppress</td><td><span class="v v-bad">Never as positive</span> — suppression verified 4/4</td></tr>
+      <tr><td class="name">Affiliate programme</td><td>Suppress</td><td><span class="v v-bad">Never as positive</span></td></tr>
+      <tr><td class="name">Funding</td><td>Context only, never timing</td><td><span class="v v-unk">Context only</span></td></tr>
+      <tr><td class="name">Partner-title hiring</td><td>Gated behind channel confirmation, deduped</td><td><span class="v v-warn">Build last</span></td></tr>
+      <tr><td class="name">Job-ad tool mentions</td><td>Never CONFIRMED</td><td><span class="v v-unk">Context only</span></td></tr>
+      <tr><td class="name">Employee band · industry filter · ACV estimate · PRM renewal date</td><td>—</td><td><span class="v v-bad">Never build</span></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="obs">
+  <h2><span class="sec">E</span>Observability map</h2>
+  <h4>Reliably knowable</h4>
+  <p>Channel existence · partner-surface inventory · incumbent PRM identity · existing-customer status · programme type · self-declared partner types · historical partner-surface state · partner count <em>for a minority</em>, as a lower bound.</p>
+  <h4>Knowable with reduced coverage</h4>
+  <p>CRM vendor (22% of a realistic prospect cohort) · partner count · country and language footprint.</p>
+  <h4>Not knowable from free public sources</h4>
+  <p>Partner-team headcount · who currently owns partners at a named account · partner-sourced revenue % · partner adoption rates · PRM contract renewal date · internal dissatisfaction · deal-registration volume.</p>
+
+  <h3>Structural coverage limits, measured</h3>
+  <div class="stats">
+    <div class="stat r"><div class="fig">10%</div><div class="lab">of the benchmark blocked outright by bot protection — Personio, WeGive, Silverfin, SolarEdge, Bain, Upwork, Toptal</div></div>
+    <div class="stat r"><div class="fig">53%</div><div class="lab">of naive "subdomain resolves" hits were DNS wildcard noise</div></div>
+    <div class="stat r"><div class="fig">1 in 22</div><div class="lab">benchmark domains was my own mis-mapping from a case-study name</div></div>
+  </div>
+  <p>None of these are footnotes. Bot protection blocks companies that are not small. A subdomain check without a wildcard control probe is roughly half false positives. And entity resolution — company name to domain — is a real error source on a task the pipeline will perform thousands of times.</p>
+</section>
+
+<section id="sources">
+  <h2><span class="sec">F</span>Source architecture</h2>
+  <p class="deck">Three tiers, ordered by what the measurements justify.</p>
+
+  <h3>Tier 1 — build now, all validated this session</h3>
+  <p>DNS CNAME resolution with wildcard control · passive DNS host enumeration · certificate transparency · site crawl driven by sitemap and link graph · Common Crawl CDX for historical backfill and cheap per-domain screening.</p>
+  <p>Passive DNS and certificate transparency are <strong>complementary, not redundant</strong>. Each found partner surfaces the other missed, and both found surfaces that path probing and crawling could not:</p>
+<pre>found only by <b>passive DNS</b>  partnerprogram.niko.eu · channel.teamleader.eu
+                          partnerhub.corp.cumulocity.com
+                          partner-academy.vanta.com
+
+found only by <b>cert transparency</b>  partners.quatt.io · deal-api.quatt.io
+
+found only by <b>crawling</b>  loxone.com — 13 partner surfaces,
+                          no partner subdomain at all</pre>
+  <div class="callout">
+    <span class="lbl">The case that settles the design</span>
+    <p>Cumulocity returns <strong>zero partner surfaces by crawling</strong> and <strong>decisive evidence by DNS</strong>. The best-evidenced customer in the entire thesis is invisible to a crawl-only architecture.</p>
+  </div>
+
+  <h3>Tier 2 — after approval</h3>
+  <p>Partnership event and community corpora (the person-first lane) · vendor-hosted directory payload parsers, PartnerPage.io first · sanctioned web search as a research aid, never a scoring input.</p>
+
+  <h3>Tier 3 — requires a decision, not engineering</h3>
+  <p>Licensed people-data provider · Introw's own CRM and free-tier install base · M&amp;A and carve-out feeds · company registries.</p>
+
+  <h3>Rejected on evidence</h3>
+  <p>LinkedIn scraping — blocked and ToS-constrained. SERP scraping — CAPTCHA on the second call. PRM vendor logo pages — thin, four of ten returned 404. Common Crawl as a <em>discovery</em> source — the index is domain-keyed, so you cannot ask "which hosts have a <code>/become-a-partner</code> page."</p>
+</section>
+
+<section id="detectors">
+  <h2><span class="sec">G</span>Detector requirements</h2>
+  <p class="deck">Each of these exists because a measurement demanded it.</p>
+  <ol>
+    <li><strong>Wildcard-controlled subdomain resolver.</strong> Probe a random subdomain first; treat only targets differing from the wildcard as evidence. Without it, 53% of hits are noise.</li>
+    <li><strong>PRM/vendor CNAME fingerprinter</strong>, with an Introw branch that suppresses rather than scores.</li>
+    <li><strong>Non-production host filter.</strong> <code>dev.partnerprogram.niko.eu</code> exists alongside the real one. A staging portal is not a portal.</li>
+    <li><strong>Main-content extraction before lexicon classification.</strong> Ringover's genuine reseller programme classified <code>integration_only</code> purely because its mega-nav advertises "100+ integrations". Site chrome defeats whole-page classification.</li>
+    <li><strong>Partner-page ranker that demotes integration pages.</strong> Factorial's top-ranked partner URL was <code>/integrations-partner-program</code>; its real one was <code>/partnerships</code>.</li>
+    <li><strong>Directory counter with declared method and a lower-bound label.</strong> Never presented as a census; always carries <code>method</code> and <code>observedAt</code>.</li>
+    <li><strong>Vendor-directory payload parsers</strong> — PartnerPage.io Nuxt payload extraction yielded <code>count: 78</code> on Cumulocity where static HTML counting found nothing.</li>
+    <li><strong>Persona classifier with anti-personas resolving first</strong>, verified in both directions: "HR Business Partner", "Managing Partner, Tax" and "Marketplace Manager" correctly refused; "Global Head, Alliance Ecosystem and Programs" and "Director, Global Partner Programs &amp; Operations" correctly accepted.</li>
+    <li><strong>Person-record boundary detection.</strong> Flat-text extraction glues adjacent speakers together. Only structured extraction — JSON-LD, heading-plus-sibling — produces records trustworthy enough for GTM Ready.</li>
+    <li><strong>Common Crawl history backfiller</strong>, keyed per domain and unioned across collections. Single collections are volatile: Enphase returned 7 captures in one and 800 in another.</li>
+    <li><strong>Bot-block classifier</strong> that records <code>bot_protection</code> distinctly from <code>not_found</code>. "We could not look" is not "nothing is there."</li>
+  </ol>
+</section>
+
+<section id="missing">
+  <h2><span class="sec">H</span>What stays unknown</h2>
+  <p class="deck">These are discovery questions and first-party fields, not proxies to be filled in.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Fact</th><th>State</th><th>What the product does instead</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Partner-team headcount</td><td class="mono">unknown unless verified</td><td>Research task. Blocks GTM Ready. Never estimated.</td></tr>
+      <tr><td class="name">Who owns partners</td><td class="mono">unknown unless verified</td><td>Research task. Never inferred from a leadership page.</td></tr>
+      <tr><td class="name">Partner-sourced revenue %</td><td class="mono">never known</td><td>Ships as the discovery question: <em>"Of the N partners on your site, how many registered a deal last quarter?"</em></td></tr>
+      <tr><td class="name">Partner adoption / login rates</td><td class="mono">never known</td><td>Discovery question.</td></tr>
+      <tr><td class="name">PRM contract renewal date</td><td class="mono">never known</td><td>Never estimated. Incumbent detected → time-based nurture.</td></tr>
+      <tr><td class="name">True partner count</td><td class="mono">lower_bound(n) at best</td><td>Always labelled with method and date.</td></tr>
+      <tr><td class="name">CRM, where no artifact found</td><td class="mono">unknown — not "no CRM"</td><td>Research task. Does not exclude.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="callout">
+    <span class="lbl">The invariant this enforces</span>
+    <p>The majority state for most fields on most accounts is <code>unknown</code>. A design that treats <code>unknown</code> as a gap to be filled will fill it with proxies. The Radar must treat <code>unknown</code> as information — it is precisely what tells a seller which question to ask first.</p>
+  </div>
+</section>
+
+<section id="risks">
+  <h2><span class="sec">I / J</span>Failure classes, ranked</h2>
+
+  <h3>False positives</h3>
+  <ol>
+    <li><strong>Professional-services firms with real alliance ecosystems.</strong> Deloitte returned <code>transacting</code> across 692 partner surfaces. Equity-partner suppression and alliance detection fire simultaneously and the wrong one wins. <em>Suppress on firm type, not programme lexicon.</em></li>
+    <li><strong>Enterprise multi-tier channel read as fit.</strong> SAP (2,692 partner surfaces), Schneider, Cisco all classify transacting — correctly. The failure is treating a correct classification as a qualification. <em>Needs an explicit demotion, not a better classifier.</em></li>
+    <li><strong>DNS wildcards read as portals.</strong> 53% of naive hits. <em>Mitigated by the control probe.</em></li>
+    <li><strong>Staging hosts read as production surfaces.</strong></li>
+    <li><strong>Site chrome read as programme content.</strong></li>
+    <li><strong>Agency and affiliate programmes read as reseller channels.</strong> Kinsta returned <code>transacting</code> on a 300-agency programme — genuinely ambiguous. <em>Route to Research; do not auto-resolve.</em></li>
+    <li><strong>Entity mis-resolution.</strong> Identity must be verified before its evidence is trusted.</li>
+    <li><strong>Glued person records</strong> from flat-text extraction.</li>
+  </ol>
+
+  <h3>False negatives</h3>
+  <ol>
+    <li><strong>Channels living only on a non-guessable subdomain.</strong> Cumulocity is invisible to crawling. <em>Mitigated by passive DNS + CT.</em></li>
+    <li><strong>Bot-protected companies (~10%).</strong> No mitigation available. Must be recorded as <code>blocked</code>, never as "no channel".</li>
+    <li><strong>Salesforce accounts.</strong> 0% detection on Cohort B — and a confirmed customer is one of them.</li>
+    <li><strong>EU industrials and local-language mid-market.</strong> Loxone, Duco, Niko, Yuki all have real channels. None produced a CRM artifact, none appear in the event corpora, none are findable by the person sources. <strong>The thesis calls this segment commercially attractive precisely because competitors miss it — and this radar misses it too, everywhere except channel existence.</strong></li>
+    <li><strong>Login-walled portals.</strong> <code>partners.quatt.io</code> proves a portal exists and reveals nothing about its size.</li>
+    <li><strong>Client-rendered directories</strong> without a vendor parser.</li>
+    <li><strong>Companies below the published-content threshold</strong> — bootstrapped, non-VC, small footprint.</li>
+  </ol>
+</section>
+
+<section id="arch">
+  <h2><span class="sec">K</span>Architecture recommendation</h2>
+  <p class="deck">Do not inherit BOND's shape. Inherit its epistemics.</p>
+  <p><strong>Keep:</strong> evidence provenance with <code>retrievedAt</code> per fact · source authority tiers · verified-facts precedence · the commercial-review layer between model and queue · queue blockers as code · identity resolved before evidence is trusted · raw-universe immutability · graceful degradation · scores re-derived at load · validation as an exit-code gate.</p>
+  <p><strong>Reject:</strong> the YC/Getro discovery universe — it structurally cannot see industrials, bootstrapped companies or EU local-language companies, four of Introw's six segments · person discovery attached to company discovery, the exact failure that produced 648 founders · additive 0–100 scoring · BOND's signal taxonomy, personas and weights.</p>
+
+  <h3>The five changes Phase 0 forces</h3>
+  <ol>
+    <li><strong>Company-first and person-first are separate lanes with separate sources</strong>, joined by identity resolution — not one pipeline where people fall out of company discovery. This is the single most important decision here, and it is the direct lesson of the BOND post-mortem.</li>
+    <li><strong><code>resolveFact()</code> as a real function, not a coalesce order.</strong> Every field carries <code>{value, evidenceState, method, sourceUrl, observedAt, retrievedAt, confidence, supersedes}</code> and precedence becomes structural rather than procedural.</li>
+    <li><strong>Snapshot store from day one.</strong> Change claims are the product's "Why Now". <code>firstSeenAt</code> ≠ <code>effectiveAt</code> ≠ <code>observedAt</code> ≠ <code>retrievedAt</code> — and Common Crawl backfill means history exists at launch rather than in six months.</li>
+    <li><strong>Research is a first-class object, not a fallback.</strong> A large share of qualified accounts will legitimately be "channel confirmed, person unknown". That is a product state, and the queue must represent it without either lying or hiding the account.</li>
+    <li><strong>Storage:</strong> file-based JSON is adequate at benchmark scale and will not survive scheduled re-verification with per-field freshness across thousands of accounts. Build the domain model against a repository interface now; swap the implementation when scale demands it. Do not build the database yet.</li>
+  </ol>
+</section>
+
+<section id="design">
+  <h2><span class="sec">L</span>Design impact</h2>
+  <p class="deck">The mockups are strong and the visual direction should be kept. But several primary fields cannot be populated at the confidence the design implies.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Design element</th><th>Verdict</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Warm palette, editorial type, restrained colour</td><td><span class="v v-ok">Keep</span></td></tr>
+      <tr><td class="name">Radar / Accounts / Signals / Watchlist / Research</td><td><span class="v v-ok">Keep</span> — and Research becomes more load-bearing than the design assumes.</td></tr>
+      <tr><td class="name">Independent states instead of a 0–100 score</td><td><span class="v v-ok">Keep</span> — strongly validated.</td></tr>
+      <tr><td class="name">✓ CHANNEL / ✓ CRM / ✓ TEAM / ✓ LOAD / ✓ TIMING chip row</td><td><span class="v v-warn">Modify</span> Five green ticks will be rare. The row must render <code>unknown</code> and <code>blocked</code> as first-class visual states. On current measurements the modal account is <code>✓ CHANNEL · ? CRM · ? TEAM · ? LOAD · ? TIMING</code>.</td></tr>
+      <tr><td class="name">"186 PARTNERS" as a headline metric</td><td><span class="v v-warn">Modify</span> Countable for a minority; always a lower bound. Must render as <code>~186 listed</code> with method and date — and needs a designed <code>unknown</code> state, which the mockup has none of.</td></tr>
+      <tr><td class="name">"2 PARTNER MANAGERS"</td><td><span class="v v-bad">Cannot support</span> Not observable without a licensed people source. Either procure one, or this becomes a research-verified field that is blank by default.</td></tr>
+      <tr><td class="name">"93× OPERATIONAL LOAD" as a hero metric</td><td><span class="v v-bad">Cannot support</span> A derived metric inherits the weakest confidence of its inputs — one of which is unavailable. Demote from hero to a conditional field shown only when both inputs are verified.</td></tr>
+      <tr><td class="name">"HubSpot ✓ CRM · CONFIRMED"</td><td><span class="v v-warn">Modify</span> Correct when true; true for a minority. <code>unknown</code> is the majority state and needs equal visual weight.</td></tr>
+      <tr><td class="name">"CURRENT PRM: PartnerStack · Possible"</td><td><span class="v v-ok">Keep and upgrade</span> DNS evidence makes this <em>confirmed</em>, not <em>possible</em>, for a meaningful share of accounts — and it is stronger than anything else on the card.</td></tr>
+      <tr><td class="name">Partner-network growth chart (142 → 186)</td><td><span class="v v-ok">Keep</span> Supportable via Common Crawl backfill plus own snapshots, provided every point carries its observation date and the axis distinguishes "first seen by radar" from "when it changed".</td></tr>
+      <tr><td class="name">"Who to contact" with three Verified people</td><td><span class="v v-bad">Cannot support today</span> Design the <code>unknown</code> state as the <em>primary</em> state, with a Research call-to-action — not as an empty list.</td></tr>
+      <tr><td class="name">Risks &amp; unknowns panel</td><td><span class="v v-ok">Keep and promote</span> The most honest element in the design, and on these measurements the most frequently populated.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="callout alarm">
+    <span class="lbl">The design's core assumption</span>
+    <p>The mockup assumes the account card is mostly full. The measurements say it will mostly be partly empty. <strong>A design that only looks good when full will push the build toward proxies.</strong> Design the sparse state first.</p>
+  </div>
+</section>
+
+<section id="results">
+  <h2><span class="sec">M</span>Benchmark results, including the failures</h2>
+  <div class="stats">
+    <div class="stat"><div class="fig">61/69</div><div class="lab">reachable (88%) — 7 bot-blocked, 1 my own entity error</div></div>
+    <div class="stat g"><div class="fig">18/19</div><div class="lab">Cohort A accounts with a partner surface found (95%)</div></div>
+    <div class="stat r"><div class="fig">13/19</div><div class="lab">Cohort A classified transacting — five known customers were not</div></div>
+    <div class="stat g"><div class="fig">4/4</div><div class="lab">integration-only traps suppressed</div></div>
+    <div class="stat r"><div class="fig">22%</div><div class="lab">CRM detected at CONFIRMED standard on the realistic prospect cohort</div></div>
+    <div class="stat r"><div class="fig">2/4</div><div class="lab">known-HubSpot customers actually detected</div></div>
+    <div class="stat g"><div class="fig">47%</div><div class="lab">Introw-customer detection recall by CNAME — with zero false positives</div></div>
+    <div class="stat r"><div class="fig">5/61</div><div class="lab">companies where a partner count was directly countable</div></div>
+    <div class="stat r"><div class="fig">1/10</div><div class="lab">gold-set companies where a named Tier-1 partner persona appeared on company pages</div></div>
+    <div class="stat a"><div class="fig">21/70</div><div class="lab">clean event extractions that were Tier-1 partner leadership (30%)</div></div>
+  </div>
+  <p>Full numbers in <code>phase0/out/BENCHMARK_RESULTS.md</code>; methodology and known leakage in <code>phase0/benchmark/METHODOLOGY.md</code>. The benchmark was frozen before the first detector ran and has not been edited since.</p>
+</section>
+
+<section id="gonogo">
+  <h2><span class="sec">N</span>Go / No-Go</h2>
+  <p class="deck"><span class="v v-warn">Conditional GO</span> for Phase 1, on the revised model, with two blocking questions.</p>
+  <p>The commercial thesis is sound about what makes an account interesting. It is wrong about what can be seen. Rebuilding the qualification model around that — one hard gate, states instead of gates, <code>unknown</code> as a first-class value — produces a system that is <em>smaller than the mockups promise</em> and defensible in front of a CRO. Building the specified model instead produces a system that looks complete and is quietly wrong in four places.</p>
+  <p><strong>What I recommend proceeding with:</strong> the Phase 1 domain model and fixture UX, designed around the sparse account rather than the full one; then the Tier-1 detectors, which are all validated.</p>
+
+  <div class="decision">
+    <div class="decision-h">
+      <span class="k">Blocking question 1</span>
+      <span class="q">Do we buy licensed people data, or design around <code>unknown</code>?</span>
+    </div>
+    <div class="decision-b">
+      <p>Without a provider — Proxycurl, People Data Labs, Apollo, Cognism or equivalent — the product cannot answer "who do I contact at this account" for most accounts, and neither the partner-team gate nor the operational-load metric can be populated at all. I hold no credentials and have tested none of them. Both paths are buildable; they produce materially different products.</p>
+    </div>
+  </div>
+
+  <div class="decision">
+    <div class="decision-h">
+      <span class="k">Blocking question 2</span>
+      <span class="q">Is Introw's own CRM and free-tier install base coming?</span>
+    </div>
+    <div class="decision-b">
+      <p>The thesis's own conclusion is that cross-referencing the ~400 unconverted installs against the two-manager floor outranks any external radar for the first quarter of outbound. Nothing I built this session beats it. If that access is coming, it should shape Phase 1. If it is not, I should stop designing for it.</p>
+    </div>
+  </div>
+
+  <p>Neither blocks <em>starting</em> Phase 1. Both change what Phase 1 should optimise for — so I would rather ask once, now, than assume.</p>
+</section>
+
+</main>
+
+<footer>
+  <p>Nothing in this report was inferred where it could be measured. Where a source was not tested it is marked unresolved rather than estimated. The benchmark was frozen before the first detector ran.</p>
+</footer>
+
+</div>
