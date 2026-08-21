@@ -11,7 +11,7 @@ import { get, mainContent } from '../src/lib/http.js';
 import {
   commonCrawlUrls, discoverHosts, extractPartnerCount, rankPartnerUrls, siteUrls, surveyDns,
 } from '../src/evidence/collect.js';
-import { classify, type ClassifyResult } from '../src/evidence/classify.js';
+import { assessScale, classify, type ClassifyResult, type ScaleAssessment } from '../src/evidence/classify.js';
 import type { PartnerCount, SourceRef } from '../src/domain/types.js';
 
 const OUT = new URL('./out/', import.meta.url).pathname;
@@ -31,6 +31,7 @@ export interface ClassifiedCompany {
   dns: { wildcard: boolean; platform: { vendor: string; host: string; cname: string[] } | null; distinctHosts: number };
   partnerPagesFetched: { url: string; status: number; chars: number }[];
   classification: ClassifyResult | null;
+  scale: ScaleAssessment | null;
   partnerCount: PartnerCount;
   retrievedAt: string;
 }
@@ -45,6 +46,7 @@ async function classifyCompany(name: string, domain: string, set: string, label?
     dns: { wildcard: false, platform: null, distinctHosts: 0 },
     partnerPagesFetched: [],
     classification: null,
+    scale: null,
     partnerCount: { value: null, countType: 'unknown', enumerationComplete: null, unit: null, source: null, observedAt: null, confidence: 'low' },
     retrievedAt: now,
   };
@@ -96,16 +98,19 @@ async function classifyCompany(name: string, domain: string, set: string, label?
   // ── fetch the highest-ranked partner surfaces ─────────────────────────────
   const ranked = rankPartnerUrls(urlInventory).slice(0, 6);
   const pages: { url: string; text: string; retrievedAt: string; httpStatus: number }[] = [];
-  let bestCountHtml: { html: string; source: SourceRef } | null = null;
+  let bestCountHtml: { rank: number; html: string; source: SourceRef } | null = null;
   for (const u of ranked) {
     const r = await get(u);
     rec.partnerPagesFetched.push({ url: u, status: r.status, chars: r.body?.length ?? 0 });
     if (!r.ok || !r.body) continue;
     const text = mainContent(r.body);
     pages.push({ url: u, text, retrievedAt: r.retrievedAt, httpStatus: r.status });
+    // Try a count on every partner page, preferring directory-shaped URLs, then size.
     const isDirectory = /(find-a-|directory|locator|where-to-buy|verkooppunten|h[äa]ndlersuche|partners?\/?$|dealers?\/?$|installateur)/i.test(u);
-    if (isDirectory && (!bestCountHtml || r.body.length > bestCountHtml.html.length)) {
+    const rank = (isDirectory ? 1_000_000 : 0) + r.body.length;
+    if (!bestCountHtml || rank > bestCountHtml.rank) {
       bestCountHtml = {
+        rank,
         html: r.body,
         source: { url: u, authority: 'subject_first_party', establishes: 'the company publishes this list of partner organisations', observedAt: r.retrievedAt, retrievedAt: r.retrievedAt, httpStatus: r.status },
       };
@@ -115,6 +120,12 @@ async function classifyCompany(name: string, domain: string, set: string, label?
 
   if (bestCountHtml) rec.partnerCount = extractPartnerCount(bestCountHtml.html, bestCountHtml.source);
 
+  rec.scale = assessScale(
+    rec.partnerCount.value,
+    ['exact_public', 'directory_count'].includes(rec.partnerCount.countType),
+    urlInventory.length,
+    pages.map((p) => p.text).join(' ').slice(0, 40000),
+  );
   rec.classification = classify({
     companyId: bare,
     pages,

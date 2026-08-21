@@ -4,3 +4,5 @@ phase0/cache/
 dist/
 .vercel/
 .env*
+.cache/
+phase1/scratch/

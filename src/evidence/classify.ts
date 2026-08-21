@@ -20,7 +20,7 @@ import type {
   Confidence,
   PartnerMotion,
 } from '../domain/types.js';
-import { FIRM_TYPE_SUPPRESSION, LEXICON, URL_SHAPES } from './taxonomy.js';
+import { firmTypeIndicators, LEXICON, PARTICIPANT_PAGE, URL_SHAPES } from './taxonomy.js';
 
 export interface ClassifyInput {
   companyId: string;
@@ -125,24 +125,32 @@ export function collectEvidence(input: ClassifyInput): ChannelEvidence[] {
           observedAt: now,
           retrievedAt: now,
         },
-        // URL shape alone is weak: a path is not a programme.
-        strength: 'weak',
+        strength: shape.strength,
         implication: shape.implication,
-        contaminationRisk: 'a URL path proves publication, not operation',
+        contaminationRisk: shape.strength === 'strong'
+          ? 'the page may be stale; publication is not proof the process is currently active'
+          : 'a generic partner path proves publication, not operation',
         motions: [],
       });
       break; // first matching shape wins for this URL
     }
   }
 
-  // 4. Lexicon evidence from page main content.
+  // 4. Lexicon evidence from page main content. The strongest instance of each rule
+  //    wins: if reseller language appears on both a participant page and the company's
+  //    own programme page, the programme page is what counts.
+  const best = new Map<string, ChannelEvidence>();
   for (const page of input.pages) {
     if (!page.text || page.text.length < 60) continue;
+    // A page describing the company as SOMEONE ELSE'S partner carries that other
+    // company's channel language. Deloitte classified transacting from pages about
+    // SAP's value-added reseller programme, which Deloitte participates in.
+    const participant = PARTICIPANT_PAGE.test(page.url) || PARTICIPANT_PAGE.test(page.text.slice(0, 3000));
     for (const rule of LEXICON) {
       for (const { lang, re } of rule.patterns) {
         const m = re.exec(page.text);
         if (!m) continue;
-        out.push({
+        const candidate: ChannelEvidence = {
           companyId: input.companyId,
           evidenceClass: rule.evidenceClass,
           claim: rule.proves,
@@ -155,16 +163,22 @@ export function collectEvidence(input: ClassifyInput): ChannelEvidence[] {
             retrievedAt: page.retrievedAt,
             httpStatus: page.httpStatus,
           },
-          strength: rule.strength,
+          // Participant pages are demoted to weak: the language is real, the owner is not.
+          strength: participant && rule.implication === 'transacting' ? 'weak' : rule.strength,
           implication: rule.implication,
-          contaminationRisk: rule.contaminationRisk,
+          contaminationRisk: participant
+            ? 'found on a page describing this company as another vendor\'s partner — the channel may belong to that vendor'
+            : rule.contaminationRisk,
           motions: rule.motions,
           lang,
-        });
+        };
+        const prev = best.get(rule.id);
+        if (!prev || (prev.strength === 'weak' && candidate.strength === 'strong')) best.set(rule.id, candidate);
         break; // one hit per rule per page is enough; repetition is not extra proof
       }
     }
   }
+  out.push(...best.values());
   return out;
 }
 
@@ -175,22 +189,6 @@ function distinct(ev: ChannelEvidence[], implication: string, strength: 'strong'
 
 export function classify(input: ClassifyInput): ClassifyResult {
   const evidence = collectEvidence(input);
-
-  // ── Firm-type suppression runs first, at company level ───────────────────
-  for (const s of FIRM_TYPE_SUPPRESSION) {
-    if (s.re.test(input.identityText)) {
-      return {
-        commerciality: 'unknown',
-        confidence: 'medium',
-        rule: `suppressed:${s.id}`,
-        rationale: `Company-level suppression fired: ${s.reason}. Partner-language evidence on this company cannot be trusted to indicate a channel.`,
-        motions: [],
-        evidence,
-        suppression: { rule: s.id, reason: s.reason },
-        counts: { strongTransacting: 0, weakTransacting: 0, integration: 0, affiliate: 0, strategic: 0 },
-      };
-    }
-  }
 
   const strongT = distinct(evidence, 'transacting', 'strong');
   const weakT = distinct(evidence, 'transacting', 'weak');
@@ -208,7 +206,7 @@ export function classify(input: ClassifyInput): ClassifyResult {
   const motions = [...new Set(evidence.flatMap((e) => e.motions))];
   const hasFingerprint = evidence.some((e) => e.evidenceClass === 'PRM_FINGERPRINT');
   const hasDistributor = evidence.some((e) => e.evidenceClass === 'DISTRIBUTOR_CARRIES');
-  // Deal registration and a partner portal are the two artifacts that only exist
+  // Deal registration and a partner-platform fingerprint are artifacts that exist only
   // where partners transact. They are treated as decisive on their own.
   const decisive = strongT.has('DEAL_REGISTRATION') || hasFingerprint;
 
@@ -217,62 +215,126 @@ export function classify(input: ClassifyInput): ClassifyResult {
     confidence: Confidence,
     rule: string,
     rationale: string,
-  ): ClassifyResult => ({ commerciality, confidence, rule, rationale, motions, evidence, suppression: null, counts });
+    suppression: ClassifyResult['suppression'] = null,
+  ): ClassifyResult => ({ commerciality, confidence, rule, rationale, motions, evidence, suppression, counts });
 
-  // ── Affiliate framing wins over referral framing when links/cookies appear ──
+  // ── Firm-type suppression ────────────────────────────────────────────────
+  // Two distinct self-description indicators required, and never applied over a
+  // decisive artifact: a company with a published deal-registration process is
+  // operating a channel whatever else it also is.
+  const firmTypes = firmTypeIndicators(input.identityText);
+  const suppressing = firmTypes.find((f) => f.hits.length >= 2);
+  if (suppressing && !decisive) {
+    return verdict('unknown', 'medium', `suppressed:${suppressing.id}`,
+      `Company-level suppression: ${suppressing.reason}. Two independent self-description indicators matched (${suppressing.hits.join('; ')}), so partner language on this company cannot be trusted to indicate a channel of its own.`,
+      { rule: suppressing.id, reason: suppressing.reason });
+  }
+
+  // ── Affiliate framing wins over referral framing when links/cookies appear ─
   if (aff.size >= 1 && strongT.size <= 1 && !decisive) {
-    return verdict(
-      'affiliate_only',
-      strongT.size === 0 ? 'high' : 'medium',
-      'affiliate_dominant',
-      `Affiliate/performance-marketing evidence present with ${strongT.size} distinct strong transacting signal(s) and no deal-registration or platform fingerprint. Treated as a performance-marketing motion, which is a different buyer and a different object model.`,
-    );
+    return verdict('affiliate_only', strongT.size === 0 ? 'high' : 'medium', 'affiliate_dominant',
+      `Affiliate/performance-marketing evidence present with ${strongT.size} distinct strong transacting signal(s) and no deal-registration or platform fingerprint. Treated as a performance-marketing motion — a different buyer and a different object model.`);
   }
 
-  // ── Decisive artifacts ─────────────────────────────────────────────────────
-  if (decisive && integ.size > 0) {
-    return verdict('mixed', 'high', 'decisive_plus_integration',
-      `A decisive transacting artifact is present (${[...strongT].join(', ')}${hasFingerprint ? ', PRM_FINGERPRINT' : ''}) alongside ${integ.size} integration-ecosystem signal(s). Both motions run.`);
-  }
+  // ── Decisive artifacts ───────────────────────────────────────────────────
   if (decisive) {
+    const label = hasFingerprint
+      ? 'a partner surface served by a partner-management platform'
+      : 'a public deal-registration process';
+    if (integ.size >= 2) {
+      return verdict('mixed', 'high', 'decisive_plus_integration',
+        `Decisive transacting artifact present (${label}) alongside ${integ.size} integration-ecosystem classes. Both motions run.`);
+    }
     return verdict('transacting', 'high', 'decisive_artifact',
-      `A decisive transacting artifact is present: ${hasFingerprint ? 'a partner surface served by a partner-management platform' : 'a public deal-registration process'}. These artifacts exist only where partners register or are managed commercially.`);
+      `Decisive transacting artifact present: ${label}. These artifacts exist only where partners register or are managed commercially.`);
   }
 
-  // ── Corroborated transacting evidence ─────────────────────────────────────
+  // ── Corroborated transacting evidence ────────────────────────────────────
   if (strongT.size >= 2) {
     const mixed = integ.size >= 2;
     return verdict(mixed ? 'mixed' : 'transacting', strongT.size >= 3 ? 'high' : 'medium',
       mixed ? 'corroborated_plus_integration' : 'corroborated_transacting',
-      `${strongT.size} independent strong transacting evidence classes found (${[...strongT].join(', ')})${mixed ? `, alongside ${integ.size} integration classes` : ''}. No single phrase carries the verdict.`);
+      `${strongT.size} independent strong transacting evidence classes (${[...strongT].join(', ')})${mixed ? `, alongside ${integ.size} integration classes` : ''}. No single phrase carries the verdict.`);
   }
 
-  // ── Counterparty-only evidence ────────────────────────────────────────────
-  if (hasDistributor && strongT.size <= 1) {
+  // ── Counterparty-only evidence ───────────────────────────────────────────
+  if (hasDistributor) {
     return verdict('transacting', 'medium', 'counterparty_distribution',
-      `A distributor publicly lists this company as a vendor it sells. Channel existence follows near-tautologically, but the company's own programme surface was not confirmed, so the programme may be operated downstream.`);
+      `A distributor publicly lists this company as a vendor it sells; channel existence follows near-tautologically. The company's own programme surface was not confirmed, so the downstream programme may be operated by the distributor.`);
   }
 
-  // ── One strong signal is not enough on its own ────────────────────────────
-  if (strongT.size === 1) {
-    if (integ.size >= 2) {
-      return verdict('integration_only', 'medium', 'integration_dominant',
-        `Only one strong transacting signal (${[...strongT][0]}) against ${integ.size} integration classes. Insufficient to claim a transacting channel; the observable ecosystem is technical.`);
-    }
-    return verdict('unknown', 'low', 'single_weak_transacting',
-      `One strong transacting signal (${[...strongT][0]}) with no corroboration. A single signal cannot establish a transacting programme — routed to research rather than classified.`);
-  }
-
-  // ── No transacting evidence at all ────────────────────────────────────────
+  // ── Integration-only requires ZERO strong transacting evidence ───────────
+  // Earlier this fired at one strong transacting signal, which misclassified real
+  // reseller programmes at integration-heavy companies. Integration evidence is
+  // counter-evidence, but it cannot outvote a positive transacting artifact.
   if (integ.size >= 2 && strongT.size === 0) {
     return verdict('integration_only', 'high', 'integration_only',
       `${integ.size} integration-ecosystem classes and zero strong transacting evidence. This is the largest false-positive class in the domain and is explicitly suppressed.`);
   }
-  if (strat.size >= 1 && strongT.size === 0 && integ.size === 0) {
+
+  // ── One strong signal: interesting, not established ──────────────────────
+  if (strongT.size === 1) {
+    return verdict('unknown', 'low', 'single_strong_uncorroborated',
+      `One strong transacting signal (${[...strongT][0]})${integ.size ? ` against ${integ.size} integration classes` : ''} with no corroboration. A single signal cannot establish a transacting programme — routed to research rather than classified either way.`);
+  }
+
+  // ── Strategic-only needs more than one passing mention ───────────────────
+  if (strat.size >= 1 && strongT.size === 0 && integ.size === 0 && evidence.length >= 3) {
     return verdict('strategic_only', 'medium', 'strategic_only',
       `Named corporate alliances with no evidence of repeatable channel operations.`);
   }
 
   return verdict('unknown', 'low', 'insufficient_evidence',
     `No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.`);
+}
+
+/**
+ * Programme scale and structural complexity.
+ *
+ * SAP classifies as `transacting` and that verdict is correct — it operates one of the
+ * largest reseller channels in existence. It is nonetheless a poor Introw account,
+ * because the thesis places multi-tier distributor governance outside Introw's design.
+ *
+ * That is a PRIORITISATION problem, not a classification problem. Tuning the
+ * commerciality classifier to call SAP "not transacting" would be false, and would be
+ * benchmark-memorisation rather than a rule. So the demotion lives here, as a separate
+ * dimension, and it is a demotion rather than an exclusion because Factorial — a real
+ * customer — sits at the large end of the same axis.
+ */
+export interface ScaleAssessment {
+  programScale: 'large' | 'meaningful' | 'small' | 'unknown';
+  multiTierSuspected: boolean;
+  rationale: string;
+}
+
+const MULTI_TIER = /\b(two[- ]tier|multi[- ]tier|tier[- ]?2 (?:partner|distributor)|through (?:our )?distributors?|authoriz?ed distributor|distribution partner|global systems integrator|value[- ]added distributor)\b/i;
+
+export function assessScale(
+  partnerCount: number | null,
+  countUsable: boolean,
+  urlInventorySize: number,
+  pageText: string,
+): ScaleAssessment {
+  const multiTier = MULTI_TIER.test(pageText);
+  // Site scale is a proxy for organisational scale, and a weak one — used only to
+  // flag the enterprise end, never to rank accounts against each other.
+  const veryLargeSite = urlInventorySize > 6000;
+
+  let programScale: ScaleAssessment['programScale'] = 'unknown';
+  let rationale = 'no reliable partner count; scale not established';
+  if (countUsable && partnerCount !== null) {
+    programScale = partnerCount >= 200 ? 'large' : partnerCount >= 20 ? 'meaningful' : 'small';
+    rationale = `${partnerCount} partners from a usable count`;
+  } else if (veryLargeSite) {
+    programScale = 'large';
+    rationale = `partner count unavailable; site inventory of ${urlInventorySize} URLs indicates an organisation at the enterprise end`;
+  }
+
+  return {
+    programScale,
+    multiTierSuspected: multiTier || (veryLargeSite && programScale === 'large'),
+    rationale: multiTier
+      ? `${rationale}. Multi-tier distribution language present — outside Introw's design centre, so demote rather than exclude.`
+      : rationale,
+  };
 }

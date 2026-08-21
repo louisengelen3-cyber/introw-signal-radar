@@ -184,6 +184,22 @@ export const LEXICON: LexRule[] = [
     ],
   },
   {
+    id: 'partner_portal_language',
+    evidenceClass: 'PARTNER_PORTAL',
+    implication: 'transacting',
+    strength: 'strong',
+    motions: [],
+    proves: 'the company runs a gated surface for partners to log into',
+    doesNotProve: 'how many partners use it, or that anything is transacted through it',
+    contaminationRisk: 'a customer portal is sometimes labelled a partner portal on translated sites',
+    patterns: [
+      en(/\b(partner portal|partner login|partner sign[- ]?in|log ?in to (?:the |our )?partner|partner hub)\b/i),
+      nl(/\b(partner ?portaal|partner ?login|inloggen als partner)\b/i),
+      fr(/\b(espace partenaires?|portail partenaires?|connexion partenaire)\b/i),
+      de(/\b(partnerportal|partner[- ]?login|partnerbereich)\b/i),
+    ],
+  },
+  {
     id: 'onboarding',
     evidenceClass: 'ONBOARDING',
     implication: 'transacting',
@@ -302,16 +318,28 @@ export const LEXICON: LexRule[] = [
 /* ──────────────────────────────────────────────── URL-shape detection ──── */
 
 /** Multilingual partner-surface URL patterns. Order matters: dealreg beats partner. */
-export const URL_SHAPES: { id: string; evidenceClass: ChannelEvidenceClass; implication: CommercialityImplication; re: RegExp }[] = [
-  { id: 'url_dealreg', evidenceClass: 'DEAL_REGISTRATION', implication: 'transacting', re: /(deal-?registration|register-a-deal|deal-?reg|opportunity-registration|projektregistrierung|dealregistratie)/i },
-  { id: 'url_portal', evidenceClass: 'PARTNER_PORTAL', implication: 'transacting', re: /(partner-?(?:portal|login|sign-?in|hub)|partnerportaal|espace-partenaires|partnerportal)/i },
-  { id: 'url_directory', evidenceClass: 'PARTNER_DIRECTORY', implication: 'transacting', re: /(find-a-(?:partner|dealer|installer|reseller)|partner-(?:directory|locator|finder)|dealer-locator|where-to-buy|waar-te-koop|verkooppunten|trouver-un-(?:revendeur|installateur)|h[äa]ndlersuche|bezugsquellen|partnerzoeker|installateur-zoeken)/i },
-  { id: 'url_reseller', evidenceClass: 'RESELLER_LANGUAGE', implication: 'transacting', re: /(resellers?|wederverkoper|revendeur|wiederverk[äa]ufer|fachh[äa]ndler|distributeurs?|distributors?|verdeler)/i },
-  { id: 'url_installer_dealer', evidenceClass: 'INSTALLER_LANGUAGE', implication: 'transacting', re: /(installers?|installateur|dealers?|h[äa]ndler|monteur|fachbetrieb)/i },
-  { id: 'url_become_partner', evidenceClass: 'ONBOARDING', implication: 'transacting', re: /(become-a-partner|partner-worden|word-partner|devenir-partenaire|partner-werden|partner-program|partnerprogramma|partnerprogramm|programme-partenaires|hazte-socio)/i },
-  { id: 'url_affiliate', evidenceClass: 'AFFILIATE', implication: 'affiliate', re: /(affiliates?|ambassador|influencer)/i },
-  { id: 'url_integration', evidenceClass: 'APP_MARKETPLACE', implication: 'integration', re: /(integrations?|app-?(?:directory|store|marketplace)|marketplace|connectors?|plugins?|koppelingen)/i },
-  { id: 'url_partner_generic', evidenceClass: 'PROGRAM_PAGE', implication: 'neutral', re: /(partners?|partenaires?|socios|partnerschaft)/i },
+/**
+ * URL shapes, with strength set by SPECIFICITY rather than uniformly weak.
+ * `/deal-registration` and `/dealer-locator` are not merely paths — those pages do
+ * not exist without the process they name. `/partners` names nothing in particular.
+ */
+/**
+ * Paths where a channel-shaped word is almost certainly a product noun.
+ * Measured on industrial sites: `/prodotti/.../distributori-pneumatici/` is pneumatic
+ * distributors, and `/productnews/.../power-distributors` is a power distributor.
+ */
+export const PRODUCT_PATH = /\/(products?|produkte|prodotti|productos|produits|producten|catalog(?:ue)?|shop|store|artikel|sortiment|productnews|download)\//i;
+
+export const URL_SHAPES: { id: string; evidenceClass: ChannelEvidenceClass; implication: CommercialityImplication; re: RegExp; strength: 'strong' | 'weak' }[] = [
+  { id: 'url_dealreg', evidenceClass: 'DEAL_REGISTRATION', implication: 'transacting', re: /(deal-?registration|register-a-deal|deal-?reg|opportunity-registration|projektregistrierung|dealregistratie)/i, strength: 'strong' },
+  { id: 'url_portal', evidenceClass: 'PARTNER_PORTAL', implication: 'transacting', re: /(partner-?(?:portal|login|sign-?in|hub)|partnerportaal|espace-partenaires|partnerportal)/i, strength: 'strong' },
+  { id: 'url_directory', evidenceClass: 'PARTNER_DIRECTORY', implication: 'transacting', re: /(find-a-(?:partner|dealer|installer|reseller)|partner-(?:directory|locator|finder)|dealer-locator|where-to-buy|waar-te-koop|verkooppunten|trouver-un-(?:revendeur|installateur)|h[äa]ndlersuche|bezugsquellen|partnerzoeker|installateur-zoeken)/i, strength: 'strong' },
+  { id: 'url_reseller', evidenceClass: 'RESELLER_LANGUAGE', implication: 'transacting', re: /(resellers?|wederverkoper|revendeur|wiederverk[äa]ufer|fachh[äa]ndler|distributeurs?|distributors?|verdeler)/i, strength: 'weak' },
+  { id: 'url_installer_dealer', evidenceClass: 'INSTALLER_LANGUAGE', implication: 'transacting', re: /(installers?|installateur|dealers?|h[äa]ndler|monteur|fachbetrieb)/i, strength: 'weak' },
+  { id: 'url_become_partner', evidenceClass: 'ONBOARDING', implication: 'transacting', re: /(become-a-partner|partner-worden|word-partner|devenir-partenaire|partner-werden|partner-program|partnerprogramma|partnerprogramm|programme-partenaires|hazte-socio)/i, strength: 'weak' },
+  { id: 'url_affiliate', evidenceClass: 'AFFILIATE', implication: 'affiliate', re: /(affiliates?|ambassador|influencer)/i, strength: 'weak' },
+  { id: 'url_integration', evidenceClass: 'APP_MARKETPLACE', implication: 'integration', re: /(integrations?|app-?(?:directory|store|marketplace)|marketplace|connectors?|plugins?|koppelingen)/i, strength: 'weak' },
+  { id: 'url_partner_generic', evidenceClass: 'PROGRAM_PAGE', implication: 'neutral', re: /(partners?|partenaires?|socios|partnerschaft)/i, strength: 'weak' },
 ];
 
 /**
@@ -320,10 +348,82 @@ export const URL_SHAPES: { id: string; evidenceClass: ChannelEvidenceClass; impl
  * not the page level — Phase 0's Deloitte false positive was caused by trying to
  * do this with page lexicon alone.
  */
-export const FIRM_TYPE_SUPPRESSION: { id: string; reason: string; re: RegExp }[] = [
-  { id: 'law_firm', reason: 'law firm — "partner" means equity partner', re: /\b(law firm|solicitors|attorneys at law|barristers|advocaten|avocats|rechtsanwälte|LLP\b)\b/i },
-  { id: 'accounting_audit', reason: 'accounting/audit firm — "partner" means equity partner', re: /\b(audit(?:ing)? (?:and|&) (?:tax|assurance)|chartered accountants|wirtschaftsprüfer|expert-comptable|accountancy firm|assurance,? tax(?:,| and) advisory)\b/i },
-  { id: 'consulting_firm', reason: 'management consultancy — "partner" means equity partner', re: /\b(management consult(?:ing|ancy) firm|strategy consult(?:ing|ancy)|we are a (?:global )?consultancy)\b/i },
-  { id: 'investment_firm', reason: 'VC/PE firm — "partner" means investment partner', re: /\b(venture capital|private equity|we invest in|our portfolio compan|early[- ]stage investor|seed fund)\b/i },
-  { id: 'staffing_marketplace', reason: 'staffing/recruitment marketplace — partner postings are marketplace artifacts', re: /\b(freelance marketplace|hire (?:vetted|top) (?:freelancers|talent)|talent marketplace|staffing agency|recruitment marketplace|find work|post a job)\b/i },
+/**
+ * Firm-type suppression.
+ *
+ * Phase 1 measured a 67% false-positive rate on the first version: a cybersecurity
+ * company was suppressed as a law firm and two SaaS companies as investment firms,
+ * because single phrases like "we invest in" and "post a job" appear in ordinary
+ * marketing and careers copy.
+ *
+ * Two changes follow, both generalisable rather than per-company:
+ *  1. Patterns must match SELF-DESCRIPTION — what the company says it *is* — so they
+ *     are run against the identity region (title, meta description, h1, opening of
+ *     the about page) rather than against whole-page body text.
+ *  2. A single indicator is never enough. Two distinct indicators are required, which
+ *     is the same corroboration rule the transacting classifier already applies.
+ *
+ * The caller additionally refuses to suppress when a decisive transacting artifact
+ * exists: a company with a published deal-registration process is operating a channel
+ * whatever else it also is.
+ */
+export const FIRM_TYPE_SUPPRESSION: { id: string; reason: string; patterns: RegExp[] }[] = [
+  {
+    id: 'law_firm',
+    reason: 'law firm — "partner" means equity partner',
+    patterns: [
+      /\b(law firm|international law practice|solicitors|barristers|attorneys at law|advocatenkantoor|cabinet d'avocats|anwaltskanzlei)\b/i,
+      /\b(legal services (?:across|in) \d|our lawyers|practice areas|legal advice to (?:clients|businesses))\b/i,
+      /\b(partners and counsel|associates and partners|made up to partner)\b/i,
+    ],
+  },
+  {
+    id: 'accounting_consulting',
+    reason: 'audit/tax/consulting firm — "partner" means equity partner, and alliance pages describe someone else\'s channel',
+    patterns: [
+      /\b(audit(?:ing)?[,&\s]+(?:and\s+)?(?:tax|assurance|consulting)|assurance,? tax|tax(?:,| and) (?:legal|advisory|consulting))\b/i,
+      /\b(chartered accountants|wirtschaftspr[üu]fer|expert-comptable|professional services (?:firm|network)|member firms)\b/i,
+      /\b(management consult(?:ing|ancy)|strategy consulting|advisory services to (?:clients|organi[sz]ations))\b/i,
+    ],
+  },
+  {
+    id: 'investment_firm',
+    reason: 'VC/PE firm — "partner" means investment partner',
+    patterns: [
+      /\b(venture capital (?:firm|fund)|private equity (?:firm|fund)|we are (?:a|an) (?:early|seed|growth)[- ]stage (?:investor|fund)|investment firm)\b/i,
+      /\b(our portfolio companies|portfolio company|fund (?:i{1,3}|iv|v|\d)\b|assets under management)\b/i,
+      /\b(we (?:back|invest in) founders|we lead (?:seed|series) rounds|limited partners)\b/i,
+    ],
+  },
+  {
+    id: 'staffing_marketplace',
+    reason: 'staffing or freelance marketplace — partner postings are marketplace artifacts',
+    patterns: [
+      /\b(freelance marketplace|talent marketplace|hire (?:vetted|top|the top) (?:freelancers|talent|developers)|staffing (?:agency|firm))\b/i,
+      /\b(find (?:freelance )?work|browse jobs|apply to jobs|millions of (?:freelancers|jobs))\b/i,
+      /\b(recruitment (?:marketplace|agency)|we place candidates|job board)\b/i,
+    ],
+  },
 ];
+
+/** Distinct firm-type indicators found in the identity region. */
+export function firmTypeIndicators(identityText: string): { id: string; reason: string; hits: string[] }[] {
+  const out: { id: string; reason: string; hits: string[] }[] = [];
+  for (const f of FIRM_TYPE_SUPPRESSION) {
+    const hits: string[] = [];
+    for (const re of f.patterns) {
+      const m = re.exec(identityText);
+      if (m) hits.push(m[0].slice(0, 60));
+    }
+    if (hits.length) out.push({ id: f.id, reason: f.reason, hits });
+  }
+  return out;
+}
+
+/**
+ * Pages that describe the company as SOMEONE ELSE'S partner rather than as a channel
+ * operator. Deloitte was classified transacting from pages about SAP's value-added
+ * reseller programme, which Deloitte participates in — the reseller language was real
+ * and belonged to a different company's channel.
+ */
+export const PARTICIPANT_PAGE = /\/(?:alliances|allianzen|ecosystem|technology-partners)\/[a-z0-9-]{2,}|\b(we are (?:a|an) (?:certified |gold |premier |global )?[A-Z][\w.]* partner|our partnership with [A-Z])\b/;
