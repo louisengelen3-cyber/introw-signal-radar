@@ -1,0 +1,11 @@
+Bata               probable      bata.de                  probes=2   guessed bata.de; page names the company but the business context could n
+BRAD & HARRISON    ambiguous     -                        probes=18  1 live candidates, none naming the company
+PEPPERL & FUCHS    confirmed     pepperl-fuchs.com        probes=18  guessed pepperl-fuchs.com; page names the company and matches the electr
+LEINE & LINDE      confirmed     leinelinde.com           probes=1   guessed leinelinde.com; page names the company and matches the electrica
+CINI & NILS        unresolved    -                        probes=18  no candidate domain responded
+PROTAPE            probable      protape.it               probes=10  guessed protape.it; page names the company but the business context coul
+TREND NETWORKS     dead_domain   -                        probes=18  candidate domains are parked, placeholder or empty
+Tekmar             probable      tekmar.com               probes=1   guessed tekmar.com; page names the company but the business context coul
+DIVUS              confirmed     divus.eu                 probes=5   guessed divus.eu; page names the company and matches the electrical_indu
+Anomali            confirmed     anomali.com              probes=1   guessed anomali.com; page names the company and matches the cybersecurit
+Netskope           wrong_entity  -                        probes=17  netskope.com, netskope.it, netskope.se names the company but operates in

@@ -8,7 +8,7 @@
  * fixture values and are labelled as such — no fixture reuses a measured figure in
  * a way that could be mistaken for a real finding.
  */
-import type { Account, Commerciality, Confidence, Fact, PartnerCount, SourceRef } from '../src/domain/types.js';
+import type { Account, ChannelDirection, Commerciality, Confidence, Fact, IntrowSuitability, PartnerCount, SourceRef, SuitabilityState } from '../src/domain/types.js';
 
 const src = (url: string, establishes: string, authority: SourceRef['authority'] = 'subject_first_party'): SourceRef => ({
   url, authority, establishes, observedAt: '2026-08-18T00:00:00.000Z', retrievedAt: '2026-08-18T00:00:00.000Z', httpStatus: 200,
@@ -45,9 +45,61 @@ interface Seed {
   motions?: Account['program']['motions']['value'];
   scale?: Account['qualification']['programScale'];
   conflict?: string;
+  /** Phase 2: whose programme is this? */
+  direction?: ChannelDirection;
+  /** Phase 2: is this operating model appropriate for Introw? */
+  fit?: SuitabilityState;
+  fitRule?: string;
+  fitWhy?: string;
+  fitPositive?: string[];
+  fitNegative?: string[];
+  /** Distributors publicly carrying this company's products. */
+  carriedBy?: string[];
+  discoveredVia?: string;
 }
 
 const SEEDS: Seed[] = [
+  {
+    key: 'meridian', archetype: 'O · distributed vendor, operator unresolved',
+    proves: 'a distributor-inversion candidate is shown as a candidate, not as a qualified operator',
+    name: 'Meridian Sensors', domain: 'meridian.example', country: 'Germany', industry: 'Industrial sensors',
+    commerciality: 'transacting', channelReality: 'confirmed', scale: 'unknown',
+    motions: ['distributor'],
+    direction: 'distributed_vendor', fit: 'research_required', fitRule: 'distribution_tier_unresolved',
+    fitWhy: 'Two distributors publicly carry this company\'s products, and no invitation to a programme it runs was found. Whether it manages resellers directly, or the distributor does, is the difference between an addressable account and a distributor\'s account.',
+    fitNegative: ['carried by 2 independent distributors'],
+    carriedBy: ['Exclusive Networks', 'Infinigate'],
+    discoveredVia: 'distributor inversion (Infinigate vendor list)',
+    teamState: 'unknown',
+    research: [{ field: 'programme_ownership', reason: 'products move through distribution; no first-person invitation found', method: 'check whether resellers contract with the company or only with the distributor', priority: 'high' }],
+  },
+  {
+    key: 'calderon', archetype: 'P · participant, not operator',
+    proves: 'partner language belonging to another vendor is attributed and the account is refused',
+    name: 'Calderon Consulting', domain: 'calderon.example', country: 'United Kingdom', industry: 'Technology consulting',
+    commerciality: 'transacting', channelReality: 'confirmed', scale: 'unknown',
+    motions: ['reseller'],
+    direction: 'channel_participant', fit: 'incompatible', fitRule: 'participant_not_operator',
+    fitWhy: 'The reseller language here describes this company\'s membership of another vendor\'s programme. Introw is bought by the organisation that runs a programme, not by one that joins one.',
+    fitNegative: ['reseller evidence found under /alliances/ and attributed to another vendor'],
+    teamState: 'unknown',
+    suppressed: { reason: 'channel evidence belongs to another vendor\'s programme', rule: 'participant_not_operator' },
+  },
+  {
+    key: 'halstrom', archetype: 'Q · enterprise operating model',
+    proves: 'a real, large transacting channel is demoted on OPERATING MODEL, never on size',
+    name: 'Halstrom Networks', domain: 'halstrom.example', country: 'United States', industry: 'Networking',
+    commerciality: 'transacting', channelReality: 'confirmed', scale: 'large',
+    motions: ['distributor', 'reseller', 'system_integrator'],
+    direction: 'channel_operator', fit: 'weak', fitRule: 'multi_distributor_mediated_channel',
+    fitWhy: 'Three independent distributors carry this company, alongside rebate and co-op fund language and a partner academy. Reached through several distributors, onboarding and registration sit with the distributor rather than the vendor. This is a demotion on structure — a company one tenth the size with the same structure would read the same.',
+    fitNegative: ['carried by 3 distributors', 'rebate and co-op fund programme', 'partner academy and certification catalogue'],
+    fitPositive: ['deal registration present', 'named partner tiers'],
+    carriedBy: ['Exclusive Networks', 'Infinigate', 'TD Synnex'],
+    crm: { vendor: 'salesforce', state: 'confirmed' },
+    prm: 'Impartner',
+    teamState: 'unknown',
+  },
   {
     key: 'northwind', archetype: 'A · fully resolved',
     proves: 'the complete card renders without crowding when every dimension happens to be known',
@@ -290,9 +342,32 @@ export const FIXTURES: Fixture[] = SEEDS.map((s) => {
       id: `${s.domain}#r${i}`, companyId: s.domain, missingField: r.field, reason: r.reason,
       priority: r.priority, status: 'open' as const, suggestedMethod: r.method, createdAt: now,
     })),
+    suitability: s.fit ? {
+      state: s.fit,
+      confidence: 'medium',
+      rule: s.fitRule ?? 'partial_evidence',
+      rationale: s.fitWhy ?? '',
+      positiveEvidence: (s.fitPositive ?? []).map((c) => ({ dimension: 'operational_artifacts', claim: c, sourceUrl: partnerPage, relatesTo: 'deal_registration' })),
+      negativeEvidence: (s.fitNegative ?? []).map((c) => ({ dimension: 'channel_depth', claim: c, sourceUrl: partnerPage, relatesTo: 'multi_tier_governance' })),
+      unknowns: ['partner-team size', 'partner-sourced revenue share'],
+      blockers: [],
+      researchNeeded: (s.research ?? []).map((r) => ({ field: r.field, reason: r.reason, method: r.method })),
+      evaluatedAt: now,
+    } as IntrowSuitability : null,
+    relationships: (s.carriedBy ?? []).map((d) => ({
+      sourceCompany: s.domain, targetCompany: d, relationshipType: 'DISTRIBUTES' as const, direction: 'inbound' as const,
+      evidence: src(`https://${d.toLowerCase().replace(/\s+/g, '')}.example/vendors`, `${d} lists this company among the brands it distributes`, 'counterparty'),
+      confidence: 'medium' as const, observedAt: now,
+    })),
+    programmes: s.motions ? [{ programId: `${s.domain}#main`, operatorCompany: s.direction === 'channel_participant' ? null : s.domain, name: null, motions: s.motions, surfaces: [partnerPage], confidence: 'medium' as const, method: 'self-declared programme vocabulary on the company\'s own surface' }] : [],
+    suppression: s.suppressed
+      ? { suppressed: true, rule: s.suppressed.rule, reason: s.suppressed.reason, scope: 'cold_outbound' as const }
+      : { suppressed: false, rule: null, reason: null, scope: null },
     qualification: {
       channelReality: s.channelReality,
       commerciality: s.commerciality,
+      channelDirection: s.direction ?? 'unknown',
+      suitability: s.fit ?? 'unknown',
       programScale: s.scale ?? 'unknown',
       environment: s.crm ? 'compatible_confirmed' : 'unknown',
       organisation: s.people?.length ? (s.people.every((p) => p.currency === 'current_verified') ? 'verified' : 'partial') : 'unknown',
@@ -302,6 +377,6 @@ export const FIXTURES: Fixture[] = SEEDS.map((s) => {
       relationship: s.relationship ?? 'no_evidence_observed',
       suppressed: s.suppressed ?? null,
     },
-    discoveredVia: [{ mechanism: 'fixture', source: src(`https://${s.domain}/`, 'fixture seed') }],
+    discoveredVia: [{ mechanism: s.discoveredVia ?? 'fixture', source: src(`https://${s.domain}/`, 'fixture seed') }],
   };
 });

@@ -65,6 +65,23 @@ function Count({ c }: { c: PartnerCount }) {
 
 /* ── card ────────────────────────────────────────────────────────────────── */
 
+const DIRECTION_LABEL: Record<string, string> = {
+  channel_operator: 'Runs the programme',
+  channel_participant: "Joins another vendor's programme",
+  distributed_vendor: 'Distributed — operator unresolved',
+  both: 'Runs one and joins others',
+  unknown: 'Direction unknown',
+};
+const DIRECTION_TONE: Record<string, string> = {
+  channel_operator: 'confirmed', channel_participant: 'contradicted',
+  distributed_vendor: 'strong_proxy', both: 'strong_proxy', unknown: 'unknown',
+};
+const FIT_LABEL: Record<string, string> = {
+  strong: 'Strong fit', plausible: 'Plausible fit', weak: 'Weak fit',
+  incompatible: 'Not an Introw account', unknown: 'Not established',
+  research_required: 'Research required',
+};
+
 const COMMERCIALITY_LABEL: Record<string, string> = {
   transacting: 'Transacting channel', mixed: 'Transacting + integration',
   integration_only: 'Integration ecosystem only', affiliate_only: 'Affiliate motion only',
@@ -97,12 +114,34 @@ function AccountCard({ a, onOpen }: { a: Fixture; onOpen: () => void }) {
       </header>
 
       <div className="card-body">
-        {/* Programme — always first, because it is the one thing that gates inclusion */}
+        {/* Channel reality and Introw suitability are separate questions and are shown
+            separately. Collapsing them is the SAP error: a real channel that is the
+            wrong operating model. */}
         <section className="blk">
-          <h4>Programme</h4>
+          <h4>Channel</h4>
           <p className={`blk-lead ${q.commerciality === 'unknown' ? 'dim' : ''}`}>
             {COMMERCIALITY_LABEL[q.commerciality]}
           </p>
+          <p className="note">
+            <span className={`st st-${DIRECTION_TONE[q.channelDirection]}`}>{DIRECTION_LABEL[q.channelDirection]}</span>
+          </p>
+        </section>
+
+        <section className="blk">
+          <h4>Introw suitability</h4>
+          <p className={`fit fit-${q.suitability}`}>{FIT_LABEL[q.suitability]}</p>
+          {a.suitability?.rationale && <p className="note">{a.suitability.rationale}</p>}
+          {(a.suitability?.negativeEvidence.length ?? 0) > 0 && (
+            <ul className="ev ev-neg">{a.suitability!.negativeEvidence.map((e) => <li key={e.claim}>{e.claim}</li>)}</ul>
+          )}
+          {(a.suitability?.positiveEvidence.length ?? 0) > 0 && (
+            <ul className="ev ev-pos">{a.suitability!.positiveEvidence.map((e) => <li key={e.claim}>{e.claim}</li>)}</ul>
+          )}
+        </section>
+
+        {/* Programme */}
+        <section className="blk">
+          <h4>Programme</h4>
           {a.program.motions.value && (
             <p className="motions">{a.program.motions.value.map((m) => <span key={m} className="chip">{m.replace(/_/g, ' ')}</span>)}</p>
           )}
@@ -171,6 +210,16 @@ function AccountCard({ a, onOpen }: { a: Fixture; onOpen: () => void }) {
                 </p>
               </div>
             ))}
+          </section>
+        )}
+
+        {a.relationships.length > 0 && (
+          <section className="blk">
+            <h4>Distribution</h4>
+            <p className="note">
+              Carried by {a.relationships.map((r) => r.targetCompany).join(', ')} — counterparty evidence
+              that the channel is at least partly distribution-mediated.
+            </p>
           </section>
         )}
 
@@ -255,6 +304,15 @@ function Drawer({ a, onClose }: { a: Fixture; onClose: () => void }) {
         </section>
 
         <section>
+          <h4>Introw suitability — {FIT_LABEL[a.qualification.suitability]}</h4>
+          <p className="note">{a.suitability?.rationale ?? 'Not established.'}</p>
+          {a.suitability?.rule && <p className="note dim">rule: <code>{a.suitability.rule}</code></p>}
+          {(a.suitability?.unknowns.length ?? 0) > 0 && (
+            <p className="note">Unknown: {a.suitability!.unknowns.join(' · ')}</p>
+          )}
+        </section>
+
+        <section>
           <h4>Qualification</h4>
           <dl className="qual">
             {Object.entries(a.qualification).filter(([, v]) => typeof v === 'string').map(([k, v]) => (
@@ -290,13 +348,15 @@ function App() {
 
   const shown = useMemo(() => FIXTURES.filter((a) => {
     if (filter === 'all') return true;
-    if (filter === 'suppressed') return a.qualification.suppressed !== null;
-    if (filter === 'research') return a.qualification.suppressed === null && a.qualification.researchState === 'research_needed';
-    return a.qualification.suppressed === null && a.qualification.channelReality === 'confirmed';
+    if (filter === 'suppressed') return a.suppression.suppressed;
+    if (filter === 'research') return !a.suppression.suppressed && (a.qualification.researchState === 'research_needed' || a.qualification.suitability === 'research_required');
+    return !a.suppression.suppressed && ['strong', 'plausible'].includes(a.qualification.suitability);
   }), [filter]);
 
   const counts = useMemo(() => ({
     channel: FIXTURES.filter((a) => a.qualification.channelReality === 'confirmed' && !a.qualification.suppressed).length,
+    operator: FIXTURES.filter((a) => a.qualification.channelDirection === 'channel_operator' || a.qualification.channelDirection === 'both').length,
+    fitKnown: FIXTURES.filter((a) => ['strong', 'plausible', 'weak', 'incompatible'].includes(a.qualification.suitability)).length,
     crmUnknown: FIXTURES.filter((a) => a.environment.crm.value === null).length,
     teamUnknown: FIXTURES.filter((a) => a.organisation.teamSizeState === 'unknown').length,
     loadAvailable: FIXTURES.filter((a) => a.operationalLoad.availability === 'available').length,
@@ -319,6 +379,8 @@ function App() {
 
         <div className="stats">
           <div><b>{counts.channel}</b><span>channel confirmed</span></div>
+          <div><b>{counts.operator}</b><span>confirmed operators</span></div>
+          <div><b>{counts.fitKnown}/{FIXTURES.length}</b><span>suitability established</span></div>
           <div><b>{counts.crmUnknown}/{FIXTURES.length}</b><span>CRM unknown</span></div>
           <div><b>{counts.teamUnknown}/{FIXTURES.length}</b><span>team size unknown</span></div>
           <div><b>{counts.loadAvailable}/{FIXTURES.length}</b><span>operational load computable</span></div>

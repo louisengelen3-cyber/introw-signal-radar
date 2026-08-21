@@ -1,0 +1,14 @@
+industrial cohort: 21 companies (frozen in Phase 1, not edited)
+[1/21] Anybus               anybus.com           -> anybus.com           [confirmed   ] before=unknown       after=unknown       probes=0 hits=0
+[2/21] BOVER                bover.de             -> bover.pl             [probable    ] before=unknown       after=unknown       probes=30 hits=0
+[3/21] Bata                 bata.com             -> bata.de              [probable    ] before=unknown       after=unknown       probes=30 hits=0
+[4/21] Circutor             circutor.com         -> circutor.com         [confirmed   ] before=unknown       after=unknown       probes=0 hits=0
+[5/21] DELTA LIGHT          deltalight.com       -> deltalight.de        [confirmed   ] before=unknown       after=unknown       probes=0 hits=0
+[6/21] FLUKE                fluke.com            -> fluke.com            [confirmed   ] before=transacting   after=transacting   probes=0 hits=0
+[7/21] ECODORA              ecodora.com          -> ecodora.com          [confirmed   ] before=unknown       after=unknown       probes=30 hits=0
+[8/21] EURO 300             euro300.de           -> euro300.de           [probable    ] before=unknown       after=unknown       probes=30 hits=0
+[9/21] IFM                  ifm.com              -> ifm.com              [confirmed   ] before=unknown       after=unknown       probes=30 hits=0
+[10/21] Hafu                 hafu.de              -> hafu.de              [probable    ] before=unknown       after=unknown       probes=30 hits=0
+[11/21] LEINE & LINDE        leinelinde.com       -> leinelinde.com       [confirmed   ] before=unknown       after=unknown       probes=30 hits=0
+[12/21] MITUTOYO             mitutoyo.com         -> mitutoyo.com         [confirmed   ] before=unknown       after=unknown       probes=0 hits=0
+[13/21] KDS                  kds.eu               -> kds.be               [confirmed   ] before=unknown       after=unknown       probes=30 hits=0

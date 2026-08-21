@@ -1,0 +1,2066 @@
+[
+  {
+    "name": "Anybus",
+    "beforeDomain": "anybus.com",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 253,
+    "resolution": {
+      "input": "Anybus",
+      "domain": "anybus.com",
+      "state": "confirmed",
+      "confidence": "high",
+      "method": "guessed anybus.com; page names the company and matches the electrical_industrial context",
+      "alternatives": [
+        {
+          "domain": "anybus.com",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "fit",
+          "title": "Anybus | Connecting any device to any network",
+          "note": "names the company"
+        }
+      ],
+      "probes": 1
+    },
+    "afterDomain": "anybus.com",
+    "after": {
+      "domain": "anybus.com",
+      "retrievedAt": "2026-08-21T16:26:08.468Z",
+      "reachable": true,
+      "inventory": {
+        "site": 154,
+        "commonCrawl": 99,
+        "dnsHosts": 0,
+        "probed": 0,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "site",
+          "common_crawl"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 1,
+        "lookupFailures": 7
+      },
+      "pagesFetched": [
+        {
+          "url": "https://partner.anybus.com/",
+          "status": 0,
+          "chars": 0
+        },
+        {
+          "url": "https://www.hms-networks.com/contact/find-distributor",
+          "status": 200,
+          "chars": 460891
+        },
+        {
+          "url": "http://www.anybus.com/contact/find-distributor",
+          "status": 200,
+          "chars": 460891
+        },
+        {
+          "url": "http://www.anybus.com/partner/partnerprogram.shtml",
+          "status": 200,
+          "chars": 226999
+        }
+      ],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [
+          {
+            "companyId": "anybus.com",
+            "evidenceClass": "PROGRAM_PAGE",
+            "claim": "URL shape url_partner_generic present: /about-hms/company/partnerships",
+            "source": {
+              "url": "https://www.hms-networks.com/about-hms/company/partnerships",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:26:38.866Z",
+              "retrievedAt": "2026-08-21T16:26:38.866Z"
+            },
+            "strength": "weak",
+            "implication": "neutral",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          },
+          {
+            "companyId": "anybus.com",
+            "evidenceClass": "RESELLER_LANGUAGE",
+            "claim": "URL shape url_reseller present: /contact/find-distributor",
+            "source": {
+              "url": "https://www.hms-networks.com/contact/find-distributor",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:26:38.866Z",
+              "retrievedAt": "2026-08-21T16:26:38.866Z"
+            },
+            "strength": "weak",
+            "implication": "transacting",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          }
+        ],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 1,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "unknown",
+        "confidence": "low",
+        "rule": "no_direction_evidence",
+        "rationale": "No first-person invitation and no membership language observed. Direction of the channel relationship is unresolved.",
+        "relationships": [],
+        "ownedProgrammeSurfaces": [
+          "https://partner.anybus.com/"
+        ],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:26:38.890Z"
+      },
+      "partnerCount": {
+        "value": 19,
+        "countType": "lower_bound",
+        "enumerationComplete": false,
+        "unit": "linked organisations",
+        "source": {
+          "url": "https://www.hms-networks.com/contact/find-distributor",
+          "authority": "subject_first_party",
+          "establishes": "the company publishes this list of partner organisations",
+          "observedAt": "2026-08-21T14:12:04.997Z",
+          "retrievedAt": "2026-08-21T14:12:04.997Z",
+          "httpStatus": 200
+        },
+        "observedAt": "2026-08-21T14:12:04.997Z",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "BOVER",
+    "beforeDomain": "bover.de",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 5,
+    "resolution": {
+      "input": "BOVER",
+      "domain": "bover.pl",
+      "state": "probable",
+      "confidence": "medium",
+      "method": "guessed bover.pl; page names the company but the business context could not be corroborated",
+      "alternatives": [
+        {
+          "domain": "bover.de",
+          "live": true,
+          "namesCompany": false,
+          "contextFit": "unknown",
+          "title": "bover.de | fruits",
+          "note": "parked, redirect stub, or too little content to corroborate"
+        },
+        {
+          "domain": "bover.nl",
+          "live": true,
+          "namesCompany": false,
+          "contextFit": "unknown",
+          "title": "BodemVergelijker.nl | voor vergelijking van bodemspecialisten",
+          "note": "live but does not name the company"
+        },
+        {
+          "domain": "bover.pl",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "unknown",
+          "title": "Bover",
+          "note": "names the company"
+        }
+      ],
+      "probes": 15
+    },
+    "afterDomain": "bover.pl",
+    "after": {
+      "domain": "bover.pl",
+      "retrievedAt": "2026-08-21T16:26:16.882Z",
+      "reachable": true,
+      "inventory": {
+        "site": 504,
+        "commonCrawl": 18,
+        "dnsHosts": 3,
+        "probed": 30,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "passive_dns",
+          "cert_transparency",
+          "site",
+          "common_crawl"
+        ]
+      },
+      "dns": {
+        "wildcard": true,
+        "platform": null,
+        "distinctHosts": 0,
+        "lookupFailures": 0
+      },
+      "pagesFetched": [],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 0,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "unknown",
+        "confidence": "low",
+        "rule": "no_direction_evidence",
+        "rationale": "No first-person invitation and no membership language observed. Direction of the channel relationship is unresolved.",
+        "relationships": [],
+        "ownedProgrammeSurfaces": [],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:27:09.357Z"
+      },
+      "partnerCount": {
+        "value": null,
+        "countType": "unknown",
+        "enumerationComplete": null,
+        "unit": null,
+        "source": null,
+        "observedAt": null,
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "Bata",
+    "beforeDomain": "bata.com",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 10441,
+    "resolution": {
+      "input": "Bata",
+      "domain": "bata.de",
+      "state": "probable",
+      "confidence": "medium",
+      "method": "guessed bata.de; page names the company but the business context could not be corroborated",
+      "alternatives": [
+        {
+          "domain": "bata.com",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "mismatch",
+          "title": "Bata | Magasin de chaussures et accessoires pour toute la famille",
+          "note": "names the company"
+        },
+        {
+          "domain": "bata.de",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "unknown",
+          "title": "Bata | Schuh- und Accessoiregeschäft für die ganze Familie",
+          "note": "names the company"
+        }
+      ],
+      "probes": 2
+    },
+    "afterDomain": "bata.de",
+    "after": {
+      "domain": "bata.de",
+      "retrievedAt": "2026-08-21T16:26:08.475Z",
+      "reachable": true,
+      "inventory": {
+        "site": 8049,
+        "commonCrawl": 4,
+        "dnsHosts": 2,
+        "probed": 30,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "passive_dns",
+          "cert_transparency",
+          "site",
+          "common_crawl"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 0,
+        "lookupFailures": 9
+      },
+      "pagesFetched": [],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 0,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "unknown",
+        "confidence": "low",
+        "rule": "no_direction_evidence",
+        "rationale": "No first-person invitation and no membership language observed. Direction of the channel relationship is unresolved.",
+        "relationships": [],
+        "ownedProgrammeSurfaces": [],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "large",
+        "multiTierSuspected": true,
+        "rationale": "partner count unavailable; site inventory of 8053 URLs indicates an organisation at the enterprise end"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:27:33.784Z"
+      },
+      "partnerCount": {
+        "value": null,
+        "countType": "unknown",
+        "enumerationComplete": null,
+        "unit": null,
+        "source": null,
+        "observedAt": null,
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "Circutor",
+    "beforeDomain": "circutor.com",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 2537,
+    "resolution": {
+      "input": "Circutor",
+      "domain": "circutor.com",
+      "state": "confirmed",
+      "confidence": "high",
+      "method": "guessed circutor.com; page names the company and matches the electrical_industrial context",
+      "alternatives": [
+        {
+          "domain": "circutor.com",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "fit",
+          "title": "Productos y Soluciones para la Eficiencia Energética Eléctrica",
+          "note": "names the company"
+        }
+      ],
+      "probes": 1
+    },
+    "afterDomain": "circutor.com",
+    "after": {
+      "domain": "circutor.com",
+      "retrievedAt": "2026-08-21T16:26:38.896Z",
+      "reachable": true,
+      "inventory": {
+        "site": 166,
+        "commonCrawl": 2371,
+        "dnsHosts": 0,
+        "probed": 0,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "site",
+          "common_crawl"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 1,
+        "lookupFailures": 9
+      },
+      "pagesFetched": [
+        {
+          "url": "https://circutor.com/gracias-circutor-partner-program/",
+          "status": 200,
+          "chars": 60965
+        },
+        {
+          "url": "https://circutor.com/en/categoria/",
+          "status": 200,
+          "chars": 62677
+        },
+        {
+          "url": "https://circutor.com/en/thanks-middle-east-energy/",
+          "status": 200,
+          "chars": 58736
+        },
+        {
+          "url": "https://circutor.com/en/",
+          "status": 200,
+          "chars": 164429
+        },
+        {
+          "url": "https://circutor.com/en/advanced-search/?search=Autoconsumo",
+          "status": 200,
+          "chars": 62707
+        },
+        {
+          "url": "https://circutor.com/en/50th-anniversary/",
+          "status": 200,
+          "chars": 77855
+        },
+        {
+          "url": "https://circutor.com/en/advanced-search/?search=Earth%20leakage%20protection",
+          "status": 200,
+          "chars": 62904
+        }
+      ],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [
+          {
+            "companyId": "circutor.com",
+            "evidenceClass": "ONBOARDING",
+            "claim": "URL shape url_become_partner present: /gracias-circutor-partner-program/",
+            "source": {
+              "url": "https://circutor.com/gracias-circutor-partner-program/",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:27:33.823Z",
+              "retrievedAt": "2026-08-21T16:27:33.823Z"
+            },
+            "strength": "weak",
+            "implication": "transacting",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          },
+          {
+            "companyId": "circutor.com",
+            "evidenceClass": "APP_MARKETPLACE",
+            "claim": "URL shape url_integration present: /ca/productes/proteccio-diferencial-i-magnetotermica-amb-reconnexio/proteccio-i-reconnexio-magnetotermica/rele-reconnector-per-a-magnetotermic-motoritzat/",
+            "source": {
+              "url": "https://circutor.com/ca/productes/proteccio-diferencial-i-magnetotermica-amb-reconnexio/proteccio-i-reconnexio-magnetotermica/rele-reconnector-per-a-magnetotermic-motoritzat/",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:27:33.823Z",
+              "retrievedAt": "2026-08-21T16:27:33.823Z"
+            },
+            "strength": "weak",
+            "implication": "integration",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          },
+          {
+            "companyId": "circutor.com",
+            "evidenceClass": "CUSTOMER_LOGOS",
+            "claim": "the page shows organisations the company works with in some capacity",
+            "quote": "…e have managed to develop, manufacture and provide products that help our customers become more efficient energy consumers. People have always been at th…",
+            "source": {
+              "url": "https://circutor.com/en/50th-anniversary/",
+              "authority": "subject_first_party",
+              "establishes": "the page shows organisations the company works with in some capacity",
+              "observedAt": "2026-08-21T16:27:30.629Z",
+              "retrievedAt": "2026-08-21T16:27:30.629Z",
+              "httpStatus": 200
+            },
+            "strength": "weak",
+            "implication": "neutral",
+            "contaminationRisk": "customer logo walls are routinely mistaken for partner directories",
+            "motions": [],
+            "lang": "en"
+          }
+        ],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 1,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "unknown",
+        "confidence": "low",
+        "rule": "no_direction_evidence",
+        "rationale": "No first-person invitation and no membership language observed. Direction of the channel relationship is unresolved.",
+        "relationships": [],
+        "ownedProgrammeSurfaces": [],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:27:33.838Z"
+      },
+      "partnerCount": {
+        "value": null,
+        "countType": "unknown",
+        "enumerationComplete": null,
+        "unit": null,
+        "source": null,
+        "observedAt": null,
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "DELTA LIGHT",
+    "beforeDomain": "deltalight.com",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 100,
+    "resolution": {
+      "input": "DELTA LIGHT",
+      "domain": "deltalight.de",
+      "state": "confirmed",
+      "confidence": "high",
+      "method": "guessed deltalight.de; page names the company and matches the electrical_industrial context",
+      "alternatives": [
+        {
+          "domain": "deltalight.com",
+          "live": true,
+          "namesCompany": false,
+          "contextFit": "unknown",
+          "title": "DELTALIGHT",
+          "note": "parked, redirect stub, or too little content to corroborate"
+        },
+        {
+          "domain": "deltalight.de",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "fit",
+          "title": "Hauptseite - DELTALIGHT",
+          "note": "names the company"
+        }
+      ],
+      "probes": 2
+    },
+    "afterDomain": "deltalight.de",
+    "after": {
+      "domain": "deltalight.de",
+      "retrievedAt": "2026-08-21T16:27:09.848Z",
+      "reachable": true,
+      "inventory": {
+        "site": 101,
+        "commonCrawl": 0,
+        "dnsHosts": 3,
+        "probed": 0,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "passive_dns",
+          "cert_transparency",
+          "site"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 0,
+        "lookupFailures": 6
+      },
+      "pagesFetched": [
+        {
+          "url": "https://deltalight.com/en",
+          "status": 200,
+          "chars": 293009
+        },
+        {
+          "url": "https://deltalight.com/en-gb",
+          "status": 200,
+          "chars": 292058
+        }
+      ],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 0,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "unknown",
+        "confidence": "low",
+        "rule": "no_direction_evidence",
+        "rationale": "No first-person invitation and no membership language observed. Direction of the channel relationship is unresolved.",
+        "relationships": [],
+        "ownedProgrammeSurfaces": [],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:27:50.629Z"
+      },
+      "partnerCount": {
+        "value": null,
+        "countType": "unknown",
+        "enumerationComplete": null,
+        "unit": null,
+        "source": null,
+        "observedAt": null,
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "FLUKE",
+    "beforeDomain": "fluke.com",
+    "beforeReachable": true,
+    "beforeCommerciality": "transacting",
+    "beforeRule": "corroborated_transacting",
+    "beforeInventory": 4058,
+    "resolution": {
+      "input": "FLUKE",
+      "domain": "fluke.com",
+      "state": "confirmed",
+      "confidence": "high",
+      "method": "guessed fluke.com; page names the company and matches the electrical_industrial context",
+      "alternatives": [
+        {
+          "domain": "fluke.com",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "fit",
+          "title": "Fluke Corporation: Fluke Electronics, Calibration and Networks",
+          "note": "names the company"
+        }
+      ],
+      "probes": 1
+    },
+    "afterDomain": "fluke.com",
+    "after": {
+      "domain": "fluke.com",
+      "retrievedAt": "2026-08-21T16:27:50.636Z",
+      "reachable": true,
+      "inventory": {
+        "site": 4058,
+        "commonCrawl": 0,
+        "dnsHosts": 0,
+        "probed": 0,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "site"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 2,
+        "lookupFailures": 4
+      },
+      "pagesFetched": [
+        {
+          "url": "https://www.fluke.com/en/where-to-buy",
+          "status": 200,
+          "chars": 216038
+        },
+        {
+          "url": "https://www.fluke.com/en-us/where-to-buy",
+          "status": 200,
+          "chars": 233267
+        },
+        {
+          "url": "https://www.fluke.com/en-us/support/distributors",
+          "status": 200,
+          "chars": 201966
+        },
+        {
+          "url": "https://partnerportal.fluke.com/",
+          "status": 200,
+          "chars": 55686
+        },
+        {
+          "url": "https://www.fluke.com/en",
+          "status": 200,
+          "chars": 277486
+        },
+        {
+          "url": "https://www.fluke.com/en-us",
+          "status": 200,
+          "chars": 314708
+        },
+        {
+          "url": "https://www.fluke.com/en/products",
+          "status": 200,
+          "chars": 264478
+        },
+        {
+          "url": "https://www.fluke.com/en/where-to-buy/promotions-and-contests",
+          "status": 200,
+          "chars": 212654
+        },
+        {
+          "url": "https://www.fluke.com/en-us/support/fluke-workforce-development-partnership-program-terms-and-conditions",
+          "status": 200,
+          "chars": 210673
+        }
+      ],
+      "classification": {
+        "commerciality": "transacting",
+        "confidence": "high",
+        "rule": "corroborated_transacting",
+        "rationale": "4 independent strong transacting evidence classes (PARTNER_DIRECTORY, DEALER_LANGUAGE, DISTRIBUTOR_LANGUAGE, PARTNER_PORTAL). No single phrase carries the verdict.",
+        "motions": [
+          "dealer",
+          "distributor"
+        ],
+        "evidence": [
+          {
+            "companyId": "fluke.com",
+            "evidenceClass": "PARTNER_DIRECTORY",
+            "claim": "URL shape url_directory present: /en/where-to-buy/promotions-and-contests",
+            "source": {
+              "url": "https://www.fluke.com/en/where-to-buy/promotions-and-contests",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:28:22.560Z",
+              "retrievedAt": "2026-08-21T16:28:22.560Z"
+            },
+            "strength": "strong",
+            "implication": "transacting",
+            "contaminationRisk": "the page may be stale; publication is not proof the process is currently active",
+            "motions": []
+          },
+          {
+            "companyId": "fluke.com",
+            "evidenceClass": "AFFILIATE",
+            "claim": "URL shape url_affiliate present: /en-us/fluke/social-media-influencer-discount-promotion",
+            "source": {
+              "url": "https://www.fluke.com/en-us/fluke/social-media-influencer-discount-promotion",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:28:22.560Z",
+              "retrievedAt": "2026-08-21T16:28:22.560Z"
+            },
+            "strength": "weak",
+            "implication": "affiliate",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          },
+          {
+            "companyId": "fluke.com",
+            "evidenceClass": "APP_MARKETPLACE",
+            "claim": "URL shape url_integration present: /en-us/product/fluke-software/fluke-calibration-software/met-connect-calibration-integration-software",
+            "source": {
+              "url": "https://www.fluke.com/en-us/product/fluke-software/fluke-calibration-software/met-connect-calibration-integration-software",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:28:22.560Z",
+              "retrievedAt": "2026-08-21T16:28:22.560Z"
+            },
+            "strength": "weak",
+            "implication": "integration",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          },
+          {
+            "companyId": "fluke.com",
+            "evidenceClass": "RESELLER_LANGUAGE",
+            "claim": "URL shape url_reseller present: /en-us/support/distributors",
+            "source": {
+              "url": "https://www.fluke.com/en-us/support/distributors",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:28:22.560Z",
+              "retrievedAt": "2026-08-21T16:28:22.560Z"
+            },
+            "strength": "weak",
+            "implication": "transacting",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          },
+          {
+            "companyId": "fluke.com",
+            "evidenceClass": "INSTALLER_LANGUAGE",
+            "claim": "URL shape url_installer_dealer present: /en-us/support/press-releases/fluke-connect-wins-gold-achr-the-news-dealer-design-award",
+            "source": {
+              "url": "https://www.fluke.com/en-us/support/press-releases/fluke-connect-wins-gold-achr-the-news-dealer-design-award",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:28:22.560Z",
+              "retrievedAt": "2026-08-21T16:28:22.560Z"
+            },
+            "strength": "weak",
+            "implication": "transacting",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          },
+          {
+            "companyId": "fluke.com",
+            "evidenceClass": "PROGRAM_PAGE",
+            "claim": "URL shape url_partner_generic present: /en-us/support/fluke-workforce-development-partnership-program-terms-and-conditions",
+            "source": {
+              "url": "https://www.fluke.com/en-us/support/fluke-workforce-development-partnership-program-terms-and-conditions",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:28:22.560Z",
+              "retrievedAt": "2026-08-21T16:28:22.560Z"
+            },
+            "strength": "weak",
+            "implication": "neutral",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          },
+          {
+            "companyId": "fluke.com",
+            "evidenceClass": "DEALER_LANGUAGE",
+            "claim": "the company sells through named dealers",
+            "quote": "Where to Buy Fluke: Africa, Europe, Middle East | Fluke Skip to main content Engli…",
+            "source": {
+              "url": "https://www.fluke.com/en/where-to-buy",
+              "authority": "subject_first_party",
+              "establishes": "the company sells through named dealers",
+              "observedAt": "2026-08-21T14:17:31.716Z",
+              "retrievedAt": "2026-08-21T14:17:31.716Z",
+              "httpStatus": 200
+            },
+            "strength": "strong",
+            "implication": "transacting",
+            "contaminationRisk": null,
+            "motions": [
+              "dealer",
+              "distributor"
+            ],
+            "lang": "en"
+          },
+          {
+            "companyId": "fluke.com",
+            "evidenceClass": "DISTRIBUTOR_LANGUAGE",
+            "claim": "the company sells through distribution",
+            "quote": "…t | Fluke Skip to main content English Where to buy To find the right distributor for your needs, please select a product category first . This ensures…",
+            "source": {
+              "url": "https://www.fluke.com/en/where-to-buy",
+              "authority": "subject_first_party",
+              "establishes": "the company sells through distribution",
+              "observedAt": "2026-08-21T14:17:31.716Z",
+              "retrievedAt": "2026-08-21T14:17:31.716Z",
+              "httpStatus": 200
+            },
+            "strength": "strong",
+            "implication": "transacting",
+            "contaminationRisk": "a distributor-only model may mean the channel is operated by the distributor",
+            "motions": [
+              "distributor"
+            ],
+            "lang": "de"
+          },
+          {
+            "companyId": "fluke.com",
+            "evidenceClass": "PARTNER_PORTAL",
+            "claim": "the company runs a gated surface for partners to log into",
+            "quote": "Partner Portal | Keeping your world up and running.® Skip to main content Sales Part…",
+            "source": {
+              "url": "https://partnerportal.fluke.com/",
+              "authority": "subject_first_party",
+              "establishes": "the company runs a gated surface for partners to log into",
+              "observedAt": "2026-08-21T14:26:11.183Z",
+              "retrievedAt": "2026-08-21T14:26:11.183Z",
+              "httpStatus": 200
+            },
+            "strength": "strong",
+            "implication": "transacting",
+            "contaminationRisk": "a customer portal is sometimes labelled a partner portal on translated sites",
+            "motions": [],
+            "lang": "en"
+          },
+          {
+            "companyId": "fluke.com",
+            "evidenceClass": "CUSTOMER_LOGOS",
+            "claim": "the page shows organisations the company works with in some capacity",
+            "quote": "Fluke helps keep business and industry running in over 100 countries. Our customers count on us for rugged, reliable and accurate test instruments. We of…",
+            "source": {
+              "url": "https://www.fluke.com/",
+              "authority": "subject_first_party",
+              "establishes": "the page shows organisations the company works with in some capacity",
+              "observedAt": "2026-08-21T13:54:38.579Z",
+              "retrievedAt": "2026-08-21T13:54:38.579Z",
+              "httpStatus": 200
+            },
+            "strength": "weak",
+            "implication": "neutral",
+            "contaminationRisk": "customer logo walls are routinely mistaken for partner directories",
+            "motions": [],
+            "lang": "en"
+          }
+        ],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 4,
+          "weakTransacting": 2,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "distributed_vendor",
+        "confidence": "medium",
+        "rule": "distribution_without_programme",
+        "rationale": "The company routes buyers to distributors or resellers, but publishes no invitation to join a programme it runs. Whether it manages those partners directly is unresolved — the downstream relationships may be owned by the distributor.",
+        "relationships": [
+          {
+            "sourceCompany": "fluke.com",
+            "targetCompany": null,
+            "relationshipType": "DISTRIBUTES",
+            "direction": "outbound",
+            "evidence": {
+              "url": "https://www.fluke.com/en/where-to-buy",
+              "authority": "subject_first_party",
+              "establishes": "the company directs buyers to distributors or resellers for purchase",
+              "observedAt": "2026-08-21T14:17:31.716Z",
+              "retrievedAt": "2026-08-21T14:17:31.716Z"
+            },
+            "quote": "Where to Buy",
+            "confidence": "medium",
+            "observedAt": "2026-08-21T14:17:31.716Z"
+          },
+          {
+            "sourceCompany": "fluke.com",
+            "targetCompany": null,
+            "relationshipType": "DISTRIBUTES",
+            "direction": "outbound",
+            "evidence": {
+              "url": "https://www.fluke.com/en-us/where-to-buy",
+              "authority": "subject_first_party",
+              "establishes": "the company directs buyers to distributors or resellers for purchase",
+              "observedAt": "2026-08-21T14:13:16.323Z",
+              "retrievedAt": "2026-08-21T14:13:16.323Z"
+            },
+            "quote": "Where To Buy",
+            "confidence": "medium",
+            "observedAt": "2026-08-21T14:13:16.323Z"
+          },
+          {
+            "sourceCompany": "fluke.com",
+            "targetCompany": null,
+            "relationshipType": "DISTRIBUTES",
+            "direction": "outbound",
+            "evidence": {
+              "url": "https://www.fluke.com/en/where-to-buy/promotions-and-contests",
+              "authority": "subject_first_party",
+              "establishes": "the company directs buyers to distributors or resellers for purchase",
+              "observedAt": "2026-08-21T16:28:20.167Z",
+              "retrievedAt": "2026-08-21T16:28:20.167Z"
+            },
+            "quote": "Where to buy",
+            "confidence": "medium",
+            "observedAt": "2026-08-21T16:28:20.167Z"
+          }
+        ],
+        "ownedProgrammeSurfaces": [
+          "https://partnerportal.fluke.com/"
+        ],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "research_required",
+        "confidence": "low",
+        "rule": "distribution_tier_unresolved",
+        "rationale": "Distribution is present and it is unresolved whether the company also runs a direct programme. That is the difference between an addressable account and a distributor's account.",
+        "positive": [
+          {
+            "dimension": "operational_artifacts",
+            "polarity": "positive",
+            "claim": "an operational object Introw provides is already in use here",
+            "quote": "Partner Portal",
+            "sourceUrl": "https://partnerportal.fluke.com/",
+            "relatesTo": "partner_portal",
+            "confidence": "medium"
+          }
+        ],
+        "negative": [
+          {
+            "dimension": "channel_depth",
+            "polarity": "negative",
+            "claim": "cebeo publicly lists this company among the brands it distributes, so the channel is at least partly distribution-mediated",
+            "quote": "FLUKE",
+            "sourceUrl": "https://www.cebeo.be/catalog/nl-be/brand/fluke",
+            "relatesTo": "multi_tier_governance",
+            "confidence": "medium"
+          }
+        ],
+        "unknowns": [
+          "whether the company manages downstream partners directly or the distributor does",
+          "partner-team size",
+          "partner-sourced revenue share",
+          "partner adoption",
+          "incumbent partner platform (no fingerprint found — not evidence that none is in use)"
+        ],
+        "blockers": [],
+        "researchNeeded": [
+          {
+            "field": "programme_ownership",
+            "reason": "products move through distribution, but no invitation to a programme this company runs was found",
+            "method": "check whether the company maintains its own partner agreement, portal or registration process, or whether the distributor owns those relationships"
+          },
+          {
+            "field": "direct_programme",
+            "reason": "distribution present and no strong direct-programme evidence found",
+            "method": "check whether resellers contract with the company or only with the distributor"
+          }
+        ],
+        "evaluatedAt": "2026-08-21T16:28:22.579Z"
+      },
+      "partnerCount": {
+        "value": 20,
+        "countType": "lower_bound",
+        "enumerationComplete": false,
+        "unit": "linked organisations",
+        "source": {
+          "url": "https://www.fluke.com/en-us/where-to-buy",
+          "authority": "subject_first_party",
+          "establishes": "the company publishes this list of partner organisations",
+          "observedAt": "2026-08-21T14:13:16.323Z",
+          "retrievedAt": "2026-08-21T14:13:16.323Z",
+          "httpStatus": 200
+        },
+        "observedAt": "2026-08-21T14:13:16.323Z",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "ECODORA",
+    "beforeDomain": "ecodora.com",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 5002,
+    "resolution": {
+      "input": "ECODORA",
+      "domain": "ecodora.com",
+      "state": "confirmed",
+      "confidence": "high",
+      "method": "guessed ecodora.com; page names the company and matches the electrical_industrial context",
+      "alternatives": [
+        {
+          "domain": "ecodora.com",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "fit",
+          "title": "Technology for fluidynamics | Ecodora",
+          "note": "names the company"
+        }
+      ],
+      "probes": 1
+    },
+    "afterDomain": "ecodora.com",
+    "after": {
+      "domain": "ecodora.com",
+      "retrievedAt": "2026-08-21T16:27:33.790Z",
+      "reachable": true,
+      "inventory": {
+        "site": 4859,
+        "commonCrawl": 143,
+        "dnsHosts": 0,
+        "probed": 30,
+        "probeHits": 0,
+        "softNotFound": 30,
+        "sources": [
+          "site",
+          "common_crawl"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 0,
+        "lookupFailures": 9
+      },
+      "pagesFetched": [],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [
+          {
+            "companyId": "ecodora.com",
+            "evidenceClass": "RESELLER_LANGUAGE",
+            "claim": "URL shape url_reseller present: /ita/prodotti/automotive/attrezzature-per-l-olio/distributori-pneumatici/",
+            "source": {
+              "url": "https://www.ecodora.com/ita/prodotti/automotive/attrezzature-per-l-olio/distributori-pneumatici/",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:28:41.235Z",
+              "retrievedAt": "2026-08-21T16:28:41.235Z"
+            },
+            "strength": "weak",
+            "implication": "transacting",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          }
+        ],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 1,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "unknown",
+        "confidence": "low",
+        "rule": "no_direction_evidence",
+        "rationale": "No first-person invitation and no membership language observed. Direction of the channel relationship is unresolved.",
+        "relationships": [],
+        "ownedProgrammeSurfaces": [],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:28:41.250Z"
+      },
+      "partnerCount": {
+        "value": null,
+        "countType": "unknown",
+        "enumerationComplete": null,
+        "unit": null,
+        "source": null,
+        "observedAt": null,
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "EURO 300",
+    "beforeDomain": "euro300.de",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 7,
+    "resolution": {
+      "input": "EURO 300",
+      "domain": "euro300.de",
+      "state": "probable",
+      "confidence": "medium",
+      "method": "guessed euro300.de; page names the company but the business context could not be corroborated",
+      "alternatives": [
+        {
+          "domain": "euro300.de",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "unknown",
+          "title": "euro300.de jetzt kaufen!",
+          "note": "names the company"
+        }
+      ],
+      "probes": 2
+    },
+    "afterDomain": "euro300.de",
+    "after": {
+      "domain": "euro300.de",
+      "retrievedAt": "2026-08-21T16:27:33.840Z",
+      "reachable": true,
+      "inventory": {
+        "site": 7,
+        "commonCrawl": 0,
+        "dnsHosts": 0,
+        "probed": 30,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "site"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 0,
+        "lookupFailures": 10
+      },
+      "pagesFetched": [],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 0,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "unknown",
+        "confidence": "low",
+        "rule": "no_direction_evidence",
+        "rationale": "No first-person invitation and no membership language observed. Direction of the channel relationship is unresolved.",
+        "relationships": [],
+        "ownedProgrammeSurfaces": [],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:28:52.998Z"
+      },
+      "partnerCount": {
+        "value": null,
+        "countType": "unknown",
+        "enumerationComplete": null,
+        "unit": null,
+        "source": null,
+        "observedAt": null,
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "IFM",
+    "beforeDomain": "ifm.com",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 13119,
+    "resolution": {
+      "input": "IFM",
+      "domain": "ifm.com",
+      "state": "confirmed",
+      "confidence": "high",
+      "method": "guessed ifm.com; page names the company and matches the electrical_industrial context",
+      "alternatives": [
+        {
+          "domain": "ifm.com",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "fit",
+          "title": "ifm - automation made in Germany",
+          "note": "names the company"
+        }
+      ],
+      "probes": 1
+    },
+    "afterDomain": "ifm.com",
+    "after": {
+      "domain": "ifm.com",
+      "retrievedAt": "2026-08-21T16:28:41.253Z",
+      "reachable": true,
+      "inventory": {
+        "site": 13148,
+        "commonCrawl": 0,
+        "dnsHosts": 0,
+        "probed": 30,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "site"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 2,
+        "lookupFailures": 7
+      },
+      "pagesFetched": [],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [
+          {
+            "companyId": "ifm.com",
+            "evidenceClass": "INSTALLER_LANGUAGE",
+            "claim": "URL shape url_installer_dealer present: /ae/en/download/eco100_CODESYS_Installer",
+            "source": {
+              "url": "https://www.ifm.com/ae/en/download/eco100_CODESYS_Installer",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:29:14.249Z",
+              "retrievedAt": "2026-08-21T16:29:14.249Z"
+            },
+            "strength": "weak",
+            "implication": "transacting",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          },
+          {
+            "companyId": "ifm.com",
+            "evidenceClass": "APP_MARKETPLACE",
+            "claim": "URL shape url_integration present: /ae/en/download/eco100_CANwireless_connector",
+            "source": {
+              "url": "https://www.ifm.com/ae/en/download/eco100_CANwireless_connector",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:29:14.249Z",
+              "retrievedAt": "2026-08-21T16:29:14.249Z"
+            },
+            "strength": "weak",
+            "implication": "integration",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          },
+          {
+            "companyId": "ifm.com",
+            "evidenceClass": "RESELLER_LANGUAGE",
+            "claim": "URL shape url_reseller present: /ae/en/shared/productnews/2025/hmi/l-coded-16-a-power-distributors",
+            "source": {
+              "url": "https://www.ifm.com/ae/en/shared/productnews/2025/hmi/l-coded-16-a-power-distributors",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:29:14.249Z",
+              "retrievedAt": "2026-08-21T16:29:14.249Z"
+            },
+            "strength": "weak",
+            "implication": "transacting",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          },
+          {
+            "companyId": "ifm.com",
+            "evidenceClass": "PROGRAM_PAGE",
+            "claim": "URL shape url_partner_generic present: /ae/en/shared/news/share-the-business--vision-with-the-partners",
+            "source": {
+              "url": "https://www.ifm.com/ae/en/shared/news/share-the-business--vision-with-the-partners",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:29:14.249Z",
+              "retrievedAt": "2026-08-21T16:29:14.249Z"
+            },
+            "strength": "weak",
+            "implication": "neutral",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          }
+        ],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 2,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "unknown",
+        "confidence": "low",
+        "rule": "no_direction_evidence",
+        "rationale": "No first-person invitation and no membership language observed. Direction of the channel relationship is unresolved.",
+        "relationships": [],
+        "ownedProgrammeSurfaces": [],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "large",
+        "multiTierSuspected": true,
+        "rationale": "partner count unavailable; site inventory of 13150 URLs indicates an organisation at the enterprise end"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:29:14.269Z"
+      },
+      "partnerCount": {
+        "value": null,
+        "countType": "unknown",
+        "enumerationComplete": null,
+        "unit": null,
+        "source": null,
+        "observedAt": null,
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "Hafu",
+    "beforeDomain": "hafu.de",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 7,
+    "resolution": {
+      "input": "Hafu",
+      "domain": "hafu.de",
+      "state": "probable",
+      "confidence": "medium",
+      "method": "guessed hafu.de; page names the company but the business context could not be corroborated",
+      "alternatives": [
+        {
+          "domain": "hafu.de",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "unknown",
+          "title": "HaFu",
+          "note": "names the company"
+        }
+      ],
+      "probes": 2
+    },
+    "afterDomain": "hafu.de",
+    "after": {
+      "domain": "hafu.de",
+      "retrievedAt": "2026-08-21T16:28:22.597Z",
+      "reachable": true,
+      "inventory": {
+        "site": 7,
+        "commonCrawl": 0,
+        "dnsHosts": 0,
+        "probed": 30,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "site"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 0,
+        "lookupFailures": 8
+      },
+      "pagesFetched": [],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 0,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "unknown",
+        "confidence": "low",
+        "rule": "no_direction_evidence",
+        "rationale": "No first-person invitation and no membership language observed. Direction of the channel relationship is unresolved.",
+        "relationships": [],
+        "ownedProgrammeSurfaces": [],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:29:34.011Z"
+      },
+      "partnerCount": {
+        "value": null,
+        "countType": "unknown",
+        "enumerationComplete": null,
+        "unit": null,
+        "source": null,
+        "observedAt": null,
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "LEINE & LINDE",
+    "beforeDomain": "leinelinde.com",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 633,
+    "resolution": {
+      "input": "LEINE & LINDE",
+      "domain": "leinelinde.com",
+      "state": "confirmed",
+      "confidence": "high",
+      "method": "guessed leinelinde.com; page names the company and matches the electrical_industrial context",
+      "alternatives": [
+        {
+          "domain": "leinelinde.com",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "fit",
+          "title": "Robust Encoders &amp; Sensors for Industry  - Leine Linde",
+          "note": "names the company"
+        }
+      ],
+      "probes": 1
+    },
+    "afterDomain": "leinelinde.com",
+    "after": {
+      "domain": "leinelinde.com",
+      "retrievedAt": "2026-08-21T16:29:14.274Z",
+      "reachable": true,
+      "inventory": {
+        "site": 633,
+        "commonCrawl": 0,
+        "dnsHosts": 0,
+        "probed": 30,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "site"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 0,
+        "lookupFailures": 7
+      },
+      "pagesFetched": [],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [
+          {
+            "companyId": "leinelinde.com",
+            "evidenceClass": "APP_MARKETPLACE",
+            "claim": "URL shape url_integration present: /newsroom/press-release-list/strategic-integration-farresa-electronica-to-lead-sales-in-spain-and-portugal/",
+            "source": {
+              "url": "https://www.leinelinde.com/newsroom/press-release-list/strategic-integration-farresa-electronica-to-lead-sales-in-spain-and-portugal/",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:30:22.333Z",
+              "retrievedAt": "2026-08-21T16:30:22.333Z"
+            },
+            "strength": "weak",
+            "implication": "integration",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          },
+          {
+            "companyId": "leinelinde.com",
+            "evidenceClass": "CUSTOMER_LOGOS",
+            "claim": "the page shows organisations the company works with in some capacity",
+            "quote": "…1.0, designed to enhance accessibility and improve data usability for our customers. This update ensures a better user experience and aligns with industr…",
+            "source": {
+              "url": "https://www.leinelinde.com/",
+              "authority": "subject_first_party",
+              "establishes": "the page shows organisations the company works with in some capacity",
+              "observedAt": "2026-08-21T13:54:40.928Z",
+              "retrievedAt": "2026-08-21T13:54:40.928Z",
+              "httpStatus": 200
+            },
+            "strength": "weak",
+            "implication": "neutral",
+            "contaminationRisk": "customer logo walls are routinely mistaken for partner directories",
+            "motions": [],
+            "lang": "en"
+          }
+        ],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 0,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "unknown",
+        "confidence": "low",
+        "rule": "no_direction_evidence",
+        "rationale": "No first-person invitation and no membership language observed. Direction of the channel relationship is unresolved.",
+        "relationships": [],
+        "ownedProgrammeSurfaces": [],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:30:22.340Z"
+      },
+      "partnerCount": {
+        "value": null,
+        "countType": "unknown",
+        "enumerationComplete": null,
+        "unit": null,
+        "source": null,
+        "observedAt": null,
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "MITUTOYO",
+    "beforeDomain": "mitutoyo.com",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "single_strong_uncorroborated",
+    "beforeInventory": 382,
+    "resolution": {
+      "input": "MITUTOYO",
+      "domain": "mitutoyo.com",
+      "state": "confirmed",
+      "confidence": "high",
+      "method": "guessed mitutoyo.com; page names the company and matches the electrical_industrial context",
+      "alternatives": [
+        {
+          "domain": "mitutoyo.com",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "fit",
+          "title": "Mitutoyo America Corporation | Precision Metrology Solutions",
+          "note": "names the company"
+        }
+      ],
+      "probes": 1
+    },
+    "afterDomain": "mitutoyo.com",
+    "after": {
+      "domain": "mitutoyo.com",
+      "retrievedAt": "2026-08-21T16:30:22.348Z",
+      "reachable": true,
+      "inventory": {
+        "site": 382,
+        "commonCrawl": 0,
+        "dnsHosts": 0,
+        "probed": 0,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "site"
+        ]
+      },
+      "dns": {
+        "wildcard": true,
+        "platform": null,
+        "distinctHosts": 0,
+        "lookupFailures": 0
+      },
+      "pagesFetched": [
+        {
+          "url": "https://my.mitutoyo.com/General/FindDistributor",
+          "status": 200,
+          "chars": 45454
+        }
+      ],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "single_strong_uncorroborated",
+        "rationale": "One strong transacting signal (DISTRIBUTOR_LANGUAGE) with no corroboration. A single signal cannot establish a transacting programme — routed to research rather than classified either way.",
+        "motions": [
+          "distributor"
+        ],
+        "evidence": [
+          {
+            "companyId": "mitutoyo.com",
+            "evidenceClass": "PROGRAM_PAGE",
+            "claim": "URL shape url_partner_generic present: /about-us/strategic-partner-associations/",
+            "source": {
+              "url": "https://www.mitutoyo.com/about-us/strategic-partner-associations/",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:30:23.371Z",
+              "retrievedAt": "2026-08-21T16:30:23.371Z"
+            },
+            "strength": "weak",
+            "implication": "neutral",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          },
+          {
+            "companyId": "mitutoyo.com",
+            "evidenceClass": "RESELLER_LANGUAGE",
+            "claim": "URL shape url_reseller present: /General/FindDistributor",
+            "source": {
+              "url": "https://my.mitutoyo.com/General/FindDistributor",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:30:23.371Z",
+              "retrievedAt": "2026-08-21T16:30:23.371Z"
+            },
+            "strength": "weak",
+            "implication": "transacting",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          },
+          {
+            "companyId": "mitutoyo.com",
+            "evidenceClass": "APP_MARKETPLACE",
+            "claim": "URL shape url_integration present: /video/ko-ga-me-robot-integration/",
+            "source": {
+              "url": "https://www.mitutoyo.com/video/ko-ga-me-robot-integration/",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:30:23.371Z",
+              "retrievedAt": "2026-08-21T16:30:23.371Z"
+            },
+            "strength": "weak",
+            "implication": "integration",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          },
+          {
+            "companyId": "mitutoyo.com",
+            "evidenceClass": "DISTRIBUTOR_LANGUAGE",
+            "claim": "the company sells through distribution",
+            "quote": "Find a Distributor - Mitutoyo End User Portal (My.Mitutoyo) menu close Create an Account…",
+            "source": {
+              "url": "https://my.mitutoyo.com/General/FindDistributor",
+              "authority": "subject_first_party",
+              "establishes": "the company sells through distribution",
+              "observedAt": "2026-08-21T14:13:56.191Z",
+              "retrievedAt": "2026-08-21T14:13:56.191Z",
+              "httpStatus": 200
+            },
+            "strength": "strong",
+            "implication": "transacting",
+            "contaminationRisk": "a distributor-only model may mean the channel is operated by the distributor",
+            "motions": [
+              "distributor"
+            ],
+            "lang": "de"
+          }
+        ],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 1,
+          "weakTransacting": 1,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "distributed_vendor",
+        "confidence": "medium",
+        "rule": "distribution_without_programme",
+        "rationale": "The company routes buyers to distributors or resellers, but publishes no invitation to join a programme it runs. Whether it manages those partners directly is unresolved — the downstream relationships may be owned by the distributor.",
+        "relationships": [
+          {
+            "sourceCompany": "mitutoyo.com",
+            "targetCompany": null,
+            "relationshipType": "DISTRIBUTES",
+            "direction": "outbound",
+            "evidence": {
+              "url": "https://my.mitutoyo.com/General/FindDistributor",
+              "authority": "subject_first_party",
+              "establishes": "the company directs buyers to distributors or resellers for purchase",
+              "observedAt": "2026-08-21T14:13:56.191Z",
+              "retrievedAt": "2026-08-21T14:13:56.191Z"
+            },
+            "quote": "Find a Distributor",
+            "confidence": "medium",
+            "observedAt": "2026-08-21T14:13:56.191Z"
+          }
+        ],
+        "ownedProgrammeSurfaces": [],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:30:23.374Z"
+      },
+      "partnerCount": {
+        "value": null,
+        "countType": "unknown",
+        "enumerationComplete": null,
+        "unit": null,
+        "source": null,
+        "observedAt": null,
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "KDS",
+    "beforeDomain": "kds.eu",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 61,
+    "resolution": {
+      "input": "KDS",
+      "domain": "kds.be",
+      "state": "confirmed",
+      "confidence": "high",
+      "method": "guessed kds.be; page names the company and matches the electrical_industrial context",
+      "alternatives": [
+        {
+          "domain": "kds.nl",
+          "live": true,
+          "namesCompany": false,
+          "contextFit": "unknown",
+          "title": "Creatieve marketing producties bedenken én produceren.",
+          "note": "live but does not name the company"
+        },
+        {
+          "domain": "kds.be",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "fit",
+          "title": "KDS dak en gevel",
+          "note": "names the company"
+        }
+      ],
+      "probes": 4
+    },
+    "afterDomain": "kds.be",
+    "after": {
+      "domain": "kds.be",
+      "retrievedAt": "2026-08-21T16:29:07.287Z",
+      "reachable": true,
+      "inventory": {
+        "site": 26,
+        "commonCrawl": 23,
+        "dnsHosts": 2,
+        "probed": 30,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "passive_dns",
+          "cert_transparency",
+          "site",
+          "common_crawl"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 0,
+        "lookupFailures": 6
+      },
+      "pagesFetched": [],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 0,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "unknown",
+        "confidence": "low",
+        "rule": "no_direction_evidence",
+        "rationale": "No first-person invitation and no membership language observed. Direction of the channel relationship is unresolved.",
+        "relationships": [],
+        "ownedProgrammeSurfaces": [],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:30:26.411Z"
+      },
+      "partnerCount": {
+        "value": null,
+        "countType": "unknown",
+        "enumerationComplete": null,
+        "unit": null,
+        "source": null,
+        "observedAt": null,
+        "confidence": "low"
+      }
+    }
+  }
+]

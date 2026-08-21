@@ -1,0 +1,308 @@
+{
+  "note": "Deterministic split of suitability.v1: sorted by domain, every 3rd company to holdout. Generated before any rule was written.",
+  "frozenAt": "2026-08-21",
+  "dev": [
+    {
+      "name": "A10 Networks",
+      "domain": "a10networks.com",
+      "why": "hardware vendor with tiers and registration",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Aikido Security",
+      "domain": "aikido.dev",
+      "why": "customer logo, transacting classification in Phase 1",
+      "cohort": "cohortA_customers"
+    },
+    {
+      "name": "AvePoint",
+      "domain": "avepoint.com",
+      "why": "software vendor with directory, tiers, registration",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Axon",
+      "domain": "axon.com",
+      "why": "CNAME-confirmed customer running Salesforce — tests that Salesforce is not penalised",
+      "cohort": "cohortA_customers"
+    },
+    {
+      "name": "Cisco",
+      "domain": "cisco.com",
+      "hypothesis": "multi_tier + incentive_complexity + enterprise_infrastructure: the canonical multi-tier channel with rebates, MDF and a certification estate",
+      "cohort": "cohortC_hypothesised_poor_fit"
+    },
+    {
+      "name": "Coder",
+      "domain": "coder.com",
+      "why": "CNAME-confirmed customer, co-sell motion",
+      "cohort": "cohortA_customers"
+    },
+    {
+      "name": "Corelight",
+      "domain": "corelight.com",
+      "why": "security vendor with deal registration and portal",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Cubbit",
+      "domain": "cubbit.io",
+      "why": "case study: PRM displacement, direct reseller channel, HubSpot",
+      "cohort": "cohortA_customers"
+    },
+    {
+      "name": "Deep Instinct",
+      "domain": "deepinstinct.com",
+      "why": "security vendor, reseller + distributor",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Deloitte",
+      "domain": "deloitte.com",
+      "hypothesis": "participant_not_operator: alliance ecosystem participation, plus equity-partner title collision; should not reach suitability at all",
+      "cohort": "cohortC_hypothesised_poor_fit"
+    },
+    {
+      "name": "Enphase Energy",
+      "domain": "enphase.com",
+      "why": "US solar with certified installer network",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Epiphan Video",
+      "domain": "epiphan.com",
+      "why": "case study: hardware with reseller/distributor mix",
+      "cohort": "cohortA_customers"
+    },
+    {
+      "name": "ExtraHop",
+      "domain": "extrahop.com",
+      "why": "security vendor, Allbound-detected portal, deal registration",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Factorial",
+      "domain": "factorialhr.com",
+      "why": "case study: 500+ partners, 100+ managers — large but centrally run",
+      "cohort": "cohortA_customers"
+    },
+    {
+      "name": "Forcepoint",
+      "domain": "forcepoint.com",
+      "hypothesis": "multi_tier: distributor-led global security channel",
+      "cohort": "cohortC_hypothesised_poor_fit"
+    },
+    {
+      "name": "Gigamon",
+      "domain": "gigamon.com",
+      "why": "security vendor with distributor language and portal",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Illumio",
+      "domain": "illumio.com",
+      "why": "security vendor with partner directory and portal",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Keeper Security",
+      "domain": "keepersecurity.com",
+      "why": "US security with MSP channel",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "NetApp",
+      "domain": "netapp.com",
+      "hypothesis": "multi_tier + incentive_complexity: two-tier distribution with rebate and MDF governance",
+      "cohort": "cohortC_hypothesised_poor_fit"
+    },
+    {
+      "name": "Niko",
+      "domain": "niko.eu",
+      "why": "BE electrical manufacturer with installer network, local-language",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Nutanix",
+      "domain": "nutanix.com",
+      "hypothesis": "multi_tier + incentive_complexity: distributor-led channel with deal registration and rebate structures",
+      "cohort": "cohortC_hypothesised_poor_fit"
+    },
+    {
+      "name": "Opengear",
+      "domain": "opengear.com",
+      "why": "hardware vendor with tiered reseller programme",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Proofpoint",
+      "domain": "proofpoint.com",
+      "hypothesis": "enterprise_infrastructure + multi_tier: Impartner-detected enterprise PRM with distributor tier",
+      "cohort": "cohortC_hypothesised_poor_fit"
+    },
+    {
+      "name": "Quatt",
+      "domain": "quatt.io",
+      "why": "case study: manufacturer managing certified installers directly",
+      "cohort": "cohortA_customers"
+    },
+    {
+      "name": "Ringover",
+      "domain": "ringover.com",
+      "why": "case study: partner activation, reseller + distributor",
+      "cohort": "cohortA_customers"
+    },
+    {
+      "name": "Riverbed",
+      "domain": "riverbed.com",
+      "hypothesis": "multi_tier + incentive_complexity: distributor-led channel with tiered rebate structures",
+      "cohort": "cohortC_hypothesised_poor_fit"
+    },
+    {
+      "name": "SafeBreach",
+      "domain": "safebreach.com",
+      "why": "case study: Channel Director, security channel",
+      "cohort": "cohortA_customers"
+    },
+    {
+      "name": "SAP",
+      "domain": "sap.com",
+      "hypothesis": "multi_tier + programme_multiplicity + enterprise_infrastructure: distinct VAR, distributor, OEM, service and technology programmes with a partner university and regional governance",
+      "cohort": "cohortC_hypothesised_poor_fit"
+    },
+    {
+      "name": "Sedai",
+      "domain": "sedai.io",
+      "why": "case study: Head of Partners & Alliances",
+      "cohort": "cohortA_customers"
+    },
+    {
+      "name": "Semperis",
+      "domain": "semperis.com",
+      "why": "security vendor, Allbound-detected partner portal",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Sophos",
+      "domain": "sophos.com",
+      "hypothesis": "multi_tier: fully distributor-led security channel; the vendor does not transact with resellers directly",
+      "cohort": "cohortC_hypothesised_poor_fit"
+    },
+    {
+      "name": "Teamleader",
+      "domain": "teamleader.eu",
+      "why": "BE mid-market SaaS, accountant/agency reseller channel, 438 stated partners",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Xelix",
+      "domain": "xelix.com",
+      "why": "case study: Head of Partnerships",
+      "cohort": "cohortA_customers"
+    },
+    {
+      "name": "Zenity",
+      "domain": "zenity.io",
+      "why": "case study: Partner Lead",
+      "cohort": "cohortA_customers"
+    }
+  ],
+  "holdout": [
+    {
+      "name": "Anomali",
+      "domain": "anomali.com",
+      "why": "security vendor, deal registration + reseller + distributor",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Bynder",
+      "domain": "bynder.com",
+      "why": "NL DAM with implementation/agency partners",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Commvault",
+      "domain": "commvault.com",
+      "hypothesis": "multi_tier + incentive_complexity: distributor tier plus enterprise incentive programmes",
+      "cohort": "cohortC_hypothesised_poor_fit"
+    },
+    {
+      "name": "Cumulocity",
+      "domain": "cumulocity.com",
+      "why": "case study: 2-person team, 100+ partners, direct reseller/solution programme, carve-out rebuild",
+      "cohort": "cohortA_customers"
+    },
+    {
+      "name": "Egnyte",
+      "domain": "egnyte.com",
+      "why": "US SaaS with MSP/reseller channel",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Exact",
+      "domain": "exact.com",
+      "why": "NL business software with accountant/reseller network",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Fluke",
+      "domain": "fluke.com",
+      "why": "industrial instruments with dealer/distributor network",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Huawei",
+      "domain": "huawei.com",
+      "hypothesis": "multi_tier + governance_decentralisation: distributor-led sales with regional partner organisations",
+      "cohort": "cohortC_hypothesised_poor_fit"
+    },
+    {
+      "name": "Microsoft",
+      "domain": "microsoft.com",
+      "hypothesis": "programme_multiplicity + enterprise_infrastructure: many concurrent partner programmes with their own certification estate and a distributor tier",
+      "cohort": "cohortC_hypothesised_poor_fit"
+    },
+    {
+      "name": "Nokia",
+      "domain": "nokia.com",
+      "hypothesis": "multi_tier + enterprise_infrastructure: distributor and systems-integrator tiers, Impartner-detected enterprise PRM",
+      "cohort": "cohortC_hypothesised_poor_fit"
+    },
+    {
+      "name": "Parloa",
+      "domain": "parloa.com",
+      "why": "CNAME-confirmed customer",
+      "cohort": "cohortA_customers"
+    },
+    {
+      "name": "ReversingLabs",
+      "domain": "reversinglabs.com",
+      "why": "CNAME-confirmed customer, security reseller channel",
+      "cohort": "cohortA_customers"
+    },
+    {
+      "name": "Rooms",
+      "domain": "rooms.io",
+      "why": "Introw platform tenant discovered in Phase 1; deal registration present",
+      "cohort": "cohortB_plausible"
+    },
+    {
+      "name": "Schneider Electric",
+      "domain": "se.com",
+      "hypothesis": "multi_tier + governance_decentralisation: wholesaler-led distribution with regional and business-unit programmes",
+      "cohort": "cohortC_hypothesised_poor_fit"
+    },
+    {
+      "name": "ShareGate",
+      "domain": "sharegate.com",
+      "why": "CNAME-confirmed customer, software reseller programme",
+      "cohort": "cohortA_customers"
+    },
+    {
+      "name": "Vanta",
+      "domain": "vanta.com",
+      "why": "US SaaS with MSP/agency reseller channel",
+      "cohort": "cohortB_plausible"
+    }
+  ]
+}

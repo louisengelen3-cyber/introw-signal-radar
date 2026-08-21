@@ -109,3 +109,58 @@ The thesis's core commercial reasoning stands: transacting partners are the obje
 Introw sells against; integration ecosystems are inverted and must be suppressed; funding
 is never timing; job-ad tool mentions are never confirmation; industry pages are SEO not
 ICP; no employee-count band; never estimate ACV or PRM renewal dates.
+
+---
+
+# Phase 1 conclusions — locked 21 Aug 2026
+
+## R11 — Software/IT channel discovery and classification are validated. Do not re-prove.
+
+Measured: 17/17 traps not flagged · 22/22 apparent precision on 56 never-seen companies ·
+89% of reachable known customers surfaced. Regression-test these; do not make them the
+research objective again.
+
+## R12 — Partner count is OPTIONAL ENRICHMENT
+
+Measured across 115 companies: 90 unknown · 23 lower_bound · 1 directory_count · 1 exact_public.
+
+Partner count is **not** a discovery gate, a qualification gate, a mandatory card field, a
+universal ranking variable, or a GTM-Ready requirement. Preserve the five count types and
+never render them as equivalent. Do not invest further engineering in making it universal.
+
+## R13 — Operational load stays derived and optional
+
+Computed only when numerator *and* denominator are independently reliable — 1 of 14 fixtures.
+Never inferred, never thresholded universally, never a ranking prerequisite, never the centre
+of the UI. The "93× load" concept is no longer the centre of the Radar. The capability is
+preserved; its original importance is not.
+
+## R14 — Distributor inversion is candidate generation, not qualification
+
+Phase 1 wrote: *"if a distributor sells your product, you operate a transacting channel."*
+That is a **hypothesis**, not an invariant. A distributor vendor list proves a commercial
+relationship exists. It does not prove the manufacturer operates the programme, manages
+partners directly, owns the workflow, or is Introw-suitable.
+
+## R15 — Three questions, three classifiers, never corrupted into each other
+
+| Question | Classifier | Example |
+|---|---|---|
+| **Channel reality** — does a transacting channel exist? | commerciality | SAP: **yes** |
+| **Introw suitability** — is this operating model appropriate for Introw? | suitability | SAP: probably **no** |
+| **Timing** — is there a reason to approach now? | signals | separate again |
+
+Tuning the commerciality classifier to call SAP "not transacting" would be false. The
+demotion belongs in a separate dimension. This is the central Phase 2 architecture.
+
+## R16 — Program ownership is modelled, not assumed
+
+Evidence attaches to a **programme with an owner**, not to a company. One company can
+simultaneously run its own reseller programme, participate in AWS Marketplace, hold
+strategic alliances, be distributed by wholesalers, and run an affiliate scheme. Every
+strong commercial artifact must attempt to answer *whose programme is this?*
+
+## R17 — Blocked ≠ unknown ≠ absent
+
+`blocked` = retrieval was attempted and refused. `unknown` = insufficient evidence.
+`absent` requires positive contrary evidence. Never collapse them.

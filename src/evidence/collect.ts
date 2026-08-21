@@ -45,11 +45,38 @@ const PROBE_SUBDOMAINS = [
 /** Non-production hosts must never be read as a live partner surface. */
 const NON_PROD = /(^|[.-])(dev|qa|test|tst|stg|staging|uat|sandbox|preview|acc|acceptance|demo|int|local)([.-]|$)/i;
 
-async function dig(host: string, type: string): Promise<string[]> {
-  try {
-    const { stdout } = await exec('dig', ['+short', type, host], { timeout: 8000 });
-    return stdout.trim().split('\n').filter(Boolean);
-  } catch { return []; }
+/**
+ * A global cap on concurrent `dig` processes.
+ *
+ * Without it, five companies assessed in parallel each spawn ~30 lookups, the resolver
+ * saturates, and every call times out. The failures were caught and returned as empty —
+ * which the caller then read as "no record exists". That silently lost the highest-
+ * precision detector in the system on companies that plainly have the record.
+ */
+let digInFlight = 0;
+const digQueue: (() => void)[] = [];
+const MAX_DIG = 12;
+
+async function digSlot<T>(fn: () => Promise<T>): Promise<T> {
+  if (digInFlight >= MAX_DIG) await new Promise<void>((r) => digQueue.push(r));
+  digInFlight++;
+  try { return await fn(); } finally {
+    digInFlight--;
+    digQueue.shift()?.();
+  }
+}
+
+/** Returns `null` on lookup failure — distinct from `[]`, which means "no record". */
+async function dig(host: string, type: string): Promise<string[] | null> {
+  return digSlot(async () => {
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        const { stdout } = await exec('dig', ['+short', '+time=2', '+tries=1', type, host], { timeout: 6000 });
+        return stdout.trim().split('\n').filter(Boolean);
+      } catch { /* retry once before giving up */ }
+    }
+    return null;
+  });
 }
 
 export interface DnsSurvey {
@@ -57,6 +84,8 @@ export interface DnsSurvey {
   wildcardTargets: string[];
   hosts: { host: string; cname: string[]; a: string[]; distinct: boolean; nonProd: boolean }[];
   platform: { vendor: string; host: string; cname: string[] } | null;
+  /** Lookups that failed rather than returned nothing. Absence here is not evidence. */
+  lookupFailures: number;
 }
 
 /**
@@ -65,19 +94,25 @@ export interface DnsSurvey {
  */
 export async function surveyDns(bareDomain: string, extraHosts: string[] = []): Promise<DnsSurvey> {
   const control = `zzq7x-radar-control.${bareDomain}`;
-  const wcTargets = new Set([...(await dig(control, 'CNAME')), ...(await dig(control, 'A'))]);
+  const [ctlC, ctlA] = await Promise.all([dig(control, 'CNAME'), dig(control, 'A')]);
+  const wcTargets = new Set([...(ctlC ?? []), ...(ctlA ?? [])]);
   const wildcard = wcTargets.size > 0;
+  let lookupFailures = 0;
 
+  // Bounded: the fixed probe list always runs, discovered partner-ish hosts are added
+  // up to a cap so one company with a large DNS footprint cannot stall a run.
   const candidates = [...new Set([
     ...PROBE_SUBDOMAINS.map((s) => `${s}.${bareDomain}`),
     ...extraHosts,
-  ])];
+  ])].slice(0, 26);
 
   const hosts: DnsSurvey['hosts'] = [];
   let platform: DnsSurvey['platform'] = null;
   for (const host of candidates) {
-    const cname = await dig(host, 'CNAME');
-    const a = await dig(host, 'A');
+    const [cnameRaw, aRaw] = await Promise.all([dig(host, 'CNAME'), dig(host, 'A')]);
+    if (cnameRaw === null || aRaw === null) { lookupFailures++; continue; }
+    const cname = cnameRaw;
+    const a = aRaw;
     if (!cname.length && !a.length) continue;
     const distinct = [...cname, ...a].some((v) => !wcTargets.has(v));
     const nonProd = NON_PROD.test(host.slice(0, host.length - bareDomain.length));
@@ -88,7 +123,7 @@ export async function surveyDns(bareDomain: string, extraHosts: string[] = []): 
       }
     }
   }
-  return { wildcard, wildcardTargets: [...wcTargets], hosts, platform };
+  return { wildcard, wildcardTargets: [...wcTargets], hosts, platform, lookupFailures };
 }
 
 /** Subdomain inventory from passive DNS and certificate transparency, union'd. */
@@ -142,9 +177,28 @@ export async function commonCrawlUrls(bareDomain: string, collections: string[])
   return { urls: [...urls], byCollection };
 }
 
-const LOCALE_SEG = /^\/[a-z]{2}([-_][a-z]{2})?\/?$/i;
+/**
+ * Multilingual partner paths, probed under a locale prefix.
+ *
+ * Large industrial catalogue sites defeat both sitemap and link-graph discovery: ifm.com
+ * publishes 13,000 URLs whose homepage links are nothing but country selectors, and whose
+ * sitemap is dominated by product pages. Probing a small, targeted set of known partner
+ * paths under the preferred locale is bounded and reaches what crawling cannot.
+ */
+const PARTNER_PATHS = [
+  'partners', 'partner', 'partner-program', 'partnerprogramm', 'partnerprogramma',
+  'become-a-partner', 'partner-werden', 'partner-worden', 'devenir-partenaire',
+  'distributors', 'distributeurs', 'distributeur', 'haendler', 'handler',
+  'dealers', 'dealer', 'dealer-locator', 'haendlersuche', 'fachhaendler',
+  'resellers', 'reseller', 'revendeurs', 'wederverkopers',
+  'installers', 'installateur', 'installateurs', 'installateure',
+  'where-to-buy', 'waar-te-koop', 'ou-acheter', 'bezugsquellen', 'verkooppunten',
+  'find-a-partner', 'find-a-dealer', 'find-an-installer', 'sales-partner', 'vertriebspartner',
+];
+
+const LOCALE_SEG = /^\/[a-z]{2}([-_][a-z]{2})?(\/[a-z]{2})?\/?$/i;
 /** Preference order when a site forces a locale choice. Introw sells EU + US + UK. */
-const LOCALE_PREF = ['/en', '/en-gb', '/en-us', '/us/en', '/gb/en', '/uk/en', '/de/de', '/nl/nl', '/be/nl', '/fr/fr', '/eng'];
+const LOCALE_PREF = ['/en', '/en-gb', '/en-us', '/us/en', '/gb/en', '/uk/en', '/en/en', '/de/de', '/nl/nl', '/be/nl', '/fr/fr', '/eng', '/int/en'];
 
 /**
  * Sitemap + homepage link graph, locale-aware.
@@ -228,11 +282,23 @@ export function rankPartnerUrls(urls: string[], budget = 6): string[] {
     if (/\/(partners?|resellers?|dealers?|installers?|partenaires?|partnerprogramma|partnerprogramm)\/?$/i.test(path)) s += 5;
     if (/(become-a-partner|partner-worden|partner-werden|devenir-partenaire|partner-program)/i.test(path)) s += 4;
     if (/technology-partner|integration-partner|isv/i.test(path)) s -= 6;
-    if (/\/(blog|news|press|careers|jobs|legal|privacy|terms)\//i.test(path)) s -= 10;
+    if (/\/(blog|news|press|newsroom|media|careers|jobs|legal|privacy|terms|customer-stories|case-stud|partner-news|partner-stories)\//i.test(path)) s -= 12;
+    // Press releases frequently live outside a /news/ segment and read as partner pages.
+    // Their slugs are announcements, not programme documentation.
+    if (/(-announces?-|-expands?-|-welcomes?-|-launches?-|-joins?-|-selected-|-named-|-wins?-|-appoints?-|\b(19|20)\d{2}[-/])/i.test(path)) s -= 12;
+    // Detection quality is highest in English, so an English or neutral locale is
+    // preferred where a site publishes the same page in several languages.
+    const localeSeg = path.split('/').filter(Boolean).find((x) => /^[a-z]{2}([-_][a-z]{2})?$/i.test(x));
+    if (localeSeg) s += /^en/i.test(localeSeg) ? 2 : -1;
     // Shallow beats deep: /partners is the programme, /partners/acme is one profile.
     // Locale prefixes (/en/, /nl-be/) are not real depth.
+    // Depth normally means a profile page rather than the programme page — but a deep
+    // path that explicitly names a partner surface is still the programme page. ifm.com
+    // publishes its partner list at /de/en/de/service/partner/list-of-partners, which a
+    // flat depth penalty discarded.
     const segs = path.split('/').filter(Boolean).filter((x) => !/^[a-z]{2}([-_][a-z]{2})?$/i.test(x));
-    s -= Math.max(0, segs.length - 1) * 2;
+    const namesPartnerSurface = /\/(partners?|resellers?|dealers?|installers?|distributors?|h[äa]ndler|revendeurs?|partenaires?)(\/|$)/i.test(path);
+    if (!namesPartnerSurface) s -= Math.max(0, segs.length - 1) * 2;
     return s;
   };
 
@@ -343,3 +409,132 @@ export function extractPartnerCount(html: string, source: SourceRef): PartnerCou
 }
 
 export { get, mainContent, stripTags };
+
+
+/**
+ * Targeted partner-path probing under the site's locale roots.
+ *
+ * Bounded by construction: at most `maxProbes` requests, tried in a fixed order —
+ * bare paths first, then the preferred locale prefixes discovered on the homepage.
+ * Returns only paths that responded with real content, so a 200-page soft-404 shell
+ * does not enter the inventory.
+ */
+export async function probePartnerPaths(
+  origin: string,
+  localeRoots: string[],
+  maxProbes = 30,
+  homeText?: string,
+): Promise<{ found: string[]; probed: number; softNotFound: number }> {
+  // A site that answers every path with its homepage will otherwise report every probe
+  // as a hit. Circutor and Ecodora both did exactly that.
+  const homeFingerprint = homeText ? fingerprint(homeText) : null;
+  // If several different probed paths return near-identical content, none of them is a
+  // real page — they are all the same error shell.
+  const seenFingerprints: { fp: Set<string>; url: string }[] = [];
+  const prefixes = ['', ...localeRoots
+    .map((u) => { try { return new URL(u).pathname.replace(/\/$/, ''); } catch { return ''; } })
+    .filter(Boolean)
+    .sort((a, b) => {
+      const rank = (p: string) => LOCALE_PREF.indexOf(p.toLowerCase());
+      const ra = rank(a), rb = rank(b);
+      return (ra === -1 ? 99 : ra) - (rb === -1 ? 99 : rb);
+    })
+    .slice(0, 2)];
+
+  const found: string[] = [];
+  let probed = 0;
+  let softNotFound = 0;
+  for (const prefix of prefixes) {
+    for (const path of PARTNER_PATHS) {
+      if (probed >= maxProbes) return { found, probed, softNotFound };
+      probed++;
+      const url = `${origin}${prefix}/${path}`;
+      const r = await get(url, { timeout: 12000 });
+      if (!r.ok || r.status !== 200 || !r.body) continue;
+      const text = mainContent(r.body);
+      // A real partner page carries meaningful main content...
+      if (text.length < 600) continue;
+      // ...does not redirect to an error page...
+      if (ERROR_PAGE.test(r.finalUrl ?? '') || ERROR_TEXT.test(text.slice(0, 400))) { softNotFound++; continue; }
+      const fp = fingerprint(text);
+      // ...is not simply the homepage served back...
+      if (homeFingerprint && jaccard(fp, homeFingerprint) > 0.75) { softNotFound++; continue; }
+      // ...and is not identical to another probe's response.
+      const dup = seenFingerprints.find((s) => jaccard(fp, s.fp) > 0.85);
+      if (dup) {
+        softNotFound++;
+        const i = found.indexOf(dup.url);
+        if (i >= 0) { found.splice(i, 1); softNotFound++; }
+        continue;
+      }
+      seenFingerprints.push({ fp, url: r.finalUrl ?? url });
+      found.push(r.finalUrl ?? url);
+      if (found.length >= 6) return { found, probed, softNotFound };
+    }
+    if (found.length) break;
+  }
+  return { found, probed, softNotFound };
+}
+
+const ERROR_PAGE = /(404|error-?page|not-?found|page-?introuvable|pagina-non-trovata|seite-nicht-gefunden|niet-gevonden)/i;
+const ERROR_TEXT = /\b(404|page not found|pagina non trovata|seite nicht gefunden|pagina niet gevonden|page introuvable|sorry, we can't find)\b/i;
+
+/** Shingled token set, used only for near-duplicate detection between pages. */
+function fingerprint(text: string): Set<string> {
+  const words = text.toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').split(/\s+/).filter((w) => w.length > 3);
+  const out = new Set<string>();
+  for (let i = 0; i + 2 < words.length && out.size < 400; i += 3) out.add(words.slice(i, i + 3).join(' '));
+  return out;
+}
+
+function jaccard(a: Set<string>, b: Set<string>): number {
+  if (!a.size || !b.size) return 0;
+  let inter = 0;
+  for (const x of a) if (b.has(x)) inter++;
+  return inter / (a.size + b.size - inter);
+}
+
+/**
+ * Page selection for the OPERATING MODEL, which is a different question from whether a
+ * channel exists. Distributor terms, programme benefits and tier documentation describe
+ * how a programme runs; the channel ranker never selects them because they are deeper and
+ * less canonical than `/partners`.
+ */
+const MODEL_PATHS: [RegExp, number][] = [
+  [/(distributors?|distributeurs?|distributoren|distribuidores)(\/|$)/i, 8],
+  [/(partner-program|partnerprogramm|partner-programme|channel-program)[a-z-]*\/(benefits|tiers|levels|requirements|overview|how-it-works|resources)/i, 8],
+  [/(become-a-(?:distributor|reseller)|distributor-program|distribution-partner)/i, 7],
+  [/(partner|channel)[a-z-]*\/(benefits|tiers|levels|requirements|program-guide|overview|resources|rebate|mdf|incentive)/i, 6],
+  [/(mdf|market-development-fund|co-?op-?fund|rebate|incentive)/i, 6],
+  [/(partner|channel)[a-z-]*(terms|agreement|policy|guide)/i, 4],
+  [/(where-to-buy|waar-te-koop|bezugsquellen|ou-acheter|find-a-distributor)/i, 4],
+];
+
+export function rankOperatingModelUrls(urls: string[], budget = 4): string[] {
+  const scored: [string, number][] = [];
+  for (const u of urls) {
+    let path: string;
+    try { path = new URL(u).pathname; } catch { continue; }
+    if (ASSET_PATH.test(path) || PRODUCT_PATH.test(path)) continue;
+    if (/\/(blog|news|press|newsroom|careers|jobs|customer-stories|partner-news|partner-stories)\//i.test(path)) continue;
+    if (/(-announces?-|-expands?-|-welcomes?-|-launches?-|-joins?-|\b(19|20)\d{2}[-/])/i.test(path)) continue;
+    let s = 0;
+    for (const [re, w] of MODEL_PATHS) if (re.test(path)) s += w;
+    if (!s) continue;
+    const localeSeg = path.split('/').filter(Boolean).find((x) => /^[a-z]{2}([-_][a-z]{2})?$/i.test(x));
+    if (localeSeg) s += /^en/i.test(localeSeg) ? 2 : -1;
+    scored.push([u, s]);
+  }
+  const perPrefix = new Map<string, number>();
+  const picked: string[] = [];
+  for (const [u] of scored.sort((a, b) => b[1] - a[1])) {
+    if (picked.length >= budget) break;
+    let key = '';
+    try { const x = new URL(u); key = x.hostname + '|' + (x.pathname.split('/').filter(Boolean).filter((y) => !/^[a-z]{2}([-_][a-z]{2})?$/i.test(y))[0] ?? '/'); } catch { continue; }
+    const n = perPrefix.get(key) ?? 0;
+    if (n >= 2) continue;
+    perPrefix.set(key, n + 1);
+    picked.push(u);
+  }
+  return picked;
+}

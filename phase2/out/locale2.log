@@ -1,0 +1,10 @@
+ifm.com          localeRoots=57   probed=30   soft404=0    found=0
+circutor.com     localeRoots=1    probed=30   soft404=30   found=0
+ecodora.com      localeRoots=0    probed=6    soft404=0    found=6
+niko.eu          localeRoots=15   probed=30   soft404=0    found=3
+    https://www.niko.eu/en/need-help/where-to-buy
+    https://www.niko.eu/en/our-products/home-automation/partners
+    https://www.niko.eu/en/our-products/home-automation/partners
+loxone.com       localeRoots=0    probed=30   soft404=25   found=3
+    https://www.loxone.com/int/partner-program/
+mitutoyo.com     localeRoots=0    probed=30   soft404=0    found=0

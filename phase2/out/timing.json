@@ -1,0 +1,55 @@
+[
+  {
+    "test": "A. PRM / portal change via historical captures",
+    "question": "Can a partner portal appearing, moving or changing platform be dated from public history?",
+    "result": "1/3 partner hosts had captures in two or more Common Crawl collections",
+    "evidence": [
+      "extrahop.com: partnerportal.extrahop.com captured in 0/4 collections — 2026-30:0 2026-12:0 2025-38:0 2025-26:0",
+      "semperis.com: partner.semperis.com captured in 2/4 collections — 2026-30:0 2026-12:2 2025-38:3 2025-26:0",
+      "cubbit.io: partner.cubbit.io captured in 0/4 collections — 2026-30:0 2026-12:0 2025-38:0 2025-26:0"
+    ],
+    "verdict": "UNRESOLVED",
+    "limitation": "Common Crawl samples; a host absent from one collection is not evidence it did not exist. A change in CNAME target — the actual platform migration — is not recorded by Common Crawl at all, and would require our own DNS snapshots taken over time."
+  },
+  {
+    "test": "B. Partner programme launch / relaunch",
+    "question": "Can a dated first-party page establish when a programme launched?",
+    "result": "4/4 produced an earliest-capture date; 0 produced a date the company itself published",
+    "evidence": [
+      "cumulocity.com: earliest partner-page capture 20250913 — this is FIRST OBSERVED, not launched",
+      "teamleader.eu: earliest partner-page capture 20260306 — this is FIRST OBSERVED, not launched",
+      "niko.eu: earliest partner-page capture 20250613 — this is FIRST OBSERVED, not launched",
+      "vanta.com: earliest partner-page capture 20250613 — this is FIRST OBSERVED, not launched"
+    ],
+    "verdict": "CONTEXT_ONLY",
+    "limitation": "Earliest capture is when a crawler first saw the page, not when the programme launched. Common Crawl coverage is sparse and irregular, so an earlier absence proves nothing. Rendering this as \"launched\" would be the exact fabrication the evidence model forbids."
+  },
+  {
+    "test": "C. M&A / carve-out / MBO",
+    "question": "Is there a credible public source path for ownership-change events?",
+    "result": "see evidence — see verdict for the conclusion",
+    "evidence": [
+      "sec_edgar_fulltext: HTTP 200 — returns content",
+      "sec_edgar_search: HTTP 200 — returns content",
+      "gdelt_doc_api: HTTP 429 (blocked) — unusable",
+      "wikidata_sparql: HTTP 200 — returns content",
+      "kbo_openbase: HTTP 200 — returns content",
+      "companies_house_api: HTTP 0 — unusable"
+    ],
+    "verdict": "UNRESOLVED",
+    "limitation": "Even where a feed responds, three problems remain untested: linking an event to the right legal entity, linking that entity to the partner programme, and establishing the effective date rather than the announcement date. Carrying this as a Tier-1 trigger without solving those is unsupported."
+  },
+  {
+    "test": "D. Partner-directory growth",
+    "question": "Can two dated observations of the same directory be compared?",
+    "result": "4/4 had captures in both an older and a newer collection",
+    "evidence": [
+      "egnyte.com: partner-URL captures 2025-26:14 2026-30:29",
+      "niko.eu: partner-URL captures 2025-26:30 2026-30:38",
+      "loxone.com: partner-URL captures 2025-26:92 2026-30:108",
+      "sophos.com: partner-URL captures 2025-26:31 2026-30:318"
+    ],
+    "verdict": "BUILD_LATER",
+    "limitation": "URL counts are a proxy for directory size and move with crawl depth, not only with the directory. A defensible growth claim needs the same page parsed at two dates with the same counter — which means our own snapshots, with Common Crawl used only to backfill the first point."
+  }
+]

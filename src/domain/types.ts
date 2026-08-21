@@ -368,6 +368,10 @@ export type RelationshipState =
 export interface Qualification {
   channelReality: 'confirmed' | 'strong' | 'weak' | 'unknown' | 'contradicted';
   commerciality: Commerciality;
+  /** Phase 2: whose programme is this? Never inferred from commerciality. */
+  channelDirection: ChannelDirection;
+  /** Phase 2: is this operating model appropriate for Introw? A separate question again. */
+  suitability: SuitabilityState;
   programScale: 'large' | 'meaningful' | 'small' | 'unknown';
   environment: Environment['crmCompatibility'];
   organisation: 'verified' | 'partial' | 'unknown';
@@ -379,6 +383,83 @@ export interface Qualification {
   suppressed: { reason: string; rule: string } | null;
 }
 
+/* ──────────────────────────────────── Phase 2: ownership and suitability ── */
+
+/**
+ * Which side of a channel relationship the company is on.
+ * Separate from `Commerciality`: a company can have a real transacting channel and still
+ * be the wrong party — the Deloitte case, where the reseller language belonged to SAP.
+ */
+export type ChannelDirection =
+  | 'channel_operator'
+  | 'channel_participant'
+  | 'distributed_vendor'
+  | 'both'
+  | 'unknown';
+
+export type ChannelRelationshipType =
+  | 'OPERATES' | 'DISTRIBUTES' | 'RESELLS' | 'REFERS' | 'INSTALLS'
+  | 'INTEGRATES' | 'AFFILIATE_OF' | 'STRATEGIC_ALLIANCE' | 'PARTICIPATES_IN';
+
+/**
+ * A relationship between two companies, so distributor-inversion evidence stays
+ * evidence rather than becoming an unsupported company-level conclusion.
+ */
+export interface ChannelRelationshipRecord {
+  sourceCompany: string;
+  targetCompany: string | null;
+  relationshipType: ChannelRelationshipType;
+  direction: 'outbound' | 'inbound';
+  /** The programme this relationship belongs to, where it can be identified. */
+  programId?: string;
+  evidence: SourceRef;
+  quote?: string;
+  confidence: Confidence;
+  observedAt: string;
+}
+
+/**
+ * Programme-level ownership. One company may own several programmes and participate in
+ * others; attaching all evidence to the company loses that distinction, which is the
+ * difference between "has partners" and "runs a programme Introw could serve".
+ */
+export interface ProgramOwnership {
+  programId: string;
+  /** The company that runs it. Null when ownership is genuinely unresolved. */
+  operatorCompany: string | null;
+  name: string | null;
+  motions: PartnerMotion[];
+  /** Surfaces evidencing this programme. */
+  surfaces: string[];
+  confidence: Confidence;
+  method: string;
+}
+
+export type SuitabilityState = 'strong' | 'plausible' | 'weak' | 'incompatible' | 'unknown' | 'research_required';
+
+export interface IntrowSuitability {
+  state: SuitabilityState;
+  confidence: Confidence;
+  /** The named rule, so a reviewer can disagree with the reasoning rather than the label. */
+  rule: string;
+  rationale: string;
+  positiveEvidence: { dimension: string; claim: string; sourceUrl: string; relatesTo: string }[];
+  negativeEvidence: { dimension: string; claim: string; sourceUrl: string; relatesTo: string }[];
+  unknowns: string[];
+  blockers: string[];
+  researchNeeded: { field: string; reason: string; method: string }[];
+  evaluatedAt: string;
+}
+
+/** Suppression is always explicit and always states its reason. */
+export interface SuppressionState {
+  suppressed: boolean;
+  rule: string | null;
+  reason: string | null;
+  /** Cold outbound is the thing suppressed; the account itself stays visible. */
+  scope: 'cold_outbound' | 'all' | null;
+}
+
 export interface Account {
   identity: CompanyIdentity;
   program: PartnerProgram;
@@ -388,6 +469,10 @@ export interface Account {
   signals: Signal[];
   research: ResearchTask[];
   qualification: Qualification;
+  suitability: IntrowSuitability | null;
+  relationships: ChannelRelationshipRecord[];
+  programmes: ProgramOwnership[];
+  suppression: SuppressionState;
   /** How this company entered the universe. Discovery source never scores. */
   discoveredVia: { mechanism: string; source: SourceRef }[];
 }
