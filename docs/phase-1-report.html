@@ -1,0 +1,396 @@
+<title>Channel Discovery Verdict</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap">
+
+<style>
+/* Continues the Phase 0 report's system: the evidence-state palette is the design. */
+:root{
+  --paper:#FAF7F2; --paper-2:#F3EEE5; --paper-3:#EAE3D7;
+  --ink:#1F1B17; --ink-2:#413A32; --muted:#7A7167;
+  --rule:#E1D8CA; --rule-strong:#CDC1AE;
+  --accent:#9A5B32; --accent-soft:#F0E1D6;
+  --ok:#3D6B47; --ok-soft:#E3EDE1;
+  --warn:#8E6317; --warn-soft:#F4E9D2;
+  --unk:#7E766C; --unk-soft:#EDE8DF;
+  --bad:#9C3826; --bad-soft:#F6E1DC;
+  --shadow:0 1px 0 rgba(31,27,23,.04);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#15120F; --paper-2:#1D1916; --paper-3:#26211C;
+  --ink:#F2ECE3; --ink-2:#D6CCBF; --muted:#9A9086;
+  --rule:#332C25; --rule-strong:#4A4038;
+  --accent:#D08A5A; --accent-soft:#3A281C;
+  --ok:#8FBE93; --ok-soft:#20291F;
+  --warn:#D6AC5E; --warn-soft:#2C2416;
+  --unk:#A19890; --unk-soft:#242019;
+  --bad:#E08A76; --bad-soft:#2E1A15;
+  --shadow:0 1px 0 rgba(0,0,0,.3);
+}}
+:root[data-theme="dark"]{
+  --paper:#15120F; --paper-2:#1D1916; --paper-3:#26211C;
+  --ink:#F2ECE3; --ink-2:#D6CCBF; --muted:#9A9086;
+  --rule:#332C25; --rule-strong:#4A4038;
+  --accent:#D08A5A; --accent-soft:#3A281C;
+  --ok:#8FBE93; --ok-soft:#20291F;
+  --warn:#D6AC5E; --warn-soft:#2C2416;
+  --unk:#A19890; --unk-soft:#242019;
+  --bad:#E08A76; --bad-soft:#2E1A15;
+  --shadow:0 1px 0 rgba(0,0,0,.3);
+}
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Public Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1140px;margin:0 auto;padding:0 28px 120px;display:grid;grid-template-columns:1fr;gap:0}
+@media(min-width:1000px){.wrap{grid-template-columns:200px minmax(0,1fr);gap:56px;padding-right:44px}}
+
+.mast{grid-column:1/-1;border-bottom:1px solid var(--rule-strong);padding:56px 0 30px;margin-bottom:44px}
+.eyebrow{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:11.5px;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--accent);display:flex;flex-wrap:wrap;gap:6px 16px;margin-bottom:20px}
+h1{font-family:"Newsreader",Georgia,serif;font-weight:600;font-size:clamp(2.5rem,6vw,4.1rem);
+  line-height:1.02;letter-spacing:-.022em;margin:0 0 14px;text-wrap:balance}
+h1 em{font-style:italic;color:var(--accent)}
+.standfirst{font-family:"Newsreader",Georgia,serif;font-size:clamp(1.1rem,2.2vw,1.36rem);line-height:1.5;
+  color:var(--ink-2);max-width:62ch;margin:0 0 26px;text-wrap:pretty}
+.meta{display:flex;flex-wrap:wrap;gap:10px 26px;font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted)}
+.meta b{color:var(--ink-2);font-weight:500}
+
+nav.toc{display:none}
+@media(min-width:1000px){
+  nav.toc{display:block;position:sticky;top:32px;align-self:start;padding-top:4px}
+  nav.toc ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+  nav.toc a{display:flex;gap:9px;text-decoration:none;color:var(--muted);font-size:13px;line-height:1.35;padding:5px 0}
+  nav.toc a:hover{color:var(--accent)}
+  nav.toc .n{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--rule-strong);padding-top:1px}
+  nav.toc a:hover .n{color:var(--accent)}
+}
+main{min-width:0}
+section{margin:0 0 62px;scroll-margin-top:24px}
+h2{font-family:"Newsreader",Georgia,serif;font-weight:600;font-size:clamp(1.6rem,3.4vw,2.15rem);
+  line-height:1.14;letter-spacing:-.015em;margin:0 0 8px;text-wrap:balance;display:flex;gap:14px;align-items:baseline}
+h2 .sec{font-family:"JetBrains Mono",monospace;font-size:.62em;font-weight:500;color:var(--accent);flex:none}
+.deck{color:var(--muted);font-size:15px;margin:0 0 26px;max-width:62ch}
+h3{font-weight:700;font-size:1.02rem;margin:34px 0 10px}
+h4{font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:30px 0 10px}
+p{margin:0 0 15px;max-width:68ch;text-wrap:pretty}
+ul,ol{margin:0 0 16px;padding-left:20px;max-width:66ch}
+li{margin-bottom:7px}
+a{color:var(--accent)}
+strong{font-weight:600;color:var(--ink)}
+code,.mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.86em}
+code{background:var(--paper-3);padding:1px 5px;border-radius:3px;color:var(--ink-2)}
+
+.v{display:inline-flex;align-items:center;gap:6px;font-family:"JetBrains Mono",monospace;font-size:10.5px;
+  font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:3px;
+  white-space:nowrap;vertical-align:2px}
+.v::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
+.v-ok{color:var(--ok);background:var(--ok-soft)}
+.v-warn{color:var(--warn);background:var(--warn-soft)}
+.v-unk{color:var(--unk);background:var(--unk-soft)}
+.v-bad{color:var(--bad);background:var(--bad-soft)}
+
+.callout{background:var(--paper-2);border:1px solid var(--rule);border-radius:6px;padding:22px 24px;
+  margin:26px 0;box-shadow:var(--shadow)}
+.callout.good{background:var(--ok-soft);border-color:transparent}
+.callout.alarm{background:var(--bad-soft);border-color:transparent}
+.callout p{max-width:none}
+.callout p:last-child{margin-bottom:0}
+.callout .lbl{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--muted);display:block;margin-bottom:9px}
+.callout.good .lbl{color:var(--ok)}
+.callout.alarm .lbl{color:var(--bad)}
+
+.scroll{overflow-x:auto;margin:20px 0;border:1px solid var(--rule);border-radius:6px;background:var(--paper-2)}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:520px}
+th{text-align:left;font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:700;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--muted);padding:11px 14px;border-bottom:1px solid var(--rule-strong);
+  white-space:nowrap;vertical-align:bottom}
+td{padding:11px 14px;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.45}
+tr:last-child td{border-bottom:0}
+td.num{font-family:"JetBrains Mono",monospace;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.name{font-weight:600;white-space:nowrap}
+tr.hero td{background:var(--ok-soft)}
+tr.warnrow td{background:var(--warn-soft)}
+
+pre{font-family:"JetBrains Mono",monospace;font-size:12.5px;line-height:1.72;background:var(--paper-2);
+  border:1px solid var(--rule);border-radius:6px;padding:18px 20px;overflow-x:auto;margin:20px 0;color:var(--ink-2)}
+pre b{color:var(--accent);font-weight:500}
+
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:1px;background:var(--rule);
+  border:1px solid var(--rule);border-radius:6px;overflow:hidden;margin:24px 0}
+.stat{background:var(--paper-2);padding:17px 18px 15px}
+.stat .fig{font-family:"Newsreader",Georgia,serif;font-weight:600;font-size:2.05rem;line-height:1;
+  letter-spacing:-.02em;font-variant-numeric:tabular-nums;margin-bottom:7px}
+.stat .lab{font-size:12px;line-height:1.35;color:var(--muted)}
+.stat.g .fig{color:var(--ok)} .stat.r .fig{color:var(--bad)} .stat.a .fig{color:var(--accent)}
+
+footer{grid-column:1/-1;border-top:1px solid var(--rule-strong);margin-top:20px;padding-top:24px;
+  font-size:13px;color:var(--muted);max-width:70ch}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <div class="eyebrow"><span>Introw Signal Radar</span><span>Phase 1</span><span>21 Aug 2026</span><span>Channel discovery</span></div>
+  <h1>Can we find the <em>right kind</em> of company?</h1>
+  <p class="standfirst">Yes for software and IT. Not yet for the local-language industrial market — and the reason is not what the thesis predicted. Classification is the strong half; it is the discovery plumbing that fails.</p>
+  <div class="meta">
+    <span><b>Classified</b> 115 companies · 59 benchmark + 56 never-seen</span>
+    <span><b>Verdict</b> Segmented Go</span>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Contents">
+  <ol>
+    <li><a href="#answer"><span class="n">00</span><span>The answer</span></a></li>
+    <li><a href="#discovery"><span class="n">01</span><span>Discovery</span></a></li>
+    <li><a href="#classification"><span class="n">02</span><span>Classification</span></a></li>
+    <li><a href="#evidence"><span class="n">03</span><span>Evidence taxonomy</span></a></li>
+    <li><a href="#fp"><span class="n">04</span><span>False positives</span></a></li>
+    <li><a href="#fn"><span class="n">05</span><span>False negatives</span></a></li>
+    <li><a href="#segments"><span class="n">06</span><span>Segments</span></a></li>
+    <li><a href="#counts"><span class="n">07</span><span>Partner counts</span></a></li>
+    <li><a href="#model"><span class="n">08</span><span>Domain model</span></a></li>
+    <li><a href="#ux"><span class="n">09</span><span>UX contract</span></a></li>
+    <li><a href="#roadmap"><span class="n">10</span><span>Roadmap</span></a></li>
+    <li><a href="#verdict"><span class="n">11</span><span>Recommendation</span></a></li>
+  </ol>
+</nav>
+
+<main>
+
+<section id="answer">
+  <h2><span class="sec">00</span>The answer</h2>
+  <p class="deck">Phase 1 asked whether meaningful transacting partner programmes can be discovered from public data at useful precision and recall, and told apart from the dangerous false positives.</p>
+
+  <div class="stats">
+    <div class="stat g"><div class="fig">17/17</div><div class="lab">deliberate traps correctly not flagged — zero false positives</div></div>
+    <div class="stat g"><div class="fig">22/22</div><div class="lab">unseen companies classified transacting that survive manual inspection</div></div>
+    <div class="stat a"><div class="fig">89%</div><div class="lab">of reachable known customers surfaced as candidates</div></div>
+    <div class="stat r"><div class="fig">5%</div><div class="lab">industrial-segment classification, against 60–69% for software</div></div>
+  </div>
+
+  <p>The unseen set is the number that matters. Fifty-six companies produced by the discovery mechanisms, frozen before any classifier ran, carrying no labels at all. Twenty-two were classified transacting: <span class="mono">Anomali · A10 · AvePoint · Corelight · Commvault · Deep Instinct · ExtraHop · Fluke · Forcepoint · Gigamon · Illumio · Huawei · NetApp · Nokia · Nutanix · Opengear · Proofpoint · Microsoft · Riverbed · Semperis · Sophos · Rooms</span>. Every one operates a real reseller or distributor channel.</p>
+
+  <div class="callout good">
+    <span class="lbl">What this establishes</span>
+    <p>The system is not recognising companies it was tuned on. It found a candidate universe from channel motion — not from funding, not from an ATS, not from a VC portfolio — and classified it correctly on first contact.</p>
+  </div>
+</section>
+
+<section id="discovery">
+  <h2><span class="sec">01</span>Discovery works — via a mechanism the thesis never named</h2>
+
+  <div class="scroll"><table>
+    <thead><tr><th>Mechanism</th><th>Candidates</th><th>Verdict</th></tr></thead>
+    <tbody>
+      <tr class="hero"><td class="name">Distributor inversion</td><td class="num"><strong>1,170</strong></td><td><span class="v v-ok">Build — the backbone</span></td></tr>
+      <tr><td class="name">Partner-directory harvest</td><td class="num">3</td><td><span class="v v-bad">Do not build as implemented</span></td></tr>
+      <tr><td class="name">Platform tenancy (CT on vendor domains)</td><td class="num">9</td><td><span class="v v-unk">Context only — precise but sparse</span></td></tr>
+      <tr><td class="name">Sanctioned web search</td><td class="num">—</td><td><span class="v v-unk">Research aid</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <p><strong>A distributor's published vendor list is a near-tautological channel-motion list.</strong> If a distributor sells your product, you operate a transacting channel. Three seeds:</p>
+<pre>exclusive-networks.com/ecosystem/vendors      <b>73</b> vendors   cybersecurity, EN
+infinigate.com/vendors                       <b>106</b> vendors   IT/security, EN
+cebeo.be/catalog/nl-be/brand                 <b>991</b> brands    electrical industrial, <b>NL</b></pre>
+
+  <p>It reaches exactly the segments the thesis calls attractive and structurally invisible. One Belgian electrical wholesaler yields <strong>991 manufacturer brands in Dutch</strong> — including Niko, one of my own independently-chosen benchmark picks. Exclusive Networks yields Cubbit, a known Introw customer, discovered from nothing but a distributor's vendor page.</p>
+
+  <h3>Why the other two under-delivered</h3>
+  <p><strong>Partner-directory harvest</strong> failed instructively: the directories worth harvesting are client-rendered, so an HTML link scrape returns nothing. It also answers a slightly wrong question — a vendor's partner directory lists channel <em>participants</em>, and Introw sells to channel <em>operators</em>.</p>
+  <p><strong>Platform tenancy</strong> found 9 tenants on <code>introw.io</code>. Precise, but sparse: most tenants use a custom domain CNAMEd to the vendor, whose certificate is issued under the customer's domain and therefore never appears under the vendor's.</p>
+</section>
+
+<section id="classification">
+  <h2><span class="sec">02</span>Classification is the strong half</h2>
+
+  <div class="scroll"><table>
+    <thead><tr><th>Measure</th><th>Result</th></tr></thead>
+    <tbody>
+      <tr class="hero"><td class="name">Trap precision (17 deliberate traps)</td><td class="num"><strong>17/17 not flagged (100%)</strong></td></tr>
+      <tr class="hero"><td class="name">Unseen precision (56 never-classified)</td><td class="num"><strong>22/22 apparent, on inspection</strong></td></tr>
+      <tr><td class="name">Known-customer recall — auto-classified</td><td class="num">16/22 (73%)</td></tr>
+      <tr><td class="name">Known-customer recall — surfaced as candidate</td><td class="num">18/22 (82%)</td></tr>
+      <tr><td class="name">Known-customer recall — excluding unreachable sites</td><td class="num"><strong>17/19 (89%)</strong></td></tr>
+      <tr><td class="name">Suppression false-positive rate</td><td class="num">0/2 fires <span class="dim">(was 4/6 before the fixes)</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <p>Two design choices do the work, and neither is a weight.</p>
+
+  <p><strong>Corroboration.</strong> A single strong signal never produces <code>transacting</code>. It produces <code>unknown</code> with the rule <code>single_strong_uncorroborated</code>, which routes the account to Research rather than rejecting it. That is why surfacing (82%) exceeds classification (73%) — those accounts are not lost, they are queued for a human.</p>
+
+  <p><strong>Decisive artifacts.</strong> A published deal-registration process and a partner subdomain served by a partner platform are decisive alone, because those artifacts do not exist where partners do not transact. 30 of 115 companies were decided this way.</p>
+
+  <div class="callout">
+    <span class="lbl">No scoring model</span>
+    <p>Every verdict returns the named rule that produced it and a sentence a reviewer can disagree with. There are no weights, because there is no conversion data to fit them against — a weighted model here would be false precision wearing a number.</p>
+  </div>
+</section>
+
+<section id="evidence">
+  <h2><span class="sec">03</span>What evidence is actually strongest</h2>
+  <p class="deck">Measured frequency of strong evidence classes across 115 companies.</p>
+<pre>PARTNER_PORTAL        <b>39</b>     DEAL_REGISTRATION     <b>21</b>     PARTNER_DIRECTORY   15
+TECH_INTEGRATION      21     DISTRIBUTOR_LANGUAGE  19     PRM_FINGERPRINT     <b>14</b>
+RESELLER_LANGUAGE     14     PARTNER_TIERS          8     APP_MARKETPLACE      7
+DEALER_LANGUAGE        5     AFFILIATE              5     COMMISSION           3
+REFERRAL_LANGUAGE      2     INSTALLER_LANGUAGE     2</pre>
+
+  <p>The two artifacts carrying most weight per unit of engineering are <strong>PRM_FINGERPRINT</strong> — DNS-based, zero false positives — and <strong>DEAL_REGISTRATION</strong>, a process that cannot exist without a channel.</p>
+  <p><code>PARTNER_PORTAL</code> is the most common strong class but the weakest of the strong ones: a portal proves a gated surface exists, not that anything transacts through it. It never decides a verdict alone.</p>
+
+  <div class="callout good">
+    <span class="lbl">Unplanned finding</span>
+    <p><strong>Four competitor platform fingerprints turned up in the unseen set</strong> — Allbound at ExtraHop and Semperis, Impartner at Nokia and Proofpoint. PRM displacement is a detectable segment, not a nurture hope.</p>
+  </div>
+</section>
+
+<section id="fp">
+  <h2><span class="sec">04</span>False positives — seven defects, seven general rules</h2>
+  <p class="deck">Each fix is a rule, not a patch for one company, and each is covered by a regression test.</p>
+
+  <div class="scroll"><table>
+    <thead><tr><th>Failure</th><th>What actually happened</th><th>Generalisable fix</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Suppression fired on ordinary copy</td><td>SafeBreach — a cybersecurity company — suppressed as a <em>law firm</em>. PostHog and Keeper as <em>investment firms</em>. Kinsta as a <em>staffing marketplace</em>. Four false fires out of six.</td><td>Match <strong>self-description</strong> in the identity region only, require <strong>two distinct indicators</strong>, and never suppress over a decisive artifact.</td></tr>
+      <tr><td class="name">Deloitte classified transacting</td><td>From pages about <em>SAP's</em> value-added reseller programme, which Deloitte participates in. The reseller language was real and belonged to another company.</td><td><strong>Participant-page detection</strong>: transacting evidence under <code>/alliances/&lt;vendor&gt;/</code> is demoted to weak.</td></tr>
+      <tr><td class="name">Ringover classified integration-only</td><td>A genuine reseller programme lost to its own mega-nav advertising "100+ integrations".</td><td><code>integration_only</code> requires <strong>zero</strong> strong transacting evidence. Integration is counter-evidence; it cannot outvote a positive artifact.</td></tr>
+      <tr><td class="name">Xelix classified strategic-only</td><td>One passing alliance mention produced a confident class.</td><td>Strategic verdicts require corroboration, else <code>unknown</code>.</td></tr>
+      <tr><td class="name">Anthropic classified transacting</td><td>A Salesforce Experience Cloud CNAME was treated as a PRM.</td><td>Experience Cloud is a general community platform — removed from the decisive vendor list.</td></tr>
+      <tr><td class="name">Loxone spent its budget on one section</td><td>Six children of <code>/nlnl/installateur/</code> fetched; the programme page never was.</td><td><strong>Diversify</strong>: at most two URLs per host-and-path prefix.</td></tr>
+      <tr><td class="name">Schneider fetched two PDF endpoints</td><td>Ranking put <code>/download/document/RESELLER_AGREEMENT/</code> first.</td><td>Exclude asset paths, penalise depth, ignore locale segments as depth.</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="callout">
+    <span class="lbl">One case deliberately not "fixed"</span>
+    <p>SAP operates one of the largest reseller channels in existence, so classifying it transacting is <em>correct</em>. It is nonetheless a poor Introw account, because multi-tier distributor governance sits outside Introw's design. That is a <strong>prioritisation</strong> problem, so the demotion lives in a separate <code>multiTierSuspected</code> dimension — 14 companies carry it — rather than in the classifier. Tuning the classifier to call SAP "not transacting" would have been false, and would have been benchmark-memorisation.</p>
+  </div>
+</section>
+
+<section id="fn">
+  <h2><span class="sec">05</span>False negatives</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Class</th><th>Example</th><th>Fixable?</th></tr></thead>
+    <tbody>
+      <tr class="warnrow"><td class="name">Entity resolution on industrial brands</td><td>6 of 21 industrial candidates resolved to parked or dead domains; <code>bata.com</code> resolved to a shoe company</td><td>Partly. Hyphenated and first-token variants already recovered Pepperl+Fuchs and Lapp; ampersand names remain unresolved.</td></tr>
+      <tr><td class="name">Bot protection</td><td>9 of 115 companies</td><td>No. Common Crawl recovers URL inventory for about half, but not page content.</td></tr>
+      <tr><td class="name">Thin public partner pages</td><td>Xelix, Payflip</td><td>No. Some companies genuinely publish almost nothing.</td></tr>
+      <tr><td class="name">One-signal companies</td><td>Ringover, Zenity</td><td>Not a miss by design — surfaced to Research.</td></tr>
+      <tr class="warnrow"><td class="name">Locale-gated multi-country sites</td><td>ifm.com: 13,119 URLs, homepage is a country selector</td><td>Partly fixed; large industrial catalogues still defeat it.</td></tr>
+      <tr><td class="name">Login-walled directories</td><td><code>partners.quatt.io</code></td><td>Portal confirmed, count unknowable. Correct behaviour.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="segments">
+  <h2><span class="sec">06</span>Segments — why this is a Segmented Go</h2>
+
+  <div class="scroll"><table>
+    <thead><tr><th>Segment</th><th>n</th><th>Transacting</th><th>Surfaced</th><th>Got a partner page</th><th>Dead/wrong domain</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Cybersecurity</td><td class="num">16</td><td class="num">11 (69%)</td><td class="num">12 (75%)</td><td class="num">13</td><td class="num">2</td></tr>
+      <tr><td class="name">IT / security</td><td class="num">15</td><td class="num">9 (60%)</td><td class="num">12 (80%)</td><td class="num">13</td><td class="num">2</td></tr>
+      <tr class="warnrow"><td class="name">Electrical / industrial</td><td class="num">21</td><td class="num"><strong>1 (5%)</strong></td><td class="num"><strong>2 (10%)</strong></td><td class="num">4</td><td class="num">6</td></tr>
+      <tr><td class="name">PRM tenants</td><td class="num">4</td><td class="num">1</td><td class="num">1</td><td class="num">2</td><td class="num">2</td></tr>
+    </tbody>
+  </table></div>
+
+  <p>The industrial gap decomposes into three causes, and only one is about channel evidence:</p>
+  <ol>
+    <li><strong>Entity resolution (≈8 of 21).</strong> Parked domains, wrong entities, ampersand names. Plumbing.</li>
+    <li><strong>Locale-gated and very large catalogue sites (≈5).</strong> Thousands of URLs, none reachable from the homepage.</li>
+    <li><strong>Genuine non-publication (≈8).</strong> Small manufacturers with no public partner surface at all.</li>
+  </ol>
+  <p>Only the third is a real observability limit. The first two are engineering, and that is where the next effort belongs.</p>
+
+  <div class="callout">
+    <span class="lbl">An industrial-specific trap the software segment never had</span>
+    <p>These sites use channel words as <em>product</em> nouns: <code>/prodotti/.../distributori-pneumatici/</code> is pneumatic distributors, not distribution. Product paths are now excluded — a rule that only exists because the industrial segment was measured.</p>
+  </div>
+</section>
+
+<section id="counts">
+  <h2><span class="sec">07</span>Partner counts — 2%, and that is the honest number</h2>
+<pre>unknown          <b>90</b>     the majority state
+lower_bound      23     partial enumeration, pagination not exhausted
+directory_count   1     cumulocity.com — 78 partners, from the PartnerPage.io payload
+exact_public      1     teamleader.eu — 438 partners, stated by the company</pre>
+
+  <p>The single directory count is worth dwelling on. <code>partnerlisting.corp.cumulocity.com</code> was found by passive DNS, ranked only after the ranker learned to read <em>hostnames</em> as well as paths, and counted by parsing a Nuxt payload. Three separate mechanisms had to work for one number — which is exactly why the rate is 2%.</p>
+
+  <p><strong>The count type is part of the value.</strong> A lower bound, an approximate figure and an enumerated directory must never render identically: Phase 0 measured a 22% gap between Cumulocity's public directory (78) and the company's own stated figure ("100+").</p>
+</section>
+
+<section id="model">
+  <h2><span class="sec">08</span>Domain model</h2>
+  <p class="deck">Two rules govern every type.</p>
+  <p><strong>A value is never stored bare.</strong> <code>Fact&lt;T&gt;</code> carries value, evidence state, confidence, the method in words, sources, observation date, and what it superseded. <code>EvidenceState</code> is <code>confirmed · strong_proxy · weak_proxy · contradicted · unknown · blocked</code> — and <code>blocked</code> is distinct from <code>unknown</code>, because "we could not look" is not "there is nothing there".</p>
+  <p><strong><code>unknown</code> is a value, not a gap.</strong> <code>CompanyIdentity</code> carries an <code>identityState</code> because resolution is a measured error source. <code>PartnerCount</code> carries a <code>countType</code> and whether enumeration completed. <code>OperationalLoad</code> carries an <code>availability</code> and the reason it is unavailable. <code>Signal</code> keeps <code>effectiveAt</code> separate from <code>observedAt</code>, <code>firstSeenAt</code> and <code>lastSeenAt</code>.</p>
+  <p><code>RelationshipState</code> has no <code>not_customer</code> member. Absence of an Introw fingerprint is <code>no_evidence_observed</code>, and nothing more.</p>
+</section>
+
+<section id="ux">
+  <h2><span class="sec">09</span>UX contract — designed for the sparse account</h2>
+  <p>Fourteen fixtures, each proving one state renders honestly. The card has <strong>no fixed metric slots</strong>; it leads with whatever is strongest and gives unknown states equal visual weight.</p>
+  <ul>
+    <li>Partner count unknown reads <em>"Not established — no countable directory found; this is not a claim that the network is small"</em>, not an empty box.</li>
+    <li>Team size unknown reads <em>"No partner owner identified. Company-owned pages do not normally name this role."</em></li>
+    <li><strong>Operational load appears only when both inputs are independently reliable</strong> — 1 of 14 fixtures. Otherwise it is absent, with the reason in the drawer.</li>
+    <li>Suppressed accounts stay visible with the reason stated. A suppression the seller cannot see is indistinguishable from a bug.</li>
+  </ul>
+  <p>The fixture header reports its own sparseness — 8 of 14 channel-confirmed, 8 of 14 CRM unknown, 11 of 14 team size unknown, 1 of 14 with a computable operational load. That is roughly the real distribution, and designing against it is the point.</p>
+
+  <div class="callout">
+    <span class="lbl">A new product state Phase 1 forced</span>
+    <p><code>single_strong_uncorroborated</code> is neither qualified nor rejected, and it needs its own treatment: a Research candidate with the one signal shown and the missing corroboration named. Without it, two of twenty-two known customers would silently vanish.</p>
+  </div>
+</section>
+
+<section id="roadmap">
+  <h2><span class="sec">10</span>Detector roadmap, by measured value</h2>
+  <ol>
+    <li><strong>Distributor-inversion harvester</strong> — the discovery backbone. Add EU wholesalers per segment (HVAC, plumbing, solar, industrial automation) to reach the industrial market in its own languages.</li>
+    <li><strong>Entity resolution v2</strong> — the highest-leverage fix available. Currently the largest cause of industrial false negatives, ahead of any evidence problem.</li>
+    <li><strong>PRM/platform CNAME fingerprinter</strong> — highest precision per unit of effort; already yielding competitor displacement targets.</li>
+    <li><strong>Locale-aware crawler</strong> — partly built; large catalogue sites still defeat it.</li>
+    <li><strong>Vendor-directory payload parsers</strong> — the count problem is otherwise unsolvable at scale.</li>
+    <li><strong>Common Crawl history backfill</strong> — turns a static count into a dated change, the only honest route to "Why Now".</li>
+    <li>Carve-out / M&amp;A watch — still <span class="v v-unk">Unresolved</span>. No feed tested in either phase, and it remains the highest-conviction trigger with no measured observability basis.</li>
+    <li>CRM detector — maintain, do not invest.</li>
+  </ol>
+</section>
+
+<section id="verdict">
+  <h2><span class="sec">11</span>Recommendation</h2>
+  <p class="deck"><span class="v v-warn">Segmented Go</span></p>
+
+  <p><strong>Proceed for software, hardware and IT/security vendors.</strong> Discovery produces a genuine candidate universe from channel motion rather than from financing. Classification separates real channels from the dangerous traps at 100% trap precision and 22/22 apparent precision on unseen data. The evidence is defensible to a seller, because every verdict carries its rule and its sources.</p>
+
+  <p><strong>Do not yet claim the industrial segment.</strong> It classifies at 5% against 60–69% for software. The cause is mostly fixable plumbing, but it is not fixed today, and the honest position is that the radar currently sees the industrial market poorly. That matters, because it is the segment where the thesis argues Introw is least contested.</p>
+
+  <div class="callout good">
+    <span class="lbl">What would move this to a full GO</span>
+    <p>Entity resolution good enough that a Belgian wholesaler's brand list becomes a usable account list, and a locale-aware crawler that reaches partner pages on multi-country catalogue sites. Both are bounded engineering against a measurable target — the same 21 industrial companies, already frozen.</p>
+  </div>
+
+  <div class="callout alarm">
+    <span class="lbl">What would move it to NO-GO</span>
+    <p>If resolution and locale crawling were fixed and the industrial segment still classified below roughly 30%, the conclusion would be that these companies genuinely do not publish channel evidence — and the product should be scoped to software and IT explicitly, rather than quietly under-serving everything else.</p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>Measured, not asserted. Frozen sets were not edited after results were seen. The one benchmark label I believe is wrong — Anthropic, labelled a small-strategic-alliances trap, which publishes referral-partner programme terms — is reported here rather than corrected in the frozen file.</p>
+</footer>
+
+</div>
