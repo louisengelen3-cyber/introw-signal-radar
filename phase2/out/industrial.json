@@ -2062,5 +2062,892 @@
         "confidence": "low"
       }
     }
+  },
+  {
+    "name": "Röhm",
+    "beforeDomain": "rohm.com",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 1530,
+    "resolution": {
+      "input": "Röhm",
+      "domain": "rohm.com",
+      "state": "confirmed",
+      "confidence": "high",
+      "method": "guessed rohm.com; page names the company and matches the electrical_industrial context",
+      "alternatives": [
+        {
+          "domain": "rohm.com",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "fit",
+          "title": "ROHM Semiconductor - ROHM Co., Ltd.",
+          "note": "names the company"
+        }
+      ],
+      "probes": 1
+    },
+    "afterDomain": "rohm.com",
+    "after": {
+      "domain": "rohm.com",
+      "retrievedAt": "2026-08-21T16:30:26.427Z",
+      "reachable": true,
+      "inventory": {
+        "site": 1530,
+        "commonCrawl": 0,
+        "dnsHosts": 0,
+        "probed": 0,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "site"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 0,
+        "lookupFailures": 7
+      },
+      "pagesFetched": [
+        {
+          "url": "https://www.electronicachina.com.cn/en",
+          "status": 200,
+          "chars": 47534
+        },
+        {
+          "url": "https://www.ceatec.com/en/",
+          "status": 200,
+          "chars": 50749
+        },
+        {
+          "url": "https://electronica-india.com/en/",
+          "status": 200,
+          "chars": 97732
+        },
+        {
+          "url": "https://electronica.de/en/",
+          "status": 200,
+          "chars": 111307
+        },
+        {
+          "url": "https://www.embedded-world.de/en",
+          "status": 200,
+          "chars": 195214
+        },
+        {
+          "url": "https://www.power-conference.com/en/",
+          "status": 0,
+          "chars": 0
+        },
+        {
+          "url": "http://www.ciif-expo.com/en/",
+          "status": 200,
+          "chars": 4485
+        }
+      ],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [
+          {
+            "companyId": "rohm.com",
+            "evidenceClass": "PROGRAM_PAGE",
+            "claim": "URL shape url_partner_generic present: /documents/11303/7468617/Data_Processing_Business_Partners.pdf/720a52fd-6785-a302-6832-9ed4c0cbcea2",
+            "source": {
+              "url": "https://www.rohm.com/documents/11303/7468617/Data_Processing_Business_Partners.pdf/720a52fd-6785-a302-6832-9ed4c0cbcea2",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:31:11.971Z",
+              "retrievedAt": "2026-08-21T16:31:11.971Z"
+            },
+            "strength": "weak",
+            "implication": "neutral",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          }
+        ],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 0,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "unknown",
+        "confidence": "low",
+        "rule": "no_direction_evidence",
+        "rationale": "No first-person invitation and no membership language observed. Direction of the channel relationship is unresolved.",
+        "relationships": [],
+        "ownedProgrammeSurfaces": [],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:31:11.987Z"
+      },
+      "partnerCount": {
+        "value": 11,
+        "countType": "lower_bound",
+        "enumerationComplete": false,
+        "unit": "linked organisations",
+        "source": {
+          "url": "https://www.embedded-world.de/en",
+          "authority": "subject_first_party",
+          "establishes": "the company publishes this list of partner organisations",
+          "observedAt": "2026-08-21T16:31:06.360Z",
+          "retrievedAt": "2026-08-21T16:31:06.360Z",
+          "httpStatus": 200
+        },
+        "observedAt": "2026-08-21T16:31:06.360Z",
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "Luzifer",
+    "beforeDomain": "luzifer.com",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 241,
+    "resolution": {
+      "input": "Luzifer",
+      "domain": "luzifer.com",
+      "state": "probable",
+      "confidence": "medium",
+      "method": "guessed luzifer.com; page names the company but the business context could not be corroborated",
+      "alternatives": [
+        {
+          "domain": "luzifer.com",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "unknown",
+          "title": "Designmode Leinen Hanf | Luzifer Naturmode | Loden | Deutschland",
+          "note": "names the company"
+        }
+      ],
+      "probes": 1
+    },
+    "afterDomain": "luzifer.com",
+    "after": {
+      "domain": "luzifer.com",
+      "retrievedAt": "2026-08-21T16:29:34.033Z",
+      "reachable": true,
+      "inventory": {
+        "site": 241,
+        "commonCrawl": 0,
+        "dnsHosts": 0,
+        "probed": 30,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "site"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 0,
+        "lookupFailures": 6
+      },
+      "pagesFetched": [],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 0,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "unknown",
+        "confidence": "low",
+        "rule": "no_direction_evidence",
+        "rationale": "No first-person invitation and no membership language observed. Direction of the channel relationship is unresolved.",
+        "relationships": [],
+        "ownedProgrammeSurfaces": [],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:31:45.492Z"
+      },
+      "partnerCount": {
+        "value": null,
+        "countType": "unknown",
+        "enumerationComplete": null,
+        "unit": null,
+        "source": null,
+        "observedAt": null,
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "PROTAPE",
+    "beforeDomain": "protape.ch",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 1,
+    "resolution": {
+      "input": "PROTAPE",
+      "domain": "protape.it",
+      "state": "probable",
+      "confidence": "medium",
+      "method": "guessed protape.it; page names the company but the business context could not be corroborated",
+      "alternatives": [
+        {
+          "domain": "protape.nl",
+          "live": true,
+          "namesCompany": false,
+          "contextFit": "unknown",
+          "title": "Dovendi - Domain for sale",
+          "note": "parked, redirect stub, or too little content to corroborate"
+        },
+        {
+          "domain": "protape.fr",
+          "live": true,
+          "namesCompany": false,
+          "contextFit": "unknown",
+          "title": "Dovendi - Domain for sale",
+          "note": "parked, redirect stub, or too little content to corroborate"
+        },
+        {
+          "domain": "protape.ch",
+          "live": true,
+          "namesCompany": false,
+          "contextFit": "unknown",
+          "title": "protape.ch",
+          "note": "parked, redirect stub, or too little content to corroborate"
+        },
+        {
+          "domain": "protape.it",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "unknown",
+          "title": "ProTape | Tape ed Accessori per il Taping",
+          "note": "names the company"
+        }
+      ],
+      "probes": 10
+    },
+    "afterDomain": "protape.it",
+    "after": {
+      "domain": "protape.it",
+      "retrievedAt": "2026-08-21T16:30:23.392Z",
+      "reachable": true,
+      "inventory": {
+        "site": 196,
+        "commonCrawl": 33,
+        "dnsHosts": 3,
+        "probed": 30,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "passive_dns",
+          "cert_transparency",
+          "site",
+          "common_crawl"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 0,
+        "lookupFailures": 7
+      },
+      "pagesFetched": [],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 0,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "unknown",
+        "confidence": "low",
+        "rule": "no_direction_evidence",
+        "rationale": "No first-person invitation and no membership language observed. Direction of the channel relationship is unresolved.",
+        "relationships": [],
+        "ownedProgrammeSurfaces": [],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:32:12.102Z"
+      },
+      "partnerCount": {
+        "value": null,
+        "countType": "unknown",
+        "enumerationComplete": null,
+        "unit": null,
+        "source": null,
+        "observedAt": null,
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "Seneca",
+    "beforeDomain": "seneca.com",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 26,
+    "resolution": {
+      "input": "Seneca",
+      "domain": "seneca.com",
+      "state": "probable",
+      "confidence": "medium",
+      "method": "guessed seneca.com; page names the company but the business context could not be corroborated",
+      "alternatives": [
+        {
+          "domain": "seneca.com",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "unknown",
+          "title": "Seneca - A modern arsenal for the highest fire risk in history",
+          "note": "names the company"
+        }
+      ],
+      "probes": 1
+    },
+    "afterDomain": "seneca.com",
+    "after": {
+      "domain": "seneca.com",
+      "retrievedAt": "2026-08-21T16:31:11.995Z",
+      "reachable": true,
+      "inventory": {
+        "site": 26,
+        "commonCrawl": 0,
+        "dnsHosts": 0,
+        "probed": 30,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "site"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 0,
+        "lookupFailures": 10
+      },
+      "pagesFetched": [],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 0,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "channel_operator",
+        "confidence": "medium",
+        "rule": "first_person_invitation",
+        "rationale": "The company uses first-person invitational language on 1 of its own surfaces — it runs the programme rather than joining one.",
+        "relationships": [
+          {
+            "sourceCompany": "seneca.com",
+            "targetCompany": null,
+            "relationshipType": "OPERATES",
+            "direction": "outbound",
+            "evidence": {
+              "url": "https://seneca.com/",
+              "authority": "subject_first_party",
+              "establishes": "the company invites organisations to join a programme it runs",
+              "observedAt": "2026-08-21T13:54:44.434Z",
+              "retrievedAt": "2026-08-21T13:54:44.434Z"
+            },
+            "quote": "our partners",
+            "confidence": "high",
+            "observedAt": "2026-08-21T13:54:44.434Z"
+          }
+        ],
+        "ownedProgrammeSurfaces": [
+          "https://seneca.com/"
+        ],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:32:31.075Z"
+      },
+      "partnerCount": {
+        "value": null,
+        "countType": "unknown",
+        "enumerationComplete": null,
+        "unit": null,
+        "source": null,
+        "observedAt": null,
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "TREND NETWORKS",
+    "beforeDomain": "trendnetworks.net",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 1,
+    "resolution": {
+      "input": "TREND NETWORKS",
+      "domain": null,
+      "state": "dead_domain",
+      "confidence": "low",
+      "method": "candidate domains are parked, placeholder or empty",
+      "alternatives": [
+        {
+          "domain": "trendnetworks.nl",
+          "live": true,
+          "namesCompany": false,
+          "contextFit": "unknown",
+          "title": "Human verification",
+          "note": "live but does not name the company"
+        },
+        {
+          "domain": "trendnetworks.net",
+          "live": true,
+          "namesCompany": false,
+          "contextFit": "unknown",
+          "title": "TrendNetworks Login",
+          "note": "parked, redirect stub, or too little content to corroborate"
+        }
+      ],
+      "probes": 18
+    },
+    "afterDomain": null,
+    "after": null
+  },
+  {
+    "name": "Solinteg",
+    "beforeDomain": "solinteg.com",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 1125,
+    "resolution": {
+      "input": "Solinteg",
+      "domain": "solinteg.com",
+      "state": "probable",
+      "confidence": "medium",
+      "method": "guessed solinteg.com; page names the company but the business context could not be corroborated",
+      "alternatives": [
+        {
+          "domain": "solinteg.com",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "unknown",
+          "title": "Hybrid Inverter &amp; Battery Energy Storage System | SOLINTEG",
+          "note": "names the company"
+        }
+      ],
+      "probes": 1
+    },
+    "afterDomain": "solinteg.com",
+    "after": {
+      "domain": "solinteg.com",
+      "retrievedAt": "2026-08-21T16:31:45.500Z",
+      "reachable": true,
+      "inventory": {
+        "site": 1125,
+        "commonCrawl": 0,
+        "dnsHosts": 0,
+        "probed": 30,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "site"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 0,
+        "lookupFailures": 6
+      },
+      "pagesFetched": [],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [
+          {
+            "companyId": "solinteg.com",
+            "evidenceClass": "APP_MARKETPLACE",
+            "claim": "URL shape url_integration present: /seo-blog/what-makes-a-hybrid-inverter-best-for-solar-integration.html",
+            "source": {
+              "url": "https://www.solinteg.com/seo-blog/what-makes-a-hybrid-inverter-best-for-solar-integration.html",
+              "authority": "subject_first_party",
+              "establishes": "the company publishes a page at this path",
+              "observedAt": "2026-08-21T16:33:11.127Z",
+              "retrievedAt": "2026-08-21T16:33:11.127Z"
+            },
+            "strength": "weak",
+            "implication": "integration",
+            "contaminationRisk": "a generic partner path proves publication, not operation",
+            "motions": []
+          }
+        ],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 0,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "unknown",
+        "confidence": "low",
+        "rule": "no_direction_evidence",
+        "rationale": "No first-person invitation and no membership language observed. Direction of the channel relationship is unresolved.",
+        "relationships": [],
+        "ownedProgrammeSurfaces": [],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:33:11.131Z"
+      },
+      "partnerCount": {
+        "value": null,
+        "countType": "unknown",
+        "enumerationComplete": null,
+        "unit": null,
+        "source": null,
+        "observedAt": null,
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "Tekmar",
+    "beforeDomain": "tekmar.com",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 4,
+    "resolution": {
+      "input": "Tekmar",
+      "domain": "tekmar.com",
+      "state": "probable",
+      "confidence": "medium",
+      "method": "guessed tekmar.com; page names the company but the business context could not be corroborated",
+      "alternatives": [
+        {
+          "domain": "tekmar.com",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "unknown",
+          "title": "Teledyne Tekmar is part of Teledyne LABS",
+          "note": "names the company"
+        }
+      ],
+      "probes": 1,
+      "parentHint": "Teledyne LABS --"
+    },
+    "afterDomain": "tekmar.com",
+    "after": {
+      "domain": "tekmar.com",
+      "retrievedAt": "2026-08-21T16:32:12.109Z",
+      "reachable": true,
+      "inventory": {
+        "site": 4,
+        "commonCrawl": 0,
+        "dnsHosts": 0,
+        "probed": 30,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "site"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 0,
+        "lookupFailures": 6
+      },
+      "pagesFetched": [],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 0,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "unknown",
+        "confidence": "low",
+        "rule": "no_direction_evidence",
+        "rationale": "No first-person invitation and no membership language observed. Direction of the channel relationship is unresolved.",
+        "relationships": [],
+        "ownedProgrammeSurfaces": [],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:33:46.598Z"
+      },
+      "partnerCount": {
+        "value": null,
+        "countType": "unknown",
+        "enumerationComplete": null,
+        "unit": null,
+        "source": null,
+        "observedAt": null,
+        "confidence": "low"
+      }
+    }
+  },
+  {
+    "name": "VINTAGE",
+    "beforeDomain": "vintage.com",
+    "beforeReachable": true,
+    "beforeCommerciality": "unknown",
+    "beforeRule": "insufficient_evidence",
+    "beforeInventory": 1331,
+    "resolution": {
+      "input": "VINTAGE",
+      "domain": "vintage.com",
+      "state": "confirmed",
+      "confidence": "high",
+      "method": "guessed vintage.com; page names the company and matches the electrical_industrial context",
+      "alternatives": [
+        {
+          "domain": "vintage.com",
+          "live": true,
+          "namesCompany": true,
+          "contextFit": "fit",
+          "title": "Antique buyers | Sell antiques online | Vintage.com",
+          "note": "names the company"
+        }
+      ],
+      "probes": 1
+    },
+    "afterDomain": "vintage.com",
+    "after": {
+      "domain": "vintage.com",
+      "retrievedAt": "2026-08-21T16:32:31.099Z",
+      "reachable": true,
+      "inventory": {
+        "site": 1331,
+        "commonCrawl": 0,
+        "dnsHosts": 0,
+        "probed": 30,
+        "probeHits": 0,
+        "softNotFound": 0,
+        "sources": [
+          "site"
+        ]
+      },
+      "dns": {
+        "wildcard": false,
+        "platform": null,
+        "distinctHosts": 0,
+        "lookupFailures": 8
+      },
+      "pagesFetched": [],
+      "classification": {
+        "commerciality": "unknown",
+        "confidence": "low",
+        "rule": "insufficient_evidence",
+        "rationale": "No decisive artifact and fewer than two independent strong transacting signals were observed. Insufficient evidence — not a claim that no programme exists.",
+        "motions": [],
+        "evidence": [
+          {
+            "companyId": "vintage.com",
+            "evidenceClass": "CUSTOMER_LOGOS",
+            "claim": "the page shows organisations the company works with in some capacity",
+            "quote": "…me and my tandem partner. Get your FREE postage pack See what we paid our customers We paid €383 We paid €270 We paid €286 Read our incredible reviews We…",
+            "source": {
+              "url": "https://www.vintage.com/",
+              "authority": "subject_first_party",
+              "establishes": "the page shows organisations the company works with in some capacity",
+              "observedAt": "2026-08-21T13:54:48.088Z",
+              "retrievedAt": "2026-08-21T13:54:48.088Z",
+              "httpStatus": 200
+            },
+            "strength": "weak",
+            "implication": "neutral",
+            "contaminationRisk": "customer logo walls are routinely mistaken for partner directories",
+            "motions": [],
+            "lang": "en"
+          }
+        ],
+        "suppression": null,
+        "counts": {
+          "strongTransacting": 0,
+          "weakTransacting": 0,
+          "integration": 0,
+          "affiliate": 0,
+          "strategic": 0
+        }
+      },
+      "operator": {
+        "direction": "unknown",
+        "confidence": "low",
+        "rule": "no_direction_evidence",
+        "rationale": "No first-person invitation and no membership language observed. Direction of the channel relationship is unresolved.",
+        "relationships": [],
+        "ownedProgrammeSurfaces": [],
+        "participatesIn": []
+      },
+      "scale": {
+        "programScale": "unknown",
+        "multiTierSuspected": false,
+        "rationale": "no reliable partner count; scale not established"
+      },
+      "suitability": {
+        "state": "unknown",
+        "confidence": "low",
+        "rule": "channel_not_established",
+        "rationale": "Channel reality is \"unknown\". Suitability is only meaningful once a transacting channel is established — asking it earlier would let a suitability verdict stand in for a channel verdict.",
+        "positive": [],
+        "negative": [],
+        "unknowns": [],
+        "blockers": [],
+        "researchNeeded": [],
+        "evaluatedAt": "2026-08-21T16:34:04.252Z"
+      },
+      "partnerCount": {
+        "value": null,
+        "countType": "unknown",
+        "enumerationComplete": null,
+        "unit": null,
+        "source": null,
+        "observedAt": null,
+        "confidence": "low"
+      }
+    }
   }
 ]

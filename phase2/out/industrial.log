@@ -12,3 +12,12 @@ industrial cohort: 21 companies (frozen in Phase 1, not edited)
 [11/21] LEINE & LINDE        leinelinde.com       -> leinelinde.com       [confirmed   ] before=unknown       after=unknown       probes=30 hits=0
 [12/21] MITUTOYO             mitutoyo.com         -> mitutoyo.com         [confirmed   ] before=unknown       after=unknown       probes=0 hits=0
 [13/21] KDS                  kds.eu               -> kds.be               [confirmed   ] before=unknown       after=unknown       probes=30 hits=0
+[14/21] Röhm                 rohm.com             -> rohm.com             [confirmed   ] before=unknown       after=unknown       probes=0 hits=0
+[15/21] Luzifer              luzifer.com          -> luzifer.com          [probable    ] before=unknown       after=unknown       probes=30 hits=0
+[16/21] PROTAPE              protape.ch           -> protape.it           [probable    ] before=unknown       after=unknown       probes=30 hits=0
+[17/21] Seneca               seneca.com           -> seneca.com           [probable    ] before=unknown       after=unknown       probes=30 hits=0
+[18/21] TREND NETWORKS       trendnetworks.net    -> -                    [dead_domain ] before=unknown       after=-             probes=0 hits=0
+[19/21] Solinteg             solinteg.com         -> solinteg.com         [probable    ] before=unknown       after=unknown       probes=30 hits=0
+[20/21] Tekmar               tekmar.com           -> tekmar.com           [probable    ] before=unknown       after=unknown       probes=30 hits=0
+[21/21] VINTAGE              vintage.com          -> vintage.com          [confirmed   ] before=unknown       after=unknown       probes=30 hits=0
+DONE wrote industrial.json

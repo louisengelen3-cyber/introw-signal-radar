@@ -63,17 +63,42 @@ const OPERATOR_LANGUAGE: [RelationshipType, RegExp][] = [
 /**
  * Third-person membership language. The company is describing a programme it joined.
  * This is the Deloitte case: real reseller language, belonging to SAP.
+ *
+ * Case-insensitive on the lead-in, because sentences start with a capital and the first
+ * version — anchored on a lowercase `we are` — never fired once across fifty companies.
+ * The OWNER capture stays case-sensitive: a capitalised token is what distinguishes a
+ * named vendor from an ordinary noun.
  */
 const PARTICIPANT_LANGUAGE: RegExp[] = [
-  /\bwe are (?:a|an) (?:certified |gold |silver |platinum |premier |elite |global |authoriz?ed |authorised )?[A-Z][\w.& -]{1,30} partner\b/,
-  /\bas (?:a|an) (?:certified |gold |premier |authoriz?ed )?[A-Z][\w.& -]{1,30} partner\b/,
+  /\bwe are (?:a|an) (?:certified |gold |silver |platinum |premier |elite |global |authoriz?ed |authorised )?[A-Za-z][\w.& -]{1,30} partner\b/i,
+  /\bas (?:a|an) (?:certified |gold |premier |authoriz?ed )?[A-Za-z][\w.& -]{1,30} partner,? we\b/i,
   /\b(?:our|the) partnership with [A-Z][\w.& -]{1,30}\b/,
   /\bmember of the [A-Z][\w.& -]{1,30} (?:partner (?:program(?:me)?|network)|ecosystem)\b/i,
-  /\b(?:we|our team) (?:hold|have) [A-Z][\w.& -]{1,30} certifications?\b/,
+  /\b(?:we|our team) (?:hold|have) [A-Z][\w.& -]{1,30} certifications?\b/i,
 ];
 
-/** Named-owner extraction for participation, so the programme can be attributed. */
-const PARTICIPANT_OWNER = /\b(?:we are (?:a|an) (?:certified |gold |silver |platinum |premier |elite |global |authoriz?ed |authorised )?|member of the |partnership with |as (?:a|an) (?:certified |gold |premier |authoriz?ed )?)([A-Z][\w.&-]{1,24}(?: [A-Z][\w.&-]{1,24})?)\s*(?:partner|ecosystem|program)/;
+/**
+ * Named-owner extraction for participation, so the programme can be attributed.
+ *
+ * Matched case-insensitively so it finds the phrase wherever it sits in a sentence, then
+ * the captured owner is validated as capitalised in the ORIGINAL text — a capital is what
+ * distinguishes a named vendor from an ordinary noun, and JavaScript cannot vary case
+ * sensitivity per group.
+ */
+const PARTICIPANT_OWNER = /(?:we are (?:a|an) (?:certified |gold |silver |platinum |premier |elite |global |authoriz?ed |authorised )?|member of the |partnership with |as (?:a|an) (?:certified |gold |premier |authoriz?ed )?)([\w.&-]{2,25}(?: [\w.&-]{2,25})?)\s*(?:partner|ecosystem|program)/i;
+
+/** Tier and status words that sit where a vendor name would, and are not vendors. */
+const NOT_A_VENDOR = /^(platinum|gold|silver|bronze|elite|premier|preferred|titanium|diamond|advanced|expert|certified|authorised|authorized|global|strategic|solution|solutions|technology|managed|value|leading|trusted|official)$/i;
+
+function namedOwner(text: string): string | null {
+  const m = PARTICIPANT_OWNER.exec(text);
+  const raw = m?.[1]?.trim();
+  if (!raw) return null;
+  // Keep leading capitalised tokens, minus tier words: field-tested output included
+  // "Platinum" and "Microsoft Solution", only one of which names a vendor.
+  const words = raw.split(/\s+/).filter((w) => /^[A-Z]/.test(w) && !NOT_A_VENDOR.test(w));
+  return words.length ? words.join(' ') : null;
+}
 
 /** A URL under another vendor's name is a participation page, not a programme page. */
 const PARTICIPANT_URL = /\/(?:alliances|allianzen|technology-partners|partnerships)\/[a-z0-9][a-z0-9-]{1,}/i;
@@ -130,7 +155,7 @@ export function resolveOperator(input: OperatorInput): OperatorResolution {
     for (const re of PARTICIPANT_LANGUAGE) {
       const m = re.exec(page.text);
       if (!m) continue;
-      const owner = PARTICIPANT_OWNER.exec(page.text)?.[1]?.trim() ?? 'unnamed vendor';
+      const owner = namedOwner(page.text) ?? 'unnamed vendor';
       participates.push({ owner, url: page.url });
       rels.push({
         sourceCompany: input.domain, targetCompany: owner, relationshipType: 'PARTICIPATES_IN', direction: 'inbound',

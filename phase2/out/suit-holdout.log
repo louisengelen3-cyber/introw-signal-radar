@@ -1,0 +1,18 @@
+distribution index: 1137 brands from exclusive_networks, infinigate, cebeo
+[1/16] B_ bynder.com             chan=integration_only dir=channel_operator     fit=unknown            [channel_not_established]
+[2/16] C_ commvault.com          chan=transacting     dir=both                 fit=research_required  [distribution_tier_unresolved]
+[3/16] B_ anomali.com            chan=transacting     dir=channel_operator     fit=weak               [multi_distributor_mediated_channel]
+[4/16] B_ egnyte.com             chan=transacting     dir=unknown              fit=plausible          [partial_evidence]
+[5/16] A_ cumulocity.com         chan=transacting     dir=channel_operator     fit=plausible          [partial_evidence]
+[6/16] B_ exact.com              chan=mixed           dir=channel_operator     fit=plausible          [direct_programme_partial_objects]
+[7/16] B_ fluke.com              chan=transacting     dir=distributed_vendor   fit=research_required  [distribution_tier_unresolved]
+[8/16] C_ microsoft.com          chan=transacting     dir=distributed_vendor   fit=research_required  [distribution_tier_unresolved]
+[9/16] C_ nokia.com              chan=transacting     dir=channel_operator     fit=weak               [multi_distributor_mediated_channel]
+[10/16] A_ reversinglabs.com      chan=transacting     dir=channel_operator     fit=plausible          [distribution_alongside_direct_programme]
+[11/16] A_ parloa.com             chan=transacting     dir=channel_operator     fit=plausible          [direct_programme_partial_objects]
+[12/16] C_ se.com                 chan=unknown         dir=unknown              fit=unknown            [channel_not_established]
+[13/16] C_ huawei.com             chan=transacting     dir=channel_operator     fit=weak               [multi_distributor_mediated_channel]
+[14/16] A_ sharegate.com          chan=transacting     dir=channel_operator     fit=plausible          [direct_programme_partial_objects]
+[15/16] B_ rooms.io               chan=transacting     dir=channel_operator     fit=plausible          [partial_evidence]
+[16/16] B_ vanta.com              chan=transacting     dir=channel_operator     fit=plausible          [partial_evidence]
+DONE wrote /Users/louisengelen/Introw-signal-radar/phase2/out/suitability.holdout.json
