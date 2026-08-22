@@ -1,0 +1,432 @@
+<title>Introw Suitability Verdict</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap">
+
+<style>
+/* Third in the series: the evidence-state palette continues to be the design system. */
+:root{
+  --paper:#FAF7F2; --paper-2:#F3EEE5; --paper-3:#EAE3D7;
+  --ink:#1F1B17; --ink-2:#413A32; --muted:#7A7167;
+  --rule:#E1D8CA; --rule-strong:#CDC1AE;
+  --accent:#9A5B32; --accent-soft:#F0E1D6;
+  --ok:#3D6B47; --ok-soft:#E3EDE1;
+  --warn:#8E6317; --warn-soft:#F4E9D2;
+  --unk:#7E766C; --unk-soft:#EDE8DF;
+  --bad:#9C3826; --bad-soft:#F6E1DC;
+  --shadow:0 1px 0 rgba(31,27,23,.04);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#15120F; --paper-2:#1D1916; --paper-3:#26211C;
+  --ink:#F2ECE3; --ink-2:#D6CCBF; --muted:#9A9086;
+  --rule:#332C25; --rule-strong:#4A4038;
+  --accent:#D08A5A; --accent-soft:#3A281C;
+  --ok:#8FBE93; --ok-soft:#20291F;
+  --warn:#D6AC5E; --warn-soft:#2C2416;
+  --unk:#A19890; --unk-soft:#242019;
+  --bad:#E08A76; --bad-soft:#2E1A15;
+  --shadow:0 1px 0 rgba(0,0,0,.3);
+}}
+:root[data-theme="dark"]{
+  --paper:#15120F; --paper-2:#1D1916; --paper-3:#26211C;
+  --ink:#F2ECE3; --ink-2:#D6CCBF; --muted:#9A9086;
+  --rule:#332C25; --rule-strong:#4A4038;
+  --accent:#D08A5A; --accent-soft:#3A281C;
+  --ok:#8FBE93; --ok-soft:#20291F;
+  --warn:#D6AC5E; --warn-soft:#2C2416;
+  --unk:#A19890; --unk-soft:#242019;
+  --bad:#E08A76; --bad-soft:#2E1A15;
+  --shadow:0 1px 0 rgba(0,0,0,.3);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Public Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1140px;margin:0 auto;padding:0 28px 120px;display:grid;grid-template-columns:1fr;gap:0}
+@media(min-width:1000px){.wrap{grid-template-columns:200px minmax(0,1fr);gap:56px;padding-right:44px}}
+.mast{grid-column:1/-1;border-bottom:1px solid var(--rule-strong);padding:56px 0 30px;margin-bottom:44px}
+.eyebrow{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:11.5px;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--accent);display:flex;flex-wrap:wrap;gap:6px 16px;margin-bottom:20px}
+h1{font-family:"Newsreader",Georgia,serif;font-weight:600;font-size:clamp(2.4rem,5.6vw,3.9rem);
+  line-height:1.03;letter-spacing:-.022em;margin:0 0 14px;text-wrap:balance}
+h1 em{font-style:italic;color:var(--accent)}
+.standfirst{font-family:"Newsreader",Georgia,serif;font-size:clamp(1.1rem,2.2vw,1.36rem);line-height:1.5;
+  color:var(--ink-2);max-width:62ch;margin:0 0 26px;text-wrap:pretty}
+.meta{display:flex;flex-wrap:wrap;gap:10px 26px;font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted)}
+.meta b{color:var(--ink-2);font-weight:500}
+nav.toc{display:none}
+@media(min-width:1000px){
+  nav.toc{display:block;position:sticky;top:32px;align-self:start;padding-top:4px}
+  nav.toc ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+  nav.toc a{display:flex;gap:9px;text-decoration:none;color:var(--muted);font-size:13px;line-height:1.35;padding:5px 0}
+  nav.toc a:hover{color:var(--accent)}
+  nav.toc .n{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--rule-strong);padding-top:1px}
+  nav.toc a:hover .n{color:var(--accent)}
+}
+main{min-width:0}
+section{margin:0 0 62px;scroll-margin-top:24px}
+h2{font-family:"Newsreader",Georgia,serif;font-weight:600;font-size:clamp(1.6rem,3.4vw,2.15rem);
+  line-height:1.14;letter-spacing:-.015em;margin:0 0 8px;text-wrap:balance;display:flex;gap:14px;align-items:baseline}
+h2 .sec{font-family:"JetBrains Mono",monospace;font-size:.6em;font-weight:500;color:var(--accent);flex:none}
+.deck{color:var(--muted);font-size:15px;margin:0 0 26px;max-width:62ch}
+h3{font-weight:700;font-size:1.02rem;margin:34px 0 10px}
+h4{font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:30px 0 10px}
+p{margin:0 0 15px;max-width:68ch;text-wrap:pretty}
+ul,ol{margin:0 0 16px;padding-left:20px;max-width:66ch}
+li{margin-bottom:7px}
+a{color:var(--accent)}
+strong{font-weight:600;color:var(--ink)}
+code,.mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.86em}
+code{background:var(--paper-3);padding:1px 5px;border-radius:3px;color:var(--ink-2)}
+.v{display:inline-flex;align-items:center;gap:6px;font-family:"JetBrains Mono",monospace;font-size:10.5px;
+  font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:3px;
+  white-space:nowrap;vertical-align:2px}
+.v::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
+.v-ok{color:var(--ok);background:var(--ok-soft)}
+.v-warn{color:var(--warn);background:var(--warn-soft)}
+.v-unk{color:var(--unk);background:var(--unk-soft)}
+.v-bad{color:var(--bad);background:var(--bad-soft)}
+.callout{background:var(--paper-2);border:1px solid var(--rule);border-radius:6px;padding:22px 24px;
+  margin:26px 0;box-shadow:var(--shadow)}
+.callout.good{background:var(--ok-soft);border-color:transparent}
+.callout.alarm{background:var(--bad-soft);border-color:transparent}
+.callout.warn{background:var(--warn-soft);border-color:transparent}
+.callout p{max-width:none}
+.callout p:last-child{margin-bottom:0}
+.callout .lbl{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--muted);display:block;margin-bottom:9px}
+.callout.good .lbl{color:var(--ok)}
+.callout.alarm .lbl{color:var(--bad)}
+.callout.warn .lbl{color:var(--warn)}
+.scroll{overflow-x:auto;margin:20px 0;border:1px solid var(--rule);border-radius:6px;background:var(--paper-2)}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:520px}
+th{text-align:left;font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:700;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--muted);padding:11px 14px;border-bottom:1px solid var(--rule-strong);
+  white-space:nowrap;vertical-align:bottom}
+td{padding:11px 14px;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.45}
+tr:last-child td{border-bottom:0}
+td.num{font-family:"JetBrains Mono",monospace;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.name{font-weight:600;white-space:nowrap}
+tr.hero td{background:var(--ok-soft)}
+tr.warnrow td{background:var(--warn-soft)}
+tr.badrow td{background:var(--bad-soft)}
+pre{font-family:"JetBrains Mono",monospace;font-size:12.5px;line-height:1.72;background:var(--paper-2);
+  border:1px solid var(--rule);border-radius:6px;padding:18px 20px;overflow-x:auto;margin:20px 0;color:var(--ink-2)}
+pre b{color:var(--accent);font-weight:500}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1px;background:var(--rule);
+  border:1px solid var(--rule);border-radius:6px;overflow:hidden;margin:24px 0}
+.stat{background:var(--paper-2);padding:17px 18px 15px}
+.stat .fig{font-family:"Newsreader",Georgia,serif;font-weight:600;font-size:2.05rem;line-height:1;
+  letter-spacing:-.02em;font-variant-numeric:tabular-nums;margin-bottom:7px}
+.stat .lab{font-size:12px;line-height:1.35;color:var(--muted)}
+.stat.g .fig{color:var(--ok)} .stat.r .fig{color:var(--bad)} .stat.a .fig{color:var(--accent)}
+footer{grid-column:1/-1;border-top:1px solid var(--rule-strong);margin-top:20px;padding-top:24px;
+  font-size:13px;color:var(--muted);max-width:70ch}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <div class="eyebrow"><span>Introw Signal Radar</span><span>Phase 2</span><span>22 Aug 2026</span><span>Commercial qualification</span></div>
+  <h1>Which partner programmes are <em>actually</em> Introw's?</h1>
+  <p class="standfirst">The structure that separates an Introw account from a real-but-wrong channel is almost invisible on the vendor's own pages — and plainly published by its distributors. And the industrial gap turned out not to be fixable plumbing.</p>
+  <div class="meta">
+    <span><b>Benchmark</b> 50 companies · 34 dev / 16 holdout, split before any rule</span>
+    <span><b>Verdict</b> Narrowed Go</span>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Contents">
+  <ol>
+    <li><a href="#verdict"><span class="n">01</span><span>Verdict</span></a></li>
+    <li><a href="#invisible"><span class="n">02</span><span>The invisible model</span></a></li>
+    <li><a href="#industrial"><span class="n">03</span><span>Industrial closure</span></a></li>
+    <li><a href="#inversion"><span class="n">04</span><span>Inversion audit</span></a></li>
+    <li><a href="#operator"><span class="n">05</span><span>Operator resolution</span></a></li>
+    <li><a href="#thesis"><span class="n">06</span><span>Suitability thesis</span></a></li>
+    <li><a href="#performance"><span class="n">07</span><span>Performance</span></a></li>
+    <li><a href="#enterprise"><span class="n">08</span><span>Enterprise non-fit</span></a></li>
+    <li><a href="#prm"><span class="n">09</span><span>PRM intelligence</span></a></li>
+    <li><a href="#timing"><span class="n">10</span><span>Timing</span></a></li>
+    <li><a href="#arch"><span class="n">11</span><span>Architecture</span></a></li>
+    <li><a href="#blind"><span class="n">12</span><span>Blind spots</span></a></li>
+    <li><a href="#next"><span class="n">13</span><span>Phase 3</span></a></li>
+  </ol>
+</nav>
+
+<main>
+
+<section id="verdict">
+  <h2><span class="sec">01</span>Verdict</h2>
+  <p class="deck"><span class="v v-warn">Narrowed Go</span> — for a smaller product than Phase 1 implied, narrowed by two measurements rather than by caution.</p>
+
+  <div class="stats">
+    <div class="stat g"><div class="fig">1 / 16</div><div class="lab">known Introw customers carried by a distributor</div></div>
+    <div class="stat r"><div class="fig">10 / 14</div><div class="lab">hypothesised poor-fit programmes carried by a distributor</div></div>
+    <div class="stat g"><div class="fig">0 / 16</div><div class="lab">customers demoted to weak or incompatible, dev and holdout</div></div>
+    <div class="stat r"><div class="fig">1 → 1</div><div class="lab">industrial companies classified transacting, before and after the fix attempt</div></div>
+  </div>
+
+  <p><strong>The holdout did not collapse.</strong> On sixteen companies whose labels were never inspected during tuning: zero of four known customers demoted, and four of five hypothesised poor-fit programmes demoted or routed to research — better than the 44% achieved on the development set.</p>
+</section>
+
+<section id="invisible">
+  <h2><span class="sec">02</span>The operating model is published by the wrong company</h2>
+
+  <p>The question Phase 2 exists to answer is whether a real transacting channel is <em>structurally appropriate</em> for Introw. The obvious place to look is the vendor's partner pages. That place is empty.</p>
+
+  <div class="callout alarm">
+    <span class="lbl">Measured across twelve public partner pages</span>
+    <p>At NetApp, Sophos, Cisco, Nutanix and Forcepoint — companies whose channels are unambiguously distributor-led — the words <code>two-tier</code>, <code>through a distributor</code>, <code>authorised distributor</code>, <code>rebate</code>, <code>MDF</code> and <code>co-op</code> appear <strong>zero times</strong>. Those pages are reseller-recruitment marketing. The operating model lives behind the partner portal.</p>
+  </div>
+
+  <p>It is published, though — by the distributors. A vendor on a distributor's carried-brands list sells through distribution by definition, and that list is public.</p>
+
+  <div class="scroll"><table>
+    <thead><tr><th>Cohort</th><th>Distributor-carried</th></tr></thead>
+    <tbody>
+      <tr class="hero"><td class="name">A · known Introw customers</td><td class="num"><strong>1 of 16 (6%)</strong></td></tr>
+      <tr><td class="name">B · plausible targets</td><td class="num">13 of 20 (65%)</td></tr>
+      <tr class="badrow"><td class="name">C · hypothesised poor fit</td><td class="num"><strong>10 of 14 (71%)</strong></td></tr>
+    </tbody>
+  </table></div>
+
+  <p>This is the strongest structural discriminator Phase 2 found, and it inverts where the evidence is looked for: not on the account, but on its counterparties.</p>
+
+  <div class="callout warn">
+    <span class="lbl">It is a demotion, never an exclusion</span>
+    <p>Cubbit is a real Introw customer <em>and</em> is carried by Exclusive Networks. Distribution and a direct programme plainly coexist. In the model Cubbit is routed to <code>research_required</code> — sent to a human, not rejected.</p>
+  </div>
+</section>
+
+<section id="industrial">
+  <h2><span class="sec">03</span>Industrial: the plumbing hypothesis was wrong</h2>
+  <p class="deck">Phase 1 blamed entity resolution and locale crawling. Both were built and measured against the same frozen 21 companies.</p>
+
+  <h3>Entity resolution v2 genuinely improved</h3>
+<pre>confirmed <b>11</b> · probable <b>9</b> · dead_domain <b>1</b> · unresolved <b>0</b></pre>
+  <div class="scroll"><table>
+    <thead><tr><th>Company</th><th>v1</th><th>v2</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Bata</td><td class="mono">bata.com</td><td class="mono">bata.de</td><td>v1 resolved an electrical brand to a <em>footwear</em> company; the multilingual conflict check caught "magasin de chaussures"</td></tr>
+      <tr><td class="name">PROTAPE</td><td class="mono">protape.ch</td><td class="mono">protape.it</td><td>v1's domain was a redirect stub</td></tr>
+      <tr><td class="name">TREND NETWORKS</td><td class="mono">trendnetworks.net</td><td class="mono">refused</td><td><code>dead_domain</code> — v1 would have guessed</td></tr>
+      <tr><td class="name">PEPPERL &amp; FUCHS</td><td class="mono">unresolved</td><td class="mono">pepperl-fuchs.com</td><td>ampersand and hyphen candidates were previously never generated</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Channel classification did not move at all</h3>
+  <div class="stats">
+    <div class="stat"><div class="fig">1/21</div><div class="lab">classified transacting BEFORE</div></div>
+    <div class="stat"><div class="fig">1/21</div><div class="lab">classified transacting AFTER</div></div>
+    <div class="stat r"><div class="fig">0</div><div class="lab">partner paths found by 30 targeted probes across 14 companies</div></div>
+    <div class="stat g"><div class="fig">30</div><div class="lab">soft-404 responses correctly rejected</div></div>
+  </div>
+
+  <h3>Root cause, quantified</h3>
+  <div class="scroll"><table>
+    <thead><tr><th>Cause</th><th>Share</th></tr></thead>
+    <tbody>
+      <tr class="badrow"><td class="name">Genuine non-publication — site retrieved, no channel published</td><td class="num"><strong>19/21 (90%)</strong></td></tr>
+      <tr><td class="name">Identity unresolved after v2</td><td class="num">1/21 (5%)</td></tr>
+      <tr><td class="name">Technical blocking</td><td class="num">0/21 (0%)</td></tr>
+    </tbody>
+  </table></div>
+
+  <p class="deck" style="margin-top:6px"><span class="v v-bad">Industrial: public-data limited</span></p>
+
+  <div class="callout">
+    <span class="lbl">A reading that makes this coherent rather than merely disappointing</span>
+    <p>These companies came from a Belgian <em>wholesaler's</em> brand list. A brand carried by a wholesaler frequently has no direct partner programme <strong>because the wholesaler is the channel</strong>. For many of them, "no transacting programme of their own" is not an observability failure — it is true, and they are not Introw accounts.</p>
+    <p>Further industrial crawler engineering is not justified. What would change the verdict is a different <em>seed</em> — trade associations, certified-installer registries, manufacturer dealer locators — not a better crawler.</p>
+  </div>
+</section>
+
+<section id="inversion">
+  <h2><span class="sec">04</span>Distributor inversion: seed source, not backbone</h2>
+  <p>Phase 1 called it the discovery backbone on the strength of: <em>"if a distributor sells your product, you operate a transacting channel."</em> Phase 2 treats that as the hypothesis it is, and it does not survive intact.</p>
+  <ul>
+    <li><strong>Cohort B was contaminated by construction.</strong> It was seeded from Phase 1's own distributor output, so its 65% carried-rate is evidence about where I sampled, not about plausible targets. Stated plainly because it weakens my own cohort design.</li>
+    <li><strong>The population is disproportionately the wrong side of the relationship</strong> — distributed vendors whose reseller relationships are mediated.</li>
+  </ul>
+  <p>What stands from Phase 1: it reliably produces real B2B companies, in local languages, without touching a funding or ATS list. It generates candidates. It does not qualify them.</p>
+</section>
+
+<section id="operator">
+  <h2><span class="sec">05</span>Operator resolution — and a detector that was silently dead</h2>
+<pre>channel_operator <b>40</b> · unknown 6 · both 2 · distributed_vendor 2 · channel_participant <b>0</b></pre>
+
+  <div class="callout alarm">
+    <span class="lbl">Found by a regression test, not by a run</span>
+    <p>The participant detector's patterns were anchored on a lowercase <code>we are</code> with no case-insensitive flag. <strong>It never fired once across fifty companies.</strong> Every earlier "zero participants" observation was a bug, not a finding.</p>
+  </div>
+
+  <p>After the fix it was field-tested against real resellers — companies that are participants by definition:</p>
+<pre>softcat.com        dir=<b>both</b>              participatesIn=Microsoft   ← fires correctly
+computacenter.com  dir=channel_operator  participatesIn=none        ← miss
+bechtle.com        dir=unknown           participatesIn=none        ← miss
+insight.com        dir=unknown           participatesIn=none        ← miss</pre>
+  <p><strong>Field recall is 1 in 4 and owner attribution is noisy</strong> — the first run returned "Platinum" and "Microsoft Solution" as vendor names, since fixed by excluding tier words. This is the least-supported component in Phase 2.</p>
+
+  <div class="callout good">
+    <span class="lbl">The clearest win</span>
+    <p>Fluke — a manufacturer sold through wholesalers — resolves to <code>distributed_vendor → research_required</code>, not to a qualified operator. That is Phase 1's overstatement corrected in code rather than in prose.</p>
+  </div>
+</section>
+
+<section id="thesis">
+  <h2><span class="sec">06</span>What now makes a programme suitable</h2>
+  <div class="scroll"><table>
+    <thead><tr><th></th><th>Signal</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr class="hero"><td class="name">Positive</td><td>The company <strong>runs the programme itself</strong> — first-person invitation on its own surfaces</td><td><span class="v v-ok">Measured</span></td></tr>
+      <tr class="hero"><td class="name">Positive</td><td>The <strong>operational objects Introw provides are already visible</strong> — deal registration, onboarding, simple tiers, portal, enablement</td><td><span class="v v-ok">Measured</span></td></tr>
+      <tr class="badrow"><td class="name">Negative</td><td><strong>Several independent distributors carry the company</strong> — onboarding, credit and registration sit with the distributor</td><td><span class="v v-ok">Measured</span></td></tr>
+      <tr class="badrow"><td class="name">Negative</td><td>Participation rather than operation — the evidence belongs to another vendor</td><td><span class="v v-warn">Thin validation</span></td></tr>
+      <tr class="warnrow"><td class="name">Negative</td><td>Enterprise incentive machinery — rebate accrual, co-op claims, proof-of-performance</td><td><span class="v v-unk">Implemented, almost never fires</span></td></tr>
+      <tr class="warnrow"><td class="name">Negative</td><td>Federated governance — separate programmes per region or business unit</td><td><span class="v v-unk">Implemented, almost never fires</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="callout">
+    <span class="lbl">Explicitly not evidence</span>
+    <p>Company size, employee count, revenue, "enterprise". Factorial has 1,000+ employees and 100+ partner managers and is a customer; Payflip is tiny and is a customer. The red team confirms the model does not use size — Factorial and Axon both land <code>plausible</code>, and Axon is a Salesforce account.</p>
+  </div>
+
+  <p><strong>Separating evidence from hypothesis:</strong> the distribution discriminator is measured. Incentive complexity and federated governance are <em>hypotheses that failed to fire</em> — defined, implemented, tested, and almost never matching, because the language is not published. They should not be presented as working detectors.</p>
+</section>
+
+<section id="performance">
+  <h2><span class="sec">07</span>Performance — development and holdout</h2>
+  <h4>Development · n = 34</h4>
+  <div class="scroll"><table>
+    <thead><tr><th>Cohort</th><th>n</th><th>Strong</th><th>Plausible</th><th>Weak</th><th>Research</th><th>Unknown</th></tr></thead>
+    <tbody>
+      <tr><td class="name">A · customers</td><td class="num">12</td><td class="num">1</td><td class="num">7</td><td class="num"><strong>0</strong></td><td class="num">1</td><td class="num">3</td></tr>
+      <tr><td class="name">B · plausible</td><td class="num">13</td><td class="num">0</td><td class="num">4</td><td class="num">1</td><td class="num">6</td><td class="num">2</td></tr>
+      <tr><td class="name">C · poor fit</td><td class="num">9</td><td class="num">0</td><td class="num">2</td><td class="num">2</td><td class="num">2</td><td class="num">3</td></tr>
+    </tbody>
+  </table></div>
+  <h4>Holdout · n = 16 · run once, labels never inspected during tuning</h4>
+  <div class="scroll"><table>
+    <thead><tr><th>Cohort</th><th>n</th><th>Strong</th><th>Plausible</th><th>Weak</th><th>Research</th><th>Unknown</th></tr></thead>
+    <tbody>
+      <tr class="hero"><td class="name">A · customers</td><td class="num">4</td><td class="num">0</td><td class="num">4</td><td class="num"><strong>0</strong></td><td class="num">0</td><td class="num">0</td></tr>
+      <tr><td class="name">B · plausible</td><td class="num">7</td><td class="num">0</td><td class="num">4</td><td class="num">1</td><td class="num">1</td><td class="num">1</td></tr>
+      <tr class="badrow"><td class="name">C · poor fit</td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num"><strong>2</strong></td><td class="num"><strong>2</strong></td><td class="num">1</td></tr>
+    </tbody>
+  </table></div>
+  <p>Customers demoted: <strong>0 of 12 dev, 0 of 4 holdout.</strong> Poor-fit demoted or routed to research: <strong>44% dev, 80% holdout.</strong></p>
+
+  <div class="callout warn">
+    <span class="lbl">Where it fails</span>
+    <p><code>strong</code> fires <strong>once in fifty</strong>. The model discriminates by demoting, not by promoting, and a product built on it surfaces a great deal of <code>plausible</code>. The high <code>unknown</code> rate among customers is driven by the <em>channel</em> classifier — Ringover, Xelix and Zenity never establish a transacting channel, so suitability is correctly never asked.</p>
+  </div>
+</section>
+
+<section id="enterprise">
+  <h2><span class="sec">08</span>Enterprise non-fit, on structure not reputation</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Company</th><th>Verdict</th><th>On what</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Nokia</td><td><span class="v v-warn">Weak</span></td><td>Carried by two distributors; Impartner enterprise PRM detected</td></tr>
+      <tr><td class="name">Huawei · Nutanix · Forcepoint · Corelight · Anomali</td><td><span class="v v-warn">Weak</span></td><td>Multi-distributor mediated channel</td></tr>
+      <tr><td class="name">Microsoft</td><td><span class="v v-unk">Research</span></td><td>Resolves as a <code>distributed_vendor</code> — "buy through a partner", no first-person invitation on the pages retrieved. Right outcome, arguably the wrong reason.</td></tr>
+      <tr class="badrow"><td class="name">SAP</td><td><span class="v v-bad">Classifier miss</span></td><td>Returns <code>unknown</code> because the <em>channel</em> classifier never established a transacting channel. A convenient outcome from a failure — reported as a failure.</td></tr>
+      <tr><td class="name">Sophos · NetApp</td><td><span class="v v-unk">Plausible</span></td><td>Distributor-led in reality, but publish a substantial direct programme with four operational objects, so the interaction rule keeps them addressable. Whether that is commercially right is unproven.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="prm">
+  <h2><span class="sec">09</span>PRM intelligence</h2>
+  <div class="stats">
+    <div class="stat"><div class="fig">15</div><div class="lab">vendors with a defined fingerprint</div></div>
+    <div class="stat a"><div class="fig">4</div><div class="lab">observed in our own measurements — Introw, Allbound, Impartner, PartnerPage</div></div>
+    <div class="stat g"><div class="fig">0</div><div class="lab">false positives across 50 companies</div></div>
+    <div class="stat"><div class="fig">~20%</div><div class="lab">coverage — most vendors serve tenants from the customer's own domain</div></div>
+  </div>
+  <p>Two rules are enforced in code and covered by tests: <strong>found is strong evidence, not found is unknown</strong> — never "no PRM"; and <strong>Salesforce Experience Cloud is not a PRM</strong>, since treating it as decisive produced a false transacting verdict in Phase 1.</p>
+
+  <div class="callout alarm">
+    <span class="lbl">A DNS defect worth recording</span>
+    <p>Under concurrency the <code>dig</code> calls were timing out, the failures were caught, and the empty result was read by the caller as <em>"no record exists"</em> — silently losing the highest-precision detector in the system on companies that plainly have the record. Lookups now return <code>null</code> on failure, distinct from <code>[]</code>, and failures are counted and reported.</p>
+  </div>
+
+  <p><strong>Competitive displacement is a detectable segment and nothing more.</strong> Both readings are returned together and neither is a verdict: <em>maturity</em> — they bought into the category, sized a budget, staffed someone; and <em>switching cost</em> — an incumbent contract with credibility attached. Dissatisfaction, renewal timing and readiness to switch are not observable. An existing platform is structural context, not Why Now.</p>
+</section>
+
+<section id="timing">
+  <h2><span class="sec">10</span>Timing feasibility</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Test</th><th>Verdict</th><th>Measurement</th></tr></thead>
+    <tbody>
+      <tr><td class="name">PRM / portal change</td><td><span class="v v-unk">Unresolved</span></td><td>1 of 3 partner hosts had captures in ≥2 collections. Partner portals are login-walled, so they are not crawled. A CNAME change — the actual migration — is recorded nowhere public.</td></tr>
+      <tr><td class="name">Programme launch</td><td><span class="v v-unk">Context only</span></td><td>4 of 4 produced an earliest-capture date; <strong>0 produced a date the company published</strong>. Earliest capture is when a crawler first saw the page.</td></tr>
+      <tr class="badrow"><td class="name">M&amp;A / carve-out / MBO</td><td><span class="v v-bad">Unresolved</span></td><td>SEC EDGAR and Wikidata respond; GDELT rate-limited; Companies House needs a key. Entity linkage, programme linkage and effective date all untested.</td></tr>
+      <tr><td class="name">Partner-directory growth</td><td><span class="v v-warn">Build later</span></td><td>4 of 4 comparable, moving plausibly (Egnyte 14→29, Niko 30→38, Loxone 92→108). But these are URL counts, which move with crawl depth as well as with the directory.</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="callout alarm">
+    <span class="lbl">Two phases, still unproven</span>
+    <p>Carve-out and MBO — the thesis's highest-conviction trigger — has now been <em>tested</em> rather than assumed, and remains <code>UNRESOLVED</code>. It should stop being described as Tier 1.</p>
+  </div>
+  <p>Every timing verdict failed for the same underlying reason: <strong>no second dated observation</strong>. That is a problem time solves, if snapshots start accruing now.</p>
+</section>
+
+<section id="arch">
+  <h2><span class="sec">11</span>Architecture</h2>
+<pre>DISCOVERY            distributor inversion · DNS/CT · site crawl · Common Crawl
+    ↓                        <b>seed only — never qualification</b>
+ENTITY RESOLUTION    confirmed · probable · ambiguous · wrong_entity · dead_domain · unresolved
+    ↓                        identity confidence independent of channel confidence
+CHANNEL CLASSIFICATION   transacting · mixed · integration_only · affiliate_only · unknown
+    ↓                        <b>"does a transacting channel exist"</b>
+OPERATOR RESOLUTION      operator · participant · distributed_vendor · both · unknown
+    ↓                        <b>"whose programme is this"</b>
+INTROW SUITABILITY       strong · plausible · weak · incompatible · research · unknown
+    ↓                        <b>"is this operating model appropriate"</b>
+TIMING                   separate layer; requires a dated change, not a state
+    ↓
+RESEARCH → COMMERCIAL REVIEW → GTM READY          (not built)</pre>
+  <p><strong>No layer may answer another layer's question.</strong> SAP is the proof: a real transacting channel that is the wrong operating model. Corrupting the classifier to say "not transacting" would have been false — so the demotion lives in a separate dimension.</p>
+  <p>The card follows the same split. Channel and suitability are adjacent but distinct blocks, and the suitability block carries its reasoning: <em>"Three independent distributors carry this company… This is a demotion on structure — a company one tenth the size with the same structure would read the same."</em></p>
+</section>
+
+<section id="blind">
+  <h2><span class="sec">12</span>Remaining blind spots</h2>
+  <ol>
+    <li><strong>The operating model is mostly unpublished.</strong> Only the counterparty distribution signal works; the other negative dimensions almost never fire.</li>
+    <li><strong>The distribution signal is partly a segment proxy</strong> — 17% of SaaS-ish companies against 74% of hardware/security/industrial. It still discriminates <em>within</em> distributor-carried companies, but it must never become a hard rule.</li>
+    <li><strong>Participant detection has thin field validation</strong> — 1 in 4 on a small real test.</li>
+    <li><strong><code>strong</code> almost never fires.</strong> The model demotes; it does not promote.</li>
+    <li><strong>No timing detector is approved for build.</strong> The product can say why an account is interesting and cannot yet say why now.</li>
+    <li><strong>No people data, no partner count, no operational load</strong> at meaningful coverage. Unchanged from Phase 0.</li>
+    <li><strong>The industrial segment is not served</strong>, and the bounded attempt to fix it did not move the number.</li>
+    <li><strong>The benchmark is 50 companies.</strong> Every percentage here has a wide interval.</li>
+  </ol>
+</section>
+
+<section id="next">
+  <h2><span class="sec">13</span>Phase 3</h2>
+  <p class="deck">Do not build scoring or the GTM Queue yet.</p>
+  <ol>
+    <li><strong>A distribution index as a first-class source.</strong> It is the only measured suitability discriminator. Broaden beyond three distributors and treat the vendor–distributor relationship as the primary evidence object.</li>
+    <li><strong>Our own dated snapshots</strong> of partner surfaces and partner-host CNAMEs. Every timing verdict failed for want of a second observation. The single highest-value unlock, and it only needs time to start accruing.</li>
+    <li><strong>A different industrial seed</strong> — trade associations, certified-installer registries, dealer locators — or an explicit decision to scope the product to software and IT.</li>
+    <li><strong>Programme-level modelling in practice</strong>, not just in the schema.</li>
+    <li><strong>Commercial review as a human surface</strong>, before any queue. The model produces a lot of <code>plausible</code> and <code>research_required</code>; that is a review workflow, not a ranked list.</li>
+  </ol>
+  <p><strong>Not recommended:</strong> scoring, ranking weights, mass discovery, production UI, CRM detection investment, partner-count engineering.</p>
+</section>
+
+</main>
+
+<footer>
+  <p>Measured, not asserted. The suitability benchmark was split before any rule was written and the holdout was run once. Two of my own prior conclusions are corrected here: Phase 1's distributor-inversion claim, and Phase 1's expectation that industrial discovery was mostly fixable plumbing.</p>
+</footer>
+
+</div>
