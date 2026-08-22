@@ -102,6 +102,7 @@ const SEEDS: Seed[] = [
   },
   {
     key: 'northwind', archetype: 'A · fully resolved',
+    direction: 'channel_operator', fit: 'strong', fitRule: 'direct_programme_with_operational_objects', fitWhy: 'The company runs its own programme and four of the operational objects Introw provides are already visible, with no structural markers of an enterprise operating model.', fitPositive: ['deal registration','partner onboarding','named tiers','partner portal'],
     proves: 'the complete card renders without crowding when every dimension happens to be known',
     name: 'Northwind Systems', domain: 'northwind.example', country: 'Germany', industry: 'SaaS',
     commerciality: 'transacting', channelReality: 'confirmed', scale: 'meaningful',
@@ -118,6 +119,7 @@ const SEEDS: Seed[] = [
   },
   {
     key: 'kesteven', archetype: 'B · strong programme, CRM unknown',
+    direction: 'channel_operator', fit: 'plausible', fitRule: 'direct_programme_partial_objects', fitWhy: 'The company runs its own programme with two operational objects visible and no structural markers against it.', fitPositive: ['partner onboarding','partner portal'],
     proves: 'an unknown CRM reads as an open question, not as a broken or disqualified card',
     name: 'Kesteven Instruments', domain: 'kesteven.example', country: 'United Kingdom', industry: 'Industrial instrumentation',
     commerciality: 'transacting', channelReality: 'confirmed', scale: 'meaningful',
@@ -128,6 +130,7 @@ const SEEDS: Seed[] = [
   },
   {
     key: 'verlaine', archetype: 'C · strong programme, team unknown',
+    direction: 'channel_operator', fit: 'plausible', fitRule: 'direct_programme_partial_objects', fitWhy: 'A directly-managed installer network with onboarding and certification visible.', fitPositive: ['partner onboarding','certification'],
     proves: 'the organisation block never shows an empty headcount box; it shows what is known and what is being researched',
     name: 'Verlaine Énergie', domain: 'verlaine.example', country: 'France', industry: 'Heating & renewables',
     commerciality: 'transacting', channelReality: 'confirmed', scale: 'large',
@@ -139,6 +142,7 @@ const SEEDS: Seed[] = [
   },
   {
     key: 'brightloom', archetype: 'D · strong programme, count unknown',
+    direction: 'channel_operator', fit: 'plausible', fitRule: 'direct_programme_partial_objects', fitWhy: 'Runs its own programme on a competitor platform; the operating model looks centrally managed.', fitPositive: ['partner portal','deal registration'],
     proves: 'the card leads with the evidence that makes the account interesting when no number is available',
     name: 'Brightloom Cloud', domain: 'brightloom.example', country: 'Netherlands', industry: 'SaaS',
     commerciality: 'transacting', channelReality: 'confirmed', scale: 'unknown',
@@ -150,6 +154,7 @@ const SEEDS: Seed[] = [
   },
   {
     key: 'ardenne', archetype: 'E · Salesforce environment',
+    direction: 'both', fit: 'plausible', fitRule: 'distribution_alongside_direct_programme', fitWhy: 'Distribution is present, but the company also runs its own programme. Manufacturers commonly do both; the direct programme is the addressable part.', fitPositive: ['deal registration','named tiers','partner onboarding'], fitNegative: ['carried by 1 distributor'], carriedBy: ['Infinigate'],
     proves: 'Salesforce renders as a first-class compatible environment, not as an exception or a warning',
     name: 'Ardenne Networks', domain: 'ardenne.example', country: 'Belgium', industry: 'Networking hardware',
     commerciality: 'mixed', channelReality: 'confirmed', scale: 'meaningful',
@@ -160,6 +165,7 @@ const SEEDS: Seed[] = [
   },
   {
     key: 'quilldev', archetype: 'F · integration-only',
+    direction: 'unknown', fit: 'unknown', fitRule: 'channel_not_established', fitWhy: 'Suitability is only meaningful once a transacting channel is established.',
     proves: 'suppression is visible and reasoned, not a silent absence from the list',
     name: 'Quill Dev Tools', domain: 'quilldev.example', country: 'United States', industry: 'Developer tools',
     commerciality: 'integration_only', channelReality: 'contradicted', scale: 'unknown',
@@ -169,6 +175,7 @@ const SEEDS: Seed[] = [
   },
   {
     key: 'lumenreach', archetype: 'G · affiliate-only',
+    direction: 'unknown', fit: 'unknown', fitRule: 'channel_not_established', fitWhy: 'An affiliate motion is a different buyer and a different object model.',
     proves: 'an affiliate motion is distinguished from a channel rather than counted as one',
     name: 'Lumenreach', domain: 'lumenreach.example', country: 'United States', industry: 'Martech',
     commerciality: 'affiliate_only', channelReality: 'weak', scale: 'unknown',
@@ -178,6 +185,7 @@ const SEEDS: Seed[] = [
   },
   {
     key: 'valcourt', archetype: 'H · existing Introw fingerprint',
+    direction: 'channel_operator', fit: 'strong', fitRule: 'direct_programme_with_operational_objects', fitWhy: 'Runs its own programme with the full set of operational objects — but this is an existing Introw customer and is suppressed from cold outbound.', fitPositive: ['deal registration','partner onboarding','named tiers','partner portal'],
     proves: 'an existing customer is suppressed from cold outbound with the evidence shown, not hidden',
     name: 'Valcourt IoT', domain: 'valcourt.example', country: 'Germany', industry: 'IoT platform',
     commerciality: 'transacting', channelReality: 'confirmed', scale: 'meaningful',
@@ -190,6 +198,7 @@ const SEEDS: Seed[] = [
   },
   {
     key: 'granvia', archetype: 'I · Factorial-like',
+    direction: 'channel_operator', fit: 'plausible', fitRule: 'direct_programme_partial_objects', fitWhy: 'A very large programme run centrally by one partner function. Scale is not a demotion — the operating model is what matters.', fitPositive: ['partner onboarding','named tiers'],
     proves: 'a very large programme with a large team stays commercially relevant — operational load must not demote it',
     name: 'Granvia HR', domain: 'granvia.example', country: 'Spain', industry: 'HR tech',
     commerciality: 'transacting', channelReality: 'confirmed', scale: 'large',
@@ -201,6 +210,7 @@ const SEEDS: Seed[] = [
   },
   {
     key: 'hallward', archetype: 'J · strong static fit, no timing',
+    direction: 'channel_operator', fit: 'plausible', fitRule: 'direct_programme_partial_objects', fitWhy: 'A directly-managed installer network with a countable directory and no structural markers against it.', fitPositive: ['partner onboarding','certification'],
     proves: 'an account with no dated change is routed to Watchlist rather than given invented urgency',
     name: 'Hallward Controls', domain: 'hallward.example', country: 'Austria', industry: 'Building automation',
     commerciality: 'transacting', channelReality: 'confirmed', scale: 'meaningful',
@@ -210,6 +220,7 @@ const SEEDS: Seed[] = [
   },
   {
     key: 'orrin', archetype: 'K · structural trigger, incomplete fit',
+    direction: 'unknown', fit: 'unknown', fitRule: 'channel_not_established', fitWhy: 'A strong structural trigger, but the channel itself is not yet established. Timing without fit is a research candidate, not a qualified account.',
     proves: 'a strong trigger can surface an account whose fit evidence is still thin, without over-claiming fit',
     name: 'Orrin Industrial', domain: 'orrin.example', country: 'Netherlands', industry: 'Industrial equipment',
     commerciality: 'unknown', channelReality: 'weak', scale: 'unknown',
@@ -219,6 +230,7 @@ const SEEDS: Seed[] = [
   },
   {
     key: 'pentworth', archetype: 'L · stale person',
+    direction: 'channel_operator', fit: 'plausible', fitRule: 'direct_programme_partial_objects', fitWhy: 'Runs its own programme; the blocker is the person, not the operating model.', fitPositive: ['deal registration','named tiers'],
     proves: 'a person whose role is no longer verified blocks GTM Ready and says why',
     name: 'Pentworth Data', domain: 'pentworth.example', country: 'United Kingdom', industry: 'Data platform',
     commerciality: 'transacting', channelReality: 'confirmed', scale: 'meaningful',
@@ -231,6 +243,7 @@ const SEEDS: Seed[] = [
   },
   {
     key: 'salford', archetype: 'M · conflicting evidence',
+    direction: 'channel_operator', fit: 'plausible', fitRule: 'partial_evidence', fitWhy: 'Some evidence in both directions but not enough of either to be decisive.', fitPositive: ['partner onboarding'],
     proves: 'contradictory observations are shown as a conflict, never silently resolved to the nicer value',
     name: 'Salford Micro', domain: 'salford.example', country: 'United Kingdom', industry: 'Hardware',
     commerciality: 'mixed', channelReality: 'strong', scale: 'unknown',
@@ -242,6 +255,7 @@ const SEEDS: Seed[] = [
   },
   {
     key: 'tamsin', archetype: 'N · unknown-heavy',
+    direction: 'unknown', fit: 'unknown', fitRule: 'blocked', fitWhy: 'The site could not be retrieved, so no operating-model evidence exists. This is a blocked retrieval, not an absence of channel.',
     proves: 'the sparsest honest account still reads as a coherent card rather than a broken one',
     name: 'Tamsin Verpakking', domain: 'tamsin.example', country: 'Belgium', industry: 'Packaging machinery',
     commerciality: 'unknown', channelReality: 'unknown', scale: 'unknown',
