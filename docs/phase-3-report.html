@@ -1,0 +1,422 @@
+<title>Positive Prospect Verdict</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap">
+
+<style>
+:root{
+  --paper:#FAF7F2; --paper-2:#F3EEE5; --paper-3:#EAE3D7;
+  --ink:#1F1B17; --ink-2:#413A32; --muted:#7A7167;
+  --rule:#E1D8CA; --rule-strong:#CDC1AE;
+  --accent:#9A5B32; --accent-soft:#F0E1D6;
+  --ok:#3D6B47; --ok-soft:#E3EDE1;
+  --warn:#8E6317; --warn-soft:#F4E9D2;
+  --unk:#7E766C; --unk-soft:#EDE8DF;
+  --bad:#9C3826; --bad-soft:#F6E1DC;
+  --shadow:0 1px 0 rgba(31,27,23,.04);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#15120F; --paper-2:#1D1916; --paper-3:#26211C;
+  --ink:#F2ECE3; --ink-2:#D6CCBF; --muted:#9A9086;
+  --rule:#332C25; --rule-strong:#4A4038;
+  --accent:#D08A5A; --accent-soft:#3A281C;
+  --ok:#8FBE93; --ok-soft:#20291F;
+  --warn:#D6AC5E; --warn-soft:#2C2416;
+  --unk:#A19890; --unk-soft:#242019;
+  --bad:#E08A76; --bad-soft:#2E1A15;
+  --shadow:0 1px 0 rgba(0,0,0,.3);
+}}
+:root[data-theme="dark"]{
+  --paper:#15120F; --paper-2:#1D1916; --paper-3:#26211C;
+  --ink:#F2ECE3; --ink-2:#D6CCBF; --muted:#9A9086;
+  --rule:#332C25; --rule-strong:#4A4038;
+  --accent:#D08A5A; --accent-soft:#3A281C;
+  --ok:#8FBE93; --ok-soft:#20291F;
+  --warn:#D6AC5E; --warn-soft:#2C2416;
+  --unk:#A19890; --unk-soft:#242019;
+  --bad:#E08A76; --bad-soft:#2E1A15;
+  --shadow:0 1px 0 rgba(0,0,0,.3);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Public Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1140px;margin:0 auto;padding:0 28px 120px;display:grid;grid-template-columns:1fr;gap:0}
+@media(min-width:1000px){.wrap{grid-template-columns:200px minmax(0,1fr);gap:56px;padding-right:44px}}
+.mast{grid-column:1/-1;border-bottom:1px solid var(--rule-strong);padding:56px 0 30px;margin-bottom:44px}
+.eyebrow{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:11.5px;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--accent);display:flex;flex-wrap:wrap;gap:6px 16px;margin-bottom:20px}
+h1{font-family:"Newsreader",Georgia,serif;font-weight:600;font-size:clamp(2.4rem,5.6vw,3.9rem);
+  line-height:1.03;letter-spacing:-.022em;margin:0 0 14px;text-wrap:balance}
+h1 em{font-style:italic;color:var(--accent)}
+.standfirst{font-family:"Newsreader",Georgia,serif;font-size:clamp(1.1rem,2.2vw,1.36rem);line-height:1.5;
+  color:var(--ink-2);max-width:62ch;margin:0 0 26px;text-wrap:pretty}
+.meta{display:flex;flex-wrap:wrap;gap:10px 26px;font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted)}
+.meta b{color:var(--ink-2);font-weight:500}
+nav.toc{display:none}
+@media(min-width:1000px){
+  nav.toc{display:block;position:sticky;top:32px;align-self:start;padding-top:4px}
+  nav.toc ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+  nav.toc a{display:flex;gap:9px;text-decoration:none;color:var(--muted);font-size:13px;line-height:1.35;padding:5px 0}
+  nav.toc a:hover{color:var(--accent)}
+  nav.toc .n{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--rule-strong);padding-top:1px}
+  nav.toc a:hover .n{color:var(--accent)}
+}
+main{min-width:0}
+section{margin:0 0 62px;scroll-margin-top:24px}
+h2{font-family:"Newsreader",Georgia,serif;font-weight:600;font-size:clamp(1.6rem,3.4vw,2.15rem);
+  line-height:1.14;letter-spacing:-.015em;margin:0 0 8px;text-wrap:balance;display:flex;gap:14px;align-items:baseline}
+h2 .sec{font-family:"JetBrains Mono",monospace;font-size:.6em;font-weight:500;color:var(--accent);flex:none}
+.deck{color:var(--muted);font-size:15px;margin:0 0 26px;max-width:62ch}
+h3{font-weight:700;font-size:1.02rem;margin:34px 0 10px}
+h4{font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:30px 0 10px}
+p{margin:0 0 15px;max-width:68ch;text-wrap:pretty}
+ul,ol{margin:0 0 16px;padding-left:20px;max-width:66ch}
+li{margin-bottom:7px}
+a{color:var(--accent)}
+strong{font-weight:600;color:var(--ink)}
+em{font-style:italic}
+code,.mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.86em}
+code{background:var(--paper-3);padding:1px 5px;border-radius:3px;color:var(--ink-2)}
+blockquote{margin:16px 0;padding:2px 0 2px 18px;border-left:3px solid var(--accent);
+  font-family:"Newsreader",Georgia,serif;font-size:1.08rem;line-height:1.5;color:var(--ink-2);max-width:62ch}
+.v{display:inline-flex;align-items:center;gap:6px;font-family:"JetBrains Mono",monospace;font-size:10.5px;
+  font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:3px;
+  white-space:nowrap;vertical-align:2px}
+.v::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;flex:none}
+.v-ok{color:var(--ok);background:var(--ok-soft)}
+.v-warn{color:var(--warn);background:var(--warn-soft)}
+.v-unk{color:var(--unk);background:var(--unk-soft)}
+.v-bad{color:var(--bad);background:var(--bad-soft)}
+.callout{background:var(--paper-2);border:1px solid var(--rule);border-radius:6px;padding:22px 24px;
+  margin:26px 0;box-shadow:var(--shadow)}
+.callout.good{background:var(--ok-soft);border-color:transparent}
+.callout.alarm{background:var(--bad-soft);border-color:transparent}
+.callout.warn{background:var(--warn-soft);border-color:transparent}
+.callout p{max-width:none}
+.callout p:last-child{margin-bottom:0}
+.callout .lbl{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--muted);display:block;margin-bottom:9px}
+.callout.good .lbl{color:var(--ok)}
+.callout.alarm .lbl{color:var(--bad)}
+.callout.warn .lbl{color:var(--warn)}
+.scroll{overflow-x:auto;margin:20px 0;border:1px solid var(--rule);border-radius:6px;background:var(--paper-2)}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:520px}
+th{text-align:left;font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:700;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--muted);padding:11px 14px;border-bottom:1px solid var(--rule-strong);
+  white-space:nowrap;vertical-align:bottom}
+td{padding:11px 14px;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.45}
+tr:last-child td{border-bottom:0}
+td.num{font-family:"JetBrains Mono",monospace;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.name{font-weight:600;white-space:nowrap}
+tr.hero td{background:var(--ok-soft)}
+tr.warnrow td{background:var(--warn-soft)}
+tr.badrow td{background:var(--bad-soft)}
+pre{font-family:"JetBrains Mono",monospace;font-size:12.5px;line-height:1.72;background:var(--paper-2);
+  border:1px solid var(--rule);border-radius:6px;padding:18px 20px;overflow-x:auto;margin:20px 0;color:var(--ink-2)}
+pre b{color:var(--accent);font-weight:500}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1px;background:var(--rule);
+  border:1px solid var(--rule);border-radius:6px;overflow:hidden;margin:24px 0}
+.stat{background:var(--paper-2);padding:17px 18px 15px}
+.stat .fig{font-family:"Newsreader",Georgia,serif;font-weight:600;font-size:2.05rem;line-height:1;
+  letter-spacing:-.02em;font-variant-numeric:tabular-nums;margin-bottom:7px}
+.stat .lab{font-size:12px;line-height:1.35;color:var(--muted)}
+.stat.g .fig{color:var(--ok)} .stat.r .fig{color:var(--bad)} .stat.a .fig{color:var(--accent)}
+footer{grid-column:1/-1;border-top:1px solid var(--rule-strong);margin-top:20px;padding-top:24px;
+  font-size:13px;color:var(--muted);max-width:70ch}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <div class="eyebrow"><span>Introw Signal Radar</span><span>Phase 3</span><span>23 Aug 2026</span><span>Positive identification</span></div>
+  <h1>The scanner was blind to its <em>own</em> best customers</h1>
+  <p class="standfirst">Positive promotion now works — seven of nineteen customers, zero false promotions. But the two findings that matter most are corrections: the classifier was biased against Introw's core ICP, and Phase 2's headline discriminator was label leakage.</p>
+  <div class="meta">
+    <span><b>Verdict</b> Research-Radar Go</span>
+    <span><b>Temporal baseline</b> 23 Aug 2026 · 276 snapshots</span>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Contents">
+  <ol>
+    <li><a href="#verdict"><span class="n">01</span><span>Verdict</span></a></li>
+    <li><a href="#bias"><span class="n">02</span><span>The bias</span></a></li>
+    <li><a href="#leakage"><span class="n">03</span><span>Label leakage</span></a></li>
+    <li><a href="#patterns"><span class="n">04</span><span>What customers say</span></a></li>
+    <li><a href="#constructs"><span class="n">05</span><span>Three constructs</span></a></li>
+    <li><a href="#promotion"><span class="n">06</span><span>Promotion</span></a></li>
+    <li><a href="#recovery"><span class="n">07</span><span>Miss recovery</span></a></li>
+    <li><a href="#observability"><span class="n">08</span><span>Observability</span></a></li>
+    <li><a href="#review"><span class="n">09</span><span>Human review</span></a></li>
+    <li><a href="#temporal"><span class="n">10</span><span>Temporal</span></a></li>
+    <li><a href="#events"><span class="n">11</span><span>Events &amp; people</span></a></li>
+    <li><a href="#blind"><span class="n">12</span><span>Blind spots</span></a></li>
+    <li><a href="#next"><span class="n">13</span><span>Next</span></a></li>
+  </ol>
+</nav>
+
+<main>
+
+<section id="verdict">
+  <h2><span class="sec">01</span>Verdict</h2>
+  <p class="deck"><span class="v v-warn">Research-Radar Go</span> — build the human-in-the-loop research Radar. Autonomous promotion works, but conservatively, and it under-serves exactly the accounts Introw sells to.</p>
+
+  <div class="stats">
+    <div class="stat g"><div class="fig">7 / 19</div><div class="lab">known customers positively promoted (Phase 2: 1 in 50)</div></div>
+    <div class="stat g"><div class="fig">0 / 14</div><div class="lab">clean negatives falsely promoted</div></div>
+    <div class="stat r"><div class="fig">1.53 v 0.14</div><div class="lab">formal channel artefacts — customers the classifier caught, versus those it missed</div></div>
+    <div class="stat r"><div class="fig">13 / 14</div><div class="lab">Phase 2 negative labels that cite the very feature they were used to validate</div></div>
+  </div>
+</section>
+
+<section id="bias">
+  <h2><span class="sec">02</span>The classifier was biased against Introw's own ICP</h2>
+  <p class="deck">Maturity artefacts were counted independently of the fit verdict, so the test is not circular.</p>
+
+  <div class="scroll"><table>
+    <thead><tr><th>Group</th><th>n</th><th>Mean formal channel artefacts</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Caught by the classifier</td><td class="num">15</td><td class="num"><strong>1.53</strong></td></tr>
+      <tr class="badrow"><td class="name">Missed</td><td class="num">7</td><td class="num"><strong>0.14</strong></td></tr>
+    </tbody>
+  </table></div>
+
+  <p>An order-of-magnitude difference. The Phase 2 lexicon encoded <em>mature, formalised</em> channel vocabulary — deal registration, tiers, MDF, distributor structure. Introw's customers frequently do not use it, and the four the system lost publish their partner motion in plain business English that any human would recognise instantly:</p>
+
+  <blockquote>Ringover — "helps technology consultants collaborate with us via <strong>co-marketing and co-selling</strong>… <strong>grow their own consulting business' recurring revenue streams</strong>"</blockquote>
+  <blockquote>Xelix — "We help outsourcing firms <strong>win new deals</strong>… <strong>introducing our solution into their delivery projects</strong>"</blockquote>
+  <blockquote>Zenity — "<strong>Value-Added Resellers (VARs)</strong> — our VAR partners <strong>expand Zenity's reach</strong>"</blockquote>
+  <blockquote>Payflip — "<strong>Do you have a new lead for Payflip? Fill in the form below</strong>"</blockquote>
+
+  <div class="callout alarm">
+    <span class="lbl">Why this is the most important finding</span>
+    <p>The earlier precision numbers were partly bought by systematically not seeing the right companies. The system was strongest exactly where Introw is weakest commercially — formalised, mature channel programmes — and blind to the young, informal ones the thesis calls the core ICP.</p>
+  </div>
+
+  <h3>Where the 22 customers stopped</h3>
+  <div class="scroll"><table>
+    <thead><tr><th>Stopped at</th><th>n</th><th>Fixable?</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Reached suitability</td><td class="num">15</td><td>—</td></tr>
+      <tr class="warnrow"><td class="name">Channel classification</td><td class="num">4</td><td><strong>Yes</strong> — vocabulary mismatch; the evidence was published and retrievable</td></tr>
+      <tr><td class="name">Retrieval (bot-blocked)</td><td class="num">2</td><td>No</td></tr>
+      <tr><td class="name">Identity (dead domain)</td><td class="num">1</td><td>Yes, by resolution or a human</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="leakage">
+  <h2><span class="sec">03</span>Phase 2's discriminator was label leakage</h2>
+  <p>Phase 2's headline was distributor carriage: 1 of 16 customers against 10 of 14 hypothesised poor-fit. The label audit asked how those poor-fit labels were assigned.</p>
+
+  <div class="callout alarm">
+    <span class="lbl">The audit result</span>
+    <p><strong>13 of 14 Cohort C negative rationales cite distribution structure in their own text.</strong> I labelled those companies poor-fit <em>because</em> I believed they were distributor-led, then measured that they are distributor-carried. Cohort B was separately sampled from distributor lists, so it inherits the property by construction.</p>
+  </div>
+
+  <p>Re-tested against controls whose negative basis is independent — professional-services firms, IT resellers, integration-only SaaS, affiliate programmes:</p>
+
+  <div class="scroll"><table>
+    <thead><tr><th>Population</th><th>n</th><th>Distributor-carried</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Known customers</td><td class="num">19</td><td class="num">1</td></tr>
+      <tr><td class="name">Clean negatives</td><td class="num">14</td><td class="num"><strong>0</strong></td></tr>
+      <tr><td class="name">Matched unlabelled</td><td class="num">15</td><td class="num">2</td></tr>
+    </tbody>
+  </table></div>
+
+  <p>Within segment it separates nothing either — software 1/12 customers versus 0/9 unlabelled; security 0/4 versus 1/3; hardware 0/3 versus 1/3. And once ownership is known, carriage adds nothing.</p>
+
+  <p class="deck"><span class="v v-unk">Distribution verdict: unresolved</span></p>
+  <p>Stated precisely: <strong>this design cannot settle it either way.</strong> My clean negatives are firms that never appear on IT-distributor brand lists, so there is no overlap to test. Only 3 of 48 companies are carried at all. Settling it needs clean negatives that <em>are</em> distributor-carried.</p>
+  <p><strong>In code:</strong> the multi-distributor demotion is withdrawn. It now emits <code>research_required</code> with a named research task, not <code>weak</code>.</p>
+</section>
+
+<section id="patterns">
+  <h2><span class="sec">04</span>What customers actually say</h2>
+  <p class="deck">Nineteen customers read with probes grouped by commercial question, not by the existing feature list.</p>
+<pre>recruits partners in the first person   <b>13/19</b>   ← highest-frequency positive observation
+names the partner types it manages      <b>12/19</b>
+certification or training               11/19
+partner sells or resells                10/19
+partner grows their own revenue          8/19
+partner portal                           8/19
+commission mechanics                     7/19
+FORMAL DEAL REGISTRATION                 <b>6/19</b>   ← Phase 2's "decisive" artifact
+partner tiers                            4/19</pre>
+  <p><strong>Formal deal registration — which Phase 2 treated as decisive on its own — appears on under a third of customers.</strong> First-person recruitment appears on more than twice as many.</p>
+</section>
+
+<section id="constructs">
+  <h2><span class="sec">05</span>Three constructs, measured separately</h2>
+  <p>Never summed, and deliberately not named "partner-ledness" — they behave differently and a single name would hide that.</p>
+
+  <div class="scroll"><table>
+    <thead><tr><th>Population</th><th>Materiality</th><th>Ownership</th><th>Surface</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Customers (discovery, n=13)</td><td class="num">6</td><td class="num"><strong>12</strong></td><td class="num">7</td></tr>
+      <tr><td class="name">Customers (holdout, n=6)</td><td class="num">3</td><td class="num"><strong>6</strong></td><td class="num">5</td></tr>
+      <tr class="badrow"><td class="name">Clean negatives (n=14)</td><td class="num">2</td><td class="num"><strong>3</strong></td><td class="num"><strong>0</strong></td></tr>
+      <tr><td class="name">Matched unlabelled (n=15)</td><td class="num">3</td><td class="num">8</td><td class="num">6</td></tr>
+    </tbody>
+  </table></div>
+
+  <ul>
+    <li><strong>Operational ownership</strong> is the strongest discriminator — 18 of 19 customers, 3 of 14 negatives.</li>
+    <li><strong>Operational surface</strong> is next — 12 of 19 customers, <strong>0 of 14</strong> negatives.</li>
+    <li><strong>Commercial materiality</strong> is weakest — 9 of 19 — but it is what recovers the missed customers, so it earns its place.</li>
+  </ul>
+
+  <div class="callout">
+    <span class="lbl">Promotion requires positive evidence</span>
+    <p>"No negatives found" is explicitly not a promotion. Every <code>high_fit</code> carries named supporting observations with quotes and sources, and each probe states what it proves <em>and what it does not</em>.</p>
+  </div>
+</section>
+
+<section id="promotion">
+  <h2><span class="sec">06</span>Positive promotion</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Population</th><th>n</th><th>high_fit</th><th>plausible</th><th>under_observed</th><th>not_promoted</th></tr></thead>
+    <tbody>
+      <tr class="hero"><td class="name">Known customers (discovery)</td><td class="num">13</td><td class="num"><strong>5</strong></td><td class="num">1</td><td class="num">4</td><td class="num">3</td></tr>
+      <tr class="hero"><td class="name">Known customers (HOLDOUT)</td><td class="num">6</td><td class="num"><strong>2</strong></td><td class="num">1</td><td class="num">0</td><td class="num">3</td></tr>
+      <tr><td class="name">Clean structural negatives</td><td class="num">14</td><td class="num"><strong>0</strong></td><td class="num">0</td><td class="num">8</td><td class="num">6</td></tr>
+      <tr><td class="name">Matched unlabelled prospects</td><td class="num">15</td><td class="num">3</td><td class="num">0</td><td class="num">5</td><td class="num">7</td></tr>
+    </tbody>
+  </table></div>
+  <p>The three promoted unlabelled prospects — Aircall, Basware, Wiz — are discovery candidates. They are neither correct nor incorrect; that is what an unlabelled population means.</p>
+  <p>Holdout was run once, on six customers whose pages never informed hypothesis generation: 2 promoted, 1 plausible, 3 not. Directionally consistent with discovery. <strong>With n=6 this shows the model did not collapse — nothing stronger.</strong></p>
+</section>
+
+<section id="recovery">
+  <h2><span class="sec">07</span>Customer-miss recovery</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Customer</th><th>Phase 2</th><th>Materiality</th><th>Ownership</th><th>Promotion</th></tr></thead>
+    <tbody>
+      <tr><td class="name">Ringover</td><td>channel not established</td><td><strong>confirmed</strong></td><td>direct</td><td>plausible</td></tr>
+      <tr><td class="name">Xelix</td><td>channel not established</td><td><strong>confirmed</strong></td><td>direct</td><td>plausible</td></tr>
+      <tr><td class="name">Zenity</td><td>channel not established</td><td>weak proxy</td><td>direct</td><td>under-observed</td></tr>
+      <tr><td class="name">Payflip</td><td>channel not established</td><td>weak proxy</td><td>direct</td><td>under-observed</td></tr>
+    </tbody>
+  </table></div>
+  <p><strong>All four moved from invisible to visible with named positive evidence.</strong> None reached automatic <code>high_fit</code>, because all four publish no formal artefacts and score <code>surface: unknown</code>.</p>
+  <p>That is the honest shape of the recovery: <strong>evidence capture recovered them completely; automatic promotion recovered them partially.</strong></p>
+</section>
+
+<section id="observability">
+  <h2><span class="sec">08</span>Promotion still tracks publication</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Evidence density</th><th>n</th><th>high_fit</th><th>under_observed</th></tr></thead>
+    <tbody>
+      <tr><td class="name">rich</td><td class="num">7</td><td class="num"><strong>6</strong></td><td class="num">0</td></tr>
+      <tr><td class="name">moderate</td><td class="num">16</td><td class="num">4</td><td class="num">0</td></tr>
+      <tr class="warnrow"><td class="name">sparse</td><td class="num">21</td><td class="num"><strong>0</strong></td><td class="num">17</td></tr>
+      <tr><td class="name">none</td><td class="num">4</td><td class="num">0</td><td class="num">0</td></tr>
+    </tbody>
+  </table></div>
+  <p>A real limitation, pointing the same way as the maturity bias: the system rewards companies that publish. The mitigation is structural, not statistical — sparse accounts route to <code>under_observed</code> with an explicit note that <em>a sparse account may be a strong fit that publishes little</em>, never to a demotion.</p>
+</section>
+
+<section id="review">
+  <h2><span class="sec">09</span>A human beats the automatic threshold</h2>
+  <p class="deck">Measured by actually reviewing, not simulated.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Account</th><th>Machine said</th><th>I decided</th><th>Extra sources opened</th></tr></thead>
+    <tbody>
+      <tr class="hero"><td class="name">payflip.be</td><td>RESEARCH</td><td><strong>PROMOTE</strong></td><td class="num">0</td></tr>
+      <tr class="hero"><td class="name">ringover.com</td><td>KEEP_PLAUSIBLE</td><td><strong>PROMOTE</strong></td><td class="num">0</td></tr>
+      <tr class="hero"><td class="name">zenity.io</td><td>RESEARCH</td><td><strong>PROMOTE</strong></td><td class="num">0</td></tr>
+      <tr class="hero"><td class="name">xelix.com</td><td>KEEP_PLAUSIBLE</td><td><strong>PROMOTE</strong></td><td class="num">0</td></tr>
+      <tr><td class="name">sequoiacap.com</td><td>RESEARCH</td><td>DEMOTE</td><td class="num">0</td></tr>
+      <tr><td class="name">sentry.io</td><td>RESEARCH</td><td>DEMOTE</td><td class="num">0</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="callout good">
+    <span class="lbl">The commercial conclusion</span>
+    <p><strong>All four known customers in the band were promotable, and the machine had promoted none.</strong> The cost was reading four to six quoted observations — under a minute per account. Evidence capture works; the automatic threshold is conservative. That is the case for a human-in-the-loop product rather than an autonomous one.</p>
+  </div>
+  <p>Caveats: n=6, from the easier half of the band. Eleven of the seventeen band records carry no positive evidence and would need research from scratch. I am not an Introw AE.</p>
+</section>
+
+<section id="temporal">
+  <h2><span class="sec">10</span>Temporal foundation — running</h2>
+  <div class="stats">
+    <div class="stat a"><div class="fig">23 Aug</div><div class="lab">baseline recorded, 07:36 UTC</div></div>
+    <div class="stat"><div class="fig">276</div><div class="lab">snapshots across 50 companies</div></div>
+    <div class="stat"><div class="fig">0</div><div class="lab">changes claimed — every observation is a first observation</div></div>
+  </div>
+  <p>Covered: partner-host DNS/CNAME, platform fingerprints, partner URL inventory, partner surface content. Cadence set by volatility with reasons recorded — DNS weekly, because a CNAME change is the cleanest migration signal and costs nothing.</p>
+  <p>Change detection separates <strong>raw change</strong> (a copy edit, a rotating widget) from <strong>semantic change</strong> (a structural marker appearing or disappearing). Timestamps, build hashes and cache-busting parameters are normalised out before hashing.</p>
+  <div class="callout">
+    <span class="lbl">No false history</span>
+    <p>No Why Now is claimed anywhere. The interface says so plainly: <em>"No verified recent trigger. Temporal baseline started 23 Aug 2026 — change claims require a second dated observation."</em> Every timing verdict in Phase 2 failed for want of a second observation. From today there will be one.</p>
+  </div>
+</section>
+
+<section id="events">
+  <h2><span class="sec">11</span>Events and people</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Event-source role</th><th>Verdict</th><th>Measurement</th></tr></thead>
+    <tbody>
+      <tr class="hero"><td class="name">Person enrichment</td><td><span class="v v-ok">Supported</span></td><td>34 partner titles across 5 organisers, <strong>25 Tier-1</strong></td></tr>
+      <tr><td class="name">Discovery seed</td><td><span class="v v-unk">Unresolved</span></td><td>Only 28 company names survived filtering; event pages publish titles far more reliably than employers</td></tr>
+      <tr><td class="name">Priority accelerator</td><td><span class="v v-unk">Unresolved</span></td><td>Attendee lists are private; only speakers and sponsors are published</td></tr>
+      <tr><td class="name">Context</td><td><span class="v v-ok">Always</span></td><td>Attendance evidences a partner function that exists and travels</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="callout warn">
+    <span class="lbl">A correction made mid-flight</span>
+    <p>My first run reported <code>discovery_seed: SUPPORTED</code> on a count of 72 companies. Inspection showed the extractor was returning title fragments — "Chief Partner", "Strategic Alliances", "April" — and a second bug used a stateful <code>/g</code> regex inside <code>.test()</code>. Both fixed; the verdict is now unresolved. The earlier number should not be cited.</p>
+  </div>
+
+  <p><strong>People remains the binding constraint on a GTM queue.</strong> No credentials, so Phase 3 delivers a bake-off design rather than a bake-off: a 20–30 company gold set, scored on target-person recall, current-title precision, current-company precision, duplicate rate, role freshness, geography, cost per resolved company and licensing fit.</p>
+  <p>The <strong>2+ partner-manager rule</strong> stays commercially important evidence and is not operationalised as a gate. No compliant source for exact team headcount exists here, and <code>unknown</code> stays neutral: <em>no people found is not team &lt; 2</em>.</p>
+</section>
+
+<section id="blind">
+  <h2><span class="sec">12</span>Remaining blind spots</h2>
+  <ol>
+    <li><strong>Promotion tracks publication.</strong> 6 of 7 rich-density companies promoted, 0 of 21 sparse. Mitigated, not solved.</li>
+    <li><strong>Automatic promotion is conservative</strong> — it misses the informal programmes that are Introw's ICP. A human recovers them; the machine does not.</li>
+    <li><strong>Materiality has weak recall</strong> — 9 of 19. The construct that recovers misses is the one least often observable.</li>
+    <li><strong>Distribution is unresolved</strong> and untestable with these controls.</li>
+    <li><strong>No people data.</strong> Unchanged, and it blocks a queue.</li>
+    <li><strong>No timing yet.</strong> History starts today.</li>
+    <li><strong>Two bot-blocked customers and one dead domain</strong> remain permanently invisible.</li>
+    <li><strong>n is small throughout</strong> — 19 customers, 14 clean negatives, 6 holdout.</li>
+    <li><strong>Industrial remains not served</strong>, frozen from Phase 2.</li>
+  </ol>
+</section>
+
+<section id="next">
+  <h2><span class="sec">13</span>What to build, and what not to</h2>
+  <h4>Build</h4>
+  <ol>
+    <li><strong>Human-in-the-loop review as the product surface.</strong> The measurement supports it directly: evidence capture beats the automatic threshold, and a reviewer resolves a record in under a minute.</li>
+    <li><strong>Keep the snapshot loop running.</strong> The only route to Why Now, and it costs nothing but time.</li>
+    <li><strong>Broaden the materiality probes</strong> — the weakest construct, and the one that recovers misses.</li>
+    <li><strong>A people-provider bake-off</strong> as soon as credentials exist. It is the binding constraint on a queue.</li>
+    <li><strong>The distribution experiment done properly</strong> — clean negatives that are themselves distributor-carried.</li>
+  </ol>
+  <h4>Do not build</h4>
+  <p>Production scoring · a 0–100 score · a <code>PartnerLedScore</code> · the final GTM Queue · polished production UI · mass discovery · broad industrial crawling · CRM detection investment · partner-count engineering · any Why Now before a second dated observation · the 2+ manager rule as an automatic gate.</p>
+
+  <div class="callout good">
+    <span class="lbl">Verdict</span>
+    <p>The system reliably captures the right evidence, quotes it, attributes it, and separates what it proves from what it does not. It demotes clean negatives without error and now promotes a real subset of customer-like programmes. What it cannot yet do is promote autonomously without under-serving the young, informal programmes that are Introw's stated ICP.</p>
+    <p><strong>Build the human-in-the-loop research Radar. Keep the snapshots accruing. Do not productionise autonomous promotion yet.</strong></p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>Two of my own prior conclusions are corrected here: Phase 2's distribution discriminator is withdrawn as label leakage, and the Phase 1/2 classifier is shown to have been biased against the customers it most needed to find. One Phase 3 result was also corrected mid-flight — an event-source verdict produced by a broken extractor.</p>
+</footer>
+
+</div>
