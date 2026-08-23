@@ -53,6 +53,7 @@ interface Seed {
   fitWhy?: string;
   fitPositive?: string[];
   fitNegative?: string[];
+  positive?: Fixture['positiveFit'];
   /** Distributors publicly carrying this company's products. */
   carriedBy?: string[];
   discoveredVia?: string;
@@ -102,6 +103,9 @@ const SEEDS: Seed[] = [
   },
   {
     key: 'northwind', archetype: 'A · fully resolved',
+    positive: { materiality: 'confirmed', ownership: 'direct', surface: 'rich', density: 'rich', promotion: 'high_fit',
+      support: ['"reseller partners grow their own recurring revenue"', '"become a partner" on their own programme page', 'deal registration and partner portal present'],
+      missRisk: null },
     direction: 'channel_operator', fit: 'strong', fitRule: 'direct_programme_with_operational_objects', fitWhy: 'The company runs its own programme and four of the operational objects Introw provides are already visible, with no structural markers of an enterprise operating model.', fitPositive: ['deal registration','partner onboarding','named tiers','partner portal'],
     proves: 'the complete card renders without crowding when every dimension happens to be known',
     name: 'Northwind Systems', domain: 'northwind.example', country: 'Germany', industry: 'SaaS',
@@ -130,6 +134,9 @@ const SEEDS: Seed[] = [
   },
   {
     key: 'verlaine', archetype: 'C · strong programme, team unknown',
+    positive: { materiality: 'strong_proxy', ownership: 'direct', surface: 'unknown', density: 'moderate', promotion: 'plausible',
+      support: ['"devenir installateur partenaire"', 'four named installer partner types'],
+      missRisk: 'Runs its own partner motion but publishes no formal channel artefacts. This is the profile of the customers the earlier model missed — do not demote on thin surface alone.' },
     direction: 'channel_operator', fit: 'plausible', fitRule: 'direct_programme_partial_objects', fitWhy: 'A directly-managed installer network with onboarding and certification visible.', fitPositive: ['partner onboarding','certification'],
     proves: 'the organisation block never shows an empty headcount box; it shows what is known and what is being researched',
     name: 'Verlaine Énergie', domain: 'verlaine.example', country: 'France', industry: 'Heating & renewables',
@@ -255,6 +262,8 @@ const SEEDS: Seed[] = [
   },
   {
     key: 'tamsin', archetype: 'N · unknown-heavy',
+    positive: { materiality: 'unknown', ownership: 'unknown', surface: 'unknown', density: 'none', promotion: 'under_observed',
+      support: [], missRisk: 'No partner surface could be retrieved. Missing observation, not a poor fit.' },
     direction: 'unknown', fit: 'unknown', fitRule: 'blocked', fitWhy: 'The site could not be retrieved, so no operating-model evidence exists. This is a blocked retrieval, not an absence of channel.',
     proves: 'the sparsest honest account still reads as a coherent card rather than a broken one',
     name: 'Tamsin Verpakking', domain: 'tamsin.example', country: 'Belgium', industry: 'Packaging machinery',
@@ -271,6 +280,16 @@ export interface Fixture extends Account {
   archetype: string;
   proves: string;
   conflictNote?: string;
+  /** Phase 3: the three positive constructs, plus the risk that we simply cannot see enough. */
+  positiveFit?: {
+    materiality: string;
+    ownership: string;
+    surface: string;
+    density: string;
+    promotion: 'high_fit' | 'plausible' | 'under_observed' | 'not_promoted';
+    support: string[];
+    missRisk: string | null;
+  };
 }
 
 export const FIXTURES: Fixture[] = SEEDS.map((s) => {
@@ -284,6 +303,7 @@ export const FIXTURES: Fixture[] = SEEDS.map((s) => {
     archetype: s.archetype,
     proves: s.proves,
     conflictNote: s.conflict,
+    positiveFit: s.positive,
     identity: {
       id: s.domain, canonicalName: s.name, domain: s.domain, country: s.country, industry: s.industry,
       aliases: [], identityConfidence: 'high', identityMethod: 'fixture', identityState: 'resolved',

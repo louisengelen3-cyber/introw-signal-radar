@@ -252,9 +252,20 @@ export function assessSuitability(input: SuitabilityInput): SuitabilityResult {
   // Distribution across SEVERAL distributors describes a channel whose reseller
   // relationships are mediated rather than direct — the shape Introw's customer evidence
   // does not contain. One distributor plus a real direct programme is the Cubbit shape.
+  // WITHDRAWN IN PHASE 3, kept as research evidence rather than a demotion.
+  // The Phase 2 result (1/16 customers vs 10/14 poor-fit carried) came from a cohort whose
+  // labels CITE distribution in 13 of 14 rationales. Re-tested against controls whose
+  // negative basis is independent, carriage separates nothing: customers 1/19, clean
+  // negatives 0/14, matched unlabelled 2/15. Only 3 of 48 companies are carried at all,
+  // so the design cannot settle it either way — it is unresolved, not disproven.
   if (distributorCount >= 2 && !(artifactCount >= 4 && dir === 'channel_operator')) {
-    return done('weak', 'medium', 'multi_distributor_mediated_channel',
-      `${distributorCount} independent distributors publicly carry this company's products, and its own programme surfaces show ${artifactCount} of Introw's operational objects. A channel reached through several distributors places onboarding, credit and often registration with the distributor rather than the vendor. Measured base rate: 1 of 16 known Introw customers is distributor-carried, against 10 of 14 hypothesised poor-fit programmes.`);
+    research.push({
+      field: 'distribution_mediation',
+      reason: `${distributorCount} independent distributors carry this company and direct-programme evidence is thin`,
+      method: 'check whether resellers contract with the company or only with the distributor',
+    });
+    return done('research_required', 'low', 'multi_distributor_unresolved',
+      `${distributorCount} independent distributors publicly carry this company's products, and its own programme surfaces show ${artifactCount} of Introw's operational objects. Whether the company or the distributor owns the reseller relationship is unresolved, and that is the difference between an addressable account and a distributor's account. Routed to research rather than demoted: the Phase 2 demotion rested on labels that cited distribution, and did not survive independent controls.`);
   }
   if (multiTier && artifactCount >= 3 && (dir === 'channel_operator' || dir === 'both')) {
     return done('plausible', 'medium', 'distribution_alongside_direct_programme',

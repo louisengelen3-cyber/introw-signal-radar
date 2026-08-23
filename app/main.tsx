@@ -82,6 +82,11 @@ const FIT_LABEL: Record<string, string> = {
   research_required: 'Research required',
 };
 
+const PROMOTION_LABEL: Record<string, string> = {
+  high_fit: 'High fit', plausible: 'Plausible', under_observed: 'Under-observed',
+  not_promoted: 'Not promoted',
+};
+
 const COMMERCIALITY_LABEL: Record<string, string> = {
   transacting: 'Transacting channel', mixed: 'Transacting + integration',
   integration_only: 'Integration ecosystem only', affiliate_only: 'Affiliate motion only',
@@ -126,6 +131,24 @@ function AccountCard({ a, onOpen }: { a: Fixture; onOpen: () => void }) {
             <span className={`st st-${DIRECTION_TONE[q.channelDirection]}`}>{DIRECTION_LABEL[q.channelDirection]}</span>
           </p>
         </section>
+
+        {/* Phase 3: the three positive constructs, shown separately and never summed. */}
+        {a.positiveFit && (
+          <section className="blk">
+            <h4>Positive fit</h4>
+            <p className={`fit fit-${a.positiveFit.promotion}`}>{PROMOTION_LABEL[a.positiveFit.promotion]}</p>
+            <div className="constructs">
+              <div><span className="ck">Materiality</span><span className="cv">{a.positiveFit.materiality.replace(/_/g, ' ')}</span></div>
+              <div><span className="ck">Ownership</span><span className="cv">{a.positiveFit.ownership.replace(/_/g, ' ')}</span></div>
+              <div><span className="ck">Surface</span><span className="cv">{a.positiveFit.surface}</span></div>
+              <div><span className="ck">Evidence</span><span className="cv">{a.positiveFit.density} publication</span></div>
+            </div>
+            {a.positiveFit.support.length > 0 && (
+              <ul className="ev ev-pos">{a.positiveFit.support.map((q) => <li key={q}>{q}</li>)}</ul>
+            )}
+            {a.positiveFit.missRisk && <p className="note miss">{a.positiveFit.missRisk}</p>}
+          </section>
+        )}
 
         <section className="blk">
           <h4>Introw suitability</h4>
@@ -197,6 +220,13 @@ function AccountCard({ a, onOpen }: { a: Fixture; onOpen: () => void }) {
         ) : null}
 
         {/* Why now — only ever from a dated change */}
+        {a.signals.length === 0 && (
+          <section className="blk">
+            <h4>Why now</h4>
+            <p className="note dim">No verified recent trigger. Temporal baseline started 23 Aug 2026 —
+              change claims require a second dated observation.</p>
+          </section>
+        )}
         {a.signals.length > 0 && (
           <section className="blk">
             <h4>Why now</h4>

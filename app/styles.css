@@ -119,3 +119,13 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-off
 .ev-neg li::marker{color:var(--warn)}
 .ev-pos li::marker{color:var(--ok)}
 .drawer code{background:var(--paper-3);padding:1px 5px;border-radius:3px;font-size:.85em}
+
+/* Phase 3: the three positive constructs, side by side and never summed. */
+.constructs{display:grid;grid-template-columns:1fr 1fr;gap:5px 12px;margin:9px 0 0}
+.constructs>div{display:flex;flex-direction:column;gap:1px}
+.ck{font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.cv{font-size:12.5px;font-weight:600;text-transform:capitalize}
+.fit-high_fit{color:var(--ok)}
+.fit-under_observed{color:var(--warn)}
+.fit-not_promoted{color:var(--muted);font-weight:600}
+.note.miss{background:var(--warn-soft);padding:8px 10px;border-radius:4px;margin-top:9px}
