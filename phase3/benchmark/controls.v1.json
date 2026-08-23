@@ -1,0 +1,38 @@
+{
+  "version": "controls.v1",
+  "frozenAt": "2026-08-23",
+  "note": "Frozen before the positive constructs were run against any member. Negative rationales are independent of distribution, complexity and size — the features under test.",
+  "cleanNegatives": [
+    {"name":"Deloitte","domain":"deloitte.com","negativeBasis":"professional_services_partner","rationale":"'Partner' denotes an equity partner; alliance pages describe participation in other vendors' programmes"},
+    {"name":"Freshfields","domain":"freshfields.com","negativeBasis":"professional_services_partner","rationale":"International law practice; 'partner' denotes an equity partner"},
+    {"name":"Bain & Company","domain":"bain.com","negativeBasis":"professional_services_partner","rationale":"Management consultancy; 'partner' denotes an equity partner"},
+    {"name":"Sequoia Capital","domain":"sequoiacap.com","negativeBasis":"professional_services_partner","rationale":"Venture firm; 'partner' denotes an investment partner"},
+    {"name":"Index Ventures","domain":"indexventures.com","negativeBasis":"professional_services_partner","rationale":"Venture firm; 'partner' denotes an investment partner"},
+    {"name":"Linear","domain":"linear.app","negativeBasis":"integration_only","rationale":"Integrations directory with no commercial partner motion; verified integration_only in Phase 1"},
+    {"name":"Sentry","domain":"sentry.io","negativeBasis":"integration_only","rationale":"Large integrations directory, no reseller or referral programme; verified in Phase 1"},
+    {"name":"PostHog","domain":"posthog.com","negativeBasis":"integration_only","rationale":"Integrations plus open source; no transacting partner motion; verified in Phase 1"},
+    {"name":"Semrush","domain":"semrush.com","negativeBasis":"affiliate_only","rationale":"Link-attributed affiliate programme; verified affiliate_only in Phase 1"},
+    {"name":"Kinsta","domain":"kinsta.com","negativeBasis":"affiliate_only","rationale":"Affiliate programme is the published partner motion; verified affiliate_only in Phase 1"},
+    {"name":"Softcat","domain":"softcat.com","negativeBasis":"participant_only","rationale":"IT reseller; its partner language describes membership of vendors' programmes. Field-verified as a participant in Phase 2"},
+    {"name":"Computacenter","domain":"computacenter.com","negativeBasis":"participant_only","rationale":"IT reseller and integrator; participates in vendor programmes rather than operating one for its own product"},
+    {"name":"Bechtle","domain":"bechtle.com","negativeBasis":"participant_only","rationale":"IT reseller; participates in vendor programmes"},
+    {"name":"Insight Enterprises","domain":"insight.com","negativeBasis":"participant_only","rationale":"IT reseller and solutions integrator; participates in vendor programmes"}
+  ],
+  "matchedUnlabelled": [
+    {"name":"Aircall","domain":"aircall.io","matchedTo":"Ringover","matchBasis":"cloud telephony SaaS, EU-origin, mid-market, sells to sales and support teams"},
+    {"name":"Personio","domain":"personio.com","matchedTo":"Factorial","matchBasis":"European HR SaaS at comparable scale selling to SMB and mid-market"},
+    {"name":"Silverfin","domain":"silverfin.com","matchedTo":"Payflip","matchBasis":"Belgian B2B SaaS sold to and through accounting/payroll professionals"},
+    {"name":"Nedap","domain":"nedap.com","matchedTo":"Quatt","matchBasis":"Dutch manufacturer selling through installers and integrators"},
+    {"name":"Wiz","domain":"wiz.io","matchedTo":"Zenity","matchBasis":"cloud-security vendor of similar stage selling through VARs and consultancies"},
+    {"name":"Snyk","domain":"snyk.io","matchedTo":"Aikido Security","matchBasis":"developer-security SaaS with a partner motion, comparable stage"},
+    {"name":"Contentful","domain":"contentful.com","matchedTo":"Storyblok","matchBasis":"headless CMS with an implementation and agency partner motion"},
+    {"name":"Datadog","domain":"datadoghq.com","matchedTo":"Sedai","matchBasis":"cloud-operations vendor with a partner programme, larger stage"},
+    {"name":"Vectra AI","domain":"vectra.ai","matchedTo":"SafeBreach","matchBasis":"security vendor selling through channel partners at comparable stage"},
+    {"name":"Basware","domain":"basware.com","matchedTo":"Xelix","matchBasis":"finance/AP software selling through BPO and outsourcing partners"},
+    {"name":"Wasabi","domain":"wasabi.com","matchedTo":"Cubbit","matchBasis":"cloud-storage vendor selling through resellers and MSPs"},
+    {"name":"Yuki","domain":"yuki.nl","matchedTo":"Payflip","matchBasis":"Benelux SaaS sold through accountants"},
+    {"name":"Teamleader","domain":"teamleader.eu","matchedTo":"Payflip","matchBasis":"Belgian SMB SaaS with an accountant and agency reseller channel"},
+    {"name":"Loxone","domain":"loxone.com","matchedTo":"Quatt","matchBasis":"building-automation manufacturer with a certified installer network"},
+    {"name":"Enphase Energy","domain":"enphase.com","matchedTo":"Quatt","matchBasis":"energy hardware with a certified installer network"}
+  ]
+}

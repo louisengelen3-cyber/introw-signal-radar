@@ -1,0 +1,14 @@
+catalyst_nyc             status=200 titles=10 tier1=8 companies=24 entRatio=1.6
+catalyst_agenda          status=200 titles=0 tier1=0 companies=0 entRatio=0
+partnertechx_speakers    status=200 titles=15 tier1=10 companies=26 entRatio=0
+channelfocus             status=200 titles=1 tier1=0 companies=1 entRatio=0
+partnershipleaders       status=200 titles=8 tier1=7 companies=22 entRatio=0.25
+
+totals: titles=34 tier1=25 distinctCompanies=72 enterpriseNamed=2
+{
+  "discovery_seed": "SUPPORTED",
+  "person_enrichment": "SUPPORTED — Tier-1 partner titles appear at volume with company attribution",
+  "priority_accelerator": "UNRESOLVED — would require matching attendees to an existing account list, and attendee lists are private; only speakers and sponsors are published",
+  "context_only": "ALWAYS SUPPORTED — attendance evidences that a partner function exists and travels"
+}
+DONE

@@ -1,0 +1,27 @@
+{
+  "note": "Deterministic split of the 19 customers with retrievable partner pages: every 3rd to holdout. Frozen before the positive constructs ran.",
+  "frozenAt": "2026-08-23",
+  "discovery": [
+    "aikido.dev",
+    "archerirm.com",
+    "coder.com",
+    "cubbit.io",
+    "epiphan.com",
+    "factorialhr.com",
+    "payflip.be",
+    "quatt.io",
+    "ringover.com",
+    "safebreach.com",
+    "sharegate.com",
+    "storyblok.com",
+    "zenity.io"
+  ],
+  "holdout": [
+    "axon.com",
+    "cumulocity.com",
+    "parloa.com",
+    "reversinglabs.com",
+    "sedai.io",
+    "xelix.com"
+  ]
+}

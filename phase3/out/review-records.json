@@ -1,0 +1,1648 @@
+[
+  {
+    "domain": "archerirm.com",
+    "name": "archerirm.com",
+    "population": "customer_discovery",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "want to grow with Archer at the highest level. Value-added Resellers Sell Archer products and services, including new logos, expansions, a",
+        "source": "https://www.archerirm.com/archer-partners",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "or clients tackling complex risk and compliance challenges. Consulting partners can earn domain Specializations to unlock preferential deal routing,",
+        "source": "https://www.archerirm.com/archer-partners",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "claim": "provides_partner_support",
+        "quote": "ially rewarding. Development & enablement support Dedicated partner resources, enablement content, and Archer team coordination to accelerate your",
+        "source": "https://www.archerirm.com/archer-partners",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption",
+      "incumbent partner platform (no fingerprint found — not evidence that none is in use)"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": null,
+    "evidenceDensity": "moderate",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "DEMOTE",
+    "sourcesToVerify": 1
+  },
+  {
+    "domain": "coder.com",
+    "name": "coder.com",
+    "population": "customer_discovery",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "trusted advisor for modern AI development transformations. Resellers Expand your product offerings, attract new customers, and increase re",
+        "source": "https://coder.com/partners",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "’re building the future of secure, self-hosted development. Technology Partners Create innovative solutions that optimize workflows and increase valu",
+        "source": "https://coder.com/partners",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": "introw",
+    "evidenceDensity": "sparse",
+    "customerMissRisk": "Runs its own partner motion but publishes no formal channel artefacts. This is the profile of the customers the earlier model missed — do not demote on thin surface alone.",
+    "researchTasks": [],
+    "machineSuggestion": "SUPPRESS",
+    "sourcesToVerify": 1
+  },
+  {
+    "domain": "aikido.dev",
+    "name": "aikido.dev",
+    "population": "customer_discovery",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "evenue, and get support from our no-nonsense enablement and co-sell motions. Become a trusted advisor Get an exclusive Aikido Partner Bad",
+        "source": "https://www.aikido.dev/partner",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "partner_grows_own_revenue",
+        "quote": "ner Room Why partner? Scale your business Earn commissions, grow your revenue, and get support from our no-nonsense enablement and co-sell motions.",
+        "source": "https://www.aikido.dev/partner",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "oadens your market reach as part of an expanding ecosystem. Become a partner Enroll If you fit the partners we’re looking for, we’ll be thrilled t",
+        "source": "https://www.aikido.dev/partner",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "provides_partner_support",
+        "quote": "deal registration and tracking of commission fees Dedicated Partner Success Manager who will be with you every step of the way – from training to",
+        "source": "https://www.aikido.dev/partner",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      }
+    ],
+    "negativeEvidence": [
+      {
+        "claim": "the company has built partner infrastructure of its own beyond what a platform provides",
+        "source": "https://www.aikido.dev/partner"
+      }
+    ],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption",
+      "incumbent partner platform (no fingerprint found — not evidence that none is in use)"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": null,
+    "evidenceDensity": "moderate",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "PROMOTE",
+    "sourcesToVerify": 1
+  },
+  {
+    "domain": "cubbit.io",
+    "name": "cubbit.io",
+    "population": "customer_discovery",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "for Partners’ needs Multi-tenant Enable multiple users (and resellers) to manage their tenants independently, with full control over metric",
+        "source": "https://www.cubbit.io/partners",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "Cubbit | Become a partner Product Solutions Case Studies Partners Pricing Docs Contact us Try n",
+        "source": "https://www.cubbit.io/partners",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "s without the need to manage any hardware. Become a partner Technology Partners Complement your offering by integrating geo-distributed S3 into your",
+        "source": "https://www.cubbit.io/partners",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      }
+    ],
+    "negativeEvidence": [
+      {
+        "claim": "exclusive_networks publicly lists this company among the brands it distributes, so the channel is at least partly distribution-mediated",
+        "source": "https://www.exclusive-networks.com/ecosystem/vendors/cubbit"
+      }
+    ],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": "introw",
+    "evidenceDensity": "moderate",
+    "customerMissRisk": null,
+    "researchTasks": [
+      {
+        "field": "direct_programme",
+        "reason": "distribution present and no strong direct-programme evidence found",
+        "method": "check whether resellers contract with the company or only with the distributor"
+      }
+    ],
+    "machineSuggestion": "SUPPRESS",
+    "sourcesToVerify": 2
+  },
+  {
+    "domain": "payflip.be",
+    "name": "payflip.be",
+    "population": "customer_discovery",
+    "positiveEvidence": [
+      {
+        "claim": "partner_sources_deals",
+        "quote": "R Home Payflip x Partners Payflip 💜 Partners Do you have a new lead for Payflip? Fill in the form below and we will get in touch with them!",
+        "source": "https://payflip.be/en/partner-leads",
+        "proves": "the company describes partners bringing it leads, deals or customers",
+        "doesNotProve": "the number of deals, or that a process exists to handle them"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "Payflip's ecosystem for payroll, hr, accounting as well as benefit partners to give our customers the digital experience they deserve. Payroll pa",
+        "source": "https://payflip.be/en/partners",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "claim": "operates_intake",
+        "quote": "ers Payflip 💜 Partners Do you have a new lead for Payflip? Fill in the form below and we will get in touch with them!",
+        "source": "https://payflip.be/en/partner-leads",
+        "proves": "the company runs its own intake for partner applications, leads or deals",
+        "doesNotProve": "the volume through it, or that it is automated rather than an inbox"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "unknown",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": "Runs its own partner motion but publishes no formal channel artefacts. This is the profile of the customers the earlier model missed — do not demote on thin surface alone.",
+    "researchTasks": [],
+    "machineSuggestion": "RESEARCH",
+    "sourcesToVerify": 2
+  },
+  {
+    "domain": "factorialhr.com",
+    "name": "factorialhr.com",
+    "population": "customer_discovery",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "Become our Reseller Partner By joining our program you will elevate your business potenti",
+        "source": "https://factorialhr.com/partners-distributors",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "partner_grows_own_revenue",
+        "quote": "ze new revenue opportunities. Expand your service offering, grow your business, and boost your profitability! Become a partner Find out how to becom",
+        "source": "https://factorialhr.com/partners-distributors",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "offering, grow your business, and boost your profitability! Become a partner Find out how to become a Factorial Distributor Partner We explain in",
+        "source": "https://factorialhr.com/partners-distributors",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      }
+    ],
+    "negativeEvidence": [
+      {
+        "claim": "the company has built partner infrastructure of its own beyond what a platform provides",
+        "source": "https://factorialhr.com/partners-distributors"
+      }
+    ],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption",
+      "incumbent partner platform (no fingerprint found — not evidence that none is in use)"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": null,
+    "evidenceDensity": "moderate",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "PROMOTE",
+    "sourcesToVerify": 1
+  },
+  {
+    "domain": "epiphan.com",
+    "name": "epiphan.com",
+    "population": "customer_discovery",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "Authorized Partner This program is designed for value-added resellers, system integrators, and ProAV dealers ready to grow with us. Backed",
+        "source": "https://www.epiphan.com/epiphan-authorized-partner-program/",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "partner_extends_reach",
+        "quote": "her content that can help you promote Epiphan solutions and reach new customers. Browse resources",
+        "source": "https://www.epiphan.com/partners/",
+        "proves": "the company describes partners reaching customers it would not reach directly",
+        "doesNotProve": "that the reach is exclusive, managed, or measured"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "Authorized Distributors, Broadfield, Midwich, and JB&A will partner with us to qualify applicants. Apply now",
+        "source": "https://www.epiphan.com/epiphan-authorized-partner-program/",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "--> Dealer and distribution partners - Epiphan Video Dealer and distribution partners Epiphan products are",
+        "source": "https://www.epiphan.com/partners/",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "claim": "provides_partner_support",
+        "quote": "--> Partner resources - Epiphan Video Resources for Epiphan partners Download marketing con",
+        "source": "https://www.epiphan.com/partners/partner-resources/",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": "introw",
+    "evidenceDensity": "rich",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "SUPPRESS",
+    "sourcesToVerify": 3
+  },
+  {
+    "domain": "quatt.io",
+    "name": "quatt.io",
+    "population": "customer_discovery",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": "introw",
+    "evidenceDensity": "sparse",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "SUPPRESS",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "sharegate.com",
+    "name": "sharegate.com",
+    "population": "customer_discovery",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "hia Cayman Island Austria Canada United States Partner type VAR SI Consulting and Advisory MSP CSP GSI Segment Enterprise Mid Market",
+        "source": "https://sharegate.com/partner-directory",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "partner_grows_own_revenue",
+        "quote": "e tools, and value-added support, it’s designed to help you grow your business and deliver even more value to your clients. We’re also rolling out p",
+        "source": "https://sharegate.com/webinars/partner-program-unlock-unfair-advantage-sharegate",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "ope, deliver, and grow M365 services without the guesswork. Become a partner Already a partner? Log in 1,800+ partners trust ShareGate globally 01",
+        "source": "https://sharegate.com/partner",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "ise Mid Market SMB Public Sector Migration Services Stratos Technology Partners Standard Christchurch , New Zealand Stratos Technology Partners is a",
+        "source": "https://sharegate.com/partner-directory",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "claim": "provides_partner_support",
+        "quote": "a discounted price based on your program level. Contact the partner team to get onboarded with the right distributor for your region. What typ",
+        "source": "https://sharegate.com/partner",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": "introw",
+    "evidenceDensity": "rich",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "SUPPRESS",
+    "sourcesToVerify": 3
+  },
+  {
+    "domain": "safebreach.com",
+    "name": "safebreach.com",
+    "population": "customer_discovery",
+    "positiveEvidence": [
+      {
+        "claim": "partner_grows_own_revenue",
+        "quote": "existing offerings, increase value for your customers, and grow your business fast. For Tech Alliances Leverage an array of technology integrations",
+        "source": "https://partners.safebreach.com/",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "nizations to shift from defense to offense with confidence. Become a Partner Login to Portal Register a Deal Why partner with SafeBreach? Whether",
+        "source": "https://partners.safebreach.com/",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "and work seamlessly with their existing security stack. For Channel Partners Enhance value and profitability, while addressing the need of organiz",
+        "source": "https://partners.safebreach.com/",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "claim": "operates_intake",
+        "quote": "o offense with confidence. Become a Partner Login to Portal Register a Deal Why partner with SafeBreach? Whether you provide solutions, deliver s",
+        "source": "https://partners.safebreach.com/",
+        "proves": "the company runs its own intake for partner applications, leads or deals",
+        "doesNotProve": "the volume through it, or that it is automated rather than an inbox"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption",
+      "incumbent partner platform (no fingerprint found — not evidence that none is in use)"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": null,
+    "evidenceDensity": "moderate",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "DEMOTE",
+    "sourcesToVerify": 1
+  },
+  {
+    "domain": "ringover.com",
+    "name": "ringover.com",
+    "population": "customer_discovery",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "nology consultants collaborate with us via co-marketing and co-selling, to: Better serve their customers Improve reach and awareness in thei",
+        "source": "https://www.ringover.com/partner-program",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "partner_grows_own_revenue",
+        "quote": "th a communication solution that’s easy to sell and deploy! Increase your revenue and keep clients loyal while preserving an exclusive commercial relat",
+        "source": "https://www.ringover.com/become-a-partner",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "claim": "partner_extends_reach",
+        "quote": "aborate with us via co-marketing and co-selling, to: Better serve their customers Improve reach and awareness in their respective markets Grow their ow",
+        "source": "https://www.ringover.com/partner-program",
+        "proves": "the company describes partners reaching customers it would not reach directly",
+        "doesNotProve": "that the reach is exclusive, managed, or measured"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "oyal while preserving an exclusive commercial relationship. Become a partner Already a partner? Contact us",
+        "source": "https://www.ringover.com/become-a-partner",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "ms, and enjoy a faster way to build your business. Staffing Agency Partners Offer powerful calling, messaging and AI automations built for staffi",
+        "source": "https://www.ringover.com/partner-program",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "moderate",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "KEEP_PLAUSIBLE",
+    "sourcesToVerify": 2
+  },
+  {
+    "domain": "storyblok.com",
+    "name": "storyblok.com",
+    "population": "customer_discovery",
+    "positiveEvidence": [
+      {
+        "claim": "partner_grows_own_revenue",
+        "quote": "artner and win new clients. Growth – Work with Storyblok to grow your business. Control Empower your clients’ editors without chaos Spend less time",
+        "source": "https://www.storyblok.com/partners",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "claim": "partner_sources_deals",
+        "quote": "ement sessions. Activation – Become a certified partner and win new clients. Growth – Work with Storyblok to grow your business. Control Empower",
+        "source": "https://www.storyblok.com/partners",
+        "proves": "the company describes partners bringing it leads, deals or customers",
+        "doesNotProve": "the number of deals, or that a process exists to handle them"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "Partner Program is a growth engine for our agency partners. Become a Partner Contact the Partner Team Freedom Choose your favorite frameworks and",
+        "source": "https://www.storyblok.com/partners",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "hy the Storyblok Partner Program is a growth engine for our agency partners. Become a Partner Contact the Partner Team Freedom Choose your favori",
+        "source": "https://www.storyblok.com/partners",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "claim": "provides_partner_support",
+        "quote": "ngine for our agency partners. Become a Partner Contact the Partner Team Freedom Choose your favorite frameworks and tools Harness the power o",
+        "source": "https://www.storyblok.com/partners",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption",
+      "incumbent partner platform (no fingerprint found — not evidence that none is in use)"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": null,
+    "evidenceDensity": "rich",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "PROMOTE",
+    "sourcesToVerify": 1
+  },
+  {
+    "domain": "zenity.io",
+    "name": "zenity.io",
+    "population": "customer_discovery",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "ced security features for specific technologies Value-Added Resellers (VARs) Our VAR partners expand Zenity’s reach, offering customized so",
+        "source": "https://zenity.io/partners",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "ur mission is to enable innovation with strong security and we seek partners who share this commitment. Become a Partner Technology Partners Our t",
+        "source": "https://zenity.io/partners",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "e seek partners who share this commitment. Become a Partner Technology Partners Our technology partners drive innovation with cutting-edge solutions.",
+        "source": "https://zenity.io/partners",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": "Runs its own partner motion but publishes no formal channel artefacts. This is the profile of the customers the earlier model missed — do not demote on thin surface alone.",
+    "researchTasks": [],
+    "machineSuggestion": "RESEARCH",
+    "sourcesToVerify": 1
+  },
+  {
+    "domain": "axon.com",
+    "name": "axon.com",
+    "population": "customer_holdout",
+    "positiveEvidence": [
+      {
+        "claim": "first_person_recruitment",
+        "quote": "erable ecosystem for public safety Browse Partner Directory Become a Partner AXON PARTNERS Safety in partnerships Axon works with a growing networ",
+        "source": "https://www.axon.com/partners",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "expand the reach of Axon’s solutions, while our technology integration partners connect agency and third-party sensors and data into a single, intuit",
+        "source": "https://www.axon.com/partners",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": "introw",
+    "evidenceDensity": "moderate",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "SUPPRESS",
+    "sourcesToVerify": 1
+  },
+  {
+    "domain": "parloa.com",
+    "name": "parloa.com",
+    "population": "customer_holdout",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "ccess: Test and showcase AI agents in real-world conditions Co-selling & delivery: Lead registration, sales support, and delivery enablement",
+        "source": "https://www.parloa.com/partners/",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "partner_grows_own_revenue",
+        "quote": "m equips you with the tools, expertise, and market reach to grow your business and create lasting impact for the customers you serve. Whether you&#x",
+        "source": "https://www.parloa.com/partners/",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "potential of agentic AI in customer service. Find a partner Become a partner Why work with Parloa partners Deploy AI agents faster Leverage indust",
+        "source": "https://www.parloa.com/partners/",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "support to maximize satisfaction and efficiency. Technology Technology partners extend the Parloa platform by building complementary solutions and in",
+        "source": "https://www.parloa.com/partners/",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": "introw",
+    "evidenceDensity": "rich",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "SUPPRESS",
+    "sourcesToVerify": 1
+  },
+  {
+    "domain": "cumulocity.com",
+    "name": "cumulocity.com",
+    "population": "customer_holdout",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "LTD Aqurate-Data specialize in BI, Big Data, and Analytics. Reseller (0) Arducam Arducam designs and makes off-the-shelf embedded vision h",
+        "source": "https://partnerlisting.corp.cumulocity.com/",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "partner_grows_own_revenue",
+        "quote": "ools and flexibility to build successful IoT strategies and grow your business with confidence. You’ll have free access to our Certification Tool fo",
+        "source": "https://ecosystem.cumulocity.com/",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "th a single click Contact an expert Get a demo Try for free Become a partner",
+        "source": "https://www.cumulocity.com/",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "nd domain expertise. Search Device Catalog Explore Partners Implementation Partners Discover experienced partners ready to accelerate your IoT solution’s",
+        "source": "https://ecosystem.cumulocity.com/",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": "introw",
+    "evidenceDensity": "moderate",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "SUPPRESS",
+    "sourcesToVerify": 3
+  },
+  {
+    "domain": "reversinglabs.com",
+    "name": "reversinglabs.com",
+    "population": "customer_holdout",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "rganizations of all sizes and operating models: Value-Added Resellers (VAR) Value-Added Distributors (VAD) Managed Security Services Provid",
+        "source": "https://www.reversinglabs.com/become-a-partner",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "s, distributors, MSSPs, systems integrators, OEMs, and ISVs/technology partners. The new program offers generous discounts and regular incentives, as",
+        "source": "https://www.reversinglabs.com/press-releases/reversinglabs-rl-partner-program-accelerates-partner-engagement-growth-and-expansion",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "claim": "provides_partner_support",
+        "quote": "threat hunting and analysis. Our commitment to accelerating partner success also features significant resources to ensure they benefit from our a",
+        "source": "https://www.reversinglabs.com/press-releases/reversinglabs-rl-partner-program-accelerates-partner-engagement-growth-and-expansion",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      }
+    ],
+    "negativeEvidence": [
+      {
+        "claim": "the company sells through a distribution tier rather than direct to the transacting partner",
+        "source": "https://www.reversinglabs.com/become-a-partner"
+      }
+    ],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": "introw",
+    "evidenceDensity": "moderate",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "SUPPRESS",
+    "sourcesToVerify": 2
+  },
+  {
+    "domain": "sedai.io",
+    "name": "sedai.io",
+    "population": "customer_holdout",
+    "positiveEvidence": [
+      {
+        "claim": "first_person_recruitment",
+        "quote": "imization, backed by Sedai&#x27;s joint marketing programs. Become a Partner Partner Portal Login Our Cloud Partners Programs Aligned to Your Busi",
+        "source": "https://sedai.io/partners",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption",
+      "incumbent partner platform (no fingerprint found — not evidence that none is in use)"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": null,
+    "evidenceDensity": "moderate",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "DEMOTE",
+    "sourcesToVerify": 1
+  },
+  {
+    "domain": "xelix.com",
+    "name": "xelix.com",
+    "population": "customer_holdout",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "to establish a broad range of partnerships. Whether that’s resell or referral partnerships or directly integrating with other solutions",
+        "source": "https://xelix.com/partners",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "partner_sources_deals",
+        "quote": "with Business Process Outsourcing We help outsourcing firms win new deals and retain existing clients by introducing our innovative F&A solutio",
+        "source": "https://xelix.com/partners",
+        "proves": "the company describes partners bringing it leads, deals or customers",
+        "doesNotProve": "the number of deals, or that a process exists to handle them"
+      },
+      {
+        "claim": "partner_implements",
+        "quote": "existing clients by introducing our innovative F&A solution into their delivery projects. Contact us Consultancy We work with a cross section of cons",
+        "source": "https://xelix.com/partners",
+        "proves": "the company describes partners delivering or implementing its product for customers",
+        "doesNotProve": "whether the partner or the company holds the commercial relationship"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "nd real business outcomes for enterprises across the globe. Become a partner PARTNERING WITH THE BEST Genpact and Xelix Hear from Genpact CEO, Tig",
+        "source": "https://xelix.com/partners",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "operates_intake",
+        "quote": "Send your partner enquiry today Please share your details below and we will be in touch within 2",
+        "source": "https://xelix.com/partner-enquiry",
+        "proves": "the company runs its own intake for partner applications, leads or deals",
+        "doesNotProve": "the volume through it, or that it is automated rather than an inbox"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "moderate",
+    "customerMissRisk": "Runs its own partner motion but publishes no formal channel artefacts. This is the profile of the customers the earlier model missed — do not demote on thin surface alone.",
+    "researchTasks": [],
+    "machineSuggestion": "KEEP_PLAUSIBLE",
+    "sourcesToVerify": 2
+  },
+  {
+    "domain": "bain.com",
+    "name": "Bain & Company",
+    "population": "clean_negative",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "unknown",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "none",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "DEMOTE",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "deloitte.com",
+    "name": "Deloitte",
+    "population": "clean_negative",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "unknown",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "SUPPRESS",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "sequoiacap.com",
+    "name": "Sequoia Capital",
+    "population": "clean_negative",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "unknown",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "RESEARCH",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "sentry.io",
+    "name": "Sentry",
+    "population": "clean_negative",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "unknown",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "RESEARCH",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "posthog.com",
+    "name": "PostHog",
+    "population": "clean_negative",
+    "positiveEvidence": [
+      {
+        "claim": "operates_intake",
+        "quote": "your company and PostHog, we&#x27;d love to hear from you. Fill in the form below to register your interest — we&#x27;ll reach out when we&#x27;re read",
+        "source": "https://posthog.com/partnerships",
+        "proves": "the company runs its own intake for partner applications, leads or deals",
+        "doesNotProve": "the volume through it, or that it is automated rather than an inbox"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "unknown",
+    "channelClass": "affiliate_only",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": "Runs its own partner motion but publishes no formal channel artefacts. This is the profile of the customers the earlier model missed — do not demote on thin surface alone.",
+    "researchTasks": [],
+    "machineSuggestion": "DEMOTE",
+    "sourcesToVerify": 1
+  },
+  {
+    "domain": "semrush.com",
+    "name": "Semrush",
+    "population": "clean_negative",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "elow and let’s start the next big thing! Apply now Regional Resellers Technical Partners Affiliate Partners Educational Partners Agency Par",
+        "source": "https://www.semrush.com/company/partners/",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "partner_grows_own_revenue",
+        "quote": "Partner with Semrush to grow your business Our team is always open for new ways to collaborate and cooperate wit",
+        "source": "https://www.semrush.com/company/partners/",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "Technical Partners Affiliate Partners Educational Partners Agency Partners Regional resellers Our regional partners are our trusted go-to-market",
+        "source": "https://www.semrush.com/company/partners/",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "affiliate_only",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": "Runs its own partner motion but publishes no formal channel artefacts. This is the profile of the customers the earlier model missed — do not demote on thin surface alone.",
+    "researchTasks": [],
+    "machineSuggestion": "DEMOTE",
+    "sourcesToVerify": 1
+  },
+  {
+    "domain": "kinsta.com",
+    "name": "Kinsta",
+    "population": "clean_negative",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "$100+ MRR Agency Plan or $300+ MRR $1000+ MRR Partner Badge Co-Selling Test Account Access Free WP2 Plan for Personal Sites &#8211; Agency D",
+        "source": "https://kinsta.com/agency-partner-program/",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "partner_grows_own_revenue",
+        "quote": "flexible hosting, responsive support, and opportunities to grow your revenue. That’s what we built this program to deliver. Training Get trained i",
+        "source": "https://kinsta.com/agency-partner-program/",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "feature opportunities. One program. Three ways to partner. Become a partner Tiers Entry Select Elite Qualifications $100+ MRR Agency Plan or $300",
+        "source": "https://kinsta.com/agency-partner-program/",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "provides_partner_support",
+        "quote": "keting opportunities &#8211; Lead Referrals &#8211; Limited Dedicated Partner Manager &#8211; &#8211; Kinsta Affiliate Program Optional Optional Optional W",
+        "source": "https://kinsta.com/agency-partner-program/",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "affiliate_only",
+    "prm": null,
+    "evidenceDensity": "moderate",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "DEMOTE",
+    "sourcesToVerify": 1
+  },
+  {
+    "domain": "softcat.com",
+    "name": "Softcat",
+    "population": "clean_negative",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "both",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "RESEARCH",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "computacenter.com",
+    "name": "Computacenter",
+    "population": "clean_negative",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "dash; Platinum Synergy Partner Adobe &ndash; Gold Certified Reseller Akamai &ndash; Select Partner APC &ndash; Premier Partner Apple &ndas",
+        "source": "https://www.computacenter.com/en-us/partners",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "RESEARCH",
+    "sourcesToVerify": 1
+  },
+  {
+    "domain": "bechtle.com",
+    "name": "Bechtle",
+    "population": "clean_negative",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "unknown",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "RESEARCH",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "freshfields.com",
+    "name": "Freshfields",
+    "population": "clean_negative",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "unknown",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "SUPPRESS",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "insight.com",
+    "name": "Insight Enterprises",
+    "population": "clean_negative",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "unknown",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "RESEARCH",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "personio.com",
+    "name": "Personio",
+    "population": "matched_unlabelled",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "unknown",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "none",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "DEMOTE",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "silverfin.com",
+    "name": "Silverfin",
+    "population": "matched_unlabelled",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "unknown",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "none",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "DEMOTE",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "nedap.com",
+    "name": "Nedap",
+    "population": "matched_unlabelled",
+    "positiveEvidence": [
+      {
+        "claim": "names_partner_types",
+        "quote": "ne Nedap readers with certified hardware, installation, and integration partners to capture reliable item-level data for Inventory Engine. Hardware ec",
+        "source": "https://www.nedap.com/en/retail",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": "Sparse publication with real ownership evidence. Under-observed rather than poor fit.",
+    "researchTasks": [],
+    "machineSuggestion": "RESEARCH",
+    "sourcesToVerify": 1
+  },
+  {
+    "domain": "aircall.io",
+    "name": "Aircall",
+    "population": "matched_unlabelled",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "ses and Demo Environment so you can be fully armed when you resell our industry-leading communications platform. and more... Start earni",
+        "source": "https://aircall.io/partners/",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "partner_extends_reach",
+        "quote": "very, and a named partner contact once you&#x27;re live. 04 Reach new customers and scale. Featured on our App Marketplace and surfaced inside the Ai",
+        "source": "https://aircall.io/en-au/partners/technology/",
+        "proves": "the company describes partners reaching customers it would not reach directly",
+        "doesNotProve": "that the reach is exclusive, managed, or measured"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "urces, designed to help you drive customer acquisition. Why join the Partner Collective? You’ll become part of a collaborative partner community t",
+        "source": "https://aircall.io/partners/",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "rtner Collective is our way of investing back into our core channel partners like you. We learn and grow as a team, bringing our expertise into a",
+        "source": "https://aircall.io/partners/",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption",
+      "incumbent partner platform (no fingerprint found — not evidence that none is in use)"
+    ],
+    "programmeOwnership": "both",
+    "channelClass": "mixed",
+    "prm": null,
+    "evidenceDensity": "moderate",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "PROMOTE",
+    "sourcesToVerify": 2
+  },
+  {
+    "domain": "linear.app",
+    "name": "Linear",
+    "population": "clean_negative",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "unknown",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "RESEARCH",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "indexventures.com",
+    "name": "Index Ventures",
+    "population": "clean_negative",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "unknown",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "RESEARCH",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "contentful.com",
+    "name": "Contentful",
+    "population": "matched_unlabelled",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "unknown",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "none",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "DEMOTE",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "wiz.io",
+    "name": "Wiz",
+    "population": "matched_unlabelled",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "he Wiz Partner Alliance? What are the program levels within Resell and Services tracks? How do I get started as a Wiz partner? Who is el",
+        "source": "https://www.wiz.io/partner-alliance",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "partner_grows_own_revenue",
+        "quote": "s Earn financial rewards based on performance and impact to grow your business, reach new customers, and keep delivering results that matter. Ways t",
+        "source": "https://www.wiz.io/partner-alliance",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "claim": "partner_extends_reach",
+        "quote": "ards based on performance and impact to grow your business, reach new customers, and keep delivering results that matter. Ways to make magic in the c",
+        "source": "https://www.wiz.io/partner-alliance",
+        "proves": "the company describes partners reaching customers it would not reach directly",
+        "doesNotProve": "that the reach is exclusive, managed, or measured"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "our Customer The Wiz Partner Program is set up to bring our Channel Partners together with our Cloud Service Providers to ensure our mutual custom",
+        "source": "https://partners.wiz.io/",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      }
+    ],
+    "negativeEvidence": [
+      {
+        "claim": "the company has built partner infrastructure of its own beyond what a platform provides",
+        "source": "https://partners.wiz.io/"
+      }
+    ],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption",
+      "incumbent partner platform (no fingerprint found — not evidence that none is in use)"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": null,
+    "evidenceDensity": "rich",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "PROMOTE",
+    "sourcesToVerify": 2
+  },
+  {
+    "domain": "datadoghq.com",
+    "name": "Datadog",
+    "population": "matched_unlabelled",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "unknown",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "RESEARCH",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "snyk.io",
+    "name": "Snyk",
+    "population": "matched_unlabelled",
+    "positiveEvidence": [
+      {
+        "claim": "partner_grows_own_revenue",
+        "quote": "tes Training & Certification Tools and training to help you increase your revenue: Technical product videos and assets Sales and technical certificatio",
+        "source": "https://partners.snyk.io/",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "ons from code to cloud in an increasingly AI-powered world. Become a partner Tech Alliance Partners Seamlessly integrate code-level security into",
+        "source": "https://snyk.io/partners/",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "xisting enterprise and AI workflows as native capabilities. Channel Partners Expand your portfolio of AI-powered security offerings, bring develop",
+        "source": "https://snyk.io/partners/",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "claim": "provides_partner_support",
+        "quote": "ses. Learn More --> Snyk Partner Connect contains dedicated partner materials including: Sales Enablement Marketing Campaigns and Assets Technical",
+        "source": "https://partners.snyk.io/",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption",
+      "incumbent partner platform (no fingerprint found — not evidence that none is in use)"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": null,
+    "evidenceDensity": "rich",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "DEMOTE",
+    "sourcesToVerify": 2
+  },
+  {
+    "domain": "vectra.ai",
+    "name": "Vectra AI",
+    "population": "matched_unlabelled",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "Resellers and Distributors Deliver innovative cybersecurity solutions Consultan",
+        "source": "https://www.vectra.ai/partners/channel-partners-and-distributors",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "Global System Integrations Channel Partners Find a Partner Become a Partner Technology Integration Partners Vectra AI works closely with other in",
+        "source": "https://www.vectra.ai/partners",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "est, most accurate attack signal. Find a Partner Technology Integration Partners Cloud Partners Global System Integrations Channel Partners Find a Par",
+        "source": "https://www.vectra.ai/partners",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "claim": "operates_intake",
+        "quote": "enable secure digital transformation for customers. Channel Partner Inquiry Partner portal Why Partner with Vectra Vectra enables security integra",
+        "source": "https://www.vectra.ai/partners/channel-partners-and-distributors",
+        "proves": "the company runs its own intake for partner applications, leads or deals",
+        "doesNotProve": "the volume through it, or that it is automated rather than an inbox"
+      }
+    ],
+    "negativeEvidence": [
+      {
+        "claim": "exclusive_networks publicly lists this company among the brands it distributes, so the channel is at least partly distribution-mediated",
+        "source": "https://www.exclusive-networks.com/ecosystem/vendors/vectra"
+      }
+    ],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": "channeltivity",
+    "evidenceDensity": "moderate",
+    "customerMissRisk": null,
+    "researchTasks": [
+      {
+        "field": "direct_programme",
+        "reason": "distribution present and no strong direct-programme evidence found",
+        "method": "check whether resellers contract with the company or only with the distributor"
+      }
+    ],
+    "machineSuggestion": "DEMOTE",
+    "sourcesToVerify": 3
+  },
+  {
+    "domain": "teamleader.eu",
+    "name": "Teamleader",
+    "population": "matched_unlabelled",
+    "positiveEvidence": [
+      {
+        "claim": "partner_grows_own_revenue",
+        "quote": "er, market leader in business software. Let's join forces ! Additional revenue Satisfied customers Teamleader Partner Community Become a partner Sch",
+        "source": "https://www.teamleader.eu/become-a-partner",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "al revenue Satisfied customers Teamleader Partner Community Become a partner Schedule a 30-minute meeting with a local partner manager. The road t",
+        "source": "https://www.teamleader.eu/become-a-partner",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "Partners help promote Teamleader Focus by selling licences. Service Partners do the same, only they also handle implementation. They are listed as",
+        "source": "https://www.teamleader.eu/become-a-partner",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "moderate",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "DEMOTE",
+    "sourcesToVerify": 1
+  },
+  {
+    "domain": "loxone.com",
+    "name": "Loxone",
+    "population": "matched_unlabelled",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "RESEARCH",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "yuki.nl",
+    "name": "Yuki",
+    "population": "matched_unlabelled",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "unknown",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "RESEARCH",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "enphase.com",
+    "name": "Enphase Energy",
+    "population": "matched_unlabelled",
+    "positiveEvidence": [],
+    "negativeEvidence": [],
+    "unknowns": [],
+    "programmeOwnership": "unknown",
+    "channelClass": "unknown",
+    "prm": null,
+    "evidenceDensity": "sparse",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "RESEARCH",
+    "sourcesToVerify": 0
+  },
+  {
+    "domain": "basware.com",
+    "name": "Basware",
+    "population": "matched_unlabelled",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "ng about real partnerships that go beyond having a bunch of resellers that will do our work for a piece of the pie. We want to make sure we",
+        "source": "https://blog.basware.com/en/cheers-to-2-years-of-our-partner-program",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "partner_grows_own_revenue",
+        "quote": "Support your clients with the #1 AP Automation solution and additional revenue streams for your business by joining the Basware Partner Ecosystem. F",
+        "source": "https://info.basware.com/en/contact-basware-partner-team",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "plus grande adoption utilisateur chez vos clients. Pourquoi devenir Partenaire Basware Notre mission est simple : nouer des partenariats qui contrib",
+        "source": "https://www.basware.com/fr/a-propos-de-basware/partenaires",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "names_partner_types",
+        "quote": "nnen eine große Bandbreite an Kundenanforderungen abdecken. Technology Partners Die Philosophie des Basware Partner Ecosystems ist stark auf Integrat",
+        "source": "https://www.basware.com/de/uber-basware/partner",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "claim": "provides_partner_support",
+        "quote": "are Partners Sales Support Basware partners work with their dedicated Partner Manager who ensures access to the latest sales materials, presentations, prod",
+        "source": "https://www.basware.com/en/about-basware/partners/become-a-partner/",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      }
+    ],
+    "negativeEvidence": [
+      {
+        "claim": "the company has built partner infrastructure of its own beyond what a platform provides",
+        "source": "https://blog.basware.com/en/cheers-to-2-years-of-our-partner-program"
+      }
+    ],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption",
+      "incumbent partner platform (no fingerprint found — not evidence that none is in use)"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": null,
+    "evidenceDensity": "rich",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "PROMOTE",
+    "sourcesToVerify": 5
+  },
+  {
+    "domain": "wasabi.com",
+    "name": "Wasabi",
+    "population": "matched_unlabelled",
+    "positiveEvidence": [
+      {
+        "claim": "partner_resells",
+        "quote": "value added resellers The Channel’s #1 Choice for Cloud Storage Value added resellers (VARs",
+        "source": "https://wasabi.com/partner/become-a-partner/resellers",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "claim": "first_person_recruitment",
+        "quote": "nd system integrators win more deals when they sell Wasabi. Become a Partner Why do resellers love selling Wasabi? It’s simple. It’s low-cost, sec",
+        "source": "https://wasabi.com/partner/become-a-partner/resellers",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "claim": "provides_partner_support",
+        "quote": "de Have questions about the partner network? Speak with the partner team and explore what’s possible when you pair up with Wasabi. Contact Us",
+        "source": "https://wasabi.com/partner/become-a-partner",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      }
+    ],
+    "negativeEvidence": [],
+    "unknowns": [
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "programmeOwnership": "channel_operator",
+    "channelClass": "transacting",
+    "prm": "allbound",
+    "evidenceDensity": "moderate",
+    "customerMissRisk": null,
+    "researchTasks": [],
+    "machineSuggestion": "DEMOTE",
+    "sourcesToVerify": 2
+  }
+]

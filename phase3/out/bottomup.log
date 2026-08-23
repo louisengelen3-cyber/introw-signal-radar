@@ -1,0 +1,39 @@
+[1/19] quatt.io               pages=1 materiality=0 ownership=0 surface=0
+[2/19] cumulocity.com         pages=2 materiality=0 ownership=0 surface=1
+[3/19] ringover.com           pages=5 materiality=3 ownership=2 surface=2
+[4/19] factorialhr.com        pages=4 materiality=2 ownership=1 surface=3
+[5/19] cubbit.io              pages=2 materiality=0 ownership=2 surface=1
+[6/19] zenity.io              pages=1 materiality=1 ownership=2 surface=0
+[7/19] sedai.io               pages=1 materiality=1 ownership=2 surface=3
+[8/19] xelix.com              pages=2 materiality=2 ownership=2 surface=0
+[9/19] epiphan.com            pages=5 materiality=1 ownership=3 surface=3
+[10/19] coder.com              pages=2 materiality=1 ownership=1 surface=1
+[11/19] safebreach.com         pages=5 materiality=1 ownership=3 surface=2
+[12/19] sharegate.com          pages=5 materiality=2 ownership=4 surface=7
+[13/19] archerirm.com          pages=1 materiality=1 ownership=2 surface=5
+[14/19] payflip.be             pages=3 materiality=0 ownership=1 surface=0
+[15/19] axon.com               pages=5 materiality=0 ownership=1 surface=2
+[16/19] aikido.dev             pages=3 materiality=2 ownership=2 surface=3
+[17/19] parloa.com             pages=4 materiality=2 ownership=3 surface=4
+[18/19] reversinglabs.com      pages=5 materiality=1 ownership=2 surface=2
+[19/19] storyblok.com          pages=2 materiality=2 ownership=4 surface=4
+
+## Probe frequency across 19 customers (19 with retrievable partner pages)
+  13  ownership    recruits partners in the first person
+  12  ownership    names partner types it manages
+  11  surface      certification or training
+  10  materiality  partner sells or resells
+   8  materiality  partner grows their own revenue
+   8  surface      partner portal or login
+   7  ownership    describes what it gives partners
+   7  surface      commission or margin mechanics
+   6  surface      formal deal registration
+   4  surface      partner tiers
+   4  surface      partner directory or locator
+   3  ownership    has a named partner contact or team
+   3  surface      multiple distinct programme tracks
+   2  materiality  partner wins or sources deals
+   2  materiality  partner extends reach to new customers
+   2  ownership    operates an intake form or enquiry
+   0  materiality  partner implements or delivers
+DONE

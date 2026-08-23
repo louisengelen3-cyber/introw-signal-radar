@@ -1,0 +1,14 @@
+{
+  "startedAt": "2026-08-23T07:36:46.932Z",
+  "note": "Phase 3 temporal baseline. No change claim may reference a date before this timestamp unless an independently dated source supports it. First observation is never a change.",
+  "cadence": {
+    "dns_partner_host": "weekly — a CNAME change is the cleanest platform-migration signal and is cheap",
+    "prm_fingerprint": "weekly — derived from the DNS observation, no extra cost",
+    "partner_surface_content": "biweekly — programme pages are edited in campaigns, not daily",
+    "deal_registration_surface": "biweekly — appearance/disappearance matters more than wording",
+    "portal_surface": "biweekly — same",
+    "partner_url_inventory": "monthly — sitemap-scale changes are slow and the fetch is heavy",
+    "programme_metadata": "monthly — tiers and programme names change rarely",
+    "channel_classification": "monthly — recorded so classifier drift is separable from world change"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "baselineStartedAt": "2026-08-23T07:36:46.932Z",
+  "runAt": "2026-08-23T07:37:00.729Z",
+  "companies": 50,
+  "snapshotsRecorded": 276,
+  "byKind": {
+    "first_observation": 272,
+    "unobservable": 4
+  },
+  "semanticChanges": []
+}

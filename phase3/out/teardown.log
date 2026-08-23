@@ -1,0 +1,33 @@
+[1/22] factorialhr.com        stop=reached_suitability    chan=transacting    fit=plausible          maturity=2
+[2/22] quatt.io               stop=reached_suitability    chan=transacting    fit=plausible          maturity=0
+[3/22] ringover.com           stop=channel_classification chan=unknown        fit=unknown            maturity=0
+[4/22] cumulocity.com         stop=reached_suitability    chan=transacting    fit=plausible          maturity=1
+[5/22] cubbit.io              stop=reached_suitability    chan=transacting    fit=research_required  maturity=1
+[6/22] sedai.io               stop=reached_suitability    chan=transacting    fit=plausible          maturity=1
+[7/22] zenity.io              stop=channel_classification chan=unknown        fit=unknown            maturity=0
+[8/22] epiphan.com            stop=reached_suitability    chan=transacting    fit=strong             maturity=3
+[9/22] xelix.com              stop=channel_classification chan=unknown        fit=unknown            maturity=0
+[10/22] safebreach.com         stop=reached_suitability    chan=transacting    fit=plausible          maturity=2
+[11/22] wegive.com             stop=retrieval              chan=transacting    fit=unknown            maturity=1
+[12/22] coder.com              stop=reached_suitability    chan=transacting    fit=plausible          maturity=0
+[13/22] sharegate.com          stop=reached_suitability    chan=transacting    fit=plausible          maturity=3
+[14/22] archerirm.com          stop=reached_suitability    chan=transacting    fit=plausible          maturity=2
+[15/22] axon.com               stop=reached_suitability    chan=transacting    fit=plausible          maturity=1
+[16/22] tensis.io              stop=identity               chan=unknown        fit=unknown            maturity=0
+[17/22] aikido.dev             stop=reached_suitability    chan=transacting    fit=plausible          maturity=2
+[18/22] parloa.com             stop=reached_suitability    chan=transacting    fit=plausible          maturity=2
+[19/22] personio.com           stop=retrieval              chan=unknown        fit=unknown            maturity=0
+[20/22] reversinglabs.com      stop=reached_suitability    chan=transacting    fit=plausible          maturity=2
+[21/22] storyblok.com          stop=reached_suitability    chan=transacting    fit=plausible          maturity=1
+[22/22] payflip.be             stop=channel_classification chan=unknown        fit=unknown            maturity=0
+
+## Mature-channel-language bias test
+  caught (reached suitability): n=15, mean maturity artefacts = 1.53
+  missed:                       n=7, mean maturity artefacts = 0.14
+
+## Stop-layer distribution
+  reached_suitability      15 — factorialhr.com, quatt.io, cumulocity.com, cubbit.io, sedai.io, epiphan.com, safebreach.com, coder.com, sharegate.com, archerirm.com, axon.com, aikido.dev, parloa.com, reversinglabs.com, storyblok.com
+  channel_classification   4 — ringover.com, zenity.io, xelix.com, payflip.be
+  retrieval                2 — wegive.com, personio.com
+  identity                 1 — tensis.io
+DONE

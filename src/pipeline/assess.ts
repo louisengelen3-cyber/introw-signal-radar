@@ -18,6 +18,7 @@ import { assessScale, classify, type ClassifyResult, type ScaleAssessment } from
 import { resolveOperator, type OperatorResolution } from './operator.js';
 import { assessSuitability, type SuitabilityResult } from '../suitability/assess.js';
 import { findSightings, type DistributionIndex } from '../suitability/distribution.js';
+import { assessPositive, promote, type PositiveAssessment, type Promotion } from '../suitability/positive.js';
 import type { PartnerCount, SourceRef } from '../domain/types.js';
 
 const CC_COLLECTIONS = ['CC-MAIN-2026-30', 'CC-MAIN-2026-12'];
@@ -36,6 +37,9 @@ export interface Assessment {
   operator: OperatorResolution | null;
   scale: ScaleAssessment | null;
   suitability: SuitabilityResult | null;
+  /** Phase 3: the three positive constructs, measured separately and never summed. */
+  positive: PositiveAssessment | null;
+  promotion: Promotion | null;
   partnerCount: PartnerCount;
 }
 
@@ -60,7 +64,7 @@ export async function assessCompany(domain: string, opts: AssessOptions = {}): P
     domain: bare, retrievedAt: now, reachable: false,
     inventory: { site: 0, commonCrawl: 0, dnsHosts: 0, probed: 0, probeHits: 0, softNotFound: 0, sources: [] },
     dns: { wildcard: false, platform: null, distinctHosts: 0, lookupFailures: 0 },
-    pagesFetched: [], classification: null, operator: null, scale: null, suitability: null,
+    pagesFetched: [], classification: null, operator: null, scale: null, suitability: null, positive: null, promotion: null,
     partnerCount: { value: null, countType: 'unknown', enumerationComplete: null, unit: null, source: null, observedAt: null, confidence: 'low' },
   };
 
@@ -178,6 +182,7 @@ export async function assessCompany(domain: string, opts: AssessOptions = {}): P
     allText,
   );
   a.operator = resolveOperator({ domain: bare, pages, urlInventory, identityText, platform: dns.platform });
+  const sightings = distributionIndex ? findSightings(distributionIndex, name ?? bare, bare) : [];
   a.suitability = assessSuitability({
     domain: bare,
     pages,
@@ -187,7 +192,25 @@ export async function assessCompany(domain: string, opts: AssessOptions = {}): P
     scale: a.scale,
     platform: dns.platform,
     reachable: a.reachable,
-    distributorSightings: distributionIndex ? findSightings(distributionIndex, name ?? bare, bare) : undefined,
+    distributorSightings: sightings,
   });
+
+  /* ── Phase 3: positive constructs ──────────────────────────────────────── */
+  // Measured on the same pages, but with probes written for ordinary business English
+  // rather than formal channel vocabulary — the Phase 2 lexicon missed customers whose
+  // partner motion is real and plainly described.
+  a.positive = assessPositive({
+    pages,
+    direction: a.operator?.direction ?? 'unknown',
+    distributorCount: new Set(sightings.map((d) => d.distributor)).size,
+    reachable: a.reachable,
+  });
+  // Contradictions come from the Phase 2 layer, so promotion can never override a
+  // positively-evidenced structural problem.
+  const contradictions = (a.suitability?.blockers ?? [])
+    .concat(a.classification?.suppression ? [a.classification.suppression.reason] : [])
+    .concat(['integration_only', 'affiliate_only'].includes(a.classification?.commerciality ?? '')
+      ? [`channel classified ${a.classification!.commerciality}`] : []);
+  a.promotion = promote(a.positive, contradictions);
   return a;
 }

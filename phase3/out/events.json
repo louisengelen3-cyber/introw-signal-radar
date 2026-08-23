@@ -1,0 +1,105 @@
+{
+  "measuredAt": "2026-08-23T07:51:04.128Z",
+  "sources": [
+    {
+      "id": "catalyst_nyc",
+      "status": 200,
+      "chars": 10344,
+      "peopleWithTitles": 10,
+      "tier1People": 8,
+      "companiesNamed": [
+        "Ryan Clare",
+        "Introw",
+        "Mindmatrix",
+        "Azure",
+        "GCP",
+        "Snowflake",
+        "Intuit"
+      ],
+      "enterpriseShare": 1.6,
+      "dated": true,
+      "leadTimeNote": "published ahead of the event — a leading indicator"
+    },
+    {
+      "id": "catalyst_agenda",
+      "status": 200,
+      "chars": 314,
+      "peopleWithTitles": 0,
+      "tier1People": 0,
+      "companiesNamed": [],
+      "enterpriseShare": 0,
+      "dated": false,
+      "leadTimeNote": "published ahead of the event — a leading indicator"
+    },
+    {
+      "id": "partnertechx_speakers",
+      "status": 200,
+      "chars": 5914,
+      "peopleWithTitles": 15,
+      "tier1People": 10,
+      "companiesNamed": [
+        "Ecosystems Oli",
+        "ASBD Carlos",
+        "Ecosystems",
+        "National Primary"
+      ],
+      "enterpriseShare": 0,
+      "dated": true,
+      "leadTimeNote": "published ahead of the event — a leading indicator"
+    },
+    {
+      "id": "channelfocus",
+      "status": 200,
+      "chars": 4104,
+      "peopleWithTitles": 1,
+      "tier1People": 0,
+      "companiesNamed": [
+        "Cloud"
+      ],
+      "enterpriseShare": 0,
+      "dated": true,
+      "leadTimeNote": "published ahead of the event — a leading indicator"
+    },
+    {
+      "id": "partnershipleaders",
+      "status": 200,
+      "chars": 7986,
+      "peopleWithTitles": 8,
+      "tier1People": 7,
+      "companiesNamed": [
+        "Deel",
+        "Coda",
+        "Outbound Funnel",
+        "Catalyst",
+        "LGBTQ",
+        "Gatekeeper Emily",
+        "Gatekeeper",
+        "Oyster Adrienne",
+        "Oyster Like",
+        "Clutch Emily",
+        "Clutch",
+        "Employment Hero",
+        "ServiceNow Deven",
+        "ServiceNow This",
+        "MobileMind Casey",
+        "MobileMind"
+      ],
+      "enterpriseShare": 0.25,
+      "dated": false,
+      "leadTimeNote": "published ahead of the event — a leading indicator"
+    }
+  ],
+  "totals": {
+    "titles": 34,
+    "tier1": 25,
+    "distinctCompanies": 28,
+    "enterpriseNamed": 3
+  },
+  "roles": {
+    "discovery_seed": "UNRESOLVED — only 28 company names survived filtering; event pages publish titles far more reliably than employers, so company discovery is not demonstrated by this method",
+    "person_enrichment": "SUPPORTED — Tier-1 partner titles appear at volume with company attribution",
+    "priority_accelerator": "UNRESOLVED — would require matching attendees to an existing account list, and attendee lists are private; only speakers and sponsors are published",
+    "context_only": "ALWAYS SUPPORTED — attendance evidences that a partner function exists and travels"
+  },
+  "cannotEstablish": "partner-ledness, buying intent, programme size, or that the company is in market"
+}

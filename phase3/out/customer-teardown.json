@@ -1,0 +1,562 @@
+[
+  {
+    "name": "Factorial",
+    "domain": "factorialhr.com",
+    "customerEvidence": "case study",
+    "reachable": true,
+    "inventorySite": 651,
+    "inventoryCommonCrawl": 695,
+    "pagesFetched": 7,
+    "pagesOk": 4,
+    "platform": null,
+    "channel": "transacting",
+    "channelRule": "corroborated_transacting",
+    "strongEvidenceClasses": [
+      "COMMISSION",
+      "DISTRIBUTOR_LANGUAGE",
+      "PARTNER_TIERS",
+      "TECH_INTEGRATION",
+      "OTHER"
+    ],
+    "direction": "channel_operator",
+    "suitability": "plausible",
+    "suitabilityRule": "direct_programme_partial_objects",
+    "stoppedAt": "reached_suitability",
+    "maturityMarkers": [
+      "partner_tiers",
+      "certification"
+    ],
+    "maturityCount": 2
+  },
+  {
+    "name": "Quatt",
+    "domain": "quatt.io",
+    "customerEvidence": "case study",
+    "reachable": true,
+    "inventorySite": 177,
+    "inventoryCommonCrawl": 39,
+    "pagesFetched": 2,
+    "pagesOk": 2,
+    "platform": "introw",
+    "channel": "transacting",
+    "channelRule": "decisive_artifact",
+    "strongEvidenceClasses": [
+      "PRM_FINGERPRINT"
+    ],
+    "direction": "channel_operator",
+    "suitability": "plausible",
+    "suitabilityRule": "partial_evidence",
+    "stoppedAt": "reached_suitability",
+    "maturityMarkers": [],
+    "maturityCount": 0
+  },
+  {
+    "name": "Ringover",
+    "domain": "ringover.com",
+    "customerEvidence": "case study",
+    "reachable": true,
+    "inventorySite": 1211,
+    "inventoryCommonCrawl": 0,
+    "pagesFetched": 7,
+    "pagesOk": 6,
+    "platform": null,
+    "channel": "unknown",
+    "channelRule": "single_strong_uncorroborated",
+    "strongEvidenceClasses": [
+      "DISTRIBUTOR_LANGUAGE",
+      "APP_MARKETPLACE",
+      "TECH_INTEGRATION"
+    ],
+    "direction": "channel_operator",
+    "suitability": "unknown",
+    "suitabilityRule": "channel_not_established",
+    "stoppedAt": "channel_classification",
+    "maturityMarkers": [],
+    "maturityCount": 0
+  },
+  {
+    "name": "Cumulocity",
+    "domain": "cumulocity.com",
+    "customerEvidence": "case study",
+    "reachable": true,
+    "inventorySite": 284,
+    "inventoryCommonCrawl": 674,
+    "pagesFetched": 6,
+    "pagesOk": 5,
+    "platform": "introw",
+    "channel": "transacting",
+    "channelRule": "decisive_artifact",
+    "strongEvidenceClasses": [
+      "PRM_FINGERPRINT",
+      "PARTNER_PORTAL",
+      "TECH_INTEGRATION"
+    ],
+    "direction": "channel_operator",
+    "suitability": "plausible",
+    "suitabilityRule": "partial_evidence",
+    "stoppedAt": "reached_suitability",
+    "maturityMarkers": [
+      "formal_portal"
+    ],
+    "maturityCount": 1
+  },
+  {
+    "name": "Cubbit",
+    "domain": "cubbit.io",
+    "customerEvidence": "case study",
+    "reachable": true,
+    "inventorySite": 170,
+    "inventoryCommonCrawl": 105,
+    "pagesFetched": 5,
+    "pagesOk": 5,
+    "platform": "introw",
+    "channel": "transacting",
+    "channelRule": "decisive_artifact",
+    "strongEvidenceClasses": [
+      "PRM_FINGERPRINT",
+      "PARTNER_PORTAL",
+      "TECH_INTEGRATION",
+      "DISTRIBUTOR_LANGUAGE"
+    ],
+    "direction": "channel_operator",
+    "suitability": "research_required",
+    "suitabilityRule": "distribution_tier_unresolved",
+    "stoppedAt": "reached_suitability",
+    "maturityMarkers": [
+      "formal_portal"
+    ],
+    "maturityCount": 1
+  },
+  {
+    "name": "Sedai",
+    "domain": "sedai.io",
+    "customerEvidence": "case study",
+    "reachable": true,
+    "inventorySite": 514,
+    "inventoryCommonCrawl": 830,
+    "pagesFetched": 5,
+    "pagesOk": 1,
+    "platform": null,
+    "channel": "transacting",
+    "channelRule": "decisive_artifact",
+    "strongEvidenceClasses": [
+      "DEAL_REGISTRATION",
+      "PARTNER_PORTAL"
+    ],
+    "direction": "channel_operator",
+    "suitability": "plausible",
+    "suitabilityRule": "partial_evidence",
+    "stoppedAt": "reached_suitability",
+    "maturityMarkers": [
+      "formal_portal"
+    ],
+    "maturityCount": 1
+  },
+  {
+    "name": "Zenity",
+    "domain": "zenity.io",
+    "customerEvidence": "case study",
+    "reachable": true,
+    "inventorySite": 508,
+    "inventoryCommonCrawl": 362,
+    "pagesFetched": 1,
+    "pagesOk": 1,
+    "platform": null,
+    "channel": "unknown",
+    "channelRule": "single_strong_uncorroborated",
+    "strongEvidenceClasses": [
+      "RESELLER_LANGUAGE"
+    ],
+    "direction": "channel_operator",
+    "suitability": "unknown",
+    "suitabilityRule": "channel_not_established",
+    "stoppedAt": "channel_classification",
+    "maturityMarkers": [],
+    "maturityCount": 0
+  },
+  {
+    "name": "Epiphan Video",
+    "domain": "epiphan.com",
+    "customerEvidence": "case study",
+    "reachable": true,
+    "inventorySite": 186,
+    "inventoryCommonCrawl": 676,
+    "pagesFetched": 6,
+    "pagesOk": 6,
+    "platform": "introw",
+    "channel": "transacting",
+    "channelRule": "decisive_artifact",
+    "strongEvidenceClasses": [
+      "PRM_FINGERPRINT",
+      "PARTNER_DIRECTORY",
+      "DEAL_REGISTRATION",
+      "PARTNER_TIERS",
+      "PARTNER_PORTAL",
+      "DEALER_LANGUAGE"
+    ],
+    "direction": "channel_operator",
+    "suitability": "strong",
+    "suitabilityRule": "direct_programme_with_operational_objects",
+    "stoppedAt": "reached_suitability",
+    "maturityMarkers": [
+      "deal_registration",
+      "formal_portal",
+      "certification"
+    ],
+    "maturityCount": 3
+  },
+  {
+    "name": "Xelix",
+    "domain": "xelix.com",
+    "customerEvidence": "case study",
+    "reachable": true,
+    "inventorySite": 200,
+    "inventoryCommonCrawl": 109,
+    "pagesFetched": 3,
+    "pagesOk": 2,
+    "platform": null,
+    "channel": "unknown",
+    "channelRule": "insufficient_evidence",
+    "strongEvidenceClasses": [],
+    "direction": "channel_operator",
+    "suitability": "unknown",
+    "suitabilityRule": "channel_not_established",
+    "stoppedAt": "channel_classification",
+    "maturityMarkers": [],
+    "maturityCount": 0
+  },
+  {
+    "name": "SafeBreach",
+    "domain": "safebreach.com",
+    "customerEvidence": "case study",
+    "reachable": true,
+    "inventorySite": 238,
+    "inventoryCommonCrawl": 515,
+    "pagesFetched": 7,
+    "pagesOk": 7,
+    "platform": null,
+    "channel": "transacting",
+    "channelRule": "decisive_artifact",
+    "strongEvidenceClasses": [
+      "DEAL_REGISTRATION",
+      "PARTNER_PORTAL"
+    ],
+    "direction": "channel_operator",
+    "suitability": "plausible",
+    "suitabilityRule": "direct_programme_partial_objects",
+    "stoppedAt": "reached_suitability",
+    "maturityMarkers": [
+      "deal_registration",
+      "formal_portal"
+    ],
+    "maturityCount": 2
+  },
+  {
+    "name": "WeGive",
+    "domain": "wegive.com",
+    "customerEvidence": "case study",
+    "reachable": false,
+    "blockReason": "bot_protection",
+    "inventorySite": 0,
+    "inventoryCommonCrawl": 131,
+    "pagesFetched": 1,
+    "pagesOk": 1,
+    "platform": "introw",
+    "channel": "transacting",
+    "channelRule": "decisive_artifact",
+    "strongEvidenceClasses": [
+      "PRM_FINGERPRINT",
+      "PARTNER_PORTAL"
+    ],
+    "direction": "channel_operator",
+    "suitability": "unknown",
+    "suitabilityRule": "blocked",
+    "stoppedAt": "retrieval",
+    "maturityMarkers": [
+      "formal_portal"
+    ],
+    "maturityCount": 1
+  },
+  {
+    "name": "Coder",
+    "domain": "coder.com",
+    "customerEvidence": "case study",
+    "reachable": true,
+    "inventorySite": 958,
+    "inventoryCommonCrawl": 541,
+    "pagesFetched": 3,
+    "pagesOk": 3,
+    "platform": "introw",
+    "channel": "transacting",
+    "channelRule": "decisive_artifact",
+    "strongEvidenceClasses": [
+      "PRM_FINGERPRINT",
+      "RESELLER_LANGUAGE"
+    ],
+    "direction": "channel_operator",
+    "suitability": "plausible",
+    "suitabilityRule": "partial_evidence",
+    "stoppedAt": "reached_suitability",
+    "maturityMarkers": [],
+    "maturityCount": 0
+  },
+  {
+    "name": "ShareGate",
+    "domain": "sharegate.com",
+    "customerEvidence": "logo + CNAME",
+    "reachable": true,
+    "inventorySite": 1090,
+    "inventoryCommonCrawl": 289,
+    "pagesFetched": 7,
+    "pagesOk": 7,
+    "platform": "introw",
+    "channel": "transacting",
+    "channelRule": "decisive_artifact",
+    "strongEvidenceClasses": [
+      "PRM_FINGERPRINT",
+      "PARTNER_DIRECTORY",
+      "RESELLER_LANGUAGE",
+      "TECH_INTEGRATION",
+      "PARTNER_PORTAL",
+      "DEAL_REGISTRATION",
+      "DISTRIBUTOR_LANGUAGE",
+      "PARTNER_TIERS"
+    ],
+    "direction": "channel_operator",
+    "suitability": "plausible",
+    "suitabilityRule": "direct_programme_partial_objects",
+    "stoppedAt": "reached_suitability",
+    "maturityMarkers": [
+      "deal_registration",
+      "partner_tiers",
+      "formal_portal"
+    ],
+    "maturityCount": 3
+  },
+  {
+    "name": "Archer",
+    "domain": "archerirm.com",
+    "customerEvidence": "logo (domain is human judgment)",
+    "reachable": true,
+    "inventorySite": 92,
+    "inventoryCommonCrawl": 68,
+    "pagesFetched": 1,
+    "pagesOk": 1,
+    "platform": null,
+    "channel": "transacting",
+    "channelRule": "decisive_artifact",
+    "strongEvidenceClasses": [
+      "DEAL_REGISTRATION",
+      "PARTNER_PORTAL"
+    ],
+    "direction": "channel_operator",
+    "suitability": "plausible",
+    "suitabilityRule": "direct_programme_partial_objects",
+    "stoppedAt": "reached_suitability",
+    "maturityMarkers": [
+      "deal_registration",
+      "formal_portal"
+    ],
+    "maturityCount": 2
+  },
+  {
+    "name": "Axon",
+    "domain": "axon.com",
+    "customerEvidence": "logo + CNAME",
+    "reachable": true,
+    "inventorySite": 3539,
+    "inventoryCommonCrawl": 675,
+    "pagesFetched": 7,
+    "pagesOk": 7,
+    "platform": "introw",
+    "channel": "transacting",
+    "channelRule": "decisive_artifact",
+    "strongEvidenceClasses": [
+      "PRM_FINGERPRINT",
+      "PARTNER_PORTAL",
+      "DISTRIBUTOR_LANGUAGE",
+      "TECH_INTEGRATION"
+    ],
+    "direction": "channel_operator",
+    "suitability": "plausible",
+    "suitabilityRule": "partial_evidence",
+    "stoppedAt": "reached_suitability",
+    "maturityMarkers": [
+      "formal_portal"
+    ],
+    "maturityCount": 1
+  },
+  {
+    "name": "Tensis",
+    "domain": "tensis.io",
+    "customerEvidence": "case study (domain unverified)",
+    "reachable": false,
+    "blockReason": "domain_unresolved",
+    "inventorySite": 0,
+    "inventoryCommonCrawl": 0,
+    "pagesFetched": 0,
+    "pagesOk": 0,
+    "platform": null,
+    "channel": "unknown",
+    "channelRule": "insufficient_evidence",
+    "strongEvidenceClasses": [],
+    "direction": "unknown",
+    "suitability": "unknown",
+    "suitabilityRule": "blocked",
+    "stoppedAt": "identity",
+    "maturityMarkers": [],
+    "maturityCount": 0
+  },
+  {
+    "name": "Aikido Security",
+    "domain": "aikido.dev",
+    "customerEvidence": "logo",
+    "reachable": true,
+    "inventorySite": 938,
+    "inventoryCommonCrawl": 536,
+    "pagesFetched": 4,
+    "pagesOk": 4,
+    "platform": null,
+    "channel": "transacting",
+    "channelRule": "decisive_artifact",
+    "strongEvidenceClasses": [
+      "DEAL_REGISTRATION",
+      "PARTNER_PORTAL",
+      "TECH_INTEGRATION"
+    ],
+    "direction": "channel_operator",
+    "suitability": "plausible",
+    "suitabilityRule": "direct_programme_partial_objects",
+    "stoppedAt": "reached_suitability",
+    "maturityMarkers": [
+      "deal_registration",
+      "formal_portal"
+    ],
+    "maturityCount": 2
+  },
+  {
+    "name": "Parloa",
+    "domain": "parloa.com",
+    "customerEvidence": "logo + CNAME",
+    "reachable": true,
+    "inventorySite": 829,
+    "inventoryCommonCrawl": 235,
+    "pagesFetched": 7,
+    "pagesOk": 4,
+    "platform": "introw",
+    "channel": "transacting",
+    "channelRule": "decisive_artifact",
+    "strongEvidenceClasses": [
+      "PRM_FINGERPRINT",
+      "PARTNER_PORTAL",
+      "DEAL_REGISTRATION",
+      "PARTNER_TIERS"
+    ],
+    "direction": "channel_operator",
+    "suitability": "plausible",
+    "suitabilityRule": "direct_programme_partial_objects",
+    "stoppedAt": "reached_suitability",
+    "maturityMarkers": [
+      "partner_tiers",
+      "formal_portal"
+    ],
+    "maturityCount": 2
+  },
+  {
+    "name": "Personio",
+    "domain": "personio.com",
+    "customerEvidence": "logo",
+    "reachable": false,
+    "blockReason": "bot_protection",
+    "inventorySite": 0,
+    "inventoryCommonCrawl": 1389,
+    "pagesFetched": 5,
+    "pagesOk": 0,
+    "platform": null,
+    "channel": "unknown",
+    "channelRule": "insufficient_evidence",
+    "strongEvidenceClasses": [],
+    "direction": "unknown",
+    "suitability": "unknown",
+    "suitabilityRule": "blocked",
+    "stoppedAt": "retrieval",
+    "maturityMarkers": [],
+    "maturityCount": 0
+  },
+  {
+    "name": "ReversingLabs",
+    "domain": "reversinglabs.com",
+    "customerEvidence": "logo + CNAME",
+    "reachable": true,
+    "inventorySite": 1648,
+    "inventoryCommonCrawl": 936,
+    "pagesFetched": 7,
+    "pagesOk": 7,
+    "platform": "introw",
+    "channel": "transacting",
+    "channelRule": "decisive_artifact",
+    "strongEvidenceClasses": [
+      "PRM_FINGERPRINT",
+      "RESELLER_LANGUAGE",
+      "DEAL_REGISTRATION",
+      "PARTNER_PORTAL",
+      "TECH_INTEGRATION"
+    ],
+    "direction": "channel_operator",
+    "suitability": "plausible",
+    "suitabilityRule": "distribution_alongside_direct_programme",
+    "stoppedAt": "reached_suitability",
+    "maturityMarkers": [
+      "deal_registration",
+      "formal_portal"
+    ],
+    "maturityCount": 2
+  },
+  {
+    "name": "Storyblok",
+    "domain": "storyblok.com",
+    "customerEvidence": "logo",
+    "reachable": true,
+    "inventorySite": 80,
+    "inventoryCommonCrawl": 1177,
+    "pagesFetched": 6,
+    "pagesOk": 6,
+    "platform": null,
+    "channel": "transacting",
+    "channelRule": "corroborated_transacting",
+    "strongEvidenceClasses": [
+      "PARTNER_PORTAL",
+      "COMMISSION",
+      "APP_MARKETPLACE",
+      "OTHER"
+    ],
+    "direction": "channel_operator",
+    "suitability": "plausible",
+    "suitabilityRule": "direct_programme_partial_objects",
+    "stoppedAt": "reached_suitability",
+    "maturityMarkers": [
+      "formal_portal"
+    ],
+    "maturityCount": 1
+  },
+  {
+    "name": "Payflip",
+    "domain": "payflip.be",
+    "customerEvidence": "case study",
+    "reachable": true,
+    "inventorySite": 292,
+    "inventoryCommonCrawl": 274,
+    "pagesFetched": 7,
+    "pagesOk": 7,
+    "platform": null,
+    "channel": "unknown",
+    "channelRule": "insufficient_evidence",
+    "strongEvidenceClasses": [],
+    "direction": "unknown",
+    "suitability": "unknown",
+    "suitabilityRule": "channel_not_established",
+    "stoppedAt": "channel_classification",
+    "maturityMarkers": [],
+    "maturityCount": 0
+  }
+]

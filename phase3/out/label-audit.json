@@ -1,0 +1,909 @@
+{
+  "auditedAt": "2026-08-23T07:38:02.429Z",
+  "totals": {
+    "all": 50,
+    "byCohort": {
+      "A_customer": 16,
+      "B_plausible": 20,
+      "C_hypothesised_poor_fit": 14
+    }
+  },
+  "distributionLeakage": {
+    "cohortC_labelsCitingDistribution": 13,
+    "cohortC_total": 14,
+    "cohortB_selectionSeededFromDistributors": true,
+    "verdict": "The Phase 2 distribution result is partly circular. Most Cohort C negatives were hypothesised BECAUSE I believed the company was distributor-led, and Cohort B was sampled from distributor lists. Measuring distributor-carriage against those labels partly measures my own priors."
+  },
+  "cleanNegativesForDistributionTest": [
+    {
+      "name": "Deloitte",
+      "domain": "deloitte.com",
+      "rationale": "participant_not_operator: alliance ecosystem participation, plus equity-partner title collision; should not reach suitability at all"
+    }
+  ],
+  "rows": [
+    {
+      "cohort": "A_customer",
+      "name": "Cumulocity",
+      "domain": "cumulocity.com",
+      "label": "known_positive",
+      "labelOrigin": "Introw's own published case studies and CNAME-confirmed platform fingerprints",
+      "labelRationale": "case study: 2-person team, 100+ partners, direct reseller/solution programme, carve-out rebuild",
+      "basis": [
+        "first_party_introw_evidence"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": false,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "none",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "A_customer",
+      "name": "Cubbit",
+      "domain": "cubbit.io",
+      "label": "known_positive",
+      "labelOrigin": "Introw's own published case studies and CNAME-confirmed platform fingerprints",
+      "labelRationale": "case study: PRM displacement, direct reseller channel, HubSpot",
+      "basis": [
+        "first_party_introw_evidence",
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": false,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "none",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "A_customer",
+      "name": "Quatt",
+      "domain": "quatt.io",
+      "label": "known_positive",
+      "labelOrigin": "Introw's own published case studies and CNAME-confirmed platform fingerprints",
+      "labelRationale": "case study: manufacturer managing certified installers directly",
+      "basis": [
+        "first_party_introw_evidence",
+        "segment_or_market"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": false,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "none",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "A_customer",
+      "name": "Epiphan Video",
+      "domain": "epiphan.com",
+      "label": "known_positive",
+      "labelOrigin": "Introw's own published case studies and CNAME-confirmed platform fingerprints",
+      "labelRationale": "case study: hardware with reseller/distributor mix",
+      "basis": [
+        "distribution_structure",
+        "first_party_introw_evidence",
+        "segment_or_market"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": false,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "none",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "A_customer",
+      "name": "ShareGate",
+      "domain": "sharegate.com",
+      "label": "known_positive",
+      "labelOrigin": "Introw's own published case studies and CNAME-confirmed platform fingerprints",
+      "labelRationale": "CNAME-confirmed customer, software reseller programme",
+      "basis": [
+        "first_party_introw_evidence"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": false,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "none",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "A_customer",
+      "name": "Coder",
+      "domain": "coder.com",
+      "label": "known_positive",
+      "labelOrigin": "Introw's own published case studies and CNAME-confirmed platform fingerprints",
+      "labelRationale": "CNAME-confirmed customer, co-sell motion",
+      "basis": [
+        "first_party_introw_evidence"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": false,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "none",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "A_customer",
+      "name": "ReversingLabs",
+      "domain": "reversinglabs.com",
+      "label": "known_positive",
+      "labelOrigin": "Introw's own published case studies and CNAME-confirmed platform fingerprints",
+      "labelRationale": "CNAME-confirmed customer, security reseller channel",
+      "basis": [
+        "first_party_introw_evidence",
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": false,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "none",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "A_customer",
+      "name": "Parloa",
+      "domain": "parloa.com",
+      "label": "known_positive",
+      "labelOrigin": "Introw's own published case studies and CNAME-confirmed platform fingerprints",
+      "labelRationale": "CNAME-confirmed customer",
+      "basis": [
+        "first_party_introw_evidence"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": false,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "none",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "A_customer",
+      "name": "Axon",
+      "domain": "axon.com",
+      "label": "known_positive",
+      "labelOrigin": "Introw's own published case studies and CNAME-confirmed platform fingerprints",
+      "labelRationale": "CNAME-confirmed customer running Salesforce — tests that Salesforce is not penalised",
+      "basis": [
+        "first_party_introw_evidence"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": false,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "none",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "A_customer",
+      "name": "SafeBreach",
+      "domain": "safebreach.com",
+      "label": "known_positive",
+      "labelOrigin": "Introw's own published case studies and CNAME-confirmed platform fingerprints",
+      "labelRationale": "case study: Channel Director, security channel",
+      "basis": [
+        "first_party_introw_evidence"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": false,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "none",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "A_customer",
+      "name": "Factorial",
+      "domain": "factorialhr.com",
+      "label": "known_positive",
+      "labelOrigin": "Introw's own published case studies and CNAME-confirmed platform fingerprints",
+      "labelRationale": "case study: 500+ partners, 100+ managers — large but centrally run",
+      "basis": [
+        "first_party_introw_evidence"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": false,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "none",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "A_customer",
+      "name": "Sedai",
+      "domain": "sedai.io",
+      "label": "known_positive",
+      "labelOrigin": "Introw's own published case studies and CNAME-confirmed platform fingerprints",
+      "labelRationale": "case study: Head of Partners & Alliances",
+      "basis": [
+        "first_party_introw_evidence"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": false,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "none",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "A_customer",
+      "name": "Ringover",
+      "domain": "ringover.com",
+      "label": "known_positive",
+      "labelOrigin": "Introw's own published case studies and CNAME-confirmed platform fingerprints",
+      "labelRationale": "case study: partner activation, reseller + distributor",
+      "basis": [
+        "distribution_structure",
+        "first_party_introw_evidence"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": false,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "none",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "A_customer",
+      "name": "Aikido Security",
+      "domain": "aikido.dev",
+      "label": "known_positive",
+      "labelOrigin": "Introw's own published case studies and CNAME-confirmed platform fingerprints",
+      "labelRationale": "customer logo, transacting classification in Phase 1",
+      "basis": [
+        "first_party_introw_evidence"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": false,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "none",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "A_customer",
+      "name": "Zenity",
+      "domain": "zenity.io",
+      "label": "known_positive",
+      "labelOrigin": "Introw's own published case studies and CNAME-confirmed platform fingerprints",
+      "labelRationale": "case study: Partner Lead",
+      "basis": [
+        "first_party_introw_evidence"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": false,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "none",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "A_customer",
+      "name": "Xelix",
+      "domain": "xelix.com",
+      "label": "known_positive",
+      "labelOrigin": "Introw's own published case studies and CNAME-confirmed platform fingerprints",
+      "labelRationale": "case study: Head of Partnerships",
+      "basis": [
+        "first_party_introw_evidence"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": false,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "none",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "Teamleader",
+      "domain": "teamleader.eu",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "BE mid-market SaaS, accountant/agency reseller channel, 438 stated partners",
+      "basis": [
+        "segment_or_market",
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "Exact",
+      "domain": "exact.com",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "NL business software with accountant/reseller network",
+      "basis": [
+        "segment_or_market"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "Bynder",
+      "domain": "bynder.com",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "NL DAM with implementation/agency partners",
+      "basis": [],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "Vanta",
+      "domain": "vanta.com",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "US SaaS with MSP/agency reseller channel",
+      "basis": [
+        "segment_or_market",
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "Egnyte",
+      "domain": "egnyte.com",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "US SaaS with MSP/reseller channel",
+      "basis": [
+        "segment_or_market",
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "Keeper Security",
+      "domain": "keepersecurity.com",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "US security with MSP channel",
+      "basis": [],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "Semperis",
+      "domain": "semperis.com",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "security vendor, Allbound-detected partner portal",
+      "basis": [
+        "segment_or_market",
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "Corelight",
+      "domain": "corelight.com",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "security vendor with deal registration and portal",
+      "basis": [
+        "segment_or_market",
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "Deep Instinct",
+      "domain": "deepinstinct.com",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "security vendor, reseller + distributor",
+      "basis": [
+        "distribution_structure",
+        "segment_or_market"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "Opengear",
+      "domain": "opengear.com",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "hardware vendor with tiered reseller programme",
+      "basis": [
+        "segment_or_market",
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "Illumio",
+      "domain": "illumio.com",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "security vendor with partner directory and portal",
+      "basis": [
+        "segment_or_market",
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "Gigamon",
+      "domain": "gigamon.com",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "security vendor with distributor language and portal",
+      "basis": [
+        "distribution_structure",
+        "segment_or_market"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "ExtraHop",
+      "domain": "extrahop.com",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "security vendor, Allbound-detected portal, deal registration",
+      "basis": [
+        "segment_or_market",
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "Anomali",
+      "domain": "anomali.com",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "security vendor, deal registration + reseller + distributor",
+      "basis": [
+        "distribution_structure",
+        "segment_or_market",
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "AvePoint",
+      "domain": "avepoint.com",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "software vendor with directory, tiers, registration",
+      "basis": [
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "A10 Networks",
+      "domain": "a10networks.com",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "hardware vendor with tiers and registration",
+      "basis": [
+        "segment_or_market",
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "Niko",
+      "domain": "niko.eu",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "BE electrical manufacturer with installer network, local-language",
+      "basis": [
+        "segment_or_market",
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "Enphase Energy",
+      "domain": "enphase.com",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "US solar with certified installer network",
+      "basis": [
+        "segment_or_market",
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "Fluke",
+      "domain": "fluke.com",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "industrial instruments with dealer/distributor network",
+      "basis": [
+        "distribution_structure",
+        "segment_or_market"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "B_plausible",
+      "name": "Rooms",
+      "domain": "rooms.io",
+      "label": "matched_unlabelled_prospect",
+      "labelOrigin": "my own structural reasoning, seeded largely from Phase 1 distributor-inversion output",
+      "labelRationale": "Introw platform tenant discovered in Phase 1; deal registration present",
+      "basis": [
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "C_hypothesised_poor_fit",
+      "name": "SAP",
+      "domain": "sap.com",
+      "label": "hypothesised_negative",
+      "labelOrigin": "my own structural hypothesis, written in Phase 2 before any detector ran",
+      "labelRationale": "multi_tier + programme_multiplicity + enterprise_infrastructure: distinct VAR, distributor, OEM, service and technology programmes with a partner university and regional governance",
+      "basis": [
+        "distribution_structure",
+        "programme_complexity",
+        "enterprise_infrastructure"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": true,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "C_hypothesised_poor_fit",
+      "name": "Microsoft",
+      "domain": "microsoft.com",
+      "label": "hypothesised_negative",
+      "labelOrigin": "my own structural hypothesis, written in Phase 2 before any detector ran",
+      "labelRationale": "programme_multiplicity + enterprise_infrastructure: many concurrent partner programmes with their own certification estate and a distributor tier",
+      "basis": [
+        "distribution_structure",
+        "programme_complexity",
+        "enterprise_infrastructure"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": true,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "C_hypothesised_poor_fit",
+      "name": "Huawei",
+      "domain": "huawei.com",
+      "label": "hypothesised_negative",
+      "labelOrigin": "my own structural hypothesis, written in Phase 2 before any detector ran",
+      "labelRationale": "multi_tier + governance_decentralisation: distributor-led sales with regional partner organisations",
+      "basis": [
+        "distribution_structure"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "C_hypothesised_poor_fit",
+      "name": "Nokia",
+      "domain": "nokia.com",
+      "label": "hypothesised_negative",
+      "labelOrigin": "my own structural hypothesis, written in Phase 2 before any detector ran",
+      "labelRationale": "multi_tier + enterprise_infrastructure: distributor and systems-integrator tiers, Impartner-detected enterprise PRM",
+      "basis": [
+        "distribution_structure",
+        "enterprise_infrastructure",
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": true,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "C_hypothesised_poor_fit",
+      "name": "NetApp",
+      "domain": "netapp.com",
+      "label": "hypothesised_negative",
+      "labelOrigin": "my own structural hypothesis, written in Phase 2 before any detector ran",
+      "labelRationale": "multi_tier + incentive_complexity: two-tier distribution with rebate and MDF governance",
+      "basis": [
+        "distribution_structure",
+        "programme_complexity"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": true,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "C_hypothesised_poor_fit",
+      "name": "Nutanix",
+      "domain": "nutanix.com",
+      "label": "hypothesised_negative",
+      "labelOrigin": "my own structural hypothesis, written in Phase 2 before any detector ran",
+      "labelRationale": "multi_tier + incentive_complexity: distributor-led channel with deal registration and rebate structures",
+      "basis": [
+        "distribution_structure",
+        "programme_complexity",
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": true,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "C_hypothesised_poor_fit",
+      "name": "Sophos",
+      "domain": "sophos.com",
+      "label": "hypothesised_negative",
+      "labelOrigin": "my own structural hypothesis, written in Phase 2 before any detector ran",
+      "labelRationale": "multi_tier: fully distributor-led security channel; the vendor does not transact with resellers directly",
+      "basis": [
+        "distribution_structure"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "C_hypothesised_poor_fit",
+      "name": "Commvault",
+      "domain": "commvault.com",
+      "label": "hypothesised_negative",
+      "labelOrigin": "my own structural hypothesis, written in Phase 2 before any detector ran",
+      "labelRationale": "multi_tier + incentive_complexity: distributor tier plus enterprise incentive programmes",
+      "basis": [
+        "distribution_structure",
+        "programme_complexity"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": true,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "C_hypothesised_poor_fit",
+      "name": "Proofpoint",
+      "domain": "proofpoint.com",
+      "label": "hypothesised_negative",
+      "labelOrigin": "my own structural hypothesis, written in Phase 2 before any detector ran",
+      "labelRationale": "enterprise_infrastructure + multi_tier: Impartner-detected enterprise PRM with distributor tier",
+      "basis": [
+        "distribution_structure",
+        "enterprise_infrastructure"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": true,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "C_hypothesised_poor_fit",
+      "name": "Forcepoint",
+      "domain": "forcepoint.com",
+      "label": "hypothesised_negative",
+      "labelOrigin": "my own structural hypothesis, written in Phase 2 before any detector ran",
+      "labelRationale": "multi_tier: distributor-led global security channel",
+      "basis": [
+        "distribution_structure"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "C_hypothesised_poor_fit",
+      "name": "Cisco",
+      "domain": "cisco.com",
+      "label": "hypothesised_negative",
+      "labelOrigin": "my own structural hypothesis, written in Phase 2 before any detector ran",
+      "labelRationale": "multi_tier + incentive_complexity + enterprise_infrastructure: the canonical multi-tier channel with rebates, MDF and a certification estate",
+      "basis": [
+        "distribution_structure",
+        "programme_complexity",
+        "enterprise_infrastructure"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": true,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "C_hypothesised_poor_fit",
+      "name": "Schneider Electric",
+      "domain": "se.com",
+      "label": "hypothesised_negative",
+      "labelOrigin": "my own structural hypothesis, written in Phase 2 before any detector ran",
+      "labelRationale": "multi_tier + governance_decentralisation: wholesaler-led distribution with regional and business-unit programmes",
+      "basis": [
+        "distribution_structure"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "C_hypothesised_poor_fit",
+      "name": "Riverbed",
+      "domain": "riverbed.com",
+      "label": "hypothesised_negative",
+      "labelOrigin": "my own structural hypothesis, written in Phase 2 before any detector ran",
+      "labelRationale": "multi_tier + incentive_complexity: distributor-led channel with tiered rebate structures",
+      "basis": [
+        "distribution_structure",
+        "programme_complexity",
+        "observed_programme_artifacts"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": true,
+      "complexityInfluencedLabel": true,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "high",
+      "usableAsCleanNegativeForDistribution": false
+    },
+    {
+      "cohort": "C_hypothesised_poor_fit",
+      "name": "Deloitte",
+      "domain": "deloitte.com",
+      "label": "hypothesised_negative",
+      "labelOrigin": "my own structural hypothesis, written in Phase 2 before any detector ran",
+      "labelRationale": "participant_not_operator: alliance ecosystem participation, plus equity-partner title collision; should not reach suitability at all",
+      "basis": [
+        "participation_not_operation"
+      ],
+      "labelAssignedBeforeDetectorResults": true,
+      "distributionInfluencedLabel": false,
+      "complexityInfluencedLabel": false,
+      "sizeInfluencedLabel": false,
+      "leakageRisk": "none",
+      "usableAsCleanNegativeForDistribution": true
+    }
+  ]
+}
