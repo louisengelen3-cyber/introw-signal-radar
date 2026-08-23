@@ -53,14 +53,20 @@ describe('suitability never uses size', () => {
 describe('distribution evidence', () => {
   const sighting = (d: string) => ({ distributor: d, brandAsListed: 'X', sourceUrl: `https://${d}.example/vendors` });
 
-  it('demotes a channel reached through several distributors', () => {
+  it('routes a multi-distributor channel to research, not to a demotion', () => {
+    // WITHDRAWN IN PHASE 3. This previously demoted to `weak` on the strength of a
+    // Phase 2 result (1/16 customers vs 10/14 poor-fit carried) that the label audit
+    // showed was circular: 13 of 14 of those negative labels cite distribution in their
+    // own rationale. Against independent controls the signal separates nothing, so
+    // carriage now raises a research question instead of a verdict.
     const r = assessSuitability({
       ...baseInput,
       distributorSightings: [sighting('alpha'), sighting('beta')],
       pages: [page('https://x.example/partners', 'Our partners are listed here. Partner portal access is available to members.')],
     });
-    expect(r.state).toBe('weak');
-    expect(r.rule).toBe('multi_distributor_mediated_channel');
+    expect(r.state).toBe('research_required');
+    expect(r.rule).toBe('multi_distributor_unresolved');
+    expect(r.researchNeeded.some((n) => n.field === 'distribution_mediation')).toBe(true);
   });
 
   it('keeps a distributed vendor that also runs a substantial direct programme addressable', () => {
