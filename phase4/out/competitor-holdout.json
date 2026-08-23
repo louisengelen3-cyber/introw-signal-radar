@@ -1,0 +1,265 @@
+[
+  {
+    "name": "WorkSpan",
+    "domain": "workspan.com",
+    "class": "partner_tech_vendor",
+    "basis": "sells co-sell / ecosystem revenue software",
+    "promotion": "not_promoted",
+    "observations": 7,
+    "category": {
+      "state": "review_required",
+      "signals": [
+        "second_person_channel"
+      ],
+      "evidence": [
+        {
+          "signal": "second_person_channel",
+          "quote": "Your Partner",
+          "sourceUrl": "https://www.workspan.com/ai-partners"
+        }
+      ],
+      "rationale": "single uncorroborated indicator (second_person_channel); not sufficient to exclude"
+    }
+  },
+  {
+    "name": "Crossbeam",
+    "domain": "crossbeam.com",
+    "class": "partner_tech_vendor",
+    "basis": "sells partner ecosystem account mapping",
+    "promotion": "not_promoted",
+    "observations": 6,
+    "category": {
+      "state": "clear",
+      "signals": [],
+      "evidence": [],
+      "rationale": "no partner-tech self-description observed (this is not proof the company is not one)"
+    }
+  },
+  {
+    "name": "Magentrix",
+    "domain": "magentrix.com",
+    "class": "partner_tech_vendor",
+    "basis": "sells PRM portal software",
+    "promotion": "high_fit",
+    "observations": 11,
+    "category": {
+      "state": "review_required",
+      "signals": [
+        "second_person_channel"
+      ],
+      "evidence": [
+        {
+          "signal": "second_person_channel",
+          "quote": "your partner",
+          "sourceUrl": "https://www.magentrix.com/pricing/partner-portal"
+        }
+      ],
+      "rationale": "single uncorroborated indicator (second_person_channel); not sufficient to exclude"
+    }
+  },
+  {
+    "name": "Kademi",
+    "domain": "kademi.com",
+    "class": "partner_tech_vendor",
+    "basis": "sells partner programme platform",
+    "promotion": "under_observed",
+    "observations": 0,
+    "category": {
+      "state": "clear",
+      "signals": [],
+      "evidence": [],
+      "rationale": "no partner-tech self-description observed (this is not proof the company is not one)"
+    }
+  },
+  {
+    "name": "Zift Solutions",
+    "domain": "ziftsolutions.com",
+    "class": "partner_tech_vendor",
+    "basis": "sells PRM / channel management",
+    "promotion": "high_fit",
+    "observations": 11,
+    "category": {
+      "state": "clear",
+      "signals": [],
+      "evidence": [],
+      "rationale": "no partner-tech self-description observed (this is not proof the company is not one)"
+    }
+  },
+  {
+    "name": "Partnerize",
+    "domain": "partnerize.com",
+    "class": "adjacent_partner_tech",
+    "basis": "sells partnership/affiliate automation",
+    "promotion": "not_promoted",
+    "observations": 5,
+    "category": {
+      "state": "clear",
+      "signals": [],
+      "evidence": [],
+      "rationale": "no partner-tech self-description observed (this is not proof the company is not one)"
+    }
+  },
+  {
+    "name": "impact.com",
+    "domain": "impact.com",
+    "class": "adjacent_partner_tech",
+    "basis": "sells partnership automation",
+    "promotion": "not_promoted",
+    "observations": 7,
+    "category": {
+      "state": "review_required",
+      "signals": [
+        "second_person_channel"
+      ],
+      "evidence": [
+        {
+          "signal": "second_person_channel",
+          "quote": "your program",
+          "sourceUrl": "https://impact.com/referral-partner-program/"
+        }
+      ],
+      "rationale": "single uncorroborated indicator (second_person_channel); not sufficient to exclude"
+    }
+  },
+  {
+    "name": "Everflow",
+    "domain": "everflow.io",
+    "class": "adjacent_partner_tech",
+    "basis": "sells partner/affiliate tracking",
+    "promotion": "not_promoted",
+    "observations": 4,
+    "category": {
+      "state": "clear",
+      "signals": [],
+      "evidence": [],
+      "rationale": "no partner-tech self-description observed (this is not proof the company is not one)"
+    }
+  },
+  {
+    "name": "GitLab",
+    "domain": "gitlab.com",
+    "class": "operator_control",
+    "basis": "real channel programme, not partner-tech",
+    "promotion": "not_promoted",
+    "observations": 4,
+    "category": {
+      "state": "clear",
+      "signals": [],
+      "evidence": [],
+      "rationale": "no partner-tech self-description observed (this is not proof the company is not one)"
+    }
+  },
+  {
+    "name": "Pipedrive",
+    "domain": "pipedrive.com",
+    "class": "operator_control",
+    "basis": "real reseller programme, not partner-tech",
+    "promotion": "not_promoted",
+    "observations": 7,
+    "category": {
+      "state": "clear",
+      "signals": [],
+      "evidence": [],
+      "rationale": "no partner-tech self-description observed (this is not proof the company is not one)"
+    }
+  },
+  {
+    "name": "Mindmatrix",
+    "domain": "mindmatrix.net",
+    "class": "partner_tech_vendor",
+    "basis": "sells channel enablement / PRM",
+    "promotion": "high_fit",
+    "observations": 9,
+    "category": {
+      "state": "excluded",
+      "signals": [
+        "second_person_channel",
+        "sells_partner_tech"
+      ],
+      "evidence": [
+        {
+          "signal": "second_person_channel",
+          "quote": "your channel",
+          "sourceUrl": "https://www.mindmatrix.net/partner-marketing-software-playbooks-mdf-and-deal-registration-module/"
+        },
+        {
+          "signal": "sells_partner_tech",
+          "quote": "partner portal software",
+          "sourceUrl": "https://www.mindmatrix.net/partner-portal-software/"
+        },
+        {
+          "signal": "second_person_channel",
+          "quote": "your partners",
+          "sourceUrl": "https://www.mindmatrix.net/partner-portal-software/"
+        },
+        {
+          "signal": "sells_partner_tech",
+          "quote": "Partner Portal Software",
+          "sourceUrl": "https://www.mindmatrix.net/partner-portal-software/"
+        },
+        {
+          "signal": "sells_partner_tech",
+          "quote": "Channel Marketing Software",
+          "sourceUrl": "https://channelandsalesenablementblog.mindmatrix.net/"
+        }
+      ],
+      "rationale": "the company describes partner management as a product it sells"
+    }
+  },
+  {
+    "name": "Freshworks",
+    "domain": "freshworks.com",
+    "class": "operator_control",
+    "basis": "real channel programme, not partner-tech",
+    "promotion": "not_promoted",
+    "observations": 3,
+    "category": {
+      "state": "clear",
+      "signals": [],
+      "evidence": [],
+      "rationale": "no partner-tech self-description observed (this is not proof the company is not one)"
+    }
+  },
+  {
+    "name": "Talkdesk",
+    "domain": "talkdesk.com",
+    "class": "operator_control",
+    "basis": "real channel programme, not partner-tech",
+    "promotion": "high_fit",
+    "observations": 7,
+    "category": {
+      "state": "clear",
+      "signals": [],
+      "evidence": [],
+      "rationale": "no partner-tech self-description observed (this is not proof the company is not one)"
+    }
+  },
+  {
+    "name": "Zendesk",
+    "domain": "zendesk.com",
+    "class": "operator_control",
+    "basis": "real partner programme, not partner-tech",
+    "promotion": "high_fit",
+    "observations": 9,
+    "category": {
+      "state": "clear",
+      "signals": [],
+      "evidence": [],
+      "rationale": "no partner-tech self-description observed (this is not proof the company is not one)"
+    }
+  },
+  {
+    "name": "Datadog",
+    "domain": "datadoghq.com",
+    "class": "operator_control",
+    "basis": "real partner programme, not partner-tech",
+    "promotion": "under_observed",
+    "observations": 0,
+    "category": {
+      "state": "clear",
+      "signals": [],
+      "evidence": [],
+      "rationale": "no partner-tech self-description observed (this is not proof the company is not one)"
+    }
+  }
+]

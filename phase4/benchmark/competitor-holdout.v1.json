@@ -1,0 +1,22 @@
+{
+  "purpose": "Out-of-sample validation of the two competitor detectors written after the hard-negative failure. None of these domains appears in hard-negatives.v1.json or in any Phase 0-3 benchmark. Frozen before the detectors were run against it.",
+  "warning": "A pass here validates the DETECTORS. It does not validate the Phase 3 constructs, which failed the hard-negative test and remain unrepaired.",
+  "companies": [
+    {"name":"WorkSpan","domain":"workspan.com","class":"partner_tech_vendor","basis":"sells co-sell / ecosystem revenue software"},
+    {"name":"Crossbeam","domain":"crossbeam.com","class":"partner_tech_vendor","basis":"sells partner ecosystem account mapping"},
+    {"name":"Magentrix","domain":"magentrix.com","class":"partner_tech_vendor","basis":"sells PRM portal software"},
+    {"name":"Mindmatrix","domain":"mindmatrix.net","class":"partner_tech_vendor","basis":"sells channel enablement / PRM"},
+    {"name":"Zift Solutions","domain":"ziftsolutions.com","class":"partner_tech_vendor","basis":"sells PRM / channel management"},
+    {"name":"Kademi","domain":"kademi.com","class":"partner_tech_vendor","basis":"sells partner programme platform"},
+    {"name":"Partnerize","domain":"partnerize.com","class":"adjacent_partner_tech","basis":"sells partnership/affiliate automation"},
+    {"name":"impact.com","domain":"impact.com","class":"adjacent_partner_tech","basis":"sells partnership automation"},
+    {"name":"Everflow","domain":"everflow.io","class":"adjacent_partner_tech","basis":"sells partner/affiliate tracking"},
+
+    {"name":"GitLab","domain":"gitlab.com","class":"operator_control","basis":"real channel programme, not partner-tech"},
+    {"name":"Pipedrive","domain":"pipedrive.com","class":"operator_control","basis":"real reseller programme, not partner-tech"},
+    {"name":"Freshworks","domain":"freshworks.com","class":"operator_control","basis":"real channel programme, not partner-tech"},
+    {"name":"Talkdesk","domain":"talkdesk.com","class":"operator_control","basis":"real channel programme, not partner-tech"},
+    {"name":"Zendesk","domain":"zendesk.com","class":"operator_control","basis":"real partner programme, not partner-tech"},
+    {"name":"Datadog","domain":"datadoghq.com","class":"operator_control","basis":"real partner programme, not partner-tech"}
+  ]
+}

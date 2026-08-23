@@ -1,0 +1,235 @@
+[
+  {
+    "domain": "parloa.com",
+    "group": "known_customer",
+    "pages": 3,
+    "observations": [],
+    "vendor": null,
+    "state": "unknown",
+    "compatibility": "unknown",
+    "rationale": "no CRM artifact observed on the retrieved surfaces. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce."
+  },
+  {
+    "domain": "cubbit.io",
+    "group": "known_customer",
+    "pages": 4,
+    "observations": [
+      {
+        "vendor": "hubspot",
+        "state": "confirmed",
+        "marker": "hs_forms",
+        "matched": "js.hsforms.net",
+        "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
+        "doesNotProve": "that opportunities and partner deals are managed there"
+      }
+    ],
+    "vendor": "hubspot",
+    "state": "confirmed",
+    "compatibility": "compatible_confirmed",
+    "rationale": "hubspot evidence at confirmed (hs_forms)"
+  },
+  {
+    "domain": "aikido.dev",
+    "group": "known_customer",
+    "pages": 4,
+    "observations": [
+      {
+        "vendor": "hubspot",
+        "state": "confirmed",
+        "marker": "hs_tracking_portal",
+        "matched": "js.hs-scripts.com/26076760.js",
+        "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
+        "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
+      },
+      {
+        "vendor": "hubspot",
+        "state": "strong_proxy",
+        "marker": "hs_analytics",
+        "matched": "hubspotusercontent",
+        "proves": "HubSpot-hosted assets or analytics are in use",
+        "doesNotProve": "which HubSpot products are licensed"
+      }
+    ],
+    "vendor": "hubspot",
+    "state": "confirmed",
+    "compatibility": "compatible_confirmed",
+    "rationale": "hubspot evidence at confirmed (hs_tracking_portal)"
+  },
+  {
+    "domain": "axon.com",
+    "group": "known_customer",
+    "pages": 3,
+    "observations": [],
+    "vendor": null,
+    "state": "unknown",
+    "compatibility": "unknown",
+    "rationale": "no CRM artifact observed on the retrieved surfaces. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce."
+  },
+  {
+    "domain": "coder.com",
+    "group": "known_customer",
+    "pages": 5,
+    "observations": [],
+    "vendor": null,
+    "state": "unknown",
+    "compatibility": "unknown",
+    "rationale": "no CRM artifact observed on the retrieved surfaces. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce."
+  },
+  {
+    "domain": "archerirm.com",
+    "group": "known_customer",
+    "pages": 7,
+    "observations": [],
+    "vendor": null,
+    "state": "unknown",
+    "compatibility": "unknown",
+    "rationale": "no CRM artifact observed on the retrieved surfaces. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce."
+  },
+  {
+    "domain": "gitlab.com",
+    "group": "unknown_truth",
+    "pages": 4,
+    "observations": [],
+    "vendor": null,
+    "state": "unknown",
+    "compatibility": "unknown",
+    "rationale": "no CRM artifact observed on the retrieved surfaces. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce."
+  },
+  {
+    "domain": "pipedrive.com",
+    "group": "unknown_truth",
+    "pages": 2,
+    "observations": [
+      {
+        "vendor": "pipedrive",
+        "state": "confirmed",
+        "marker": "pd_forms",
+        "matched": "pipedriveassets.com",
+        "proves": "Pipedrive web forms or assets are in use",
+        "doesNotProve": "that HubSpot or Salesforce is absent"
+      }
+    ],
+    "vendor": "pipedrive",
+    "state": "confirmed",
+    "compatibility": "unknown",
+    "rationale": "only unsupported-CRM artifacts observed (pipedrive); this does not establish that HubSpot or Salesforce is absent"
+  },
+  {
+    "domain": "freshworks.com",
+    "group": "unknown_truth",
+    "pages": 5,
+    "observations": [],
+    "vendor": null,
+    "state": "unknown",
+    "compatibility": "unknown",
+    "rationale": "no CRM artifact observed on the retrieved surfaces. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce."
+  },
+  {
+    "domain": "talkdesk.com",
+    "group": "unknown_truth",
+    "pages": 5,
+    "observations": [],
+    "vendor": null,
+    "state": "unknown",
+    "compatibility": "unknown",
+    "rationale": "no CRM artifact observed on the retrieved surfaces. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce."
+  },
+  {
+    "domain": "zendesk.com",
+    "group": "unknown_truth",
+    "pages": 5,
+    "observations": [],
+    "vendor": null,
+    "state": "unknown",
+    "compatibility": "unknown",
+    "rationale": "no CRM artifact observed on the retrieved surfaces. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce."
+  },
+  {
+    "domain": "datadoghq.com",
+    "group": "unknown_truth",
+    "pages": 4,
+    "observations": [],
+    "vendor": null,
+    "state": "unknown",
+    "compatibility": "unknown",
+    "rationale": "no CRM artifact observed on the retrieved surfaces. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce."
+  },
+  {
+    "domain": "kiflo.com",
+    "group": "unknown_truth",
+    "pages": 4,
+    "observations": [],
+    "vendor": null,
+    "state": "unknown",
+    "compatibility": "unknown",
+    "rationale": "no CRM artifact observed on the retrieved surfaces. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce."
+  },
+  {
+    "domain": "allbound.com",
+    "group": "unknown_truth",
+    "pages": 7,
+    "observations": [
+      {
+        "vendor": "hubspot",
+        "state": "confirmed",
+        "marker": "hs_forms",
+        "matched": "js.hsforms.net",
+        "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
+        "doesNotProve": "that opportunities and partner deals are managed there"
+      }
+    ],
+    "vendor": "hubspot",
+    "state": "confirmed",
+    "compatibility": "compatible_confirmed",
+    "rationale": "hubspot evidence at confirmed (hs_forms)"
+  },
+  {
+    "domain": "impartner.com",
+    "group": "unknown_truth",
+    "pages": 5,
+    "observations": [],
+    "vendor": null,
+    "state": "unknown",
+    "compatibility": "unknown",
+    "rationale": "no CRM artifact observed on the retrieved surfaces. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce."
+  },
+  {
+    "domain": "partnerstack.com",
+    "group": "unknown_truth",
+    "pages": 5,
+    "observations": [
+      {
+        "vendor": "hubspot",
+        "state": "confirmed",
+        "marker": "hs_forms",
+        "matched": "js.hsforms.net",
+        "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
+        "doesNotProve": "that opportunities and partner deals are managed there"
+      }
+    ],
+    "vendor": "hubspot",
+    "state": "confirmed",
+    "compatibility": "compatible_confirmed",
+    "rationale": "hubspot evidence at confirmed (hs_forms)"
+  },
+  {
+    "domain": "ziftsolutions.com",
+    "group": "unknown_truth",
+    "pages": 3,
+    "observations": [],
+    "vendor": null,
+    "state": "unknown",
+    "compatibility": "unknown",
+    "rationale": "no CRM artifact observed on the retrieved surfaces. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce."
+  },
+  {
+    "domain": "magentrix.com",
+    "group": "unknown_truth",
+    "pages": 4,
+    "observations": [],
+    "vendor": null,
+    "state": "unknown",
+    "compatibility": "unknown",
+    "rationale": "no CRM artifact observed on the retrieved surfaces. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce."
+  }
+]

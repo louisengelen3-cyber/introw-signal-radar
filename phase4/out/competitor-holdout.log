@@ -1,0 +1,22 @@
+[1/15] partner_tech_vendor    crossbeam.com        obs=6   promo=not_promoted    cat=clear            
+[2/15] partner_tech_vendor    magentrix.com        obs=11  promo=high_fit        cat=review_required  second_person_channel
+[3/15] partner_tech_vendor    mindmatrix.net       obs=9   promo=high_fit        cat=excluded         second_person_channel+sells_partner_tech
+[4/15] partner_tech_vendor    workspan.com         obs=7   promo=not_promoted    cat=review_required  second_person_channel
+[5/15] partner_tech_vendor    ziftsolutions.com    obs=11  promo=high_fit        cat=clear            
+[6/15] adjacent_partner_tech  partnerize.com       obs=5   promo=not_promoted    cat=clear            
+[7/15] adjacent_partner_tech  everflow.io          obs=4   promo=not_promoted    cat=clear            
+[8/15] operator_control       gitlab.com           obs=4   promo=not_promoted    cat=clear            
+[9/15] partner_tech_vendor    kademi.com           obs=0   promo=under_observed  cat=clear            
+[10/15] operator_control       freshworks.com       obs=3   promo=not_promoted    cat=clear            
+[11/15] operator_control       pipedrive.com        obs=7   promo=not_promoted    cat=clear            
+[12/15] operator_control       datadoghq.com        obs=0   promo=under_observed  cat=clear            
+[13/15] adjacent_partner_tech  impact.com           obs=7   promo=not_promoted    cat=review_required  second_person_channel
+[14/15] operator_control       zendesk.com          obs=9   promo=high_fit        cat=clear            
+[15/15] operator_control       talkdesk.com         obs=7   promo=high_fit        cat=clear            
+
+OUT-OF-SAMPLE RESULT
+  partner_tech_vendor   excluded: 1/6  missed: crossbeam.com(clear,obs=6), magentrix.com(review_required,obs=11), workspan.com(review_required,obs=7), ziftsolutions.com(clear,obs=11), kademi.com(clear,obs=0)
+  adjacent_partner_tech excluded: 0/3
+  operator_control      excluded: 0/6  FALSE POSITIVES: none
+  operator_control      review_required: none
+DONE

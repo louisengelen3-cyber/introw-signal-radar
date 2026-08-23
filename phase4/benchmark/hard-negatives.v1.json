@@ -1,0 +1,114 @@
+{
+  "version": "hard-negatives.v1",
+  "frozenAt": "2026-08-23",
+  "modelState": "git tag phase3-frozen — constructs unchanged for the baseline run",
+  "note": "Every member has a real, owned, commercially-motivated partner programme. Each carries an independent blocker that does not appeal to materiality, ownership, surface, distribution, size, or non-customer status.",
+  "companies": [
+    {
+      "name": "PartnerStack", "domain": "partnerstack.com", "program": "PartnerStack Network / partner programme",
+      "negativeBasis": "category_competitor",
+      "negativeRationale": "PartnerStack sells partner-relationship management software. It will not buy a competing PRM.",
+      "rationaleSource": "partnerstack.com product pages — the company's own description of what it sells",
+      "rationaleIndependence": "Independent of materiality, ownership and surface: the blocker is what the company sells, not how its partner programme looks.",
+      "featureOverlapRisk": "none",
+      "confidence": "high"
+    },
+    {
+      "name": "Impartner", "domain": "impartner.com", "program": "Impartner partner programme",
+      "negativeBasis": "category_competitor",
+      "negativeRationale": "Impartner sells PRM software and was detected in Phase 2 as the incumbent platform at two other companies. It is a competitor, not a buyer.",
+      "rationaleSource": "impartner.com product pages; Phase 2 CNAME fingerprints at nokia.com and proofpoint.com",
+      "rationaleIndependence": "Independent — blocker is the product category the company sells.",
+      "featureOverlapRisk": "none", "confidence": "high"
+    },
+    {
+      "name": "Allbound", "domain": "allbound.com", "program": "Allbound partner programme",
+      "negativeBasis": "category_competitor",
+      "negativeRationale": "Allbound sells PRM software; detected in Phase 2 as the incumbent platform at ExtraHop and Semperis.",
+      "rationaleSource": "allbound.com product pages; Phase 2 CNAME fingerprints",
+      "rationaleIndependence": "Independent — product category.",
+      "featureOverlapRisk": "none", "confidence": "high"
+    },
+    {
+      "name": "Kiflo", "domain": "kiflo.com", "program": "Kiflo partner programme",
+      "negativeBasis": "category_competitor",
+      "negativeRationale": "Kiflo sells a lightweight PRM and is named in the Introw thesis as a direct competitor.",
+      "rationaleSource": "kiflo.com product pages; thesis §K.1 competitive landscape",
+      "rationaleIndependence": "Independent — product category.",
+      "featureOverlapRisk": "none", "confidence": "high"
+    },
+    {
+      "name": "Channeltivity", "domain": "channeltivity.com", "program": "Channeltivity partner programme",
+      "negativeBasis": "category_competitor",
+      "negativeRationale": "Channeltivity sells PRM software.",
+      "rationaleSource": "channeltivity.com product pages",
+      "rationaleIndependence": "Independent — product category.",
+      "featureOverlapRisk": "none", "confidence": "high"
+    },
+    {
+      "name": "ZINFI", "domain": "zinfi.com", "program": "ZINFI partner programme",
+      "negativeBasis": "category_competitor",
+      "negativeRationale": "ZINFI sells unified partner management software; named in the Introw thesis as an enterprise competitor.",
+      "rationaleSource": "zinfi.com product pages; thesis §K.1",
+      "rationaleIndependence": "Independent — product category.",
+      "featureOverlapRisk": "none", "confidence": "high"
+    },
+    {
+      "name": "Booking.com", "domain": "booking.com", "program": "Partner Hub — accommodation partners",
+      "negativeBasis": "supply_side_marketplace",
+      "negativeRationale": "Booking.com's 'partners' are the hotels and properties whose inventory it sells. They supply what Booking sells; they do not resell Booking's product. There is no partner-sourced pipeline into a CRM, no deal registration on Booking's own product, and no commission paid to partners for reselling it.",
+      "rationaleSource": "partner.booking.com — the programme's own description of who partners are and what they do",
+      "rationaleIndependence": "Independent of materiality, ownership and surface: the blocker is the DIRECTION of the commercial relationship, which those three constructs do not measure.",
+      "featureOverlapRisk": "high by design — this entry is intended to fire every positive probe",
+      "confidence": "high"
+    },
+    {
+      "name": "Expedia Group", "domain": "expediapartnercentral.com", "program": "Expedia Partner Central — lodging partners",
+      "negativeBasis": "supply_side_marketplace",
+      "negativeRationale": "Partners are lodging suppliers listing inventory, not a resale channel for Expedia's product.",
+      "rationaleSource": "expediapartnercentral.com programme description",
+      "rationaleIndependence": "Independent — relationship direction.",
+      "featureOverlapRisk": "high by design", "confidence": "high"
+    },
+    {
+      "name": "Deliveroo", "domain": "deliveroo.co.uk", "program": "Restaurant partner programme",
+      "negativeBasis": "supply_side_marketplace",
+      "negativeRationale": "'Restaurant partners' are merchants supplying food that Deliveroo sells and delivers. They are supply, not a channel reselling Deliveroo's product.",
+      "rationaleSource": "restaurants.deliveroo.com programme description",
+      "rationaleIndependence": "Independent — relationship direction.",
+      "featureOverlapRisk": "high by design", "confidence": "high"
+    },
+    {
+      "name": "Just Eat Takeaway", "domain": "just-eat.co.uk", "program": "Restaurant partner programme",
+      "negativeBasis": "supply_side_marketplace",
+      "negativeRationale": "Partners are restaurants supplying inventory to the marketplace, not resellers of Just Eat's product.",
+      "rationaleSource": "just-eat.co.uk restaurant partner pages",
+      "rationaleIndependence": "Independent — relationship direction.",
+      "featureOverlapRisk": "high by design", "confidence": "high"
+    },
+    {
+      "name": "Bolt", "domain": "bolt.eu", "program": "Driver and fleet partner programme",
+      "negativeBasis": "supply_side_marketplace",
+      "negativeRationale": "'Partners' are drivers and fleet operators supplying transport capacity. There is no product being resold and no partner-sourced B2B pipeline.",
+      "rationaleSource": "bolt.eu driver and fleet partner pages",
+      "rationaleIndependence": "Independent — relationship direction.",
+      "featureOverlapRisk": "high by design", "confidence": "high"
+    },
+    {
+      "name": "Airbnb", "domain": "airbnb.com", "program": "Host and co-host partner programme",
+      "negativeBasis": "supply_side_marketplace",
+      "negativeRationale": "Hosts and co-hosts supply the inventory Airbnb sells. Partner language and onboarding exist; a resale channel does not.",
+      "rationaleSource": "airbnb.com host and partner pages",
+      "rationaleIndependence": "Independent — relationship direction.",
+      "featureOverlapRisk": "high by design", "confidence": "medium"
+    },
+    {
+      "name": "Uber", "domain": "uber.com", "program": "Driver and merchant partner programme",
+      "negativeBasis": "supply_side_marketplace",
+      "negativeRationale": "'Partners' are drivers and merchants supplying capacity and inventory, not a channel reselling Uber's product.",
+      "rationaleSource": "uber.com driver and merchant partner pages",
+      "rationaleIndependence": "Independent — relationship direction.",
+      "featureOverlapRisk": "high by design", "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,1284 @@
+[
+  {
+    "recordId": "RECORD_01",
+    "sector": "not established",
+    "country": null,
+    "observedEvidence": [
+      {
+        "observation": "names partner types",
+        "quote": "ne [COMPANY] readers with certified hardware, installation, and integration partners to capture reliable item-level data for Inventory Engine. Hardware ec",
+        "source": "[url]",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "observation": "commission mechanics",
+        "quote": "dates to stories from our people. Revenue up 13%, operating margin up to 12.1% July 16 Financial May 19 [COMPANY] introduces AI update that",
+        "source": "[url]",
+        "proves": "the company pays partners for commercial outcomes",
+        "doesNotProve": "the size of the payments or how they are calculated"
+      }
+    ],
+    "surfacesInspected": [
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]"
+    ],
+    "partnerPlatformDetected": null,
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "unknown",
+    "publicationDensity": "sparse",
+    "notObserved": [
+      "no evidence that partners generate revenue or customers",
+      "no partner-platform fingerprint (this is not evidence that none is in use)",
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": []
+  },
+  {
+    "recordId": "RECORD_02",
+    "sector": "no reliable partner count; scale not established",
+    "country": null,
+    "observedEvidence": [
+      {
+        "observation": "partner resells",
+        "quote": "ccess: Test and showcase AI agents in real-world conditions Co-selling & delivery: Lead registration, sales support, and delivery enablement",
+        "source": "[url]",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "observation": "partner grows own revenue",
+        "quote": "m equips you with the tools, expertise, and market reach to grow your business and create lasting impact for the customers you serve. Whether you&#x",
+        "source": "[url]",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "observation": "first person recruitment",
+        "quote": "potential of agentic AI in customer service. Find a partner Become a partner Why work with [COMPANY] partners Deploy AI agents faster Leverage indust",
+        "source": "[url]",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "observation": "names partner types",
+        "quote": "support to maximize satisfaction and efficiency. Technology Technology partners extend the [COMPANY] platform by building complementary solutions and in",
+        "source": "[url]",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "observation": "deal registration",
+        "quote": "e AI agents in real-world conditions Co-selling & delivery: Lead registration, sales support, and delivery enablement Marketing: Marketing kits, ev",
+        "source": "[url]",
+        "proves": "partners participate in the sales process through a defined intake",
+        "doesNotProve": "that the company is unhappy with how it handles them today"
+      },
+      {
+        "observation": "partner portal",
+        "quote": "Welcome to our Partner Hub Login or enter your work email below Log in with Google Log in with M",
+        "source": "[url]",
+        "proves": "a partner-specific operational surface exists",
+        "doesNotProve": "adoption, or that partners log into it"
+      },
+      {
+        "observation": "partner tiers",
+        "quote": "ering, sourcing pipeline, and scaling maturity access roles Premier Partner Operating at scale across accounts and regions — with strategic allia",
+        "source": "[url]",
+        "proves": "the company differentiates partners by commitment or performance",
+        "doesNotProve": "how many partners sit in each tier"
+      },
+      {
+        "observation": "partner directory",
+        "quote": "nlock the full potential of agentic AI in customer service. Find a partner Become a partner Why work with [COMPANY] partners Deploy AI agents faste",
+        "source": "[url]",
+        "proves": "the company publishes named partner organisations",
+        "doesNotProve": "that the listed partners are active"
+      }
+    ],
+    "surfacesInspected": [
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]"
+    ],
+    "partnerPlatformDetected": "introw",
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "unknown",
+    "publicationDensity": "rich",
+    "notObserved": [
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": []
+  },
+  {
+    "recordId": "RECORD_03",
+    "sector": "no reliable partner count; scale not established. Multi-tier",
+    "country": null,
+    "observedEvidence": [
+      {
+        "observation": "partner resells",
+        "quote": "Reseller A partner who purchases your product or service at a discount and res",
+        "source": "[url]",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "observation": "partner grows own revenue",
+        "quote": "nization that promotes your offering via affiliate links to earn commission on leads or sales. Affiliate Program A formal structure where affilia",
+        "source": "[url]",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "observation": "names partner types",
+        "quote": "r A role focused on identifying, recruiting, and supporting channel partners to expand a company’s indirect sales reach. Channel Marketing Promoti",
+        "source": "[url]",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "observation": "provides partner support",
+        "quote": "che customer segments where they offer localized expertise. Partner Enablement Needs: Resellers typically require deep product training, marketing r",
+        "source": "[url]",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      },
+      {
+        "observation": "deal registration",
+        "quote": "pproves special pricing, legal terms, and deal structuring. Deal Registration A formal notification by a partner to claim a sales opportunity, ofte",
+        "source": "[url]",
+        "proves": "partners participate in the sales process through a defined intake",
+        "doesNotProve": "that the company is unhappy with how it handles them today"
+      },
+      {
+        "observation": "partner portal",
+        "quote": "one — it cannot compensate for missing infrastructure. Your Partner Portal Is a Product — Not a Launch Low adoption is not a tooling problem. It",
+        "source": "[url]",
+        "proves": "a partner-specific operational surface exists",
+        "doesNotProve": "adoption, or that partners log into it"
+      },
+      {
+        "observation": "partner tiers",
+        "quote": "fic partners based on criteria such as territory, vertical, partner tier, or expertise. Lead Generation The process of attracting and capturin",
+        "source": "[url]",
+        "proves": "the company differentiates partners by commitment or performance",
+        "doesNotProve": "how many partners sit in each tier"
+      },
+      {
+        "observation": "certification training",
+        "quote": "ing leads, attending training, or closing their first deal. Partner Certification A formal process where partners complete training and meet specific c",
+        "source": "[url]",
+        "proves": "the company trains or certifies people outside its own staff",
+        "doesNotProve": "that those people transact — customer academies look identical"
+      },
+      {
+        "observation": "commission mechanics",
+        "quote": "ate partner that tracks clicks and conversions for accurate commission tracking. Affiliate Marketing A performance-based marketing strategy",
+        "source": "[url]",
+        "proves": "the company pays partners for commercial outcomes",
+        "doesNotProve": "the size of the payments or how they are calculated"
+      },
+      {
+        "observation": "multiple programme tracks",
+        "quote": "mall, focused, and relationship-driven in the early phase. “Partner programs are not a shortcut to growth — they are a force multiplier. When laun",
+        "source": "[url]",
+        "proves": "the company runs more than one distinct partner track",
+        "doesNotProve": "that they share an owner or a system"
+      }
+    ],
+    "surfacesInspected": [
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]"
+    ],
+    "partnerPlatformDetected": null,
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "unknown",
+    "publicationDensity": "rich",
+    "notObserved": [
+      "no partner-platform fingerprint (this is not evidence that none is in use)",
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": []
+  },
+  {
+    "recordId": "RECORD_04",
+    "sector": "no reliable partner count; scale not established",
+    "country": null,
+    "observedEvidence": [
+      {
+        "observation": "partner resells",
+        "quote": "ses and Demo Environment so you can be fully armed when you resell our industry-leading communications platform. and more... Start earni",
+        "source": "[url]",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "observation": "partner extends reach",
+        "quote": "very, and a named partner contact once you&#x27;re live. 04 Reach new customers and scale. Featured on our App Marketplace and surfaced inside the Ai",
+        "source": "[url]",
+        "proves": "the company describes partners reaching customers it would not reach directly",
+        "doesNotProve": "that the reach is exclusive, managed, or measured"
+      },
+      {
+        "observation": "first person recruitment",
+        "quote": "urces, designed to help you drive customer acquisition. Why join the Partner Collective? You’ll become part of a collaborative partner community t",
+        "source": "[url]",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "observation": "names partner types",
+        "quote": "rtner Collective is our way of investing back into our core channel partners like you. We learn and grow as a team, bringing our expertise into a",
+        "source": "[url]",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "observation": "partner portal",
+        "quote": "y to partner? We are. Join the Partner Collective Log in to Partner Portal",
+        "source": "[url]",
+        "proves": "a partner-specific operational surface exists",
+        "doesNotProve": "adoption, or that partners log into it"
+      },
+      {
+        "observation": "partner tiers",
+        "quote": "r Retail and E-commerce Travel and Hospitality All Partners Gold Partner Fileroom Fileroom is a full-stack growth agency and HubSpot Platinum",
+        "source": "[url]",
+        "proves": "the company differentiates partners by commitment or performance",
+        "doesNotProve": "how many partners sit in each tier"
+      },
+      {
+        "observation": "commission mechanics",
+        "quote": "ur customers by building your offering of [COMPANY] Services. Commission Earn more as you progress! Your share of revenue increases as you mov",
+        "source": "[url]",
+        "proves": "the company pays partners for commercial outcomes",
+        "doesNotProve": "the size of the payments or how they are calculated"
+      }
+    ],
+    "surfacesInspected": [
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]"
+    ],
+    "partnerPlatformDetected": null,
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "unknown",
+    "publicationDensity": "moderate",
+    "notObserved": [
+      "no partner-platform fingerprint (this is not evidence that none is in use)",
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": []
+  },
+  {
+    "recordId": "RECORD_05",
+    "sector": "no reliable partner count; scale not established",
+    "country": null,
+    "observedEvidence": [
+      {
+        "observation": "partner resells",
+        "quote": "for Partners’ needs Multi-tenant Enable multiple users (and resellers) to manage their tenants independently, with full control over metric",
+        "source": "[url]",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "observation": "first person recruitment",
+        "quote": "[COMPANY] | Become a partner Product Solutions Case Studies Partners Pricing Docs Contact us Try n",
+        "source": "[url]",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "observation": "names partner types",
+        "quote": "s without the need to manage any hardware. Become a partner Technology Partners Complement your offering by integrating geo-distributed S3 into your",
+        "source": "[url]",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "observation": "partner portal",
+        "quote": "[COMPANY] Partner Portal - Invite Only The portal is currently invite only, we will contact yo",
+        "source": "[url]",
+        "proves": "a partner-specific operational surface exists",
+        "doesNotProve": "adoption, or that partners log into it"
+      }
+    ],
+    "surfacesInspected": [
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]"
+    ],
+    "partnerPlatformDetected": "introw",
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "unknown",
+    "publicationDensity": "moderate",
+    "notObserved": [
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": []
+  },
+  {
+    "recordId": "RECORD_06",
+    "sector": "no reliable partner count; scale not established. Multi-tier",
+    "country": null,
+    "observedEvidence": [
+      {
+        "observation": "partner resells",
+        "quote": "ers we go to market with at Channelscaler: the consultants, resellers, ISVs, and communities who build, sell, deploy, and champion our plat",
+        "source": "[/partners/]",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "observation": "partner grows own revenue",
+        "quote": "elscaler Join the Channelscaler Partner Network Program and grow your revenue and brand with the category-defining platform for modern partner ecos",
+        "source": "[/partners/]",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "observation": "partner extends reach",
+        "quote": "nd systems that bring them to life. 2. Reseller Partner You extend our reach into new accounts and grow wallet share in our installed base, transa",
+        "source": "[/partners/]",
+        "proves": "the company describes partners reaching customers it would not reach directly",
+        "doesNotProve": "that the reach is exclusive, managed, or measured"
+      },
+      {
+        "observation": "first person recruitment",
+        "quote": "e category-defining platform for modern partner ecosystems. Become a Partner Partner Portal Login PARTNER TYPES Who Should Partner With Us These a",
+        "source": "[/partners/]",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "observation": "names partner types",
+        "quote": "l Performance Channelscaler’s partner portal software gives channel partners a centralized, self-service platform to access training, register dea",
+        "source": "[/platforms/partner-portal-software/]",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "observation": "operates intake",
+        "quote": "te their path to revenue-generating activity. What We Offer Partner Registration Partner Portal Content Management System (CMS) Training & Enablement (",
+        "source": "[/]",
+        "proves": "the company runs its own intake for partner applications, leads or deals",
+        "doesNotProve": "the volume through it, or that it is automated rather than an inbox"
+      },
+      {
+        "observation": "provides partner support",
+        "quote": "portal. The platform provides tools to automate and manage partner operations across the entire lifecycle, including: Partner onboarding and enable",
+        "source": "[/channelscaler-vs-impartner/]",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      },
+      {
+        "observation": "deal registration",
+        "quote": "CSP, and ISV ecosystems, with everything you need to manage deal registration, partner tiering, incentives, renewals, and co-sell programs at scale",
+        "source": "[/partners/]",
+        "proves": "partners participate in the sales process through a defined intake",
+        "doesNotProve": "that the company is unhappy with how it handles them today"
+      },
+      {
+        "observation": "partner portal",
+        "quote": "ng platform for modern partner ecosystems. Become a Partner Partner Portal Login PARTNER TYPES Who Should Partner With Us These are the partners",
+        "source": "[/partners/]",
+        "proves": "a partner-specific operational surface exists",
+        "doesNotProve": "adoption, or that partners log into it"
+      },
+      {
+        "observation": "partner tiers",
+        "quote": "m. Sunny Song Director of Partner Operations at SentinelOne Certified Partner You Can Rely On What Makes Us Different Why Enterprise Channel Leader",
+        "source": "[/]",
+        "proves": "the company differentiates partners by commitment or performance",
+        "doesNotProve": "how many partners sit in each tier"
+      },
+      {
+        "observation": "certification training",
+        "quote": "alized access to content, programs, and tools 2. Accelerate Partner Onboarding and Enablement Getting partners from onboarding to first deal often t",
+        "source": "[/platforms/partner-portal-software/]",
+        "proves": "the company trains or certifies people outside its own staff",
+        "doesNotProve": "that those people transact — customer academies look identical"
+      },
+      {
+        "observation": "commission mechanics",
+        "quote": "ng, distribution data ingestion, ship-and-debit automation, rebate and incentive program management, and inventory and claims processing",
+        "source": "[/channelscaler-vs-impartner/]",
+        "proves": "the company pays partners for commercial outcomes",
+        "doesNotProve": "the size of the payments or how they are calculated"
+      },
+      {
+        "observation": "partner directory",
+        "quote": "Partner Locator Software Turn partner discovery into qualified pipeline OVERVIEW How",
+        "source": "[/platforms/partner-locator/]",
+        "proves": "the company publishes named partner organisations",
+        "doesNotProve": "that the listed partners are active"
+      },
+      {
+        "observation": "multiple programme tracks",
+        "quote": "trusted partner for companies designing or rebuilding their partner programs, advising them on program attributes, processes, and systems that bri",
+        "source": "[/partners/]",
+        "proves": "the company runs more than one distinct partner track",
+        "doesNotProve": "that they share an owner or a system"
+      }
+    ],
+    "surfacesInspected": [
+      "[/become-a-partner/]",
+      "[/partners/]",
+      "[/platforms/partner-portal-software/]",
+      "[/platforms/partner-locator/]",
+      "[/resources/press-releases/optiv-unveils-an-ai-driven-partner-portal-built-on-channelscaler/]",
+      "[/channelscaler-vs-impartner/]",
+      "[/]",
+      "[/platforms/partner-incentive-management-software/]",
+      "[/platforms/rebate-program-management-software/]"
+    ],
+    "partnerPlatformDetected": null,
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "unknown",
+    "publicationDensity": "rich",
+    "notObserved": [
+      "no partner-platform fingerprint (this is not evidence that none is in use)",
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": []
+  },
+  {
+    "recordId": "RECORD_07",
+    "sector": "not established",
+    "country": null,
+    "observedEvidence": [],
+    "surfacesInspected": [],
+    "partnerPlatformDetected": null,
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "unknown",
+    "publicationDensity": "none",
+    "notObserved": [
+      "no evidence that partners generate revenue or customers",
+      "no evidence about who operates the partner motion",
+      "no partner operational machinery observed",
+      "no partner-platform fingerprint (this is not evidence that none is in use)",
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": [
+      "site could not be retrieved (bot_protection)"
+    ]
+  },
+  {
+    "recordId": "RECORD_08",
+    "sector": "not established",
+    "country": null,
+    "observedEvidence": [],
+    "surfacesInspected": [
+      "[url]"
+    ],
+    "partnerPlatformDetected": null,
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "unknown",
+    "publicationDensity": "sparse",
+    "notObserved": [
+      "no evidence that partners generate revenue or customers",
+      "no evidence about who operates the partner motion",
+      "no partner operational machinery observed",
+      "no partner-platform fingerprint (this is not evidence that none is in use)",
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": []
+  },
+  {
+    "recordId": "RECORD_09",
+    "sector": "no reliable partner count; scale not established",
+    "country": null,
+    "observedEvidence": [
+      {
+        "observation": "partner resells",
+        "quote": "evenue, and get support from our no-nonsense enablement and co-sell motions. Become a trusted advisor Get an exclusive [COMPANY] Partner Bad",
+        "source": "[url]",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "observation": "partner grows own revenue",
+        "quote": "ner Room Why partner? Scale your business Earn commissions, grow your revenue, and get support from our no-nonsense enablement and co-sell motions.",
+        "source": "[url]",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "observation": "first person recruitment",
+        "quote": "oadens your market reach as part of an expanding ecosystem. Become a partner Enroll If you fit the partners we’re looking for, we’ll be thrilled t",
+        "source": "[url]",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "observation": "provides partner support",
+        "quote": "deal registration and tracking of commission fees Dedicated Partner Success Manager who will be with you every step of the way – from training to",
+        "source": "[url]",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      },
+      {
+        "observation": "deal registration",
+        "quote": "gram Benefits Exclusive access to [COMPANY]’s Partner Room for deal registration and tracking of commission fees Dedicated Partner Success Manager who",
+        "source": "[url]",
+        "proves": "partners participate in the sales process through a defined intake",
+        "doesNotProve": "that the company is unhappy with how it handles them today"
+      },
+      {
+        "observation": "partner portal",
+        "quote": "[COMPANY] Partner Portal",
+        "source": "[url]",
+        "proves": "a partner-specific operational surface exists",
+        "doesNotProve": "adoption, or that partners log into it"
+      },
+      {
+        "observation": "commission mechanics",
+        "quote": "[COMPANY]’s Partner Room for deal registration and tracking of commission fees Dedicated Partner Success Manager who will be with you every ste",
+        "source": "[url]",
+        "proves": "the company pays partners for commercial outcomes",
+        "doesNotProve": "the size of the payments or how they are calculated"
+      }
+    ],
+    "surfacesInspected": [
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]"
+    ],
+    "partnerPlatformDetected": null,
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "unknown",
+    "publicationDensity": "moderate",
+    "notObserved": [
+      "no partner-platform fingerprint (this is not evidence that none is in use)",
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": []
+  },
+  {
+    "recordId": "RECORD_10",
+    "sector": "no reliable partner count; scale not established",
+    "country": null,
+    "observedEvidence": [
+      {
+        "observation": "first person recruitment",
+        "quote": "erable ecosystem for public safety Browse Partner Directory Become a Partner [COMPANY] PARTNERS Safety in partnerships [COMPANY] works with a growing networ",
+        "source": "[url]",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "observation": "names partner types",
+        "quote": "expand the reach of [COMPANY]’s solutions, while our technology integration partners connect agency and third-party sensors and data into a single, intuit",
+        "source": "[url]",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "observation": "partner portal",
+        "quote": "Welcome to the [COMPANY] Partner Portal To continue to this portal, enter the work email that received this i",
+        "source": "[url]",
+        "proves": "a partner-specific operational surface exists",
+        "doesNotProve": "adoption, or that partners log into it"
+      },
+      {
+        "observation": "partner directory",
+        "quote": "xon, LVT join forces to strengthen retail security Read now Meet our partners Browse All Partners Interested in Working With [COMPANY]? Our customers ar",
+        "source": "[url]",
+        "proves": "the company publishes named partner organisations",
+        "doesNotProve": "that the listed partners are active"
+      }
+    ],
+    "surfacesInspected": [
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]"
+    ],
+    "partnerPlatformDetected": "introw",
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "unknown",
+    "publicationDensity": "moderate",
+    "notObserved": [
+      "no evidence that partners generate revenue or customers",
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": []
+  },
+  {
+    "recordId": "RECORD_11",
+    "sector": "no reliable partner count; scale not established",
+    "country": null,
+    "observedEvidence": [
+      {
+        "observation": "partner resells",
+        "quote": "trusted advisor for modern AI development transformations. Resellers Expand your product offerings, attract new customers, and increase re",
+        "source": "[url]",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "observation": "names partner types",
+        "quote": "’re building the future of secure, self-hosted development. Technology Partners Create innovative solutions that optimize workflows and increase valu",
+        "source": "[url]",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      }
+    ],
+    "surfacesInspected": [
+      "[url]",
+      "[url]",
+      "[url]"
+    ],
+    "partnerPlatformDetected": "introw",
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "13 (lower_bound)",
+    "publicationDensity": "sparse",
+    "notObserved": [
+      "no partner operational machinery observed",
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": []
+  },
+  {
+    "recordId": "RECORD_12",
+    "sector": "not established",
+    "country": null,
+    "observedEvidence": [],
+    "surfacesInspected": [
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]"
+    ],
+    "partnerPlatformDetected": null,
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "unknown",
+    "publicationDensity": "sparse",
+    "notObserved": [
+      "no evidence that partners generate revenue or customers",
+      "no evidence about who operates the partner motion",
+      "no partner operational machinery observed",
+      "no partner-platform fingerprint (this is not evidence that none is in use)",
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": []
+  },
+  {
+    "recordId": "RECORD_13",
+    "sector": "no reliable partner count; scale not established",
+    "country": null,
+    "observedEvidence": [
+      {
+        "observation": "partner resells",
+        "quote": "ain purpose of a partner portal is to make it easy for your resellers to get what they need to sell your product. As a result, the most imp",
+        "source": "[url]",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "observation": "partner grows own revenue",
+        "quote": "ime to focus on more strategically working with partners to grow your business. Secure Embedding and Integrating of External Apps Integrate your in-",
+        "source": "[url]",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "observation": "partner sources deals",
+        "quote": "ed marketing initiatives with proven success helps partners generate leads and drive customer acquisition, ultimately increasing your total reve",
+        "source": "[url]",
+        "proves": "the company describes partners bringing it leads, deals or customers",
+        "doesNotProve": "the number of deals, or that a process exists to handle them"
+      },
+      {
+        "observation": "partner extends reach",
+        "quote": "nd and reel in ideal customers — particularly when tackling new geographies, launching new products, or servicing new industries. Boost Your Bran",
+        "source": "[url]",
+        "proves": "the company describes partners reaching customers it would not reach directly",
+        "doesNotProve": "that the reach is exclusive, managed, or measured"
+      },
+      {
+        "observation": "first person recruitment",
+        "quote": "Partner With Us [COMPANY] Partner Program [COMPANY] welcomes the opportunity",
+        "source": "[url]",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "observation": "names partner types",
+        "quote": "around the world. Our partnership programs include Channel Service Partners, Solution Partners and Referral Partners. Become a Partner Channel Se",
+        "source": "[url]",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "observation": "provides partner support",
+        "quote": "ctionality can be grouped into the following three buckets: Partner Enablement , including training, certification and joint business planning Chann",
+        "source": "[url]",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      },
+      {
+        "observation": "deal registration",
+        "quote": "partner-facing components of your channel program, such as: Deal Registration Training and Certification Lead Distribution Marketing Fund Managemen",
+        "source": "[url]",
+        "proves": "partners participate in the sales process through a defined intake",
+        "doesNotProve": "that the company is unhappy with how it handles them today"
+      },
+      {
+        "observation": "partner portal",
+        "quote": "Partner Portal The starting point for partners to access all channel program functio",
+        "source": "[url]",
+        "proves": "a partner-specific operational surface exists",
+        "doesNotProve": "adoption, or that partners log into it"
+      },
+      {
+        "observation": "certification training",
+        "quote": "build your channel at home and abroad Channel Training and Accreditation — get your channel up and running fast Talk to us about becoming a Ch",
+        "source": "[url]",
+        "proves": "the company trains or certifies people outside its own staff",
+        "doesNotProve": "that those people transact — customer academies look identical"
+      },
+      {
+        "observation": "commission mechanics",
+        "quote": "d colleagues. Every qualifying referral pays your company a commission. 1 Refer someone via personal email introduction or introductory phon",
+        "source": "[url]",
+        "proves": "the company pays partners for commercial outcomes",
+        "doesNotProve": "the size of the payments or how they are calculated"
+      },
+      {
+        "observation": "multiple programme tracks",
+        "quote": "depends a lot on your company’s commitment to the channel. Partner programs require investment. It takes effort to bring on new partners and trai",
+        "source": "[url]",
+        "proves": "the company runs more than one distinct partner track",
+        "doesNotProve": "that they share an owner or a system"
+      }
+    ],
+    "surfacesInspected": [
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]"
+    ],
+    "partnerPlatformDetected": null,
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "unknown",
+    "publicationDensity": "rich",
+    "notObserved": [
+      "no partner-platform fingerprint (this is not evidence that none is in use)",
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": []
+  },
+  {
+    "recordId": "RECORD_14",
+    "sector": "no reliable partner count; scale not established. Multi-tier",
+    "country": null,
+    "observedEvidence": [
+      {
+        "observation": "partner resells",
+        "quote": "What Is a Reseller Partner Portal? [Definition] | [COMPANY] Reseller Partner Portal Find",
+        "source": "[url]",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "observation": "partner extends reach",
+        "quote": "nage Pipeline Lead Distribution Deal Registration  Co-Sell Access to New Customers Increased Revenue Shorter Sales Cycles  Sell & Transact Quote Manage",
+        "source": "[url]",
+        "proves": "the company describes partners reaching customers it would not reach directly",
+        "doesNotProve": "that the reach is exclusive, managed, or measured"
+      },
+      {
+        "observation": "names partner types",
+        "quote": "cation between manufacturers and their extensive network of reseller partners. Here, manufacturers can effectively engage, enable, and extend suppo",
+        "source": "[url]",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "observation": "operates intake",
+        "quote": "ecruit Partner Identification Marketing Automation  Enroll Partner Application Terms Management  Onboard Activation Journey Orchestration Marketplac",
+        "source": "[url]",
+        "proves": "the company runs its own intake for partner applications, leads or deals",
+        "doesNotProve": "the volume through it, or that it is automated rather than an inbox"
+      },
+      {
+        "observation": "provides partner support",
+        "quote": "sales channels at every partner lifecycle touchpoint. From partner training and onboarding to pipeline management, resource sharing, and performa",
+        "source": "[url]",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      },
+      {
+        "observation": "deal registration",
+        "quote": "Technical support Incentives, tiering, and rewards programs Deal registration Joint business planning Performance tracking and reporting However, i",
+        "source": "[url]",
+        "proves": "partners participate in the sales process through a defined intake",
+        "doesNotProve": "that the company is unhappy with how it handles them today"
+      },
+      {
+        "observation": "partner portal",
+        "quote": "What Is a Reseller Partner Portal? [Definition] | [COMPANY] Reseller Partner Portal Find terms by lette",
+        "source": "[url]",
+        "proves": "a partner-specific operational surface exists",
+        "doesNotProve": "adoption, or that partners log into it"
+      },
+      {
+        "observation": "partner tiers",
+        "quote": "ant ways to do this is in your incentive structures. Set up partner tier structures , then plainly spell out how they'll reach higher rewards",
+        "source": "[url]",
+        "proves": "the company differentiates partners by commitment or performance",
+        "doesNotProve": "how many partners sit in each tier"
+      },
+      {
+        "observation": "certification training",
+        "quote": "sales channels at every partner lifecycle touchpoint. From partner training and onboarding to pipeline management, resource sharing, and performa",
+        "source": "[url]",
+        "proves": "the company trains or certifies people outside its own staff",
+        "doesNotProve": "that those people transact — customer academies look identical"
+      },
+      {
+        "observation": "commission mechanics",
+        "quote": "oyalty. For instance, a technology company might offer a 5% rebate on all new software license sales for a given quarter, creating an im",
+        "source": "[url]",
+        "proves": "the company pays partners for commercial outcomes",
+        "doesNotProve": "the size of the payments or how they are calculated"
+      },
+      {
+        "observation": "multiple programme tracks",
+        "quote": "g, or supporting your company&#8217;s products or services. Partner programs are especially common in industries where indirect sales or distribut",
+        "source": "[url]",
+        "proves": "the company runs more than one distinct partner track",
+        "doesNotProve": "that they share an owner or a system"
+      }
+    ],
+    "surfacesInspected": [
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]"
+    ],
+    "partnerPlatformDetected": "impartner",
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "unknown",
+    "publicationDensity": "rich",
+    "notObserved": [
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": []
+  },
+  {
+    "recordId": "RECORD_15",
+    "sector": "not established",
+    "country": null,
+    "observedEvidence": [],
+    "surfacesInspected": [],
+    "partnerPlatformDetected": null,
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "unknown",
+    "publicationDensity": "none",
+    "notObserved": [
+      "no evidence that partners generate revenue or customers",
+      "no evidence about who operates the partner motion",
+      "no partner operational machinery observed",
+      "no partner-platform fingerprint (this is not evidence that none is in use)",
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": [
+      "site could not be retrieved (bot_protection)"
+    ]
+  },
+  {
+    "recordId": "RECORD_16",
+    "sector": "no reliable partner count; scale not established",
+    "country": null,
+    "observedEvidence": [
+      {
+        "observation": "partner resells",
+        "quote": "want to grow with Archer at the highest level. Value-added Resellers Sell Archer products and services, including new logos, expansions, a",
+        "source": "[url]",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "observation": "names partner types",
+        "quote": "or clients tackling complex risk and compliance challenges. Consulting partners can earn domain Specializations to unlock preferential deal routing,",
+        "source": "[url]",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "observation": "provides partner support",
+        "quote": "ially rewarding. Development & enablement support Dedicated partner resources, enablement content, and Archer team coordination to accelerate your",
+        "source": "[url]",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      },
+      {
+        "observation": "deal registration",
+        "quote": "horized distributors in your region. Resellers benefit from deal registration protection, tier-based pricing discounts, and Partner of Record renew",
+        "source": "[url]",
+        "proves": "partners participate in the sales process through a defined intake",
+        "doesNotProve": "that the company is unhappy with how it handles them today"
+      },
+      {
+        "observation": "partner portal",
+        "quote": "form and a global network built for your success. Apply Now Partner Portal About the Archer Velocity Partner Program The Velocity Partner Progra",
+        "source": "[url]",
+        "proves": "a partner-specific operational surface exists",
+        "doesNotProve": "adoption, or that partners log into it"
+      },
+      {
+        "observation": "commission mechanics",
+        "quote": "collaborate on next steps. Financial incentives Competitive margin structures, incentive programs, and revenue-sharing models designed t",
+        "source": "[url]",
+        "proves": "the company pays partners for commercial outcomes",
+        "doesNotProve": "the size of the payments or how they are calculated"
+      },
+      {
+        "observation": "partner directory",
+        "quote": "g, deeper co-sell support, and additional program benefits. Partner locator Filter by region, tier, or partnership type to find the Archer partne",
+        "source": "[url]",
+        "proves": "the company publishes named partner organisations",
+        "doesNotProve": "that the listed partners are active"
+      }
+    ],
+    "surfacesInspected": [
+      "[url]"
+    ],
+    "partnerPlatformDetected": null,
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "9 (lower_bound)",
+    "publicationDensity": "moderate",
+    "notObserved": [
+      "no partner-platform fingerprint (this is not evidence that none is in use)",
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": []
+  },
+  {
+    "recordId": "RECORD_17",
+    "sector": "no reliable partner count; scale not established. Multi-tier",
+    "country": null,
+    "observedEvidence": [
+      {
+        "observation": "partner resells",
+        "quote": "Partnership Managers Do These 15 Things After surveying 24 resellers and 10 channel leaders, we have rounded up the activities of the best",
+        "source": "[url]",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "observation": "partner grows own revenue",
+        "quote": "lop their program, work with their partners, and of course, increase their revenue.” Dor Winter Referral Partnership Manager, monday.com Read the case s",
+        "source": "[url]",
+        "proves": "the company pitches partner participation as revenue for the partner",
+        "doesNotProve": "that any partner earns it, or that the company tracks it"
+      },
+      {
+        "observation": "partner extends reach",
+        "quote": "tors ecosystem opens up an entirely new go-to-market route. Access to new markets Expand a company&#x27;s reach to new partners and customers. Reduced",
+        "source": "[url]",
+        "proves": "the company describes partners reaching customers it would not reach directly",
+        "doesNotProve": "that the reach is exclusive, managed, or measured"
+      },
+      {
+        "observation": "first person recruitment",
+        "quote": "ner with top software brands and start earning commissions. Join the network Learn more",
+        "source": "[url]",
+        "proves": "the company invites organisations to join a programme it runs",
+        "doesNotProve": "that anyone joins, or that the programme is staffed"
+      },
+      {
+        "observation": "names partner types",
+        "quote": "om Monday.com is using [COMPANY] to onboard and activate referral partners to accelerate partnerships through smart onboarding, automation and p",
+        "source": "[url]",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "observation": "operates intake",
+        "quote": "sful collaborations, Sinai advises being specific with your partner application forms . Asking pointed questions makes it easier to weed out the partn",
+        "source": "[url]",
+        "proves": "the company runs its own intake for partner applications, leads or deals",
+        "doesNotProve": "the volume through it, or that it is automated rather than an inbox"
+      },
+      {
+        "observation": "provides partner support",
+        "quote": "erate partnerships through smart onboarding, automation and partner support and management. Explore this play -&gt; Use [COMPANY] to manage af",
+        "source": "[url]",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      },
+      {
+        "observation": "partner portal",
+        "quote": "eate a powerful affiliate program with its own custom-built partner portal. &lt;- Back to [COMPANY] Resources More Videos -&gt; GET STARTED W",
+        "source": "[url]",
+        "proves": "a partner-specific operational surface exists",
+        "doesNotProve": "adoption, or that partners log into it"
+      },
+      {
+        "observation": "certification training",
+        "quote": "n guidance, may be sending leads your way soon.” Streamline partner onboarding with a PRM Partner relationship management (PRM) tools like PartnerSt",
+        "source": "[url]",
+        "proves": "the company trains or certifies people outside its own staff",
+        "doesNotProve": "that those people transact — customer academies look identical"
+      },
+      {
+        "observation": "commission mechanics",
+        "quote": "perience on [COMPANY], get the training you need and the commission you want, all in one go. Learn more -&gt; Technology If you’re a soft",
+        "source": "[url]",
+        "proves": "the company pays partners for commercial outcomes",
+        "doesNotProve": "the size of the payments or how they are calculated"
+      },
+      {
+        "observation": "multiple programme tracks",
+        "quote": "How Distributors Help Partner Programs Go Global With Bryan McGlynn Thrive: the partnerships and growth conf",
+        "source": "[url]",
+        "proves": "the company runs more than one distinct partner track",
+        "doesNotProve": "that they share an owner or a system"
+      }
+    ],
+    "surfacesInspected": [
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]"
+    ],
+    "partnerPlatformDetected": null,
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "10 (lower_bound)",
+    "publicationDensity": "rich",
+    "notObserved": [
+      "no partner-platform fingerprint (this is not evidence that none is in use)",
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": []
+  },
+  {
+    "recordId": "RECORD_18",
+    "sector": "not established",
+    "country": null,
+    "observedEvidence": [],
+    "surfacesInspected": [],
+    "partnerPlatformDetected": null,
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "unknown",
+    "publicationDensity": "none",
+    "notObserved": [
+      "no evidence that partners generate revenue or customers",
+      "no evidence about who operates the partner motion",
+      "no partner operational machinery observed",
+      "no partner-platform fingerprint (this is not evidence that none is in use)",
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": [
+      "site could not be retrieved (bot_protection)"
+    ]
+  },
+  {
+    "recordId": "RECORD_19",
+    "sector": "no reliable partner count; scale not established. Multi-tier",
+    "country": null,
+    "observedEvidence": [
+      {
+        "observation": "partner resells",
+        "quote": "ograms that offer competitive returns — margin, incentives, co-sell support, and deal protection — delivered through program infrastructu",
+        "source": "[url]",
+        "proves": "the company describes partners selling or reselling its product",
+        "doesNotProve": "the volume of resale, or that resale revenue is material"
+      },
+      {
+        "observation": "names partner types",
+        "quote": "cture of a vendor&#8217;s commercial relationships with its channel partners — encompassing tier architecture, qualification criteria, program ben",
+        "source": "[url]",
+        "proves": "the company distinguishes and manages more than one kind of partner",
+        "doesNotProve": "how many partners exist in each type"
+      },
+      {
+        "observation": "operates intake",
+        "quote": "kflow [COMPANY]&#8217;s Programs module provides a configurable partner application workflow — a structured, multi-step application process that captures",
+        "source": "[url]",
+        "proves": "the company runs its own intake for partner applications, leads or deals",
+        "doesNotProve": "the volume through it, or that it is automated rather than an inbox"
+      },
+      {
+        "observation": "provides partner support",
+        "quote": "drive engagement, loyalty, and business growth. Automating Partner Enablement with [COMPANY]’s Pre-Configured Salesforce PRM templates [COMPANY]’s pre-conf",
+        "source": "[url]",
+        "proves": "the company supplies partners with resources, enablement or a named contact",
+        "doesNotProve": "that partners use them"
+      },
+      {
+        "observation": "deal registration",
+        "quote": "co-branded demand generation tools, the SELL pillar&#8217;s deal registration and quoting infrastructure, and the INCENTIVIZE pillar&#8217;s commis",
+        "source": "[url]",
+        "proves": "partners participate in the sales process through a defined intake",
+        "doesNotProve": "that the company is unhappy with how it handles them today"
+      },
+      {
+        "observation": "partner portal",
+        "quote": "greement execution workflow in the Contracts module and the partner portal provisioning workflow in the Partners module — creating a seamless, a",
+        "source": "[url]",
+        "proves": "a partner-specific operational surface exists",
+        "doesNotProve": "adoption, or that partners log into it"
+      },
+      {
+        "observation": "partner tiers",
+        "quote": "eferrals & manage commissions. Deals Centralizes and tracks registered partner deal activity. Co-Sell Streamlined partner collaboration for joint sa",
+        "source": "[url]",
+        "proves": "the company differentiates partners by commitment or performance",
+        "doesNotProve": "how many partners sit in each tier"
+      },
+      {
+        "observation": "certification training",
+        "quote": "processes for long-term success. Agency Overview Automating Partner Onboarding and Personalized Journeys with [COMPANY]’s pre-configured Salesforce PRM",
+        "source": "[url]",
+        "proves": "the company trains or certifies people outside its own staff",
+        "doesNotProve": "that those people transact — customer academies look identical"
+      },
+      {
+        "observation": "commission mechanics",
+        "quote": "capital to vendor programs that offer competitive returns — margin, incentives, co-sell support, and deal protection — delivered through",
+        "source": "[url]",
+        "proves": "the company pays partners for commercial outcomes",
+        "doesNotProve": "the size of the payments or how they are calculated"
+      },
+      {
+        "observation": "partner directory",
+        "quote": "ocalized onboarding, incentive and rebate management, and a partner locator — used by manufacturers such as Hyster-Yale and DeLaval. What a deale",
+        "source": "[url]",
+        "proves": "the company publishes named partner organisations",
+        "doesNotProve": "that the listed partners are active"
+      },
+      {
+        "observation": "multiple programme tracks",
+        "quote": "ing vendor team involvement for routine activities. Channel partner programs are the operational translation of partnership strategy — they transf",
+        "source": "[url]",
+        "proves": "the company runs more than one distinct partner track",
+        "doesNotProve": "that they share an owner or a system"
+      }
+    ],
+    "surfacesInspected": [
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]",
+      "[url]"
+    ],
+    "partnerPlatformDetected": null,
+    "crmEvidence": "unknown — no artifact found",
+    "partnerCount": "unknown",
+    "publicationDensity": "rich",
+    "notObserved": [
+      "no partner-platform fingerprint (this is not evidence that none is in use)",
+      "no CRM artifact found (this is not evidence about which CRM is used)",
+      "partner-team size",
+      "partner-sourced revenue share",
+      "partner adoption"
+    ],
+    "retrievalProblems": []
+  }
+]

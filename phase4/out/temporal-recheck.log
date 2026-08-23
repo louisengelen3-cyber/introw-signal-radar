@@ -1,0 +1,45 @@
+re-observing 40 surfaces (1 per company), baseline retrieved 2026-08-23T07:36:47.519Z
+[1/40] sharegate.com          no_change          
+[2/40] quatt.io               no_change          
+[3/40] cubbit.io              no_change          
+[4/40] coder.com              no_change          
+[5/40] factorialhr.com        no_change          
+[6/40] reversinglabs.com      no_change          
+[7/40] cumulocity.com         no_change          
+[8/40] parloa.com             no_change          
+[9/40] aikido.dev             no_change          
+[10/40] ringover.com           no_change          
+[11/40] axon.com               no_change          
+[12/40] safebreach.com         no_change          
+[13/40] zenity.io              no_change          
+[14/40] xelix.com              no_change          
+[15/40] exact.com              no_change          
+[16/40] vanta.com              no_change          
+[17/40] sedai.io               no_change          
+[18/40] bynder.com             no_change          
+[19/40] keepersecurity.com     no_change          
+[20/40] epiphan.com            no_change          
+[21/40] egnyte.com             no_change          
+[22/40] deepinstinct.com       no_change          
+[23/40] teamleader.eu          no_change          
+[24/40] semperis.com           no_change          
+[25/40] opengear.com           no_change          
+[26/40] gigamon.com            no_change          
+[27/40] illumio.com            no_change          
+[28/40] niko.eu                no_change          
+[29/40] extrahop.com           no_change          
+[30/40] anomali.com            no_change          
+[31/40] corelight.com          no_change          
+[32/40] fluke.com              no_change          
+[33/40] microsoft.com          no_change          
+[34/40] a10networks.com        no_change          
+[35/40] rooms.io               no_change          
+[36/40] sap.com                no_change          
+[37/40] avepoint.com           no_change          
+[38/40] nutanix.com            no_change          
+[39/40] enphase.com            no_change          
+[40/40] nokia.com              no_change          
+
+STABILITY: no_change=40
+false-positive floor: 0/40 surfaces differed within hours (0%)
+DONE

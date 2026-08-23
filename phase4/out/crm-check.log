@@ -1,0 +1,26 @@
+known_customer  parloa.com           pages=3   vendor=unknown      state=unknown       compat=unknown
+known_customer  cubbit.io            pages=4   vendor=hubspot      state=confirmed     compat=compatible_confirmed
+known_customer  aikido.dev           pages=4   vendor=hubspot      state=confirmed     compat=compatible_confirmed
+known_customer  axon.com             pages=3   vendor=unknown      state=unknown       compat=unknown
+known_customer  coder.com            pages=5   vendor=unknown      state=unknown       compat=unknown
+known_customer  archerirm.com        pages=7   vendor=unknown      state=unknown       compat=unknown
+unknown_truth   gitlab.com           pages=4   vendor=unknown      state=unknown       compat=unknown
+unknown_truth   pipedrive.com        pages=2   vendor=pipedrive    state=confirmed     compat=unknown
+unknown_truth   freshworks.com       pages=5   vendor=unknown      state=unknown       compat=unknown
+unknown_truth   talkdesk.com         pages=5   vendor=unknown      state=unknown       compat=unknown
+unknown_truth   zendesk.com          pages=5   vendor=unknown      state=unknown       compat=unknown
+unknown_truth   datadoghq.com        pages=4   vendor=unknown      state=unknown       compat=unknown
+unknown_truth   kiflo.com            pages=4   vendor=unknown      state=unknown       compat=unknown
+unknown_truth   allbound.com         pages=7   vendor=hubspot      state=confirmed     compat=compatible_confirmed
+unknown_truth   impartner.com        pages=5   vendor=unknown      state=unknown       compat=unknown
+unknown_truth   partnerstack.com     pages=5   vendor=hubspot      state=confirmed     compat=compatible_confirmed
+unknown_truth   ziftsolutions.com    pages=3   vendor=unknown      state=unknown       compat=unknown
+unknown_truth   magentrix.com        pages=4   vendor=unknown      state=unknown       compat=unknown
+
+POSITIVE CONTROL — every one of these provably runs HubSpot or Salesforce:
+  detected as compatible: 2/6  (33% recall)
+  MISSED: parloa.com, axon.com, coder.com, archerirm.com
+  ^ every miss is a company we KNOW uses a supported CRM and could not see it.
+
+CONTROL GROUP (true CRM unknown): fired on 3/12
+DONE

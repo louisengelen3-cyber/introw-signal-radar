@@ -1,0 +1,22 @@
+[1/13] category_compe  kiflo.com                    mat=confirmed     own=direct               surf=rich      dens=rich      => high_fit       
+[2/13] category_compe  allbound.com                 mat=confirmed     own=direct               surf=rich      dens=rich      => high_fit       
+[3/13] category_compe  impartner.com                mat=strong_proxy  own=direct               surf=rich      dens=rich      => high_fit       
+[4/13] category_compe  partnerstack.com             mat=confirmed     own=direct               surf=moderate  dens=rich      => high_fit       
+[5/13] category_compe  zinfi.com                    mat=weak_proxy    own=direct               surf=rich      dens=rich      => not_promoted   
+[6/13] category_compe  channeltivity.com            mat=confirmed     own=direct               surf=rich      dens=rich      => high_fit       
+[7/13] supply_side_ma  expediapartnercentral.com    mat=strong_proxy  own=direct               surf=light     dens=moderate  => plausible      
+[8/13] supply_side_ma  booking.com                  mat=weak_proxy    own=unknown              surf=moderate  dens=sparse    => not_promoted   
+[9/13] supply_side_ma  just-eat.co.uk               mat=unknown       own=unknown              surf=light     dens=none      => not_promoted   
+[10/13] supply_side_ma  deliveroo.co.uk              mat=unknown       own=direct               surf=unknown   dens=sparse    => under_observed 
+[11/13] supply_side_ma  bolt.eu                      mat=strong_proxy  own=unknown              surf=light     dens=sparse    => under_observed 
+[12/13] supply_side_ma  airbnb.com                   mat=unknown       own=unknown              surf=unknown   dens=sparse    => under_observed 
+[13/13] supply_side_ma  uber.com                     mat=unknown       own=unknown              surf=unknown   dens=sparse    => under_observed 
+
+FALSELY PROMOTED: 5 of 13
+  kiflo.com [category_competitor] — Partners are described as generating revenue or customers (confirmed), the company operates the motion itself (direct), 
+  allbound.com [category_competitor] — Partners are described as generating revenue or customers (confirmed), the company operates the motion itself (direct), 
+  impartner.com [category_competitor] — Partners are described as generating revenue or customers (strong_proxy), the company operates the motion itself (direct
+  partnerstack.com [category_competitor] — Partners are described as generating revenue or customers (confirmed), the company operates the motion itself (direct), 
+  channeltivity.com [category_competitor] — Partners are described as generating revenue or customers (confirmed), the company operates the motion itself (direct), 
+states: high_fit=5 · not_promoted=3 · plausible=1 · under_observed=4
+DONE

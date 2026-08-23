@@ -1,0 +1,226 @@
+[
+  {
+    "domain": "parloa.com",
+    "pages": 3,
+    "state": "unknown",
+    "distinctNames": [],
+    "titles": [],
+    "unnamedRole": null,
+    "implied": null,
+    "twoPlus": false
+  },
+  {
+    "domain": "cubbit.io",
+    "pages": 2,
+    "state": "unknown",
+    "distinctNames": [],
+    "titles": [],
+    "unnamedRole": null,
+    "implied": null,
+    "twoPlus": false
+  },
+  {
+    "domain": "aikido.dev",
+    "pages": 3,
+    "state": "named_role_unnamed",
+    "distinctNames": [],
+    "titles": [
+      "partner success manager"
+    ],
+    "unnamedRole": "Dedicated Partner Success Manager",
+    "implied": null,
+    "twoPlus": false
+  },
+  {
+    "domain": "axon.com",
+    "pages": 3,
+    "state": "named_individual",
+    "distinctNames": [
+      {
+        "name": "Browse Partner",
+        "title": "Directory Become a Partner AXON PARTNERS Safety in partnersh",
+        "url": "https://www.axon.com/partners"
+      }
+    ],
+    "titles": [],
+    "unnamedRole": null,
+    "implied": null,
+    "twoPlus": false
+  },
+  {
+    "domain": "coder.com",
+    "pages": 3,
+    "state": "unknown",
+    "distinctNames": [],
+    "titles": [],
+    "unnamedRole": null,
+    "implied": null,
+    "twoPlus": false
+  },
+  {
+    "domain": "archerirm.com",
+    "pages": 9,
+    "state": "unknown",
+    "distinctNames": [],
+    "titles": [],
+    "unnamedRole": null,
+    "implied": null,
+    "twoPlus": false
+  },
+  {
+    "domain": "gitlab.com",
+    "pages": 5,
+    "state": "unknown",
+    "distinctNames": [],
+    "titles": [],
+    "unnamedRole": null,
+    "implied": null,
+    "twoPlus": false
+  },
+  {
+    "domain": "pipedrive.com",
+    "pages": 2,
+    "state": "unknown",
+    "distinctNames": [],
+    "titles": [],
+    "unnamedRole": null,
+    "implied": null,
+    "twoPlus": false
+  },
+  {
+    "domain": "freshworks.com",
+    "pages": 4,
+    "state": "unknown",
+    "distinctNames": [],
+    "titles": [],
+    "unnamedRole": null,
+    "implied": null,
+    "twoPlus": false
+  },
+  {
+    "domain": "talkdesk.com",
+    "pages": 5,
+    "state": "unknown",
+    "distinctNames": [],
+    "titles": [],
+    "unnamedRole": null,
+    "implied": null,
+    "twoPlus": false
+  },
+  {
+    "domain": "zendesk.com",
+    "pages": 5,
+    "state": "unknown",
+    "distinctNames": [],
+    "titles": [],
+    "unnamedRole": null,
+    "implied": null,
+    "twoPlus": false
+  },
+  {
+    "domain": "datadoghq.com",
+    "pages": 4,
+    "state": "unknown",
+    "distinctNames": [],
+    "titles": [],
+    "unnamedRole": null,
+    "implied": null,
+    "twoPlus": false
+  },
+  {
+    "domain": "aircall.io",
+    "pages": 3,
+    "state": "unknown",
+    "distinctNames": [],
+    "titles": [],
+    "unnamedRole": null,
+    "implied": null,
+    "twoPlus": false
+  },
+  {
+    "domain": "nedap.com",
+    "pages": 1,
+    "state": "unknown",
+    "distinctNames": [],
+    "titles": [],
+    "unnamedRole": null,
+    "implied": null,
+    "twoPlus": false
+  },
+  {
+    "domain": "personio.com",
+    "pages": 0,
+    "state": "unknown",
+    "distinctNames": [],
+    "titles": [],
+    "unnamedRole": null,
+    "implied": null,
+    "twoPlus": false
+  },
+  {
+    "domain": "silverfin.com",
+    "pages": 0,
+    "state": "unknown",
+    "distinctNames": [],
+    "titles": [],
+    "unnamedRole": null,
+    "implied": null,
+    "twoPlus": false
+  },
+  {
+    "domain": "kiflo.com",
+    "pages": 1,
+    "state": "unknown",
+    "distinctNames": [],
+    "titles": [],
+    "unnamedRole": null,
+    "implied": null,
+    "twoPlus": false
+  },
+  {
+    "domain": "impartner.com",
+    "pages": 7,
+    "state": "named_individual",
+    "distinctNames": [
+      {
+        "name": "James Simpson Marketing",
+        "title": "Director Manage partner",
+        "url": "https://www.impartner.com/partner"
+      },
+      {
+        "name": "Newton Digital Transformation",
+        "title": "Lead Impartner: A proven leader in partner",
+        "url": "https://www.impartner.com/partner"
+      },
+      {
+        "name": "Josh Beach",
+        "title": "Head of Engineering LinkedIn Josh Beach joined Impartner",
+        "url": "https://www.impartner.com/about"
+      },
+      {
+        "name": "Bert Young",
+        "title": "Chief Financial Officer Bert Young, the CFO at Impartner",
+        "url": "https://www.impartner.com/about"
+      },
+      {
+        "name": "Curtis Brinkerhoff",
+        "title": "Chief Revenue Officer at Impartner",
+        "url": "https://www.impartner.com/about"
+      },
+      {
+        "name": "Robb Franks",
+        "title": "Vice President of Customer Success at Impartner",
+        "url": "https://www.impartner.com/about"
+      },
+      {
+        "name": "Trevor Burnett",
+        "title": "Vice President of Marketing at Impartner",
+        "url": "https://www.impartner.com/about"
+      }
+    ],
+    "titles": [],
+    "unnamedRole": null,
+    "implied": null,
+    "twoPlus": true
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "recordId": "RECORD_01",
+    "domain": "nedap.com",
+    "truth": "unlabelled",
+    "machineRecommendation": "under_observed"
+  },
+  {
+    "recordId": "RECORD_02",
+    "domain": "parloa.com",
+    "truth": "known_customer",
+    "machineRecommendation": "high_fit"
+  },
+  {
+    "recordId": "RECORD_03",
+    "domain": "kiflo.com",
+    "truth": "hard_negative:category_competitor",
+    "machineRecommendation": "high_fit"
+  },
+  {
+    "recordId": "RECORD_04",
+    "domain": "aircall.io",
+    "truth": "unlabelled",
+    "machineRecommendation": "high_fit"
+  },
+  {
+    "recordId": "RECORD_05",
+    "domain": "cubbit.io",
+    "truth": "known_customer",
+    "machineRecommendation": "not_promoted"
+  },
+  {
+    "recordId": "RECORD_06",
+    "domain": "allbound.com",
+    "truth": "hard_negative:category_competitor",
+    "machineRecommendation": "high_fit"
+  },
+  {
+    "recordId": "RECORD_07",
+    "domain": "bain.com",
+    "truth": "easy_negative",
+    "machineRecommendation": "not_promoted"
+  },
+  {
+    "recordId": "RECORD_08",
+    "domain": "sequoiacap.com",
+    "truth": "easy_negative",
+    "machineRecommendation": "under_observed"
+  },
+  {
+    "recordId": "RECORD_09",
+    "domain": "aikido.dev",
+    "truth": "known_customer",
+    "machineRecommendation": "high_fit"
+  },
+  {
+    "recordId": "RECORD_10",
+    "domain": "axon.com",
+    "truth": "known_customer",
+    "machineRecommendation": "not_promoted"
+  },
+  {
+    "recordId": "RECORD_11",
+    "domain": "coder.com",
+    "truth": "known_customer",
+    "machineRecommendation": "under_observed"
+  },
+  {
+    "recordId": "RECORD_12",
+    "domain": "deloitte.com",
+    "truth": "easy_negative",
+    "machineRecommendation": "not_promoted"
+  },
+  {
+    "recordId": "RECORD_13",
+    "domain": "channeltivity.com",
+    "truth": "hard_negative:category_competitor",
+    "machineRecommendation": "high_fit"
+  },
+  {
+    "recordId": "RECORD_14",
+    "domain": "impartner.com",
+    "truth": "hard_negative:category_competitor",
+    "machineRecommendation": "high_fit"
+  },
+  {
+    "recordId": "RECORD_15",
+    "domain": "personio.com",
+    "truth": "unlabelled",
+    "machineRecommendation": "not_promoted"
+  },
+  {
+    "recordId": "RECORD_16",
+    "domain": "archerirm.com",
+    "truth": "known_customer",
+    "machineRecommendation": "not_promoted"
+  },
+  {
+    "recordId": "RECORD_17",
+    "domain": "partnerstack.com",
+    "truth": "hard_negative:category_competitor",
+    "machineRecommendation": "high_fit"
+  },
+  {
+    "recordId": "RECORD_18",
+    "domain": "silverfin.com",
+    "truth": "unlabelled",
+    "machineRecommendation": "not_promoted"
+  },
+  {
+    "recordId": "RECORD_19",
+    "domain": "zinfi.com",
+    "truth": "hard_negative:category_competitor",
+    "machineRecommendation": "not_promoted"
+  }
+]
