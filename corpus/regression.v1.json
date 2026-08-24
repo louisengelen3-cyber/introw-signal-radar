@@ -1,0 +1,14 @@
+{
+  "purpose": "Regression corpus. Every company here has been inspected in an earlier phase, so it CANNOT support accuracy claims — it exists to detect breakage when detectors change.",
+  "usage": "run on every detector change; compare to the recorded expectation; investigate any change",
+  "categories": {
+    "known_introw_customer": ["parloa.com", "cubbit.io", "aikido.dev", "axon.com", "coder.com", "archerirm.com"],
+    "direct_competitor": ["kiflo.com", "allbound.com", "impartner.com", "partnerstack.com", "channeltivity.com", "zinfi.com"],
+    "partner_tech_vendor": ["magentrix.com", "mindmatrix.net", "ziftsolutions.com", "workspan.com", "crossbeam.com", "kademi.com"],
+    "adjacent_partner_tech": ["partnerize.com", "impact.com", "everflow.io"],
+    "supply_side_marketplace": ["booking.com", "just-eat.co.uk", "deliveroo.co.uk", "bolt.eu", "airbnb.com", "uber.com", "expediapartnercentral.com"],
+    "professional_services": ["bain.com", "sequoiacap.com", "deloitte.com"],
+    "operator_control": ["gitlab.com", "pipedrive.com", "freshworks.com", "talkdesk.com", "zendesk.com", "datadoghq.com"],
+    "unlabelled_seen": ["nedap.com", "aircall.io", "personio.com", "silverfin.com"]
+  }
+}

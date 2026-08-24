@@ -1,0 +1,31 @@
+{
+  "purpose": "FROZEN HOLDOUT. Not one of these domains has been inspected in Phase 0-4 or used to design any rule. Frozen before the category classifier was run against it. Accuracy claims may cite this set and no other.",
+  "rule": "Do not tune against these results. If a rule collapses here, report the collapse; do not repair the rule and re-run.",
+  "frozenAt": "2026-08-24",
+  "companies": [
+    {"domain":"partnero.com","expected":"partner_tech_vendor","basis":"sells partner program software"},
+    {"domain":"getreditus.com","expected":"partner_tech_vendor","basis":"sells B2B SaaS partner/affiliate platform"},
+    {"domain":"firstpromoter.com","expected":"partner_tech_vendor","basis":"sells referral/affiliate program software"},
+    {"domain":"tolt.io","expected":"partner_tech_vendor","basis":"sells affiliate program software for SaaS"},
+    {"domain":"rewardful.com","expected":"partner_tech_vendor","basis":"sells affiliate/referral tracking software"},
+    {"domain":"tapfiliate.com","expected":"partner_tech_vendor","basis":"sells affiliate tracking software"},
+    {"domain":"affise.com","expected":"partner_tech_vendor","basis":"sells partner marketing platform"},
+    {"domain":"elioplus.com","expected":"partner_tech_vendor","basis":"sells PRM for software vendors"},
+
+    {"domain":"teamleader.eu","expected":"likely_target_category","basis":"BE SaaS CRM/work management, runs a real partner channel"},
+    {"domain":"odoo.com","expected":"likely_target_category","basis":"ERP with a very large implementation-partner channel"},
+    {"domain":"mollie.com","expected":"likely_target_category","basis":"payments, runs agency/tech partner programme"},
+    {"domain":"sendcloud.com","expected":"likely_target_category","basis":"shipping SaaS with partner programme"},
+    {"domain":"storyblok.com","expected":"likely_target_category","basis":"CMS with agency partner programme"},
+    {"domain":"chargebee.com","expected":"likely_target_category","basis":"billing SaaS with partner programme"},
+    {"domain":"gorgias.com","expected":"likely_target_category","basis":"support SaaS with agency partners"},
+    {"domain":"lightspeedhq.com","expected":"likely_target_category","basis":"POS with reseller channel"},
+
+    {"domain":"wolt.com","expected":"supply_side_marketplace","basis":"delivery marketplace; partners are restaurants and couriers"},
+    {"domain":"glovoapp.com","expected":"supply_side_marketplace","basis":"delivery marketplace"},
+
+    {"domain":"capgemini.com","expected":"professional_services","basis":"IT consultancy"},
+    {"domain":"devoteam.com","expected":"professional_services","basis":"IT consultancy and reseller/participant"},
+    {"domain":"xebia.com","expected":"professional_services","basis":"IT consultancy and participant in vendor programmes"}
+  ]
+}

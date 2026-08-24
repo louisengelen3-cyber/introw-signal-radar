@@ -1,0 +1,29 @@
+{
+  "purpose": "Adversarial demo coverage (§65). Every one of these is a REAL observation, not a fixture. The set exists so the product can be shown handling each hard case honestly rather than only the flattering ones.",
+  "cases": {
+    "genuine_customer_plain_language": "aikido.dev",
+    "formal_enterprise_programme": "archerirm.com",
+    "direct_introw_competitor": "kiflo.com",
+    "partner_tech_vendor": "magentrix.com",
+    "reseller_or_participant": "devoteam.com",
+    "integration_heavy": "datadoghq.com",
+    "sparse_but_interesting": "leapsome.com",
+    "confirmed_hubspot": "cubbit.io",
+    "supply_side_marketplace": "glovoapp.com",
+    "source_failure": "doordash.com",
+    "conflicting_evidence": "aircall.io",
+    "professional_services": "deloitte.com"
+  },
+  "companies": [
+    {"domain":"aikido.dev","name":"Aikido Security"},
+    {"domain":"archerirm.com","name":"Archer"},
+    {"domain":"kiflo.com","name":"Kiflo"},
+    {"domain":"magentrix.com","name":"Magentrix"},
+    {"domain":"devoteam.com","name":"Devoteam"},
+    {"domain":"datadoghq.com","name":"Datadog"},
+    {"domain":"cubbit.io","name":"Cubbit"},
+    {"domain":"glovoapp.com","name":"Glovo"},
+    {"domain":"doordash.com","name":"DoorDash"},
+    {"domain":"deloitte.com","name":"Deloitte"}
+  ]
+}

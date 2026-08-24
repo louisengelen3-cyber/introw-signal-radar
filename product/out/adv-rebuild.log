@@ -1,0 +1,13 @@
+[1/11] kiflo.com                suppression_candidate cat=direct_introw_competitor claims=10 /10  progs=2 surf=8 tasks=2 2s
+[2/11] aikido.dev               high_fit_evidence    cat=likely_target_category   claims=6  /7   progs=2 surf=4 tasks=1 2s
+[3/11] archerirm.com            research             cat=likely_target_category   claims=6  /6   progs=1 surf=4 tasks=1 2s
+[4/11] magentrix.com            suppression_candidate cat=direct_introw_competitor claims=11 /11  progs=3 surf=7 tasks=1 3s
+[5/11] datadoghq.com            under_observed       cat=likely_target_category   claims=0  /0   progs=1 surf=0 tasks=3 1s
+[6/11] devoteam.com             plausible            cat=likely_target_category   claims=1  /1   progs=0 surf=0 tasks=3 2s
+[7/11] cubbit.io                research             cat=likely_target_category   claims=4  /4   progs=2 surf=2 tasks=1 1s
+[8/11] glovoapp.com             suppression_candidate cat=supply_side_marketplace  claims=0  /0   progs=0 surf=0 tasks=2 2s
+[9/11] doordash.com             under_observed       cat=unknown                  claims=0  /0   progs=0 surf=0 tasks=4 1s
+[10/11] aircall.io               research             cat=likely_target_category   claims=7  /7   progs=3 surf=3 tasks=2 1s
+[11/11] deloitte.com             under_observed       cat=professional_services    claims=0  /0   progs=0 surf=0 tasks=3 3s
+
+wrote 11 dossiers (35 total in index)

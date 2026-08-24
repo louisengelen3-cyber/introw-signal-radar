@@ -115,6 +115,35 @@ export async function assessCompany(domain: string, opts: AssessOptions = {}): P
     ...dns.hosts.filter((h) => h.distinct && !h.nonProd).map((h) => `https://${h.host}/`),
   ])];
 
+  /* ── canonical partner paths, always ───────────────────────────────────
+   * Crawling finds a partner page only if the homepage links to it or Common Crawl has
+   * seen it. Neither held for foleon.com, which publishes a 25,000-character /partners page
+   * and was still reported as under-observed with zero claims — a good prospect vanishing
+   * for a navigation reason. The highest-value page in this whole product is too important
+   * to depend on discovery, so a small fixed set of conventional paths is always checked.
+   * Requests are cached and the list is deliberately short. */
+  if (a.reachable) {
+    const canonical = [
+      '/partners', '/partner', '/partner-program', '/partner-programme', '/partnerships',
+      '/resellers', '/agencies', '/become-a-partner', '/partner-network',
+      '/en/partners', '/nl/partners', '/fr/partenaires', '/de/partner',
+    ];
+    const have = new Set(urlInventory.map((u) => { try { return new URL(u).pathname.replace(/\/$/, ''); } catch { return u; } }));
+    const extra: string[] = [];
+    for (const p of canonical) {
+      if (have.has(p)) continue;
+      const r = await get(origin + p);
+      // A real partner page, not a soft-404 stub: substantial body that mentions partners.
+      if (r.ok && r.body && r.body.length > 2000 && /\bpartner|reseller|partenaire/i.test(mainContent(r.body))) {
+        extra.push(r.finalUrl ?? origin + p);
+      }
+    }
+    if (extra.length) {
+      a.inventory.sources.push('canonical_path');
+      urlInventory = [...new Set([...urlInventory, ...extra])];
+    }
+  }
+
   /* ── targeted locale-aware probing, only when crawling found nothing ───── */
   // Bounded and last-resort: large catalogue sites publish thousands of URLs whose
   // homepage is a country selector and whose sitemap is all products.

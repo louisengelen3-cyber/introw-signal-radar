@@ -1,0 +1,224 @@
+{
+  "domain": "younium.com",
+  "companyName": "Younium",
+  "selfDescription": {
+    "text": "Younium is the subscription management & billing platform for running a scalable B2B subscription business.",
+    "sourceUrl": "https://www.younium.com"
+  },
+  "geography": null,
+  "builtAt": "2026-08-24T07:51:04.667Z",
+  "category": {
+    "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
+    "whyItMayNotMatter": "This is the absence of a disqualifying signal, not positive evidence of fit. Abstract positioning can hide a partner-tech product.",
+    "unknown": "Nothing about programme size, ownership or Introw need follows from category alone.",
+    "suggestedResearch": null,
+    "underObserved": false,
+    "state": "likely_target_category",
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Younium - B2B Subscription management & billing",
+        "url": "https://www.younium.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Younium is the subscription management & billing platform for running a scalable B2B subscription business.",
+        "url": "https://www.younium.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "knownCompetitorList": {
+      "onList": false,
+      "lastReviewed": "2026-08-24"
+    }
+  },
+  "constructs": [
+    {
+      "construct": "commercial_materiality",
+      "state": "weak_proxy",
+      "evidence": [
+        {
+          "id": "o149",
+          "quote": "solution where finance teams already operate. Built-In Co-Sell Opportunities The marketplace acts as a co-sell engine, allowing",
+          "sourceUrl": "https://www.younium.com/partnership",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:51:04.667Z",
+          "strength": "strong_proxy",
+          "proves": "the company describes partners selling or reselling its product",
+          "doesNotProve": "the volume of resale, or that resale revenue is material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "partner-sourced revenue share",
+        "number of active partners"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 1,
+        "independentSources": 1,
+        "observedItems": 4
+      },
+      "whyItMatters": "Partners appear to take part in winning customers or revenue, which is what makes partner operations worth tooling.",
+      "whyItMayNotMatter": "It does not establish how much revenue, how many partners, or whether the motion is active today."
+    },
+    {
+      "construct": "operational_ownership",
+      "state": "direct",
+      "evidence": [
+        {
+          "id": "o150",
+          "quote": "a Partner in Our Ecosystem Join forces with Younium to help B2B SaaS",
+          "sourceUrl": "https://www.younium.com/partner",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:51:04.667Z",
+          "strength": "strong_proxy",
+          "proves": "the company invites organisations to join a programme it runs",
+          "doesNotProve": "that anyone joins, or that the programme is staffed",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "who owns the programme internally",
+        "whether operation is shared with a distributor"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 1,
+        "independentSources": 1,
+        "observedItems": 4
+      },
+      "whyItMatters": "The company appears to run the partner motion itself, so it would be the buyer of tooling rather than a participant in someone else's.",
+      "whyItMayNotMatter": "Operating a programme says nothing about its size; a competitor with an excellent programme scores identically here."
+    },
+    {
+      "construct": "operational_surface",
+      "state": "moderate",
+      "evidence": [
+        {
+          "id": "o151",
+          "quote": "Partner With Younium Earn as You Refer Enjoy a generous revenue share for every qualified lead or customer you bring in. Co-Market and",
+          "sourceUrl": "https://www.younium.com/partner",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:51:04.667Z",
+          "strength": "strong_proxy",
+          "proves": "the company pays partners for commercial outcomes",
+          "doesNotProve": "the size of the payments or how they are calculated",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "volume through each workflow",
+        "what sits behind the partner login"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 1,
+        "independentSources": 1,
+        "observedItems": 4
+      },
+      "whyItMatters": "Visible partner workflows suggest there is machinery that software could reduce the manual cost of.",
+      "whyItMayNotMatter": "A published workflow is not a used workflow, and login-walled machinery is invisible either way."
+    }
+  ],
+  "programmes": [],
+  "partnerDirectory": {
+    "isDirectory": false,
+    "lowerBound": 0,
+    "method": "none",
+    "sampleNames": [],
+    "certificationLanguage": false,
+    "sourceUrl": null,
+    "evidenceQuote": null,
+    "observation": null
+  },
+  "systems": {
+    "crm": {
+      "state": "hubspot_confirmed",
+      "evidence": [
+        {
+          "id": "o155",
+          "quote": "hubspotusercontent",
+          "sourceUrl": "https://younium.com/",
+          "sourceType": "html_artifact",
+          "retrievedAt": "2026-08-24T07:51:04.667Z",
+          "strength": "strong_proxy",
+          "proves": "HubSpot-hosted assets or analytics are in use",
+          "doesNotProve": "which HubSpot products are licensed"
+        }
+      ],
+      "note": "hubspot evidence at strong_proxy (hs_analytics)"
+    },
+    "prm": {
+      "state": "unknown",
+      "vendor": null,
+      "evidence": [],
+      "note": "No fingerprint found. Most vendors serve tenants from the customer's own domain and a login-walled portal leaks nothing, so this is unknown rather than absent."
+    }
+  },
+  "people": {
+    "state": "unknown",
+    "people": [],
+    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+  },
+  "temporal": {
+    "state": "first_observation",
+    "baselineAt": "2026-08-24T07:51:04.667Z",
+    "lastCheckedAt": "2026-08-24T07:51:04.667Z",
+    "changes": [],
+    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+  },
+  "contradictions": [],
+  "researchTasks": [
+    {
+      "question": "Is there partner machinery behind a login that we cannot see?",
+      "whyItBlocks": "Deal registration and pipeline usually sit behind the partner portal, so absence of public evidence is expected rather than informative.",
+      "whereToLook": "Check whether a partner login exists at all; its presence implies machinery we cannot inspect.",
+      "resolves": "operational_surface"
+    }
+  ],
+  "evidenceCoverage": "moderate",
+  "coverageNote": "Public evidence was sufficient to read the partner surfaces that exist.",
+  "sourceHealth": [
+    {
+      "url": "https://younium.com/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.younium.com/product",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.younium.com/compare",
+      "health": "success",
+      "status": 200
+    }
+  ],
+  "commercialSummary": "Younium describes itself as \"Younium is the subscription management & billing platform for running a scalable B2B subscription business\". No partner programme type could be identified from the pages retrieved. Visible partner workflows include partner recruitment, co selling. The company appears to operate the programme itself. Public evidence does not establish partner platform or partner-team size.",
+  "machineInterpretation": {
+    "state": "research",
+    "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
+    "reasons": [
+      "Partner motion is visible but its commercial role is not established."
+    ],
+    "diagnostics": {
+      "observationCount": 4,
+      "distinctClaimCount": 3,
+      "independentSourceCount": 1,
+      "publicationDensity": "moderate",
+      "constructEvidenceCount": 3,
+      "volumeSensitive": false,
+      "unattributableDropped": 0
+    }
+  },
+  "humanReview": null,
+  "provenance": "real_observation"
+}

@@ -1,0 +1,31 @@
+{
+  "purpose": "FROZEN HOLDOUT v3. Validates the dev-designed improvements made after holdout.v2 was spent: services enumeration, supply-side patterns, auth-wall and locale-chrome filtering, soft-404 / bot-challenge health, and CSS denoising. No domain here appears in holdout.v2, the regression corpus, or any Phase 0-4 benchmark.",
+  "rule": "Single shot. Report whatever it says. Do not tune against these results.",
+  "frozenAt": "2026-08-24",
+  "companies": [
+    {"domain":"refersion.com","expected":"partner_tech_vendor","basis":"sells affiliate/partner marketing software"},
+    {"domain":"postaffiliatepro.com","expected":"partner_tech_vendor","basis":"sells affiliate program software"},
+    {"domain":"growsurf.com","expected":"partner_tech_vendor","basis":"sells referral program software"},
+    {"domain":"leaddyno.com","expected":"partner_tech_vendor","basis":"sells affiliate tracking software"},
+    {"domain":"trackdesk.com","expected":"partner_tech_vendor","basis":"sells affiliate management platform"},
+    {"domain":"partnerhub.app","expected":"partner_tech_vendor","basis":"sells partner/referral management"},
+
+    {"domain":"wipro.com","expected":"professional_services","basis":"IT consulting and services"},
+    {"domain":"cognizant.com","expected":"professional_services","basis":"IT consulting and services"},
+    {"domain":"sopra-steria.com","expected":"professional_services","basis":"IT consulting"},
+    {"domain":"valtech.com","expected":"professional_services","basis":"digital agency/consultancy"},
+    {"domain":"nagarro.com","expected":"professional_services","basis":"IT services"},
+
+    {"domain":"doordash.com","expected":"supply_side_marketplace","basis":"delivery marketplace"},
+    {"domain":"thuisbezorgd.nl","expected":"supply_side_marketplace","basis":"NL delivery marketplace"},
+    {"domain":"getyourguide.com","expected":"supply_side_marketplace","basis":"tours marketplace; partners are operators"},
+    {"domain":"treatwell.com","expected":"supply_side_marketplace","basis":"salon booking marketplace"},
+
+    {"domain":"contentful.com","expected":"likely_target_category","basis":"CMS with agency/solution partner programme"},
+    {"domain":"bynder.com","expected":"likely_target_category","basis":"DAM with partner programme"},
+    {"domain":"brevo.com","expected":"likely_target_category","basis":"marketing SaaS with agency partners"},
+    {"domain":"hotjar.com","expected":"likely_target_category","basis":"analytics SaaS"},
+    {"domain":"visma.com","expected":"likely_target_category","basis":"business software with reseller channel"},
+    {"domain":"cegid.com","expected":"likely_target_category","basis":"business software with integrator channel"}
+  ]
+}

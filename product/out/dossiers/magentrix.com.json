@@ -1,0 +1,726 @@
+{
+  "domain": "magentrix.com",
+  "companyName": "Magentrix",
+  "selfDescription": {
+    "text": "Magentrix: best PRM for partner training & channel operations. Partner portal software alternative to Salesforce Experience Cloud (aka Salesforce Communities).",
+    "sourceUrl": "https://www.magentrix.com"
+  },
+  "geography": null,
+  "builtAt": "2026-08-24T07:53:05.359Z",
+  "category": {
+    "whyItMatters": "The company appears on the maintained competitor list AND positions its own product as partner management.",
+    "whyItMayNotMatter": "A partner-tech vendor still runs its own partner programme and could in principle buy tooling. This is a commercial exclusion, not a factual one.",
+    "unknown": "Whether partner management is the whole product or one module of a broader one.",
+    "suggestedResearch": "Confirm from the pricing or product page whether partner management is the product itself.",
+    "underObserved": false,
+    "state": "direct_introw_competitor",
+    "signals": [
+      {
+        "kind": "partner_tech_product",
+        "quote": "Channel Partner Relationship Management (PRM) | Partner Portals",
+        "url": "https://www.magentrix.com",
+        "sourceType": "title_tag",
+        "matched": "Partner Relationship Management"
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "Magentrix: best PRM for partner training & channel operations. Partner portal software alternative to Salesforce Experience Cloud (aka Salesforce Communities).",
+        "url": "https://www.magentrix.com",
+        "sourceType": "meta_description",
+        "matched": "Partner portal software"
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "Magentrix: best PRM for partner training & channel operations. Partner portal software alternative to Salesforce Experience Cloud (aka Salesforce Communities).",
+        "url": "https://www.magentrix.com",
+        "sourceType": "og_description",
+        "matched": "Partner portal software"
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "The Data Foundation for Channel Sales — Channel Partner Relationship Management (PRM) | Partner Portals Partner Management Platform Customer Management Platform For Partner Management Platform: Click Here For Customer Management Platform: Click Here trusted by in-the-moment feedback from customer me",
+        "url": "https://www.magentrix.com",
+        "sourceType": "homepage_hero",
+        "matched": "Partner Management Platform"
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "PRM Pricing — PRM Pricing All PRM & partner portal features included in each tier are listed below. Hover over each line item for more info, or visit the PRM Features page . Prices are listed in USD and are for monthly – please ask us for the annual pricing. Partner Management Customer Management Es",
+        "url": "https://www.magentrix.com/pricing",
+        "sourceType": "pricing_page",
+        "matched": "PRM"
+      }
+    ],
+    "knownCompetitorList": {
+      "onList": true,
+      "lastReviewed": "2026-08-24"
+    }
+  },
+  "constructs": [
+    {
+      "construct": "commercial_materiality",
+      "state": "confirmed",
+      "evidence": [
+        {
+          "id": "o57",
+          "quote": "Certifications 2 Onboarding Complete Top tier Gold Top reseller status Qualification Annual revenue $1M Certifications 5 Onboarding",
+          "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.359Z",
+          "strength": "confirmed",
+          "proves": "the company describes partners selling or reselling its product",
+          "doesNotProve": "the volume of resale, or that resale revenue is material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o58",
+          "quote": "through digital channels (websites, email, content) and earn commission on sales. Most common in SaaS. System integrator (SI) programs:",
+          "sourceUrl": "https://www.magentrix.com/glossary/partner-program",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.359Z",
+          "strength": "confirmed",
+          "proves": "the company pitches partner participation as revenue for the partner",
+          "doesNotProve": "that any partner earns it, or that the company tracks it",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "partner-sourced revenue share",
+        "number of active partners"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 2,
+        "independentSources": 1,
+        "observedItems": 11
+      },
+      "whyItMatters": "Partners appear to take part in winning customers or revenue, which is what makes partner operations worth tooling.",
+      "whyItMayNotMatter": "It does not establish how much revenue, how many partners, or whether the motion is active today."
+    },
+    {
+      "construct": "operational_ownership",
+      "state": "direct",
+      "evidence": [
+        {
+          "id": "o59",
+          "quote": "Salesforce Partner Program: Large ecosystem of consulting partners, ISVs, and resellers built around the Salesforce platform. HubSpot",
+          "sourceUrl": "https://www.magentrix.com/glossary/partner-program",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.359Z",
+          "strength": "strong_proxy",
+          "proves": "the company distinguishes and manages more than one kind of partner",
+          "doesNotProve": "how many partners exist in each type",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o60",
+          "quote": "Tiered structure with significant investment in partner enablement and co-selling. Salesforce Partner Program: Large ecosystem of",
+          "sourceUrl": "https://www.magentrix.com/glossary/partner-program",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.359Z",
+          "strength": "strong_proxy",
+          "proves": "the company supplies partners with resources, enablement or a named contact",
+          "doesNotProve": "that partners use them",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "who owns the programme internally",
+        "whether operation is shared with a distributor"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 2,
+        "independentSources": 1,
+        "observedItems": 11
+      },
+      "whyItMatters": "The company appears to run the partner motion itself, so it would be the buyer of tooling rather than a participant in someone else's.",
+      "whyItMayNotMatter": "Operating a programme says nothing about its size; a competitor with an excellent programme scores identically here."
+    },
+    {
+      "construct": "operational_surface",
+      "state": "rich",
+      "evidence": [
+        {
+          "id": "o61",
+          "quote": "records with configurable currency fields and stages. Lead registration integration Deal-registration criteria measure partner-sourced",
+          "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.359Z",
+          "strength": "strong_proxy",
+          "proves": "partners participate in the sales process through a defined intake",
+          "doesNotProve": "that the company is unhappy with how it handles them today",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o62",
+          "quote": "program? Magentrix provides the complete platform - partner portal, deal registration, training LMS, MDF, gamification, and deep CRM",
+          "sourceUrl": "https://www.magentrix.com/glossary/partner-program",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.359Z",
+          "strength": "strong_proxy",
+          "proves": "a partner-specific operational surface exists",
+          "doesNotProve": "adoption, or that partners log into it",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o63",
+          "quote": "library One repository for every reward – assigned by partner tier Define each benefit once in a centralized library, then set",
+          "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.359Z",
+          "strength": "strong_proxy",
+          "proves": "the company differentiates partners by commitment or performance",
+          "doesNotProve": "how many partners sit in each tier",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o64",
+          "quote": "and Capabilities Partner Self-Registration For easier partner onboarding. Partner Program Tiers Partner classification and benefits by",
+          "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.359Z",
+          "strength": "strong_proxy",
+          "proves": "the company trains or certifies people outside its own staff",
+          "doesNotProve": "that those people transact — customer academies look identical",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o65",
+          "quote": "Three benefit types cover everything from access to margin to marketing funds. Rewards Perks & rewards Binary perks a partner",
+          "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.359Z",
+          "strength": "strong_proxy",
+          "proves": "the company pays partners for commercial outcomes",
+          "doesNotProve": "the size of the payments or how they are calculated",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o66",
+          "quote": "and track your partner marketing funds. Marketplace & Partner Locator Publicly shareable directory of partner product and service",
+          "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.359Z",
+          "strength": "strong_proxy",
+          "proves": "the company publishes named partner organisations",
+          "doesNotProve": "that the listed partners are active",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o67",
+          "quote": "Partner Programs & Partner Tech Insights ✨ Name Business Email Company Role Thanks",
+          "sourceUrl": "https://www.magentrix.com/resources/partner-programs-newsletter",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.359Z",
+          "strength": "strong_proxy",
+          "proves": "the company runs more than one distinct partner track",
+          "doesNotProve": "that they share an owner or a system",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "volume through each workflow",
+        "what sits behind the partner login"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 7,
+        "independentSources": 1,
+        "observedItems": 11
+      },
+      "whyItMatters": "Visible partner workflows suggest there is machinery that software could reduce the manual cost of.",
+      "whyItMayNotMatter": "A published workflow is not a used workflow, and login-walled machinery is invisible either way."
+    }
+  ],
+  "programmes": [
+    {
+      "kind": "reseller",
+      "publishedName": "Partner Program",
+      "evidence": [
+        {
+          "id": "o68",
+          "quote": "Committed Silver First revenue commitment Qualification Annual revenue $500K Certifications 2 Onboarding Complete Top tier Gold Top reseller status Qualification Annual revenue $1M Certifications 5 Onboarding Complete Six ways to measure a partner Qualification criteria that",
+          "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.359Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses reseller partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o69",
+          "quote": "relationship year after year. Common Types of Partner Programs Different partner business models require different program structures: Reseller programs: Partners purchase product at a discount and resell to end customers, often bundled with their own services. Most common in B2B",
+          "sourceUrl": "https://www.magentrix.com/glossary/partner-program",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.359Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses reseller partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o70",
+          "quote": "relationships and revenue routes; supply chain distribution is about physical movement and inventory positioning. Distributor vs. Reseller vs. Dealer These three terms are often used loosely but mean different things in mature channel programs. Distributor - buys in volume",
+          "sourceUrl": "https://www.magentrix.com/glossary/distributor",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.359Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses reseller partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o71",
+          "quote": "Refine the workflow before scaling. Mature programs (200+ partners). Multi-tier MDF with regional budget pools, parallel tracks for reseller / MSSP / technology alliance MDF, integrated pre-approval and proof-of-execution workflows, and ROI tracking tied back to deal",
+          "sourceUrl": "https://www.magentrix.com/glossary/market-development-funds-mdf",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.359Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses reseller partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "surfaces": [
+        {
+          "surface": "application",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o74",
+              "quote": "Here For Customer Management Platform: Click Here Our Partner Program Join the Magentrix partner ecosystem. Apply to partner with Magentrix  Partnering with Magentrix The Magentrix partner ecosystem is built on transparency and",
+              "sourceUrl": "https://www.magentrix.com/partners",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "there is an intake step with a form",
+              "doesNotProve": "that applications are reviewed or that a pipeline exists",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        },
+        {
+          "surface": "onboarding",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o75",
+              "quote": "features + unlimited users Get in touch Features and Capabilities Partner Self-Registration For easier partner onboarding. Partner Program Tiers Partner classification and benefits by assigning tiers with specific rules, access",
+              "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "the company describes a defined start process for new partners",
+              "doesNotProve": "that it is systematised rather than manual",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        },
+        {
+          "surface": "enablement",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o76",
+              "quote": "Partner Network: One of the largest in technology. Tiered structure with significant investment in partner enablement and co-selling. Salesforce Partner Program: Large ecosystem of consulting partners, ISVs, and resellers",
+              "sourceUrl": "https://www.magentrix.com/glossary/partner-program",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "material is produced specifically for partners",
+              "doesNotProve": "that partners consume it",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o77",
+              "quote": "resources (e.g. training a new user can require articles, documents, and courses to be reviewed). For partner training & enablement. Knowledge Base Partners can self-serve if they need support or information. Announcements &",
+              "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "material is produced specifically for partners",
+              "doesNotProve": "that partners consume it",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        },
+        {
+          "surface": "deal_registration",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o78",
+              "quote": "read-only – recalculating progress and advancing tiers stay with your admins. Explore more Related features Deal Registration Capture and protect partner-sourced deals – the same deals that can feed your tier criteria. Explore",
+              "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "the company operates opportunity conflict management with partners",
+              "doesNotProve": "the number of deals registered",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o79",
+              "quote": "Documented rules of engagement, territory definitions, pricing rules, and consequences for violations Deal registration program : The mechanism partners use to claim opportunities and receive exclusivity Training and",
+              "sourceUrl": "https://www.magentrix.com/glossary/partner-program",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "the company operates opportunity conflict management with partners",
+              "doesNotProve": "the number of deals registered",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o80",
+              "quote": "our channel partner management guide . Related For how distributors interact with dealers in multi-party deal registration, see our deal registration glossary . For how tier structures work in distributor programs, see our partner",
+              "sourceUrl": "https://www.magentrix.com/glossary/distributor",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "the company operates opportunity conflict management with partners",
+              "doesNotProve": "the number of deals registered",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o81",
+              "quote": "Training (LMS) Partner Attribution Partner Engagement Pages Cobranding Partner Experience Segmentation AI-Deal Registration Idea Exchange Try for 1 month  We can get you up & running in days (if there are no delays on your side).",
+              "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "the company operates opportunity conflict management with partners",
+              "doesNotProve": "the number of deals registered",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o82",
+              "quote": "proof-of-execution submission, automated routing to AP for reimbursement, and ROI tracking tied to deal registration so MDF spend can be linked to closed revenue. MDF by Program Maturity How MDF should be structured depends",
+              "sourceUrl": "https://www.magentrix.com/glossary/market-development-funds-mdf",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "the company operates opportunity conflict management with partners",
+              "doesNotProve": "the number of deals registered",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        },
+        {
+          "surface": "portal",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o83",
+              "quote": "efficient. Building or restructuring your partner program? Magentrix provides the complete platform - partner portal, deal registration, training LMS, MDF, gamification, and deep CRM integration with Salesforce, Microsoft",
+              "sourceUrl": "https://www.magentrix.com/glossary/partner-program",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "partners have an authenticated destination",
+              "doesNotProve": "what is inside it — the portal is invisible to us by design",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o84",
+              "quote": "with us look like? Support: Access to sales, marketing, and technical resources available through our partner portal. ‍ ‍ Vertical specialization : Create, market, sell and support joint solutions that fit the needs of",
+              "sourceUrl": "https://www.magentrix.com/partners",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "partners have an authenticated destination",
+              "doesNotProve": "what is inside it — the portal is invisible to us by design",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o85",
+              "quote": "others. Each category has its own operational norms, margin structure, and channel program expectations. A partner portal designed for one category does not always serve another well. The Two-Step Distribution Model The standard",
+              "sourceUrl": "https://www.magentrix.com/glossary/distributor",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "partners have an authenticated destination",
+              "doesNotProve": "what is inside it — the portal is invisible to us by design",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o86",
+              "quote": "PRM Pricing All PRM & partner portal features included in each tier are listed below. Hover over each line item for more info, or visit the PRM",
+              "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "partners have an authenticated destination",
+              "doesNotProve": "what is inside it — the portal is invisible to us by design",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o87",
+              "quote": "is partner-sourced pipeline and closed revenue attributable to MDF-funded campaigns. This requires the partner portal to link campaign IDs to deal registrations to closed deals - which most basic PRMs do not support natively.",
+              "sourceUrl": "https://www.magentrix.com/glossary/market-development-funds-mdf",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "partners have an authenticated destination",
+              "doesNotProve": "what is inside it — the portal is invisible to us by design",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        },
+        {
+          "surface": "partner_pipeline",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o88",
+              "quote": "partners. Refine the program based on their feedback before scaling. Measure, optimize, scale: Track partner-sourced revenue, training completion, deal registration rates, and tier progression. Adjust the program quarterly. Partner",
+              "sourceUrl": "https://www.magentrix.com/glossary/partner-program",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "the company speaks about partner-originated pipeline",
+              "doesNotProve": "its size",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o89",
+              "quote": "often offer both depending on partner tier. How do you measure MDF ROI? The most useful MDF ROI metric is partner-sourced pipeline and closed revenue attributable to MDF-funded campaigns. This requires the partner portal to link campaign",
+              "sourceUrl": "https://www.magentrix.com/glossary/market-development-funds-mdf",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "the company speaks about partner-originated pipeline",
+              "doesNotProve": "its size",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        },
+        {
+          "surface": "programme_tiers",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o90",
+              "quote": "scores, or anything unique to your program. Benefit library One repository for every reward – assigned by partner tier Define each benefit once in a centralized library, then set progressive values across tiers. Three benefit",
+              "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "the programme distinguishes partners by level",
+              "doesNotProve": "how many sit in each tier",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o91",
+              "quote": "see our deal registration glossary . For how tier structures work in distributor programs, see our partner tier glossary . For how manufacturers run distributor channel programs in practice, see our manufacturer",
+              "sourceUrl": "https://www.magentrix.com/glossary/distributor",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "the programme distinguishes partners by level",
+              "doesNotProve": "how many sit in each tier",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o92",
+              "quote": "six steps: Allocation. The vendor decides how much MDF each partner can request annually, usually tied to partner tier . Higher tiers get larger budgets. Pre-approval. The partner submits a campaign plan: budget, target",
+              "sourceUrl": "https://www.magentrix.com/glossary/market-development-funds-mdf",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.359Z",
+              "strength": "strong_proxy",
+              "proves": "the programme distinguishes partners by level",
+              "doesNotProve": "how many sit in each tier",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "services",
+      "publishedName": "Partner Program",
+      "evidence": [
+        {
+          "id": "o72",
+          "quote": "Salesforce Partner Program: Large ecosystem of consulting partners, ISVs, and resellers built around the Salesforce platform. HubSpot Solutions Partner Program: Tiered program for agencies that implement HubSpot for their clients. VMware Partner Connect: Multi-track program covering",
+          "sourceUrl": "https://www.magentrix.com/glossary/partner-program",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.359Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses services partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "surfaces": []
+    },
+    {
+      "kind": "distributor",
+      "publishedName": "Partner Program",
+      "evidence": [
+        {
+          "id": "o73",
+          "quote": "What is a Distributor (Channel Distribution)? A distributor is a channel partner that buys products from a manufacturer in volume, stocks inventory, extends",
+          "sourceUrl": "https://www.magentrix.com/glossary/distributor",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.359Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses distributor partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "surfaces": []
+    }
+  ],
+  "partnerDirectory": {
+    "isDirectory": false,
+    "lowerBound": 0,
+    "method": "none",
+    "sampleNames": [],
+    "certificationLanguage": false,
+    "sourceUrl": null,
+    "evidenceQuote": null,
+    "observation": null
+  },
+  "systems": {
+    "crm": {
+      "state": "unknown",
+      "evidence": [],
+      "note": "No CRM artifact found on the retrieved pages. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 33% recall against companies known to run a supported CRM, and Salesforce was never detected at all."
+    },
+    "prm": {
+      "state": "competitor_prm_confirmed",
+      "vendor": "Magentrix",
+      "evidence": [
+        {
+          "id": "o93",
+          "quote": "connect.magentrix.com → wn05.magentrix.com.",
+          "sourceUrl": "dns:connect.magentrix.com",
+          "sourceType": "dns_cname",
+          "retrievedAt": "2026-08-24T07:53:07.916Z",
+          "strength": "confirmed",
+          "proves": "the partner surface at connect.magentrix.com is served by Magentrix",
+          "doesNotProve": "whether the platform is liked, how many partners use it, when the contract renews, or whether the company would consider replacing it"
+        }
+      ],
+      "note": "A competitor PRM is in use. This indicates programme maturity. It does NOT indicate dissatisfaction, contract timing, or any intent to switch."
+    }
+  },
+  "people": {
+    "state": "unknown",
+    "people": [],
+    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+  },
+  "temporal": {
+    "state": "first_observation",
+    "baselineAt": "2026-08-24T07:53:05.359Z",
+    "lastCheckedAt": "2026-08-24T07:53:05.359Z",
+    "changes": [],
+    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+  },
+  "contradictions": [],
+  "researchTasks": [
+    {
+      "question": "Which CRM does the partner team use?",
+      "whyItBlocks": "Introw syncs into HubSpot or Salesforce; the answer is unobservable publicly about two-thirds of the time.",
+      "whereToLook": "Ask on the first call. Public detection is not reliable enough to be worth more effort.",
+      "resolves": "crm"
+    }
+  ],
+  "evidenceCoverage": "rich",
+  "coverageNote": "Public evidence was sufficient to read the partner surfaces that exist.",
+  "sourceHealth": [
+    {
+      "url": "https://magentrix.com/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.magentrix.com/product",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.magentrix.com/products",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.magentrix.com/platform",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.magentrix.com/pricing",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.magentrix.com/compare",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.magentrix.com/alternatives",
+      "health": "not_found",
+      "status": 404
+    }
+  ],
+  "commercialSummary": "Magentrix describes itself as \"Magentrix: best PRM for partner training & channel operations. Partner portal software alternative to Salesforce Experience Cloud (aka Salesforce Communities)\". Its own product positioning is partner management, so its partner content describes what it sells rather than how it goes to market. Public pages describe a reseller, services, distributor motion under the name \"Partner Program\". Visible partner workflows include application, onboarding, enablement, deal registration. The company appears to operate the programme itself. Public evidence does not establish CRM or partner-team size.",
+  "machineInterpretation": {
+    "state": "suppression_candidate",
+    "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
+    "reasons": [
+      "Listed as a known competitor (asserted business data)."
+    ],
+    "diagnostics": {
+      "observationCount": 11,
+      "distinctClaimCount": 11,
+      "independentSourceCount": 1,
+      "publicationDensity": "rich",
+      "constructEvidenceCount": 11,
+      "volumeSensitive": false,
+      "unattributableDropped": 0
+    }
+  },
+  "humanReview": null,
+  "provenance": "real_observation"
+}

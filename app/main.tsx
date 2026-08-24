@@ -1,433 +1,639 @@
-import { StrictMode, useMemo, useState } from 'react';
+import { StrictMode, useCallback, useEffect, useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
-import { FIXTURES, type Fixture } from './fixtures.js';
-import type { Fact, PartnerCount } from '../src/domain/types.js';
+import {
+  DOSSIERS, OUTCOME_HELP, OUTCOME_LABEL, WORKFLOW_LABEL, allReviews, clearReview,
+  getReview, saveReview, workflowState, type ReviewRecord, type WorkflowState,
+} from './data.js';
+import type {
+  ConstructPanel, Contradiction, Dossier, HumanOutcome, Observation, ResearchTask, SurfaceFinding,
+} from '../src/dossier/types.js';
 import './styles.css';
 
-/* ── evidence primitives ─────────────────────────────────────────────────── */
-
-/**
- * The single most important component in the product. Every displayed claim carries
- * its evidence state, and `unknown` is rendered with the same visual weight as a
- * confirmed value rather than as a gap.
+/* ══════════════════════════════════════════════════════ evidence primitives ══
+ * The most important rule in the interface: `unknown` is rendered with the same
+ * visual weight as a confirmed value. It is a result, not a gap, and styling it as
+ * an error would push reviewers toward treating absence as a negative.
  */
-function State({ state }: { state: Fact<unknown>['state'] }) {
-  const label: Record<string, string> = {
-    confirmed: 'Confirmed', strong_proxy: 'Strong proxy', weak_proxy: 'Weak proxy',
-    contradicted: 'Contradicted', unknown: 'Unknown', blocked: 'Not inspected',
-  };
-  return <span className={`st st-${state}`}>{label[state]}</span>;
+
+function StateChip({ value, tone }: { value: string; tone?: 'known' | 'unknown' | 'caution' | 'good' }) {
+  const t = tone ?? (/^unknown$|_unknown$|^none$/.test(value) ? 'unknown' : 'known');
+  return <span className={`chip chip-${t}`}>{humanise(value)}</span>;
 }
 
-function Claim({ label, fact, render }: { label: string; fact: Fact<never>; render?: (v: never) => string }) {
-  const known = fact.value !== null;
-  return (
-    <div className={`claim ${known ? '' : 'claim-unknown'}`}>
-      <div className="claim-l">{label}</div>
-      <div className="claim-v">
-        {known ? (render ? render(fact.value as never) : String(fact.value)) : <span className="dim">Not established</span>}
-      </div>
-      <div className="claim-m">
-        <State state={fact.state} />
-        <span className="claim-method" title={fact.method}>{fact.method}</span>
-      </div>
-    </div>
-  );
+function humanise(s: string): string {
+  return s.replace(/_/g, ' ').replace(/^./, (c) => c.toUpperCase());
 }
 
-/** Count type is part of the value. A lower bound must never render like a census. */
-function Count({ c }: { c: PartnerCount }) {
-  if (c.value === null) {
-    return (
-      <div className="metric metric-unknown">
-        <div className="metric-v dim">Not established</div>
-        <div className="metric-l">Partner network</div>
-        <div className="metric-n">No countable directory found — this is not a claim that the network is small</div>
+/** A quote with its source and, always, what it does not prove. */
+function EvidenceItem({ o }: { o: Observation }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <li className="ev">
+      <blockquote className="ev-q">{o.quote}</blockquote>
+      <div className="ev-meta">
+        <a className="ev-src" href={o.sourceUrl} target="_blank" rel="noreferrer">{shortUrl(o.sourceUrl)}</a>
+        <span className="ev-dot">·</span>
+        <span className="ev-strength">{humanise(o.strength)}</span>
+        {o.duplicateCount && o.duplicateCount > 1 ? (
+          <>
+            <span className="ev-dot">·</span>
+            <span className="ev-dup" title="The same claim appeared this many times. Repetition is not extra evidence.">
+              seen {o.duplicateCount}×
+            </span>
+          </>
+        ) : null}
+        <button className="ev-toggle" onClick={() => setOpen((v) => !v)} aria-expanded={open}>
+          {open ? 'Hide' : 'What this proves'}
+        </button>
       </div>
-    );
-  }
-  const prefix = c.countType === 'approximate' ? '' : c.countType === 'lower_bound' ? '≥' : '';
-  const note: Record<string, string> = {
-    exact_public: 'stated by the company',
-    directory_count: 'enumerated from the public directory — a lower bound on the real network',
-    lower_bound: 'partial enumeration; pagination was not exhausted',
-    approximate: 'published as an approximate figure',
-    unknown: '',
-  };
-  return (
-    <div className="metric">
-      <div className="metric-v">{prefix}{c.value.toLocaleString('en-GB')}{c.countType === 'approximate' ? '+' : ''}</div>
-      <div className="metric-l">{c.unit ?? 'partners'}</div>
-      <div className="metric-n">{note[c.countType]}</div>
-    </div>
-  );
-}
-
-/* ── card ────────────────────────────────────────────────────────────────── */
-
-const DIRECTION_LABEL: Record<string, string> = {
-  channel_operator: 'Runs the programme',
-  channel_participant: "Joins another vendor's programme",
-  distributed_vendor: 'Distributed — operator unresolved',
-  both: 'Runs one and joins others',
-  unknown: 'Direction unknown',
-};
-const DIRECTION_TONE: Record<string, string> = {
-  channel_operator: 'confirmed', channel_participant: 'contradicted',
-  distributed_vendor: 'strong_proxy', both: 'strong_proxy', unknown: 'unknown',
-};
-const FIT_LABEL: Record<string, string> = {
-  strong: 'Strong fit', plausible: 'Plausible fit', weak: 'Weak fit',
-  incompatible: 'Not an Introw account', unknown: 'Not established',
-  research_required: 'Research required',
-};
-
-const PROMOTION_LABEL: Record<string, string> = {
-  high_fit: 'High fit', plausible: 'Plausible', under_observed: 'Under-observed',
-  not_promoted: 'Not promoted',
-};
-
-const COMMERCIALITY_LABEL: Record<string, string> = {
-  transacting: 'Transacting channel', mixed: 'Transacting + integration',
-  integration_only: 'Integration ecosystem only', affiliate_only: 'Affiliate motion only',
-  strategic_only: 'Strategic alliances only', unknown: 'Channel not established',
-};
-
-function AccountCard({ a, onOpen }: { a: Fixture; onOpen: () => void }) {
-  const q = a.qualification;
-  const suppressed = q.suppressed !== null;
-  const people = a.organisation.people;
-  const primary = people.find((p) => p.persona.startsWith('t1')) ?? people[0];
-  const load = a.operationalLoad;
-
-  return (
-    <article className={`card ${suppressed ? 'card-suppressed' : ''}`}>
-      <header className="card-h">
-        <div>
-          <h3>{a.identity.canonicalName}</h3>
-          <p className="card-sub">{a.identity.industry} · {a.identity.country}</p>
+      {open && (
+        <div className="ev-claims">
+          <div><span className="ev-lab">Proves</span>{o.proves}</div>
+          <div><span className="ev-lab ev-lab-neg">Does not prove</span>{o.doesNotProve}</div>
+          <div><span className="ev-lab">Retrieved</span>{fmtDate(o.retrievedAt)}</div>
         </div>
-        <div className="card-badges">
-          {suppressed
-            ? <span className="badge badge-block">Suppressed</span>
-            : q.timing === 'strong'
-              ? <span className="badge badge-priority">Timing</span>
-              : q.researchState === 'research_needed'
-                ? <span className="badge badge-research">Research</span>
-                : <span className="badge badge-watch">Watchlist</span>}
+      )}
+    </li>
+  );
+}
+
+function shortUrl(u: string): string {
+  try { const x = new URL(u); return x.hostname.replace(/^www\./, '') + (x.pathname === '/' ? '' : x.pathname); }
+  catch { return u; }
+}
+
+function fmtDate(iso: string): string {
+  try { return new Date(iso).toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' }); }
+  catch { return iso; }
+}
+
+/* ═══════════════════════════════════════════════════════════════════ panels ══ */
+
+function ConstructCard({ c }: { c: ConstructPanel }) {
+  const known = c.state !== 'unknown';
+  // The why-blocks are identical for every company. Reviewers read them once and skipped
+  // them thereafter, so they collapse by default: available, not in the way.
+  const [why, setWhy] = useState(false);
+  return (
+    <section className="panel">
+      <header className="panel-h">
+        <h3>{humanise(c.construct)}</h3>
+        <StateChip value={c.state} tone={known ? 'known' : 'unknown'} />
+      </header>
+      <button className="why-toggle" onClick={() => setWhy((v) => !v)} aria-expanded={why}>
+        {why ? 'Hide' : 'How to read this state'}
+      </button>
+      {why && (
+        <div className="why">
+          <div><span className="why-lab">Why it may matter</span>{c.whyItMatters}</div>
+          <div><span className="why-lab why-lab-neg">Why it may not</span>{c.whyItMayNotMatter}</div>
+        </div>
+      )}
+      {c.evidence.length > 0 && (
+        <ul className="ev-list">{c.evidence.map((o) => <EvidenceItem key={o.id} o={o} />)}</ul>
+      )}
+      {c.counterEvidence.length > 0 && (
+        <>
+          <div className="sub-lab">Counter-evidence</div>
+          <ul className="ev-list">{c.counterEvidence.map((o) => <EvidenceItem key={o.id} o={o} />)}</ul>
+        </>
+      )}
+      <div className="unknowns">
+        <span className="why-lab">Unknown</span>
+        {c.unknown.join(' · ')}
+      </div>
+      <div className="srcq" title="Distinct claims after deduplication, and how many independent hosts they came from. Repetition is not evidence.">
+        {c.sourceQuality.distinctClaims} distinct {c.sourceQuality.distinctClaims === 1 ? 'claim' : 'claims'}
+        {' · '}{c.sourceQuality.independentSources} independent {c.sourceQuality.independentSources === 1 ? 'source' : 'sources'}
+      </div>
+    </section>
+  );
+}
+
+function SurfaceGrid({ surfaces }: { surfaces: SurfaceFinding[] }) {
+  if (!surfaces.length) return null;
+  const mark = (s: SurfaceFinding['state']) => (s === 'confirmed' ? '✓' : s === 'not_observed' ? '–' : '?');
+  const help: Record<SurfaceFinding['state'], string> = {
+    confirmed: 'Seen on a retrieved page.',
+    not_observed: 'We read surfaces where this would normally appear and did not see it. This is NOT evidence that it does not exist.',
+    unknown: 'We could not read the relevant surfaces.',
+  };
+  return (
+    <div className="surf-grid">
+      {surfaces.map((s) => (
+        <div key={s.surface} className={`surf surf-${s.state}`} title={help[s.state]}>
+          <span className="surf-mark">{mark(s.state)}</span>
+          <span className="surf-name">{humanise(s.surface)}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function ContradictionCard({ c }: { c: Contradiction }) {
+  return (
+    <div className="contra">
+      <div className="contra-top">{c.topic}</div>
+      <div className="contra-side"><span className="contra-lab">A</span>{c.positionA.claim}</div>
+      <div className="contra-side"><span className="contra-lab">B</span>{c.positionB.claim}</div>
+      <div className="contra-eff">{c.effect}</div>
+    </div>
+  );
+}
+
+function ResearchList({ tasks }: { tasks: ResearchTask[] }) {
+  if (!tasks.length) return <p className="dim">No blocking question identified.</p>;
+  return (
+    <ol className="tasks">
+      {tasks.map((t, i) => (
+        <li key={i}>
+          <div className="task-q">{t.question}</div>
+          <div className="task-w"><span className="why-lab">Why it blocks</span>{t.whyItBlocks}</div>
+          <div className="task-w"><span className="why-lab">Where to look</span>{t.whereToLook}</div>
+        </li>
+      ))}
+    </ol>
+  );
+}
+
+/* ══════════════════════════════════════════════════════════════ review bar ══ */
+
+const OUTCOMES: HumanOutcome[] = ['promote', 'research', 'watch', 'reject', 'suppress'];
+const KEYS: Record<string, HumanOutcome> = { p: 'promote', r: 'research', w: 'watch', x: 'reject', s: 'suppress' };
+
+function ReviewBar({ d, onDone, openedAt }: { d: Dossier; onDone: () => void; openedAt: number }) {
+  const existing = getReview(d.domain);
+  const [outcome, setOutcome] = useState<HumanOutcome | null>(existing?.outcome ?? null);
+  const [confidence, setConfidence] = useState<'low' | 'medium' | 'high'>(existing?.confidence ?? 'medium');
+  const [rationale, setRationale] = useState(existing?.rationale ?? '');
+
+  const commit = useCallback((o: HumanOutcome) => {
+    saveReview({
+      domain: d.domain, outcome: o, confidence, rationale: rationale.trim() || null,
+      reviewedAt: new Date().toISOString(), reviewer: 'local',
+      decisionSeconds: Math.round((Date.now() - openedAt) / 1000),
+    });
+    onDone();
+  }, [d.domain, confidence, rationale, onDone, openedAt]);
+
+  // Keyboard-efficient review: the whole point is decisions per minute.
+  useEffect(() => {
+    const h = (e: KeyboardEvent) => {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      const el = e.target as HTMLElement;
+      if (el && (el.tagName === 'TEXTAREA' || el.tagName === 'INPUT')) return;
+      const o = KEYS[e.key.toLowerCase()];
+      if (o) { e.preventDefault(); setOutcome(o); commit(o); }
+    };
+    window.addEventListener('keydown', h);
+    return () => window.removeEventListener('keydown', h);
+  }, [commit]);
+
+  return (
+    <div className="reviewbar">
+      <div className="rb-row">
+        <span className="rb-lab">Decision</span>
+        <div className="rb-btns">
+          {OUTCOMES.map((o) => (
+            <button
+              key={o}
+              className={`rb-btn rb-${o} ${outcome === o ? 'is-on' : ''}`}
+              title={`${OUTCOME_HELP[o]}  (${Object.entries(KEYS).find(([, v]) => v === o)?.[0].toUpperCase()})`}
+              onClick={() => { setOutcome(o); commit(o); }}
+            >
+              {OUTCOME_LABEL[o]}
+              <kbd>{Object.entries(KEYS).find(([, v]) => v === o)?.[0].toUpperCase()}</kbd>
+            </button>
+          ))}
+        </div>
+      </div>
+      <div className="rb-row">
+        <span className="rb-lab">Confidence</span>
+        <div className="rb-btns">
+          {(['low', 'medium', 'high'] as const).map((c) => (
+            <button key={c} className={`rb-conf ${confidence === c ? 'is-on' : ''}`} onClick={() => setConfidence(c)}>{humanise(c)}</button>
+          ))}
+        </div>
+        {existing && <button className="rb-clear" onClick={() => { clearReview(d.domain); onDone(); }}>Clear decision</button>}
+      </div>
+      <textarea
+        className="rb-note" placeholder="Rationale (optional) — what decided it?"
+        value={rationale} onChange={(e) => setRationale(e.target.value)}
+      />
+    </div>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════════ dossier ══ */
+
+function DossierView({ d, onBack, onReviewed }: { d: Dossier; onBack: () => void; onReviewed: () => void }) {
+  const [openedAt] = useState(() => Date.now());
+  const review = getReview(d.domain);
+  const mi = d.machineInterpretation;
+  const diag = mi.diagnostics;
+
+  return (
+    <article className="dossier">
+      <button className="back" onClick={onBack}>← All accounts</button>
+
+      <header className="dh">
+        <div className="dh-main">
+          <h1>{d.companyName ?? d.domain}</h1>
+          <a className="dh-dom" href={`https://${d.domain}`} target="_blank" rel="noreferrer">{d.domain}</a>
+        </div>
+        <div className="dh-meta">
+          <StateChip value={WORKFLOW_LABEL[workflowState(d, review)]} tone={review ? 'good' : 'known'} />
+          <span className="dh-checked">Last checked {fmtDate(d.builtAt)}</span>
+          {d.provenance !== 'real_observation' && <span className="chip chip-caution">{humanise(d.provenance)}</span>}
         </div>
       </header>
 
-      <div className="card-body">
-        {/* Channel reality and Introw suitability are separate questions and are shown
-            separately. Collapsing them is the SAP error: a real channel that is the
-            wrong operating model. */}
-        <section className="blk">
-          <h4>Channel</h4>
-          <p className={`blk-lead ${q.commerciality === 'unknown' ? 'dim' : ''}`}>
-            {COMMERCIALITY_LABEL[q.commerciality]}
-          </p>
-          <p className="note">
-            <span className={`st st-${DIRECTION_TONE[q.channelDirection]}`}>{DIRECTION_LABEL[q.channelDirection]}</span>
-          </p>
-        </section>
+      <section className="summary">
+        <div className="sum-lab">Commercial summary</div>
+        <p>{d.commercialSummary}</p>
+        <div className="sum-note">Assembled only from clauses backed by collected evidence. Every factual statement above appears as a quote below.</div>
+      </section>
 
-        {/* Phase 3: the three positive constructs, shown separately and never summed. */}
-        {a.positiveFit && (
-          <section className="blk">
-            <h4>Positive fit</h4>
-            <p className={`fit fit-${a.positiveFit.promotion}`}>{PROMOTION_LABEL[a.positiveFit.promotion]}</p>
-            <div className="constructs">
-              <div><span className="ck">Materiality</span><span className="cv">{a.positiveFit.materiality.replace(/_/g, ' ')}</span></div>
-              <div><span className="ck">Ownership</span><span className="cv">{a.positiveFit.ownership.replace(/_/g, ' ')}</span></div>
-              <div><span className="ck">Surface</span><span className="cv">{a.positiveFit.surface}</span></div>
-              <div><span className="ck">Evidence</span><span className="cv">{a.positiveFit.density} publication</span></div>
-            </div>
-            {a.positiveFit.support.length > 0 && (
-              <ul className="ev ev-pos">{a.positiveFit.support.map((q) => <li key={q}>{q}</li>)}</ul>
-            )}
-            {a.positiveFit.missRisk && <p className="note miss">{a.positiveFit.missRisk}</p>}
-          </section>
-        )}
+      <section className={`machine machine-${mi.state}`}>
+        <div className="mc-top">
+          <span className="mc-lab">Machine interpretation</span>
+          <StateChip value={mi.state} tone={mi.state === 'suppression_candidate' ? 'caution' : mi.state === 'under_observed' ? 'unknown' : 'known'} />
+        </div>
+        <ul className="mc-reasons">{mi.reasons.map((r, i) => <li key={i}>{r}</li>)}</ul>
+        <div className="mc-disc">{mi.disclaimer}</div>
+        <div className="mc-diag" title="Kept visible so evidence volume cannot quietly drive the interpretation.">
+          {diag.observationCount} observations → <strong>{diag.distinctClaimCount} distinct</strong> from {diag.independentSourceCount} independent {diag.independentSourceCount === 1 ? 'source' : 'sources'}
+          {' · '}coverage {diag.publicationDensity}
+          {diag.unattributableDropped > 0 && <span className="mc-drop" title="Observations discarded because the quote could not be attributed to the partner motion — product marketing that merely contained a matching word.">{' · '}{diag.unattributableDropped} unattributable dropped</span>}
+          {diag.volumeSensitive && <span className="mc-warn">volume-sensitive: much of this evidence is repetition</span>}
+        </div>
+      </section>
 
-        <section className="blk">
-          <h4>Introw suitability</h4>
-          <p className={`fit fit-${q.suitability}`}>{FIT_LABEL[q.suitability]}</p>
-          {a.suitability?.rationale && <p className="note">{a.suitability.rationale}</p>}
-          {(a.suitability?.negativeEvidence.length ?? 0) > 0 && (
-            <ul className="ev ev-neg">{a.suitability!.negativeEvidence.map((e) => <li key={e.claim}>{e.claim}</li>)}</ul>
+      {review && (
+        <div className="prior-review">
+          Human decision: <strong>{OUTCOME_LABEL[review.outcome]}</strong> ({review.confidence} confidence, {fmtDate(review.reviewedAt)})
+          {review.rationale ? <> — “{review.rationale}”</> : null}
+          <span className="dim"> · recorded separately from the machine interpretation above</span>
+        </div>
+      )}
+
+      <div className="grid2">
+        <section className="panel">
+          <header className="panel-h"><h3>Category</h3><StateChip value={d.category.state} tone={d.category.state === 'likely_target_category' ? 'good' : d.category.state === 'unknown' ? 'unknown' : 'caution'} /></header>
+          <div className="why">
+            <div><span className="why-lab">Why it may matter</span>{d.category.whyItMatters}</div>
+            <div><span className="why-lab why-lab-neg">Why it may not</span>{d.category.whyItMayNotMatter}</div>
+            <div><span className="why-lab">Unknown</span>{d.category.unknown}</div>
+          </div>
+          {d.category.signals.length > 0 && (
+            <ul className="ev-list">
+              {d.category.signals.slice(0, 2).map((s, i) => (
+                <li key={i} className="ev">
+                  <blockquote className="ev-q">{s.quote}</blockquote>
+                  <div className="ev-meta">
+                    <a className="ev-src" href={s.url} target="_blank" rel="noreferrer">{shortUrl(s.url)}</a>
+                    <span className="ev-dot">·</span><span className="ev-strength">{humanise(s.sourceType)}</span>
+                  </div>
+                </li>
+              ))}
+            </ul>
           )}
-          {(a.suitability?.positiveEvidence.length ?? 0) > 0 && (
-            <ul className="ev ev-pos">{a.suitability!.positiveEvidence.map((e) => <li key={e.claim}>{e.claim}</li>)}</ul>
-          )}
-        </section>
-
-        {/* Programme */}
-        <section className="blk">
-          <h4>Programme</h4>
-          {a.program.motions.value && (
-            <p className="motions">{a.program.motions.value.map((m) => <span key={m} className="chip">{m.replace(/_/g, ' ')}</span>)}</p>
-          )}
-          <Count c={a.program.partnerCount} />
-        </section>
-
-        {/* Environment — unknown is the majority state and must not read as a defect */}
-        <section className="blk">
-          <h4>Environment</h4>
-          <div className="env">
-            <div>
-              <span className="env-k">CRM</span>
-              {a.environment.crm.value
-                ? <span className="env-v">{a.environment.crm.value === 'hubspot' ? 'HubSpot' : 'Salesforce'} <State state={a.environment.crm.state} /></span>
-                : <span className="env-v dim">Not established <State state="unknown" /></span>}
-            </div>
-            <div>
-              <span className="env-k">Platform</span>
-              {a.environment.prm.value
-                ? <span className="env-v">{a.environment.prm.value} <State state={a.environment.prm.state} /></span>
-                : <span className="env-v dim">No fingerprint found <State state="unknown" /></span>}
-            </div>
+          <div className="listdata">
+            <span className="why-lab">Known-competitor list</span>
+            {d.category.knownCompetitorList.onList ? 'Listed' : 'Not listed'}
+            <span className="dim"> · asserted business data, maintained {fmtDate(d.category.knownCompetitorList.lastReviewed)}. Reported beside the inference above, never merged into it.</span>
           </div>
         </section>
 
-        {/* Organisation — never an empty headcount box */}
-        <section className="blk">
-          <h4>Organisation</h4>
-          {primary ? (
-            <p className="person">
-              <strong>{primary.name ?? 'Unnamed'}</strong> · {primary.rawTitle}
-              {primary.roleCurrency === 'current_verified'
-                ? <span className="st st-confirmed">Role verified</span>
-                : <span className="st st-unknown">Role currency unknown</span>}
-            </p>
-          ) : (
-            <p className="dim">No partner owner identified. Company-owned pages do not normally name this role.</p>
-          )}
-          <p className="team dim">
-            Team size: {a.organisation.teamSize !== null
-              ? <>{a.organisation.teamSize} <span className="st st-strong_proxy">{a.organisation.teamSizeState.replace(/_/g, ' ')}</span></>
-              : 'unknown'}
-          </p>
+        <section className="panel">
+          <header className="panel-h"><h3>Systems</h3></header>
+          <div className="kv">
+            <div className="kv-k">CRM</div>
+            <div className="kv-v"><StateChip value={d.systems.crm.state} /></div>
+            <div className="kv-n">{d.systems.crm.note}</div>
+          </div>
+          <div className="kv">
+            <div className="kv-k">Partner platform</div>
+            <div className="kv-v"><StateChip value={d.systems.prm.state} />{d.systems.prm.vendor ? <span className="kv-vendor">{d.systems.prm.vendor}</span> : null}</div>
+            <div className="kv-n">{d.systems.prm.note}</div>
+          </div>
+          {d.systems.prm.evidence.length > 0 && <ul className="ev-list">{d.systems.prm.evidence.map((o) => <EvidenceItem key={o.id} o={o} />)}</ul>}
+          <div className="kv">
+            <div className="kv-k">People</div>
+            <div className="kv-v"><StateChip value={d.people.state} /></div>
+            <div className="kv-n">{d.people.note}</div>
+          </div>
         </section>
-
-        {/* Operational load appears only when both inputs are reliable */}
-        {load.availability === 'available' ? (
-          <section className="blk">
-            <h4>Operational load</h4>
-            <p className="blk-lead">{load.ratio}× <span className="dim">partners per operator</span></p>
-            <p className="note">Derived. Both inputs independently verified.</p>
-          </section>
-        ) : null}
-
-        {/* Why now — only ever from a dated change */}
-        {a.signals.length === 0 && (
-          <section className="blk">
-            <h4>Why now</h4>
-            <p className="note dim">No verified recent trigger. Temporal baseline started 23 Aug 2026 —
-              change claims require a second dated observation.</p>
-          </section>
-        )}
-        {a.signals.length > 0 && (
-          <section className="blk">
-            <h4>Why now</h4>
-            {a.signals.map((s) => (
-              <div key={s.id}>
-                <p className="blk-lead">{s.headline}</p>
-                <p className="note">
-                  {String(s.previousValue)} → {String(s.currentValue)} ·
-                  {s.effectiveAt ? ` changed ${s.effectiveAt}` : ' change date unknown'} ·
-                  first observed {s.firstSeenAt.slice(0, 10)}
-                </p>
-              </div>
-            ))}
-          </section>
-        )}
-
-        {a.relationships.length > 0 && (
-          <section className="blk">
-            <h4>Distribution</h4>
-            <p className="note">
-              Carried by {a.relationships.map((r) => r.targetCompany).join(', ')} — counterparty evidence
-              that the channel is at least partly distribution-mediated.
-            </p>
-          </section>
-        )}
-
-        {a.conflictNote && (
-          <section className="blk blk-warn">
-            <h4>Conflicting evidence</h4>
-            <p className="note">{a.conflictNote}</p>
-          </section>
-        )}
-
-        {suppressed && (
-          <section className="blk blk-block">
-            <h4>Suppressed from cold outbound</h4>
-            <p className="note">{q.suppressed!.reason}</p>
-          </section>
-        )}
-
-        {a.research.length > 0 && (
-          <section className="blk blk-research">
-            <h4>Research · {a.research.length}</h4>
-            {a.research.map((r) => (
-              <p key={r.id} className="note"><strong>{r.missingField.replace(/_/g, ' ')}</strong> — {r.reason}</p>
-            ))}
-          </section>
-        )}
       </div>
 
-      <footer className="card-f">
-        <span className="fixture-note" title={a.proves}>{a.archetype}</span>
-        <button type="button" onClick={onOpen}>Evidence →</button>
-      </footer>
+      <h2 className="sect">Constructs</h2>
+      <div className="grid3">{d.constructs.map((c) => <ConstructCard key={c.construct} c={c} />)}</div>
+
+      {d.partnerDirectory.isDirectory && (
+        <>
+          <h2 className="sect">Partner directory</h2>
+          <section className="panel">
+            <header className="panel-h">
+              <h3>At least {d.partnerDirectory.lowerBound} partner organisations listed</h3>
+              {d.partnerDirectory.certificationLanguage && <StateChip value="described as certified" tone="good" />}
+            </header>
+            <div className="kv-n">
+              A lower bound, not a count — directories are usually filtered views, and this proves the
+              relationships are published, not that they transact.
+            </div>
+            {d.partnerDirectory.sampleNames.length > 0 && (
+              <div className="dirnames">
+                {d.partnerDirectory.sampleNames.map((n) => <span key={n} className="dirname">{n}</span>)}
+                {d.partnerDirectory.lowerBound > d.partnerDirectory.sampleNames.length && (
+                  <span className="dirname dirname-more">+{d.partnerDirectory.lowerBound - d.partnerDirectory.sampleNames.length} more</span>
+                )}
+              </div>
+            )}
+            {d.partnerDirectory.observation && <ul className="ev-list"><EvidenceItem o={d.partnerDirectory.observation} /></ul>}
+          </section>
+        </>
+      )}
+
+      <h2 className="sect">Programmes</h2>
+      {d.programmes.length === 0 ? (
+        <p className="dim">No programme type was identified from the pages retrieved. This is not evidence that none exists.</p>
+      ) : (
+        <div className="progs">
+          {d.programmes.map((p) => (
+            <section className="panel" key={p.kind}>
+              <header className="panel-h">
+                <h3>{humanise(p.kind)}{p.publishedName ? <span className="prog-name">“{p.publishedName}”</span> : null}</h3>
+              </header>
+              {p.surfaces.length > 0 && <SurfaceGrid surfaces={p.surfaces} />}
+              <ul className="ev-list">{p.evidence.slice(0, 3).map((o) => <EvidenceItem key={o.id} o={o} />)}</ul>
+            </section>
+          ))}
+        </div>
+      )}
+
+      {d.contradictions.length > 0 && (
+        <>
+          <h2 className="sect">Contradictions</h2>
+          <div className="contras">{d.contradictions.map((c, i) => <ContradictionCard key={i} c={c} />)}</div>
+        </>
+      )}
+
+      <h2 className="sect">What to verify next</h2>
+      <ResearchList tasks={d.researchTasks} />
+
+      {d.temporal.state !== 'first_observation' && (
+        <>
+          <h2 className="sect">Timeline</h2>
+          <div className="panel">
+            <header className="panel-h"><h3>Temporal</h3><StateChip value={d.temporal.state} tone={d.temporal.state === 'verified_change' ? 'good' : 'unknown'} /></header>
+            <div className="kv-n">{d.temporal.note}</div>
+            {d.temporal.baselineAt && <div className="srcq">Baseline {fmtDate(d.temporal.baselineAt)} · last checked {fmtDate(d.temporal.lastCheckedAt ?? d.temporal.baselineAt)}</div>}
+          </div>
+        </>
+      )}
+
+      <h2 className="sect">Your decision</h2>
+      <ReviewBar d={d} onDone={onReviewed} openedAt={openedAt} />
     </article>
   );
 }
 
-/* ── evidence drawer ─────────────────────────────────────────────────────── */
+/* ══════════════════════════════════════════════════════════════════ views ══ */
 
-function Drawer({ a, onClose }: { a: Fixture; onClose: () => void }) {
-  const facts: [string, Fact<never>][] = [
-    ['Commerciality', a.program.commerciality as Fact<never>],
-    ['Partner motions', a.program.motions as unknown as Fact<never>],
-    ['Partner portal', a.program.portal as Fact<never>],
-    ['Deal registration', a.program.dealRegistration as Fact<never>],
-    ['CRM', a.environment.crm as Fact<never>],
-    ['Partner platform', a.environment.prm as Fact<never>],
-  ];
+type Nav = 'overview' | 'accounts' | 'review' | 'watching' | 'changes' | 'health';
+
+function Overview({ dossiers, reviews, go }: { dossiers: Dossier[]; reviews: Record<string, ReviewRecord>; go: (n: Nav) => void }) {
+  const counts = useMemo(() => {
+    const c: Record<WorkflowState, number> = { ready_for_review: 0, research_needed: 0, under_observed: 0, reviewed: 0, watching: 0, suppressed: 0 };
+    for (const d of dossiers) c[workflowState(d, reviews[d.domain] ?? null)]++;
+    return c;
+  }, [dossiers, reviews]);
+
+  const sourceIssues = dossiers.filter((d) => d.sourceHealth.some((h) => h.health === 'blocked' || h.health === 'timeout' || h.health === 'parse_error')).length;
+  const changes = dossiers.filter((d) => d.temporal.state === 'verified_change').length;
+
   return (
-    <div className="drawer-wrap" role="dialog" aria-label={`Evidence for ${a.identity.canonicalName}`}>
-      <button type="button" className="scrim" onClick={onClose} aria-label="Close" />
-      <div className="drawer">
-        <header className="drawer-h">
-          <div>
-            <h2>{a.identity.canonicalName}</h2>
-            <p className="dim">{a.archetype}</p>
-          </div>
-          <button type="button" onClick={onClose} aria-label="Close">✕</button>
-        </header>
-
-        <section>
-          <h4>What this fixture proves</h4>
-          <p className="note">{a.proves}</p>
-        </section>
-
-        <section>
-          <h4>Facts and what established them</h4>
-          {facts.map(([label, f]) => (
-            <Claim key={label} label={label} fact={f} render={(v) => Array.isArray(v) ? (v as string[]).join(', ') : String(v)} />
-          ))}
-        </section>
-
-        <section>
-          <h4>Partner count</h4>
-          <Count c={a.program.partnerCount} />
-        </section>
-
-        <section>
-          <h4>Operational load</h4>
-          {a.operationalLoad.availability === 'available'
-            ? <p>{a.operationalLoad.ratio}× — {a.operationalLoad.numerator} / {a.operationalLoad.denominator}</p>
-            : <p className="dim">Not calculated. {a.operationalLoad.unavailableReason}</p>}
-          <p className="note">A derived metric inherits the weakest confidence of its inputs, so it is withheld rather than approximated.</p>
-        </section>
-
-        <section>
-          <h4>Introw suitability — {FIT_LABEL[a.qualification.suitability]}</h4>
-          <p className="note">{a.suitability?.rationale ?? 'Not established.'}</p>
-          {a.suitability?.rule && <p className="note dim">rule: <code>{a.suitability.rule}</code></p>}
-          {(a.suitability?.unknowns.length ?? 0) > 0 && (
-            <p className="note">Unknown: {a.suitability!.unknowns.join(' · ')}</p>
-          )}
-        </section>
-
-        <section>
-          <h4>Qualification</h4>
-          <dl className="qual">
-            {Object.entries(a.qualification).filter(([, v]) => typeof v === 'string').map(([k, v]) => (
-              <div key={k}><dt>{k.replace(/([A-Z])/g, ' $1').toLowerCase()}</dt><dd>{String(v).replace(/_/g, ' ')}</dd></div>
-            ))}
-          </dl>
-        </section>
-
-        {a.research.length > 0 && (
-          <section>
-            <h4>Research tasks</h4>
-            {a.research.map((r) => (
-              <div key={r.id} className="task">
-                <p><strong>{r.missingField.replace(/_/g, ' ')}</strong> <span className={`st st-${r.priority === 'high' ? 'weak_proxy' : 'unknown'}`}>{r.priority}</span></p>
-                <p className="note">{r.reason}</p>
-                <p className="note"><em>How:</em> {r.suggestedMethod}</p>
-              </div>
-            ))}
-          </section>
-        )}
+    <div>
+      <h1 className="page-h">Overview</h1>
+      <p className="page-sub">System state. These are counts of work, not predictions of revenue.</p>
+      <div className="stats">
+        {(Object.keys(counts) as WorkflowState[]).map((k) => (
+          <button key={k} className="stat" onClick={() => go(k === 'watching' ? 'watching' : 'accounts')}>
+            <span className="stat-n">{counts[k]}</span>
+            <span className="stat-l">{WORKFLOW_LABEL[k]}</span>
+          </button>
+        ))}
+        <button className="stat" onClick={() => go('changes')}>
+          <span className="stat-n">{changes}</span><span className="stat-l">Verified changes</span>
+        </button>
+        <button className="stat" onClick={() => go('health')}>
+          <span className="stat-n">{sourceIssues}</span><span className="stat-l">Accounts with source issues</span>
+        </button>
+      </div>
+      <div className="notice">
+        This product does not rank accounts. The evidence supports compressing research, not ordering prospects —
+        an earlier scoring model promoted competitors above genuine targets, so ordered output was removed rather than repaired.
       </div>
     </div>
   );
 }
 
-/* ── app ─────────────────────────────────────────────────────────────────── */
-
-type Filter = 'all' | 'actionable' | 'research' | 'suppressed';
-
-function App() {
-  const [filter, setFilter] = useState<Filter>('all');
-  const [open, setOpen] = useState<string | null>(null);
-
-  const shown = useMemo(() => FIXTURES.filter((a) => {
-    if (filter === 'all') return true;
-    if (filter === 'suppressed') return a.suppression.suppressed;
-    if (filter === 'research') return !a.suppression.suppressed && (a.qualification.researchState === 'research_needed' || a.qualification.suitability === 'research_required');
-    return !a.suppression.suppressed && ['strong', 'plausible'].includes(a.qualification.suitability);
-  }), [filter]);
-
-  const counts = useMemo(() => ({
-    channel: FIXTURES.filter((a) => a.qualification.channelReality === 'confirmed' && !a.qualification.suppressed).length,
-    operator: FIXTURES.filter((a) => a.qualification.channelDirection === 'channel_operator' || a.qualification.channelDirection === 'both').length,
-    fitKnown: FIXTURES.filter((a) => ['strong', 'plausible', 'weak', 'incompatible'].includes(a.qualification.suitability)).length,
-    crmUnknown: FIXTURES.filter((a) => a.environment.crm.value === null).length,
-    teamUnknown: FIXTURES.filter((a) => a.organisation.teamSizeState === 'unknown').length,
-    loadAvailable: FIXTURES.filter((a) => a.operationalLoad.availability === 'available').length,
-  }), []);
-
-  const active = open ? FIXTURES.find((f) => f.identity.id === open) ?? null : null;
+function AccountsTable({ dossiers, reviews, onOpen, filter }: {
+  dossiers: Dossier[]; reviews: Record<string, ReviewRecord>; onOpen: (d: Dossier) => void; filter?: (d: Dossier, r: ReviewRecord | null) => boolean;
+}) {
+  const [q, setQ] = useState('');
+  const rows = dossiers
+    .filter((d) => (filter ? filter(d, reviews[d.domain] ?? null) : true))
+    .filter((d) => !q || (d.companyName ?? d.domain).toLowerCase().includes(q.toLowerCase()) || d.domain.includes(q.toLowerCase()));
 
   return (
-    <div className="app">
-      <header className="top">
-        <span className="wordmark">introw</span>
-        <nav><span className="on">Radar</span><span>Accounts</span><span>Signals</span><span>Watchlist</span><span>Research</span></nav>
-      </header>
+    <>
+      <input className="search" placeholder="Filter by name or domain…" value={q} onChange={(e) => setQ(e.target.value)} />
+      <div className="tw">
+        <table>
+          <thead>
+            <tr>
+              <th>Company</th><th>Category</th><th>Partner motion</th><th>Ownership</th>
+              <th>Surface</th><th>Directory</th><th>Evidence</th><th>CRM</th><th>Platform</th><th>State</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((d) => {
+              const r = reviews[d.domain] ?? null;
+              const own = d.constructs.find((c) => c.construct === 'operational_ownership');
+              const surf = d.constructs.find((c) => c.construct === 'operational_surface');
+              const motions = [...new Set(d.programmes.map((p) => p.kind))].slice(0, 2).map(humanise).join(', ');
+              return (
+                <tr key={d.domain} onClick={() => onOpen(d)} tabIndex={0}
+                    onKeyDown={(e) => { if (e.key === 'Enter') onOpen(d); }}>
+                  <td className="c-name"><strong>{d.companyName ?? d.domain}</strong><span className="c-dom">{d.domain}</span></td>
+                  <td><StateChip value={d.category.state} tone={d.category.state === 'likely_target_category' ? 'good' : d.category.state === 'unknown' ? 'unknown' : 'caution'} /></td>
+                  <td>{motions || <span className="dim">Not identified</span>}</td>
+                  <td><StateChip value={own?.state ?? 'unknown'} /></td>
+                  <td><StateChip value={surf?.state ?? 'unknown'} /></td>
+                  <td>{d.partnerDirectory.isDirectory
+                    ? <span className="dircount" title="Lower bound on partner organisations publicly listed. Not a partner count.">≥{d.partnerDirectory.lowerBound}</span>
+                    : <StateChip value="unknown" tone="unknown" />}</td>
+                  <td><StateChip value={d.evidenceCoverage} tone={d.evidenceCoverage === 'none' || d.evidenceCoverage === 'sparse' ? 'unknown' : 'known'} /></td>
+                  <td><StateChip value={d.systems.crm.state} /></td>
+                  <td><StateChip value={d.systems.prm.state} /></td>
+                  <td><StateChip value={WORKFLOW_LABEL[workflowState(d, r)]} tone={r ? 'good' : 'known'} /></td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+        {rows.length === 0 && <p className="dim empty">Nothing here.</p>}
+      </div>
+    </>
+  );
+}
 
-      <main>
-        <h1>Signal Radar</h1>
-        <p className="lede">Fixture-driven UX contract. Every account below exists to prove the model can be
-          rendered honestly in one specific state — most of them incomplete, because Phase 0 measured that the
-          modal account is partly empty.</p>
+function DataHealth({ dossiers }: { dossiers: Dossier[] }) {
+  const tally: Record<string, number> = {};
+  let total = 0;
+  for (const d of dossiers) for (const h of d.sourceHealth) { tally[h.health] = (tally[h.health] ?? 0) + 1; total++; }
+  const blocked = dossiers.filter((d) => d.sourceHealth.every((h) => h.health !== 'success'));
+  const sparse = dossiers.filter((d) => d.evidenceCoverage === 'sparse' || d.evidenceCoverage === 'none');
 
-        <div className="stats">
-          <div><b>{counts.channel}</b><span>channel confirmed</span></div>
-          <div><b>{counts.operator}</b><span>confirmed operators</span></div>
-          <div><b>{counts.fitKnown}/{FIXTURES.length}</b><span>suitability established</span></div>
-          <div><b>{counts.crmUnknown}/{FIXTURES.length}</b><span>CRM unknown</span></div>
-          <div><b>{counts.teamUnknown}/{FIXTURES.length}</b><span>team size unknown</span></div>
-          <div><b>{counts.loadAvailable}/{FIXTURES.length}</b><span>operational load computable</span></div>
+  return (
+    <div>
+      <h1 className="page-h">Data health</h1>
+      <p className="page-sub">This product is only as trustworthy as its retrieval. A technical failure is never commercial evidence.</p>
+      <div className="stats">
+        {Object.entries(tally).sort((a, b) => b[1] - a[1]).map(([k, v]) => (
+          <div key={k} className="stat stat-static">
+            <span className="stat-n">{v}</span>
+            <span className="stat-l">{humanise(k)}</span>
+            <span className="stat-p">{Math.round((v / Math.max(1, total)) * 100)}% of fetches</span>
+          </div>
+        ))}
+      </div>
+      <h2 className="sect">Accounts with no readable identity surface</h2>
+      {blocked.length === 0 ? <p className="dim">None.</p> : (
+        <ul className="plainlist">
+          {blocked.map((d) => <li key={d.domain}><strong>{d.companyName ?? d.domain}</strong> — {d.sourceHealth.map((h) => h.health).join(', ')}. Category is unknown for this account, which is a retrieval limit, not a finding about the company.</li>)}
+        </ul>
+      )}
+      <h2 className="sect">Sparse accounts</h2>
+      <p className="dim">Sparse means the company publishes little. It is not a fit signal, and these accounts are not deprioritised.</p>
+      <ul className="plainlist">{sparse.map((d) => <li key={d.domain}>{d.companyName ?? d.domain}</li>)}</ul>
+      <h2 className="sect">Known measurement limits</h2>
+      <ul className="plainlist">
+        <li><strong>CRM detection: 33% recall</strong> against companies that provably run a supported CRM. Salesforce was never detected. Absence is always unknown.</li>
+        <li><strong>Public person evidence: 2 of 18 companies.</strong> Not viable for contact resolution; architecture leaves room for a licensed provider.</li>
+        <li><strong>Category classifier: 57% recall on partner-tech vendors</strong>, with no genuine target ever wrongly excluded across two frozen holdouts. Advisory only — roughly two in five vendors still reach you unflagged.</li>
+        <li><strong>Temporal: baseline only.</strong> Change detection has a measured 0% false-positive floor but needs elapsed calendar time before it can report anything.</li>
+      </ul>
+    </div>
+  );
+}
+
+function Changes({ dossiers }: { dossiers: Dossier[] }) {
+  const withChange = dossiers.filter((d) => d.temporal.changes.length > 0);
+  return (
+    <div>
+      <h1 className="page-h">Changes</h1>
+      <p className="page-sub">Only verified changes appear here. A first observation is never a change, and no timing claim is made without a second dated observation.</p>
+      {withChange.length === 0 ? (
+        <div className="notice">
+          No verified changes yet. Every account is at its first observation, so there is nothing to compare against.
+          This will stay empty until enough calendar time has passed — showing anything else here would be fabrication.
         </div>
+      ) : (
+        <ul className="plainlist">
+          {withChange.map((d) => d.temporal.changes.map((c, i) => (
+            <li key={d.domain + i}>
+              <strong>{d.companyName ?? d.domain}</strong> — {c.what}: {c.previousState} → {c.newState}
+              <div className="dim">Observed between {fmtDate(c.observedBetween[0])} and {fmtDate(c.observedBetween[1])} · {c.commercialInterpretation}</div>
+            </li>
+          )))}
+        </ul>
+      )}
+    </div>
+  );
+}
 
-        <div className="filters">
-          {(['all', 'actionable', 'research', 'suppressed'] as Filter[]).map((f) => (
-            <button key={f} type="button" className={filter === f ? 'on' : ''} onClick={() => setFilter(f)}>{f}</button>
-          ))}
-        </div>
+/* ═══════════════════════════════════════════════════════════════════ shell ══ */
 
-        <div className="grid">
-          {shown.map((a) => <AccountCard key={a.identity.id} a={a} onOpen={() => setOpen(a.identity.id)} />)}
+const NAV: { id: Nav; label: string; job: string }[] = [
+  { id: 'overview', label: 'Overview', job: 'System state at a glance' },
+  { id: 'accounts', label: 'Accounts', job: 'Every researched company' },
+  { id: 'review', label: 'Review', job: 'Decide on what is ready' },
+  { id: 'watching', label: 'Watching', job: 'Interesting, no reason to act yet' },
+  { id: 'changes', label: 'Changes', job: 'Verified change only' },
+  { id: 'health', label: 'Data health', job: 'Retrieval and coverage' },
+];
+
+function App() {
+  const [nav, setNav] = useState<Nav>('overview');
+  const [open, setOpen] = useState<Dossier | null>(null);
+  const [tick, setTick] = useState(0);
+  const reviews = useMemo(() => allReviews(), [tick]);
+  const refresh = () => setTick((t) => t + 1);
+
+  if (DOSSIERS.length === 0) {
+    return (
+      <div className="shell">
+        <main className="main">
+          <h1 className="page-h">No dossiers</h1>
+          <p className="page-sub">
+            Run <code>npx tsx product/build-dossiers.ts product/validation-sample.v1.json</code> to collect real evidence.
+            This build deliberately ships no sample companies — demo fiction must never reach a product surface.
+          </p>
+        </main>
+      </div>
+    );
+  }
+
+  return (
+    <div className="shell">
+      <aside className="nav">
+        <div className="brand">
+          <span className="brand-n">Introw</span>
+          <span className="brand-s">Partner intelligence for faster commercial research</span>
         </div>
+        {NAV.map((n) => (
+          <button key={n.id} className={`nav-i ${nav === n.id && !open ? 'is-on' : ''}`} onClick={() => { setNav(n.id); setOpen(null); }}>
+            <span className="nav-l">{n.label}</span>
+            <span className="nav-j">{n.job}</span>
+          </button>
+        ))}
+        <div className="nav-foot">
+          Evidence assistant. No ranking, no scores.<br />
+          Every claim carries its source.
+        </div>
+      </aside>
+
+      <main className="main">
+        {open ? (
+          <DossierView d={open} onBack={() => setOpen(null)} onReviewed={refresh} />
+        ) : nav === 'overview' ? (
+          <Overview dossiers={DOSSIERS} reviews={reviews} go={setNav} />
+        ) : nav === 'accounts' ? (
+          <>
+            <h1 className="page-h">Accounts</h1>
+            <p className="page-sub">{DOSSIERS.length} researched. Sorted alphabetically — deliberately not by any measure of quality.</p>
+            <AccountsTable dossiers={[...DOSSIERS].sort((a, b) => (a.companyName ?? a.domain).localeCompare(b.companyName ?? b.domain))} reviews={reviews} onOpen={setOpen} />
+          </>
+        ) : nav === 'review' ? (
+          <>
+            <h1 className="page-h">Review</h1>
+            <p className="page-sub">Undecided accounts. Open one, read the evidence, decide. Keys: P promote · R research · W watch · X reject · S suppress.</p>
+            <AccountsTable dossiers={DOSSIERS} reviews={reviews} onOpen={setOpen} filter={(_d, r) => !r} />
+          </>
+        ) : nav === 'watching' ? (
+          <>
+            <h1 className="page-h">Watching</h1>
+            <p className="page-sub">Fit may be interesting, but no verified timing reason exists. Snapshots continue; you will only be told about a real change.</p>
+            <AccountsTable dossiers={DOSSIERS} reviews={reviews} onOpen={setOpen} filter={(_d, r) => r?.outcome === 'watch'} />
+          </>
+        ) : nav === 'changes' ? (
+          <Changes dossiers={DOSSIERS} />
+        ) : (
+          <DataHealth dossiers={DOSSIERS} />
+        )}
       </main>
-
-      {active && <Drawer a={active} onClose={() => setOpen(null)} />}
     </div>
   );
 }

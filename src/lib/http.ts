@@ -78,13 +78,74 @@ export async function get(url: string, opts: { timeout?: number; force?: boolean
 }
 
 export function stripTags(html: string): string {
-  return html
+  return denoise(decodeEntities(html
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
     .replace(/<style[\s\S]*?<\/style>/gi, ' ')
     .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&#39;|&apos;/g, "'")
+    .replace(/\s+/g, ' ')
+    .trim()));
+}
+
+/**
+ * Decode HTML entities.
+ *
+ * A quote is the product's unit of trust, and `you&#x27;re live` in a dossier reads as a
+ * bug in front of a customer. Numeric and hex forms both appear in real markup, so both are
+ * handled rather than the handful of named entities that were covered before.
+ */
+export function decodeEntities(s: string): string {
+  return s
+    .replace(/&nbsp;|&#160;|&#xa0;/gi, ' ')
+    .replace(/&amp;|&#38;/gi, '&')
+    .replace(/&lt;|&#60;/gi, '<')
+    .replace(/&gt;|&#62;/gi, '>')
+    .replace(/&quot;|&#34;/gi, '"')
+    .replace(/&#0?39;|&apos;|&#x27;|&rsquo;|&lsquo;/gi, "'")
+    .replace(/&ldquo;|&rdquo;|&#8220;|&#8221;/gi, '"')
+    .replace(/&ndash;|&#8211;/gi, '–').replace(/&mdash;|&#8212;/gi, '—')
+    .replace(/&hellip;|&#8230;/gi, '…')
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => safeChar(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (_, d) => safeChar(Number(d)));
+}
+
+function safeChar(code: number): string {
+  return Number.isFinite(code) && code > 0 && code <= 0x10ffff ? String.fromCodePoint(code) : ' ';
+}
+
+/**
+ * Trim a snippet to whole words.
+ *
+ * Context windows cut at a character offset, which produced quotes like "ses and Demo
+ * Environment so you can be fully armed when you resell…". A quote that starts mid-word
+ * looks like a broken scraper regardless of how good the evidence behind it is.
+ */
+export function snapToWords(text: string, opts: { leadingEllipsis?: boolean } = {}): string {
+  let t = text.replace(/\s+/g, ' ').trim();
+  const cutStart = /^\S/.test(t) && opts.leadingEllipsis !== false;
+  if (cutStart) t = t.replace(/^\S+\s+/, '');
+  t = t.replace(/\s+\S*$/, '');
+  return t.trim();
+}
+
+/**
+ * Remove stylesheet and script text that survived tag stripping.
+ *
+ * Tag-based removal assumes well-formed HTML, and real sites are not. Accenture's homepage
+ * put `.sr-only, .herotext { position: absolute; ... }` into the extracted hero text, which
+ * is the kind of debris that quietly matches a detector pattern and produces an
+ * unexplainable classification. Anything shaped like a CSS rule or a bare declaration is
+ * dropped: no commercial sentence looks like this.
+ */
+export function denoise(text: string): string {
+  return text
+    // `selector { prop: value; ... }` — with or without the leading selector
+    .replace(/(?:[.#]?[\w-]+\s*,\s*)*[.#]?[\w-]+\s*\{[^{}]{0,600}\}/g, ' ')
+    .replace(/\{[^{}]{0,600}\}/g, ' ')
+    // stray declarations left over from a truncated rule
+    .replace(/\b(?:position|display|margin|padding|overflow|clip|width|height|font-size|line-height|z-index|border|background|color|transform|opacity)\s*:\s*[^;]{1,60};/gi, ' ')
+    // literal escape sequences that leaked from JSON or entity-encoded markup
+    .replace(/\\r\\n|\\n|\\t/g, ' ')
+    .replace(/&lt;\/?[a-z][^&]{0,20}&gt;/gi, ' ')
     .replace(/\s+/g, ' ')
     .trim();
 }

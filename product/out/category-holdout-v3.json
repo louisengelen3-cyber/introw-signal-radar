@@ -1,0 +1,696 @@
+[
+  {
+    "domain": "growsurf.com",
+    "expected": "partner_tech_vendor",
+    "basis": "sells referral program software",
+    "got": "likely_target_category",
+    "ok": false,
+    "items": 4,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "GrowSurf: Referral Software for Marketing & Product Teams",
+        "url": "https://growsurf.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Turn customers, users, and partners into a measurable growth channel. GrowSurf helps B2C and product-led companies launch referral and affiliate programs without building the full system in-house. — GrowSurf: Referral Software for Marketing & Product Teams New Native iOS & Android SDKs For Marketing",
+        "url": "https://growsurf.com",
+        "sourceType": "homepage_hero",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "growsurf.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "success",
+      "success"
+    ]
+  },
+  {
+    "domain": "partnerhub.app",
+    "expected": "partner_tech_vendor",
+    "basis": "sells partner/referral management",
+    "got": "partner_tech_vendor",
+    "ok": true,
+    "items": 6,
+    "signals": [
+      {
+        "kind": "partner_tech_product",
+        "quote": "Partners, and the tools you need to leverage them. — Partners, and the tools you need to leverage them. You wouldn't buy a farm that didn't come with the dirt to farm... Why would you buy a PRM that didn't include partners? Partnerhub® is the place where digital agencies and tech solutions find one ",
+        "url": "https://www.partnerhub.app",
+        "sourceType": "homepage_hero",
+        "matched": "PRM"
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "Partners, and the tools you need to leverage them. — Partners, and the tools you need to leverage them. You wouldn't buy a farm that didn't come with the dirt to farm... Why would you buy a PRM that didn't include partners? Partnerhub® is the place where digital agencies and tech solutions find one ",
+        "url": "https://www.partnerhub.app/product",
+        "sourceType": "product_page",
+        "matched": "PRM"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "partnerhub.app",
+      "onList": false,
+      "classifierSaysPartnerTech": true,
+      "agreement": "classifier_only"
+    },
+    "health": [
+      "success",
+      "success",
+      "success"
+    ]
+  },
+  {
+    "domain": "refersion.com",
+    "expected": "partner_tech_vendor",
+    "basis": "sells affiliate/partner marketing software",
+    "got": "likely_target_category",
+    "ok": false,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Refersion | First-Party Affiliate Tracking for eCommerce Brands",
+        "url": "https://www.refersion.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Refersion provides the easiest affiliate tracking and payments solution for brands merchants scaling their affiliate marketing campaigns.",
+        "url": "https://www.refersion.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "refersion.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "success",
+      "not_found",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "trackdesk.com",
+    "expected": "partner_tech_vendor",
+    "basis": "sells affiliate management platform",
+    "got": "likely_target_category",
+    "ok": false,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Trackdesk: Best Affiliate Tracking Software (100% Reliability)",
+        "url": "https://trackdesk.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Trackdesk is the most reliable affiliate tracking software on the market. Unlimited clicks, transparent revenue-based pricing, and performance you can scale.",
+        "url": "https://trackdesk.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "trackdesk.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "success",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "sopra-steria.com",
+    "expected": "professional_services",
+    "basis": "IT consulting",
+    "got": "unknown",
+    "ok": false,
+    "items": 0,
+    "signals": [],
+    "listVsClassifier": {
+      "domain": "sopra-steria.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "unknown"
+    ]
+  },
+  {
+    "domain": "postaffiliatepro.com",
+    "expected": "partner_tech_vendor",
+    "basis": "sells affiliate program software",
+    "got": "likely_target_category",
+    "ok": false,
+    "items": 6,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Post Affiliate Pro",
+        "url": "https://www.postaffiliatepro.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Manage affiliate programs, track affiliate partner performance, assign commissions and issue payouts on one platform with an affiliate software platform.",
+        "url": "https://www.postaffiliatepro.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "postaffiliatepro.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "success",
+      "not_found",
+      "success"
+    ]
+  },
+  {
+    "domain": "leaddyno.com",
+    "expected": "partner_tech_vendor",
+    "basis": "sells affiliate tracking software",
+    "got": "partner_tech_vendor",
+    "ok": true,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "partner_tech_product",
+        "quote": "Launch and grow your affiliate program with our powerful, all-in-one affiliate marketing software. Enjoy unlimited clicks, conversions, and commission plans!",
+        "url": "https://www.leaddyno.com",
+        "sourceType": "meta_description",
+        "matched": "affiliate marketing software"
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "Launch and grow your affiliate program with our powerful, all-in-one affiliate marketing software. Enjoy unlimited clicks, conversions, and commission plans!",
+        "url": "https://www.leaddyno.com",
+        "sourceType": "og_description",
+        "matched": "affiliate marketing software"
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "The Leading Affiliate Marketing Software to Grow Your Brand — GetApp Category Leader Learn More arrow icon Make it Your Own Enhance the effectiveness of your affiliate program by aligning it completely with your brand. Incorporate your logo, brand colors, and custom domain to establish a consistent ",
+        "url": "https://www.leaddyno.com",
+        "sourceType": "homepage_hero",
+        "matched": "Affiliate Marketing Software"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "leaddyno.com",
+      "onList": false,
+      "classifierSaysPartnerTech": true,
+      "agreement": "classifier_only"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "success",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "doordash.com",
+    "expected": "supply_side_marketplace",
+    "basis": "delivery marketplace",
+    "got": "unknown",
+    "ok": false,
+    "items": 0,
+    "signals": [],
+    "listVsClassifier": {
+      "domain": "doordash.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "blocked"
+    ]
+  },
+  {
+    "domain": "thuisbezorgd.nl",
+    "expected": "supply_side_marketplace",
+    "basis": "NL delivery marketplace",
+    "got": "unknown",
+    "ok": false,
+    "items": 0,
+    "signals": [],
+    "listVsClassifier": {
+      "domain": "thuisbezorgd.nl",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "blocked"
+    ]
+  },
+  {
+    "domain": "getyourguide.com",
+    "expected": "supply_side_marketplace",
+    "basis": "tours marketplace; partners are operators",
+    "got": "unknown",
+    "ok": false,
+    "items": 0,
+    "signals": [],
+    "listVsClassifier": {
+      "domain": "getyourguide.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "blocked"
+    ]
+  },
+  {
+    "domain": "cognizant.com",
+    "expected": "professional_services",
+    "basis": "IT consulting and services",
+    "got": "likely_target_category",
+    "ok": false,
+    "items": 4,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "AI Builders Bridging the Gap from AI to Impact | Cognizant Belgium",
+        "url": "https://www.cognizant.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Anticipate trends. Drive meaningful change. Outthink your competition. That’s the power of intuition—and we can engineer it. Learn more.",
+        "url": "https://www.cognizant.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "cognizant.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found",
+      "success",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "contentful.com",
+    "expected": "likely_target_category",
+    "basis": "CMS with agency/solution partner programme",
+    "got": "unknown",
+    "ok": false,
+    "items": 0,
+    "signals": [],
+    "listVsClassifier": {
+      "domain": "contentful.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "blocked"
+    ]
+  },
+  {
+    "domain": "valtech.com",
+    "expected": "professional_services",
+    "basis": "digital agency/consultancy",
+    "got": "likely_target_category",
+    "ok": false,
+    "items": 4,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "The experience innovation company",
+        "url": "https://www.valtech.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "At Valtech, we offer solutions designed to achieve the exceptional, helping our clients leap beyond sameness and maximize their full potential.",
+        "url": "https://www.valtech.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "valtech.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "nagarro.com",
+    "expected": "professional_services",
+    "basis": "IT services",
+    "got": "likely_target_category",
+    "ok": false,
+    "items": 4,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Engineering Intelligence for Enterprise AI | Nagarro",
+        "url": "https://www.nagarro.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Nagarro engineers intelligence into products, platforms, and enterprises with AI, data, cloud, and digital engineering—turning AI into measurable business value at enterprise scale.",
+        "url": "https://www.nagarro.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "nagarro.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "treatwell.com",
+    "expected": "supply_side_marketplace",
+    "basis": "salon booking marketplace",
+    "got": "likely_target_category",
+    "ok": false,
+    "items": 1,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Treatwell — Treatwell Treatwell The brighter way to book beauty België · Belgique Deutschland España France Greece Ireland Italia Lietuva Nederland Österreich Portugal Schweiz United Kingdom Jobs",
+        "url": "https://www.treatwell.com",
+        "sourceType": "homepage_hero",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "treatwell.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "blocked",
+      "blocked",
+      "blocked",
+      "blocked",
+      "blocked",
+      "blocked"
+    ]
+  },
+  {
+    "domain": "wipro.com",
+    "expected": "professional_services",
+    "basis": "IT consulting and services",
+    "got": "likely_target_category",
+    "ok": false,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Wipro | Consulting-Led and AI-Powered Technology Services & Consulting Company",
+        "url": "https://www.wipro.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "As a global leader, Wipro blends consulting and AI expertise across design, engineering and operations to accelerate business transformation and deliver future-ready technology.",
+        "url": "https://www.wipro.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "wipro.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found",
+      "success",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "hotjar.com",
+    "expected": "likely_target_category",
+    "basis": "analytics SaaS",
+    "got": "likely_target_category",
+    "ok": true,
+    "items": 6,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Contentsquare + Hotjar | powering better digital experiences",
+        "url": "https://contentsquare.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Contentsquare, the global leader in digital experience analytics, has joined forces with Hotjar, the leading product experience insights platform in the midsize and SMB market.",
+        "url": "https://contentsquare.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "hotjar.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "success",
+      "success"
+    ]
+  },
+  {
+    "domain": "bynder.com",
+    "expected": "likely_target_category",
+    "basis": "DAM with partner programme",
+    "got": "likely_target_category",
+    "ok": true,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Bynder - The most intuitive enterprise DAM platform",
+        "url": "https://www.bynder.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Create, manage, and distribute content at scale with the world's most interconnected digital asset management platform.",
+        "url": "https://www.bynder.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "bynder.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "success",
+      "not_found",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "cegid.com",
+    "expected": "likely_target_category",
+    "basis": "business software with integrator channel",
+    "got": "likely_target_category",
+    "ok": true,
+    "items": 6,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Cegid Invoice & Financing - Suivi de trésorerie pour TPE/PME",
+        "url": "https://www.cegid.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Cegid Invoice & Financing permet aux entrepreneurs et dirigeants de TPE de développer leur activité avec une trésorerie et une facturation simplifiées",
+        "url": "https://www.cegid.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "cegid.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "success",
+      "success"
+    ]
+  },
+  {
+    "domain": "brevo.com",
+    "expected": "likely_target_category",
+    "basis": "marketing SaaS with agency partners",
+    "got": "likely_target_category",
+    "ok": true,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Brevo: Email & SMS Marketing, CRM & Automation Platform",
+        "url": "https://www.brevo.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Brevo is the most intuitive all-in-one customer engagement platform: email and SMS marketing, automation, CRM, live chat, and transactional email. Try it free.",
+        "url": "https://www.brevo.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "brevo.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "success",
+      "not_found",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "visma.com",
+    "expected": "likely_target_category",
+    "basis": "business software with reseller channel",
+    "got": "likely_target_category",
+    "ok": true,
+    "items": 4,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Visma | We own and shape business software companies into market leaders.",
+        "url": "https://www.visma.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Our mission-critical software companies operate close to their customers – in their language, under their laws.",
+        "url": "https://www.visma.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "visma.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found"
+    ]
+  }
+]

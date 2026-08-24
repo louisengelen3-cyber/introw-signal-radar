@@ -1,0 +1,200 @@
+{
+  "domain": "glovoapp.com",
+  "companyName": "Glovo",
+  "selfDescription": {
+    "text": "Glovo is the food delivery site that will get you anything you want to your doorstep. You order online, you&#x27;ll have it!",
+    "sourceUrl": "https://glovoapp.com"
+  },
+  "geography": null,
+  "builtAt": "2026-08-24T07:53:07.918Z",
+  "category": {
+    "whyItMatters": "The company's \"partners\" appear to be supply — restaurants, drivers, hosts, properties — rather than a route to market for its own product.",
+    "whyItMayNotMatter": "Large marketplaces sometimes also run genuine software reseller or agency programmes alongside supply acquisition.",
+    "unknown": "Whether a separate commercial channel programme exists.",
+    "suggestedResearch": "Check whether any partner surface addresses resellers or agencies rather than supply.",
+    "underObserved": false,
+    "state": "supply_side_marketplace",
+    "signals": [
+      {
+        "kind": "supply_side_product",
+        "quote": "Glovo is the food delivery site that will get you anything you want to your doorstep. You order online, you&#x27;ll have it!",
+        "url": "https://glovoapp.com",
+        "sourceType": "meta_description",
+        "matched": "food delivery"
+      },
+      {
+        "kind": "supply_side_product",
+        "quote": "Food delivery and more Groceries, shops, pharmacies, anything! Top restaurants and more in Glovo McDonald's KFC BurgerKing Carrefour PizzaHut Papa John's Subway TacoBell Anything delivered Your city's top restaurants With a great variety of restaurants you can order your favourite food or explore ne",
+        "url": "https://glovoapp.com",
+        "sourceType": "homepage_hero",
+        "matched": "Food delivery"
+      }
+    ],
+    "knownCompetitorList": {
+      "onList": false,
+      "lastReviewed": "2026-08-24"
+    }
+  },
+  "constructs": [
+    {
+      "construct": "commercial_materiality",
+      "state": "unknown",
+      "evidence": [],
+      "counterEvidence": [],
+      "unknown": [
+        "partner-sourced revenue share",
+        "number of active partners"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 0,
+        "independentSources": 0,
+        "observedItems": 0
+      },
+      "whyItMatters": "Partners appear to take part in winning customers or revenue, which is what makes partner operations worth tooling.",
+      "whyItMayNotMatter": "It does not establish how much revenue, how many partners, or whether the motion is active today."
+    },
+    {
+      "construct": "operational_ownership",
+      "state": "unknown",
+      "evidence": [],
+      "counterEvidence": [],
+      "unknown": [
+        "who owns the programme internally",
+        "whether operation is shared with a distributor"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 0,
+        "independentSources": 0,
+        "observedItems": 0
+      },
+      "whyItMatters": "The company appears to run the partner motion itself, so it would be the buyer of tooling rather than a participant in someone else's.",
+      "whyItMayNotMatter": "Operating a programme says nothing about its size; a competitor with an excellent programme scores identically here."
+    },
+    {
+      "construct": "operational_surface",
+      "state": "light",
+      "evidence": [],
+      "counterEvidence": [],
+      "unknown": [
+        "volume through each workflow",
+        "what sits behind the partner login"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 0,
+        "independentSources": 0,
+        "observedItems": 0
+      },
+      "whyItMatters": "Visible partner workflows suggest there is machinery that software could reduce the manual cost of.",
+      "whyItMayNotMatter": "A published workflow is not a used workflow, and login-walled machinery is invisible either way."
+    }
+  ],
+  "programmes": [],
+  "partnerDirectory": {
+    "isDirectory": false,
+    "lowerBound": 0,
+    "method": "none",
+    "sampleNames": [],
+    "certificationLanguage": false,
+    "sourceUrl": null,
+    "evidenceQuote": null,
+    "observation": null
+  },
+  "systems": {
+    "crm": {
+      "state": "unknown",
+      "evidence": [],
+      "note": "No CRM artifact found on the retrieved pages. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 33% recall against companies known to run a supported CRM, and Salesforce was never detected at all."
+    },
+    "prm": {
+      "state": "unknown",
+      "vendor": null,
+      "evidence": [],
+      "note": "No fingerprint found. Most vendors serve tenants from the customer's own domain and a login-walled portal leaks nothing, so this is unknown rather than absent."
+    }
+  },
+  "people": {
+    "state": "unknown",
+    "people": [],
+    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+  },
+  "temporal": {
+    "state": "first_observation",
+    "baselineAt": "2026-08-24T07:53:07.918Z",
+    "lastCheckedAt": "2026-08-24T07:53:07.918Z",
+    "changes": [],
+    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+  },
+  "contradictions": [],
+  "researchTasks": [
+    {
+      "question": "Does this company run a partner programme at all?",
+      "whyItBlocks": "No partner claim was retrieved, so nothing here supports or refutes fit. Everything is blocking.",
+      "whereToLook": "Check the site footer and main navigation for a partner link, then search for the company name with \"partner program\".",
+      "resolves": "commercial_materiality"
+    },
+    {
+      "question": "Which CRM does the partner team use?",
+      "whyItBlocks": "Introw syncs into HubSpot or Salesforce; the answer is unobservable publicly about two-thirds of the time.",
+      "whereToLook": "Ask on the first call. Public detection is not reliable enough to be worth more effort.",
+      "resolves": "crm"
+    }
+  ],
+  "evidenceCoverage": "sparse",
+  "coverageNote": "Sparse public evidence. This describes how much this company publishes, not how good a prospect it is.",
+  "sourceHealth": [
+    {
+      "url": "https://glovoapp.com/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://glovoapp.com/product",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://glovoapp.com/products",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://glovoapp.com/platform",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://glovoapp.com/pricing",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://glovoapp.com/what-we-do",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://glovoapp.com/solutions",
+      "health": "not_found",
+      "status": 404
+    }
+  ],
+  "commercialSummary": "Glovo describes itself as \"Glovo is the food delivery site that will get you anything you want to your doorstep. You order online, you&#x27;ll have it!\". Its \"partners\" appear to be supply rather than a route to market. No partner programme type could be identified from the pages retrieved. Visible partner workflows include certification. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "machineInterpretation": {
+    "state": "suppression_candidate",
+    "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
+    "reasons": [
+      "Partners appear to be supply rather than a route to market."
+    ],
+    "diagnostics": {
+      "observationCount": 0,
+      "distinctClaimCount": 0,
+      "independentSourceCount": 0,
+      "publicationDensity": "sparse",
+      "constructEvidenceCount": 0,
+      "volumeSensitive": false,
+      "unattributableDropped": 1
+    }
+  },
+  "humanReview": null,
+  "provenance": "real_observation"
+}

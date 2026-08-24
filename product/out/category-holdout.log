@@ -1,0 +1,31 @@
+MISS partnero.com           expected=partner_tech_vendor      got=likely_target_category   items=6 (no disqualifying category signal)
+ ok  firstpromoter.com      expected=partner_tech_vendor      got=partner_tech_vendor      items=6 affiliate management software
+MISS getreditus.com         expected=partner_tech_vendor      got=likely_target_category   items=6 (no disqualifying category signal)
+ ok  rewardful.com          expected=partner_tech_vendor      got=partner_tech_vendor      items=6 Affiliate Management Software
+ ok  elioplus.com           expected=partner_tech_vendor      got=partner_tech_vendor      items=6 PRM
+ ok  tolt.io                expected=partner_tech_vendor      got=partner_tech_vendor      items=5 Affiliate Marketing Software
+ ok  affise.com             expected=partner_tech_vendor      got=partner_tech_vendor      items=5 Affiliate Marketing Software
+ ok  teamleader.eu          expected=likely_target_category   got=likely_target_category   items=5 (no disqualifying category signal)
+ ok  tapfiliate.com         expected=partner_tech_vendor      got=partner_tech_vendor      items=6 scale your partner 
+ ok  mollie.com             expected=likely_target_category   got=likely_target_category   items=5 (no disqualifying category signal)
+ ok  odoo.com               expected=likely_target_category   got=likely_target_category   items=5 (no disqualifying category signal)
+ ok  storyblok.com          expected=likely_target_category   got=likely_target_category   items=5 (no disqualifying category signal)
+ ok  sendcloud.com          expected=likely_target_category   got=likely_target_category   items=5 (no disqualifying category signal)
+ ok  gorgias.com            expected=likely_target_category   got=likely_target_category   items=5 (no disqualifying category signal)
+ ok  chargebee.com          expected=likely_target_category   got=likely_target_category   items=5 (no disqualifying category signal)
+ ok  lightspeedhq.com       expected=likely_target_category   got=likely_target_category   items=4 (no disqualifying category signal)
+ ok  glovoapp.com           expected=supply_side_marketplace  got=supply_side_marketplace  items=4 food delivery
+MISS wolt.com               expected=supply_side_marketplace  got=likely_target_category   items=4 (no disqualifying category signal)
+MISS capgemini.com          expected=professional_services    got=likely_target_category   items=5 (no disqualifying category signal)
+MISS devoteam.com           expected=professional_services    got=likely_target_category   items=6 (no disqualifying category signal)
+MISS xebia.com              expected=professional_services    got=likely_target_category   items=5 (no disqualifying category signal)
+
+=== HOLDOUT RESULT (frozen 9b723cd4e29554c9, single shot) ===
+  partner_tech_vendor      6/8   misses: partnero.com→likely_target_category, getreditus.com→likely_target_category
+  likely_target_category   8/8   misses: none
+  supply_side_marketplace  1/2   misses: wolt.com→likely_target_category
+  professional_services    0/3   misses: capgemini.com→likely_target_category, devoteam.com→likely_target_category, xebia.com→likely_target_category
+
+  CRITICAL — partner-tech vendors NOT caught (would reach a seller): 2/8
+  CRITICAL — real prospects wrongly excluded as vendors: 0/8
+DONE

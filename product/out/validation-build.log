@@ -1,0 +1,26 @@
+[1/24] planhat.com              high_fit_evidence    cat=likely_target_category   claims=4  /4   progs=0 surf=0 tasks=2 22s
+[2/24] oneflow.com              research             cat=likely_target_category   claims=5  /5   progs=0 surf=0 tasks=2 30s
+[3/24] trengo.com               research             cat=likely_target_category   claims=5  /6   progs=4 surf=2 tasks=1 30s
+[4/24] getaccept.com            research             cat=likely_target_category   claims=2  /3   progs=0 surf=0 tasks=1 37s
+[5/24] channable.com            under_observed       cat=unknown                  claims=3  /4   progs=1 surf=2 tasks=4 23s
+[6/24] efficy.com               under_observed       cat=unknown                  claims=0  /0   progs=0 surf=0 tasks=3 22s
+[7/24] sana-commerce.com        high_fit_evidence    cat=likely_target_category   claims=8  /9   progs=2 surf=4 tasks=2 30s
+[8/24] weglot.com               high_fit_evidence    cat=likely_target_category   claims=6  /8   progs=5 surf=4 tasks=2 16s
+[9/24] mews.com                 plausible            cat=likely_target_category   claims=3  /3   progs=1 surf=2 tasks=1 45s
+[10/24] leapsome.com             under_observed       cat=likely_target_category   claims=0  /0   progs=0 surf=0 tasks=1 38s
+[11/24] pleo.io                  research             cat=likely_target_category   claims=6  /6   progs=1 surf=1 tasks=3 31s
+[12/24] apaleo.com               under_observed       cat=likely_target_category   claims=0  /0   progs=0 surf=0 tasks=2 83s
+[13/24] spendesk.com             plausible            cat=likely_target_category   claims=4  /4   progs=0 surf=0 tasks=2 25s
+[14/24] juro.com                 research             cat=likely_target_category   claims=2  /2   progs=1 surf=0 tasks=2 76s
+[15/24] factorialhr.com          high_fit_evidence    cat=likely_target_category   claims=6  /6   progs=2 surf=3 tasks=2 9s
+[16/24] payfit.com               plausible            cat=likely_target_category   claims=4  /4   progs=0 surf=0 tasks=2 35s
+[17/24] foleon.com               under_observed       cat=likely_target_category   claims=0  /0   progs=0 surf=0 tasks=0 12s
+[18/24] twikey.com               plausible            cat=likely_target_category   claims=2  /2   progs=0 surf=0 tasks=3 22s
+[19/24] lano.io                  plausible            cat=likely_target_category   claims=2  /2   progs=2 surf=1 tasks=2 22s
+[20/24] younium.com              research             cat=likely_target_category   claims=2  /3   progs=0 surf=0 tasks=1 22s
+[21/24] productsup.com           research             cat=likely_target_category   claims=1  /2   progs=1 surf=0 tasks=1 35s
+[22/24] cegeka.com               under_observed       cat=likely_target_category   claims=0  /0   progs=0 surf=0 tasks=0 28s
+[23/24] vinted.com               under_observed       cat=likely_target_category   claims=0  /0   progs=0 surf=0 tasks=2 12s
+[24/24] upsales.com              under_observed       cat=likely_target_category   claims=0  /0   progs=0 surf=0 tasks=2 46s
+
+wrote 24 dossiers

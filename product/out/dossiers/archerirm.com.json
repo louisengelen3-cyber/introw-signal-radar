@@ -1,0 +1,357 @@
+{
+  "domain": "archerirm.com",
+  "companyName": "Archer",
+  "selfDescription": {
+    "text": "Archer Evolv: enterprise GRC for regulatory change management — compliance-trained AI, full audit lineage, trusted by 38 of the top 50 banks.",
+    "sourceUrl": "https://www.archerirm.com"
+  },
+  "geography": null,
+  "builtAt": "2026-08-24T07:53:05.350Z",
+  "category": {
+    "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
+    "whyItMayNotMatter": "This is the absence of a disqualifying signal, not positive evidence of fit. Abstract positioning can hide a partner-tech product.",
+    "unknown": "Nothing about programme size, ownership or Introw need follows from category alone.",
+    "suggestedResearch": null,
+    "underObserved": false,
+    "state": "likely_target_category",
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Archer® | Regulatory Change Management",
+        "url": "https://www.archerirm.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Archer Evolv: enterprise GRC for regulatory change management — compliance-trained AI, full audit lineage, trusted by 38 of the top 50 banks.",
+        "url": "https://www.archerirm.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "knownCompetitorList": {
+      "onList": false,
+      "lastReviewed": "2026-08-24"
+    }
+  },
+  "constructs": [
+    {
+      "construct": "commercial_materiality",
+      "state": "weak_proxy",
+      "evidence": [
+        {
+          "id": "o46",
+          "quote": "to grow with Archer at the highest level. Value-added Resellers Sell Archer products and services, including new logos, expansions,",
+          "sourceUrl": "https://www.archerirm.com/archer-partners",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.350Z",
+          "strength": "strong_proxy",
+          "proves": "the company describes partners selling or reselling its product",
+          "doesNotProve": "the volume of resale, or that resale revenue is material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "partner-sourced revenue share",
+        "number of active partners"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 1,
+        "independentSources": 1,
+        "observedItems": 6
+      },
+      "whyItMatters": "Partners appear to take part in winning customers or revenue, which is what makes partner operations worth tooling.",
+      "whyItMayNotMatter": "It does not establish how much revenue, how many partners, or whether the motion is active today."
+    },
+    {
+      "construct": "operational_ownership",
+      "state": "direct",
+      "evidence": [
+        {
+          "id": "o47",
+          "quote": "clients tackling complex risk and compliance challenges. Consulting partners can earn domain Specializations to unlock preferential deal",
+          "sourceUrl": "https://www.archerirm.com/archer-partners",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.350Z",
+          "strength": "strong_proxy",
+          "proves": "the company distinguishes and manages more than one kind of partner",
+          "doesNotProve": "how many partners exist in each type",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o48",
+          "quote": "rewarding. Development & enablement support Dedicated partner resources, enablement content, and Archer team coordination to accelerate",
+          "sourceUrl": "https://www.archerirm.com/archer-partners",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.350Z",
+          "strength": "strong_proxy",
+          "proves": "the company supplies partners with resources, enablement or a named contact",
+          "doesNotProve": "that partners use them",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "who owns the programme internally",
+        "whether operation is shared with a distributor"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 2,
+        "independentSources": 1,
+        "observedItems": 6
+      },
+      "whyItMatters": "The company appears to run the partner motion itself, so it would be the buyer of tooling rather than a participant in someone else's.",
+      "whyItMayNotMatter": "Operating a programme says nothing about its size; a competitor with an excellent programme scores identically here."
+    },
+    {
+      "construct": "operational_surface",
+      "state": "rich",
+      "evidence": [
+        {
+          "id": "o49",
+          "quote": "distributors in your region. Resellers benefit from deal registration protection, tier-based pricing discounts, and Partner of Record",
+          "sourceUrl": "https://www.archerirm.com/archer-partners",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.350Z",
+          "strength": "strong_proxy",
+          "proves": "partners participate in the sales process through a defined intake",
+          "doesNotProve": "that the company is unhappy with how it handles them today",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o50",
+          "quote": "and a global network built for your success. Apply Now Partner Portal About the Archer Velocity Partner Program The Velocity Partner",
+          "sourceUrl": "https://www.archerirm.com/archer-partners",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.350Z",
+          "strength": "strong_proxy",
+          "proves": "a partner-specific operational surface exists",
+          "doesNotProve": "adoption, or that partners log into it",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o51",
+          "quote": "deeper co-sell support, and additional program benefits. Partner locator Filter by region, tier, or partnership type to find the Archer",
+          "sourceUrl": "https://www.archerirm.com/archer-partners",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.350Z",
+          "strength": "strong_proxy",
+          "proves": "the company publishes named partner organisations",
+          "doesNotProve": "that the listed partners are active",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "volume through each workflow",
+        "what sits behind the partner login"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 3,
+        "independentSources": 1,
+        "observedItems": 6
+      },
+      "whyItMatters": "Visible partner workflows suggest there is machinery that software could reduce the manual cost of.",
+      "whyItMayNotMatter": "A published workflow is not a used workflow, and login-walled machinery is invisible either way."
+    }
+  ],
+  "programmes": [
+    {
+      "kind": "strategic_alliance",
+      "publishedName": "Partner Network",
+      "evidence": [
+        {
+          "id": "o52",
+          "quote": "response, managed security, and more, helping organizations mature their security posture, minimize risk, and ensure compliance. EY GLOBAL ALLIANCE Brings leading GRC practices and Archer expertise to help regulated enterprises manage risk and compliance at scale. Paramount EMEA",
+          "sourceUrl": "https://www.archerirm.com/archer-partners",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.350Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses strategic alliance partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "surfaces": [
+        {
+          "surface": "enablement",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o53",
+              "quote": "designed to make the Archer practice financially rewarding. Development & enablement support Dedicated partner resources, enablement content, and Archer team coordination to accelerate your onboarding and ongoing growth.",
+              "sourceUrl": "https://www.archerirm.com/archer-partners",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.350Z",
+              "strength": "strong_proxy",
+              "proves": "material is produced specifically for partners",
+              "doesNotProve": "that partners consume it",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        },
+        {
+          "surface": "deal_registration",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o54",
+              "quote": "new logos, expansions, and renewals, through authorized distributors in your region. Resellers benefit from deal registration protection, tier-based pricing discounts, and Partner of Record renewal rights. Consulting & Implementation",
+              "sourceUrl": "https://www.archerirm.com/archer-partners",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.350Z",
+              "strength": "strong_proxy",
+              "proves": "the company operates opportunity conflict management with partners",
+              "doesNotProve": "the number of deals registered",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        },
+        {
+          "surface": "co_selling",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o55",
+              "quote": "challenges. Consulting partners can earn domain Specializations to unlock preferential deal routing, deeper co-sell support, and additional program benefits. Partner locator Filter by region, tier, or partnership type to",
+              "sourceUrl": "https://www.archerirm.com/archer-partners",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.350Z",
+              "strength": "strong_proxy",
+              "proves": "the company describes selling alongside partners",
+              "doesNotProve": "that co-selling is systematised",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        },
+        {
+          "surface": "portal",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o56",
+              "quote": "GRC practice with Archer's market-leading platform and a global network built for your success. Apply Now Partner Portal About the Archer Velocity Partner Program The Velocity Partner Program is designed to equip our partners",
+              "sourceUrl": "https://www.archerirm.com/archer-partners",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.350Z",
+              "strength": "strong_proxy",
+              "proves": "partners have an authenticated destination",
+              "doesNotProve": "what is inside it — the portal is invisible to us by design",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partnerDirectory": {
+    "isDirectory": false,
+    "lowerBound": 0,
+    "method": "none",
+    "sampleNames": [],
+    "certificationLanguage": false,
+    "sourceUrl": null,
+    "evidenceQuote": null,
+    "observation": null
+  },
+  "systems": {
+    "crm": {
+      "state": "unknown",
+      "evidence": [],
+      "note": "No CRM artifact found on the retrieved pages. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 33% recall against companies known to run a supported CRM, and Salesforce was never detected at all."
+    },
+    "prm": {
+      "state": "unknown",
+      "vendor": null,
+      "evidence": [],
+      "note": "No fingerprint found. Most vendors serve tenants from the customer's own domain and a login-walled portal leaks nothing, so this is unknown rather than absent."
+    }
+  },
+  "people": {
+    "state": "unknown",
+    "people": [],
+    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+  },
+  "temporal": {
+    "state": "first_observation",
+    "baselineAt": "2026-08-24T07:53:05.350Z",
+    "lastCheckedAt": "2026-08-24T07:53:05.350Z",
+    "changes": [],
+    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+  },
+  "contradictions": [],
+  "researchTasks": [
+    {
+      "question": "Which CRM does the partner team use?",
+      "whyItBlocks": "Introw syncs into HubSpot or Salesforce; the answer is unobservable publicly about two-thirds of the time.",
+      "whereToLook": "Ask on the first call. Public detection is not reliable enough to be worth more effort.",
+      "resolves": "crm"
+    }
+  ],
+  "evidenceCoverage": "moderate",
+  "coverageNote": "Public evidence was sufficient to read the partner surfaces that exist.",
+  "sourceHealth": [
+    {
+      "url": "https://archerirm.com/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.archerirm.com/product",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.archerirm.com/products",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.archerirm.com/compare",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.archerirm.com/alternatives",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.archerirm.com/vs",
+      "health": "not_found",
+      "status": 404
+    }
+  ],
+  "commercialSummary": "Archer describes itself as \"Archer Evolv: enterprise GRC for regulatory change management — compliance-trained AI, full audit lineage, trusted by 38 of the top 50 banks\". Public pages describe a strategic_alliance motion under the name \"Partner Network\". Visible partner workflows include enablement, deal registration, co selling, portal. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size.",
+  "machineInterpretation": {
+    "state": "research",
+    "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
+    "reasons": [
+      "Partner motion is visible but its commercial role is not established."
+    ],
+    "diagnostics": {
+      "observationCount": 6,
+      "distinctClaimCount": 6,
+      "independentSourceCount": 1,
+      "publicationDensity": "moderate",
+      "constructEvidenceCount": 6,
+      "volumeSensitive": false,
+      "unattributableDropped": 1
+    }
+  },
+  "humanReview": null,
+  "provenance": "real_observation"
+}

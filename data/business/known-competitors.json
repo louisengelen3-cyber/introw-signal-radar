@@ -1,0 +1,13 @@
+{
+  "label": "KNOWN_COMPETITOR_LIST",
+  "provenance": "asserted_business_data",
+  "note": "Maintained commercial fact, NOT inferred from evidence. Presented to users as an assertion and compared against CATEGORY_CLASSIFICATION so the inferred classifier can be evaluated honestly. Adding a domain here is never a substitute for the classifier working.",
+  "maintainedBy": "Introw GTM",
+  "lastReviewed": "2026-08-24",
+  "domains": [
+    "kiflo.com", "allbound.com", "impartner.com", "partnerstack.com",
+    "channeltivity.com", "zinfi.com", "magentrix.com", "mindmatrix.net",
+    "ziftsolutions.com", "kademi.com", "workspan.com", "crossbeam.com",
+    "reveal.co", "partnerfleet.io", "superglue.io", "torchlite.com"
+  ]
+}

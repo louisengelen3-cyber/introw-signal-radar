@@ -1,0 +1,303 @@
+{
+  "domain": "mews.com",
+  "companyName": "Mews",
+  "selfDescription": {
+    "text": "Cloud-native, Mews PMS is an innovative hospitality management system that enables automation to boost revenue and empowers remarkable guest experiences.",
+    "sourceUrl": "https://www.mews.com"
+  },
+  "geography": null,
+  "builtAt": "2026-08-24T07:50:59.581Z",
+  "category": {
+    "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
+    "whyItMayNotMatter": "This is the absence of a disqualifying signal, not positive evidence of fit. Abstract positioning can hide a partner-tech product.",
+    "unknown": "Nothing about programme size, ownership or Introw need follows from category alone.",
+    "suggestedResearch": null,
+    "underObserved": false,
+    "state": "likely_target_category",
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "The Hospitality Management Software of the Future | Mews",
+        "url": "https://www.mews.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Cloud-native, Mews PMS is an innovative hospitality management system that enables automation to boost revenue and empowers remarkable guest experiences.",
+        "url": "https://www.mews.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "knownCompetitorList": {
+      "onList": false,
+      "lastReviewed": "2026-08-24"
+    }
+  },
+  "constructs": [
+    {
+      "construct": "commercial_materiality",
+      "state": "unknown",
+      "evidence": [],
+      "counterEvidence": [],
+      "unknown": [
+        "partner-sourced revenue share",
+        "number of active partners"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 0,
+        "independentSources": 0,
+        "observedItems": 2
+      },
+      "whyItMatters": "Partners appear to take part in winning customers or revenue, which is what makes partner operations worth tooling.",
+      "whyItMayNotMatter": "It does not establish how much revenue, how many partners, or whether the motion is active today."
+    },
+    {
+      "construct": "operational_ownership",
+      "state": "direct",
+      "evidence": [
+        {
+          "id": "o56",
+          "quote": "und die Erlebnisse für Personal und Gäste verbessern. Partner werden Partner werden Schließe dich uns an und werde Mews",
+          "sourceUrl": "https://www.mews.com/de/partner",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:50:59.581Z",
+          "strength": "strong_proxy",
+          "proves": "the company invites organisations to join a programme it runs",
+          "doesNotProve": "that anyone joins, or that the programme is staffed",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o57",
+          "quote": "resources created to help partners like you succeed. See partner resources Refer a property Your customers chose you for a good reason: they",
+          "sourceUrl": "https://www.mews.com/en/partnerships",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:50:59.581Z",
+          "strength": "strong_proxy",
+          "proves": "the company supplies partners with resources, enablement or a named contact",
+          "doesNotProve": "that partners use them",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "who owns the programme internally",
+        "whether operation is shared with a distributor"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 2,
+        "independentSources": 1,
+        "observedItems": 2
+      },
+      "whyItMatters": "The company appears to run the partner motion itself, so it would be the buyer of tooling rather than a participant in someone else's.",
+      "whyItMayNotMatter": "Operating a programme says nothing about its size; a competitor with an excellent programme scores identically here."
+    },
+    {
+      "construct": "operational_surface",
+      "state": "light",
+      "evidence": [],
+      "counterEvidence": [],
+      "unknown": [
+        "volume through each workflow",
+        "what sits behind the partner login"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 0,
+        "independentSources": 0,
+        "observedItems": 2
+      },
+      "whyItMatters": "Visible partner workflows suggest there is machinery that software could reduce the manual cost of.",
+      "whyItMayNotMatter": "A published workflow is not a used workflow, and login-walled machinery is invisible either way."
+    }
+  ],
+  "programmes": [
+    {
+      "kind": "integration",
+      "publishedName": null,
+      "evidence": [
+        {
+          "id": "o58",
+          "quote": "hoteliers around the world, improving the experiences for staff and guests. Become a partner Become a partner Join us and become a Mews integration partner. Start your journey with Mews and scale your business with our global customers. Become a partner Already a partner Get the most out of",
+          "sourceUrl": "https://www.mews.com/en/partnerships",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:50:59.581Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses integration partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "surfaces": [
+        {
+          "surface": "partner_recruitment",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o59",
+              "quote": "Services mehr Hoteliers auf der ganzen Welt erreichen und die Erlebnisse für Personal und Gäste verbessern. Partner werden Partner werden Schließe dich uns an und werde Mews Integrationspartner. Beginne deinen Weg mit Mews und",
+              "sourceUrl": "https://www.mews.com/de/partner",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:50:59.581Z",
+              "strength": "strong_proxy",
+              "proves": "the company publicly invites organisations to join a programme",
+              "doesNotProve": "that anyone joins, or how many",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o60",
+              "quote": "and services can reach more hoteliers around the world, improving the experiences for staff and guests. Become a partner Become a partner Join us and become a Mews integration partner. Start your journey with Mews and scale your",
+              "sourceUrl": "https://www.mews.com/en/partnerships",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:50:59.581Z",
+              "strength": "strong_proxy",
+              "proves": "the company publicly invites organisations to join a programme",
+              "doesNotProve": "that anyone joins, or how many",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        },
+        {
+          "surface": "enablement",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o61",
+              "quote": "out of your partnership with Mews. Explore all the resources created to help partners like you succeed. See partner resources Refer a property Your customers chose you for a good reason: they trust you. If you think Mews would be a",
+              "sourceUrl": "https://www.mews.com/en/partnerships",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:50:59.581Z",
+              "strength": "strong_proxy",
+              "proves": "material is produced specifically for partners",
+              "doesNotProve": "that partners consume it",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partnerDirectory": {
+    "isDirectory": true,
+    "lowerBound": 11,
+    "method": "external_links",
+    "sampleNames": [
+      "akia.com",
+      "amadeus.com",
+      "bowo.fr",
+      "breezeway.io",
+      "canarytechnologies.com",
+      "cendyn.com",
+      "customer-alliance.com",
+      "d-edge.com"
+    ],
+    "certificationLanguage": false,
+    "sourceUrl": "https://www.mews.com/de/partnerschaften/partner",
+    "evidenceQuote": "Unsere technischen Partner Schau dir einige der erstaunlichen Innovatoren an, die sich für eine Partnerschaft mit Mews entschieden haben, um ihren Einfluss auf das Gastgewerbe zu vergrößern. Akia Amadeus Bowo Breezeway Canary Technologies Cendyn Customer allia",
+    "observation": {
+      "id": "o63",
+      "quote": "Unsere technischen Partner Schau dir einige der erstaunlichen Innovatoren an, die sich für eine Partnerschaft mit Mews entschieden haben, um ihren Einfluss auf das Gastgewerbe zu vergrößern. Akia Amadeus Bowo Breezeway Canary Technologies Cendyn Customer allia",
+      "sourceUrl": "https://www.mews.com/de/partnerschaften/partner",
+      "sourceType": "partner_directory",
+      "retrievedAt": "2026-08-24T07:50:59.581Z",
+      "strength": "confirmed",
+      "proves": "the company publicly lists at least 11 partner organisations",
+      "doesNotProve": "the true number of partners, that they transact, or that the list is current — a directory is a lower bound and usually a filtered view"
+    }
+  },
+  "systems": {
+    "crm": {
+      "state": "hubspot_confirmed",
+      "evidence": [
+        {
+          "id": "o62",
+          "quote": "js.hs-scripts.com/5255565.js",
+          "sourceUrl": "https://mews.com/",
+          "sourceType": "html_artifact",
+          "retrievedAt": "2026-08-24T07:50:59.581Z",
+          "strength": "confirmed",
+          "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
+          "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
+        }
+      ],
+      "note": "hubspot evidence at confirmed (hs_tracking_portal)"
+    },
+    "prm": {
+      "state": "unknown",
+      "vendor": null,
+      "evidence": [],
+      "note": "No fingerprint found. Most vendors serve tenants from the customer's own domain and a login-walled portal leaks nothing, so this is unknown rather than absent."
+    }
+  },
+  "people": {
+    "state": "unknown",
+    "people": [],
+    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+  },
+  "temporal": {
+    "state": "first_observation",
+    "baselineAt": "2026-08-24T07:50:59.581Z",
+    "lastCheckedAt": "2026-08-24T07:50:59.581Z",
+    "changes": [],
+    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+  },
+  "contradictions": [],
+  "researchTasks": [
+    {
+      "question": "Is there partner machinery behind a login that we cannot see?",
+      "whyItBlocks": "Deal registration and pipeline usually sit behind the partner portal, so absence of public evidence is expected rather than informative.",
+      "whereToLook": "Check whether a partner login exists at all; its presence implies machinery we cannot inspect.",
+      "resolves": "operational_surface"
+    }
+  ],
+  "evidenceCoverage": "sparse",
+  "coverageNote": "Sparse public evidence. This describes how much this company publishes, not how good a prospect it is.",
+  "sourceHealth": [
+    {
+      "url": "https://mews.com/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.mews.com/product",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.mews.com/products",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.mews.com/compare",
+      "health": "success",
+      "status": 200
+    }
+  ],
+  "commercialSummary": "Mews describes itself as \"Cloud-native, Mews PMS is an innovative hospitality management system that enables automation to boost revenue and empowers remarkable guest experiences\". Public pages describe a integration motion. It publishes a directory listing at least 11 partner organisations. Visible partner workflows include partner recruitment, enablement. The company appears to operate the programme itself. Public evidence does not establish partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "machineInterpretation": {
+    "state": "plausible",
+    "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
+    "reasons": [
+      "A published directory lists at least 11 partner organisations.",
+      "Partner evidence exists but does not support a confident reading."
+    ],
+    "diagnostics": {
+      "observationCount": 2,
+      "distinctClaimCount": 2,
+      "independentSourceCount": 1,
+      "publicationDensity": "sparse",
+      "constructEvidenceCount": 2,
+      "volumeSensitive": false,
+      "unattributableDropped": 1
+    }
+  },
+  "humanReview": null,
+  "provenance": "real_observation"
+}

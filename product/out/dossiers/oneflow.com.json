@@ -1,0 +1,248 @@
+{
+  "domain": "oneflow.com",
+  "companyName": "Oneflow",
+  "selfDescription": {
+    "text": "Oneflow is a Contract Lifecycle Management platform that transforms static contracts into dynamic data - giving visibility into obligations, renewals, risks and revenue.",
+    "sourceUrl": "https://oneflow.com"
+  },
+  "geography": null,
+  "builtAt": "2026-08-24T07:50:57.435Z",
+  "category": {
+    "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
+    "whyItMayNotMatter": "This is the absence of a disqualifying signal, not positive evidence of fit. Abstract positioning can hide a partner-tech product.",
+    "unknown": "Nothing about programme size, ownership or Introw need follows from category alone.",
+    "suggestedResearch": null,
+    "underObserved": false,
+    "state": "likely_target_category",
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Oneflow | Contract Lifecycle Management That Turns Contracts into Data",
+        "url": "https://oneflow.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Oneflow is a Contract Lifecycle Management platform that transforms static contracts into dynamic data - giving visibility into obligations, renewals, risks and revenue.",
+        "url": "https://oneflow.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "knownCompetitorList": {
+      "onList": false,
+      "lastReviewed": "2026-08-24"
+    }
+  },
+  "constructs": [
+    {
+      "construct": "commercial_materiality",
+      "state": "weak_proxy",
+      "evidence": [
+        {
+          "id": "o21",
+          "quote": "HubSpot Diamond Partner Why partner with Oneflow? New revenue streams Increase sales with existing customers and by expanding into new",
+          "sourceUrl": "https://oneflow.com/partner/",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:50:57.435Z",
+          "strength": "strong_proxy",
+          "proves": "the company pitches partner participation as revenue for the partner",
+          "doesNotProve": "that any partner earns it, or that the company tracks it",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "partner-sourced revenue share",
+        "number of active partners"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 1,
+        "independentSources": 1,
+        "observedItems": 5
+      },
+      "whyItMatters": "Partners appear to take part in winning customers or revenue, which is what makes partner operations worth tooling.",
+      "whyItMayNotMatter": "It does not establish how much revenue, how many partners, or whether the motion is active today."
+    },
+    {
+      "construct": "operational_ownership",
+      "state": "direct",
+      "evidence": [
+        {
+          "id": "o22",
+          "quote": "of great partnerships. Let’s create wonders, together. Become a partner Integration Partners Salesforce Q2C automation in Salesforce CRM",
+          "sourceUrl": "https://oneflow.com/partner/",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:50:57.435Z",
+          "strength": "strong_proxy",
+          "proves": "the company invites organisations to join a programme it runs",
+          "doesNotProve": "that anyone joins, or that the programme is staffed",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o23",
+          "quote": "Solution Partners Let our partners help you implement and integrate custom projects,",
+          "sourceUrl": "https://oneflow.com/partner-directory/",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:50:57.435Z",
+          "strength": "strong_proxy",
+          "proves": "the company distinguishes and manages more than one kind of partner",
+          "doesNotProve": "how many partners exist in each type",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o24",
+          "quote": "Access Oneflow’s partner playbooks, resources, and our partner team anytime. Become a Oneflow partner Partnering up with Oneflow is",
+          "sourceUrl": "https://oneflow.com/partner/",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:50:57.435Z",
+          "strength": "strong_proxy",
+          "proves": "the company supplies partners with resources, enablement or a named contact",
+          "doesNotProve": "that partners use them",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "who owns the programme internally",
+        "whether operation is shared with a distributor"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 3,
+        "independentSources": 1,
+        "observedItems": 5
+      },
+      "whyItMatters": "The company appears to run the partner motion itself, so it would be the buyer of tooling rather than a participant in someone else's.",
+      "whyItMayNotMatter": "Operating a programme says nothing about its size; a competitor with an excellent programme scores identically here."
+    },
+    {
+      "construct": "operational_surface",
+      "state": "light",
+      "evidence": [
+        {
+          "id": "o25",
+          "quote": "Partner Manager, HubSpot Solution Partners Bonana HubSpot Elite Partner Fluido Leading European Salesforce consultancy Knowit Nordic IT",
+          "sourceUrl": "https://oneflow.com/partner/",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:50:57.435Z",
+          "strength": "strong_proxy",
+          "proves": "the company differentiates partners by commitment or performance",
+          "doesNotProve": "how many partners sit in each tier",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "volume through each workflow",
+        "what sits behind the partner login"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 1,
+        "independentSources": 1,
+        "observedItems": 5
+      },
+      "whyItMatters": "Visible partner workflows suggest there is machinery that software could reduce the manual cost of.",
+      "whyItMayNotMatter": "A published workflow is not a used workflow, and login-walled machinery is invisible either way."
+    }
+  ],
+  "programmes": [],
+  "partnerDirectory": {
+    "isDirectory": false,
+    "lowerBound": 0,
+    "method": "none",
+    "sampleNames": [],
+    "certificationLanguage": false,
+    "sourceUrl": null,
+    "evidenceQuote": null,
+    "observation": null
+  },
+  "systems": {
+    "crm": {
+      "state": "unknown",
+      "evidence": [],
+      "note": "No CRM artifact found on the retrieved pages. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 33% recall against companies known to run a supported CRM, and Salesforce was never detected at all."
+    },
+    "prm": {
+      "state": "unknown",
+      "vendor": null,
+      "evidence": [],
+      "note": "No fingerprint found. Most vendors serve tenants from the customer's own domain and a login-walled portal leaks nothing, so this is unknown rather than absent."
+    }
+  },
+  "people": {
+    "state": "unknown",
+    "people": [],
+    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+  },
+  "temporal": {
+    "state": "first_observation",
+    "baselineAt": "2026-08-24T07:50:57.435Z",
+    "lastCheckedAt": "2026-08-24T07:50:57.435Z",
+    "changes": [],
+    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+  },
+  "contradictions": [],
+  "researchTasks": [
+    {
+      "question": "Which CRM does the partner team use?",
+      "whyItBlocks": "Introw syncs into HubSpot or Salesforce; the answer is unobservable publicly about two-thirds of the time.",
+      "whereToLook": "Ask on the first call. Public detection is not reliable enough to be worth more effort.",
+      "resolves": "crm"
+    },
+    {
+      "question": "Is there partner machinery behind a login that we cannot see?",
+      "whyItBlocks": "Deal registration and pipeline usually sit behind the partner portal, so absence of public evidence is expected rather than informative.",
+      "whereToLook": "Check whether a partner login exists at all; its presence implies machinery we cannot inspect.",
+      "resolves": "operational_surface"
+    }
+  ],
+  "evidenceCoverage": "moderate",
+  "coverageNote": "Public evidence was sufficient to read the partner surfaces that exist.",
+  "sourceHealth": [
+    {
+      "url": "https://oneflow.com/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://oneflow.com/product",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://oneflow.com/compare",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://oneflow.com/alternatives",
+      "health": "success",
+      "status": 200
+    }
+  ],
+  "commercialSummary": "Oneflow describes itself as \"Oneflow is a Contract Lifecycle Management platform that transforms static contracts into dynamic data - giving visibility into obligations, renewals, risks…\". No partner programme type could be identified from the pages retrieved. Visible partner workflows include partner recruitment, programme tiers. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size.",
+  "machineInterpretation": {
+    "state": "research",
+    "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
+    "reasons": [
+      "Partner motion is visible but its commercial role is not established."
+    ],
+    "diagnostics": {
+      "observationCount": 5,
+      "distinctClaimCount": 5,
+      "independentSourceCount": 1,
+      "publicationDensity": "moderate",
+      "constructEvidenceCount": 5,
+      "volumeSensitive": false,
+      "unattributableDropped": 0
+    }
+  },
+  "humanReview": null,
+  "provenance": "real_observation"
+}

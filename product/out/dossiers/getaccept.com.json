@@ -1,0 +1,221 @@
+{
+  "domain": "getaccept.com",
+  "companyName": "GetAccept",
+  "selfDescription": {
+    "text": "Enhance your sales process with GetAccept",
+    "sourceUrl": "https://www.getaccept.com"
+  },
+  "geography": null,
+  "builtAt": "2026-08-24T07:50:57.430Z",
+  "category": {
+    "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
+    "whyItMayNotMatter": "This is the absence of a disqualifying signal, not positive evidence of fit. Abstract positioning can hide a partner-tech product.",
+    "unknown": "Nothing about programme size, ownership or Introw need follows from category alone.",
+    "suggestedResearch": null,
+    "underObserved": false,
+    "state": "likely_target_category",
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "GetAccept | AI-Powered Digital Sales Rooms & Proposal Software",
+        "url": "https://www.getaccept.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Enhance your sales process with GetAccept",
+        "url": "https://www.getaccept.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "knownCompetitorList": {
+      "onList": false,
+      "lastReviewed": "2026-08-24"
+    }
+  },
+  "constructs": [
+    {
+      "construct": "commercial_materiality",
+      "state": "weak_proxy",
+      "evidence": [
+        {
+          "id": "o28",
+          "quote": "closed within the specified time frame. Become a partner Grow your business by building integrations Let's add value for our mutual customers",
+          "sourceUrl": "https://www.getaccept.com/partners",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:50:57.431Z",
+          "strength": "strong_proxy",
+          "proves": "the company pitches partner participation as revenue for the partner",
+          "doesNotProve": "that any partner earns it, or that the company tracks it",
+          "duplicateCount": 2,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "partner-sourced revenue share",
+        "number of active partners"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 1,
+        "independentSources": 1,
+        "observedItems": 3
+      },
+      "whyItMatters": "Partners appear to take part in winning customers or revenue, which is what makes partner operations worth tooling.",
+      "whyItMayNotMatter": "It does not establish how much revenue, how many partners, or whether the motion is active today."
+    },
+    {
+      "construct": "operational_ownership",
+      "state": "direct",
+      "evidence": [],
+      "counterEvidence": [],
+      "unknown": [
+        "who owns the programme internally",
+        "whether operation is shared with a distributor"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 0,
+        "independentSources": 0,
+        "observedItems": 3
+      },
+      "whyItMatters": "The company appears to run the partner motion itself, so it would be the buyer of tooling rather than a participant in someone else's.",
+      "whyItMayNotMatter": "Operating a programme says nothing about its size; a competitor with an excellent programme scores identically here."
+    },
+    {
+      "construct": "operational_surface",
+      "state": "light",
+      "evidence": [
+        {
+          "id": "o29",
+          "quote": "partner programs Globally recognized and trusted by over 5,000 customers, GetAccept",
+          "sourceUrl": "https://www.getaccept.com/partners",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:50:57.431Z",
+          "strength": "strong_proxy",
+          "proves": "the company runs more than one distinct partner track",
+          "doesNotProve": "that they share an owner or a system",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "volume through each workflow",
+        "what sits behind the partner login"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 1,
+        "independentSources": 1,
+        "observedItems": 3
+      },
+      "whyItMatters": "Visible partner workflows suggest there is machinery that software could reduce the manual cost of.",
+      "whyItMayNotMatter": "A published workflow is not a used workflow, and login-walled machinery is invisible either way."
+    }
+  ],
+  "programmes": [],
+  "partnerDirectory": {
+    "isDirectory": false,
+    "lowerBound": 0,
+    "method": "none",
+    "sampleNames": [],
+    "certificationLanguage": false,
+    "sourceUrl": null,
+    "evidenceQuote": null,
+    "observation": null
+  },
+  "systems": {
+    "crm": {
+      "state": "hubspot_confirmed",
+      "evidence": [
+        {
+          "id": "o32",
+          "quote": "hubspotusercontent",
+          "sourceUrl": "https://getaccept.com/",
+          "sourceType": "html_artifact",
+          "retrievedAt": "2026-08-24T07:50:57.430Z",
+          "strength": "strong_proxy",
+          "proves": "HubSpot-hosted assets or analytics are in use",
+          "doesNotProve": "which HubSpot products are licensed"
+        }
+      ],
+      "note": "hubspot evidence at strong_proxy (hs_analytics)"
+    },
+    "prm": {
+      "state": "unknown",
+      "vendor": null,
+      "evidence": [],
+      "note": "No fingerprint found. Most vendors serve tenants from the customer's own domain and a login-walled portal leaks nothing, so this is unknown rather than absent."
+    }
+  },
+  "people": {
+    "state": "unknown",
+    "people": [],
+    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+  },
+  "temporal": {
+    "state": "first_observation",
+    "baselineAt": "2026-08-24T07:50:57.430Z",
+    "lastCheckedAt": "2026-08-24T07:50:57.430Z",
+    "changes": [],
+    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+  },
+  "contradictions": [],
+  "researchTasks": [
+    {
+      "question": "Is there partner machinery behind a login that we cannot see?",
+      "whyItBlocks": "Deal registration and pipeline usually sit behind the partner portal, so absence of public evidence is expected rather than informative.",
+      "whereToLook": "Check whether a partner login exists at all; its presence implies machinery we cannot inspect.",
+      "resolves": "operational_surface"
+    }
+  ],
+  "evidenceCoverage": "sparse",
+  "coverageNote": "Sparse public evidence. This describes how much this company publishes, not how good a prospect it is.",
+  "sourceHealth": [
+    {
+      "url": "https://getaccept.com/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.getaccept.com/product",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.getaccept.com/compare",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.getaccept.com/alternatives",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.getaccept.com/vs",
+      "health": "not_found",
+      "status": 404
+    }
+  ],
+  "commercialSummary": "GetAccept describes itself as \"Enhance your sales process with GetAccept\". No partner programme type could be identified from the pages retrieved. Visible partner workflows include partner recruitment. The company appears to operate the programme itself. Public evidence does not establish partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "machineInterpretation": {
+    "state": "research",
+    "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
+    "reasons": [
+      "Partner motion is visible but its commercial role is not established."
+    ],
+    "diagnostics": {
+      "observationCount": 3,
+      "distinctClaimCount": 2,
+      "independentSourceCount": 1,
+      "publicationDensity": "sparse",
+      "constructEvidenceCount": 2,
+      "volumeSensitive": false,
+      "unattributableDropped": 0
+    }
+  },
+  "humanReview": null,
+  "provenance": "real_observation"
+}

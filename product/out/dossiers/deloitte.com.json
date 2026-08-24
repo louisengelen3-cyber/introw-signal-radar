@@ -1,0 +1,199 @@
+{
+  "domain": "deloitte.com",
+  "companyName": "Deloitte",
+  "selfDescription": {
+    "text": "Industry insights and audit, consulting, financial advisory, risk management and tax services from Deloitte's global network of member firms.",
+    "sourceUrl": "https://www.deloitte.com"
+  },
+  "geography": null,
+  "builtAt": "2026-08-24T07:53:08.911Z",
+  "category": {
+    "whyItMatters": "The company is a professional-services firm; its \"partners\" are frequently equity partners or alliance memberships.",
+    "whyItMayNotMatter": "Some services firms operate genuine software resale channels.",
+    "unknown": "Whether any product resale motion exists.",
+    "suggestedResearch": "Check for a software resale or implementation programme distinct from alliances.",
+    "underObserved": false,
+    "state": "professional_services",
+    "signals": [
+      {
+        "kind": "professional_services",
+        "quote": "Deloitte Belgium | Audit, Consulting, Financial, Risk Management, Tax Services",
+        "url": "https://www.deloitte.com",
+        "sourceType": "title_tag",
+        "matched": "audit + consulting + risk management + tax services"
+      }
+    ],
+    "knownCompetitorList": {
+      "onList": false,
+      "lastReviewed": "2026-08-24"
+    }
+  },
+  "constructs": [
+    {
+      "construct": "commercial_materiality",
+      "state": "unknown",
+      "evidence": [],
+      "counterEvidence": [],
+      "unknown": [
+        "partner-sourced revenue share",
+        "number of active partners"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 0,
+        "independentSources": 0,
+        "observedItems": 0
+      },
+      "whyItMatters": "Partners appear to take part in winning customers or revenue, which is what makes partner operations worth tooling.",
+      "whyItMayNotMatter": "It does not establish how much revenue, how many partners, or whether the motion is active today."
+    },
+    {
+      "construct": "operational_ownership",
+      "state": "unknown",
+      "evidence": [],
+      "counterEvidence": [],
+      "unknown": [
+        "who owns the programme internally",
+        "whether operation is shared with a distributor"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 0,
+        "independentSources": 0,
+        "observedItems": 0
+      },
+      "whyItMatters": "The company appears to run the partner motion itself, so it would be the buyer of tooling rather than a participant in someone else's.",
+      "whyItMayNotMatter": "Operating a programme says nothing about its size; a competitor with an excellent programme scores identically here."
+    },
+    {
+      "construct": "operational_surface",
+      "state": "unknown",
+      "evidence": [],
+      "counterEvidence": [],
+      "unknown": [
+        "volume through each workflow",
+        "what sits behind the partner login"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 0,
+        "independentSources": 0,
+        "observedItems": 0
+      },
+      "whyItMatters": "Visible partner workflows suggest there is machinery that software could reduce the manual cost of.",
+      "whyItMayNotMatter": "A published workflow is not a used workflow, and login-walled machinery is invisible either way."
+    }
+  ],
+  "programmes": [],
+  "partnerDirectory": {
+    "isDirectory": false,
+    "lowerBound": 0,
+    "method": "none",
+    "sampleNames": [],
+    "certificationLanguage": false,
+    "sourceUrl": null,
+    "evidenceQuote": null,
+    "observation": null
+  },
+  "systems": {
+    "crm": {
+      "state": "unknown",
+      "evidence": [],
+      "note": "No CRM artifact found on the retrieved pages. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 33% recall against companies known to run a supported CRM, and Salesforce was never detected at all."
+    },
+    "prm": {
+      "state": "unknown",
+      "vendor": null,
+      "evidence": [],
+      "note": "No fingerprint found. Most vendors serve tenants from the customer's own domain and a login-walled portal leaks nothing, so this is unknown rather than absent."
+    }
+  },
+  "people": {
+    "state": "unknown",
+    "people": [],
+    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+  },
+  "temporal": {
+    "state": "first_observation",
+    "baselineAt": "2026-08-24T07:53:08.911Z",
+    "lastCheckedAt": "2026-08-24T07:53:08.911Z",
+    "changes": [],
+    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+  },
+  "contradictions": [],
+  "researchTasks": [
+    {
+      "question": "Does this company run a partner programme at all?",
+      "whyItBlocks": "No partner claim was retrieved, so nothing here supports or refutes fit. Everything is blocking.",
+      "whereToLook": "Check the site footer and main navigation for a partner link, then search for the company name with \"partner program\".",
+      "resolves": "commercial_materiality"
+    },
+    {
+      "question": "Does this company recruit its own partners, or has it joined someone else's programme?",
+      "whyItBlocks": "Participant pages read exactly like operator pages, and the evidence would belong to a different company.",
+      "whereToLook": "Look for a \"become a partner\" intake form on this domain, not a partner badge.",
+      "resolves": "operational_ownership"
+    },
+    {
+      "question": "Which CRM does the partner team use?",
+      "whyItBlocks": "Introw syncs into HubSpot or Salesforce; the answer is unobservable publicly about two-thirds of the time.",
+      "whereToLook": "Ask on the first call. Public detection is not reliable enough to be worth more effort.",
+      "resolves": "crm"
+    }
+  ],
+  "evidenceCoverage": "sparse",
+  "coverageNote": "Sparse public evidence. This describes how much this company publishes, not how good a prospect it is.",
+  "sourceHealth": [
+    {
+      "url": "https://deloitte.com/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.deloitte.com/product",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.deloitte.com/products",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.deloitte.com/platform",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.deloitte.com/pricing",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.deloitte.com/what-we-do",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.deloitte.com/solutions",
+      "health": "not_found",
+      "status": 404
+    }
+  ],
+  "commercialSummary": "Deloitte describes itself as \"Industry insights and audit, consulting, financial advisory, risk management and tax services from Deloitte's global network of member firms\". No partner programme type could be identified from the pages retrieved. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "machineInterpretation": {
+    "state": "under_observed",
+    "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
+    "reasons": [
+      "No distinct partner claim was retrieved. This reflects what the company publishes, not its suitability."
+    ],
+    "diagnostics": {
+      "observationCount": 0,
+      "distinctClaimCount": 0,
+      "independentSourceCount": 0,
+      "publicationDensity": "sparse",
+      "constructEvidenceCount": 0,
+      "volumeSensitive": false,
+      "unattributableDropped": 0
+    }
+  },
+  "humanReview": null,
+  "provenance": "real_observation"
+}

@@ -1,0 +1,32 @@
+{
+  "purpose": "Fresh product-validation sample for the seller-efficiency experiment. No domain here appears in any Phase 0-4 benchmark, in the regression corpus, or in holdout v2/v3. Frozen before any dossier was built or reviewed.",
+  "composition": "Deliberately mixed, not curated for ease: mid-market European and US B2B SaaS with plausible partner motions, plus non-software companies, a likely partner-tech vendor, a consultancy, a marketplace and several small/sparse accounts. Roughly what a real prospecting list looks like.",
+  "warning": "These are UNLABELLED. A review outcome here is a commercial judgement, not ground truth, and may not be scored as accuracy (§56).",
+  "frozenAt": "2026-08-24",
+  "companies": [
+    {"domain":"getaccept.com","name":"GetAccept"},
+    {"domain":"oneflow.com","name":"Oneflow"},
+    {"domain":"planhat.com","name":"Planhat"},
+    {"domain":"trengo.com","name":"Trengo"},
+    {"domain":"channable.com","name":"Channable"},
+    {"domain":"sana-commerce.com","name":"Sana Commerce"},
+    {"domain":"efficy.com","name":"Efficy"},
+    {"domain":"mews.com","name":"Mews"},
+    {"domain":"apaleo.com","name":"Apaleo"},
+    {"domain":"weglot.com","name":"Weglot"},
+    {"domain":"juro.com","name":"Juro"},
+    {"domain":"leapsome.com","name":"Leapsome"},
+    {"domain":"pleo.io","name":"Pleo"},
+    {"domain":"spendesk.com","name":"Spendesk"},
+    {"domain":"payfit.com","name":"PayFit"},
+    {"domain":"factorialhr.com","name":"Factorial"},
+    {"domain":"twikey.com","name":"Twikey"},
+    {"domain":"lano.io","name":"Lano"},
+    {"domain":"foleon.com","name":"Foleon"},
+    {"domain":"productsup.com","name":"Productsup"},
+    {"domain":"upsales.com","name":"Upsales"},
+    {"domain":"younium.com","name":"Younium"},
+    {"domain":"cegeka.com","name":"Cegeka"},
+    {"domain":"vinted.com","name":"Vinted"}
+  ]
+}

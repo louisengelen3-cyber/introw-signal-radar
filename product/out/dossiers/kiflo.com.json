@@ -1,0 +1,658 @@
+{
+  "domain": "kiflo.com",
+  "companyName": "Kiflo",
+  "selfDescription": {
+    "text": "The partner revenue platform that goes beyond partner management (PRM) software. Connect your partner ecosystem to target accounts, co-sell, and revenue.",
+    "sourceUrl": "https://www.kiflo.com"
+  },
+  "geography": null,
+  "builtAt": "2026-08-24T07:53:05.357Z",
+  "category": {
+    "whyItMatters": "The company appears on the maintained competitor list AND positions its own product as partner management.",
+    "whyItMayNotMatter": "A partner-tech vendor still runs its own partner programme and could in principle buy tooling. This is a commercial exclusion, not a factual one.",
+    "unknown": "Whether partner management is the whole product or one module of a broader one.",
+    "suggestedResearch": "Confirm from the pricing or product page whether partner management is the product itself.",
+    "underObserved": false,
+    "state": "direct_introw_competitor",
+    "signals": [
+      {
+        "kind": "partner_tech_product",
+        "quote": "Kiflo: Partnership Management Software, Built for Revenue",
+        "url": "https://www.kiflo.com",
+        "sourceType": "title_tag",
+        "matched": "Partnership Management Software"
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "The partner revenue platform that goes beyond partner management (PRM) software. Connect your partner ecosystem to target accounts, co-sell, and revenue.",
+        "url": "https://www.kiflo.com",
+        "sourceType": "meta_description",
+        "matched": "PRM"
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "The partner revenue platform that goes beyond partner management (PRM) software. Connect your partner ecosystem to target accounts, co-sell, and revenue.",
+        "url": "https://www.kiflo.com",
+        "sourceType": "og_description",
+        "matched": "PRM"
+      }
+    ],
+    "knownCompetitorList": {
+      "onList": true,
+      "lastReviewed": "2026-08-24"
+    }
+  },
+  "constructs": [
+    {
+      "construct": "commercial_materiality",
+      "state": "confirmed",
+      "evidence": [
+        {
+          "id": "o1",
+          "quote": "A partner who purchases your product or service at a discount and",
+          "sourceUrl": "https://www.kiflo.com/glossary/reseller",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.357Z",
+          "strength": "confirmed",
+          "proves": "the company describes partners selling or reselling its product",
+          "doesNotProve": "the volume of resale, or that resale revenue is material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o2",
+          "quote": "that promotes your offering via affiliate links to earn commission on leads or sales. Affiliate Program A formal structure where",
+          "sourceUrl": "https://www.kiflo.com/glossary/reseller",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.357Z",
+          "strength": "confirmed",
+          "proves": "the company pitches partner participation as revenue for the partner",
+          "doesNotProve": "that any partner earns it, or that the company tracks it",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "partner-sourced revenue share",
+        "number of active partners"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 2,
+        "independentSources": 1,
+        "observedItems": 10
+      },
+      "whyItMatters": "Partners appear to take part in winning customers or revenue, which is what makes partner operations worth tooling.",
+      "whyItMayNotMatter": "It does not establish how much revenue, how many partners, or whether the motion is active today."
+    },
+    {
+      "construct": "operational_ownership",
+      "state": "direct",
+      "evidence": [
+        {
+          "id": "o3",
+          "quote": "A role focused on identifying, recruiting, and supporting channel partners to expand a company’s indirect sales reach. Channel Marketing",
+          "sourceUrl": "https://www.kiflo.com/glossary/reseller",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.357Z",
+          "strength": "strong_proxy",
+          "proves": "the company distinguishes and manages more than one kind of partner",
+          "doesNotProve": "how many partners exist in each type",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o4",
+          "quote": "customer segments where they offer localized expertise. Partner Enablement Needs: Resellers typically require deep product training, marketing",
+          "sourceUrl": "https://www.kiflo.com/glossary/reseller",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.357Z",
+          "strength": "strong_proxy",
+          "proves": "the company supplies partners with resources, enablement or a named contact",
+          "doesNotProve": "that partners use them",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "who owns the programme internally",
+        "whether operation is shared with a distributor"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 2,
+        "independentSources": 1,
+        "observedItems": 10
+      },
+      "whyItMatters": "The company appears to run the partner motion itself, so it would be the buyer of tooling rather than a participant in someone else's.",
+      "whyItMayNotMatter": "Operating a programme says nothing about its size; a competitor with an excellent programme scores identically here."
+    },
+    {
+      "construct": "operational_surface",
+      "state": "rich",
+      "evidence": [
+        {
+          "id": "o5",
+          "quote": "special pricing, legal terms, and deal structuring. Deal Registration A formal notification by a partner to claim a sales opportunity,",
+          "sourceUrl": "https://www.kiflo.com/glossary/reseller",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.357Z",
+          "strength": "strong_proxy",
+          "proves": "partners participate in the sales process through a defined intake",
+          "doesNotProve": "that the company is unhappy with how it handles them today",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o6",
+          "quote": "— it cannot compensate for missing infrastructure. Your Partner Portal Is a Product — Not a Launch Low adoption is not a tooling problem.",
+          "sourceUrl": "https://www.kiflo.com/resources/build-right-partner-operations-guide-scaling-teams",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.357Z",
+          "strength": "strong_proxy",
+          "proves": "a partner-specific operational surface exists",
+          "doesNotProve": "adoption, or that partners log into it",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o7",
+          "quote": "partners based on criteria such as territory, vertical, partner tier, or expertise. Lead Generation The process of attracting and",
+          "sourceUrl": "https://www.kiflo.com/glossary/reseller",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.357Z",
+          "strength": "strong_proxy",
+          "proves": "the company differentiates partners by commitment or performance",
+          "doesNotProve": "how many partners sit in each tier",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o8",
+          "quote": "leads, attending training, or closing their first deal. Partner Certification A formal process where partners complete training and meet specific",
+          "sourceUrl": "https://www.kiflo.com/glossary/reseller",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.357Z",
+          "strength": "strong_proxy",
+          "proves": "the company trains or certifies people outside its own staff",
+          "doesNotProve": "that those people transact — customer academies look identical",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o9",
+          "quote": "partner that tracks clicks and conversions for accurate commission tracking. Affiliate Marketing A performance-based marketing",
+          "sourceUrl": "https://www.kiflo.com/glossary/reseller",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.357Z",
+          "strength": "strong_proxy",
+          "proves": "the company pays partners for commercial outcomes",
+          "doesNotProve": "the size of the payments or how they are calculated",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o10",
+          "quote": "focused, and relationship-driven in the early phase. “Partner programs are not a shortcut to growth — they are a force multiplier. When",
+          "sourceUrl": "https://www.kiflo.com/resources/7-pain-points-startups-face-launching-partner-program",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.357Z",
+          "strength": "strong_proxy",
+          "proves": "the company runs more than one distinct partner track",
+          "doesNotProve": "that they share an owner or a system",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "counterEvidence": [],
+      "unknown": [
+        "volume through each workflow",
+        "what sits behind the partner login"
+      ],
+      "sourceQuality": {
+        "distinctClaims": 6,
+        "independentSources": 1,
+        "observedItems": 10
+      },
+      "whyItMatters": "Visible partner workflows suggest there is machinery that software could reduce the manual cost of.",
+      "whyItMayNotMatter": "A published workflow is not a used workflow, and login-walled machinery is invisible either way."
+    }
+  ],
+  "programmes": [
+    {
+      "kind": "reseller",
+      "publishedName": "Affiliate Program",
+      "evidence": [
+        {
+          "id": "o11",
+          "quote": "Reseller A partner who purchases your product or service at a discount and resells it to end customers, often with added services or regional",
+          "sourceUrl": "https://www.kiflo.com/glossary/reseller",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.357Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses reseller partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o12",
+          "quote": "to join your program, often using sales techniques, prospecting, and targeted messaging. Partner Any external organization or individual (reseller, affiliate, referral) that collaborates with your company to drive sales, growth, adoption, or product value. Partner Acquisition The",
+          "sourceUrl": "https://www.kiflo.com/glossary/partner-program",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.357Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses reseller partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 2,
+          "alsoSeenAt": [
+            "https://www.kiflo.com/glossary/marketing-development-funds-mdf"
+          ]
+        },
+        {
+          "id": "o13",
+          "quote": "are delivered efficiently to resellers or end customers. Procurement Management: They purchase large quantities from the vendor and resell to local partners, often acting as the financial buffer between the vendor and the broader channel. Partner Enablement: Distributors",
+          "sourceUrl": "https://www.kiflo.com/glossary/distribution-partnerships",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.357Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses reseller partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "surfaces": [
+        {
+          "surface": "onboarding",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o15",
+              "quote": "in 2026. View resource Guide: Onboarding New vs. Existing Partners Learn the key distinctions between onboarding new partners vs. existing partners to your program in Kiflo. View resource Keep 100% of your partners updated and",
+              "sourceUrl": "https://www.kiflo.com/resources/7-pain-points-startups-face-launching-partner-program",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.357Z",
+              "strength": "strong_proxy",
+              "proves": "the company describes a defined start process for new partners",
+              "doesNotProve": "that it is systematised rather than manual",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        },
+        {
+          "surface": "enablement",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o16",
+              "quote": "specific geographic markets, industries, or niche customer segments where they offer localized expertise. Partner Enablement Needs: Resellers typically require deep product training, marketing resources, sales support, and ongoing",
+              "sourceUrl": "https://www.kiflo.com/glossary/reseller",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.357Z",
+              "strength": "strong_proxy",
+              "proves": "material is produced specifically for partners",
+              "doesNotProve": "that partners consume it",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o17",
+              "quote": "analyze the performance of their entire partner ecosystem, including partner data insights, and automation. Partner Enablement The strategies and resources used to prepare partners to succeed, including training, content, playbooks,",
+              "sourceUrl": "https://www.kiflo.com/glossary/partner-program",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.357Z",
+              "strength": "strong_proxy",
+              "proves": "material is produced specifically for partners",
+              "doesNotProve": "that partners consume it",
+              "duplicateCount": 2,
+              "alsoSeenAt": [
+                "https://www.kiflo.com/glossary/marketing-development-funds-mdf"
+              ]
+            },
+            {
+              "id": "o18",
+              "quote": "built and advised on award-winning channel programs across industries, making him a trusted voice in the partner enablement space. In this Q&A session, he walked us through what it means to build a partner program using the",
+              "sourceUrl": "https://www.kiflo.com/webinars/radical-simplicity-how-to-build-a-frictionless-scalable-partner-program",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.357Z",
+              "strength": "strong_proxy",
+              "proves": "material is produced specifically for partners",
+              "doesNotProve": "that partners consume it",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o19",
+              "quote": "resell to local partners, often acting as the financial buffer between the vendor and the broader channel. Partner Enablement: Distributors support local resellers with onboarding, training, marketing resources, and sometimes deal",
+              "sourceUrl": "https://www.kiflo.com/glossary/distribution-partnerships",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.357Z",
+              "strength": "strong_proxy",
+              "proves": "material is produced specifically for partners",
+              "doesNotProve": "that partners consume it",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o20",
+              "quote": "& Training Needs Its Own Goals A holistic plan includes revenue targets, marketing activities, and partner enablement milestones. 04 SOSTAC® Helps Bring Strategic Discipline Situation → Objectives → Strategy → Tactics →",
+              "sourceUrl": "https://www.kiflo.com/resources/partner-business-plan-guide",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.357Z",
+              "strength": "strong_proxy",
+              "proves": "material is produced specifically for partners",
+              "doesNotProve": "that partners consume it",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        },
+        {
+          "surface": "certification",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o21",
+              "quote": "starts to contribute value including submitting leads, attending training, or closing their first deal. Partner Certification A formal process where partners complete training and meet specific criteria to be recognized as competent",
+              "sourceUrl": "https://www.kiflo.com/glossary/reseller",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.357Z",
+              "strength": "strong_proxy",
+              "proves": "the company distinguishes qualified partners formally",
+              "doesNotProve": "the number certified",
+              "duplicateCount": 4,
+              "alsoSeenAt": [
+                "https://www.kiflo.com/glossary/partner-program",
+                "https://www.kiflo.com/glossary/distribution-partnerships",
+                "https://www.kiflo.com/glossary/marketing-development-funds-mdf"
+              ]
+            }
+          ]
+        },
+        {
+          "surface": "deal_registration",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o22",
+              "quote": "support function for partners that reviews and approves special pricing, legal terms, and deal structuring. Deal Registration A formal notification by a partner to claim a sales opportunity, often granting protection or exclusive",
+              "sourceUrl": "https://www.kiflo.com/glossary/reseller",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.357Z",
+              "strength": "strong_proxy",
+              "proves": "the company operates opportunity conflict management with partners",
+              "doesNotProve": "the number of deals registered",
+              "duplicateCount": 2,
+              "alsoSeenAt": [
+                "https://www.kiflo.com/glossary/marketing-development-funds-mdf"
+              ]
+            },
+            {
+              "id": "o23",
+              "quote": "tied to participation and results. Expectations and Requirements: Clearly defined performance standards, deal registration processes, certification goals, and engagement activities partners must meet. Tools and Resources:",
+              "sourceUrl": "https://www.kiflo.com/glossary/partner-program",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.357Z",
+              "strength": "strong_proxy",
+              "proves": "the company operates opportunity conflict management with partners",
+              "doesNotProve": "the number of deals registered",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o24",
+              "quote": "Distributors support local resellers with onboarding, training, marketing resources, and sometimes deal registration systems—effectively multiplying the vendor’s capacity. Regional Compliance and Support: Distributors often",
+              "sourceUrl": "https://www.kiflo.com/glossary/distribution-partnerships",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.357Z",
+              "strength": "strong_proxy",
+              "proves": "the company operates opportunity conflict management with partners",
+              "doesNotProve": "the number of deals registered",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            },
+            {
+              "id": "o25",
+              "quote": "Is Not a PRM CRM platforms manage direct sales. PRMs manage indirect ecosystems — onboarding, enablement, deal registration, incentives, attribution, and partner measurement. Treating them as interchangeable creates friction fast.",
+              "sourceUrl": "https://www.kiflo.com/resources/build-right-partner-operations-guide-scaling-teams",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.357Z",
+              "strength": "strong_proxy",
+              "proves": "the company operates opportunity conflict management with partners",
+              "doesNotProve": "the number of deals registered",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        },
+        {
+          "surface": "co_selling",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o26",
+              "quote": "performance between two B2B entities. B2B Partnerships Strategic collaborations between two businesses to co-sell, cross-promote, or integrate solutions for mutual growth. Business Development The process of identifying,",
+              "sourceUrl": "https://www.kiflo.com/glossary/reseller",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.357Z",
+              "strength": "strong_proxy",
+              "proves": "the company describes selling alongside partners",
+              "doesNotProve": "that co-selling is systematised",
+              "duplicateCount": 4,
+              "alsoSeenAt": [
+                "https://www.kiflo.com/glossary/partner-program",
+                "https://www.kiflo.com/glossary/distribution-partnerships",
+                "https://www.kiflo.com/glossary/marketing-development-funds-mdf"
+              ]
+            },
+            {
+              "id": "o27",
+              "quote": "was modularity. Partner programs should be flexible by design. Not every partner is the same. Some want to co-sell aggressively. Others prefer a slower ramp-up focused on enablement. A modular program allows for both.",
+              "sourceUrl": "https://www.kiflo.com/webinars/radical-simplicity-how-to-build-a-frictionless-scalable-partner-program",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.357Z",
+              "strength": "strong_proxy",
+              "proves": "the company describes selling alongside partners",
+              "doesNotProve": "that co-selling is systematised",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        },
+        {
+          "surface": "portal",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o28",
+              "quote": "operations. A portal amplifies a strong backbone — it cannot compensate for missing infrastructure. Your Partner Portal Is a Product — Not a Launch Low adoption is not a tooling problem. It is a product problem. Portals must be",
+              "sourceUrl": "https://www.kiflo.com/resources/build-right-partner-operations-guide-scaling-teams",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.357Z",
+              "strength": "strong_proxy",
+              "proves": "partners have an authenticated destination",
+              "doesNotProve": "what is inside it — the portal is invisible to us by design",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        },
+        {
+          "surface": "partner_pipeline",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o29",
+              "quote": "and lead management solutions. Program Goals and KPIs: Shared targets such as pipeline contribution, partner-sourced revenue, activation rates, and customer retention metrics that measure the program’s success. Partner Programs are",
+              "sourceUrl": "https://www.kiflo.com/glossary/partner-program",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.357Z",
+              "strength": "strong_proxy",
+              "proves": "the company speaks about partner-originated pipeline",
+              "doesNotProve": "its size",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        },
+        {
+          "surface": "programme_tiers",
+          "state": "confirmed",
+          "evidence": [
+            {
+              "id": "o30",
+              "quote": "The process of assigning leads to specific partners based on criteria such as territory, vertical, partner tier, or expertise. Lead Generation The process of attracting and capturing interest from potential customers",
+              "sourceUrl": "https://www.kiflo.com/glossary/reseller",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.357Z",
+              "strength": "strong_proxy",
+              "proves": "the programme distinguishes partners by level",
+              "doesNotProve": "how many sit in each tier",
+              "duplicateCount": 4,
+              "alsoSeenAt": [
+                "https://www.kiflo.com/glossary/partner-program",
+                "https://www.kiflo.com/glossary/distribution-partnerships",
+                "https://www.kiflo.com/glossary/marketing-development-funds-mdf"
+              ]
+            },
+            {
+              "id": "o31",
+              "quote": "of partnership-specific metrics — partner source revenue, partner influence revenue, number of partners, partner tiers — and ask how they connect to the top KPIs for the company. Gautham also encouraged partner pros to flip",
+              "sourceUrl": "https://www.kiflo.com/webinars/cracking-the-c-suite-how-to-secure-executive-buy-in-for-your-partner-program",
+              "sourceType": "partner_surface",
+              "retrievedAt": "2026-08-24T07:53:05.357Z",
+              "strength": "strong_proxy",
+              "proves": "the programme distinguishes partners by level",
+              "doesNotProve": "how many sit in each tier",
+              "duplicateCount": 1,
+              "alsoSeenAt": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "affiliate",
+      "publishedName": "Affiliate Program",
+      "evidence": [
+        {
+          "id": "o14",
+          "quote": "and crediting affiliates for conversions using tools like tracking cookies or unique URLs. Affiliate Link A unique URL assigned to an affiliate partner that tracks clicks and conversions for accurate commission tracking. Affiliate Marketing A performance-based marketing strategy where",
+          "sourceUrl": "https://www.kiflo.com/glossary/reseller",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T07:53:05.357Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses affiliate partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 4,
+          "alsoSeenAt": [
+            "https://www.kiflo.com/glossary/partner-program",
+            "https://www.kiflo.com/glossary/distribution-partnerships",
+            "https://www.kiflo.com/glossary/marketing-development-funds-mdf"
+          ]
+        }
+      ],
+      "surfaces": []
+    }
+  ],
+  "partnerDirectory": {
+    "isDirectory": false,
+    "lowerBound": 0,
+    "method": "none",
+    "sampleNames": [],
+    "certificationLanguage": false,
+    "sourceUrl": null,
+    "evidenceQuote": null,
+    "observation": null
+  },
+  "systems": {
+    "crm": {
+      "state": "unknown",
+      "evidence": [],
+      "note": "No CRM artifact found on the retrieved pages. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 33% recall against companies known to run a supported CRM, and Salesforce was never detected at all."
+    },
+    "prm": {
+      "state": "unknown",
+      "vendor": null,
+      "evidence": [],
+      "note": "No fingerprint found. Most vendors serve tenants from the customer's own domain and a login-walled portal leaks nothing, so this is unknown rather than absent."
+    }
+  },
+  "people": {
+    "state": "unknown",
+    "people": [],
+    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+  },
+  "temporal": {
+    "state": "first_observation",
+    "baselineAt": "2026-08-24T07:53:05.357Z",
+    "lastCheckedAt": "2026-08-24T07:53:05.357Z",
+    "changes": [],
+    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+  },
+  "contradictions": [],
+  "researchTasks": [
+    {
+      "question": "Does this company recruit its own partners, or has it joined someone else's programme?",
+      "whyItBlocks": "Participant pages read exactly like operator pages, and the evidence would belong to a different company.",
+      "whereToLook": "Look for a \"become a partner\" intake form on this domain, not a partner badge.",
+      "resolves": "operational_ownership"
+    },
+    {
+      "question": "Which CRM does the partner team use?",
+      "whyItBlocks": "Introw syncs into HubSpot or Salesforce; the answer is unobservable publicly about two-thirds of the time.",
+      "whereToLook": "Ask on the first call. Public detection is not reliable enough to be worth more effort.",
+      "resolves": "crm"
+    }
+  ],
+  "evidenceCoverage": "rich",
+  "coverageNote": "Public evidence was sufficient to read the partner surfaces that exist.",
+  "sourceHealth": [
+    {
+      "url": "https://kiflo.com/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.kiflo.com/product",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.kiflo.com/compare",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.kiflo.com/alternatives",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.kiflo.com/vs",
+      "health": "not_found",
+      "status": 404
+    }
+  ],
+  "commercialSummary": "Kiflo describes itself as \"The partner revenue platform that goes beyond partner management (PRM) software. Connect your partner ecosystem to target accounts, co-sell, and revenue\". Its own product positioning is partner management, so its partner content describes what it sells rather than how it goes to market. Public pages describe a reseller, affiliate motion under the name \"Affiliate Program\". Visible partner workflows include onboarding, enablement, certification, deal registration. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size.",
+  "machineInterpretation": {
+    "state": "suppression_candidate",
+    "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
+    "reasons": [
+      "Listed as a known competitor (asserted business data)."
+    ],
+    "diagnostics": {
+      "observationCount": 10,
+      "distinctClaimCount": 10,
+      "independentSourceCount": 1,
+      "publicationDensity": "rich",
+      "constructEvidenceCount": 10,
+      "volumeSensitive": false,
+      "unattributableDropped": 0
+    }
+  },
+  "humanReview": null,
+  "provenance": "real_observation"
+}
