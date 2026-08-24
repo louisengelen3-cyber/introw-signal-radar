@@ -91,7 +91,7 @@ export function Overview({ index, reviews, onOpen, onGo }: {
           <h2 className="sect display">Flagged for suppression</h2>
           <p className="sect-sub">
             The machine believes these should not be prospected. Confirm before dismissing — the category
-            classifier catches roughly 57% of partner-tech vendors, so this list is not exhaustive.
+            classifier caught 8 of 14 partner-tech vendors on frozen holdouts, so this list is not exhaustive.
           </p>
           {/* Compact by design: for a suppression candidate the REASON is the whole story, and the
               construct grid is a row of "Unknown" that adds nothing. */}
@@ -101,12 +101,17 @@ export function Overview({ index, reviews, onOpen, onGo }: {
                 <button className="suppress" onClick={() => onOpen(a.domain)}>
                   <span className="suppress-main">
                     <span className="c-name">{a.companyName ?? a.domain}</span>
-                    <span className="suppress-why">{CATEGORY_LABEL[a.category] ?? humanise(a.category)}</span>
+                    {/* The machine's own reason, not a restatement of the category — Cubbit is
+                        suppressed because its partner surface resolves to Introw, which has
+                        nothing to do with its category. */}
+                    <span className="suppress-why">{a.machineReason ?? CATEGORY_LABEL[a.category] ?? humanise(a.category)}</span>
                   </span>
                   <span className="suppress-chips">
-                    {a.onCompetitorList
-                      ? <Chip tone="blocker" icon="!">On competitor list</Chip>
-                      : <Chip tone="blocker" icon="!">Inferred from positioning</Chip>}
+                    {a.prmIsIntrow
+                      ? <Chip tone="blocker" icon="!">Existing customer</Chip>
+                      : a.onCompetitorList
+                        ? <Chip tone="blocker" icon="!">On competitor list</Chip>
+                        : <Chip tone="blocker" icon="!">Inferred from positioning</Chip>}
                     <span className="suppress-go">Open →</span>
                   </span>
                 </button>

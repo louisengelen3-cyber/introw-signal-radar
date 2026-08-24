@@ -40,6 +40,9 @@ export interface IndexRow {
   contradictions: number;
   researchTasks: number;
   topUnknown: string | null;
+  /** The machine's own first reason, so a list row states why rather than restating a category. */
+  machineReason: string | null;
+  prmIsIntrow: boolean;
   retrievedAt: string;
   sourceHealthOk: number;
   sourceHealthTotal: number;
@@ -69,6 +72,8 @@ const row = (d: Dossier): IndexRow => ({
   researchTasks: d.researchTasks.length,
   // The single most useful unknown for a list row: the first research question.
   topUnknown: d.researchTasks[0]?.question ?? null,
+  machineReason: d.machineInterpretation.reasons[0] ?? null,
+  prmIsIntrow: d.systems.prm.state === 'introw_confirmed',
   retrievedAt: d.oldestEvidenceAt ?? d.builtAt,
   sourceHealthOk: d.sourceHealth.filter((h) => h.health === 'success').length,
   sourceHealthTotal: d.sourceHealth.length,

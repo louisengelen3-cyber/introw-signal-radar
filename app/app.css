@@ -345,6 +345,6 @@ table.accounts { border-collapse: collapse; width: 100%; font-size: .84rem; min-
 }
 .suppress:hover { border-color: var(--blocker); }
 .suppress-main { display: flex; flex-direction: column; gap: 2px; }
-.suppress-why { font-size: .82rem; color: var(--blocker); }
+.suppress-why { font-size: .82rem; color: var(--blocker); max-width: 78ch; }
 .suppress-chips { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 .suppress-go { font-size: .84rem; font-weight: 600; color: var(--accent); white-space: nowrap; }

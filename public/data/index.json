@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-24T11:28:53.321Z",
+ "generatedAt": "2026-08-24T11:30:04.244Z",
  "count": 35,
  "monitoringSince": "2026-08-23",
  "accounts": [
@@ -29,6 +29,8 @@
    "contradictions": 0,
    "researchTasks": 1,
    "topUnknown": "Is there partner machinery behind a login that we cannot see?",
+   "machineReason": "Partners are described as taking part in revenue, the company appears to operate the motion itself, and partner workflows are visible.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-21T13:57:18.512Z",
    "sourceHealthOk": 6,
    "sourceHealthTotal": 21
@@ -59,6 +61,8 @@
    "contradictions": 1,
    "researchTasks": 2,
    "topUnknown": "Does this company recruit its own partners, or has it joined someone else's programme?",
+   "machineReason": "1 unresolved contradiction in the evidence.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-23T07:45:56.222Z",
    "sourceHealthOk": 10,
    "sourceHealthTotal": 26
@@ -86,6 +90,8 @@
    "contradictions": 0,
    "researchTasks": 3,
    "topUnknown": "Does this company run a partner programme at all?",
+   "machineReason": "No distinct partner claim could be extracted. This may mean the company publishes little, or that we could not read what it publishes — it says nothing about suitability.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:33:59.645Z",
    "sourceHealthOk": 3,
    "sourceHealthTotal": 19
@@ -116,6 +122,8 @@
    "contradictions": 0,
    "researchTasks": 2,
    "topUnknown": "Which CRM does the partner team use?",
+   "machineReason": "Partner evidence exists but does not support a confident reading.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-21T13:57:33.319Z",
    "sourceHealthOk": 3,
    "sourceHealthTotal": 20
@@ -143,6 +151,8 @@
    "contradictions": 0,
    "researchTasks": 1,
    "topUnknown": "Does this company run a partner programme at all?",
+   "machineReason": "No distinct partner claim could be extracted. This may mean the company publishes little, or that we could not read what it publishes — it says nothing about suitability.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:35:51.911Z",
    "sourceHealthOk": 9,
    "sourceHealthTotal": 27
@@ -172,6 +182,8 @@
    "contradictions": 1,
    "researchTasks": 4,
    "topUnknown": "What does this company sell?",
+   "machineReason": "The main domain could not be retrieved (bot_protection), but other surfaces were read; treat coverage as partial.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T11:28:34.236Z",
    "sourceHealthOk": 1,
    "sourceHealthTotal": 3
@@ -203,6 +215,8 @@
    "contradictions": 0,
    "researchTasks": 1,
    "topUnknown": "Confirm this account in the CRM before any outreach.",
+   "machineReason": "The partner surface is served by Introw. This account is already a customer, not a prospect.",
+   "prmIsIntrow": true,
    "retrievedAt": "2026-08-21T13:56:22.010Z",
    "sourceHealthOk": 9,
    "sourceHealthTotal": 23
@@ -230,6 +244,8 @@
    "contradictions": 0,
    "researchTasks": 3,
    "topUnknown": "Does this company run a partner programme at all?",
+   "machineReason": "No distinct partner claim could be extracted. This may mean the company publishes little, or that we could not read what it publishes — it says nothing about suitability.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-23T07:46:21.999Z",
    "sourceHealthOk": 7,
    "sourceHealthTotal": 23
@@ -257,6 +273,8 @@
    "contradictions": 0,
    "researchTasks": 3,
    "topUnknown": "Does this company run a partner programme at all?",
+   "machineReason": "The company positions itself as a services firm, which is typically a partner in other vendors' programmes rather than an operator of its own.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-21T13:59:36.539Z",
    "sourceHealthOk": 6,
    "sourceHealthTotal": 25
@@ -284,6 +302,8 @@
    "contradictions": 1,
    "researchTasks": 3,
    "topUnknown": "Does this company recruit its own partners, or has it joined someone else's programme?",
+   "machineReason": "1 unresolved contradiction in the evidence.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:16:24.961Z",
    "sourceHealthOk": 15,
    "sourceHealthTotal": 24
@@ -311,6 +331,8 @@
    "contradictions": 0,
    "researchTasks": 4,
    "topUnknown": "Does this company run a partner programme at all?",
+   "machineReason": "The site could not be retrieved (bot_protection). Nothing here is evidence about the company.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T11:28:45.118Z",
    "sourceHealthOk": 0,
    "sourceHealthTotal": 2
@@ -338,6 +360,8 @@
    "contradictions": 0,
    "researchTasks": 4,
    "topUnknown": "Does this company run a partner programme at all?",
+   "machineReason": "The site could not be retrieved (bot_protection). Nothing here is evidence about the company.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T11:28:34.736Z",
    "sourceHealthOk": 0,
    "sourceHealthTotal": 2
@@ -368,6 +392,8 @@
    "contradictions": 0,
    "researchTasks": 2,
    "topUnknown": "Which CRM does the partner team use?",
+   "machineReason": "Partners are described as taking part in revenue, the company appears to operate the motion itself, and partner workflows are visible.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-21T13:56:20.940Z",
    "sourceHealthOk": 6,
    "sourceHealthTotal": 24
@@ -395,6 +421,8 @@
    "contradictions": 0,
    "researchTasks": 1,
    "topUnknown": "How do these partner relationships actually work commercially?",
+   "machineReason": "A published directory lists at least 82 partner organisations, described as certified.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:35:31.379Z",
    "sourceHealthOk": 5,
    "sourceHealthTotal": 18
@@ -422,6 +450,8 @@
    "contradictions": 0,
    "researchTasks": 1,
    "topUnknown": "Is there partner machinery behind a login that we cannot see?",
+   "machineReason": "Partner motion is visible but its commercial role is not established.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:33:14.186Z",
    "sourceHealthOk": 6,
    "sourceHealthTotal": 19
@@ -449,6 +479,8 @@
    "contradictions": 0,
    "researchTasks": 2,
    "topUnknown": "Does this company run a partner programme at all?",
+   "machineReason": "Partners appear to be supply rather than a route to market.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:16:23.377Z",
    "sourceHealthOk": 8,
    "sourceHealthTotal": 27
@@ -476,6 +508,8 @@
    "contradictions": 0,
    "researchTasks": 2,
    "topUnknown": "Does this company run a partner programme at all?",
+   "machineReason": "No distinct partner claim could be extracted. This may mean the company publishes little, or that we could not read what it publishes — it says nothing about suitability.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:34:13.538Z",
    "sourceHealthOk": 8,
    "sourceHealthTotal": 25
@@ -503,6 +537,8 @@
    "contradictions": 0,
    "researchTasks": 3,
    "topUnknown": "Does this company run a partner programme at all?",
+   "machineReason": "Listed as a known competitor (asserted business data).",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-23T08:48:52.121Z",
    "sourceHealthOk": 12,
    "sourceHealthTotal": 28
@@ -533,6 +569,8 @@
    "contradictions": 0,
    "researchTasks": 2,
    "topUnknown": "Which CRM does the partner team use?",
+   "machineReason": "Partner evidence exists but does not support a confident reading.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:35:29.968Z",
    "sourceHealthOk": 8,
    "sourceHealthTotal": 25
@@ -560,6 +598,8 @@
    "contradictions": 0,
    "researchTasks": 2,
    "topUnknown": "Does this company run a partner programme at all?",
+   "machineReason": "No distinct partner claim could be extracted. This may mean the company publishes little, or that we could not read what it publishes — it says nothing about suitability.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:34:24.885Z",
    "sourceHealthOk": 10,
    "sourceHealthTotal": 25
@@ -589,6 +629,8 @@
    "contradictions": 0,
    "researchTasks": 1,
    "topUnknown": "Which CRM does the partner team use?",
+   "machineReason": "Listed as a known competitor (asserted business data).",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-23T08:58:54.460Z",
    "sourceHealthOk": 11,
    "sourceHealthTotal": 29
@@ -618,6 +660,8 @@
    "contradictions": 0,
    "researchTasks": 1,
    "topUnknown": "Is there partner machinery behind a login that we cannot see?",
+   "machineReason": "A published directory lists at least 11 partner organisations.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:33:51.138Z",
    "sourceHealthOk": 17,
    "sourceHealthTotal": 26
@@ -645,6 +689,8 @@
    "contradictions": 0,
    "researchTasks": 2,
    "topUnknown": "Which CRM does the partner team use?",
+   "machineReason": "Partner motion is visible but its commercial role is not established.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:33:14.187Z",
    "sourceHealthOk": 10,
    "sourceHealthTotal": 20
@@ -672,6 +718,8 @@
    "contradictions": 0,
    "researchTasks": 2,
    "topUnknown": "Which CRM does the partner team use?",
+   "machineReason": "Partner evidence exists but does not support a confident reading.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:35:07.147Z",
    "sourceHealthOk": 4,
    "sourceHealthTotal": 23
@@ -699,6 +747,8 @@
    "contradictions": 0,
    "researchTasks": 2,
    "topUnknown": "Which CRM does the partner team use?",
+   "machineReason": "Partners are described as taking part in revenue, but no partner workflow was observed — so there is no evidence of machinery for software to reduce.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:33:14.188Z",
    "sourceHealthOk": 3,
    "sourceHealthTotal": 20
@@ -728,6 +778,8 @@
    "contradictions": 1,
    "researchTasks": 3,
    "topUnknown": "Does this company recruit its own partners, or has it joined someone else's programme?",
+   "machineReason": "A published directory lists at least 15 partner organisations.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:34:36.126Z",
    "sourceHealthOk": 9,
    "sourceHealthTotal": 25
@@ -755,6 +807,8 @@
    "contradictions": 0,
    "researchTasks": 1,
    "topUnknown": "Does this company run a partner programme at all?",
+   "machineReason": "No distinct partner claim could be extracted. This may mean the company publishes little, or that we could not read what it publishes — it says nothing about suitability.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:35:41.706Z",
    "sourceHealthOk": 13,
    "sourceHealthTotal": 26
@@ -785,6 +839,8 @@
    "contradictions": 0,
    "researchTasks": 2,
    "topUnknown": "Which CRM does the partner team use?",
+   "machineReason": "A published directory lists at least 12 partner organisations.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:33:43.814Z",
    "sourceHealthOk": 9,
    "sourceHealthTotal": 23
@@ -812,6 +868,8 @@
    "contradictions": 0,
    "researchTasks": 2,
    "topUnknown": "Which CRM does the partner team use?",
+   "machineReason": "Partner evidence exists but does not support a confident reading.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:35:00.978Z",
    "sourceHealthOk": 5,
    "sourceHealthTotal": 21
@@ -842,6 +900,8 @@
    "contradictions": 1,
    "researchTasks": 1,
    "topUnknown": "Is there partner machinery behind a login that we cannot see?",
+   "machineReason": "1 unresolved contradiction in the evidence.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:33:14.190Z",
    "sourceHealthOk": 12,
    "sourceHealthTotal": 28
@@ -869,6 +929,8 @@
    "contradictions": 1,
    "researchTasks": 3,
    "topUnknown": "Does this company recruit its own partners, or has it joined someone else's programme?",
+   "machineReason": "1 unresolved contradiction in the evidence.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:35:26.251Z",
    "sourceHealthOk": 6,
    "sourceHealthTotal": 23
@@ -896,6 +958,8 @@
    "contradictions": 0,
    "researchTasks": 3,
    "topUnknown": "Does this company run a partner programme at all?",
+   "machineReason": "No distinct partner claim could be extracted. This may mean the company publishes little, or that we could not read what it publishes — it says nothing about suitability.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:35:43.336Z",
    "sourceHealthOk": 3,
    "sourceHealthTotal": 16
@@ -923,6 +987,8 @@
    "contradictions": 0,
    "researchTasks": 3,
    "topUnknown": "Does this company run a partner programme at all?",
+   "machineReason": "No distinct partner claim could be extracted. This may mean the company publishes little, or that we could not read what it publishes — it says nothing about suitability.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:36:10.129Z",
    "sourceHealthOk": 3,
    "sourceHealthTotal": 22
@@ -956,6 +1022,8 @@
    "contradictions": 0,
    "researchTasks": 2,
    "topUnknown": "Which CRM does the partner team use?",
+   "machineReason": "Partners are described as taking part in revenue, the company appears to operate the motion itself, and partner workflows are visible.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:34:06.389Z",
    "sourceHealthOk": 12,
    "sourceHealthTotal": 25
@@ -983,6 +1051,8 @@
    "contradictions": 0,
    "researchTasks": 1,
    "topUnknown": "Is there partner machinery behind a login that we cannot see?",
+   "machineReason": "Partner motion is visible but its commercial role is not established.",
+   "prmIsIntrow": false,
    "retrievedAt": "2026-08-24T07:35:48.614Z",
    "sourceHealthOk": 8,
    "sourceHealthTotal": 20

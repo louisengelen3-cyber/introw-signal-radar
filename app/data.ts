@@ -31,6 +31,8 @@ export interface IndexRow {
   contradictions: number;
   researchTasks: number;
   topUnknown: string | null;
+  machineReason: string | null;
+  prmIsIntrow: boolean;
   retrievedAt: string;
   sourceHealthOk: number;
   sourceHealthTotal: number;
