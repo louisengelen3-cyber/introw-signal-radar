@@ -1,0 +1,645 @@
+[
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "quatt.io",
+    "radarHits": [
+      "/partners",
+      "/partner-program"
+    ],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "nibe.eu",
+    "radarHits": [
+      "/partner"
+    ],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "viessmann.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "daikin.eu",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "vaillant.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "rittal.com",
+    "radarHits": [
+      "/become-a-partner",
+      "/partner-network",
+      "/nl/partners"
+    ],
+    "tradeHits": [],
+    "operationalSignals": 4,
+    "quotes": [
+      "IT-Partner-Portal Contact Imprint/Legal German Spanish Russian Partner Portal Login Forgot your password? Back to Startscreen Rittal Partner Program The Rittal Partner",
+      "TAL currently has two classifications of channel partners: (i) RITTAL Certified Partner and (ii) RITTAL Premium Partner. The classification of any given channel partner depends",
+      "ons of channel partners: (i) RITTAL Certified Partner and (ii) RITTAL Premium Partner. The classification of any given channel partner depends on the business model and busine",
+      "chases”). Channel Partner shall only be entitled to receive an Annual Rebate in a given calendar year if the Channel Partner meets or exceeds its Sales Target (as defined in Section 9) for such calendar year. If Ch"
+    ]
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "kramp.com",
+    "radarHits": [
+      "/en/partners",
+      "/nl/partners",
+      "/fr/partenaires",
+      "/de/partner"
+    ],
+    "tradeHits": [
+      "/en/where-to-buy",
+      "/en/dealers",
+      "/en/distributors"
+    ],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "zehnder-systems.com",
+    "radarHits": [
+      "/partners",
+      "/partner",
+      "/partner-program",
+      "/partner-programme",
+      "/partnerships",
+      "/resellers",
+      "/agencies",
+      "/become-a-partner",
+      "/partner-network",
+      "/en/partners",
+      "/nl/partners",
+      "/fr/partenaires",
+      "/de/partner"
+    ],
+    "tradeHits": [
+      "/where-to-buy",
+      "/dealers",
+      "/dealer-locator",
+      "/find-a-dealer",
+      "/become-a-dealer",
+      "/installers",
+      "/installer-locator",
+      "/find-an-installer",
+      "/become-an-installer",
+      "/distributors",
+      "/distributor-locator",
+      "/find-a-distributor",
+      "/sales-partners",
+      "/service-partners",
+      "/service-network",
+      "/system-integrators",
+      "/integrators",
+      "/verkooppunten",
+      "/dealer-zoeken",
+      "/installateur",
+      "/installateurs",
+      "/vakhandel",
+      "/haendlersuche",
+      "/handelspartner",
+      "/fachpartner",
+      "/fachbetriebe",
+      "/vertriebspartner",
+      "/ou-acheter",
+      "/revendeurs",
+      "/installateurs-agrees",
+      "/points-de-vente",
+      "/en/where-to-buy",
+      "/en/dealers",
+      "/en/distributors",
+      "/en/partners/find"
+    ],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "grundfos.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "wago.com",
+    "radarHits": [
+      "/partners",
+      "/partner",
+      "/partner-program",
+      "/partner-programme",
+      "/partnerships",
+      "/resellers",
+      "/agencies",
+      "/become-a-partner",
+      "/partner-network",
+      "/en/partners"
+    ],
+    "tradeHits": [
+      "/where-to-buy",
+      "/dealers",
+      "/dealer-locator",
+      "/find-a-dealer",
+      "/become-a-dealer",
+      "/installers",
+      "/installer-locator",
+      "/find-an-installer",
+      "/become-an-installer",
+      "/distributors",
+      "/distributor-locator",
+      "/find-a-distributor",
+      "/sales-partners",
+      "/service-partners",
+      "/service-network",
+      "/system-integrators",
+      "/integrators",
+      "/verkooppunten",
+      "/dealer-zoeken",
+      "/installateur",
+      "/installateurs",
+      "/vakhandel",
+      "/haendlersuche",
+      "/handelspartner",
+      "/fachpartner",
+      "/fachbetriebe",
+      "/vertriebspartner",
+      "/ou-acheter",
+      "/revendeurs",
+      "/installateurs-agrees",
+      "/points-de-vente",
+      "/en/where-to-buy",
+      "/en/dealers",
+      "/en/distributors",
+      "/en/partners/find"
+    ],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "niko.eu",
+    "radarHits": [
+      "/partners",
+      "/partner",
+      "/en/partners",
+      "/nl/partners",
+      "/de/partner"
+    ],
+    "tradeHits": [
+      "/ou-acheter"
+    ],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "phoenixcontact.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "hager.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "beckhoff.com",
+    "radarHits": [
+      "/nl/partners",
+      "/fr/partenaires"
+    ],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "sick.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "festo.com",
+    "radarHits": [],
+    "tradeHits": [
+      "/distributors",
+      "/vertriebspartner"
+    ],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "pilz.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "ifm.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "turck.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "balluff.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "schneider-electric.com",
+    "radarHits": [
+      "/partners",
+      "/en/partners"
+    ],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "nedap.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "loxone.com",
+    "radarHits": [
+      "/partner",
+      "/partner-program",
+      "/partner-programme",
+      "/partnerships",
+      "/resellers",
+      "/agencies",
+      "/become-a-partner",
+      "/partner-network",
+      "/en/partners",
+      "/nl/partners",
+      "/fr/partenaires",
+      "/de/partner"
+    ],
+    "tradeHits": [
+      "/where-to-buy",
+      "/dealers",
+      "/dealer-locator",
+      "/find-a-dealer",
+      "/become-a-dealer",
+      "/installers",
+      "/installer-locator",
+      "/find-an-installer",
+      "/become-an-installer",
+      "/distributors",
+      "/distributor-locator",
+      "/find-a-distributor",
+      "/sales-partners",
+      "/service-partners",
+      "/service-network",
+      "/system-integrators",
+      "/integrators",
+      "/verkooppunten",
+      "/dealer-zoeken",
+      "/installateur",
+      "/installateurs",
+      "/vakhandel",
+      "/haendlersuche",
+      "/handelspartner",
+      "/fachpartner",
+      "/fachbetriebe",
+      "/vertriebspartner",
+      "/ou-acheter",
+      "/revendeurs",
+      "/installateurs-agrees",
+      "/points-de-vente",
+      "/en/where-to-buy",
+      "/en/dealers",
+      "/en/distributors",
+      "/en/partners/find"
+    ],
+    "operationalSignals": 2,
+    "quotes": [
+      "inning. Get a transparent overview of all the benefits you enjoy as a certified partner – including support that truly helps you progress – and the requirements for a successful",
+      "ebshop and benefit from the partner discount. Ready to go right away. SILVER Partner As a Silver Partner, you are certified, visible in our Partner Search and successfully im"
+    ]
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "milesight.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "teltonika-networks.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "advantech.com",
+    "radarHits": [
+      "/partner"
+    ],
+    "tradeHits": [],
+    "operationalSignals": 1,
+    "quotes": [
+      "IRGINIA WASHINGTON WEST VIRGINIA WISCONSIN WYOMING Uzbekistan Vietnam Partner Level Select Level Premier Channel Partner (PCP) Authorized Channel Partner (ACP) Domain Soluti"
+    ]
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "kerlink.com",
+    "radarHits": [
+      "/partners",
+      "/fr/partenaires"
+    ],
+    "tradeHits": [
+      "/distributors",
+      "/en/distributors"
+    ],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "digi.com",
+    "radarHits": [],
+    "tradeHits": [
+      "/distributors",
+      "/en/distributors"
+    ],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "moxa.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "somfy.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "barco.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "biamp.com",
+    "radarHits": [
+      "/partners",
+      "/partner",
+      "/partner-program",
+      "/partner-programme",
+      "/partnerships",
+      "/resellers",
+      "/agencies",
+      "/become-a-partner",
+      "/partner-network",
+      "/en/partners",
+      "/nl/partners",
+      "/fr/partenaires",
+      "/de/partner"
+    ],
+    "tradeHits": [
+      "/where-to-buy",
+      "/dealers",
+      "/dealer-locator",
+      "/find-a-dealer",
+      "/become-a-dealer",
+      "/installers",
+      "/installer-locator",
+      "/find-an-installer",
+      "/become-an-installer",
+      "/distributors",
+      "/distributor-locator",
+      "/find-a-distributor",
+      "/sales-partners",
+      "/service-partners",
+      "/service-network",
+      "/system-integrators",
+      "/integrators",
+      "/verkooppunten",
+      "/dealer-zoeken",
+      "/installateur",
+      "/installateurs",
+      "/vakhandel",
+      "/haendlersuche",
+      "/handelspartner",
+      "/fachpartner",
+      "/fachbetriebe",
+      "/vertriebspartner",
+      "/ou-acheter",
+      "/revendeurs",
+      "/installateurs-agrees",
+      "/points-de-vente",
+      "/en/where-to-buy",
+      "/en/dealers",
+      "/en/distributors",
+      "/en/partners/find"
+    ],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "sensative.com",
+    "radarHits": [
+      "/partners",
+      "/partner",
+      "/en/partners",
+      "/nl/partners",
+      "/de/partner"
+    ],
+    "tradeHits": [
+      "/where-to-buy",
+      "/system-integrators",
+      "/en/where-to-buy"
+    ],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "extron.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "crestron.com",
+    "radarHits": [
+      "/partners",
+      "/partnerships"
+    ],
+    "tradeHits": [],
+    "operationalSignals": 1,
+    "quotes": [
+      "stron Connected or XiO Connected. Try It Out Now Let's work together. Become a Partner To learn more about whether a partnership is right for your company, please complete the"
+    ]
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "axis.com",
+    "radarHits": [
+      "/partners",
+      "/partner"
+    ],
+    "tradeHits": [
+      "/where-to-buy",
+      "/sales-partners"
+    ],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "zebra.com",
+    "radarHits": [
+      "/partners"
+    ],
+    "tradeHits": [],
+    "operationalSignals": 1,
+    "quotes": [
+      "ly Apply Now Partner Resources Partner Resources Support for Partners Partner Portal Developer Portal Partners Zebra and Our Partners Collaboration is key to transformational"
+    ]
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "datalogic.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "ubiquiti.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "vertiv.com",
+    "radarHits": [
+      "/partners",
+      "/partner"
+    ],
+    "tradeHits": [],
+    "operationalSignals": 3,
+    "quotes": [
+      "ss. Updated partner portal Use this to access exclusive benefits like Deal Registration and our Rewards Program, support contacts, latest promotions and more. Sales selectors an",
+      "olve customer challenges and drive revenue for your business. Updated partner portal Use this to access exclusive benefits like Deal Registration and our Rewards Program, sup",
+      "igned to help you succeed.* (*Program benefits may vary by region and partner tier) Dedicated sales support Our highly skilled representatives will work alongside your team",
+      "ss. Updated partner portal Use this to access exclusive benefits like Deal Registration and our Rewards Program, support contacts, latest promotions and more. Sales selectors an"
+    ]
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "hanwhavision.eu",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "solar_energy_tech",
+    "domain": "fronius.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "solar_energy_tech",
+    "domain": "sma.de",
+    "radarHits": [
+      "/partner",
+      "/en/partners",
+      "/fr/partenaires"
+    ],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "solar_energy_tech",
+    "domain": "solaredge.com",
+    "radarHits": [],
+    "tradeHits": [
+      "/en/distributors"
+    ],
+    "operationalSignals": 0,
+    "quotes": []
+  }
+]

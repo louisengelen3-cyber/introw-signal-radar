@@ -1,0 +1,91 @@
+{
+  "purpose": "Frozen cross-industry benchmark for the discovery/observability bias audit. Sourced independently of the Radar: no company here comes from Radar discovery output, and the non-software cohorts were assembled from sector knowledge of companies whose business model plausibly involves dealers, installers, distributors, system integrators or service partners.",
+  "samplingFrame": "Deliberately channel-plausible, per the mandate's instruction to seek hard non-SaaS positives. This is NOT a random sample of each industry, so it measures OBSERVABILITY given a plausible channel, not the base rate of channel motion within a sector.",
+  "note": "Introw's own site names Manufacturing, IoT, Hospitality Tech, E-commerce Tech, Legal Tech, Fintech, HR Tech, Cybersecurity, SaaS, AI Tech and MarTech as served verticals, and names distributors, resellers, system integrators, MSPs, agencies, implementation partners, solution partners, OEM/ecosystem partners and service/maintenance partners as supported motions. The cohorts below follow that stated ICP rather than the existing corpus.",
+  "frozenAt": "2026-08-24",
+  "cohorts": {
+    "saas_software": [
+      {"domain":"teamleader.eu","country":"BE"},{"domain":"odoo.com","country":"BE"},
+      {"domain":"silverfin.com","country":"BE"},{"domain":"chargebee.com","country":"US"},
+      {"domain":"storyblok.com","country":"AT","note":"named Introw customer"},
+      {"domain":"contentful.com","country":"DE"},{"domain":"sitecore.com","country":"US"},
+      {"domain":"exact.com","country":"NL"},{"domain":"visma.com","country":"NO"},
+      {"domain":"unit4.com","country":"NL"}
+    ],
+    "cybersecurity_it": [
+      {"domain":"aikido.dev","country":"BE","note":"named Introw customer"},
+      {"domain":"reversinglabs.com","country":"US","note":"named Introw customer"},
+      {"domain":"acronis.com","country":"CH"},{"domain":"eset.com","country":"SK"},
+      {"domain":"bitdefender.com","country":"RO"},{"domain":"watchguard.com","country":"US"},
+      {"domain":"sophos.com","country":"UK"},{"domain":"barracuda.com","country":"US"},
+      {"domain":"hornetsecurity.com","country":"DE"},{"domain":"nomios.com","country":"NL"}
+    ],
+    "fintech": [
+      {"domain":"mollie.com","country":"NL"},{"domain":"twikey.com","country":"BE"},
+      {"domain":"unifiedpost.com","country":"BE"},{"domain":"isabel.eu","country":"BE"},
+      {"domain":"modulrfinance.com","country":"UK"},{"domain":"clearbank.com","country":"UK"},
+      {"domain":"nmbrs.com","country":"NL"},{"domain":"yuki.nl","country":"NL"}
+    ],
+    "hr_business_software": [
+      {"domain":"personio.com","country":"DE","note":"named Introw customer"},
+      {"domain":"factorialhr.com","country":"ES","note":"named Introw customer"},
+      {"domain":"officient.io","country":"BE"},{"domain":"shiftbase.com","country":"NL"},
+      {"domain":"sdworx.com","country":"BE"},{"domain":"protime.eu","country":"BE"}
+    ],
+    "manufacturing_equipment": [
+      {"domain":"quatt.io","country":"NL","note":"named Introw customer — installer network, 10 to 200 partners"},
+      {"domain":"vaillant.com","country":"DE"},{"domain":"viessmann.com","country":"DE"},
+      {"domain":"daikin.eu","country":"BE"},{"domain":"nibe.eu","country":"SE"},
+      {"domain":"itho-daalderop.nl","country":"NL"},{"domain":"zehnder-systems.com","country":"CH"},
+      {"domain":"grundfos.com","country":"DK"},{"domain":"kramp.com","country":"NL"},
+      {"domain":"rittal.com","country":"DE"},{"domain":"hager.com","country":"DE"},
+      {"domain":"niko.eu","country":"BE"}
+    ],
+    "industrial_automation": [
+      {"domain":"phoenixcontact.com","country":"DE"},{"domain":"wago.com","country":"DE"},
+      {"domain":"beckhoff.com","country":"DE"},{"domain":"sick.com","country":"DE"},
+      {"domain":"festo.com","country":"DE"},{"domain":"pilz.com","country":"DE"},
+      {"domain":"ifm.com","country":"DE"},{"domain":"turck.com","country":"DE"},
+      {"domain":"balluff.com","country":"DE"},{"domain":"schneider-electric.com","country":"FR"}
+    ],
+    "iot_connected_devices": [
+      {"domain":"loxone.com","country":"AT"},{"domain":"nedap.com","country":"NL"},
+      {"domain":"teltonika-networks.com","country":"LT"},{"domain":"milesight.com","country":"CN"},
+      {"domain":"advantech.com","country":"TW"},{"domain":"moxa.com","country":"TW"},
+      {"domain":"digi.com","country":"US"},{"domain":"kerlink.com","country":"FR"},
+      {"domain":"somfy.com","country":"FR"},{"domain":"sensative.com","country":"SE"}
+    ],
+    "hardware_electronics": [
+      {"domain":"barco.com","country":"BE"},{"domain":"crestron.com","country":"US"},
+      {"domain":"extron.com","country":"US"},{"domain":"biamp.com","country":"US"},
+      {"domain":"axis.com","country":"SE"},{"domain":"hanwhavision.eu","country":"KR"},
+      {"domain":"zebra.com","country":"US"},{"domain":"datalogic.com","country":"IT"},
+      {"domain":"ubiquiti.com","country":"US"},{"domain":"vertiv.com","country":"US"}
+    ],
+    "solar_energy_tech": [
+      {"domain":"fronius.com","country":"AT"},{"domain":"sma.de","country":"DE"},
+      {"domain":"solaredge.com","country":"IL"},{"domain":"enphase.com","country":"US"},
+      {"domain":"victronenergy.com","country":"NL"},{"domain":"growatt.com","country":"CN"}
+    ],
+    "hospitality_tech": [
+      {"domain":"mews.com","country":"NL"},{"domain":"apaleo.com","country":"DE"},
+      {"domain":"guestline.com","country":"UK"},{"domain":"cloudbeds.com","country":"US"},
+      {"domain":"siteminder.com","country":"AU"},{"domain":"shijigroup.com","country":"CN"}
+    ],
+    "ecommerce_tech": [
+      {"domain":"sana-commerce.com","country":"NL"},{"domain":"shopware.com","country":"DE"},
+      {"domain":"spryker.com","country":"DE"},{"domain":"commercetools.com","country":"DE"},
+      {"domain":"channable.com","country":"NL"},{"domain":"bloomreach.com","country":"US"}
+    ],
+    "martech_salestech": [
+      {"domain":"getaccept.com","country":"SE"},{"domain":"oneflow.com","country":"SE"},
+      {"domain":"productsup.com","country":"DE"},{"domain":"ringover.com","country":"FR","note":"named Introw customer"},
+      {"domain":"aircall.io","country":"FR"},{"domain":"trengo.com","country":"NL"}
+    ],
+    "other_b2b_channel": [
+      {"domain":"konicaminolta.eu","country":"JP"},{"domain":"ricoh-europe.com","country":"JP"},
+      {"domain":"eaton.com","country":"IE"},{"domain":"legrand.com","country":"FR"},
+      {"domain":"trotec.com","country":"DE"},{"domain":"stihl.com","country":"DE"}
+    ]
+  }
+}
