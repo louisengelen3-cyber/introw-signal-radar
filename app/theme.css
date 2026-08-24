@@ -1,0 +1,129 @@
+/*
+ * Introw Signal Radar — design tokens and base.
+ *
+ * Visual identity follows the supplied Introw direction: a warm cream ground, chunky slab
+ * display type, burnt-orange accent, soft beige cards, no shadows. What it does NOT follow is
+ * the mockups' CONTENT — "Priority Accounts", "186 partners", "93× operational load" and a
+ * partner-growth chart were all invalidated during validation, so the language is kept and
+ * the claims are not.
+ *
+ * Two rules govern colour, and both exist because of measured failures:
+ *
+ *   1. COLOUR MARKS KIND, NOT QUALITY. There is no scale from red to green. Green means
+ *      "verified from a source", amber means "uncertain", grey means "context", and red is
+ *      reserved for real blockers. An account is never tinted by how good a prospect it is,
+ *      because the system does not know that.
+ *
+ *   2. UNKNOWN IS NOT A GAP. Unknown states get the same size, weight and border as confirmed
+ *      ones. If unknown looks like an error, a reader slides from "we didn't see it" to
+ *      "they don't have it" — the failure this whole product exists to avoid.
+ */
+
+:root {
+  /* ground and surfaces */
+  --cream:      #F4EDDF;
+  --cream-deep: #EDE3D0;
+  --card:       #E9DEC7;
+  --card-soft:  #EFE7D6;
+  --white:      #FDFBF6;
+
+  /* ink */
+  --ink:        #1C1611;
+  --body:       #4A4239;
+  --muted:      #857A6C;
+  --faint:      #A2988A;
+
+  /* structure */
+  --line:       #DCCFB4;
+  --line-soft:  #E5DAC3;
+
+  /* accent — attention and action */
+  --accent:      #A65A26;
+  --accent-deep: #8A4A1E;
+  --accent-soft: #F3E4D3;
+
+  /* semantic — kind, never quality */
+  --verified:     #4A7A2A;
+  --verified-bg:  #E6F0D6;
+  --verified-line:#C6DCA9;
+
+  --uncertain:     #96701A;
+  --uncertain-bg:  #F6EBCF;
+  --uncertain-line:#E2CE9B;
+
+  --neutral:      #6B6255;
+  --neutral-bg:   #E7DFD0;
+  --neutral-line: #D5C9B3;
+
+  --blocker:      #9B3A22;
+  --blocker-bg:   #F6E2DB;
+  --blocker-line: #E4C0B2;
+
+  --r-sm: 8px; --r-md: 14px; --r-lg: 20px; --r-full: 999px;
+
+  --display: "Fraunces", Georgia, serif;
+  --sans: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --shell: 1360px;
+}
+
+/*
+ * Dark mode. The identity is a warm cream product, so dark keeps the warmth rather than
+ * inverting to a cold slate: a warm near-black ground with the same accent family.
+ */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --cream: #14110D; --cream-deep: #191510; --card: #211C15; --card-soft: #1B1710; --white: #191510;
+    --ink: #F2ECE1; --body: #C9C0B2; --muted: #948A7B; --faint: #756C5F;
+    --line: #302920; --line-soft: #262019;
+    --accent: #D2854A; --accent-deep: #E39A62; --accent-soft: #2A1D12;
+    --verified: #8FBF63; --verified-bg: #1A2312; --verified-line: #33471F;
+    --uncertain: #D6B057; --uncertain-bg: #241D0E; --uncertain-line: #453919;
+    --neutral: #9C9284; --neutral-bg: #221D16; --neutral-line: #342C22;
+    --blocker: #E08360; --blocker-bg: #261410; --blocker-line: #4A2519;
+  }
+}
+:root[data-theme="dark"] {
+  --cream: #14110D; --cream-deep: #191510; --card: #211C15; --card-soft: #1B1710; --white: #191510;
+  --ink: #F2ECE1; --body: #C9C0B2; --muted: #948A7B; --faint: #756C5F;
+  --line: #302920; --line-soft: #262019;
+  --accent: #D2854A; --accent-deep: #E39A62; --accent-soft: #2A1D12;
+  --verified: #8FBF63; --verified-bg: #1A2312; --verified-line: #33471F;
+  --uncertain: #D6B057; --uncertain-bg: #241D0E; --uncertain-line: #453919;
+  --neutral: #9C9284; --neutral-bg: #221D16; --neutral-line: #342C22;
+  --blocker: #E08360; --blocker-bg: #261410; --blocker-line: #4A2519;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--cream); color: var(--body);
+  font-family: var(--sans); font-size: 15px; line-height: 1.6;
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+}
+h1, h2, h3, h4 { color: var(--ink); margin: 0; text-wrap: balance; }
+.display { font-family: var(--display); font-weight: 700; font-variation-settings: "SOFT" 30, "WONK" 1; letter-spacing: -.01em; }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+button { font: inherit; color: inherit; }
+p { margin: 0 0 14px; }
+p:last-child { margin-bottom: 0; }
+
+/* Focus is always visible and never colour-only. */
+:where(a, button, input, textarea, select, [tabindex]):focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px;
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+.skip-link {
+  position: absolute; left: 12px; top: -60px; z-index: 100;
+  background: var(--accent); color: #fff; padding: 10px 16px; border-radius: var(--r-sm);
+  transition: top .12s;
+}
+.skip-link:focus { top: 12px; }

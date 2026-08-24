@@ -153,7 +153,26 @@ export function snapToSentences(text: string, opts: { minLength?: number } = {})
     const candidate = out.slice(0, last.index + last[0].length).trim();
     if (candidate.length >= min) out = candidate;
   }
-  return out.length >= min ? out : t;
+  if (out.length >= min) return dropLeadingFragment(out);
+  return dropLeadingFragment(t);
+}
+
+/**
+ * Drop a leading partial word.
+ *
+ * Character-windowed snippets routinely begin mid-token — "evenue, and get support from our
+ * no-nonsense enablement" is a real quote this produced, where the window cut through
+ * "revenue". A quote that starts inside a word reads as a broken scraper no matter how good
+ * the evidence behind it is. A fragment is a lowercase run that is not itself a plausible
+ * sentence opener.
+ */
+function dropLeadingFragment(t: string): string {
+  const m = t.match(/^([a-z][a-z'’-]*)([,.;:!?)]*\s+)/);
+  if (!m) return t;
+  // Common lowercase openers are left alone; anything else at the head of a cut window is
+  // far more likely to be the tail of a word than a real first word.
+  if (/^(the|a|an|our|your|their|we|you|and|to|for|with|as|by|in|on|at|of|is|are|it|this|that|all|new|get|join|become|earn|build|grow|access|partner|partners|resell|refer)$/.test(m[1])) return t;
+  return t.slice(m[0].length);
 }
 
 /**

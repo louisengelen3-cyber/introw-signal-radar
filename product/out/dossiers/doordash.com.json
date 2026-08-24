@@ -3,8 +3,8 @@
   "companyName": "DoorDash",
   "selfDescription": null,
   "geography": null,
-  "builtAt": "2026-08-24T08:18:27.337Z",
-  "oldestEvidenceAt": "2026-08-24T08:18:27.337Z",
+  "builtAt": "2026-08-24T11:04:35.450Z",
+  "oldestEvidenceAt": "2026-08-24T11:04:35.450Z",
   "category": {
     "whyItMatters": "No identity-bearing surface could be read, so the company category is not established.",
     "whyItMayNotMatter": "This says nothing about the company — only about our retrieval.",
@@ -169,8 +169,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T08:18:27.337Z",
-    "lastCheckedAt": "2026-08-24T08:18:27.337Z",
+    "baselineAt": "2026-08-24T11:04:35.450Z",
+    "lastCheckedAt": "2026-08-24T11:04:35.450Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

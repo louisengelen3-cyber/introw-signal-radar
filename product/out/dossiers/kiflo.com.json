@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.kiflo.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T08:18:24.298Z",
+  "builtAt": "2026-08-24T11:04:32.454Z",
   "oldestEvidenceAt": "2026-08-23T08:48:52.121Z",
   "category": {
     "whyItMatters": "The company appears on the maintained competitor list AND positions its own product as partner management.",
@@ -194,8 +194,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T08:18:24.298Z",
-    "lastCheckedAt": "2026-08-24T08:18:24.298Z",
+    "baselineAt": "2026-08-24T11:04:32.454Z",
+    "lastCheckedAt": "2026-08-24T11:04:32.454Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -279,9 +279,9 @@
       "status": 200
     },
     {
-      "url": "https://dealreg.kiflo.com/",
-      "health": "not_found",
-      "status": 404
+      "url": "https://partners.kiflo.com/",
+      "health": "success",
+      "status": 200
     },
     {
       "url": "https://www.kiflo.com/glossary/distribution-partnerships",
@@ -379,7 +379,7 @@
       "constructEvidenceCount": 0,
       "supportingFindingCount": 0,
       "volumeSensitive": false,
-      "unattributableDropped": 10
+      "unattributableDropped": 9
     }
   },
   "humanReview": null,

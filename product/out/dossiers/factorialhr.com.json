@@ -6,7 +6,7 @@
     "sourceUrl": "https://factorialhr.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T08:18:20.478Z",
+  "builtAt": "2026-08-24T11:04:28.807Z",
   "oldestEvidenceAt": "2026-08-21T13:56:20.940Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -42,11 +42,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o108",
+          "id": "o105",
           "quote": "Become our Reseller Partner By joining our program you will elevate your business",
           "sourceUrl": "https://factorialhr.com/partners-distributors",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.478Z",
+          "retrievedAt": "2026-08-24T11:04:28.807Z",
           "strength": "confirmed",
           "proves": "the company describes partners selling or reselling its product",
           "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -54,11 +54,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o109",
+          "id": "o106",
           "quote": "Expand your service offering, grow your business, and boost your profitability!",
           "sourceUrl": "https://factorialhr.com/partners-distributors",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.478Z",
+          "retrievedAt": "2026-08-24T11:04:28.807Z",
           "strength": "confirmed",
           "proves": "the company pitches partner participation as revenue for the partner",
           "doesNotProve": "that any partner earns it, or that the company tracks it",
@@ -84,11 +84,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o110",
+          "id": "o107",
           "quote": "Become a partner Find out how to become a Factorial Distributor Partner We explain",
           "sourceUrl": "https://factorialhr.com/partners-distributors",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.478Z",
+          "retrievedAt": "2026-08-24T11:04:28.807Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -114,11 +114,11 @@
       "state": "moderate",
       "evidence": [
         {
-          "id": "o111",
+          "id": "o108",
           "quote": "Take a look at the benefits for each type of Partner. Silver Partner 🥈 Gold Partner 🏅 Platinum Partner 🏆 Partner commission $ $$ $$$",
           "sourceUrl": "https://factorialhr.com/partners-distributors",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.478Z",
+          "retrievedAt": "2026-08-24T11:04:28.807Z",
           "strength": "strong_proxy",
           "proves": "the company differentiates partners by commitment or performance",
           "doesNotProve": "how many partners sit in each tier",
@@ -126,11 +126,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o112",
-          "quote": "tions and offers for Partner customers Co-Marketing actions Partner Academy Technical assistance and support Marketing support and materials",
+          "id": "o109",
+          "quote": "and offers for Partner customers Co-Marketing actions Partner Academy Technical assistance and support Marketing support and materials",
           "sourceUrl": "https://factorialhr.com/partners-distributors",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.478Z",
+          "retrievedAt": "2026-08-24T11:04:28.807Z",
           "strength": "strong_proxy",
           "proves": "the company trains or certifies people outside its own staff",
           "doesNotProve": "that those people transact — customer academies look identical",
@@ -138,11 +138,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o113",
-          "quote": "lver Partner 🥈 Gold Partner 🏅 Platinum Partner 🏆 Partner commission $ $$ $$$ Special sales and account support Promotions and offers",
+          "id": "o110",
+          "quote": "Partner 🥈 Gold Partner 🏅 Platinum Partner 🏆 Partner commission $ $$ $$$ Special sales and account support Promotions and offers",
           "sourceUrl": "https://factorialhr.com/partners-distributors",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.478Z",
+          "retrievedAt": "2026-08-24T11:04:28.807Z",
           "strength": "strong_proxy",
           "proves": "the company pays partners for commercial outcomes",
           "doesNotProve": "the size of the payments or how they are calculated",
@@ -170,11 +170,11 @@
       "publishedName": "Partner Program",
       "evidence": [
         {
-          "id": "o114",
+          "id": "o111",
           "quote": "Become our Reseller Partner By joining our program you will elevate your business potential and seize new revenue opportunities.",
           "sourceUrl": "https://factorialhr.com/partners-distributors",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.478Z",
+          "retrievedAt": "2026-08-24T11:04:28.807Z",
           "strength": "strong_proxy",
           "proves": "the company uses reseller partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -182,11 +182,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o115",
+          "id": "o112",
           "quote": "Discover Factorial's partnership programs Choose the type of partnership that best suits your company's needs and become a partner.",
           "sourceUrl": "https://factorialhr.com/partnerships",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.478Z",
+          "retrievedAt": "2026-08-24T11:04:28.807Z",
           "strength": "strong_proxy",
           "proves": "the company uses reseller partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -194,147 +194,18 @@
           "alsoSeenAt": []
         }
       ],
-      "surfaces": [
-        {
-          "surface": "partner_recruitment",
-          "state": "confirmed",
-          "evidence": [
-            {
-              "id": "o117",
-              "quote": "Expand your service offering, grow your business, and boost your profitability!",
-              "sourceUrl": "https://factorialhr.com/partners-distributors",
-              "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T08:18:20.478Z",
-              "strength": "strong_proxy",
-              "proves": "the company publicly invites organisations to join a programme",
-              "doesNotProve": "that anyone joins, or how many",
-              "duplicateCount": 1,
-              "alsoSeenAt": []
-            },
-            {
-              "id": "o118",
-              "quote": "Become a Partner Now! Just want to build a custom solution? Not looking to get listed on our public marketplace? No problem.",
-              "sourceUrl": "https://factorialhr.com/integrations-partner-program",
-              "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T08:18:20.478Z",
-              "strength": "strong_proxy",
-              "proves": "the company publicly invites organisations to join a programme",
-              "doesNotProve": "that anyone joins, or how many",
-              "duplicateCount": 1,
-              "alsoSeenAt": []
-            },
-            {
-              "id": "o119",
-              "quote": "Reseller Referral Product Integration Reseller We partner with companies whose objective is to grow by",
-              "sourceUrl": "https://factorialhr.com/partnerships",
-              "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T08:18:20.478Z",
-              "strength": "strong_proxy",
-              "proves": "the company publicly invites organisations to join a programme",
-              "doesNotProve": "that anyone joins, or how many",
-              "duplicateCount": 1,
-              "alsoSeenAt": []
-            }
-          ]
-        },
-        {
-          "surface": "application",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "onboarding",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "enablement",
-          "state": "confirmed",
-          "evidence": [
-            {
-              "id": "o120",
-              "quote": "n $ $$ $$$ Special sales and account support Promotions and offers for Partner customers Co-Marketing actions Partner Academy Technical assistance and support Marketing support and materials Partnerships that lead to success We want",
-              "sourceUrl": "https://factorialhr.com/partners-distributors",
-              "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T08:18:20.478Z",
-              "strength": "strong_proxy",
-              "proves": "material is produced specifically for partners",
-              "doesNotProve": "that partners consume it",
-              "duplicateCount": 1,
-              "alsoSeenAt": []
-            }
-          ]
-        },
-        {
-          "surface": "certification",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "lead_submission",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "referral_submission",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "deal_registration",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "co_selling",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "portal",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "partner_pipeline",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "programme_tiers",
-          "state": "confirmed",
-          "evidence": [
-            {
-              "id": "o121",
-              "quote": "Take a look at the benefits for each type of Partner. Silver Partner 🥈 Gold Partner 🏅 Platinum Partner 🏆 Partner commission $ $$ $$$ Special sales and account support",
-              "sourceUrl": "https://factorialhr.com/partners-distributors",
-              "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T08:18:20.478Z",
-              "strength": "strong_proxy",
-              "proves": "the programme distinguishes partners by level",
-              "doesNotProve": "how many sit in each tier",
-              "duplicateCount": 1,
-              "alsoSeenAt": []
-            }
-          ]
-        },
-        {
-          "surface": "partner_resources",
-          "state": "not_observed",
-          "evidence": []
-        }
-      ]
+      "surfaces": []
     },
     {
       "kind": "distributor",
       "publishedName": "Partner Program",
       "evidence": [
         {
-          "id": "o116",
+          "id": "o113",
           "quote": "Expand your service offering, grow your business, and boost your profitability! Become a partner Find out how to become a Factorial Distributor Partner We explain in detail what our Partner Program is all about and how to become an expert on our platform.",
           "sourceUrl": "https://factorialhr.com/partners-distributors",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.478Z",
+          "retrievedAt": "2026-08-24T11:04:28.807Z",
           "strength": "strong_proxy",
           "proves": "the company uses distributor partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -351,11 +222,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o117",
+          "id": "o114",
           "quote": "Expand your service offering, grow your business, and boost your profitability!",
           "sourceUrl": "https://factorialhr.com/partners-distributors",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.478Z",
+          "retrievedAt": "2026-08-24T11:04:28.807Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -363,11 +234,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o118",
+          "id": "o115",
           "quote": "Become a Partner Now! Just want to build a custom solution? Not looking to get listed on our public marketplace? No problem.",
           "sourceUrl": "https://factorialhr.com/integrations-partner-program",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.478Z",
+          "retrievedAt": "2026-08-24T11:04:28.807Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -375,11 +246,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o119",
+          "id": "o116",
           "quote": "Reseller Referral Product Integration Reseller We partner with companies whose objective is to grow by",
           "sourceUrl": "https://factorialhr.com/partnerships",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.478Z",
+          "retrievedAt": "2026-08-24T11:04:28.807Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -403,11 +274,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o120",
-          "quote": "n $ $$ $$$ Special sales and account support Promotions and offers for Partner customers Co-Marketing actions Partner Academy Technical assistance and support Marketing support and materials Partnerships that lead to success We want",
+          "id": "o117",
+          "quote": "$ $$ $$$ Special sales and account support Promotions and offers for Partner customers Co-Marketing actions Partner Academy Technical assistance and support Marketing support and materials Partnerships that lead to success We want",
           "sourceUrl": "https://factorialhr.com/partners-distributors",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.478Z",
+          "retrievedAt": "2026-08-24T11:04:28.807Z",
           "strength": "strong_proxy",
           "proves": "material is produced specifically for partners",
           "doesNotProve": "that partners consume it",
@@ -456,11 +327,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o121",
+          "id": "o118",
           "quote": "Take a look at the benefits for each type of Partner. Silver Partner 🥈 Gold Partner 🏅 Platinum Partner 🏆 Partner commission $ $$ $$$ Special sales and account support",
           "sourceUrl": "https://factorialhr.com/partners-distributors",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.478Z",
+          "retrievedAt": "2026-08-24T11:04:28.807Z",
           "strength": "strong_proxy",
           "proves": "the programme distinguishes partners by level",
           "doesNotProve": "how many sit in each tier",
@@ -505,8 +376,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T08:18:20.478Z",
-    "lastCheckedAt": "2026-08-24T08:18:20.478Z",
+    "baselineAt": "2026-08-24T11:04:28.807Z",
+    "lastCheckedAt": "2026-08-24T11:04:28.807Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

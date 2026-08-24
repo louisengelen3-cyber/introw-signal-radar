@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.upsales.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T08:18:22.349Z",
+  "builtAt": "2026-08-24T11:04:30.479Z",
   "oldestEvidenceAt": "2026-08-24T07:35:43.336Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -187,8 +187,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T08:18:22.349Z",
-    "lastCheckedAt": "2026-08-24T08:18:22.349Z",
+    "baselineAt": "2026-08-24T11:04:30.479Z",
+    "lastCheckedAt": "2026-08-24T11:04:30.479Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

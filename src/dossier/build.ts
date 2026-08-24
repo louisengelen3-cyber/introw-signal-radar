@@ -18,7 +18,7 @@ import { dedupe } from './dedup.js';
 import { scanSurfaces, SURFACE_DEFS } from './surfaces.js';
 import { detectProgrammes } from './programmes.js';
 import { detectDirectory, NO_DIRECTORY } from './directory.js';
-import { isContentPath, isPartnerSource, partitionAttributable } from './attribution.js';
+import { isContentPath, isPartnerSource, isReadableQuote, partitionAttributable } from './attribution.js';
 import { buildCommercialSummary } from './summary.js';
 import type {
   ConstructPanel, Contradiction, Dossier, MachineInterpretation, Observation,
@@ -82,7 +82,8 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
   // found keyword matches from product marketing carrying confident partner labels, and the
   // summary repeats the label without the quote — so an unattributable claim is worse than
   // no claim. The count of drops is kept and surfaced rather than hidden.
-  const { kept: attributable, dropped: unattributable } = partitionAttributable(rawObs);
+  const { kept: attributableRaw, dropped: unattributable } = partitionAttributable(rawObs);
+  const attributable = attributableRaw.filter((o) => isReadableQuote(o.quote));
   const deduped = dedupe(attributable);
 
   const toObservation = (o: typeof deduped.canonical[number], strength: Observation['strength']): Observation => obs({
@@ -139,7 +140,7 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
   ];
 
   /* ── programmes and surfaces ───────────────────────────────────────────── */
-  const progHits = detectProgrammes(attributablePages);
+  const progHits = detectProgrammes(attributablePages).filter((h) => isReadableQuote(h.quote));
   const progDedup = dedupe(progHits);
   const programmes: Programme[] = [...new Set(progHits.map((p) => p.kind))].map((kind) => {
     const mine = progDedup.canonical.filter((h: any) => h.kind === kind);
@@ -154,9 +155,12 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
       })),
       surfaces: [],
     };
-  });
+  // A programme whose evidence was all deduplicated or dropped has nothing to show; an empty
+  // card asserts a motion exists while offering nothing to check it against.
+  }).filter((p) => p.evidence.length > 0);
 
   const scan = scanSurfaces(attributablePages);
+  scan.hits = scan.hits.filter((h) => isReadableQuote(h.quote));
   const surfaces: SurfaceFinding[] = SURFACE_DEFS.map((def) => {
     const hits = scan.hits.filter((h) => h.surface === def.surface);
     if (scan.couldNotLook) return { surface: def.surface, state: 'unknown' as const, evidence: [] };
@@ -171,16 +175,11 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
       })),
     };
   });
-  // All three states are attached, not just the confirmed ones. Filtering to `confirmed`
-  // meant `not_observed` and `unknown` never rendered anywhere in the product, so the grid
-  // became a solid block of green that grew with publication volume — a quality bar, which
-  // is precisely what the design forbids.
-  //
-  // Surfaces are ALSO stored at the top level. Attaching them only to `programmes[0]` meant
-  // that when no programme type was detected the summary still asserted "Visible partner
-  // workflows include partner recruitment" while every quote and URL behind it was silently
-  // dropped — eight dossiers made a claim with nothing in the file to check it against.
-  if (programmes.length) programmes[0].surfaces = surfaces;
+  // Surfaces live at the DOSSIER level only. Detection is company-wide, so attaching them to
+  // `programmes[0]` both misattributed them to whichever programme happened to sort first and
+  // — when no programme was detected at all — dropped every quote behind a claim the summary
+  // still made. All three states are kept, because `not_observed` and `unknown` are different
+  // facts and neither means "absent".
 
   /* ── systems ───────────────────────────────────────────────────────────── */
   const crmBodies: string[] = [];

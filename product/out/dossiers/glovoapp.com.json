@@ -6,7 +6,7 @@
     "sourceUrl": "https://glovoapp.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T08:18:26.920Z",
+  "builtAt": "2026-08-24T11:04:35.038Z",
   "oldestEvidenceAt": "2026-08-24T07:16:23.377Z",
   "category": {
     "whyItMatters": "The company's \"partners\" appear to be supply — restaurants, drivers, hosts, properties — rather than a route to market for its own product.",
@@ -116,11 +116,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o202",
+          "id": "o197",
           "quote": "As such, they are continuously audited with certifications from accreditation bodies across geographies and verticals.",
           "sourceUrl": "https://glovoapp.com/en/security",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:26.920Z",
+          "retrievedAt": "2026-08-24T11:04:35.038Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes qualified partners formally",
           "doesNotProve": "the number certified",
@@ -200,8 +200,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T08:18:26.920Z",
-    "lastCheckedAt": "2026-08-24T08:18:26.920Z",
+    "baselineAt": "2026-08-24T11:04:35.038Z",
+    "lastCheckedAt": "2026-08-24T11:04:35.038Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

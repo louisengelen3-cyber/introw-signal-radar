@@ -3,16 +3,16 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Introw Signal Radar — a partner-channel discovery and qualification instrument",
+  "description": "Introw Signal Radar \u2014 evidence-first partner intelligence assistant",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b --noEmit && vite build",
     "preview": "vite preview",
     "typecheck": "tsc -b --noEmit",
     "test": "vitest run",
-    "p1:discover": "tsx phase1/run-discovery.ts",
-    "p1:classify": "tsx phase1/run-classify.ts",
-    "p1:report": "tsx phase1/run-report.ts"
+    "data:site": "tsx product/build-site-data.ts",
+    "data:dossiers": "tsx product/build-dossiers.ts",
+    "audit:bias": "tsx product/audit-publication-bias.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",

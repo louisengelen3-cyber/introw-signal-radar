@@ -6,7 +6,7 @@
     "sourceUrl": "https://payfit.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T08:18:20.104Z",
+  "builtAt": "2026-08-24T11:04:28.229Z",
   "oldestEvidenceAt": "2026-08-24T07:35:07.147Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -59,11 +59,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o102",
-          "quote": "tners Whether you're a point solution or strategic advisor, partner with us to share leads and grow together.",
+          "id": "o99",
+          "quote": "Whether you're a point solution or strategic advisor, partner with us to share leads and grow together.",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.104Z",
+          "retrievedAt": "2026-08-24T11:04:28.229Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -71,11 +71,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o103",
+          "id": "o100",
           "quote": "Integration Partners Integrate with us or join our Open API program to help our clients",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.104Z",
+          "retrievedAt": "2026-08-24T11:04:28.229Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -83,11 +83,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o104",
-          "quote": "n more about becoming a PayFit partner, please complete the partner form on this page and a member of our partnerships team will be in",
+          "id": "o101",
+          "quote": "more about becoming a PayFit partner, please complete the partner form on this page and a member of our partnerships team will be in",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.104Z",
+          "retrievedAt": "2026-08-24T11:04:28.229Z",
           "strength": "strong_proxy",
           "proves": "the company runs its own intake for partner applications, leads or deals",
           "doesNotProve": "the volume through it, or that it is automated rather than an inbox",
@@ -113,11 +113,11 @@
       "state": "light",
       "evidence": [
         {
-          "id": "o105",
+          "id": "o102",
           "quote": "Features include co-marketing, revenue share and mutual referrals.",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.104Z",
+          "retrievedAt": "2026-08-24T11:04:28.229Z",
           "strength": "strong_proxy",
           "proves": "the company pays partners for commercial outcomes",
           "doesNotProve": "the size of the payments or how they are calculated",
@@ -146,11 +146,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o106",
+          "id": "o103",
           "quote": "Referral Partners Whether you're a point solution or strategic advisor, partner with us to share leads and grow together.",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.104Z",
+          "retrievedAt": "2026-08-24T11:04:28.229Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -164,11 +164,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o107",
+          "id": "o104",
           "quote": "Fill out our partnership application form and a partnerships manager will be in touch. Apply today What do our partners say about us?",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:20.104Z",
+          "retrievedAt": "2026-08-24T11:04:28.229Z",
           "strength": "strong_proxy",
           "proves": "there is an intake step with a form",
           "doesNotProve": "that applications are reviewed or that a pipeline exists",
@@ -263,8 +263,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T08:18:20.104Z",
-    "lastCheckedAt": "2026-08-24T08:18:20.104Z",
+    "baselineAt": "2026-08-24T11:04:28.229Z",
+    "lastCheckedAt": "2026-08-24T11:04:28.229Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

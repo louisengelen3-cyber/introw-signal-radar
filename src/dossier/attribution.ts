@@ -111,3 +111,26 @@ export function partitionAttributable<T extends Attributable>(items: T[]): { kep
   for (const i of items) (isAttributable(i) ? kept : dropped).push(i);
   return { kept, dropped };
 }
+
+
+/**
+ * Quotes that are structurally uninformative even when they come from a genuine partner page.
+ *
+ *   "1. Definitions Any capitalized terms mentioned in this Part B have the following meaning"
+ *   "Become a tech partner | Black Friday 2026 | days hours mins till the biggest revenue…"
+ *
+ * The first is a contract's definitions preamble; the second swept up a countdown widget. Both
+ * are attributable to the partner motion and both are useless to a seller, so they are filtered
+ * on readability rather than on attribution.
+ */
+const BOILERPLATE = [
+  /\bany capitali[sz]ed terms\b|\bhave the following meanings?\b|\bunless the context otherwise requires\b/i,
+  /\bdays\s+hours\s+min(ute)?s\b|\b\d{2}\s*:\s*\d{2}\s*:\s*\d{2}\b/i,
+  /\ball rights reserved\b|\bprivacy polic(y|ies)\b.{0,40}\bcookie\b/i,
+  /^\s*\d+(\.\d+)*\s+definitions\b/i,
+];
+
+export function isReadableQuote(quote: string): boolean {
+  if (quote.replace(/[^a-z]/gi, '').length < 25) return false;   // too little actual language
+  return !BOILERPLATE.some((re) => re.test(quote));
+}

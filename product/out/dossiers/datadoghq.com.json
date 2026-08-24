@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.datadoghq.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T08:18:25.428Z",
+  "builtAt": "2026-08-24T11:04:33.593Z",
   "oldestEvidenceAt": "2026-08-23T07:46:21.999Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -93,67 +93,67 @@
   "surfaces": [
     {
       "surface": "partner_recruitment",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "application",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "onboarding",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "enablement",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "certification",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "lead_submission",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "referral_submission",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "deal_registration",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "co_selling",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "portal",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "partner_pipeline",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "programme_tiers",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "partner_resources",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     }
   ],
@@ -187,8 +187,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T08:18:25.428Z",
-    "lastCheckedAt": "2026-08-24T08:18:25.428Z",
+    "baselineAt": "2026-08-24T11:04:33.593Z",
+    "lastCheckedAt": "2026-08-24T11:04:33.593Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -247,22 +247,37 @@
       "status": 200
     },
     {
-      "url": "https://www.datadoghq.com/free-datadog-trial/partner/",
-      "health": "success",
-      "status": 200
+      "url": "https://partner.datadoghq.com/",
+      "health": "not_found",
+      "status": 401
+    },
+    {
+      "url": "https://partnerhub.datadoghq.com/",
+      "health": "not_found",
+      "status": 401
+    },
+    {
+      "url": "https://deals.datadoghq.com/",
+      "health": "not_found",
+      "status": 401
+    },
+    {
+      "url": "https://dealer.datadoghq.com/",
+      "health": "not_found",
+      "status": 401
+    },
+    {
+      "url": "https://dealers.datadoghq.com/",
+      "health": "not_found",
+      "status": 401
+    },
+    {
+      "url": "https://channel.datadoghq.com/",
+      "health": "not_found",
+      "status": 401
     },
     {
       "url": "https://www.datadoghq.com/resources/technology-partner-program-guide/",
-      "health": "success",
-      "status": 200
-    },
-    {
-      "url": "https://www.datadoghq.com/partner/awssecurity2026-apac-mobile/",
-      "health": "success",
-      "status": 200
-    },
-    {
-      "url": "https://www.datadoghq.com/partner/azure-observability-mobile/",
       "health": "success",
       "status": 200
     },

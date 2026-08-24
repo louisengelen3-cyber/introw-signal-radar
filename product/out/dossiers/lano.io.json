@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.lano.io"
   },
   "geography": null,
-  "builtAt": "2026-08-24T08:18:21.336Z",
+  "builtAt": "2026-08-24T11:04:29.443Z",
   "oldestEvidenceAt": "2026-08-24T07:35:29.968Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -59,11 +59,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o126",
+          "id": "o123",
           "quote": "Werden Sie Lano Affiliate-Partner Werden Sie Lano Affiliate-Partner Entdecken Sie Ihre Vorteile als",
           "sourceUrl": "https://www.lano.io/de/become-a-partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:21.336Z",
+          "retrievedAt": "2026-08-24T11:04:29.443Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -108,11 +108,47 @@
       "publishedName": "Partner Network",
       "evidence": [
         {
-          "id": "o127",
+          "id": "o124",
           "quote": "Explore your benefits when you sign up to become a Lano partner. What can Lano do for you?",
           "sourceUrl": "https://www.lano.io/become-a-partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:21.336Z",
+          "retrievedAt": "2026-08-24T11:04:29.443Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses affiliate partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o125",
+          "quote": "Möglichkeiten Automatisierte Provisionsauszahlungen Individuelle Reports zu Ihren Provisionen Zugang zu exklusiven Rabatten Werden Sie Lano Affiliate Partner Name E-Mail Unternehmen Website Unternehmenshauptsitz Afghanistan Åland Islands Albania Algeria American Samoa Andorra Angola Anguilla",
+          "sourceUrl": "https://www.lano.io/de/become-a-partner",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T11:04:29.443Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses affiliate partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o126",
+          "quote": "Pricing Resources Company English Français Deutsch Español Login",
+          "sourceUrl": "https://www.lano.io/affiliate-partner-program",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T11:04:29.443Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses affiliate partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o127",
+          "quote": "Deutsch English Français Deutsch Español Demo buchen EOR & Payroll Contractor Management 4.7 Sterne bei Capterra Become a Lano Affiliate Partner Join Lano as an affiliate partner, enable your clients to expand internationally and earn generous commissions along the way.",
+          "sourceUrl": "https://www.lano.io/de/affiliate-partner-program",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T11:04:29.443Z",
           "strength": "strong_proxy",
           "proves": "the company uses affiliate partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -121,46 +157,10 @@
         },
         {
           "id": "o128",
-          "quote": "Möglichkeiten Automatisierte Provisionsauszahlungen Individuelle Reports zu Ihren Provisionen Zugang zu exklusiven Rabatten Werden Sie Lano Affiliate Partner Name E-Mail Unternehmen Website Unternehmenshauptsitz Afghanistan Åland Islands Albania Algeria American Samoa Andorra Angola Anguilla",
-          "sourceUrl": "https://www.lano.io/de/become-a-partner",
-          "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:21.336Z",
-          "strength": "strong_proxy",
-          "proves": "the company uses affiliate partner vocabulary about itself",
-          "doesNotProve": "that the programme is active, staffed or material",
-          "duplicateCount": 1,
-          "alsoSeenAt": []
-        },
-        {
-          "id": "o129",
-          "quote": "Pricing Resources Company English Français Deutsch Español Login",
-          "sourceUrl": "https://www.lano.io/affiliate-partner-program",
-          "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:21.336Z",
-          "strength": "strong_proxy",
-          "proves": "the company uses affiliate partner vocabulary about itself",
-          "doesNotProve": "that the programme is active, staffed or material",
-          "duplicateCount": 1,
-          "alsoSeenAt": []
-        },
-        {
-          "id": "o130",
-          "quote": "llenangebote Deutsch English Français Deutsch Español Demo buchen EOR & Payroll Contractor Management 4.7 Sterne bei Capterra Become a Lano Affiliate Partner Join Lano as an affiliate partner, enable your clients to expand internationally and earn generous commissions along the way.",
-          "sourceUrl": "https://www.lano.io/de/affiliate-partner-program",
-          "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:21.336Z",
-          "strength": "strong_proxy",
-          "proves": "the company uses affiliate partner vocabulary about itself",
-          "doesNotProve": "that the programme is active, staffed or material",
-          "duplicateCount": 1,
-          "alsoSeenAt": []
-        },
-        {
-          "id": "o131",
-          "quote": "ons For Contractors Features Help Center Terms and Conditions Information Legal Notice Privacy Policy Sitemap About Us Careers Lano Academy Affiliate Program Payroll Partner Program GDPR & IT Security Contact Us Resources Hub Podcast HR & Payroll Glossary Blog Legal Legal Notice Privacy Policy",
+          "quote": "For Contractors Features Help Center Terms and Conditions Information Legal Notice Privacy Policy Sitemap About Us Careers Lano Academy Affiliate Program Payroll Partner Program GDPR & IT Security Contact Us Resources Hub Podcast HR & Payroll Glossary Blog Legal Legal Notice Privacy Policy",
           "sourceUrl": "https://www.lano.io/become-a-payroll-partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:21.336Z",
+          "retrievedAt": "2026-08-24T11:04:29.443Z",
           "strength": "strong_proxy",
           "proves": "the company uses affiliate partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -168,121 +168,18 @@
           "alsoSeenAt": []
         }
       ],
-      "surfaces": [
-        {
-          "surface": "partner_recruitment",
-          "state": "confirmed",
-          "evidence": [
-            {
-              "id": "o133",
-              "quote": "Werden Sie Lano Affiliate-Partner Werden Sie Lano Affiliate-Partner Entdecken Sie Ihre Vorteile als Lano-Partner: What can Lano do for you?",
-              "sourceUrl": "https://www.lano.io/de/become-a-partner",
-              "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T08:18:21.336Z",
-              "strength": "strong_proxy",
-              "proves": "the company publicly invites organisations to join a programme",
-              "doesNotProve": "that anyone joins, or how many",
-              "duplicateCount": 1,
-              "alsoSeenAt": []
-            },
-            {
-              "id": "o134",
-              "quote": "It’s free to join, simple to set up and commitment-free. Become a partner How much can you earn?",
-              "sourceUrl": "https://www.lano.io/affiliate-partner-program",
-              "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T08:18:21.336Z",
-              "strength": "strong_proxy",
-              "proves": "the company publicly invites organisations to join a programme",
-              "doesNotProve": "that anyone joins, or how many",
-              "duplicateCount": 1,
-              "alsoSeenAt": []
-            },
-            {
-              "id": "o135",
-              "quote": "It’s free to join, simple to set up and commitment-free. Become a partner Wie viel können Sie verdienen?",
-              "sourceUrl": "https://www.lano.io/de/affiliate-partner-program",
-              "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T08:18:21.336Z",
-              "strength": "strong_proxy",
-              "proves": "the company publicly invites organisations to join a programme",
-              "doesNotProve": "that anyone joins, or how many",
-              "duplicateCount": 1,
-              "alsoSeenAt": []
-            }
-          ]
-        },
-        {
-          "surface": "application",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "onboarding",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "enablement",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "certification",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "lead_submission",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "referral_submission",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "deal_registration",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "co_selling",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "portal",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "partner_pipeline",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "programme_tiers",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "partner_resources",
-          "state": "not_observed",
-          "evidence": []
-        }
-      ]
+      "surfaces": []
     },
     {
       "kind": "referral",
       "publishedName": "Affiliate Program",
       "evidence": [
         {
-          "id": "o132",
+          "id": "o129",
           "quote": "Become a partner How much can you earn? As Lano affiliate partner, you can earn generous introducer bonuses and recurring commission payments that are equal to the revenue percentage earner by Lano from your referrals in the given month.",
           "sourceUrl": "https://www.lano.io/affiliate-partner-program",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:21.336Z",
+          "retrievedAt": "2026-08-24T11:04:29.443Z",
           "strength": "strong_proxy",
           "proves": "the company uses referral partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -299,11 +196,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o133",
+          "id": "o130",
           "quote": "Werden Sie Lano Affiliate-Partner Werden Sie Lano Affiliate-Partner Entdecken Sie Ihre Vorteile als Lano-Partner: What can Lano do for you?",
           "sourceUrl": "https://www.lano.io/de/become-a-partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:21.336Z",
+          "retrievedAt": "2026-08-24T11:04:29.443Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -311,11 +208,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o134",
+          "id": "o131",
           "quote": "It’s free to join, simple to set up and commitment-free. Become a partner How much can you earn?",
           "sourceUrl": "https://www.lano.io/affiliate-partner-program",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:21.336Z",
+          "retrievedAt": "2026-08-24T11:04:29.443Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -323,11 +220,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o135",
+          "id": "o132",
           "quote": "It’s free to join, simple to set up and commitment-free. Become a partner Wie viel können Sie verdienen?",
           "sourceUrl": "https://www.lano.io/de/affiliate-partner-program",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:21.336Z",
+          "retrievedAt": "2026-08-24T11:04:29.443Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -427,8 +324,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T08:18:21.336Z",
-    "lastCheckedAt": "2026-08-24T08:18:21.336Z",
+    "baselineAt": "2026-08-24T11:04:29.443Z",
+    "lastCheckedAt": "2026-08-24T11:04:29.443Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

@@ -3,8 +3,8 @@
   "companyName": "Channable",
   "selfDescription": null,
   "geography": null,
-  "builtAt": "2026-08-24T08:18:16.529Z",
-  "oldestEvidenceAt": "2026-08-24T08:18:16.529Z",
+  "builtAt": "2026-08-24T11:04:24.857Z",
+  "oldestEvidenceAt": "2026-08-24T11:04:24.857Z",
   "category": {
     "whyItMatters": "No identity-bearing surface could be read, so the company category is not established.",
     "whyItMayNotMatter": "This says nothing about the company — only about our retrieval.",
@@ -41,11 +41,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o34",
+          "id": "o31",
           "quote": "Contact Us Success Stories See all success stories Partners Become a partner Agency partner Boost growth, strategy and visibility Find a partner",
           "sourceUrl": "https://partners.channable.com/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:16.529Z",
+          "retrievedAt": "2026-08-24T11:04:24.857Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -53,11 +53,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o35",
-          "quote": "oost growth, strategy and visibility Find a partner Explore agency partners Find agencies to manage campaigns Explore platform partners Get",
+          "id": "o32",
+          "quote": "growth, strategy and visibility Find a partner Explore agency partners Find agencies to manage campaigns Explore platform partners Get",
           "sourceUrl": "https://partners.channable.com/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:16.529Z",
+          "retrievedAt": "2026-08-24T11:04:24.857Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -83,11 +83,11 @@
       "state": "light",
       "evidence": [
         {
-          "id": "o36",
+          "id": "o33",
           "quote": "Meet our team, your Agency Partnerships Manager Get matched Gold Partner nextlane® A Channable Gold Partner offering senior support.",
           "sourceUrl": "https://partners.channable.com/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:16.529Z",
+          "retrievedAt": "2026-08-24T11:04:24.857Z",
           "strength": "strong_proxy",
           "proves": "the company differentiates partners by commitment or performance",
           "doesNotProve": "how many partners sit in each tier",
@@ -115,11 +115,11 @@
       "publishedName": null,
       "evidence": [
         {
-          "id": "o37",
+          "id": "o34",
           "quote": "Agency Partner Directory Channable Product List Feed Management Filter, enrich and optimize your product data for any online channel Marketplace",
           "sourceUrl": "https://partners.channable.com/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:16.529Z",
+          "retrievedAt": "2026-08-24T11:04:24.857Z",
           "strength": "strong_proxy",
           "proves": "the company uses agency partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -127,99 +127,7 @@
           "alsoSeenAt": []
         }
       ],
-      "surfaces": [
-        {
-          "surface": "partner_recruitment",
-          "state": "confirmed",
-          "evidence": [
-            {
-              "id": "o38",
-              "quote": "Support Demo Center Channable Academy Help Center Contact Us Success Stories See all success stories Partners Become a partner Agency partner Boost growth, strategy and visibility Find a partner Explore agency partners Find agencies",
-              "sourceUrl": "https://partners.channable.com/",
-              "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T08:18:16.529Z",
-              "strength": "strong_proxy",
-              "proves": "the company publicly invites organisations to join a programme",
-              "doesNotProve": "that anyone joins, or how many",
-              "duplicateCount": 1,
-              "alsoSeenAt": []
-            }
-          ]
-        },
-        {
-          "surface": "application",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "onboarding",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "enablement",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "certification",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "lead_submission",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "referral_submission",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "deal_registration",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "co_selling",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "portal",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "partner_pipeline",
-          "state": "not_observed",
-          "evidence": []
-        },
-        {
-          "surface": "programme_tiers",
-          "state": "confirmed",
-          "evidence": [
-            {
-              "id": "o39",
-              "quote": "Meet our team, your Agency Partnerships Manager Get matched Gold Partner nextlane® A Channable Gold Partner offering senior support.",
-              "sourceUrl": "https://partners.channable.com/",
-              "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T08:18:16.529Z",
-              "strength": "strong_proxy",
-              "proves": "the programme distinguishes partners by level",
-              "doesNotProve": "how many sit in each tier",
-              "duplicateCount": 1,
-              "alsoSeenAt": []
-            }
-          ]
-        },
-        {
-          "surface": "partner_resources",
-          "state": "not_observed",
-          "evidence": []
-        }
-      ]
+      "surfaces": []
     }
   ],
   "surfaces": [
@@ -228,11 +136,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o38",
+          "id": "o35",
           "quote": "Support Demo Center Channable Academy Help Center Contact Us Success Stories See all success stories Partners Become a partner Agency partner Boost growth, strategy and visibility Find a partner Explore agency partners Find agencies",
           "sourceUrl": "https://partners.channable.com/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:16.529Z",
+          "retrievedAt": "2026-08-24T11:04:24.857Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -296,11 +204,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o39",
+          "id": "o36",
           "quote": "Meet our team, your Agency Partnerships Manager Get matched Gold Partner nextlane® A Channable Gold Partner offering senior support.",
           "sourceUrl": "https://partners.channable.com/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T08:18:16.529Z",
+          "retrievedAt": "2026-08-24T11:04:24.857Z",
           "strength": "strong_proxy",
           "proves": "the programme distinguishes partners by level",
           "doesNotProve": "how many sit in each tier",
@@ -345,8 +253,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T08:18:16.529Z",
-    "lastCheckedAt": "2026-08-24T08:18:16.529Z",
+    "baselineAt": "2026-08-24T11:04:24.857Z",
+    "lastCheckedAt": "2026-08-24T11:04:24.857Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

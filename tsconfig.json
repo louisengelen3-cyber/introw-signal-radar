@@ -13,7 +13,9 @@
     "verbatimModuleSyntax": true,
     "skipLibCheck": true,
     "jsx": "react-jsx",
-    "types": ["node"]
+    "types": ["node", "vite/client"],
+    "resolveJsonModule": true
   },
-  "include": ["src", "phase1", "app", "tests"]
+  "include": ["src", "app", "tests", "product"],
+  "//": "phase0-4 are archived research runners, kept for provenance but excluded from the product typecheck"
 }
