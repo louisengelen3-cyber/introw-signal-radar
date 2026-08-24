@@ -6,3 +6,4 @@ dist/
 .env*
 .cache/
 phase1/scratch/
+.vercel
