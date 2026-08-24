@@ -1,0 +1,112 @@
+{
+  "totals": {
+    "results": 69,
+    "unique": 62,
+    "operators": 47,
+    "participants": 2,
+    "competitors": 0,
+    "irrelevant": 12,
+    "duplicates": 8,
+    "wrongEntity": 0
+  },
+  "unique": 62,
+  "rows": [
+    {
+      "family": "FRENCH_REVENDEUR_PROGRAM",
+      "lang": "fr",
+      "results": 10,
+      "unique": 9,
+      "operators": 9,
+      "participants": 0,
+      "competitors": 0,
+      "irrelevant": 0,
+      "duplicates": 1,
+      "wrongEntity": 0
+    },
+    {
+      "family": "ENGLISH_MSP_PROGRAM",
+      "lang": "en",
+      "results": 7,
+      "unique": 6,
+      "operators": 6,
+      "participants": 0,
+      "competitors": 0,
+      "irrelevant": 0,
+      "duplicates": 1,
+      "wrongEntity": 0
+    },
+    {
+      "family": "SWEDISH_RESELLER_OPERATOR",
+      "lang": "sv",
+      "results": 10,
+      "unique": 10,
+      "operators": 9,
+      "participants": 0,
+      "competitors": 0,
+      "irrelevant": 1,
+      "duplicates": 0,
+      "wrongEntity": 0
+    },
+    {
+      "family": "GERMAN_OPERATOR_FACHPARTNER",
+      "lang": "de",
+      "results": 9,
+      "unique": 8,
+      "operators": 7,
+      "participants": 1,
+      "competitors": 0,
+      "irrelevant": 0,
+      "duplicates": 1,
+      "wrongEntity": 0
+    },
+    {
+      "family": "ITALIAN_RESELLER_OPERATOR",
+      "lang": "it",
+      "results": 9,
+      "unique": 8,
+      "operators": 6,
+      "participants": 0,
+      "competitors": 0,
+      "irrelevant": 2,
+      "duplicates": 1,
+      "wrongEntity": 0
+    },
+    {
+      "family": "ENGLISH_SYSTEM_INTEGRATOR_PROGRAM",
+      "lang": "en",
+      "results": 8,
+      "unique": 6,
+      "operators": 4,
+      "participants": 0,
+      "competitors": 0,
+      "irrelevant": 1,
+      "duplicates": 3,
+      "wrongEntity": 0
+    },
+    {
+      "family": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+      "lang": "en",
+      "results": 8,
+      "unique": 7,
+      "operators": 4,
+      "participants": 0,
+      "competitors": 0,
+      "irrelevant": 3,
+      "duplicates": 1,
+      "wrongEntity": 0
+    },
+    {
+      "family": "DUTCH_DEALER_OPERATOR",
+      "lang": "nl",
+      "results": 8,
+      "unique": 8,
+      "operators": 2,
+      "participants": 1,
+      "competitors": 0,
+      "irrelevant": 5,
+      "duplicates": 0,
+      "wrongEntity": 0
+    }
+  ],
+  "autoResearchable": 62
+}

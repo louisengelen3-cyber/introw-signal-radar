@@ -1,0 +1,47 @@
+{
+  "byClass": {
+    "software": {
+      "n": 52,
+      "motion": 37,
+      "locatorOnly": 2,
+      "programme": 32,
+      "both": 3,
+      "neither": 15
+    },
+    "physical": {
+      "n": 54,
+      "motion": 27,
+      "locatorOnly": 3,
+      "programme": 12,
+      "both": 12,
+      "neither": 27
+    }
+  },
+  "locatorOnly": [
+    {
+      "domain": "biamp.com",
+      "cls": "physical",
+      "directoryType": "dealer_locator"
+    },
+    {
+      "domain": "enphase.com",
+      "cls": "physical",
+      "directoryType": "installer_locator"
+    },
+    {
+      "domain": "vaillant.com",
+      "cls": "physical",
+      "directoryType": "installer_locator"
+    },
+    {
+      "domain": "sitecore.com",
+      "cls": "software",
+      "directoryType": "solution_partner_directory"
+    },
+    {
+      "domain": "watchguard.com",
+      "cls": "software",
+      "directoryType": "msp_directory"
+    }
+  ]
+}

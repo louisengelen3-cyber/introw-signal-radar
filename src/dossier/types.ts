@@ -219,6 +219,12 @@ export interface HumanReview {
 export type EvidenceCoverage = 'rich' | 'moderate' | 'sparse' | 'none';
 
 export interface Dossier {
+  /**
+   * What the additive recovery layer contributed, when it ran. `null` means recovery was
+   * disabled or base evidence was already sufficient. Present for provenance and audit
+   * (§11) — it records which pages recovery reached, not a separate set of claims.
+   */
+  recovery?: import('../recovery/union.js').RecoveryContribution | null;
   domain: string;
   companyName: string | null;
   /** Verbatim self-description, so the reader sees what the company says it is. */

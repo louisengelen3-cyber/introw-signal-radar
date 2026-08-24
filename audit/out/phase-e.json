@@ -1,0 +1,155 @@
+{
+  "byClass": {
+    "software": {
+      "n": 52,
+      "noSurface": 5,
+      "surfaceButNoRead": 2,
+      "readNoMotion": 8,
+      "motion": 37,
+      "pdfSurfaces": 0
+    },
+    "physical": {
+      "n": 54,
+      "noSurface": 18,
+      "surfaceButNoRead": 1,
+      "readNoMotion": 8,
+      "motion": 27,
+      "pdfSurfaces": 2
+    }
+  },
+  "stranded": [
+    {
+      "domain": "beckhoff.com",
+      "cls": "physical",
+      "surfacesFound": 2,
+      "pagesRead": 2,
+      "why": "pages read, no motion detected"
+    },
+    {
+      "domain": "eaton.com",
+      "cls": "physical",
+      "surfacesFound": 9,
+      "pagesRead": 8,
+      "why": "pages read, no motion detected"
+    },
+    {
+      "domain": "extron.com",
+      "cls": "physical",
+      "surfacesFound": 2,
+      "pagesRead": 2,
+      "why": "pages read, no motion detected"
+    },
+    {
+      "domain": "kerlink.com",
+      "cls": "physical",
+      "surfacesFound": 2,
+      "pagesRead": 1,
+      "why": "pages read, no motion detected"
+    },
+    {
+      "domain": "sensative.com",
+      "cls": "physical",
+      "surfacesFound": 10,
+      "pagesRead": 10,
+      "why": "pages read, no motion detected"
+    },
+    {
+      "domain": "sma.de",
+      "cls": "physical",
+      "surfacesFound": 2,
+      "pagesRead": 1,
+      "why": "pages read, no motion detected"
+    },
+    {
+      "domain": "solaredge.com",
+      "cls": "physical",
+      "surfacesFound": 1,
+      "pagesRead": 0,
+      "why": "surfaces found, none readable"
+    },
+    {
+      "domain": "wago.com",
+      "cls": "physical",
+      "surfacesFound": 10,
+      "pagesRead": 10,
+      "why": "pages read, no motion detected"
+    },
+    {
+      "domain": "zebra.com",
+      "cls": "physical",
+      "surfacesFound": 10,
+      "pagesRead": 10,
+      "why": "pages read, no motion detected"
+    },
+    {
+      "domain": "apaleo.com",
+      "cls": "software",
+      "surfacesFound": 10,
+      "pagesRead": 0,
+      "why": "surfaces found, none readable"
+    },
+    {
+      "domain": "bitdefender.com",
+      "cls": "software",
+      "surfacesFound": 4,
+      "pagesRead": 2,
+      "why": "pages read, no motion detected"
+    },
+    {
+      "domain": "eset.com",
+      "cls": "software",
+      "surfacesFound": 1,
+      "pagesRead": 1,
+      "why": "pages read, no motion detected"
+    },
+    {
+      "domain": "guestline.com",
+      "cls": "software",
+      "surfacesFound": 1,
+      "pagesRead": 1,
+      "why": "pages read, no motion detected"
+    },
+    {
+      "domain": "modulrfinance.com",
+      "cls": "software",
+      "surfacesFound": 1,
+      "pagesRead": 1,
+      "why": "pages read, no motion detected"
+    },
+    {
+      "domain": "officient.io",
+      "cls": "software",
+      "surfacesFound": 1,
+      "pagesRead": 1,
+      "why": "pages read, no motion detected"
+    },
+    {
+      "domain": "siteminder.com",
+      "cls": "software",
+      "surfacesFound": 10,
+      "pagesRead": 0,
+      "why": "surfaces found, none readable"
+    },
+    {
+      "domain": "twikey.com",
+      "cls": "software",
+      "surfacesFound": 3,
+      "pagesRead": 3,
+      "why": "pages read, no motion detected"
+    },
+    {
+      "domain": "visma.com",
+      "cls": "software",
+      "surfacesFound": 10,
+      "pagesRead": 10,
+      "why": "pages read, no motion detected"
+    },
+    {
+      "domain": "yuki.nl",
+      "cls": "software",
+      "surfacesFound": 1,
+      "pagesRead": 1,
+      "why": "pages read, no motion detected"
+    }
+  ]
+}

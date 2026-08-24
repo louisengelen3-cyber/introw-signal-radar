@@ -1,12 +1,12 @@
 {
   "domain": "magentrix.com",
-  "companyName": "Magentrix",
+  "companyName": null,
   "selfDescription": {
     "text": "Magentrix: best PRM for partner training & channel operations. Partner portal software alternative to Salesforce Experience Cloud (aka Salesforce Communities).",
     "sourceUrl": "https://www.magentrix.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T12:33:54.319Z",
+  "builtAt": "2026-08-24T17:58:23.868Z",
   "oldestEvidenceAt": "2026-08-23T08:58:54.460Z",
   "category": {
     "whyItMatters": "The company appears on the maintained competitor list AND positions its own product as partner management.",
@@ -63,11 +63,11 @@
       "state": "strong_proxy",
       "evidence": [
         {
-          "id": "o173",
+          "id": "o157",
           "quote": "500K Certifications 2 Onboarding Complete Top tier Gold Top reseller status Qualification Annual revenue $1M Certifications 5 Onboarding",
           "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:54.319Z",
+          "retrievedAt": "2026-08-24T17:58:23.868Z",
           "strength": "strong_proxy",
           "proves": "the company describes partners selling or reselling its product",
           "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -110,11 +110,11 @@
       "state": "rich",
       "evidence": [
         {
-          "id": "o174",
+          "id": "o158",
           "quote": "Lead registration integration Deal-registration criteria measure partner-sourced",
           "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:54.319Z",
+          "retrievedAt": "2026-08-24T17:58:23.868Z",
           "strength": "strong_proxy",
           "proves": "partners participate in the sales process through a defined intake",
           "doesNotProve": "that the company is unhappy with how it handles them today",
@@ -122,11 +122,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o175",
+          "id": "o159",
           "quote": "library One repository for every reward – assigned by partner tier Define each benefit once in a centralized library, then set",
           "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:54.319Z",
+          "retrievedAt": "2026-08-24T17:58:23.868Z",
           "strength": "strong_proxy",
           "proves": "the company differentiates partners by commitment or performance",
           "doesNotProve": "how many partners sit in each tier",
@@ -134,11 +134,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o176",
+          "id": "o160",
           "quote": "Partner Program Tiers Partner classification and benefits by",
           "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:54.319Z",
+          "retrievedAt": "2026-08-24T17:58:23.868Z",
           "strength": "strong_proxy",
           "proves": "the company trains or certifies people outside its own staff",
           "doesNotProve": "that those people transact — customer academies look identical",
@@ -146,11 +146,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o177",
+          "id": "o161",
           "quote": "Three benefit types cover everything from access to margin to marketing funds.",
           "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:54.319Z",
+          "retrievedAt": "2026-08-24T17:58:23.868Z",
           "strength": "strong_proxy",
           "proves": "the company pays partners for commercial outcomes",
           "doesNotProve": "the size of the payments or how they are calculated",
@@ -158,11 +158,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o178",
+          "id": "o162",
           "quote": "Marketplace & Partner Locator Publicly shareable directory of partner product and service",
           "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:54.319Z",
+          "retrievedAt": "2026-08-24T17:58:23.868Z",
           "strength": "strong_proxy",
           "proves": "the company publishes named partner organisations",
           "doesNotProve": "that the listed partners are active",
@@ -190,16 +190,33 @@
       "publishedName": "Partner Program",
       "evidence": [
         {
-          "id": "o179",
+          "id": "o163",
           "quote": "Committed Silver First revenue commitment Qualification Annual revenue $500K Certifications 2 Onboarding Complete Top tier Gold Top reseller status Qualification Annual revenue $1M Certifications 5 Onboarding Complete Six ways to measure a partner Qualification criteria that",
           "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:54.319Z",
+          "retrievedAt": "2026-08-24T17:58:23.868Z",
           "strength": "strong_proxy",
           "proves": "the company uses reseller partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
           "duplicateCount": 1,
           "alsoSeenAt": []
+        }
+      ],
+      "surfaces": []
+    },
+    {
+      "kind": "solution_partner",
+      "publishedName": null,
+      "evidence": [
+        {
+          "id": "o164",
+          "quote": "Trade vocabulary for a solution partner motion found on a partner surface recovered from www.magentrix.com.",
+          "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T17:58:23.868Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses solution partner trade vocabulary about itself on a page base research did not reach",
+          "doesNotProve": "that the programme is active, staffed or material, nor that the company operates rather than participates in the network"
         }
       ],
       "surfaces": []
@@ -216,11 +233,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o180",
+          "id": "o165",
           "quote": "Apply to partner with Magentrix  Partnering with Magentrix The Magentrix partner ecosystem is built on transparency and",
           "sourceUrl": "https://www.magentrix.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:54.319Z",
+          "retrievedAt": "2026-08-24T17:58:23.868Z",
           "strength": "strong_proxy",
           "proves": "there is an intake step with a form",
           "doesNotProve": "that applications are reviewed or that a pipeline exists",
@@ -234,11 +251,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o181",
+          "id": "o166",
           "quote": "other features + unlimited users Get in touch Features and Capabilities Partner Self-Registration For easier partner onboarding. Partner Program Tiers Partner classification and benefits by assigning tiers with specific rules, access lev",
           "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:54.319Z",
+          "retrievedAt": "2026-08-24T17:58:23.868Z",
           "strength": "strong_proxy",
           "proves": "the company describes a defined start process for new partners",
           "doesNotProve": "that it is systematised rather than manual",
@@ -252,11 +269,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o182",
+          "id": "o167",
           "quote": "For partner training & enablement. Knowledge Base Partners can self-serve if they need support or information.",
           "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:54.319Z",
+          "retrievedAt": "2026-08-24T17:58:23.868Z",
           "strength": "strong_proxy",
           "proves": "material is produced specifically for partners",
           "doesNotProve": "that partners consume it",
@@ -285,11 +302,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o183",
+          "id": "o168",
           "quote": "Explore more Related features Deal Registration Capture and protect partner-sourced deals – the same deals that can feed your tier criteria.",
           "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:54.319Z",
+          "retrievedAt": "2026-08-24T17:58:23.868Z",
           "strength": "strong_proxy",
           "proves": "the company operates opportunity conflict management with partners",
           "doesNotProve": "the number of deals registered",
@@ -297,11 +314,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o184",
+          "id": "o169",
           "quote": "Training (LMS) Partner Attribution Partner Engagement Pages Cobranding Partner Experience Segmentation AI-Deal Registration Idea Exchange Try for 1 month  We can get you up & running in days (if there are no delays on your side).",
           "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:54.319Z",
+          "retrievedAt": "2026-08-24T17:58:23.868Z",
           "strength": "strong_proxy",
           "proves": "the company operates opportunity conflict management with partners",
           "doesNotProve": "the number of deals registered",
@@ -320,11 +337,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o185",
+          "id": "o170",
           "quote": "Support: Access to sales, marketing, and technical resources available through our partner portal.",
           "sourceUrl": "https://www.magentrix.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:54.319Z",
+          "retrievedAt": "2026-08-24T17:58:23.868Z",
           "strength": "strong_proxy",
           "proves": "partners have an authenticated destination",
           "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -332,11 +349,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o186",
+          "id": "o171",
           "quote": "PRM Pricing All PRM & partner portal features included in each tier are listed below.",
           "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:54.319Z",
+          "retrievedAt": "2026-08-24T17:58:23.868Z",
           "strength": "strong_proxy",
           "proves": "partners have an authenticated destination",
           "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -355,11 +372,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o187",
+          "id": "o172",
           "quote": "Benefit library One repository for every reward – assigned by partner tier Define each benefit once in a centralized library, then set progressive values across tiers.",
           "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:54.319Z",
+          "retrievedAt": "2026-08-24T17:58:23.868Z",
           "strength": "strong_proxy",
           "proves": "the programme distinguishes partners by level",
           "doesNotProve": "how many sit in each tier",
@@ -374,49 +391,45 @@
       "evidence": []
     }
   ],
-  "jobEvidence": {
-    "domain": "magentrix.com",
-    "retrievedAt": "2026-08-24T12:33:57.812Z",
-    "tenants": [],
-    "vacanciesFound": 0,
-    "vacanciesUsed": 0,
-    "vacanciesQuarantined": 0,
-    "duplicatesCollapsed": 0,
-    "crmHits": [],
-    "operationalHits": [],
-    "health": [
+  "recovery": {
+    "attempted": true,
+    "domainsSearched": [
+      "magentrix.com"
+    ],
+    "surfacesFound": 7,
+    "pagesRead": 5,
+    "softNotFound": 0,
+    "addedMotions": [
+      "solution_partner"
+    ],
+    "addedSurfaces": [
+      "training"
+    ],
+    "addedDirectoryType": "solution_partner_directory",
+    "sourceUrls": [
       {
-        "url": "https://magentrix.com/",
-        "health": "success",
-        "status": 200
+        "url": "https://www.magentrix.com/pricing/partner-portal",
+        "origin": "canonical_domain"
       },
       {
-        "url": "https://magentrix.com/careers",
-        "health": "success",
-        "status": 200
+        "url": "https://www.magentrix.com/partners",
+        "origin": "canonical_domain"
       },
       {
-        "url": "https://magentrix.com/career",
-        "health": "not_found",
-        "status": 404
+        "url": "https://www.magentrix.com/solution/partner-operations-platform-paas",
+        "origin": "canonical_domain"
       },
       {
-        "url": "https://magentrix.com/jobs",
-        "health": "not_found",
-        "status": 404
+        "url": "https://www.magentrix.com/features/partner-program-tiers",
+        "origin": "canonical_domain"
       },
       {
-        "url": "https://magentrix.com/join-us",
-        "health": "not_found",
-        "status": 404
-      },
-      {
-        "url": "https://magentrix.com/work-with-us",
-        "health": "not_found",
-        "status": 404
+        "url": "https://www.magentrix.com/features/partner-payouts",
+        "origin": "canonical_domain"
       }
     ],
-    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM."
+    "redundant": false,
+    "stoppedBecause": "sufficient"
   },
   "partnerDirectory": {
     "isDirectory": false,
@@ -437,34 +450,34 @@
         "conflict": null,
         "sourcesChecked": {
           "website": true,
-          "jobs": true,
+          "jobs": false,
           "vacanciesRead": 0
         },
-        "note": "No reliable public CRM evidence was established from website artifacts and 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+        "note": "No reliable public CRM evidence was established from website artifacts. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
       },
       "evidence": [],
-      "note": "No reliable public CRM evidence was established from website artifacts and 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+      "note": "No reliable public CRM evidence was established from website artifacts. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
     },
     "prm": {
       "state": "competitor_prm_confirmed",
       "vendor": "Magentrix",
       "evidence": [
         {
-          "id": "o188",
+          "id": "o173",
           "quote": "nt Platform For Partner Management Platform: Click Here For Customer Management Platform: Click Here Our Partner Program Join the Magentrix partner ecosystem. Apply to partner with Magentrix  Partnering with Magentrix The Magentrix partner ecosystem is built on transp",
           "sourceUrl": "https://www.magentrix.com/partners",
           "sourceType": "partner_page_text",
-          "retrievedAt": "2026-08-24T12:33:54.319Z",
+          "retrievedAt": "2026-08-24T17:58:23.868Z",
           "strength": "strong_proxy",
           "proves": "a partner-facing page on this site names Magentrix as a platform in use",
           "doesNotProve": "that it is currently deployed, the only platform, or anything about satisfaction, contract timing or willingness to switch"
         },
         {
-          "id": "o189",
+          "id": "o174",
           "quote": "connect.magentrix.com → wn05.magentrix.com.",
           "sourceUrl": "dns:connect.magentrix.com",
           "sourceType": "dns_cname",
-          "retrievedAt": "2026-08-24T12:33:57.847Z",
+          "retrievedAt": "2026-08-24T17:58:29.733Z",
           "strength": "confirmed",
           "proves": "the partner surface at connect.magentrix.com is served by Magentrix",
           "doesNotProve": "whether the platform is liked, how many partners use it, when the contract renews, or whether the company would consider replacing it"
@@ -480,8 +493,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T12:33:54.319Z",
-    "lastCheckedAt": "2026-08-24T12:33:54.319Z",
+    "baselineAt": "2026-08-24T17:58:23.868Z",
+    "lastCheckedAt": "2026-08-24T17:58:23.868Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -643,7 +656,7 @@
       "status": 404
     }
   ],
-  "commercialSummary": "Magentrix describes itself as \"Magentrix: best PRM for partner training & channel operations. Partner portal software alternative to Salesforce Experience Cloud (aka Salesforce Communities)\". Its own product positioning is partner management, so its partner content describes what it sells rather than how it goes to market. Public pages describe a reseller motion under the name \"Partner Program\". Visible partner workflows include application, onboarding, enablement, deal registration. Public evidence does not establish CRM or partner-team size.",
+  "commercialSummary": "This company describes itself as \"Magentrix: best PRM for partner training & channel operations. Partner portal software alternative to Salesforce Experience Cloud (aka Salesforce Communities)\". Its own product positioning is partner management, so its partner content describes what it sells rather than how it goes to market. Public pages describe a reseller, solution partner motion under the name \"Partner Program\". Visible partner workflows include application, onboarding, enablement, deal registration. Public evidence does not establish CRM or partner-team size.",
   "machineInterpretation": {
     "state": "suppression_candidate",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
@@ -656,7 +669,7 @@
       "independentSourceCount": 1,
       "publicationDensity": "moderate",
       "constructEvidenceCount": 6,
-      "supportingFindingCount": 7,
+      "supportingFindingCount": 8,
       "volumeSensitive": false,
       "unattributableDropped": 5
     }

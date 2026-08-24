@@ -1,12 +1,12 @@
 {
   "domain": "payfit.com",
-  "companyName": "PayFit",
+  "companyName": null,
   "selfDescription": {
     "text": "Simplify payroll with UK payroll software that automates tasks, saving time and reducing stress.",
     "sourceUrl": "https://payfit.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T12:33:48.739Z",
+  "builtAt": "2026-08-24T17:57:57.869Z",
   "oldestEvidenceAt": "2026-08-24T07:35:07.147Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -59,11 +59,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o99",
+          "id": "o101",
           "quote": "Whether you're a point solution or strategic advisor, partner with us to share leads and grow together.",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:48.739Z",
+          "retrievedAt": "2026-08-24T17:57:57.869Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -71,11 +71,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o100",
+          "id": "o102",
           "quote": "Integration Partners Integrate with us or join our Open API program to help our clients",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:48.739Z",
+          "retrievedAt": "2026-08-24T17:57:57.869Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -83,11 +83,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o101",
+          "id": "o103",
           "quote": "more about becoming a PayFit partner, please complete the partner form on this page and a member of our partnerships team will be in",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:48.739Z",
+          "retrievedAt": "2026-08-24T17:57:57.869Z",
           "strength": "strong_proxy",
           "proves": "the company runs its own intake for partner applications, leads or deals",
           "doesNotProve": "the volume through it, or that it is automated rather than an inbox",
@@ -113,11 +113,11 @@
       "state": "light",
       "evidence": [
         {
-          "id": "o102",
+          "id": "o104",
           "quote": "Features include co-marketing, revenue share and mutual referrals.",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:48.739Z",
+          "retrievedAt": "2026-08-24T17:57:57.869Z",
           "strength": "strong_proxy",
           "proves": "the company pays partners for commercial outcomes",
           "doesNotProve": "the size of the payments or how they are calculated",
@@ -146,11 +146,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o103",
+          "id": "o105",
           "quote": "Referral Partners Whether you're a point solution or strategic advisor, partner with us to share leads and grow together.",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:48.739Z",
+          "retrievedAt": "2026-08-24T17:57:57.869Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -164,11 +164,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o104",
+          "id": "o106",
           "quote": "Fill out our partnership application form and a partnerships manager will be in touch. Apply today What do our partners say about us?",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:48.739Z",
+          "retrievedAt": "2026-08-24T17:57:57.869Z",
           "strength": "strong_proxy",
           "proves": "there is an intake step with a form",
           "doesNotProve": "that applications are reviewed or that a pipeline exists",
@@ -233,49 +233,25 @@
       "evidence": []
     }
   ],
-  "jobEvidence": {
-    "domain": "payfit.com",
-    "retrievedAt": "2026-08-24T12:33:50.538Z",
-    "tenants": [],
-    "vacanciesFound": 0,
-    "vacanciesUsed": 0,
-    "vacanciesQuarantined": 0,
-    "duplicatesCollapsed": 0,
-    "crmHits": [],
-    "operationalHits": [],
-    "health": [
+  "recovery": {
+    "attempted": true,
+    "domainsSearched": [
+      "payfit.com"
+    ],
+    "surfacesFound": 1,
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "addedMotions": [],
+    "addedSurfaces": [],
+    "addedDirectoryType": null,
+    "sourceUrls": [
       {
-        "url": "https://payfit.com/",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://payfit.com/careers",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://payfit.com/career",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://payfit.com/jobs",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://payfit.com/join-us",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://payfit.com/work-with-us",
-        "health": "success",
-        "status": 200
+        "url": "https://payfit.com/partnerships/",
+        "origin": "canonical_domain"
       }
     ],
-    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM."
+    "redundant": true,
+    "stoppedBecause": "nothing_found"
   },
   "partnerDirectory": {
     "isDirectory": false,
@@ -296,13 +272,13 @@
         "conflict": null,
         "sourcesChecked": {
           "website": true,
-          "jobs": true,
+          "jobs": false,
           "vacanciesRead": 0
         },
-        "note": "No reliable public CRM evidence was established from website artifacts and 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+        "note": "No reliable public CRM evidence was established from website artifacts. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
       },
       "evidence": [],
-      "note": "No reliable public CRM evidence was established from website artifacts and 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+      "note": "No reliable public CRM evidence was established from website artifacts. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
     },
     "prm": {
       "state": "unknown",
@@ -318,8 +294,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T12:33:48.739Z",
-    "lastCheckedAt": "2026-08-24T12:33:48.739Z",
+    "baselineAt": "2026-08-24T17:57:57.869Z",
+    "lastCheckedAt": "2026-08-24T17:57:57.869Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -457,7 +433,7 @@
       "status": 404
     }
   ],
-  "commercialSummary": "PayFit describes itself as \"Simplify payroll with UK payroll software that automates tasks, saving time and reducing stress\". No partner programme type could be identified, although 2 partner pages did return content. Visible partner workflows include partner recruitment, application. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size.",
+  "commercialSummary": "This company describes itself as \"Simplify payroll with UK payroll software that automates tasks, saving time and reducing stress\". No partner programme type could be identified, although 2 partner pages did return content. Visible partner workflows include partner recruitment, application. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size.",
   "machineInterpretation": {
     "state": "plausible",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",

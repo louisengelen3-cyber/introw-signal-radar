@@ -1,12 +1,12 @@
 {
   "domain": "juro.com",
-  "companyName": "Juro",
+  "companyName": null,
   "selfDescription": {
     "text": "Intelligent contracting is here. Juro empowers your team to agree and manage contracts end-to-end with flexible AI automation that lives where you live.",
     "sourceUrl": "https://juro.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T12:33:46.775Z",
+  "builtAt": "2026-08-24T17:57:54.149Z",
   "oldestEvidenceAt": "2026-08-24T07:34:13.538Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -157,49 +157,20 @@
       "evidence": []
     }
   ],
-  "jobEvidence": {
-    "domain": "juro.com",
-    "retrievedAt": "2026-08-24T12:33:48.717Z",
-    "tenants": [],
-    "vacanciesFound": 0,
-    "vacanciesUsed": 0,
-    "vacanciesQuarantined": 0,
-    "duplicatesCollapsed": 0,
-    "crmHits": [],
-    "operationalHits": [],
-    "health": [
-      {
-        "url": "https://juro.com/",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://juro.com/careers",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://juro.com/career",
-        "health": "not_found",
-        "status": 404
-      },
-      {
-        "url": "https://juro.com/jobs",
-        "health": "not_found",
-        "status": 404
-      },
-      {
-        "url": "https://juro.com/join-us",
-        "health": "not_found",
-        "status": 404
-      },
-      {
-        "url": "https://juro.com/work-with-us",
-        "health": "not_found",
-        "status": 404
-      }
+  "recovery": {
+    "attempted": true,
+    "domainsSearched": [
+      "juro.com"
     ],
-    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM."
+    "surfacesFound": 7,
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "addedMotions": [],
+    "addedSurfaces": [],
+    "addedDirectoryType": null,
+    "sourceUrls": [],
+    "redundant": true,
+    "stoppedBecause": "nothing_found"
   },
   "partnerDirectory": {
     "isDirectory": false,
@@ -228,7 +199,7 @@
                 "detail": "Website artifact",
                 "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
                 "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all",
-                "observedAt": "2026-08-24T12:33:46.775Z"
+                "observedAt": "2026-08-24T17:57:54.149Z"
               },
               {
                 "kind": "website_fingerprint",
@@ -238,12 +209,12 @@
                 "detail": "Website artifact",
                 "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
                 "doesNotProve": "that opportunities and partner deals are managed there",
-                "observedAt": "2026-08-24T12:33:46.775Z"
+                "observedAt": "2026-08-24T17:57:54.149Z"
               }
             ],
             "jobVacancies": 0,
             "hasFingerprint": true,
-            "lastObservedAt": "2026-08-24T12:33:46.775Z"
+            "lastObservedAt": "2026-08-24T17:57:54.149Z"
           }
         ],
         "primary": {
@@ -258,7 +229,7 @@
               "detail": "Website artifact",
               "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
               "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all",
-              "observedAt": "2026-08-24T12:33:46.775Z"
+              "observedAt": "2026-08-24T17:57:54.149Z"
             },
             {
               "kind": "website_fingerprint",
@@ -268,38 +239,38 @@
               "detail": "Website artifact",
               "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
               "doesNotProve": "that opportunities and partner deals are managed there",
-              "observedAt": "2026-08-24T12:33:46.775Z"
+              "observedAt": "2026-08-24T17:57:54.149Z"
             }
           ],
           "jobVacancies": 0,
           "hasFingerprint": true,
-          "lastObservedAt": "2026-08-24T12:33:46.775Z"
+          "lastObservedAt": "2026-08-24T17:57:54.149Z"
         },
         "conflict": null,
         "sourcesChecked": {
           "website": true,
-          "jobs": true,
+          "jobs": false,
           "vacanciesRead": 0
         },
         "note": "HubSpot at confirmed, from 2 sources. Evidence of use is not evidence that this is the partner team’s system of record."
       },
       "evidence": [
         {
-          "id": "o78",
+          "id": "o118",
           "quote": "js.hs-scripts.com/3786704.js",
           "sourceUrl": "https://juro.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T12:33:46.775Z",
+          "retrievedAt": "2026-08-24T17:57:54.149Z",
           "strength": "confirmed",
           "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
           "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
         },
         {
-          "id": "o79",
+          "id": "o119",
           "quote": "js.hsforms.net",
           "sourceUrl": "https://juro.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T12:33:46.775Z",
+          "retrievedAt": "2026-08-24T17:57:54.149Z",
           "strength": "confirmed",
           "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
           "doesNotProve": "that opportunities and partner deals are managed there"
@@ -321,8 +292,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T12:33:46.775Z",
-    "lastCheckedAt": "2026-08-24T12:33:46.775Z",
+    "baselineAt": "2026-08-24T17:57:54.149Z",
+    "lastCheckedAt": "2026-08-24T17:57:54.149Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -470,7 +441,7 @@
       "status": 404
     }
   ],
-  "commercialSummary": "Juro describes itself as \"Intelligent contracting is here. Juro empowers your team to agree and manage contracts end-to-end with flexible AI automation that lives where you live\". No partner programme type could be identified, although 3 partner pages did return content. Public evidence does not establish partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "This company describes itself as \"Intelligent contracting is here. Juro empowers your team to agree and manage contracts end-to-end with flexible AI automation that lives where you live\". No partner programme type could be identified, although 3 partner pages did return content. Public evidence does not establish partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "under_observed",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",

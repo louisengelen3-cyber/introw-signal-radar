@@ -1,12 +1,12 @@
 {
   "domain": "glovoapp.com",
-  "companyName": "Glovo",
+  "companyName": null,
   "selfDescription": {
     "text": "Glovo is the food delivery site that will get you anything you want to your doorstep. You order online, you'll have it!",
     "sourceUrl": "https://glovoapp.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T12:33:57.849Z",
+  "builtAt": "2026-08-24T17:58:39.822Z",
   "oldestEvidenceAt": "2026-08-24T07:16:23.377Z",
   "category": {
     "whyItMatters": "The company's \"partners\" appear to be supply — restaurants, drivers, hosts, properties — rather than a route to market for its own product.",
@@ -157,49 +157,20 @@
       "evidence": []
     }
   ],
-  "jobEvidence": {
-    "domain": "glovoapp.com",
-    "retrievedAt": "2026-08-24T12:34:00.036Z",
-    "tenants": [],
-    "vacanciesFound": 0,
-    "vacanciesUsed": 0,
-    "vacanciesQuarantined": 0,
-    "duplicatesCollapsed": 0,
-    "crmHits": [],
-    "operationalHits": [],
-    "health": [
-      {
-        "url": "https://glovoapp.com/",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://glovoapp.com/careers",
-        "health": "not_found",
-        "status": 404
-      },
-      {
-        "url": "https://glovoapp.com/career",
-        "health": "not_found",
-        "status": 404
-      },
-      {
-        "url": "https://glovoapp.com/jobs",
-        "health": "not_found",
-        "status": 404
-      },
-      {
-        "url": "https://glovoapp.com/join-us",
-        "health": "not_found",
-        "status": 404
-      },
-      {
-        "url": "https://glovoapp.com/work-with-us",
-        "health": "not_found",
-        "status": 404
-      }
+  "recovery": {
+    "attempted": true,
+    "domainsSearched": [
+      "glovoapp.com"
     ],
-    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM."
+    "surfacesFound": 3,
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "addedMotions": [],
+    "addedSurfaces": [],
+    "addedDirectoryType": null,
+    "sourceUrls": [],
+    "redundant": true,
+    "stoppedBecause": "nothing_found"
   },
   "partnerDirectory": {
     "isDirectory": false,
@@ -220,13 +191,13 @@
         "conflict": null,
         "sourcesChecked": {
           "website": true,
-          "jobs": true,
+          "jobs": false,
           "vacanciesRead": 0
         },
-        "note": "No reliable public CRM evidence was established from website artifacts and 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+        "note": "No reliable public CRM evidence was established from website artifacts. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
       },
       "evidence": [],
-      "note": "No reliable public CRM evidence was established from website artifacts and 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+      "note": "No reliable public CRM evidence was established from website artifacts. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
     },
     "prm": {
       "state": "unknown",
@@ -242,8 +213,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T12:33:57.849Z",
-    "lastCheckedAt": "2026-08-24T12:33:57.849Z",
+    "baselineAt": "2026-08-24T17:58:39.822Z",
+    "lastCheckedAt": "2026-08-24T17:58:39.822Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -401,7 +372,7 @@
       "status": 404
     }
   ],
-  "commercialSummary": "Glovo describes itself as \"Glovo is the food delivery site that will get you anything you want to your doorstep. You order online, you'll have it!\". Its \"partners\" appear to be supply rather than a route to market. No partner programme type could be identified, although 1 partner page did return content. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "This company describes itself as \"Glovo is the food delivery site that will get you anything you want to your doorstep. You order online, you'll have it!\". Its \"partners\" appear to be supply rather than a route to market. No partner programme type could be identified, although 1 partner page did return content. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "suppression_candidate",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",

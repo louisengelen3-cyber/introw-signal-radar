@@ -641,5 +641,94 @@
     ],
     "operationalSignals": 0,
     "quotes": []
+  },
+  {
+    "cohort": "solar_energy_tech",
+    "domain": "victronenergy.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "solar_energy_tech",
+    "domain": "enphase.com",
+    "radarHits": [],
+    "tradeHits": [
+      "/installers",
+      "/installer-locator"
+    ],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "other_b2b_channel",
+    "domain": "ricoh-europe.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "other_b2b_channel",
+    "domain": "konicaminolta.eu",
+    "radarHits": [
+      "/partner-programme"
+    ],
+    "tradeHits": [],
+    "operationalSignals": 1,
+    "quotes": [
+      "with Marketing, sales, pre- and after-sales support according to your Partner level. The Konica Minolta Partner Programme has four levels and is based on competencies in sal"
+    ]
+  },
+  {
+    "cohort": "other_b2b_channel",
+    "domain": "eaton.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "other_b2b_channel",
+    "domain": "legrand.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "other_b2b_channel",
+    "domain": "trotec.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "other_b2b_channel",
+    "domain": "stihl.com",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "itho-daalderop.nl",
+    "radarHits": [],
+    "tradeHits": [],
+    "operationalSignals": 0,
+    "quotes": []
+  },
+  {
+    "cohort": "solar_energy_tech",
+    "domain": "growatt.com",
+    "radarHits": [],
+    "tradeHits": [
+      "/find-a-distributor"
+    ],
+    "operationalSignals": 0,
+    "quotes": []
   }
 ]

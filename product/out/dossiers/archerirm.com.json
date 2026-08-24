@@ -1,12 +1,12 @@
 {
   "domain": "archerirm.com",
-  "companyName": "Archer",
+  "companyName": null,
   "selfDescription": {
     "text": "Archer Evolv: enterprise GRC for regulatory change management — compliance-trained AI, full audit lineage, trusted by 38 of the top 50 banks.",
     "sourceUrl": "https://www.archerirm.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T12:33:53.786Z",
+  "builtAt": "2026-08-24T17:58:17.112Z",
   "oldestEvidenceAt": "2026-08-21T13:57:33.319Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -59,11 +59,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o165",
+          "id": "o152",
           "quote": "Consulting partners can earn domain Specializations to unlock preferential deal",
           "sourceUrl": "https://www.archerirm.com/archer-partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.786Z",
+          "retrievedAt": "2026-08-24T17:58:17.112Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -89,11 +89,11 @@
       "state": "moderate",
       "evidence": [
         {
-          "id": "o166",
+          "id": "o153",
           "quote": "Apply Now Partner Portal About the Archer Velocity Partner Program The Velocity Partner",
           "sourceUrl": "https://www.archerirm.com/archer-partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.786Z",
+          "retrievedAt": "2026-08-24T17:58:17.112Z",
           "strength": "strong_proxy",
           "proves": "a partner-specific operational surface exists",
           "doesNotProve": "adoption, or that partners log into it",
@@ -121,11 +121,11 @@
       "publishedName": "Partner Network",
       "evidence": [
         {
-          "id": "o167",
+          "id": "o154",
           "quote": "Value-added Resellers Sell Archer products and services, including new logos, expansions, and renewals, through authorized distributors in your region.",
           "sourceUrl": "https://www.archerirm.com/archer-partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.786Z",
+          "retrievedAt": "2026-08-24T17:58:17.112Z",
           "strength": "strong_proxy",
           "proves": "the company uses reseller partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -140,11 +140,11 @@
       "publishedName": "Partner Network",
       "evidence": [
         {
-          "id": "o168",
+          "id": "o155",
           "quote": "EY GLOBAL ALLIANCE Brings leading GRC practices and Archer expertise to help regulated enterprises manage risk and compliance at scale.",
           "sourceUrl": "https://www.archerirm.com/archer-partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.786Z",
+          "retrievedAt": "2026-08-24T17:58:17.112Z",
           "strength": "strong_proxy",
           "proves": "the company uses strategic alliance partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -176,11 +176,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o169",
+          "id": "o222",
           "quote": "Development & enablement support Dedicated partner resources, enablement content, and Archer team coordination to accelerate your onboarding and ongoing growth.",
           "sourceUrl": "https://www.archerirm.com/archer-partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.786Z",
+          "retrievedAt": "2026-08-24T17:58:17.112Z",
           "strength": "strong_proxy",
           "proves": "material is produced specifically for partners",
           "doesNotProve": "that partners consume it",
@@ -209,11 +209,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o170",
+          "id": "o223",
           "quote": "Resellers benefit from deal registration protection, tier-based pricing discounts, and Partner of Record renewal rights.",
           "sourceUrl": "https://www.archerirm.com/archer-partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.786Z",
+          "retrievedAt": "2026-08-24T17:58:17.112Z",
           "strength": "strong_proxy",
           "proves": "the company operates opportunity conflict management with partners",
           "doesNotProve": "the number of deals registered",
@@ -227,11 +227,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o171",
+          "id": "o224",
           "quote": "Consulting partners can earn domain Specializations to unlock preferential deal routing, deeper co-sell support, and additional program benefits.",
           "sourceUrl": "https://www.archerirm.com/archer-partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.786Z",
+          "retrievedAt": "2026-08-24T17:58:17.112Z",
           "strength": "strong_proxy",
           "proves": "the company describes selling alongside partners",
           "doesNotProve": "that co-selling is systematised",
@@ -245,11 +245,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o172",
+          "id": "o225",
           "quote": "Apply Now Partner Portal About the Archer Velocity Partner Program The Velocity Partner Program is designed to equip our partners",
           "sourceUrl": "https://www.archerirm.com/archer-partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.786Z",
+          "retrievedAt": "2026-08-24T17:58:17.112Z",
           "strength": "strong_proxy",
           "proves": "partners have an authenticated destination",
           "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -274,49 +274,21 @@
       "evidence": []
     }
   ],
-  "jobEvidence": {
-    "domain": "archerirm.com",
-    "retrievedAt": "2026-08-24T12:33:57.065Z",
-    "tenants": [],
-    "vacanciesFound": 0,
-    "vacanciesUsed": 0,
-    "vacanciesQuarantined": 0,
-    "duplicatesCollapsed": 0,
-    "crmHits": [],
-    "operationalHits": [],
-    "health": [
-      {
-        "url": "https://archerirm.com/",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://archerirm.com/careers",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://archerirm.com/career",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://archerirm.com/jobs",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://archerirm.com/join-us",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://archerirm.com/work-with-us",
-        "health": "success",
-        "status": 200
-      }
+  "recovery": {
+    "attempted": true,
+    "domainsSearched": [
+      "archerirm.com",
+      "archerirm.community"
     ],
-    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM."
+    "surfacesFound": 0,
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "addedMotions": [],
+    "addedSurfaces": [],
+    "addedDirectoryType": null,
+    "sourceUrls": [],
+    "redundant": true,
+    "stoppedBecause": "nothing_found"
   },
   "partnerDirectory": {
     "isDirectory": false,
@@ -337,13 +309,13 @@
         "conflict": null,
         "sourcesChecked": {
           "website": true,
-          "jobs": true,
+          "jobs": false,
           "vacanciesRead": 0
         },
-        "note": "No reliable public CRM evidence was established from website artifacts and 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+        "note": "No reliable public CRM evidence was established from website artifacts. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
       },
       "evidence": [],
-      "note": "No reliable public CRM evidence was established from website artifacts and 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+      "note": "No reliable public CRM evidence was established from website artifacts. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
     },
     "prm": {
       "state": "unknown",
@@ -359,8 +331,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T12:33:53.786Z",
-    "lastCheckedAt": "2026-08-24T12:33:53.786Z",
+    "baselineAt": "2026-08-24T17:58:17.112Z",
+    "lastCheckedAt": "2026-08-24T17:58:17.112Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -483,7 +455,7 @@
       "status": 404
     }
   ],
-  "commercialSummary": "Archer describes itself as \"Archer Evolv: enterprise GRC for regulatory change management — compliance-trained AI, full audit lineage, trusted by 38 of the top 50 banks\". Public pages describe a reseller, strategic alliance motion under the name \"Partner Network\". Visible partner workflows include enablement, deal registration, co selling, portal. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "This company describes itself as \"Archer Evolv: enterprise GRC for regulatory change management — compliance-trained AI, full audit lineage, trusted by 38 of the top 50 banks\". Public pages describe a reseller, strategic alliance motion under the name \"Partner Network\". Visible partner workflows include enablement, deal registration, co selling, portal. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "plausible",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",

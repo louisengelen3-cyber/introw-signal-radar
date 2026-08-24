@@ -104,6 +104,18 @@ export function decodeEntities(s: string): string {
     .replace(/&ldquo;|&rdquo;|&#8220;|&#8221;/gi, '"')
     .replace(/&ndash;|&#8211;/gi, '–').replace(/&mdash;|&#8212;/gi, '—')
     .replace(/&hellip;|&#8230;/gi, '…')
+    // Named accented entities. Their absence left "H&auml;ndlersuche" and "zertifizierte
+    // Fachbetriebe f&uuml;r" in German evidence quotes — every accented character in German
+    // and French content survived as raw markup.
+    .replace(/&([aouAOU])uml;/g, (_, c) => ({ a: 'ä', o: 'ö', u: 'ü', A: 'Ä', O: 'Ö', U: 'Ü' } as Record<string, string>)[c] ?? _)
+    .replace(/&szlig;/g, 'ß')
+    .replace(/&([aeiouAEIOU])acute;/g, (_, c) => ({ a: 'á', e: 'é', i: 'í', o: 'ó', u: 'ú', A: 'Á', E: 'É', I: 'Í', O: 'Ó', U: 'Ú' } as Record<string, string>)[c] ?? _)
+    .replace(/&([aeiouAEIOU])grave;/g, (_, c) => ({ a: 'à', e: 'è', i: 'ì', o: 'ò', u: 'ù', A: 'À', E: 'È', I: 'Ì', O: 'Ò', U: 'Ù' } as Record<string, string>)[c] ?? _)
+    .replace(/&([aeiouAEIOU])circ;/g, (_, c) => ({ a: 'â', e: 'ê', i: 'î', o: 'ô', u: 'û', A: 'Â', E: 'Ê', I: 'Î', O: 'Ô', U: 'Û' } as Record<string, string>)[c] ?? _)
+    .replace(/&ccedil;/g, 'ç').replace(/&Ccedil;/g, 'Ç')
+    .replace(/&([noaNOA])tilde;/g, (_, c) => ({ n: 'ñ', o: 'õ', a: 'ã', N: 'Ñ', O: 'Õ', A: 'Ã' } as Record<string, string>)[c] ?? _)
+    .replace(/&([aoAO])slash;/g, (_, c) => ({ a: 'å', o: 'ø', A: 'Å', O: 'Ø' } as Record<string, string>)[c] ?? _)
+    .replace(/&aelig;/gi, 'æ').replace(/&euro;/g, '€').replace(/&pound;/g, '£').replace(/&deg;/g, '°')
     .replace(/&#x([0-9a-f]+);/gi, (_, h) => safeChar(parseInt(h, 16)))
     .replace(/&#(\d+);/g, (_, d) => safeChar(Number(d)));
 }

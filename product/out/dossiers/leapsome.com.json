@@ -1,12 +1,12 @@
 {
   "domain": "leapsome.com",
-  "companyName": "Leapsome",
+  "companyName": null,
   "selfDescription": {
     "text": "Discover the ultimate HR software platform your team will love. Streamline your processes and boost productivity. Get started today!",
     "sourceUrl": "https://www.leapsome.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T12:33:47.684Z",
+  "builtAt": "2026-08-24T17:57:17.125Z",
   "oldestEvidenceAt": "2026-08-24T07:34:24.885Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -157,49 +157,34 @@
       "evidence": []
     }
   ],
-  "jobEvidence": {
-    "domain": "leapsome.com",
-    "retrievedAt": "2026-08-24T12:33:49.095Z",
-    "tenants": [],
-    "vacanciesFound": 0,
-    "vacanciesUsed": 0,
-    "vacanciesQuarantined": 0,
-    "duplicatesCollapsed": 0,
-    "crmHits": [],
-    "operationalHits": [],
-    "health": [
+  "recovery": {
+    "attempted": true,
+    "domainsSearched": [
+      "leapsome.com",
+      "leapsome.zendesk.com"
+    ],
+    "surfacesFound": 3,
+    "pagesRead": 3,
+    "softNotFound": 0,
+    "addedMotions": [],
+    "addedSurfaces": [],
+    "addedDirectoryType": null,
+    "sourceUrls": [
       {
-        "url": "https://leapsome.com/",
-        "health": "blocked",
-        "status": 0
+        "url": "https://site.leapsome.com/de/partners/goodhabitz",
+        "origin": "programme_subdomain"
       },
       {
-        "url": "https://leapsome.com/careers",
-        "health": "blocked",
-        "status": 0
+        "url": "https://site.leapsome.com/de/partner-network",
+        "origin": "programme_subdomain"
       },
       {
-        "url": "https://leapsome.com/career",
-        "health": "blocked",
-        "status": 0
-      },
-      {
-        "url": "https://leapsome.com/jobs",
-        "health": "blocked",
-        "status": 0
-      },
-      {
-        "url": "https://leapsome.com/join-us",
-        "health": "blocked",
-        "status": 0
-      },
-      {
-        "url": "https://leapsome.com/work-with-us",
-        "health": "blocked",
-        "status": 0
+        "url": "https://site.leapsome.com/partner/agile-in-hr",
+        "origin": "programme_subdomain"
       }
     ],
-    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM."
+    "redundant": true,
+    "stoppedBecause": "nothing_found"
   },
   "partnerDirectory": {
     "isDirectory": false,
@@ -228,7 +213,7 @@
                 "detail": "Website artifact",
                 "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
                 "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all",
-                "observedAt": "2026-08-24T12:33:47.684Z"
+                "observedAt": "2026-08-24T17:57:17.125Z"
               },
               {
                 "kind": "website_fingerprint",
@@ -238,12 +223,12 @@
                 "detail": "Website artifact",
                 "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
                 "doesNotProve": "that opportunities and partner deals are managed there",
-                "observedAt": "2026-08-24T12:33:47.684Z"
+                "observedAt": "2026-08-24T17:57:17.125Z"
               }
             ],
             "jobVacancies": 0,
             "hasFingerprint": true,
-            "lastObservedAt": "2026-08-24T12:33:47.684Z"
+            "lastObservedAt": "2026-08-24T17:57:17.125Z"
           }
         ],
         "primary": {
@@ -258,7 +243,7 @@
               "detail": "Website artifact",
               "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
               "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all",
-              "observedAt": "2026-08-24T12:33:47.684Z"
+              "observedAt": "2026-08-24T17:57:17.125Z"
             },
             {
               "kind": "website_fingerprint",
@@ -268,38 +253,38 @@
               "detail": "Website artifact",
               "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
               "doesNotProve": "that opportunities and partner deals are managed there",
-              "observedAt": "2026-08-24T12:33:47.684Z"
+              "observedAt": "2026-08-24T17:57:17.125Z"
             }
           ],
           "jobVacancies": 0,
           "hasFingerprint": true,
-          "lastObservedAt": "2026-08-24T12:33:47.684Z"
+          "lastObservedAt": "2026-08-24T17:57:17.125Z"
         },
         "conflict": null,
         "sourcesChecked": {
           "website": true,
-          "jobs": true,
+          "jobs": false,
           "vacanciesRead": 0
         },
         "note": "HubSpot at confirmed, from 2 sources. Evidence of use is not evidence that this is the partner team’s system of record."
       },
       "evidence": [
         {
-          "id": "o80",
+          "id": "o116",
           "quote": "js.hs-scripts.com/5468055.js",
           "sourceUrl": "https://leapsome.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T12:33:47.684Z",
+          "retrievedAt": "2026-08-24T17:57:17.125Z",
           "strength": "confirmed",
           "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
           "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
         },
         {
-          "id": "o81",
+          "id": "o117",
           "quote": "js.hsforms.net",
           "sourceUrl": "https://leapsome.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T12:33:47.684Z",
+          "retrievedAt": "2026-08-24T17:57:17.125Z",
           "strength": "confirmed",
           "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
           "doesNotProve": "that opportunities and partner deals are managed there"
@@ -321,8 +306,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T12:33:47.684Z",
-    "lastCheckedAt": "2026-08-24T12:33:47.684Z",
+    "baselineAt": "2026-08-24T17:57:17.125Z",
+    "lastCheckedAt": "2026-08-24T17:57:17.125Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -470,7 +455,7 @@
       "status": 404
     }
   ],
-  "commercialSummary": "Leapsome describes itself as \"Discover the ultimate HR software platform your team will love. Streamline your processes and boost productivity. Get started today!\". No partner programme type could be identified, although 6 partner pages did return content. Public evidence does not establish partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "This company describes itself as \"Discover the ultimate HR software platform your team will love. Streamline your processes and boost productivity. Get started today!\". No partner programme type could be identified, although 6 partner pages did return content. Public evidence does not establish partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "under_observed",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",

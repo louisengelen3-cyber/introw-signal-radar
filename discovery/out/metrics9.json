@@ -1,0 +1,32 @@
+{
+  "candidates": 101,
+  "distinct": 100,
+  "vendors": 55,
+  "languageMix": {
+    "de": 7,
+    "nl": 6,
+    "en": 22,
+    "fr": 8,
+    "sv": 6,
+    "it": 6
+  },
+  "geoMix": {
+    "DE": 2,
+    "EU": 3,
+    "global/US": 36,
+    "NL": 2,
+    "FR": 3,
+    "CLOUD": 1,
+    "BE": 2,
+    "SE": 4,
+    "IT": 2
+  },
+  "segmentMix": {
+    "manufacturing": 25,
+    "it_security": 8,
+    "industrial": 5,
+    "software": 2,
+    "av_hardware": 3,
+    "mixed": 12
+  }
+}

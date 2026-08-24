@@ -1,0 +1,41 @@
+{
+  "byClass": {
+    "software": {
+      "n": 14,
+      "bM": 13,
+      "uM": 13,
+      "bObs": 13,
+      "uObs": 13,
+      "bDir": 0,
+      "uDir": 0,
+      "bClaims": 59,
+      "uClaims": 59,
+      "gained": [],
+      "lost": [],
+      "recAttempted": 11,
+      "recAdded": 7
+    },
+    "physical": {
+      "n": 18,
+      "bM": 8,
+      "uM": 12,
+      "bObs": 8,
+      "uObs": 12,
+      "bDir": 0,
+      "uDir": 0,
+      "bClaims": 5,
+      "uClaims": 5,
+      "gained": [
+        "gira.de",
+        "remeha.nl",
+        "stiebel-eltron.de",
+        "weidmueller.com"
+      ],
+      "lost": [],
+      "recAttempted": 16,
+      "recAdded": 9
+    }
+  },
+  "regressions": [],
+  "suspicious": []
+}

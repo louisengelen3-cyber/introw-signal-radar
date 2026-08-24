@@ -1,0 +1,89 @@
+{
+  "queries": 11,
+  "candidates": 85,
+  "vendors": 43,
+  "distinct": 42,
+  "precision": 51,
+  "byLang": {
+    "de": {
+      "queries": 2,
+      "vendors": 7,
+      "candidates": 14,
+      "precision": 50
+    },
+    "nl": {
+      "queries": 2,
+      "vendors": 6,
+      "candidates": 15,
+      "precision": 40
+    },
+    "en": {
+      "queries": 6,
+      "vendors": 22,
+      "candidates": 47,
+      "precision": 47
+    },
+    "fr": {
+      "queries": 1,
+      "vendors": 8,
+      "candidates": 9,
+      "precision": 89
+    }
+  },
+  "recall": {
+    "hits": 5,
+    "total": 34,
+    "pct": 15,
+    "bySector": {
+      "cybersecurity": "4/7",
+      "saas": "0/6",
+      "iot": "0/5",
+      "av_hardware": "0/4",
+      "manufacturing": "1/4",
+      "solar": "0/2",
+      "industrial": "0/2",
+      "fintech": "0/1",
+      "ecommerce": "0/2",
+      "hospitality": "0/1"
+    }
+  },
+  "novel": [
+    "accuknox.com",
+    "aedwinkel.be",
+    "airexmfg.com",
+    "alpha-innotec.com",
+    "arcade-for-good.com",
+    "arecontvision.com",
+    "armaro.be",
+    "arrivly.fr",
+    "automationdirect.com",
+    "avantagebusiness.fr",
+    "avproglobal.com",
+    "barracuda.com",
+    "bigassfans.com",
+    "connectwise.com",
+    "e3dc.com",
+    "forkliftrobot.nl",
+    "go-ev.com",
+    "hy-capacity.com",
+    "itho-daalderop.nl",
+    "kaseya.com",
+    "koban.cloud",
+    "literature.rockwellautomation.com",
+    "n-able.com",
+    "nibe.eu",
+    "process.honeywell.com",
+    "pvg.eu",
+    "pvselected.com",
+    "rocketsoftware.com",
+    "rockwellautomation.com",
+    "se.com",
+    "solyco.com",
+    "sonnen.de",
+    "supercircuits.com",
+    "tenable.com",
+    "terra-computer.fr",
+    "transfertpro.com",
+    "viessmann.de"
+  ]
+}

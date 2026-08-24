@@ -1,0 +1,405 @@
+{
+  "paired": 106,
+  "byClass": {
+    "software": {
+      "n": 52,
+      "bM": 40,
+      "rM": 37,
+      "bD": 7,
+      "rD": 27,
+      "bP": 382,
+      "rP": 175,
+      "bZ": 4,
+      "rZ": 7,
+      "tradeOnly": 2,
+      "multiDom": 29
+    },
+    "physical": {
+      "n": 54,
+      "bM": 21,
+      "rM": 27,
+      "bD": 7,
+      "rD": 23,
+      "bP": 314,
+      "rP": 164,
+      "bZ": 8,
+      "rZ": 19,
+      "tradeOnly": 6,
+      "multiDom": 25
+    }
+  },
+  "byCohort": {
+    "saas_software": {
+      "n": 10,
+      "bM": 7,
+      "rM": 6,
+      "bD": 1,
+      "rD": 4,
+      "bP": 50,
+      "rP": 30,
+      "bZ": 2,
+      "rZ": 3,
+      "tradeOnly": 1,
+      "multiDom": 4
+    },
+    "cybersecurity_it": {
+      "n": 10,
+      "bM": 9,
+      "rM": 8,
+      "bD": 1,
+      "rD": 6,
+      "bP": 95,
+      "rP": 36,
+      "bZ": 0,
+      "rZ": 0,
+      "tradeOnly": 1,
+      "multiDom": 8
+    },
+    "fintech": {
+      "n": 8,
+      "bM": 4,
+      "rM": 5,
+      "bD": 1,
+      "rD": 2,
+      "bP": 41,
+      "rP": 14,
+      "bZ": 1,
+      "rZ": 0,
+      "tradeOnly": 0,
+      "multiDom": 5
+    },
+    "hr_business_software": {
+      "n": 6,
+      "bM": 5,
+      "rM": 4,
+      "bD": 1,
+      "rD": 4,
+      "bP": 41,
+      "rP": 23,
+      "bZ": 1,
+      "rZ": 1,
+      "tradeOnly": 0,
+      "multiDom": 2
+    },
+    "manufacturing_equipment": {
+      "n": 12,
+      "bM": 5,
+      "rM": 8,
+      "bD": 2,
+      "rD": 7,
+      "bP": 77,
+      "rP": 47,
+      "bZ": 1,
+      "rZ": 4,
+      "tradeOnly": 3,
+      "multiDom": 7
+    },
+    "industrial_automation": {
+      "n": 10,
+      "bM": 2,
+      "rM": 3,
+      "bD": 1,
+      "rD": 3,
+      "bP": 32,
+      "rP": 19,
+      "bZ": 2,
+      "rZ": 5,
+      "tradeOnly": 1,
+      "multiDom": 6
+    },
+    "iot_connected_devices": {
+      "n": 10,
+      "bM": 6,
+      "rM": 7,
+      "bD": 2,
+      "rD": 4,
+      "bP": 84,
+      "rP": 21,
+      "bZ": 0,
+      "rZ": 1,
+      "tradeOnly": 0,
+      "multiDom": 5
+    },
+    "hardware_electronics": {
+      "n": 10,
+      "bM": 7,
+      "rM": 5,
+      "bD": 1,
+      "rD": 5,
+      "bP": 65,
+      "rP": 46,
+      "bZ": 1,
+      "rZ": 3,
+      "tradeOnly": 0,
+      "multiDom": 2
+    },
+    "solar_energy_tech": {
+      "n": 6,
+      "bM": 0,
+      "rM": 3,
+      "bD": 1,
+      "rD": 3,
+      "bP": 31,
+      "rP": 16,
+      "bZ": 1,
+      "rZ": 2,
+      "tradeOnly": 1,
+      "multiDom": 2
+    },
+    "hospitality_tech": {
+      "n": 6,
+      "bM": 4,
+      "rM": 2,
+      "bD": 2,
+      "rD": 2,
+      "bP": 43,
+      "rP": 19,
+      "bZ": 0,
+      "rZ": 3,
+      "tradeOnly": 0,
+      "multiDom": 3
+    },
+    "ecommerce_tech": {
+      "n": 6,
+      "bM": 6,
+      "rM": 6,
+      "bD": 1,
+      "rD": 5,
+      "bP": 53,
+      "rP": 33,
+      "bZ": 0,
+      "rZ": 0,
+      "tradeOnly": 0,
+      "multiDom": 1
+    },
+    "martech_salestech": {
+      "n": 6,
+      "bM": 5,
+      "rM": 6,
+      "bD": 0,
+      "rD": 4,
+      "bP": 59,
+      "rP": 20,
+      "bZ": 0,
+      "rZ": 0,
+      "tradeOnly": 0,
+      "multiDom": 6
+    },
+    "other_b2b_channel": {
+      "n": 6,
+      "bM": 1,
+      "rM": 1,
+      "bD": 0,
+      "rD": 1,
+      "bP": 25,
+      "rP": 15,
+      "bZ": 3,
+      "rZ": 4,
+      "tradeOnly": 1,
+      "multiDom": 3
+    }
+  },
+  "gapBefore": 38,
+  "gapAfter": 21,
+  "gained": [
+    {
+      "domain": "enphase.com",
+      "cls": "physical",
+      "directoryType": "installer_locator",
+      "trade": [
+        "installer"
+      ]
+    },
+    {
+      "domain": "festo.com",
+      "cls": "physical",
+      "directoryType": "dealer_locator",
+      "trade": [
+        "dealer",
+        "certification"
+      ]
+    },
+    {
+      "domain": "fronius.com",
+      "cls": "physical",
+      "directoryType": "installer_locator",
+      "trade": [
+        "dealer",
+        "service_partner",
+        "reseller",
+        "distributor",
+        "installer",
+        "tiering",
+        "partner_locator"
+      ]
+    },
+    {
+      "domain": "konicaminolta.eu",
+      "cls": "physical",
+      "directoryType": "dealer_locator",
+      "trade": [
+        "dealer",
+        "tiering"
+      ]
+    },
+    {
+      "domain": "nedap.com",
+      "cls": "physical",
+      "directoryType": null,
+      "trade": []
+    },
+    {
+      "domain": "nibe.eu",
+      "cls": "physical",
+      "directoryType": "installer_locator",
+      "trade": [
+        "installer",
+        "reseller",
+        "partner_locator"
+      ]
+    },
+    {
+      "domain": "phoenixcontact.com",
+      "cls": "physical",
+      "directoryType": "distributor_directory",
+      "trade": [
+        "system_integrator",
+        "distributor",
+        "solution_partner"
+      ]
+    },
+    {
+      "domain": "quatt.io",
+      "cls": "physical",
+      "directoryType": null,
+      "trade": [
+        "lead_routing",
+        "tiering",
+        "partner_recruitment"
+      ]
+    },
+    {
+      "domain": "somfy.com",
+      "cls": "physical",
+      "directoryType": "installer_locator",
+      "trade": [
+        "installer",
+        "dealer",
+        "partner_locator",
+        "certification"
+      ]
+    },
+    {
+      "domain": "vaillant.com",
+      "cls": "physical",
+      "directoryType": "installer_locator",
+      "trade": [
+        "installer"
+      ]
+    },
+    {
+      "domain": "victronenergy.com",
+      "cls": "physical",
+      "directoryType": null,
+      "trade": []
+    },
+    {
+      "domain": "zehnder-systems.com",
+      "cls": "physical",
+      "directoryType": null,
+      "trade": [
+        "partner_portal"
+      ]
+    },
+    {
+      "domain": "clearbank.com",
+      "cls": "software",
+      "directoryType": "solution_partner_directory",
+      "trade": [
+        "solution_partner"
+      ]
+    },
+    {
+      "domain": "productsup.com",
+      "cls": "software",
+      "directoryType": "distributor_directory",
+      "trade": [
+        "reseller",
+        "distributor"
+      ]
+    },
+    {
+      "domain": "unifiedpost.com",
+      "cls": "software",
+      "directoryType": null,
+      "trade": []
+    }
+  ],
+  "lost": [
+    {
+      "domain": "itho-daalderop.nl",
+      "cls": "physical"
+    },
+    {
+      "domain": "beckhoff.com",
+      "cls": "physical"
+    },
+    {
+      "domain": "kerlink.com",
+      "cls": "physical"
+    },
+    {
+      "domain": "extron.com",
+      "cls": "physical"
+    },
+    {
+      "domain": "zebra.com",
+      "cls": "physical"
+    },
+    {
+      "domain": "eaton.com",
+      "cls": "physical"
+    },
+    {
+      "domain": "eset.com",
+      "cls": "software"
+    },
+    {
+      "domain": "unit4.com",
+      "cls": "software"
+    },
+    {
+      "domain": "twikey.com",
+      "cls": "software"
+    },
+    {
+      "domain": "officient.io",
+      "cls": "software"
+    },
+    {
+      "domain": "guestline.com",
+      "cls": "software"
+    },
+    {
+      "domain": "siteminder.com",
+      "cls": "software"
+    }
+  ],
+  "surfaceOrigins": {
+    "sitemap": 317,
+    "navigation": 44,
+    "path_probe": 39
+  },
+  "directoryTypes": {
+    "solution_partner_directory": 12,
+    "affiliate_directory": 4,
+    "msp_directory": 8,
+    "reseller_directory": 2,
+    "dealer_locator": 8,
+    "installer_locator": 6,
+    "service_network": 1,
+    "distributor_directory": 3
+  },
+  "multiDomTotal": 54,
+  "tradeOnlyTotal": 8
+}

@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-08-24T12:34:03.761Z",
+ "generatedAt": "2026-08-24T18:01:16.630Z",
  "count": 35,
  "monitoringSince": "2026-08-23",
  "accounts": [
   {
    "domain": "aikido.dev",
-   "companyName": "Aikido Security",
+   "companyName": null,
    "selfDescription": "Detect, pentest, and block security threats across your entire stack - from one unified platform.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -15,7 +15,9 @@
    "surface": "moderate",
    "programmes": [
     "reseller",
-    "technology"
+    "technology",
+    "msp",
+    "solution_partner"
    ],
    "surfacesConfirmed": 4,
    "directoryLowerBound": null,
@@ -33,11 +35,17 @@
    "prmIsIntrow": false,
    "crmLevel": "crm_confirmed",
    "crmVendor": "HubSpot",
-   "jobVacancies": 40,
-   "jobFacts": 5,
+   "jobVacancies": 0,
+   "jobFacts": 0,
    "retrievedAt": "2026-08-21T13:57:18.512Z",
    "sourceHealthOk": 6,
-   "sourceHealthTotal": 21
+   "sourceHealthTotal": 21,
+   "recovery": {
+    "ran": true,
+    "added": 4,
+    "domainsSearched": 1,
+    "pagesRead": 2
+   }
   },
   {
    "domain": "aircall.io",
@@ -51,7 +59,9 @@
    "surface": "moderate",
    "programmes": [
     "services",
-    "integration"
+    "integration",
+    "system_integrator",
+    "solution_partner"
    ],
    "surfacesConfirmed": 3,
    "directoryLowerBound": null,
@@ -69,15 +79,21 @@
    "prmIsIntrow": false,
    "crmLevel": "crm_confirmed",
    "crmVendor": "HubSpot",
-   "jobVacancies": 40,
-   "jobFacts": 3,
+   "jobVacancies": 0,
+   "jobFacts": 0,
    "retrievedAt": "2026-08-23T07:45:56.222Z",
    "sourceHealthOk": 10,
-   "sourceHealthTotal": 26
+   "sourceHealthTotal": 26,
+   "recovery": {
+    "ran": true,
+    "added": 4,
+    "domainsSearched": 1,
+    "pagesRead": 3
+   }
   },
   {
    "domain": "apaleo.com",
-   "companyName": "Apaleo",
+   "companyName": null,
    "selfDescription": "Transform your hospitality business with an open platform. Easily connect 3rd party applications to build a best-in-class tech stack for your hotel",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -102,15 +118,21 @@
    "prmIsIntrow": false,
    "crmLevel": null,
    "crmVendor": null,
-   "jobVacancies": 7,
-   "jobFacts": 2,
+   "jobVacancies": 0,
+   "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:33:59.645Z",
    "sourceHealthOk": 3,
-   "sourceHealthTotal": 19
+   "sourceHealthTotal": 19,
+   "recovery": {
+    "ran": true,
+    "added": 0,
+    "domainsSearched": 3,
+    "pagesRead": 0
+   }
   },
   {
    "domain": "archerirm.com",
-   "companyName": "Archer",
+   "companyName": null,
    "selfDescription": "Archer Evolv: enterprise GRC for regulatory change management — compliance-trained AI, full audit lineage, trusted by 38 of the top 50 banks.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -142,11 +164,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-21T13:57:33.319Z",
    "sourceHealthOk": 3,
-   "sourceHealthTotal": 20
+   "sourceHealthTotal": 20,
+   "recovery": {
+    "ran": true,
+    "added": 0,
+    "domainsSearched": 2,
+    "pagesRead": 0
+   }
   },
   {
    "domain": "cegeka.com",
-   "companyName": "Cegeka",
+   "companyName": null,
    "selfDescription": "Cegeka partners with clients to drive impactful technology solutions across industries, ensuring innovation and security through tailored services and expertise. Discover how we ca",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -175,11 +203,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:35:51.911Z",
    "sourceHealthOk": 9,
-   "sourceHealthTotal": 27
+   "sourceHealthTotal": 27,
+   "recovery": {
+    "ran": true,
+    "added": 0,
+    "domainsSearched": 1,
+    "pagesRead": 8
+   }
   },
   {
    "domain": "channable.com",
-   "companyName": "Channable",
+   "companyName": null,
    "selfDescription": null,
    "category": "unknown",
    "onCompetitorList": false,
@@ -208,13 +242,14 @@
    "crmVendor": null,
    "jobVacancies": 0,
    "jobFacts": 0,
-   "retrievedAt": "2026-08-24T12:33:44.902Z",
+   "retrievedAt": "2026-08-24T17:57:14.987Z",
    "sourceHealthOk": 1,
-   "sourceHealthTotal": 3
+   "sourceHealthTotal": 3,
+   "recovery": null
   },
   {
    "domain": "cubbit.io",
-   "companyName": "Cubbit",
+   "companyName": null,
    "selfDescription": "Get S3 compatibility, embedded multi-region, and up to 80% savings vs. hyperscalers. Choose where your data lives — full control, no lock-in.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -225,7 +260,8 @@
    "programmes": [
     "reseller",
     "technology",
-    "strategic_alliance"
+    "strategic_alliance",
+    "solution_partner"
    ],
    "surfacesConfirmed": 2,
    "directoryLowerBound": null,
@@ -247,11 +283,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-21T13:56:22.010Z",
    "sourceHealthOk": 9,
-   "sourceHealthTotal": 23
+   "sourceHealthTotal": 23,
+   "recovery": {
+    "ran": true,
+    "added": 2,
+    "domainsSearched": 1,
+    "pagesRead": 1
+   }
   },
   {
    "domain": "datadoghq.com",
-   "companyName": "Datadog",
+   "companyName": null,
    "selfDescription": "See metrics from all of your apps, tools & services in one place with Datadog’s cloud monitoring as a service solution. Try it for free.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -279,12 +321,18 @@
    "jobVacancies": 0,
    "jobFacts": 0,
    "retrievedAt": "2026-08-23T07:46:21.999Z",
-   "sourceHealthOk": 7,
-   "sourceHealthTotal": 23
+   "sourceHealthOk": 4,
+   "sourceHealthTotal": 26,
+   "recovery": {
+    "ran": true,
+    "added": 0,
+    "domainsSearched": 1,
+    "pagesRead": 3
+   }
   },
   {
    "domain": "deloitte.com",
-   "companyName": "Deloitte",
+   "companyName": null,
    "selfDescription": "Industry insights and audit, consulting, financial advisory, risk management and tax services from Deloitte's global network of member firms.",
    "category": "professional_services",
    "onCompetitorList": false,
@@ -309,15 +357,21 @@
    "prmIsIntrow": false,
    "crmLevel": null,
    "crmVendor": null,
-   "jobVacancies": 40,
+   "jobVacancies": 0,
    "jobFacts": 0,
    "retrievedAt": "2026-08-21T13:59:36.539Z",
    "sourceHealthOk": 6,
-   "sourceHealthTotal": 25
+   "sourceHealthTotal": 25,
+   "recovery": {
+    "ran": true,
+    "added": 0,
+    "domainsSearched": 1,
+    "pagesRead": 8
+   }
   },
   {
    "domain": "devoteam.com",
-   "companyName": "Devoteam",
+   "companyName": null,
    "selfDescription": "Transform your bussines with Devoteam, the AI-driven tech consulting. Become a leading company embracing AI for sustainable value.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -325,7 +379,9 @@
    "materiality": "unknown",
    "ownership": "direct",
    "surface": "unknown",
-   "programmes": [],
+   "programmes": [
+    "solution_partner"
+   ],
    "surfacesConfirmed": 0,
    "directoryLowerBound": null,
    "crm": "unknown",
@@ -346,11 +402,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:16:24.961Z",
    "sourceHealthOk": 15,
-   "sourceHealthTotal": 24
+   "sourceHealthTotal": 24,
+   "recovery": {
+    "ran": true,
+    "added": 2,
+    "domainsSearched": 1,
+    "pagesRead": 2
+   }
   },
   {
    "domain": "doordash.com",
-   "companyName": "DoorDash",
+   "companyName": null,
    "selfDescription": null,
    "category": "unknown",
    "onCompetitorList": false,
@@ -377,13 +439,14 @@
    "crmVendor": null,
    "jobVacancies": 0,
    "jobFacts": 0,
-   "retrievedAt": "2026-08-24T12:33:58.315Z",
+   "retrievedAt": "2026-08-24T17:58:37.528Z",
    "sourceHealthOk": 0,
-   "sourceHealthTotal": 2
+   "sourceHealthTotal": 2,
+   "recovery": null
   },
   {
    "domain": "efficy.com",
-   "companyName": "Efficy",
+   "companyName": null,
    "selfDescription": null,
    "category": "unknown",
    "onCompetitorList": false,
@@ -410,13 +473,14 @@
    "crmVendor": null,
    "jobVacancies": 0,
    "jobFacts": 0,
-   "retrievedAt": "2026-08-24T12:33:45.450Z",
+   "retrievedAt": "2026-08-24T17:57:15.684Z",
    "sourceHealthOk": 0,
-   "sourceHealthTotal": 2
+   "sourceHealthTotal": 2,
+   "recovery": null
   },
   {
    "domain": "factorialhr.com",
-   "companyName": "Factorial",
+   "companyName": null,
    "selfDescription": "Factorial is the all-in-one business software that connects everything you need to manage your team and grow your business.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -448,11 +512,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-21T13:56:20.940Z",
    "sourceHealthOk": 6,
-   "sourceHealthTotal": 24
+   "sourceHealthTotal": 24,
+   "recovery": {
+    "ran": true,
+    "added": 2,
+    "domainsSearched": 4,
+    "pagesRead": 10
+   }
   },
   {
    "domain": "foleon.com",
-   "companyName": "Foleon",
+   "companyName": null,
    "selfDescription": "Foleon is an enterprise content platform that makes machine-readable interactive content creation scalable, governable, and 100% on-brand.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -477,15 +547,21 @@
    "prmIsIntrow": false,
    "crmLevel": "crm_confirmed",
    "crmVendor": "HubSpot",
-   "jobVacancies": 1,
+   "jobVacancies": 0,
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:35:31.379Z",
    "sourceHealthOk": 5,
-   "sourceHealthTotal": 18
+   "sourceHealthTotal": 18,
+   "recovery": {
+    "ran": true,
+    "added": 0,
+    "domainsSearched": 2,
+    "pagesRead": 2
+   }
   },
   {
    "domain": "getaccept.com",
-   "companyName": "GetAccept",
+   "companyName": null,
    "selfDescription": "Enhance your sales process with GetAccept",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -514,11 +590,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:33:14.186Z",
    "sourceHealthOk": 6,
-   "sourceHealthTotal": 19
+   "sourceHealthTotal": 19,
+   "recovery": {
+    "ran": true,
+    "added": 0,
+    "domainsSearched": 1,
+    "pagesRead": 1
+   }
   },
   {
    "domain": "glovoapp.com",
-   "companyName": "Glovo",
+   "companyName": null,
    "selfDescription": "Glovo is the food delivery site that will get you anything you want to your doorstep. You order online, you'll have it!",
    "category": "supply_side_marketplace",
    "onCompetitorList": false,
@@ -547,11 +629,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:16:23.377Z",
    "sourceHealthOk": 8,
-   "sourceHealthTotal": 27
+   "sourceHealthTotal": 27,
+   "recovery": {
+    "ran": true,
+    "added": 0,
+    "domainsSearched": 1,
+    "pagesRead": 0
+   }
   },
   {
    "domain": "juro.com",
-   "companyName": "Juro",
+   "companyName": null,
    "selfDescription": "Intelligent contracting is here. Juro empowers your team to agree and manage contracts end-to-end with flexible AI automation that lives where you live.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -580,35 +668,39 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:34:13.538Z",
    "sourceHealthOk": 8,
-   "sourceHealthTotal": 25
+   "sourceHealthTotal": 25,
+   "recovery": {
+    "ran": true,
+    "added": 0,
+    "domainsSearched": 1,
+    "pagesRead": 0
+   }
   },
   {
    "domain": "kiflo.com",
-   "companyName": "Kiflo",
+   "companyName": null,
    "selfDescription": "The partner revenue platform that goes beyond partner management (PRM) software. Connect your partner ecosystem to target accounts, co-sell, and revenue.",
    "category": "direct_introw_competitor",
    "onCompetitorList": true,
    "machineState": "suppression_candidate",
    "materiality": "unknown",
-   "ownership": "direct",
+   "ownership": "unknown",
    "surface": "unknown",
    "programmes": [
-    "referral",
-    "services",
-    "affiliate"
+    "solution_partner"
    ],
-   "surfacesConfirmed": 1,
+   "surfacesConfirmed": 0,
    "directoryLowerBound": null,
    "crm": "unknown",
    "prm": "unknown",
    "prmVendor": null,
    "people": "unknown",
-   "coverage": "sparse",
-   "distinctClaims": 1,
-   "independentSources": 1,
+   "coverage": "none",
+   "distinctClaims": 0,
+   "independentSources": 0,
    "contradictions": 0,
-   "researchTasks": 2,
-   "topUnknown": "Which CRM does the partner team use?",
+   "researchTasks": 3,
+   "topUnknown": "Does this company run a partner programme at all?",
    "machineReason": "Listed as a known competitor (asserted business data).",
    "prmIsIntrow": false,
    "crmLevel": null,
@@ -617,11 +709,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-23T08:48:52.121Z",
    "sourceHealthOk": 13,
-   "sourceHealthTotal": 28
+   "sourceHealthTotal": 28,
+   "recovery": {
+    "ran": true,
+    "added": 2,
+    "domainsSearched": 1,
+    "pagesRead": 4
+   }
   },
   {
    "domain": "lano.io",
-   "companyName": "Lano",
+   "companyName": null,
    "selfDescription": "Onboard and pay people in 170+ countries, and stay 100% compliant. You find the talent, we’ll take care of everything else.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -653,11 +751,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:35:29.968Z",
    "sourceHealthOk": 8,
-   "sourceHealthTotal": 25
+   "sourceHealthTotal": 25,
+   "recovery": {
+    "ran": true,
+    "added": 1,
+    "domainsSearched": 1,
+    "pagesRead": 2
+   }
   },
   {
    "domain": "leapsome.com",
-   "companyName": "Leapsome",
+   "companyName": null,
    "selfDescription": "Discover the ultimate HR software platform your team will love. Streamline your processes and boost productivity. Get started today!",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -686,11 +790,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:34:24.885Z",
    "sourceHealthOk": 10,
-   "sourceHealthTotal": 25
+   "sourceHealthTotal": 25,
+   "recovery": {
+    "ran": true,
+    "added": 0,
+    "domainsSearched": 2,
+    "pagesRead": 3
+   }
   },
   {
    "domain": "magentrix.com",
-   "companyName": "Magentrix",
+   "companyName": null,
    "selfDescription": "Magentrix: best PRM for partner training & channel operations. Partner portal software alternative to Salesforce Experience Cloud (aka Salesforce Communities).",
    "category": "direct_introw_competitor",
    "onCompetitorList": true,
@@ -699,7 +809,8 @@
    "ownership": "unknown",
    "surface": "rich",
    "programmes": [
-    "reseller"
+    "reseller",
+    "solution_partner"
    ],
    "surfacesConfirmed": 6,
    "directoryLowerBound": null,
@@ -721,11 +832,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-23T08:58:54.460Z",
    "sourceHealthOk": 11,
-   "sourceHealthTotal": 29
+   "sourceHealthTotal": 29,
+   "recovery": {
+    "ran": true,
+    "added": 3,
+    "domainsSearched": 1,
+    "pagesRead": 5
+   }
   },
   {
    "domain": "mews.com",
-   "companyName": "Mews",
+   "companyName": null,
    "selfDescription": "Cloud-native, Mews PMS is an innovative hospitality management system that enables automation to boost revenue and empowers remarkable guest experiences.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -756,11 +873,12 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:33:51.138Z",
    "sourceHealthOk": 17,
-   "sourceHealthTotal": 26
+   "sourceHealthTotal": 26,
+   "recovery": null
   },
   {
    "domain": "oneflow.com",
-   "companyName": "Oneflow",
+   "companyName": null,
    "selfDescription": "Oneflow is a Contract Lifecycle Management platform that transforms static contracts into dynamic data - giving visibility into obligations, renewals, risks and revenue.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -768,7 +886,9 @@
    "materiality": "weak_proxy",
    "ownership": "direct",
    "surface": "light",
-   "programmes": [],
+   "programmes": [
+    "solution_partner"
+   ],
    "surfacesConfirmed": 2,
    "directoryLowerBound": null,
    "crm": "unknown",
@@ -789,11 +909,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:33:14.187Z",
    "sourceHealthOk": 10,
-   "sourceHealthTotal": 20
+   "sourceHealthTotal": 20,
+   "recovery": {
+    "ran": true,
+    "added": 2,
+    "domainsSearched": 2,
+    "pagesRead": 3
+   }
   },
   {
    "domain": "payfit.com",
-   "companyName": "PayFit",
+   "companyName": null,
    "selfDescription": "Simplify payroll with UK payroll software that automates tasks, saving time and reducing stress.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -822,11 +948,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:35:07.147Z",
    "sourceHealthOk": 4,
-   "sourceHealthTotal": 23
+   "sourceHealthTotal": 23,
+   "recovery": {
+    "ran": true,
+    "added": 0,
+    "domainsSearched": 1,
+    "pagesRead": 1
+   }
   },
   {
    "domain": "planhat.com",
-   "companyName": "Planhat",
+   "companyName": null,
    "selfDescription": "A customer platform where commercial teams work better. We build and deploy frontier technologies—integrating data, AI and collaboration—that empower industry leaders to acquire an",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -834,7 +966,9 @@
    "materiality": "confirmed",
    "ownership": "direct",
    "surface": "unknown",
-   "programmes": [],
+   "programmes": [
+    "solution_partner"
+   ],
    "surfacesConfirmed": 2,
    "directoryLowerBound": null,
    "crm": "unknown",
@@ -855,11 +989,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:33:14.188Z",
    "sourceHealthOk": 3,
-   "sourceHealthTotal": 20
+   "sourceHealthTotal": 20,
+   "recovery": {
+    "ran": true,
+    "added": 2,
+    "domainsSearched": 1,
+    "pagesRead": 2
+   }
   },
   {
    "domain": "pleo.io",
-   "companyName": "Pleo",
+   "companyName": null,
    "selfDescription": "The business expenses solution that empowers your people to do more. Join the thousands of companies that trust Pleo to make paying for stuff at work easier",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -884,25 +1024,29 @@
    "topUnknown": "Does this company recruit its own partners, or has it joined someone else's programme?",
    "machineReason": "A published directory lists at least 15 partner organisations.",
    "prmIsIntrow": false,
-   "crmLevel": "crm_mention_only",
-   "crmVendor": "Salesforce",
-   "jobVacancies": 34,
-   "jobFacts": 3,
+   "crmLevel": null,
+   "crmVendor": null,
+   "jobVacancies": 0,
+   "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:34:36.126Z",
    "sourceHealthOk": 9,
-   "sourceHealthTotal": 25
+   "sourceHealthTotal": 25,
+   "recovery": null
   },
   {
    "domain": "productsup.com",
-   "companyName": "Productsup",
+   "companyName": null,
    "selfDescription": "Productsup’s enterprise feed management and syndication platform empowers businesses to optimize product experiences across all touchpoints. Get started today!",
    "category": "likely_target_category",
    "onCompetitorList": false,
-   "machineState": "under_observed",
+   "machineState": "research",
    "materiality": "unknown",
    "ownership": "unknown",
    "surface": "unknown",
-   "programmes": [],
+   "programmes": [
+    "reseller",
+    "distributor"
+   ],
    "surfacesConfirmed": 0,
    "directoryLowerBound": null,
    "crm": "hubspot_confirmed",
@@ -915,7 +1059,7 @@
    "contradictions": 0,
    "researchTasks": 1,
    "topUnknown": "Does this company run a partner programme at all?",
-   "machineReason": "No distinct partner claim could be extracted. This may mean the company publishes little, or that we could not read what it publishes — it says nothing about suitability.",
+   "machineReason": "No construct-level claim survived attribution, but 2 programme or workflow finding(s) were observed. Read those quotes directly.",
    "prmIsIntrow": false,
    "crmLevel": "crm_confirmed",
    "crmVendor": "HubSpot",
@@ -923,11 +1067,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:35:41.706Z",
    "sourceHealthOk": 13,
-   "sourceHealthTotal": 26
+   "sourceHealthTotal": 26,
+   "recovery": {
+    "ran": true,
+    "added": 3,
+    "domainsSearched": 1,
+    "pagesRead": 4
+   }
   },
   {
    "domain": "sana-commerce.com",
-   "companyName": "Sana Commerce",
+   "companyName": null,
    "selfDescription": "A certified SAP and Microsoft Dynamics partner delivering B2B ecommerce with accurate pricing, stock, and catalogues buyers trust.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -955,15 +1105,16 @@
    "prmIsIntrow": false,
    "crmLevel": null,
    "crmVendor": null,
-   "jobVacancies": 6,
+   "jobVacancies": 0,
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:33:43.814Z",
    "sourceHealthOk": 9,
-   "sourceHealthTotal": 23
+   "sourceHealthTotal": 23,
+   "recovery": null
   },
   {
    "domain": "spendesk.com",
-   "companyName": "Spendesk",
+   "companyName": null,
    "selfDescription": "Maîtrisez les dépenses de votre entreprise avec Spendesk – la solution de gestion des dépenses qui connecte tous les aspects de votre activité.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -971,7 +1122,9 @@
    "materiality": "unknown",
    "ownership": "direct",
    "surface": "light",
-   "programmes": [],
+   "programmes": [
+    "solution_partner"
+   ],
    "surfacesConfirmed": 2,
    "directoryLowerBound": null,
    "crm": "unknown",
@@ -992,11 +1145,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:35:00.978Z",
    "sourceHealthOk": 5,
-   "sourceHealthTotal": 21
+   "sourceHealthTotal": 21,
+   "recovery": {
+    "ran": true,
+    "added": 2,
+    "domainsSearched": 1,
+    "pagesRead": 1
+   }
   },
   {
    "domain": "trengo.com",
-   "companyName": "Trengo",
+   "companyName": null,
    "selfDescription": "Enhance customer interactions with Trengo’s AI-powered engagement platform. Automate workflows and manage omnichannel communication effortlessly from a single dashboard.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -1006,7 +1165,9 @@
    "surface": "moderate",
    "programmes": [
     "integration",
-    "technology"
+    "technology",
+    "service_partner",
+    "solution_partner"
    ],
    "surfacesConfirmed": 2,
    "directoryLowerBound": null,
@@ -1028,11 +1189,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:33:14.190Z",
    "sourceHealthOk": 12,
-   "sourceHealthTotal": 28
+   "sourceHealthTotal": 28,
+   "recovery": {
+    "ran": true,
+    "added": 3,
+    "domainsSearched": 1,
+    "pagesRead": 4
+   }
   },
   {
    "domain": "twikey.com",
-   "companyName": "Twikey",
+   "companyName": null,
    "selfDescription": "Easy to start with Sepa permissions. Less paperwork and hassle-free follow-up of your direct debits or invoices via your own bank account.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -1061,11 +1228,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:35:26.251Z",
    "sourceHealthOk": 6,
-   "sourceHealthTotal": 23
+   "sourceHealthTotal": 23,
+   "recovery": {
+    "ran": true,
+    "added": 0,
+    "domainsSearched": 1,
+    "pagesRead": 3
+   }
   },
   {
    "domain": "upsales.com",
-   "companyName": "Upsales",
+   "companyName": null,
    "selfDescription": "Upsales CRM helps companies generate more leads, drive an effective sales process, and unlock upselling opportunities from existing clients.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -1094,11 +1267,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:35:43.336Z",
    "sourceHealthOk": 3,
-   "sourceHealthTotal": 16
+   "sourceHealthTotal": 16,
+   "recovery": {
+    "ran": true,
+    "added": 0,
+    "domainsSearched": 1,
+    "pagesRead": 0
+   }
   },
   {
    "domain": "vinted.com",
-   "companyName": "Vinted",
+   "companyName": null,
    "selfDescription": "One community, thousands of brands, and a whole lot of second-hand style. Ready to get started? Here’s how it works.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -1127,11 +1306,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:36:10.129Z",
    "sourceHealthOk": 3,
-   "sourceHealthTotal": 22
+   "sourceHealthTotal": 22,
+   "recovery": {
+    "ran": true,
+    "added": 0,
+    "domainsSearched": 4,
+    "pagesRead": 0
+   }
   },
   {
    "domain": "weglot.com",
-   "companyName": "Weglot",
+   "companyName": null,
    "selfDescription": "Translate your site in minutes, reach a wider audience with Weglot. Display and manage multilingual content effortlessly, no code needed.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -1144,7 +1329,8 @@
     "agency",
     "technology",
     "affiliate",
-    "integration"
+    "integration",
+    "solution_partner"
    ],
    "surfacesConfirmed": 2,
    "directoryLowerBound": null,
@@ -1166,11 +1352,17 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:34:06.389Z",
    "sourceHealthOk": 12,
-   "sourceHealthTotal": 25
+   "sourceHealthTotal": 25,
+   "recovery": {
+    "ran": true,
+    "added": 2,
+    "domainsSearched": 2,
+    "pagesRead": 2
+   }
   },
   {
    "domain": "younium.com",
-   "companyName": "Younium",
+   "companyName": null,
    "selfDescription": "Younium is the subscription management & billing platform for running a scalable B2B subscription business.",
    "category": "likely_target_category",
    "onCompetitorList": false,
@@ -1199,7 +1391,13 @@
    "jobFacts": 0,
    "retrievedAt": "2026-08-24T07:35:48.614Z",
    "sourceHealthOk": 8,
-   "sourceHealthTotal": 20
+   "sourceHealthTotal": 20,
+   "recovery": {
+    "ran": true,
+    "added": 0,
+    "domainsSearched": 1,
+    "pagesRead": 1
+   }
   }
  ]
 }

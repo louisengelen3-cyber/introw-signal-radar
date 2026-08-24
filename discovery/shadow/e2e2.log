@@ -1,0 +1,24 @@
+stratified sample: 22 candidates across 8 families
+[1/22] survoltage.fr                VALID_OPERATOR   gate=research_required plausible
+[2/22] krampitz.de                  VALID_OPERATOR   gate=research_required under_observed
+[3/22] maison-energy.com            VALID_OPERATOR   gate=research_required under_observed
+[4/22] keysight.com                 VALID_OPERATOR   gate=research_required under_observed
+[5/22] se.com                       VALID_OPERATOR   gate=research_required research
+[6/22] azbil.com                    VALID_OPERATOR   gate=research_required under_observed
+[7/22] indeed.com                   IRRELEVANT       gate=research_required under_observed
+[8/22] gns.se                       VALID_OPERATOR   gate=research_required research
+[9/22] canon.se                     VALID_OPERATOR   gate=operator_evidence research
+[10/22] smartsolution-4u.com         PARTICIPANT_ONLY gate=research_required plausible
+[11/22] infomaniak.com               VALID_OPERATOR   gate=research_required under_observed
+[12/22] register.it                  VALID_OPERATOR   gate=research_required research
+[13/22] opentext.com                 VALID_OPERATOR   gate=research_required research
+[14/22] telecombinatie.nl            VALID_OPERATOR   gate=operator_evidence research
+[15/22] nettenverkoop.nl             VALID_OPERATOR   gate=research_required research
+[16/22] higherlevel.nl               IRRELEVANT       gate=research_required under_observed
+[17/22] avproglobal.com              VALID_OPERATOR   gate=research_required research
+[18/22] firestoneairide.com          VALID_OPERATOR   gate=research_required research
+[19/22] securityinfowatch.com        IRRELEVANT       gate=research_required research
+[20/22] sap.com                      VALID_OPERATOR   gate=research_required strong_evidence
+[21/22] imperium-app.it              IRRELEVANT       gate=research_required under_observed
+[22/22] support.microsoft.com        IRRELEVANT       gate=research_required under_observed
+DONE e2e

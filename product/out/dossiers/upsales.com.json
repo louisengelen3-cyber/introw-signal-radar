@@ -1,12 +1,12 @@
 {
   "domain": "upsales.com",
-  "companyName": "Upsales",
+  "companyName": null,
   "selfDescription": {
     "text": "Upsales CRM helps companies generate more leads, drive an effective sales process, and unlock upselling opportunities from existing clients.",
     "sourceUrl": "https://www.upsales.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T12:33:51.473Z",
+  "builtAt": "2026-08-24T17:58:01.106Z",
   "oldestEvidenceAt": "2026-08-24T07:35:43.336Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -157,49 +157,20 @@
       "evidence": []
     }
   ],
-  "jobEvidence": {
-    "domain": "upsales.com",
-    "retrievedAt": "2026-08-24T12:33:53.107Z",
-    "tenants": [],
-    "vacanciesFound": 0,
-    "vacanciesUsed": 0,
-    "vacanciesQuarantined": 0,
-    "duplicatesCollapsed": 0,
-    "crmHits": [],
-    "operationalHits": [],
-    "health": [
-      {
-        "url": "https://upsales.com/",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://upsales.com/careers",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://upsales.com/career",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://upsales.com/jobs",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://upsales.com/join-us",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://upsales.com/work-with-us",
-        "health": "success",
-        "status": 200
-      }
+  "recovery": {
+    "attempted": true,
+    "domainsSearched": [
+      "upsales.com"
     ],
-    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM."
+    "surfacesFound": 0,
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "addedMotions": [],
+    "addedSurfaces": [],
+    "addedDirectoryType": null,
+    "sourceUrls": [],
+    "redundant": true,
+    "stoppedBecause": "nothing_found"
   },
   "partnerDirectory": {
     "isDirectory": false,
@@ -220,13 +191,13 @@
         "conflict": null,
         "sourcesChecked": {
           "website": true,
-          "jobs": true,
+          "jobs": false,
           "vacanciesRead": 0
         },
-        "note": "No reliable public CRM evidence was established from website artifacts and 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+        "note": "No reliable public CRM evidence was established from website artifacts. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
       },
       "evidence": [],
-      "note": "No reliable public CRM evidence was established from website artifacts and 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+      "note": "No reliable public CRM evidence was established from website artifacts. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
     },
     "prm": {
       "state": "unknown",
@@ -242,8 +213,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T12:33:51.473Z",
-    "lastCheckedAt": "2026-08-24T12:33:51.473Z",
+    "baselineAt": "2026-08-24T17:58:01.106Z",
+    "lastCheckedAt": "2026-08-24T17:58:01.106Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -352,7 +323,7 @@
       "status": 200
     }
   ],
-  "commercialSummary": "Upsales describes itself as \"Upsales CRM helps companies generate more leads, drive an effective sales process, and unlock upselling opportunities from existing clients\". No partner programme type could be identified; 13 conventional partner paths were tried and none returned a readable partner page. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "This company describes itself as \"Upsales CRM helps companies generate more leads, drive an effective sales process, and unlock upselling opportunities from existing clients\". No partner programme type could be identified; 13 conventional partner paths were tried and none returned a readable partner page. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "under_observed",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",

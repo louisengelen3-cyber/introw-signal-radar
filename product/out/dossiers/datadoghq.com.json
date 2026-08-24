@@ -1,12 +1,12 @@
 {
   "domain": "datadoghq.com",
-  "companyName": "Datadog",
+  "companyName": null,
   "selfDescription": {
     "text": "See metrics from all of your apps, tools & services in one place with Datadog’s cloud monitoring as a service solution. Try it for free.",
     "sourceUrl": "https://www.datadoghq.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T12:33:56.343Z",
+  "builtAt": "2026-08-24T17:58:31.509Z",
   "oldestEvidenceAt": "2026-08-23T07:46:21.999Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -93,113 +93,97 @@
   "surfaces": [
     {
       "surface": "partner_recruitment",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "application",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "onboarding",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "enablement",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "certification",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "lead_submission",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "referral_submission",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "deal_registration",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "co_selling",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "portal",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "partner_pipeline",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "programme_tiers",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     },
     {
       "surface": "partner_resources",
-      "state": "not_observed",
+      "state": "unknown",
       "evidence": []
     }
   ],
-  "jobEvidence": {
-    "domain": "datadoghq.com",
-    "retrievedAt": "2026-08-24T12:33:58.842Z",
-    "tenants": [],
-    "vacanciesFound": 0,
-    "vacanciesUsed": 0,
-    "vacanciesQuarantined": 0,
-    "duplicatesCollapsed": 0,
-    "crmHits": [],
-    "operationalHits": [],
-    "health": [
+  "recovery": {
+    "attempted": true,
+    "domainsSearched": [
+      "datadoghq.com"
+    ],
+    "surfacesFound": 3,
+    "pagesRead": 3,
+    "softNotFound": 0,
+    "addedMotions": [],
+    "addedSurfaces": [],
+    "addedDirectoryType": null,
+    "sourceUrls": [
       {
-        "url": "https://datadoghq.com/",
-        "health": "success",
-        "status": 200
+        "url": "https://www.datadoghq.com/partner/awssecurity2026-apac-mobile/",
+        "origin": "canonical_domain"
       },
       {
-        "url": "https://datadoghq.com/careers",
-        "health": "success",
-        "status": 200
+        "url": "https://www.datadoghq.com/videos/distribution-metrics/",
+        "origin": "canonical_domain"
       },
       {
-        "url": "https://datadoghq.com/career",
-        "health": "not_found",
-        "status": 404
-      },
-      {
-        "url": "https://datadoghq.com/jobs",
-        "health": "not_found",
-        "status": 404
-      },
-      {
-        "url": "https://datadoghq.com/join-us",
-        "health": "not_found",
-        "status": 404
-      },
-      {
-        "url": "https://datadoghq.com/work-with-us",
-        "health": "not_found",
-        "status": 404
+        "url": "https://www.datadoghq.com/certification/overview/",
+        "origin": "canonical_domain"
       }
     ],
-    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM."
+    "redundant": true,
+    "stoppedBecause": "nothing_found"
   },
   "partnerDirectory": {
     "isDirectory": false,
@@ -220,13 +204,13 @@
         "conflict": null,
         "sourcesChecked": {
           "website": true,
-          "jobs": true,
+          "jobs": false,
           "vacanciesRead": 0
         },
-        "note": "No reliable public CRM evidence was established from website artifacts and 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+        "note": "No reliable public CRM evidence was established from website artifacts. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
       },
       "evidence": [],
-      "note": "No reliable public CRM evidence was established from website artifacts and 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+      "note": "No reliable public CRM evidence was established from website artifacts. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
     },
     "prm": {
       "state": "unknown",
@@ -242,8 +226,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T12:33:56.343Z",
-    "lastCheckedAt": "2026-08-24T12:33:56.343Z",
+    "baselineAt": "2026-08-24T17:58:31.509Z",
+    "lastCheckedAt": "2026-08-24T17:58:31.509Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -302,22 +286,37 @@
       "status": 200
     },
     {
-      "url": "https://www.datadoghq.com/free-datadog-trial/partner/",
-      "health": "success",
-      "status": 200
+      "url": "https://partner.datadoghq.com/",
+      "health": "not_found",
+      "status": 401
+    },
+    {
+      "url": "https://dealreg.datadoghq.com/",
+      "health": "not_found",
+      "status": 401
+    },
+    {
+      "url": "https://dealer.datadoghq.com/",
+      "health": "not_found",
+      "status": 401
+    },
+    {
+      "url": "https://dealers.datadoghq.com/",
+      "health": "not_found",
+      "status": 401
+    },
+    {
+      "url": "https://channel.datadoghq.com/",
+      "health": "not_found",
+      "status": 401
+    },
+    {
+      "url": "https://ecosystem.datadoghq.com/",
+      "health": "not_found",
+      "status": 401
     },
     {
       "url": "https://www.datadoghq.com/resources/technology-partner-program-guide/",
-      "health": "success",
-      "status": 200
-    },
-    {
-      "url": "https://www.datadoghq.com/partner/awssecurity2026-apac-mobile/",
-      "health": "success",
-      "status": 200
-    },
-    {
-      "url": "https://www.datadoghq.com/partner/azure-observability-mobile/",
       "health": "success",
       "status": 200
     },
@@ -387,7 +386,7 @@
       "status": 200
     }
   ],
-  "commercialSummary": "Datadog describes itself as \"See metrics from all of your apps, tools & services in one place with Datadog’s cloud monitoring as a service solution. Try it for free\". No partner programme type could be identified, although 5 partner pages did return content. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "This company describes itself as \"See metrics from all of your apps, tools & services in one place with Datadog’s cloud monitoring as a service solution. Try it for free\". No partner programme type could be identified, although 2 partner pages did return content. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "under_observed",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",

@@ -1,0 +1,28 @@
+{
+  "software": {
+    "n": 52,
+    "b": 40,
+    "r": 37,
+    "u": 43,
+    "bOnly": 6,
+    "rOnly": 3,
+    "both": 34,
+    "neither": 9,
+    "bDir": 7,
+    "rDir": 27,
+    "uDir": 31
+  },
+  "physical": {
+    "n": 54,
+    "b": 21,
+    "r": 27,
+    "u": 33,
+    "bOnly": 6,
+    "rOnly": 12,
+    "both": 15,
+    "neither": 21,
+    "bDir": 7,
+    "rDir": 23,
+    "uDir": 24
+  }
+}

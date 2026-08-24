@@ -1,12 +1,12 @@
 {
   "domain": "apaleo.com",
-  "companyName": "Apaleo",
+  "companyName": null,
   "selfDescription": {
     "text": "Transform your hospitality business with an open platform. Easily connect 3rd party applications to build a best-in-class tech stack for your hotel",
     "sourceUrl": "https://www.apaleo.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T12:33:46.444Z",
+  "builtAt": "2026-08-24T17:57:16.185Z",
   "oldestEvidenceAt": "2026-08-24T07:33:59.645Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -157,66 +157,22 @@
       "evidence": []
     }
   ],
-  "jobEvidence": {
-    "domain": "apaleo.com",
-    "retrievedAt": "2026-08-24T12:33:48.432Z",
-    "tenants": [
-      {
-        "vendor": "greenhouse",
-        "token": "apaleo",
-        "boardUrl": "https://boards.greenhouse.io/apaleo",
-        "ownership": "owned",
-        "basis": "first_party_link",
-        "evidenceUrl": "https://apaleo.com/careers"
-      }
+  "recovery": {
+    "attempted": true,
+    "domainsSearched": [
+      "apaleo.com",
+      "apaleo.dev",
+      "apaleo.zendesk.com"
     ],
-    "vacanciesFound": 7,
-    "vacanciesUsed": 7,
-    "vacanciesQuarantined": 0,
-    "duplicatesCollapsed": 0,
-    "crmHits": [],
-    "operationalHits": [
-      {
-        "vacancyId": "greenhouse:apaleo:7892433003",
-        "jobTitle": "Deal Desk Manager (f/m/d)",
-        "jobUrl": "https://job-boards.greenhouse.io/apaleo/jobs/7892433003",
-        "currentness": "current",
-        "fact": "revops_process",
-        "quote": "What you bring Multiple years experience in deal desk, revenue operations, business operations or commercial finance Strong analytics.",
-        "rule": "pattern:revops_process",
-        "proves": "the company runs a revenue-operations function",
-        "doesNotProve": "anything about partner operations specifically"
-      },
-      {
-        "vacancyId": "greenhouse:apaleo:7858178003",
-        "jobTitle": "GTM Operations Specialist (f/m/d",
-        "jobUrl": "https://job-boards.greenhouse.io/apaleo/jobs/7858178003",
-        "currentness": "current",
-        "fact": "revops_process",
-        "quote": "About the role Revenue Operations keeps Apaleo's GTM engine running, and running toward one thing: revenue growth.",
-        "rule": "pattern:revops_process",
-        "proves": "the company runs a revenue-operations function",
-        "doesNotProve": "anything about partner operations specifically"
-      }
-    ],
-    "health": [
-      {
-        "url": "https://apaleo.com/",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://apaleo.com/careers",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://boards-api.greenhouse.io/v1/boards/apaleo/jobs?content=true",
-        "health": "success",
-        "status": 200
-      }
-    ],
-    "note": "7 current vacancies read; no defensible CRM evidence found. This is not evidence that the company has no CRM."
+    "surfacesFound": 10,
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "addedMotions": [],
+    "addedSurfaces": [],
+    "addedDirectoryType": null,
+    "sourceUrls": [],
+    "redundant": true,
+    "stoppedBecause": "nothing_found"
   },
   "partnerDirectory": {
     "isDirectory": false,
@@ -237,13 +193,13 @@
         "conflict": null,
         "sourcesChecked": {
           "website": true,
-          "jobs": true,
-          "vacanciesRead": 7
+          "jobs": false,
+          "vacanciesRead": 0
         },
-        "note": "No reliable public CRM evidence was established from website artifacts and 7 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+        "note": "No reliable public CRM evidence was established from website artifacts. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
       },
       "evidence": [],
-      "note": "No reliable public CRM evidence was established from website artifacts and 7 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+      "note": "No reliable public CRM evidence was established from website artifacts. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
     },
     "prm": {
       "state": "unknown",
@@ -259,8 +215,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T12:33:46.444Z",
-    "lastCheckedAt": "2026-08-24T12:33:46.444Z",
+    "baselineAt": "2026-08-24T17:57:16.185Z",
+    "lastCheckedAt": "2026-08-24T17:57:16.185Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -384,7 +340,7 @@
       "status": 404
     }
   ],
-  "commercialSummary": "Apaleo describes itself as \"Transform your hospitality business with an open platform. Easily connect 3rd party applications to build a best-in-class tech stack for your hotel\". No partner programme type could be identified, although 1 partner page did return content. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "This company describes itself as \"Transform your hospitality business with an open platform. Easily connect 3rd party applications to build a best-in-class tech stack for your hotel\". No partner programme type could be identified, although 1 partner page did return content. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "under_observed",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",

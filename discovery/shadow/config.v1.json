@@ -1,0 +1,23 @@
+{
+  "purpose": "Frozen shadow-run configuration (mandate §28-29). Discovery generates candidates, resolves entities and runs the cheap evidence gate. Nothing here reaches a seller.",
+  "frozenAt": "2026-08-24",
+  "discipline": "Configuration frozen BEFORE execution. Each query is a NEW instantiation of an active family — never a replay of a template already measured — so the run tests the family, not a cached result. Disabled families do not run, which is the point of the family status model (§36).",
+  "budget": { "maxQueries": 8, "expectedCandidates": "50-150", "familiesRun": "validated + provisional only" },
+  "queries": [
+    { "family": "GERMAN_OPERATOR_FACHPARTNER", "status": "validated", "lang": "de", "query": "\"Servicepartner werden\" Hersteller Partnerprogramm Schulung" },
+    { "family": "FRENCH_REVENDEUR_PROGRAM", "status": "validated", "lang": "fr", "query": "\"devenir partenaire installateur\" programme fabricant" },
+    { "family": "ENGLISH_MSP_PROGRAM", "status": "validated", "lang": "en", "query": "\"MSSP partner program\" apply managed security provider" },
+    { "family": "ENGLISH_SYSTEM_INTEGRATOR_PROGRAM", "status": "validated", "lang": "en", "query": "\"integrator partner program\" building automation apply" },
+    { "family": "SWEDISH_RESELLER_OPERATOR", "status": "provisional", "lang": "sv", "query": "\"bli partner\" återförsäljarprogram tillverkare" },
+    { "family": "ITALIAN_RESELLER_OPERATOR", "status": "provisional", "lang": "it", "query": "\"programma rivenditori\" diventa partner produttore" },
+    { "family": "DUTCH_DEALER_OPERATOR", "status": "provisional", "lang": "nl", "query": "\"dealer worden\" voorwaarden fabrikant aanmelden" },
+    { "family": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE", "status": "provisional", "lang": "en", "query": "\"authorized dealer program\" apply manufacturer equipment" }
+  ],
+  "notRun": [
+    { "family": "DUTCH_INSTALLER_OPERATOR", "reason": "disabled at 29% operator precision" },
+    { "family": "ENGLISH_CERTIFIED_INSTALLER_NETWORK", "reason": "disabled at 29%" },
+    { "family": "ENGLISH_AUTHORIZED_DEALER_APPLICATION", "reason": "disabled at 22%" },
+    { "family": "ENGLISH_GENERIC_PARTNER_PROGRAM", "reason": "disabled at 25% with 75% competitor contamination" },
+    { "family": "GERMAN_GENERIC_VERTRIEBSPARTNER", "reason": "disabled at 0%" }
+  ]
+}

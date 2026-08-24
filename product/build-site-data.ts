@@ -51,6 +51,11 @@ export interface IndexRow {
   retrievedAt: string;
   sourceHealthOk: number;
   sourceHealthTotal: number;
+  /**
+   * What the additive recovery layer contributed on this account (§44). `null` means
+   * recovery did not run, which is the expected state for a well-observed account.
+   */
+  recovery: { ran: boolean; added: number; domainsSearched: number; pagesRead: number } | null;
 }
 
 const row = (d: Dossier): IndexRow => ({
@@ -86,6 +91,10 @@ const row = (d: Dossier): IndexRow => ({
   retrievedAt: d.oldestEvidenceAt ?? d.builtAt,
   sourceHealthOk: d.sourceHealth.filter((h) => h.health === 'success').length,
   sourceHealthTotal: d.sourceHealth.length,
+  recovery: d.recovery
+    ? { ran: true, added: d.recovery.addedMotions.length + d.recovery.addedSurfaces.length + (d.recovery.addedDirectoryType ? 1 : 0),
+        domainsSearched: d.recovery.domainsSearched.length, pagesRead: d.recovery.pagesRead }
+    : null,
 });
 
 for (const d of all) writeFileSync(`${OUT}dossiers/${d.domain}.json`, JSON.stringify(d));

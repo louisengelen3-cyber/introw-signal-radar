@@ -1,12 +1,12 @@
 {
   "domain": "productsup.com",
-  "companyName": "Productsup",
+  "companyName": null,
   "selfDescription": {
     "text": "Productsup’s enterprise feed management and syndication platform empowers businesses to optimize product experiences across all touchpoints. Get started today!",
     "sourceUrl": "https://www.productsup.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T12:33:51.078Z",
+  "builtAt": "2026-08-24T17:58:05.890Z",
   "oldestEvidenceAt": "2026-08-24T07:35:41.706Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -89,7 +89,42 @@
       "whyItMayNotMatter": "A published workflow is not a used workflow, and login-walled machinery is invisible either way."
     }
   ],
-  "programmes": [],
+  "programmes": [
+    {
+      "kind": "reseller",
+      "publishedName": null,
+      "evidence": [
+        {
+          "id": "o139",
+          "quote": "Trade vocabulary for a reseller motion found on a partner surface recovered from www.productsup.com.",
+          "sourceUrl": "https://www.productsup.com/de/partner-onboarding/",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T17:58:05.890Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses reseller trade vocabulary about itself on a page base research did not reach",
+          "doesNotProve": "that the programme is active, staffed or material, nor that the company operates rather than participates in the network"
+        }
+      ],
+      "surfaces": []
+    },
+    {
+      "kind": "distributor",
+      "publishedName": null,
+      "evidence": [
+        {
+          "id": "o140",
+          "quote": "Trade vocabulary for a distributor motion found on a partner surface recovered from www.productsup.com.",
+          "sourceUrl": "https://www.productsup.com/de/partner-onboarding/",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T17:58:05.890Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses distributor trade vocabulary about itself on a page base research did not reach",
+          "doesNotProve": "that the programme is active, staffed or material, nor that the company operates rather than participates in the network"
+        }
+      ],
+      "surfaces": []
+    }
+  ],
   "surfaces": [
     {
       "surface": "partner_recruitment",
@@ -157,49 +192,40 @@
       "evidence": []
     }
   ],
-  "jobEvidence": {
-    "domain": "productsup.com",
-    "retrievedAt": "2026-08-24T12:33:52.646Z",
-    "tenants": [],
-    "vacanciesFound": 0,
-    "vacanciesUsed": 0,
-    "vacanciesQuarantined": 0,
-    "duplicatesCollapsed": 0,
-    "crmHits": [],
-    "operationalHits": [],
-    "health": [
+  "recovery": {
+    "attempted": true,
+    "domainsSearched": [
+      "productsup.com"
+    ],
+    "surfacesFound": 5,
+    "pagesRead": 4,
+    "softNotFound": 0,
+    "addedMotions": [
+      "reseller",
+      "distributor"
+    ],
+    "addedSurfaces": [],
+    "addedDirectoryType": "distributor_directory",
+    "sourceUrls": [
       {
-        "url": "https://productsup.com/",
-        "health": "success",
-        "status": 200
+        "url": "https://www.productsup.com/de/partner-onboarding/",
+        "origin": "canonical_domain"
       },
       {
-        "url": "https://productsup.com/careers",
-        "health": "success",
-        "status": 200
+        "url": "https://www.productsup.com/de/channel-feedback/",
+        "origin": "canonical_domain"
       },
       {
-        "url": "https://productsup.com/career",
-        "health": "not_found",
-        "status": 404
+        "url": "https://www.productsup.com/de/produkte/distribution-px/",
+        "origin": "canonical_domain"
       },
       {
-        "url": "https://productsup.com/jobs",
-        "health": "not_found",
-        "status": 404
-      },
-      {
-        "url": "https://productsup.com/join-us",
-        "health": "not_found",
-        "status": 404
-      },
-      {
-        "url": "https://productsup.com/work-with-us",
-        "health": "not_found",
-        "status": 404
+        "url": "https://www.productsup.com/de/partners/",
+        "origin": "canonical_domain"
       }
     ],
-    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM."
+    "redundant": false,
+    "stoppedBecause": "sufficient"
   },
   "partnerDirectory": {
     "isDirectory": false,
@@ -228,7 +254,7 @@
                 "detail": "Website artifact",
                 "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
                 "doesNotProve": "that opportunities and partner deals are managed there",
-                "observedAt": "2026-08-24T12:33:51.078Z"
+                "observedAt": "2026-08-24T17:58:05.890Z"
               },
               {
                 "kind": "website_fingerprint",
@@ -238,12 +264,12 @@
                 "detail": "Website artifact",
                 "proves": "HubSpot-hosted assets or analytics are in use",
                 "doesNotProve": "which HubSpot products are licensed",
-                "observedAt": "2026-08-24T12:33:51.078Z"
+                "observedAt": "2026-08-24T17:58:05.890Z"
               }
             ],
             "jobVacancies": 0,
             "hasFingerprint": true,
-            "lastObservedAt": "2026-08-24T12:33:51.078Z"
+            "lastObservedAt": "2026-08-24T17:58:05.890Z"
           }
         ],
         "primary": {
@@ -258,7 +284,7 @@
               "detail": "Website artifact",
               "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
               "doesNotProve": "that opportunities and partner deals are managed there",
-              "observedAt": "2026-08-24T12:33:51.078Z"
+              "observedAt": "2026-08-24T17:58:05.890Z"
             },
             {
               "kind": "website_fingerprint",
@@ -268,38 +294,38 @@
               "detail": "Website artifact",
               "proves": "HubSpot-hosted assets or analytics are in use",
               "doesNotProve": "which HubSpot products are licensed",
-              "observedAt": "2026-08-24T12:33:51.078Z"
+              "observedAt": "2026-08-24T17:58:05.890Z"
             }
           ],
           "jobVacancies": 0,
           "hasFingerprint": true,
-          "lastObservedAt": "2026-08-24T12:33:51.078Z"
+          "lastObservedAt": "2026-08-24T17:58:05.890Z"
         },
         "conflict": null,
         "sourcesChecked": {
           "website": true,
-          "jobs": true,
+          "jobs": false,
           "vacanciesRead": 0
         },
         "note": "HubSpot at confirmed, from 2 sources. Evidence of use is not evidence that this is the partner team’s system of record."
       },
       "evidence": [
         {
-          "id": "o135",
+          "id": "o141",
           "quote": "js.hsforms.net",
           "sourceUrl": "https://productsup.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T12:33:51.078Z",
+          "retrievedAt": "2026-08-24T17:58:05.890Z",
           "strength": "confirmed",
           "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
           "doesNotProve": "that opportunities and partner deals are managed there"
         },
         {
-          "id": "o136",
+          "id": "o142",
           "quote": "hubspotusercontent",
           "sourceUrl": "https://productsup.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T12:33:51.078Z",
+          "retrievedAt": "2026-08-24T17:58:05.890Z",
           "strength": "strong_proxy",
           "proves": "HubSpot-hosted assets or analytics are in use",
           "doesNotProve": "which HubSpot products are licensed"
@@ -321,8 +347,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T12:33:51.078Z",
-    "lastCheckedAt": "2026-08-24T12:33:51.078Z",
+    "baselineAt": "2026-08-24T17:58:05.890Z",
+    "lastCheckedAt": "2026-08-24T17:58:05.890Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -469,12 +495,12 @@
       "status": 404
     }
   ],
-  "commercialSummary": "Productsup describes itself as \"Productsup’s enterprise feed management and syndication platform empowers businesses to optimize product experiences across all touchpoints. Get started today!\". No partner programme type could be identified, although 7 partner pages did return content. Public evidence does not establish partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "This company describes itself as \"Productsup’s enterprise feed management and syndication platform empowers businesses to optimize product experiences across all touchpoints. Get started today!\". Public pages describe a reseller, distributor motion. Public evidence does not establish partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
-    "state": "under_observed",
+    "state": "research",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
     "reasons": [
-      "No distinct partner claim could be extracted. This may mean the company publishes little, or that we could not read what it publishes — it says nothing about suitability."
+      "No construct-level claim survived attribution, but 2 programme or workflow finding(s) were observed. Read those quotes directly."
     ],
     "diagnostics": {
       "observationCount": 0,
@@ -482,7 +508,7 @@
       "independentSourceCount": 0,
       "publicationDensity": "none",
       "constructEvidenceCount": 0,
-      "supportingFindingCount": 0,
+      "supportingFindingCount": 2,
       "volumeSensitive": false,
       "unattributableDropped": 2
     }

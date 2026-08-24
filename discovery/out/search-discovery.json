@@ -1,0 +1,610 @@
+{
+  "note": "Candidate companies from generic multilingual queries. NO company name appears in any query, so results cannot be a restatement of a list already held. Each candidate is classified only by what its landing page is — never by fit, size, or desirability. Classification is deliberately unkind to the project: anything that is commentary about partner programmes rather than a vendor operating one is counted as noise.",
+  "classes": {
+    "vendor_motion": "a company's own page evidencing a partner/dealer/installer/reseller motion it operates",
+    "prm_vendor": "a channel-software/PRM vendor — the category Introw competes in, not a prospect",
+    "content": "blog, article, glossary, template, forum, trade press, law dictionary, listicle",
+    "directory": "a third-party directory, marketplace or distributor aggregator"
+  },
+  "runs": [
+    {
+      "query": "\"Fachpartner werden\" Hersteller Partnerprogramm Installateur",
+      "lang": "de",
+      "expectedSegment": "manufacturing",
+      "candidates": [
+        {
+          "domain": "sonnen.de",
+          "class": "vendor_motion",
+          "evidence": "partner portal and app, starter kit, onboarding meeting"
+        },
+        {
+          "domain": "nibe.eu",
+          "class": "vendor_motion",
+          "evidence": "'qualified inquiries are forwarded directly from the NIBE website to you'; postcode territory search"
+        },
+        {
+          "domain": "pvselected.com",
+          "class": "vendor_motion",
+          "evidence": "B2B terms, online shop, technical support, training"
+        },
+        {
+          "domain": "viessmann.de",
+          "class": "vendor_motion",
+          "evidence": "online application, branch contact, partner portal credentials"
+        },
+        {
+          "domain": "solyco.com",
+          "class": "vendor_motion",
+          "evidence": "personal contact, training, planning assistance, marketing packages"
+        },
+        {
+          "domain": "e3dc.com",
+          "class": "vendor_motion",
+          "evidence": "become-our-partner page"
+        },
+        {
+          "domain": "alpha-innotec.com",
+          "class": "vendor_motion",
+          "evidence": "become a specialist partner page"
+        },
+        {
+          "domain": "heizungsfinder.de",
+          "class": "directory",
+          "evidence": "consumer lead-gen directory, not a vendor programme"
+        }
+      ]
+    },
+    {
+      "query": "\"installateur worden\" partnerprogramma fabrikant warmtepomp erkend",
+      "lang": "nl",
+      "expectedSegment": "manufacturing",
+      "candidates": [
+        {
+          "domain": "quatt.io",
+          "class": "vendor_motion",
+          "evidence": "installer partner programme"
+        },
+        {
+          "domain": "itho-daalderop.nl",
+          "class": "vendor_motion",
+          "evidence": "recognised installer scheme"
+        },
+        {
+          "domain": "warmtepomp-weetjes.nl",
+          "class": "content",
+          "evidence": "consumer advice blog"
+        },
+        {
+          "domain": "essent.nl",
+          "class": "content",
+          "evidence": "energy retailer consumer page"
+        },
+        {
+          "domain": "vattenfall.nl",
+          "class": "content",
+          "evidence": "energy retailer consumer page"
+        },
+        {
+          "domain": "consumentenbond.nl",
+          "class": "content",
+          "evidence": "consumer association"
+        },
+        {
+          "domain": "installatie.nl",
+          "class": "content",
+          "evidence": "trade press"
+        }
+      ]
+    },
+    {
+      "query": "\"MSP partner program\" \"deal registration\" apply become a partner",
+      "lang": "en",
+      "expectedSegment": "it_security",
+      "candidates": [
+        {
+          "domain": "acronis.com",
+          "class": "vendor_motion",
+          "evidence": "MSP programme with deal registration"
+        },
+        {
+          "domain": "watchguard.com",
+          "class": "vendor_motion",
+          "evidence": "MSP partner programme"
+        },
+        {
+          "domain": "sophos.com",
+          "class": "vendor_motion",
+          "evidence": "channel-only partner programme"
+        },
+        {
+          "domain": "barracuda.com",
+          "class": "vendor_motion",
+          "evidence": "MSP partner programme"
+        },
+        {
+          "domain": "bitdefender.com",
+          "class": "vendor_motion",
+          "evidence": "MSP/reseller programme"
+        },
+        {
+          "domain": "n-able.com",
+          "class": "vendor_motion",
+          "evidence": "MSP platform partner programme"
+        },
+        {
+          "domain": "connectwise.com",
+          "class": "vendor_motion",
+          "evidence": "MSP partner programme"
+        },
+        {
+          "domain": "kaseya.com",
+          "class": "vendor_motion",
+          "evidence": "MSP partner programme"
+        },
+        {
+          "domain": "channele2e.com",
+          "class": "content",
+          "evidence": "channel trade press"
+        }
+      ]
+    },
+    {
+      "query": "\"become an authorized dealer\" application form manufacturer",
+      "lang": "en",
+      "expectedSegment": "manufacturing",
+      "candidates": [
+        {
+          "domain": "hy-capacity.com",
+          "class": "vendor_motion",
+          "evidence": "dealer account setup/application"
+        },
+        {
+          "domain": "go-ev.com",
+          "class": "vendor_motion",
+          "evidence": "how to become an authorised motor dealer"
+        },
+        {
+          "domain": "jotform.com",
+          "class": "content",
+          "evidence": "generic dealer application form TEMPLATE"
+        },
+        {
+          "domain": "sendpulse.com",
+          "class": "content",
+          "evidence": "marketing glossary entry"
+        },
+        {
+          "domain": "nearity.co",
+          "class": "content",
+          "evidence": "advice blog"
+        },
+        {
+          "domain": "jnadealerprogram.com",
+          "class": "content",
+          "evidence": "FAQ blog"
+        },
+        {
+          "domain": "smallbusiness.chron.com",
+          "class": "content",
+          "evidence": "how-to article"
+        },
+        {
+          "domain": "buildmyonlinestore.com",
+          "class": "content",
+          "evidence": "dictionary entry"
+        },
+        {
+          "domain": "ssb.texas.gov",
+          "class": "content",
+          "evidence": "securities regulator — wrong sense of 'dealer' entirely"
+        }
+      ]
+    },
+    {
+      "query": "\"certified installer\" program apply manufacturer",
+      "lang": "en",
+      "expectedSegment": "manufacturing",
+      "candidates": [
+        {
+          "domain": "bigassfans.com",
+          "class": "vendor_motion",
+          "evidence": "certified installer programme"
+        },
+        {
+          "domain": "airexmfg.com",
+          "class": "vendor_motion",
+          "evidence": "certified installer programme"
+        },
+        {
+          "domain": "cablinginstall.com",
+          "class": "content",
+          "evidence": "trade press feature"
+        },
+        {
+          "domain": "blog.bullseyelocations.com",
+          "class": "content",
+          "evidence": "vendor-of-locator-software blog"
+        },
+        {
+          "domain": "independentcontractor.lni.wa.gov",
+          "class": "content",
+          "evidence": "state licensing authority"
+        },
+        {
+          "domain": "lni.wa.gov",
+          "class": "content",
+          "evidence": "state licensing authority"
+        },
+        {
+          "domain": "usasuperior.com",
+          "class": "content",
+          "evidence": "homeowner guide"
+        }
+      ]
+    },
+    {
+      "query": "\"system integrator partner program\" industrial automation",
+      "lang": "en",
+      "expectedSegment": "industrial",
+      "candidates": [
+        {
+          "domain": "se.com",
+          "class": "vendor_motion",
+          "evidence": "Alliance Partner Program for system integrators and industrial distributors"
+        },
+        {
+          "domain": "rockwellautomation.com",
+          "class": "vendor_motion",
+          "evidence": "PartnerNetwork SI programme, bronze/silver/gold/platinum tiers"
+        },
+        {
+          "domain": "automationdirect.com",
+          "class": "vendor_motion",
+          "evidence": "SI Direct programme"
+        },
+        {
+          "domain": "process.honeywell.com",
+          "class": "vendor_motion",
+          "evidence": "HPS System Integrator Program, channel partner portal"
+        },
+        {
+          "domain": "rlconsultinginc.com",
+          "class": "content",
+          "evidence": "integrator's own marketing blog"
+        },
+        {
+          "domain": "blog.cybertrol.com",
+          "class": "content",
+          "evidence": "partner's blog post about its own tier"
+        },
+        {
+          "domain": "literature.rockwellautomation.com",
+          "class": "vendor_motion",
+          "evidence": "SI commercial programme guide PDF — benefits, requirements, incentives"
+        }
+      ]
+    },
+    {
+      "query": "\"Vertriebspartner werden\" Händlerprogramm Hersteller",
+      "lang": "de",
+      "expectedSegment": "manufacturing",
+      "candidates": [
+        {
+          "domain": "mein-dienstrad.de",
+          "class": "content",
+          "evidence": "glossary entry"
+        },
+        {
+          "domain": "vertriebszeitung.de",
+          "class": "content",
+          "evidence": "sales trade press"
+        },
+        {
+          "domain": "five-digital.de",
+          "class": "content",
+          "evidence": "agency marketing blog"
+        },
+        {
+          "domain": "unternehmer.de",
+          "class": "content",
+          "evidence": "business magazine"
+        },
+        {
+          "domain": "schreiber-training.de",
+          "class": "content",
+          "evidence": "sales trainer blog"
+        },
+        {
+          "domain": "home-of-welding.com",
+          "class": "content",
+          "evidence": "vendor news article about indirect sales, not a programme page"
+        }
+      ]
+    },
+    {
+      "query": "\"devenir revendeur\" programme partenaire fabricant",
+      "lang": "fr",
+      "expectedSegment": "manufacturing",
+      "candidates": [
+        {
+          "domain": "terra-computer.fr",
+          "class": "vendor_motion",
+          "evidence": "devenir revendeur informatique page"
+        },
+        {
+          "domain": "transfertpro.com",
+          "class": "vendor_motion",
+          "evidence": "programme partenaires revendeurs"
+        },
+        {
+          "domain": "tenable.com",
+          "class": "vendor_motion",
+          "evidence": "programme partenaire distributeur/revendeur"
+        },
+        {
+          "domain": "koban.cloud",
+          "class": "vendor_motion",
+          "evidence": "devenir partenaire ou revendeur"
+        },
+        {
+          "domain": "se.com",
+          "class": "vendor_motion",
+          "evidence": "partenaire de vente au détail agréé"
+        },
+        {
+          "domain": "arrivly.fr",
+          "class": "vendor_motion",
+          "evidence": "programme partenaire revendeur, grossiste"
+        },
+        {
+          "domain": "arcade-for-good.com",
+          "class": "vendor_motion",
+          "evidence": "revendeur/partenaire page"
+        },
+        {
+          "domain": "avantagebusiness.fr",
+          "class": "vendor_motion",
+          "evidence": "devenir partenaire revendeur"
+        },
+        {
+          "domain": "dgeproduction.fr",
+          "class": "content",
+          "evidence": "blog post about becoming a reseller"
+        }
+      ]
+    },
+    {
+      "query": "\"dealer worden\" verdeler partnerprogramma fabrikant",
+      "lang": "nl",
+      "expectedSegment": "manufacturing",
+      "candidates": [
+        {
+          "domain": "aedwinkel.be",
+          "class": "vendor_motion",
+          "evidence": "reseller application assessed on business data, sales channel, contract"
+        },
+        {
+          "domain": "armaro.be",
+          "class": "vendor_motion",
+          "evidence": "seeks distributors, three distributor types, commercial network"
+        },
+        {
+          "domain": "forkliftrobot.nl",
+          "class": "vendor_motion",
+          "evidence": "dealer programme, recurring revenue, technical support"
+        },
+        {
+          "domain": "pvg.eu",
+          "class": "vendor_motion",
+          "evidence": "verdeler worden, sales support contact"
+        },
+        {
+          "domain": "trends.knack.be",
+          "class": "content",
+          "evidence": "business magazine article"
+        },
+        {
+          "domain": "nl.esdifferent.com",
+          "class": "content",
+          "evidence": "dealer-vs-distributor definition page"
+        },
+        {
+          "domain": "starringjane.com",
+          "class": "content",
+          "evidence": "agency article on channel conflict"
+        },
+        {
+          "domain": "9lives.be",
+          "class": "content",
+          "evidence": "consumer forum thread"
+        }
+      ]
+    },
+    {
+      "query": "\"become a partner\" \"deal registration\" partner program software",
+      "lang": "en",
+      "expectedSegment": "software",
+      "candidates": [
+        {
+          "domain": "rocketsoftware.com",
+          "class": "vendor_motion",
+          "evidence": "become a partner page"
+        },
+        {
+          "domain": "accuknox.com",
+          "class": "vendor_motion",
+          "evidence": "partner deal registration page"
+        },
+        {
+          "domain": "zinfi.com",
+          "class": "prm_vendor",
+          "evidence": "PRM software vendor — how-to on implementing deal registration"
+        },
+        {
+          "domain": "channelscaler.com",
+          "class": "prm_vendor",
+          "evidence": "deal registration software product page"
+        },
+        {
+          "domain": "journeybee.io",
+          "class": "prm_vendor",
+          "evidence": "deal registration software guide"
+        },
+        {
+          "domain": "unifyr.com",
+          "class": "prm_vendor",
+          "evidence": "deal registration solution"
+        },
+        {
+          "domain": "channeltivity.com",
+          "class": "prm_vendor",
+          "evidence": "channel sales deal registration product"
+        },
+        {
+          "domain": "partnerportal.io",
+          "class": "prm_vendor",
+          "evidence": "partner portal / PRM software"
+        }
+      ]
+    },
+    {
+      "query": "\"authorized reseller\" program AV integrator display manufacturer apply",
+      "lang": "en",
+      "expectedSegment": "av_hardware",
+      "candidates": [
+        {
+          "domain": "arecontvision.com",
+          "class": "vendor_motion",
+          "evidence": "reseller partner programme"
+        },
+        {
+          "domain": "avproglobal.com",
+          "class": "vendor_motion",
+          "evidence": "authorised dealer programme for integrators, distributors, installers, rep groups"
+        },
+        {
+          "domain": "supercircuits.com",
+          "class": "vendor_motion",
+          "evidence": "authorised reseller programme"
+        },
+        {
+          "domain": "scansource.com",
+          "class": "directory",
+          "evidence": "distributor running a supplier's programme — distributor, not the vendor"
+        },
+        {
+          "domain": "crowntv-us.com",
+          "class": "content",
+          "evidence": "listicle of top AV integrators"
+        },
+        {
+          "domain": "42signals.com",
+          "class": "content",
+          "evidence": "blog on reseller credibility"
+        },
+        {
+          "domain": "lawinsider.com",
+          "class": "content",
+          "evidence": "legal dictionary definition"
+        }
+      ]
+    }
+  ],
+  "freshRuns_note": "HOLDOUT GENERALISATION TEST (mandate SS45-46). Swedish and Italian were never used while building the trade vocabulary or the surface finder, and neither language appears in src/recovery/trade.ts. These two queries were run AFTER the construction measurement was frozen, to test whether the discovery mechanism generalises to languages it was not built for.",
+  "freshRuns": [
+    {
+      "query": "\"bli återförsäljare\" partnerprogram tillverkare",
+      "lang": "sv",
+      "expectedSegment": "mixed",
+      "candidates": [
+        {
+          "domain": "canon.se",
+          "class": "vendor_motion",
+          "evidence": "Bli Canon-partner: print partner, reseller, IT reseller tracks"
+        },
+        {
+          "domain": "beebyte.se",
+          "class": "vendor_motion",
+          "evidence": "reseller account, 10% recurring commission"
+        },
+        {
+          "domain": "fristads.com",
+          "class": "vendor_motion",
+          "evidence": "workwear manufacturer reseller offering"
+        },
+        {
+          "domain": "prowejd.se",
+          "class": "vendor_motion",
+          "evidence": "bli återförsäljare, product access and training"
+        },
+        {
+          "domain": "blikk.se",
+          "class": "vendor_motion",
+          "evidence": "reseller commission on new sales and recurring licence revenue"
+        },
+        {
+          "domain": "osworker.com",
+          "class": "vendor_motion",
+          "evidence": "partner / bli återförsäljare page"
+        },
+        {
+          "domain": "spiris.se",
+          "class": "content",
+          "evidence": "step-by-step blog on becoming a reseller"
+        },
+        {
+          "domain": "salesforce.com",
+          "class": "prm_vendor",
+          "evidence": "manufacturing partner & channel engagement SOFTWARE — the category, not a prospect"
+        }
+      ]
+    },
+    {
+      "query": "\"diventare rivenditore autorizzato\" programma partner produttore",
+      "lang": "it",
+      "expectedSegment": "mixed",
+      "candidates": [
+        {
+          "domain": "husqvarna.com",
+          "class": "vendor_motion",
+          "evidence": "diventa rivenditore autorizzato, application form"
+        },
+        {
+          "domain": "arrivly.it",
+          "class": "vendor_motion",
+          "evidence": "authorised seller programme, selected group authorised to buy and resell"
+        },
+        {
+          "domain": "emotori.com",
+          "class": "vendor_motion",
+          "evidence": "diventa rivenditore, partner requirements"
+        },
+        {
+          "domain": "lmamachine.com",
+          "class": "vendor_motion",
+          "evidence": "industrial machine maker authorised reseller page"
+        },
+        {
+          "domain": "docsmarshal.it",
+          "class": "vendor_motion",
+          "evidence": "official reseller programme with Academy training"
+        },
+        {
+          "domain": "simpedil.eu",
+          "class": "vendor_motion",
+          "evidence": "become an authorised dealer page"
+        },
+        {
+          "domain": "imio.it",
+          "class": "directory",
+          "evidence": "third-party software reseller search"
+        },
+        {
+          "domain": "visurenetwork.it",
+          "class": "content",
+          "evidence": "blog on becoming a services reseller"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "purpose": "Discovery benchmark. These companies are KNOWN to operate a partner/channel motion with a publicly visible programme. Their domains are NEVER handed to the discovery engine — the test is whether independent mechanisms surface them from public seeds.",
+  "rule": "A miss is only a discovery failure if the company's partner motion is genuinely discoverable from a public seed. Customer status alone does not make a company a required find.",
+  "frozenAt": "2026-08-24",
+  "companies": [
+    {"name":"Aikido Security","domain":"aikido.dev","sector":"cybersecurity","country":"BE","motion":"reseller/MSSP"},
+    {"name":"Acronis","domain":"acronis.com","sector":"cybersecurity","country":"CH","motion":"MSP/distributor"},
+    {"name":"ESET","domain":"eset.com","sector":"cybersecurity","country":"SK","motion":"reseller/distributor"},
+    {"name":"WatchGuard","domain":"watchguard.com","sector":"cybersecurity","country":"US","motion":"VAR/MSP"},
+    {"name":"Sophos","domain":"sophos.com","sector":"cybersecurity","country":"UK","motion":"channel-only"},
+    {"name":"Bitdefender","domain":"bitdefender.com","sector":"cybersecurity","country":"RO","motion":"reseller/MSP"},
+    {"name":"Hornetsecurity","domain":"hornetsecurity.com","sector":"cybersecurity","country":"DE","motion":"MSP"},
+
+    {"name":"Odoo","domain":"odoo.com","sector":"saas","country":"BE","motion":"implementation partners"},
+    {"name":"Teamleader","domain":"teamleader.eu","sector":"saas","country":"BE","motion":"reseller/agency"},
+    {"name":"Exact","domain":"exact.com","sector":"saas","country":"NL","motion":"accountancy/reseller"},
+    {"name":"Sitecore","domain":"sitecore.com","sector":"saas","country":"US","motion":"solution partners"},
+    {"name":"Chargebee","domain":"chargebee.com","sector":"saas","country":"US","motion":"solution/agency"},
+    {"name":"Storyblok","domain":"storyblok.com","sector":"saas","country":"AT","motion":"agency partners"},
+
+    {"name":"Milesight","domain":"milesight.com","sector":"iot","country":"CN","motion":"distributor/solution"},
+    {"name":"Teltonika Networks","domain":"teltonika-networks.com","sector":"iot","country":"LT","motion":"distributor/reseller"},
+    {"name":"Advantech","domain":"advantech.com","sector":"iot","country":"TW","motion":"distributor/SI"},
+    {"name":"Loxone","domain":"loxone.com","sector":"iot","country":"AT","motion":"installer partners"},
+    {"name":"Digi International","domain":"digi.com","sector":"iot","country":"US","motion":"distributor/reseller"},
+
+    {"name":"Crestron","domain":"crestron.com","sector":"av_hardware","country":"US","motion":"integrator/dealer"},
+    {"name":"Barco","domain":"barco.com","sector":"av_hardware","country":"BE","motion":"integrator/reseller"},
+    {"name":"Axis Communications","domain":"axis.com","sector":"av_hardware","country":"SE","motion":"channel partners"},
+    {"name":"Extron","domain":"extron.com","sector":"av_hardware","country":"US","motion":"dealer"},
+
+    {"name":"Vaillant","domain":"vaillant.com","sector":"manufacturing","country":"DE","motion":"installer tiers"},
+    {"name":"Fronius","domain":"fronius.com","sector":"solar","country":"AT","motion":"installer tiers"},
+    {"name":"SMA Solar","domain":"sma.de","sector":"solar","country":"DE","motion":"installer/distributor"},
+    {"name":"Quatt","domain":"quatt.io","sector":"manufacturing","country":"NL","motion":"installer partners"},
+    {"name":"Niko","domain":"niko.eu","sector":"manufacturing","country":"BE","motion":"installer/wholesale"},
+    {"name":"Somfy","domain":"somfy.com","sector":"manufacturing","country":"FR","motion":"installer/dealer"},
+    {"name":"Phoenix Contact","domain":"phoenixcontact.com","sector":"industrial","country":"DE","motion":"distributor/SI"},
+    {"name":"Beckhoff","domain":"beckhoff.com","sector":"industrial","country":"DE","motion":"SI partners"},
+
+    {"name":"Mollie","domain":"mollie.com","sector":"fintech","country":"NL","motion":"agency/partner"},
+    {"name":"Sana Commerce","domain":"sana-commerce.com","sector":"ecommerce","country":"NL","motion":"ERP partners"},
+    {"name":"Shopware","domain":"shopware.com","sector":"ecommerce","country":"DE","motion":"agency partners"},
+    {"name":"Mews","domain":"mews.com","sector":"hospitality","country":"NL","motion":"integration/referral"}
+  ]
+}

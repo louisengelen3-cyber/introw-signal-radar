@@ -18,6 +18,7 @@ import { dedupe } from './dedup.js';
 import { scanSurfaces, SURFACE_DEFS } from './surfaces.js';
 import { detectProgrammes } from './programmes.js';
 import { detectDirectory, NO_DIRECTORY } from './directory.js';
+import { mergeRecovery, shouldAttemptRecovery, type RecoveryContribution } from '../recovery/union.js';
 import { isContentPath, isPartnerSource, isReadableQuote, partitionAttributable } from './attribution.js';
 import { enrichWithJobs, summariseCrm } from '../jobs/enrich.js';
 import { buildCrmBundle, type FingerprintInput } from '../jobs/bundle.js';
@@ -44,6 +45,16 @@ export interface BuildOptions {
   name?: string;
   /** Pre-computed assessment, so a caller can avoid re-crawling. */
   assessment?: Assessment;
+  /**
+   * Run the additive recovery source layer (multi-domain + sitemap surfaces + trade
+   * vocabulary). Off by default and gated by RECOVERY_ENABLED in production.
+   *
+   * Recovery can only ADD to what base research found — see src/recovery/union.ts. Measured
+   * on 106 companies, recovery run as a REPLACEMENT regressed 12 accounts; run as a union it
+   * regressed none. It is attempted only where base evidence is partial or under-observed,
+   * so a well-observed company costs nothing extra.
+   */
+  recovery?: boolean;
 }
 
 export async function buildDossier(domain: string, opts: BuildOptions = {}): Promise<Dossier> {
@@ -166,6 +177,39 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
   // A programme whose evidence was all deduplicated or dropped has nothing to show; an empty
   // card asserts a motion exists while offering nothing to check it against.
   }).filter((p) => p.evidence.length > 0);
+
+  /* ── additive recovery (§14) ───────────────────────────────────────────
+   * Runs AFTER base detection, never instead of it. `mergeRecovery` computes a set
+   * difference against what base already found, so this block can only ever lengthen
+   * `programmes` — there is no code path by which recovery removes a base finding.
+   */
+  let recovery: RecoveryContribution | null = null;
+  const baseEvidenceForRecovery = {
+    programmes: programmes.map((p) => p.kind as string),
+    confirmedSurfaces: [] as string[],
+    directoryType: directory.isDirectory ? 'unknown_directory' : null,
+    pagesRead: readable.length,
+  };
+  if (opts.recovery && shouldAttemptRecovery(baseEvidenceForRecovery, assessment.reachable === false)) {
+    try {
+      recovery = await mergeRecovery(bare, baseEvidenceForRecovery);
+      for (const kind of recovery.addedMotions) {
+        const src = recovery.sourceUrls[0];
+        programmes.push({
+          kind: kind as Programme['kind'],
+          publishedName: null,
+          evidence: [obs({
+            quote: `Trade vocabulary for a ${kind.replace(/_/g, ' ')} motion found on a partner surface recovered from ${src ? new URL(src.url).hostname : 'a related company domain'}.`,
+            sourceUrl: src?.url ?? '', sourceType: 'partner_surface', retrievedAt: assessment.retrievedAt,
+            strength: 'strong_proxy',
+            proves: `the company uses ${kind.replace(/_/g, ' ')} trade vocabulary about itself on a page base research did not reach`,
+            doesNotProve: 'that the programme is active, staffed or material, nor that the company operates rather than participates in the network',
+          })],
+          surfaces: [],
+        });
+      }
+    } catch { recovery = null; }   // recovery failing must never fail a dossier
+  }
 
   const scan = scanSurfaces(attributablePages);
   scan.hits = scan.hits.filter((h) => isReadableQuote(h.quote));
@@ -372,6 +416,7 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
     category: { ...category, knownCompetitorList: { onList: known.isKnownCompetitor(bare), lastReviewed: known.lastReviewed } },
     constructs, programmes,
     surfaces,
+    recovery,
     jobEvidence: opts.jobs ? jobEvidence : undefined,
     partnerDirectory: {
       ...directory,

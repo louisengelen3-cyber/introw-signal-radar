@@ -40,6 +40,8 @@ export interface IndexRow {
   retrievedAt: string;
   sourceHealthOk: number;
   sourceHealthTotal: number;
+  /** What additive recovery contributed. `null` means it did not run on this account. */
+  recovery: { ran: boolean; added: number; domainsSearched: number; pagesRead: number } | null;
 }
 
 export interface SiteIndex {

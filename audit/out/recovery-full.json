@@ -1,0 +1,3294 @@
+[
+  {
+    "cohort": "saas_software",
+    "domain": "chargebee.com",
+    "country": "US",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "chargebee.com"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "sitemap": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [
+      "reseller",
+      "services"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment"
+    ],
+    "tradeMotions": [
+      "solution_partner"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "solution_partner_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.chargebee.com/partners/"
+    ]
+  },
+  {
+    "cohort": "saas_software",
+    "domain": "teamleader.eu",
+    "country": "BE",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "teamleader.eu"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "navigation": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [
+      "referral",
+      "services",
+      "integration",
+      "affiliate"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment",
+      "enablement",
+      "certification",
+      "portal"
+    ],
+    "tradeMotions": [
+      "service_partner"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "affiliate_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.teamleader.eu/become-a-partner"
+    ]
+  },
+  {
+    "cohort": "saas_software",
+    "domain": "storyblok.com",
+    "country": "AT",
+    "note": "named Introw customer",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "storyblok.com"
+    ],
+    "surfacesFound": 5,
+    "surfaceOrigins": {
+      "sitemap": 5
+    },
+    "pagesRead": 5,
+    "softNotFound": 0,
+    "programmes": [
+      "services",
+      "agency",
+      "technology"
+    ],
+    "confirmedSurfaces": [
+      "programme_tiers"
+    ],
+    "tradeMotions": [
+      "solution_partner"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "solution_partner_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.storyblok.com/mp/partner-excellence",
+      "https://www.storyblok.com/partners/partner-events/wine-tasting-evening-with-storyblok-in-stockholm",
+      "https://www.storyblok.com/fs/partners-contact-abm"
+    ]
+  },
+  {
+    "cohort": "saas_software",
+    "domain": "silverfin.com",
+    "country": "BE",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "silverfin.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "saas_software",
+    "domain": "exact.com",
+    "country": "NL",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "exact.com"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "sitemap": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [
+      "reseller"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment"
+    ],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.exact.com/partners"
+    ]
+  },
+  {
+    "cohort": "saas_software",
+    "domain": "contentful.com",
+    "country": "DE",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "contentful.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "saas_software",
+    "domain": "sitecore.com",
+    "country": "US",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "sitecore.com",
+      "partners.sitecore.com"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "sitemap": 2
+    },
+    "pagesRead": 2,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [
+      "solution_partner"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "solution_partner_directory",
+    "motion": true,
+    "motionFromTradeOnly": true,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.sitecore.com/partners",
+      "https://www.sitecore.com/platform/sitecore-training/certification-bundles"
+    ]
+  },
+  {
+    "cohort": "saas_software",
+    "domain": "odoo.com",
+    "country": "BE",
+    "relatedDomains": 2,
+    "domainsSearched": [
+      "odoo.com",
+      "odoo.sh",
+      "odoo.fm"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 8,
+      "path_probe": 2
+    },
+    "pagesRead": 10,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [
+      "partner_recruitment"
+    ],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.odoo.com/certification-faq",
+      "https://www.odoo.com/services/partners",
+      "https://www.odoo.fm/partner"
+    ]
+  },
+  {
+    "cohort": "cybersecurity_it",
+    "domain": "aikido.dev",
+    "country": "BE",
+    "note": "named Introw customer",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "aikido.dev"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "sitemap": 2
+    },
+    "pagesRead": 2,
+    "softNotFound": 0,
+    "programmes": [
+      "reseller",
+      "technology"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment",
+      "deal_registration",
+      "co_selling",
+      "portal"
+    ],
+    "tradeMotions": [
+      "msp",
+      "solution_partner"
+    ],
+    "tradeSurfaces": [
+      "partner_portal"
+    ],
+    "directoryType": "msp_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.aikido.dev/partner",
+      "https://www.aikido.dev/partners/aws"
+    ]
+  },
+  {
+    "cohort": "cybersecurity_it",
+    "domain": "reversinglabs.com",
+    "country": "US",
+    "note": "named Introw customer",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "reversinglabs.com"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "navigation": 2
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [
+      "reseller"
+    ],
+    "confirmedSurfaces": [],
+    "tradeMotions": [
+      "msp",
+      "solution_partner"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "msp_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://reversinglabs.com/become-a-partner",
+      "https://reversinglabs.com/oem-partners"
+    ]
+  },
+  {
+    "cohort": "saas_software",
+    "domain": "visma.com",
+    "country": "NO",
+    "relatedDomains": 3,
+    "domainsSearched": [
+      "visma.com",
+      "my.connect.identity.stagaws.visma.com",
+      "my.connect.int.identity.testaws.visma.com"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 10,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.visma.com/newsroom/var-femte-har-svart-att-fa-pengarna-att-racka-efter-jul-b907aa71",
+      "https://www.visma.com/newsroom/var-femte-organisation-tror-att-digitaliseringen-ger-nyanstallningar-9d2bc5aa",
+      "https://www.visma.com/newsroom/var-femte-smaforetagare-oroar-sig-for-lagkonjunktur-5a3e8f1a"
+    ]
+  },
+  {
+    "cohort": "cybersecurity_it",
+    "domain": "eset.com",
+    "country": "SK",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "eset.com",
+      "support.eset.com"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "sitemap": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.eset.com/za/business/partner/find/"
+    ]
+  },
+  {
+    "cohort": "cybersecurity_it",
+    "domain": "acronis.com",
+    "country": "CH",
+    "relatedDomains": 4,
+    "domainsSearched": [
+      "acronis.com",
+      "partners.acronis.com",
+      "support.acronis.com"
+    ],
+    "surfacesFound": 3,
+    "surfaceOrigins": {
+      "navigation": 3
+    },
+    "pagesRead": 3,
+    "softNotFound": 0,
+    "programmes": [
+      "reseller",
+      "distributor"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment",
+      "deal_registration",
+      "portal",
+      "programme_tiers"
+    ],
+    "tradeMotions": [
+      "system_integrator",
+      "distributor",
+      "msp"
+    ],
+    "tradeSurfaces": [
+      "tiering"
+    ],
+    "directoryType": "msp_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://acronis.com/en/partners/resellers/",
+      "https://academy.acronis.com/",
+      "https://support.acronis.com/msp"
+    ]
+  },
+  {
+    "cohort": "saas_software",
+    "domain": "unit4.com",
+    "country": "NL",
+    "relatedDomains": 2,
+    "domainsSearched": [
+      "unit4.com",
+      "support.unit4.com",
+      "partners.unit4.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "cybersecurity_it",
+    "domain": "watchguard.com",
+    "country": "US",
+    "relatedDomains": 2,
+    "domainsSearched": [
+      "watchguard.com",
+      "watchguard.co.jp",
+      "watchguard.widencollective.com"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 9,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [
+      "msp"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "msp_directory",
+    "motion": true,
+    "motionFromTradeOnly": true,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.watchguard.com/de/wgrd-resource-center/case-study/mssp-partner-seabix-ag",
+      "https://www.watchguard.com/it/wgrd-events/partner-growth-webinar-watchguard-clouddr-e-raitm",
+      "https://www.watchguard.com/wgrd-shows/msp-global"
+    ]
+  },
+  {
+    "cohort": "cybersecurity_it",
+    "domain": "bitdefender.com",
+    "country": "RO",
+    "relatedDomains": 5,
+    "domainsSearched": [
+      "bitdefender.com",
+      "support.bitdefender.com",
+      "my.bitdefender.com"
+    ],
+    "surfacesFound": 4,
+    "surfaceOrigins": {
+      "sitemap": 4
+    },
+    "pagesRead": 2,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.bitdefender.com/pt-pt/business/demo-zone/msp-edit-the-licensingoptionsforyourcustomers-1765884720575-856",
+      "https://www.bitdefender.com/pt-pt/business/demo-zone/msp-enable-featuresfornewcompanies-1765980981475-220",
+      "https://www.bitdefender.com/pt-pt/partners/"
+    ]
+  },
+  {
+    "cohort": "cybersecurity_it",
+    "domain": "sophos.com",
+    "country": "UK",
+    "relatedDomains": 2,
+    "domainsSearched": [
+      "sophos.com",
+      "sophos.ondemand.goldcast.io",
+      "sophos.integrityline.com"
+    ],
+    "surfacesFound": 6,
+    "surfaceOrigins": {
+      "sitemap": 6
+    },
+    "pagesRead": 5,
+    "softNotFound": 0,
+    "programmes": [
+      "distributor",
+      "reseller",
+      "strategic_alliance"
+    ],
+    "confirmedSurfaces": [
+      "portal",
+      "partner_recruitment"
+    ],
+    "tradeMotions": [
+      "msp"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "msp_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.sophos.com/en-us/content/msp-perspectives",
+      "https://www.sophos.com/en-us/content/partner-experience-2026-content-hub",
+      "https://www.sophos.com/en-us/content/partner-notification"
+    ]
+  },
+  {
+    "cohort": "cybersecurity_it",
+    "domain": "barracuda.com",
+    "country": "US",
+    "relatedDomains": 3,
+    "domainsSearched": [
+      "barracuda.com",
+      "partners.barracuda.com",
+      "barracuda.customershome.com"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "navigation": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [
+      "reseller"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment",
+      "deal_registration",
+      "portal"
+    ],
+    "tradeMotions": [
+      "msp",
+      "solution_partner"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "msp_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.barracuda.com/partners"
+    ]
+  },
+  {
+    "cohort": "fintech",
+    "domain": "mollie.com",
+    "country": "NL",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "mollie.com"
+    ],
+    "surfacesFound": 5,
+    "surfaceOrigins": {
+      "sitemap": 5
+    },
+    "pagesRead": 2,
+    "softNotFound": 0,
+    "programmes": [
+      "agency"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment",
+      "application",
+      "referral_submission"
+    ],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.mollie.com/terminals/buy-tap",
+      "https://www.mollie.com/partner-program/agencies",
+      "https://www.mollie.com/growth/buy-now-pay-later-trends-usage"
+    ]
+  },
+  {
+    "cohort": "fintech",
+    "domain": "unifiedpost.com",
+    "country": "BE",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "unifiedpost.com",
+      "unifiedpostgroup.com"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "navigation": 1,
+      "sitemap": 1
+    },
+    "pagesRead": 2,
+    "softNotFound": 0,
+    "programmes": [
+      "reseller"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment"
+    ],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://unifiedpost.com/partnerships/accountants",
+      "https://www.unifiedpostgroup.com/partnerships/our-partnerships"
+    ]
+  },
+  {
+    "cohort": "cybersecurity_it",
+    "domain": "nomios.com",
+    "country": "NL",
+    "relatedDomains": 9,
+    "domainsSearched": [
+      "nomios.com",
+      "support.nomios.com",
+      "nomios.co.uk"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "navigation": 2
+    },
+    "pagesRead": 2,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [
+      "certification",
+      "programme_tiers"
+    ],
+    "tradeMotions": [],
+    "tradeSurfaces": [
+      "tiering"
+    ],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.nomios.com/partners/",
+      "https://www.nomios.co.uk/partners/"
+    ]
+  },
+  {
+    "cohort": "fintech",
+    "domain": "twikey.com",
+    "country": "BE",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "twikey.com",
+      "support.twikey.com"
+    ],
+    "surfacesFound": 3,
+    "surfaceOrigins": {
+      "sitemap": 3
+    },
+    "pagesRead": 3,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.twikey.com/be/partner/aangetekend.html",
+      "https://www.twikey.com/be/partners.html",
+      "https://www.twikey.com/it/partner.html"
+    ]
+  },
+  {
+    "cohort": "cybersecurity_it",
+    "domain": "hornetsecurity.com",
+    "country": "DE",
+    "relatedDomains": 2,
+    "domainsSearched": [
+      "hornetsecurity.com",
+      "partnerportal.hornetsecurity.com",
+      "support.hornetsecurity.com"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 10,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [
+      "partner_recruitment",
+      "portal",
+      "programme_tiers",
+      "certification"
+    ],
+    "tradeMotions": [],
+    "tradeSurfaces": [
+      "partner_portal",
+      "tiering",
+      "certification"
+    ],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.hornetsecurity.com/en/webinars/partner-for-partners-natpoint/",
+      "https://www.hornetsecurity.com/en/partner/",
+      "https://www.hornetsecurity.com/en/become-a-partner/"
+    ]
+  },
+  {
+    "cohort": "fintech",
+    "domain": "nmbrs.com",
+    "country": "NL",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "nmbrs.com",
+      "nmbrs.se"
+    ],
+    "surfacesFound": 3,
+    "surfaceOrigins": {
+      "sitemap": 3
+    },
+    "pagesRead": 3,
+    "softNotFound": 0,
+    "programmes": [
+      "integration"
+    ],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": "affiliate_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.nmbrs.com/nl/academy/medewerkers",
+      "https://www.nmbrs.com/partner-agreement",
+      "https://www.nmbrs.se/partner"
+    ]
+  },
+  {
+    "cohort": "fintech",
+    "domain": "modulrfinance.com",
+    "country": "UK",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "modulrfinance.com"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "path_probe": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.modulrfinance.com/partners"
+    ]
+  },
+  {
+    "cohort": "fintech",
+    "domain": "yuki.nl",
+    "country": "NL",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "yuki.nl"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "navigation": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://yuki.nl/nl-nl/partners/"
+    ]
+  },
+  {
+    "cohort": "fintech",
+    "domain": "isabel.eu",
+    "country": "BE",
+    "relatedDomains": 5,
+    "domainsSearched": [
+      "isabel.eu",
+      "support.beta.isabel.eu",
+      "support.isabel.eu"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "sitemap": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [
+      "partner_recruitment"
+    ],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.isabel.eu/en/our-partners/become-a-partner"
+    ]
+  },
+  {
+    "cohort": "hr_business_software",
+    "domain": "officient.io",
+    "country": "BE",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "officient.io"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "navigation": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://officient.io/benl/partners"
+    ]
+  },
+  {
+    "cohort": "hr_business_software",
+    "domain": "factorialhr.com",
+    "country": "ES",
+    "note": "named Introw customer",
+    "relatedDomains": 5,
+    "domainsSearched": [
+      "factorialhr.com",
+      "factorialhr.co.uk",
+      "factorialhr.com.ar"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 10,
+    "softNotFound": 0,
+    "programmes": [
+      "reseller",
+      "affiliate",
+      "distributor"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment",
+      "enablement",
+      "programme_tiers"
+    ],
+    "tradeMotions": [],
+    "tradeSurfaces": [
+      "tiering"
+    ],
+    "directoryType": "affiliate_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://factorialhr.com/partnerships",
+      "https://factorialhr.com/partners-affiliates",
+      "https://factorialhr.com/partners-distributors"
+    ]
+  },
+  {
+    "cohort": "hr_business_software",
+    "domain": "personio.com",
+    "country": "DE",
+    "note": "named Introw customer",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "personio.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "hr_business_software",
+    "domain": "shiftbase.com",
+    "country": "NL",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "shiftbase.com"
+    ],
+    "surfacesFound": 6,
+    "surfaceOrigins": {
+      "sitemap": 6
+    },
+    "pagesRead": 6,
+    "softNotFound": 0,
+    "programmes": [
+      "services",
+      "technology",
+      "referral"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment"
+    ],
+    "tradeMotions": [
+      "solution_partner"
+    ],
+    "tradeSurfaces": [
+      "partner_recruitment"
+    ],
+    "directoryType": "solution_partner_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.shiftbase.com/nl/partner-programma",
+      "https://www.shiftbase.com/fr/programme-de-partenariat/partenaire-technologique",
+      "https://www.shiftbase.com/fr/certification-iso"
+    ]
+  },
+  {
+    "cohort": "hr_business_software",
+    "domain": "protime.eu",
+    "country": "BE",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "protime.eu"
+    ],
+    "surfacesFound": 5,
+    "surfaceOrigins": {
+      "sitemap": 5
+    },
+    "pagesRead": 5,
+    "softNotFound": 0,
+    "programmes": [
+      "reseller",
+      "technology"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment"
+    ],
+    "tradeMotions": [
+      "reseller"
+    ],
+    "tradeSurfaces": [
+      "partner_recruitment"
+    ],
+    "directoryType": "reseller_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.protime.eu/en/about-us/partners",
+      "https://www.protimewfm.co.uk/en-gb/about-us/partners",
+      "https://www.protime.eu/fr-be/a-propos/partenaires"
+    ]
+  },
+  {
+    "cohort": "fintech",
+    "domain": "clearbank.com",
+    "country": "UK",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "clearbank.com",
+      "clearbank.co.uk"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "path_probe": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [
+      "partner_recruitment",
+      "partner_resources"
+    ],
+    "tradeMotions": [
+      "solution_partner"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "solution_partner_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.clearbank.co.uk/partners"
+    ]
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "viessmann.com",
+    "country": "DE",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "viessmann.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "hr_business_software",
+    "domain": "sdworx.com",
+    "country": "BE",
+    "relatedDomains": 23,
+    "domainsSearched": [
+      "sdworx.com",
+      "sdworx.co.uk",
+      "sdworx.de"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "sitemap": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [
+      "partner_recruitment"
+    ],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": 8,
+    "sampleUrls": [
+      "https://www.sdworx.co.uk/en-gb/partners"
+    ]
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "quatt.io",
+    "country": "NL",
+    "note": "named Introw customer — installer network, 10 to 200 partners",
+    "relatedDomains": 2,
+    "domainsSearched": [
+      "quatt.io",
+      "partners.quatt.io",
+      "support.quatt.io"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "sitemap": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [
+      "lead_routing",
+      "tiering",
+      "partner_recruitment"
+    ],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": true,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.quatt.io/zakelijk/partner-programma"
+    ]
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "daikin.eu",
+    "country": "BE",
+    "relatedDomains": 43,
+    "domainsSearched": [
+      "daikin.eu",
+      "daikin.al",
+      "daikin.am"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 5,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [
+      "certification"
+    ],
+    "tradeMotions": [
+      "dealer"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "dealer_locator",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.daikin.eu/en_us/installers.html",
+      "https://www.daikin.eu/en_us/installers/office-locations.html",
+      "https://www.daikin.eu/en_us/daikin-blog/buy-the-air-conditioner-that-is-right-for-you.html"
+    ]
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "vaillant.com",
+    "country": "DE",
+    "relatedDomains": 4,
+    "domainsSearched": [
+      "vaillant.com",
+      "vaillant.co.uk",
+      "vaillant.de"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "sitemap": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [
+      "installer"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "installer_locator",
+    "motion": true,
+    "motionFromTradeOnly": true,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.vaillant.de/kontakt/fachpartner-finden/heizungsbauer-in-der-naehe/"
+    ]
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "itho-daalderop.nl",
+    "country": "NL",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "itho-daalderop.nl"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "nibe.eu",
+    "country": "SE",
+    "relatedDomains": 5,
+    "domainsSearched": [
+      "nibe.eu",
+      "professional.nibe.eu",
+      "installer.nibe.eu"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 9,
+    "softNotFound": 0,
+    "programmes": [
+      "reseller"
+    ],
+    "confirmedSurfaces": [],
+    "tradeMotions": [
+      "installer",
+      "reseller"
+    ],
+    "tradeSurfaces": [
+      "partner_locator"
+    ],
+    "directoryType": "installer_locator",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": 21,
+    "sampleUrls": [
+      "https://www.nibe.eu/en-gb/homeowners/get-installed/find-an-installer",
+      "https://www.nibe.eu/en-gb/find-an-installer",
+      "https://www.nibe.eu/pl/pl/partners/adw-wioldar"
+    ]
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "kramp.com",
+    "country": "NL",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "kramp.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "grundfos.com",
+    "country": "DK",
+    "relatedDomains": 3,
+    "domainsSearched": [
+      "grundfos.com",
+      "grundfos.cn",
+      "grundfos.scene7.com"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 10,
+    "softNotFound": 0,
+    "programmes": [
+      "distributor"
+    ],
+    "confirmedSurfaces": [],
+    "tradeMotions": [
+      "service_partner",
+      "solution_partner",
+      "dealer"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "service_network",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.grundfos.com/about-us/cases/distributor-we-re-proud-the-market-identifies-us-with-grundfos",
+      "https://www.grundfos.com/solutions/learn/research-and-insights/channel-impeller",
+      "https://www.grundfos.com/media/latest-news/partnership-heating-up"
+    ]
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "zehnder-systems.com",
+    "country": "CH",
+    "relatedDomains": 2,
+    "domainsSearched": [
+      "zehnder-systems.com",
+      "zehnder-systems.de",
+      "zehnder-systems.ch"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "path_probe": 10
+    },
+    "pagesRead": 10,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [
+      "partner_portal"
+    ],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": true,
+    "directory": 26,
+    "sampleUrls": [
+      "https://www.zehnder-systems.com/partners",
+      "https://www.zehnder-systems.de/partner",
+      "https://www.zehnder-systems.com/partner-program"
+    ]
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "rittal.com",
+    "country": "DE",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "rittal.com"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "path_probe": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [
+      "distributor"
+    ],
+    "confirmedSurfaces": [
+      "certification",
+      "portal"
+    ],
+    "tradeMotions": [
+      "system_integrator",
+      "solution_partner"
+    ],
+    "tradeSurfaces": [
+      "tiering"
+    ],
+    "directoryType": "solution_partner_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.rittal.com/become-a-partner"
+    ]
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "niko.eu",
+    "country": "BE",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "niko.eu"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 10,
+    "softNotFound": 0,
+    "programmes": [
+      "distributor"
+    ],
+    "confirmedSurfaces": [],
+    "tradeMotions": [
+      "distributor",
+      "installer",
+      "reseller"
+    ],
+    "tradeSurfaces": [
+      "partner_locator"
+    ],
+    "directoryType": "installer_locator",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": 10,
+    "sampleUrls": [
+      "https://www.niko.eu/en/need-help/where-to-buy",
+      "https://www.niko.eu/en/our-products/home-automation/partners",
+      "https://www.niko.eu/fr-be/besoin-d'aide/ou-acheter"
+    ]
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "beckhoff.com",
+    "country": "DE",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "beckhoff.com",
+      "beckhoff.com.cn"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "navigation": 2
+    },
+    "pagesRead": 2,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://beckhoff.com/nl-be/support/solution-provider-program/",
+      "https://beckhoff.com.cn/zh-cn/support/solution-provider-program/"
+    ]
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "phoenixcontact.com",
+    "country": "DE",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "phoenixcontact.com",
+      "portal.api.phoenixcontact.com"
+    ],
+    "surfacesFound": 3,
+    "surfaceOrigins": {
+      "sitemap": 3
+    },
+    "pagesRead": 3,
+    "softNotFound": 0,
+    "programmes": [
+      "services",
+      "distributor"
+    ],
+    "confirmedSurfaces": [],
+    "tradeMotions": [
+      "system_integrator",
+      "distributor",
+      "solution_partner"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "distributor_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.phoenixcontact.com/en-il/company/partners-distributors-suppliers",
+      "https://www.phoenixcontact.com/en-il/find-a-distributor",
+      "https://www.phoenixcontact.com/ro-ro/produse/distribution-blocks/sistem-de-blocuri-fix"
+    ]
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "sick.com",
+    "country": "DE",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "sick.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "manufacturing_equipment",
+    "domain": "hager.com",
+    "country": "DE",
+    "relatedDomains": 13,
+    "domainsSearched": [
+      "hager.com",
+      "my.hager.com",
+      "hager.gr"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "wago.com",
+    "country": "DE",
+    "relatedDomains": 2,
+    "domainsSearched": [
+      "wago.com",
+      "wago.com.cn",
+      "wago.lawcode.cloud"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "path_probe": 10
+    },
+    "pagesRead": 10,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.wago.com/partners",
+      "https://www.wago.com/partner",
+      "https://www.wago.com/partner-program"
+    ]
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "festo.com",
+    "country": "DE",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "festo.com",
+      "festo.com.cn"
+    ],
+    "surfacesFound": 3,
+    "surfaceOrigins": {
+      "path_probe": 3
+    },
+    "pagesRead": 3,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [
+      "dealer"
+    ],
+    "tradeSurfaces": [
+      "certification"
+    ],
+    "directoryType": "dealer_locator",
+    "motion": true,
+    "motionFromTradeOnly": true,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.festo.com/distributors",
+      "https://www.festo.com/vertriebspartner",
+      "https://www.festo.com.cn/vertriebspartner"
+    ]
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "turck.com",
+    "country": "DE",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "turck.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "pilz.com",
+    "country": "DE",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "pilz.com",
+      "partnerportal.pilz.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "ifm.com",
+    "country": "DE",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "ifm.com",
+      "ifm.cn"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "loxone.com",
+    "country": "AT",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "loxone.com"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "navigation": 2
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [
+      "programme_tiers"
+    ],
+    "tradeMotions": [],
+    "tradeSurfaces": [
+      "certification"
+    ],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://loxone.com/nlnl/bestel-loxone/partner-vinden/",
+      "https://loxone.com/nlnl/installateur/"
+    ]
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "nedap.com",
+    "country": "NL",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "nedap.com"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "sitemap": 2
+    },
+    "pagesRead": 2,
+    "softNotFound": 0,
+    "programmes": [
+      "reseller"
+    ],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.nedap.com/es/retail/inventory-engine/comunidad/resellers-de-hardware",
+      "https://www.nedap.com/es/retail/inventory-engine/comunidad/partners-del-ecosistema"
+    ]
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "balluff.com",
+    "country": "DE",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "balluff.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "industrial_automation",
+    "domain": "schneider-electric.com",
+    "country": "FR",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "schneider-electric.com"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "path_probe": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [
+      "distributor",
+      "strategic_alliance"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment"
+    ],
+    "tradeMotions": [
+      "system_integrator",
+      "dealer",
+      "solution_partner"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "dealer_locator",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.schneider-electric.com/partners"
+    ]
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "teltonika-networks.com",
+    "country": "LT",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "teltonika-networks.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "advantech.com",
+    "country": "TW",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "advantech.com",
+      "advantech.com.cn"
+    ],
+    "surfacesFound": 6,
+    "surfaceOrigins": {
+      "navigation": 6
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [
+      "partner_recruitment"
+    ],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://advantech.com/en-eu/certified-peripherals",
+      "https://advantech.com/en-eu/partners/channel",
+      "https://wise-paas.advantech.com/en-us/marketplace/partners"
+    ]
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "milesight.com",
+    "country": "CN",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "milesight.com",
+      "milesight.cn"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "sitemap": 2
+    },
+    "pagesRead": 2,
+    "softNotFound": 0,
+    "programmes": [
+      "reseller",
+      "technology",
+      "distributor"
+    ],
+    "confirmedSurfaces": [
+      "partner_resources"
+    ],
+    "tradeMotions": [
+      "system_integrator",
+      "msp",
+      "distributor",
+      "solution_partner"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "msp_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": 41,
+    "sampleUrls": [
+      "https://www.milesight.com/academy/index",
+      "https://www.milesight.com/partner/authorized-distributors"
+    ]
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "digi.com",
+    "country": "US",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "digi.com"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "navigation": 2
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [
+      "reseller",
+      "distributor"
+    ],
+    "confirmedSurfaces": [
+      "co_selling",
+      "portal"
+    ],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": 6,
+    "sampleUrls": [
+      "https://digi.com/company/partners",
+      "https://www.digi.com/partner-portal"
+    ]
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "kerlink.com",
+    "country": "FR",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "kerlink.com"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "sitemap": 2
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.kerlink.com/distributors/",
+      "https://www.kerlink.com/partners-programs/"
+    ]
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "moxa.com",
+    "country": "TW",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "moxa.com",
+      "moxa.com.cn"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "sitemap": 2
+    },
+    "pagesRead": 2,
+    "softNotFound": 0,
+    "programmes": [
+      "distributor",
+      "services"
+    ],
+    "confirmedSurfaces": [],
+    "tradeMotions": [
+      "distributor",
+      "solution_partner"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "distributor_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.moxa.com/en/how-to-buy/find-a-distributor",
+      "https://www.moxa.com/jp/how-to-buy/solution-partner"
+    ]
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "crestron.com",
+    "country": "US",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "crestron.com"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "navigation": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [
+      "partner_recruitment"
+    ],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": 58,
+    "sampleUrls": [
+      "https://www.crestron.com/Partners/Integrated-Partners"
+    ]
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "extron.com",
+    "country": "US",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "extron.com"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "sitemap": 2
+    },
+    "pagesRead": 2,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.extron.com/Distribution-Amplifiers/prodtype-4",
+      "https://www.extron.com/article/certification"
+    ]
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "somfy.com",
+    "country": "FR",
+    "relatedDomains": 45,
+    "domainsSearched": [
+      "somfy.com",
+      "somfy.co.uk",
+      "somfy.de"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "navigation": 1,
+      "sitemap": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [
+      "reseller"
+    ],
+    "confirmedSurfaces": [],
+    "tradeMotions": [
+      "installer",
+      "dealer"
+    ],
+    "tradeSurfaces": [
+      "partner_locator",
+      "certification"
+    ],
+    "directoryType": "installer_locator",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.somfy.co.uk/find-a-point-of-sale/partner-webshops",
+      "https://www.somfy.de/haendlersuche"
+    ]
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "barco.com",
+    "country": "BE",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "barco.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "iot_connected_devices",
+    "domain": "sensative.com",
+    "country": "SE",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "sensative.com",
+      "sensative.myshopify.com"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 10,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://sensative.com/sensative-ecosystem/partners/axis-and-sensative/",
+      "https://sensative.com/partners-solution-providers/",
+      "https://sensative.com/partners-utilities/"
+    ]
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "biamp.com",
+    "country": "US",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "biamp.com"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "path_probe": 10
+    },
+    "pagesRead": 10,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [
+      "enablement"
+    ],
+    "tradeMotions": [
+      "dealer"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "dealer_locator",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.biamp.com/partners",
+      "https://www.biamp.com/partner",
+      "https://www.biamp.com/partner-program"
+    ]
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "zebra.com",
+    "country": "US",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "zebra.com"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 10,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.zebra.com/kr/ko/support-downloads/request-repair/partner-registration.html",
+      "https://www.zebra.com/kr/ko/partners/partnerconnect.html",
+      "https://www.zebra.com/kr/ko/about-zebra/company-information/corporate-social-responsibility/environmental/certified-refurbished.html"
+    ]
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "datalogic.com",
+    "country": "IT",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "datalogic.com"
+    ],
+    "surfacesFound": 3,
+    "surfaceOrigins": {
+      "sitemap": 3
+    },
+    "pagesRead": 3,
+    "softNotFound": 0,
+    "programmes": [
+      "technology"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment",
+      "portal",
+      "deal_registration",
+      "programme_tiers"
+    ],
+    "tradeMotions": [
+      "solution_partner"
+    ],
+    "tradeSurfaces": [
+      "partner_portal"
+    ],
+    "directoryType": "solution_partner_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.datalogic.com/eng/company/partners-pa-2731.html",
+      "https://www.datalogic.com/eng/company/partners/partner-advantage-program-pa-3743.html",
+      "https://www.datalogic.com/eng/media-center/success-stories/buy-a-book-at-the-madrid-book-fair-with-the-memor-datalogic-datalogic-csd-917.html"
+    ]
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "axis.com",
+    "country": "SE",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "axis.com",
+      "axis.wd3.myworkdayjobs.com"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 10,
+    "softNotFound": 0,
+    "programmes": [
+      "reseller",
+      "integration",
+      "distributor",
+      "technology"
+    ],
+    "confirmedSurfaces": [],
+    "tradeMotions": [
+      "system_integrator",
+      "dealer",
+      "solution_partner"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "dealer_locator",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.axis.com/where-to-buy",
+      "https://www.axis.com/partner",
+      "https://www.axis.com/partners/channel-partner-program/old-become-an-axis-channel-partner"
+    ]
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "hanwhavision.eu",
+    "country": "KR",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "hanwhavision.eu",
+      "hanwhavision.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "vertiv.com",
+    "country": "US",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "vertiv.com"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 10,
+    "softNotFound": 0,
+    "programmes": [
+      "reseller",
+      "services"
+    ],
+    "confirmedSurfaces": [
+      "portal",
+      "programme_tiers",
+      "application",
+      "deal_registration"
+    ],
+    "tradeMotions": [
+      "msp",
+      "service_partner",
+      "system_integrator",
+      "solution_partner"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "msp_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.vertiv.com/en-us/new-partner-portal-dashboard/msp-resource-center/Business-Growth-with-Vertiv-IT-Management-Solutions/",
+      "https://www.vertiv.com/en-us/partner/vertiv-etail-partner-program/",
+      "https://www.vertiv.com/en-us/campaigns/service-partner-program/"
+    ]
+  },
+  {
+    "cohort": "hardware_electronics",
+    "domain": "ubiquiti.com",
+    "country": "US",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "ubiquiti.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "solar_energy_tech",
+    "domain": "fronius.com",
+    "country": "AT",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "fronius.com"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 6,
+    "softNotFound": 0,
+    "programmes": [
+      "services"
+    ],
+    "confirmedSurfaces": [
+      "portal"
+    ],
+    "tradeMotions": [
+      "dealer",
+      "service_partner",
+      "reseller",
+      "distributor",
+      "installer"
+    ],
+    "tradeSurfaces": [
+      "tiering",
+      "partner_locator"
+    ],
+    "directoryType": "installer_locator",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.fronius.com/en/contact/partner-program/solar-partner",
+      "https://www.fronius.com/en-au/australia/solar-energy/installers-partners/service-support/tech-support",
+      "https://www.fronius.com/en-ca/canada/solar-energy/installers-partners/technical-data/all-products/accessories/accessories-fronius-smart-meter"
+    ]
+  },
+  {
+    "cohort": "solar_energy_tech",
+    "domain": "sma.de",
+    "country": "DE",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "sma.de",
+      "sma.com.tr"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "navigation": 2
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": 22,
+    "sampleUrls": [
+      "https://www.sma.de/partner/lieferanten",
+      "https://sma.com.tr/authorized-distributors"
+    ]
+  },
+  {
+    "cohort": "solar_energy_tech",
+    "domain": "solaredge.com",
+    "country": "IL",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "solaredge.com"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "sitemap": 1
+    },
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.solaredge.com/en/installers/toolkit"
+    ]
+  },
+  {
+    "cohort": "solar_energy_tech",
+    "domain": "enphase.com",
+    "country": "US",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "enphase.com"
+    ],
+    "surfacesFound": 7,
+    "surfaceOrigins": {
+      "sitemap": 7
+    },
+    "pagesRead": 7,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [
+      "installer"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "installer_locator",
+    "motion": true,
+    "motionFromTradeOnly": true,
+    "directory": null,
+    "sampleUrls": [
+      "https://enphase.com/installers/commercial/learn/easy-installation",
+      "https://enphase.com/business-owners/case-studies/installer-a1a-solar-contracting-inc",
+      "https://enphase.com/store/lifestyle-products/marketing-collateral/installer-toolkit-banner"
+    ]
+  },
+  {
+    "cohort": "solar_energy_tech",
+    "domain": "growatt.com",
+    "country": "CN",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "growatt.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "solar_energy_tech",
+    "domain": "victronenergy.com",
+    "country": "NL",
+    "relatedDomains": 22,
+    "domainsSearched": [
+      "victronenergy.com",
+      "victronenergy.nl",
+      "victronenergy.de"
+    ],
+    "surfacesFound": 3,
+    "surfaceOrigins": {
+      "sitemap": 2,
+      "navigation": 1
+    },
+    "pagesRead": 2,
+    "softNotFound": 0,
+    "programmes": [
+      "distributor"
+    ],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.victronenergy.com/upload/documents/Distributor-%28M10%29-3D.pdf",
+      "https://www.victronenergy.com/upload/documents/Distributor-%28M10%29.pdf",
+      "https://victronenergy.nl/where-to-buy"
+    ]
+  },
+  {
+    "cohort": "hospitality_tech",
+    "domain": "guestline.com",
+    "country": "UK",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "guestline.com"
+    ],
+    "surfacesFound": 1,
+    "surfaceOrigins": {
+      "navigation": 1
+    },
+    "pagesRead": 1,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://guestline.com/en-gb/hotels/solutions/distribution/"
+    ]
+  },
+  {
+    "cohort": "hospitality_tech",
+    "domain": "mews.com",
+    "country": "NL",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "mews.com",
+      "partnerportal.mews.com"
+    ],
+    "surfacesFound": 8,
+    "surfaceOrigins": {
+      "sitemap": 8
+    },
+    "pagesRead": 8,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [
+      "partner_recruitment"
+    ],
+    "tradeMotions": [],
+    "tradeSurfaces": [
+      "partner_recruitment"
+    ],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": 11,
+    "sampleUrls": [
+      "https://www.mews.com/de/partner",
+      "https://www.mews.com/de/partnerships/existing-partners",
+      "https://www.mews.com/de/partnerschaften/partner"
+    ]
+  },
+  {
+    "cohort": "hospitality_tech",
+    "domain": "cloudbeds.com",
+    "country": "US",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "cloudbeds.com"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 10,
+    "softNotFound": 0,
+    "programmes": [
+      "technology",
+      "distributor",
+      "reseller"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment"
+    ],
+    "tradeMotions": [
+      "solution_partner"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "solution_partner_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.cloudbeds.com/articles/buy-now-pay-later-for-hotels/",
+      "https://www.cloudbeds.com/es/articulos/channel-manager-hotelero/",
+      "https://www.cloudbeds.com/articles/channel-management-system/"
+    ]
+  },
+  {
+    "cohort": "hospitality_tech",
+    "domain": "siteminder.com",
+    "country": "AU",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "siteminder.com"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.siteminder.com/fr/r/distribution-hoteliere/gestion-des-revenus/webinaire-a-la-demande-les-principes-fondamentaux-de-la-gestion-des-revenus/",
+      "https://www.siteminder.com/fr/r/technologies/distribution-en-ligne-hotels/indice-2018-des-entreprises-hotelieres-mondiales-quels-sont-les-points-de-vue-sur-la-distribution-des-chambres-et-les-tendances-des-technologies-hotelieres/",
+      "https://www.siteminder.com/fr/r/distribution-hoteliere-concepts-bonnes-pratiques/"
+    ]
+  },
+  {
+    "cohort": "ecommerce_tech",
+    "domain": "sana-commerce.com",
+    "country": "NL",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "sana-commerce.com"
+    ],
+    "surfacesFound": 4,
+    "surfaceOrigins": {
+      "sitemap": 4
+    },
+    "pagesRead": 4,
+    "softNotFound": 0,
+    "programmes": [
+      "implementation"
+    ],
+    "confirmedSurfaces": [
+      "enablement",
+      "partner_recruitment"
+    ],
+    "tradeMotions": [],
+    "tradeSurfaces": [
+      "partner_recruitment",
+      "partner_locator",
+      "tiering"
+    ],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.sana-commerce.com/industries/distribution/",
+      "https://www.sana-commerce.com/partners/",
+      "https://www.sana-commerce.com/de/partner/"
+    ]
+  },
+  {
+    "cohort": "ecommerce_tech",
+    "domain": "spryker.com",
+    "country": "DE",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "spryker.com"
+    ],
+    "surfacesFound": 4,
+    "surfaceOrigins": {
+      "sitemap": 4
+    },
+    "pagesRead": 4,
+    "softNotFound": 0,
+    "programmes": [
+      "services"
+    ],
+    "confirmedSurfaces": [],
+    "tradeMotions": [
+      "system_integrator",
+      "solution_partner",
+      "dealer"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "dealer_locator",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://spryker.com/partners/axon21-o%C3%BC",
+      "https://spryker.com/solutions/use-cases/buy-side-marketplace",
+      "https://spryker.com/partners-service-terms"
+    ]
+  },
+  {
+    "cohort": "hospitality_tech",
+    "domain": "apaleo.com",
+    "country": "DE",
+    "relatedDomains": 3,
+    "domainsSearched": [
+      "apaleo.com",
+      "portal.apaleo.com",
+      "apaleo.dev"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "/guides/business-cases/channel-integration/ari-data.html",
+      "/guides/business-cases/channel-integration/ari-subscriptions.html",
+      "/guides/business-cases/channel-integration/basics.html"
+    ]
+  },
+  {
+    "cohort": "ecommerce_tech",
+    "domain": "shopware.com",
+    "country": "DE",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "shopware.com"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 10,
+    "softNotFound": 0,
+    "programmes": [
+      "reseller",
+      "integration"
+    ],
+    "confirmedSurfaces": [
+      "certification",
+      "programme_tiers",
+      "partner_recruitment"
+    ],
+    "tradeMotions": [
+      "reseller"
+    ],
+    "tradeSurfaces": [
+      "tiering",
+      "partner_recruitment"
+    ],
+    "directoryType": "reseller_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.shopware.com/en/academy/",
+      "https://www.shopware.com/en/partner-schweiz/",
+      "https://www.shopware.com/en/partner/agencies/"
+    ]
+  },
+  {
+    "cohort": "ecommerce_tech",
+    "domain": "commercetools.com",
+    "country": "DE",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "commercetools.com"
+    ],
+    "surfacesFound": 9,
+    "surfaceOrigins": {
+      "sitemap": 9
+    },
+    "pagesRead": 9,
+    "softNotFound": 0,
+    "programmes": [
+      "technology",
+      "reseller",
+      "implementation",
+      "services"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment",
+      "enablement",
+      "programme_tiers",
+      "portal",
+      "deal_registration",
+      "partner_resources"
+    ],
+    "tradeMotions": [
+      "system_integrator",
+      "solution_partner"
+    ],
+    "tradeSurfaces": [
+      "tiering"
+    ],
+    "directoryType": "solution_partner_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://commercetools.com/partner-program/overview",
+      "https://commercetools.com/partners",
+      "https://commercetools.com/reseller"
+    ]
+  },
+  {
+    "cohort": "ecommerce_tech",
+    "domain": "bloomreach.com",
+    "country": "US",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "bloomreach.com"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "navigation": 2
+    },
+    "pagesRead": 2,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [
+      "partner_recruitment",
+      "certification"
+    ],
+    "tradeMotions": [
+      "solution_partner"
+    ],
+    "tradeSurfaces": [
+      "tiering"
+    ],
+    "directoryType": "solution_partner_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.bloomreach.com/en/partners",
+      "https://academy.bloomreach.com/"
+    ]
+  },
+  {
+    "cohort": "ecommerce_tech",
+    "domain": "channable.com",
+    "country": "NL",
+    "relatedDomains": 2,
+    "domainsSearched": [
+      "channable.com",
+      "partners.channable.com",
+      "support.channable.com"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 6,
+      "navigation": 4
+    },
+    "pagesRead": 4,
+    "softNotFound": 0,
+    "programmes": [
+      "agency"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment",
+      "programme_tiers"
+    ],
+    "tradeMotions": [
+      "dealer"
+    ],
+    "tradeSurfaces": [
+      "tiering"
+    ],
+    "directoryType": "dealer_locator",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": 8,
+    "sampleUrls": [
+      "https://www.channable.com/de/partner-program",
+      "https://www.channable.com/pl/produkty/integrator-marketplace",
+      "https://www.channable.com/partner-apply"
+    ]
+  },
+  {
+    "cohort": "martech_salestech",
+    "domain": "getaccept.com",
+    "country": "SE",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "getaccept.com",
+      "support.getaccept.com"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "navigation": 2
+    },
+    "pagesRead": 2,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [
+      "partner_recruitment"
+    ],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.getaccept.com/academy",
+      "https://www.getaccept.com/partners"
+    ]
+  },
+  {
+    "cohort": "hospitality_tech",
+    "domain": "shijigroup.com",
+    "country": "CN",
+    "relatedDomains": 2,
+    "domainsSearched": [
+      "shijigroup.com",
+      "shijigroup.cn",
+      "shijigroup.whistlelink.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "martech_salestech",
+    "domain": "oneflow.com",
+    "country": "SE",
+    "relatedDomains": 4,
+    "domainsSearched": [
+      "oneflow.com",
+      "portal.oneflow.com",
+      "support.oneflow.com"
+    ],
+    "surfacesFound": 4,
+    "surfaceOrigins": {
+      "sitemap": 4
+    },
+    "pagesRead": 4,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [
+      "partner_recruitment",
+      "programme_tiers"
+    ],
+    "tradeMotions": [
+      "solution_partner"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "solution_partner_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://oneflow.com/partner-directory/",
+      "https://oneflow.com/partner/",
+      "https://oneflow.com/academy/"
+    ]
+  },
+  {
+    "cohort": "martech_salestech",
+    "domain": "productsup.com",
+    "country": "DE",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "productsup.com",
+      "partners.productsup.com"
+    ],
+    "surfacesFound": 5,
+    "surfaceOrigins": {
+      "sitemap": 5
+    },
+    "pagesRead": 4,
+    "softNotFound": 0,
+    "programmes": [
+      "distributor"
+    ],
+    "confirmedSurfaces": [],
+    "tradeMotions": [
+      "reseller",
+      "distributor"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "distributor_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.productsup.com/de/partner-onboarding/",
+      "https://www.productsup.com/de/channel-feedback/",
+      "https://www.productsup.com/de/produkte/distribution-px/"
+    ]
+  },
+  {
+    "cohort": "martech_salestech",
+    "domain": "aircall.io",
+    "country": "FR",
+    "relatedDomains": 2,
+    "domainsSearched": [
+      "aircall.io",
+      "support.aircall.io",
+      "partners.aircall.io"
+    ],
+    "surfacesFound": 4,
+    "surfaceOrigins": {
+      "navigation": 4
+    },
+    "pagesRead": 4,
+    "softNotFound": 0,
+    "programmes": [
+      "services",
+      "integration"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment",
+      "programme_tiers"
+    ],
+    "tradeMotions": [
+      "system_integrator",
+      "solution_partner"
+    ],
+    "tradeSurfaces": [
+      "tiering"
+    ],
+    "directoryType": "solution_partner_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://aircall.io/partners/technology/",
+      "https://aircall.io/partner-services/",
+      "https://aircall.io/partner-stories/"
+    ]
+  },
+  {
+    "cohort": "other_b2b_channel",
+    "domain": "konicaminolta.eu",
+    "country": "JP",
+    "relatedDomains": 35,
+    "domainsSearched": [
+      "konicaminolta.eu",
+      "konicaminolta.co.uk",
+      "konicaminolta.de"
+    ],
+    "surfacesFound": 10,
+    "surfaceOrigins": {
+      "sitemap": 10
+    },
+    "pagesRead": 7,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [
+      "dealer"
+    ],
+    "tradeSurfaces": [
+      "tiering"
+    ],
+    "directoryType": "dealer_locator",
+    "motion": true,
+    "motionFromTradeOnly": true,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.konicaminolta.co.uk/en-gb/channel-thank-you-for-registering",
+      "https://www.konicaminolta.co.uk/en-gb/partner-with-us/cloud-ready-mfp",
+      "https://www.konicaminolta.co.uk/en-gb/corporate-information/partner-with-us/office-printing-solutions/device-security"
+    ]
+  },
+  {
+    "cohort": "martech_salestech",
+    "domain": "ringover.com",
+    "country": "FR",
+    "note": "named Introw customer",
+    "relatedDomains": 14,
+    "domainsSearched": [
+      "ringover.com",
+      "partners.dashboard.ringover.com",
+      "distributor.ringover.com"
+    ],
+    "surfacesFound": 2,
+    "surfaceOrigins": {
+      "navigation": 2
+    },
+    "pagesRead": 2,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [
+      "partner_recruitment"
+    ],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://ringover.com/partner-program",
+      "https://ringover.com/become-a-partner"
+    ]
+  },
+  {
+    "cohort": "martech_salestech",
+    "domain": "trengo.com",
+    "country": "NL",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "trengo.com",
+      "partnerportal.trengo.com"
+    ],
+    "surfacesFound": 4,
+    "surfaceOrigins": {
+      "sitemap": 4
+    },
+    "pagesRead": 4,
+    "softNotFound": 0,
+    "programmes": [
+      "integration",
+      "technology",
+      "services"
+    ],
+    "confirmedSurfaces": [
+      "partner_recruitment",
+      "portal"
+    ],
+    "tradeMotions": [
+      "service_partner",
+      "solution_partner"
+    ],
+    "tradeSurfaces": [],
+    "directoryType": "affiliate_directory",
+    "motion": true,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://trengo.com/partner",
+      "https://trengo.com/partners/tech",
+      "https://trengo.com/partner-terms-and-conditions"
+    ]
+  },
+  {
+    "cohort": "other_b2b_channel",
+    "domain": "ricoh-europe.com",
+    "country": "JP",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "ricoh-europe.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "other_b2b_channel",
+    "domain": "trotec.com",
+    "country": "DE",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "trotec.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "other_b2b_channel",
+    "domain": "legrand.com",
+    "country": "FR",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "legrand.com",
+      "legrand.symex.be"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "other_b2b_channel",
+    "domain": "stihl.com",
+    "country": "DE",
+    "relatedDomains": 0,
+    "domainsSearched": [
+      "stihl.com"
+    ],
+    "surfacesFound": 0,
+    "surfaceOrigins": {},
+    "pagesRead": 0,
+    "softNotFound": 3,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": []
+  },
+  {
+    "cohort": "other_b2b_channel",
+    "domain": "eaton.com",
+    "country": "IE",
+    "relatedDomains": 1,
+    "domainsSearched": [
+      "eaton.com",
+      "eaton.com.cn"
+    ],
+    "surfacesFound": 9,
+    "surfaceOrigins": {
+      "sitemap": 9
+    },
+    "pagesRead": 8,
+    "softNotFound": 0,
+    "programmes": [],
+    "confirmedSurfaces": [],
+    "tradeMotions": [],
+    "tradeSurfaces": [],
+    "directoryType": null,
+    "motion": false,
+    "motionFromTradeOnly": false,
+    "directory": null,
+    "sampleUrls": [
+      "https://www.eaton.com/tr/en-gb/support/where-to-buy.html",
+      "https://www.eaton.com/tr/en-gb/support/channel-partners.html",
+      "https://www.eaton.com/tr/en-gb/support/partner-locator.html"
+    ]
+  }
+]

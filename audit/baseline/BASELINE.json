@@ -1,0 +1,25 @@
+{
+  "n": 106,
+  "software": {
+    "n": 52,
+    "motion": 77,
+    "underObserved": 25,
+    "medClaims": 3,
+    "medPages": 8,
+    "crm": 33,
+    "directory": 13,
+    "zeroPages": 4
+  },
+  "physical": {
+    "n": 54,
+    "motion": 39,
+    "underObserved": 56,
+    "medClaims": 0,
+    "medPages": 6,
+    "crm": 4,
+    "directory": 13,
+    "zeroPages": 8
+  },
+  "frozenAt": "2026-08-24",
+  "note": "BASELINE before any source-recovery work. Never overwrite."
+}

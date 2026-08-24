@@ -97,6 +97,10 @@ export function DataHealth({ index }: { index: SiteIndex }) {
       peopleKnown: cover((r) => r.people !== 'unknown'),
       directories: cover((r) => r.directoryLowerBound !== null),
       contradictions: a.reduce((n, r) => n + r.contradictions, 0),
+      recoveryRan: cover((r) => r.recovery?.ran === true),
+      recoveryAdded: cover((r) => (r.recovery?.added ?? 0) > 0),
+      recoveryPages: a.reduce((n, r) => n + (r.recovery?.pagesRead ?? 0), 0),
+      multiDomain: cover((r) => (r.recovery?.domainsSearched ?? 0) > 1),
     };
   }, [index]);
 
@@ -126,6 +130,22 @@ export function DataHealth({ index }: { index: SiteIndex }) {
         <li><div className="tile tile-plain"><span className="tile-n display">{stats.noSurface}</span><span className="tile-l">Accounts with no readable surface</span><span className="tile-note">A retrieval limit, not a finding</span></div></li>
         <li><div className="tile tile-plain"><span className="tile-n display">{stats.underObserved}</span><span className="tile-l">Under-observed</span><span className="tile-note">Publishes little — not low fit</span></div></li>
         <li><div className="tile tile-plain"><span className="tile-n display">{stats.contradictions}</span><span className="tile-l">Open contradictions</span></div></li>
+      </ul>
+
+      <h2 className="sect display">Additive source recovery</h2>
+      <p className="lede">
+        Recovery reads partner surfaces on a company’s regional domains and programme
+        subdomains that the base research pass does not reach. It runs only where base
+        evidence was thin, and it can only add — it never replaces or overrides a base
+        finding. On a frozen 32-company holdout it identified a partner motion on four
+        physical-sector companies that base research alone left under-observed, changed
+        nothing on software, and regressed nothing.
+      </p>
+      <ul className="tiles tiles-static">
+        <li><div className="tile tile-plain"><span className="tile-n display">{stats.recoveryRan}</span><span className="tile-l">Accounts recovery ran on</span><span className="tile-note">Skipped where base evidence was already sufficient</span></div></li>
+        <li><div className="tile tile-plain"><span className="tile-n display">{stats.recoveryAdded}</span><span className="tile-l">Accounts it added evidence to</span><span className="tile-note">Running and finding nothing new is a normal outcome, not a failure</span></div></li>
+        <li><div className="tile tile-plain"><span className="tile-n display">{stats.multiDomain}</span><span className="tile-l">Accounts needing a second domain</span><span className="tile-note">Programme published on a country or partner domain, not the canonical one</span></div></li>
+        <li><div className="tile tile-plain"><span className="tile-n display">{stats.recoveryPages}</span><span className="tile-l">Extra partner pages read</span><span className="tile-note">Every added motion has a page behind it</span></div></li>
       </ul>
 
       <h2 className="sect display">Field coverage</h2>

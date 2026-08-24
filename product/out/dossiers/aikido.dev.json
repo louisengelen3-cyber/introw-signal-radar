@@ -1,12 +1,12 @@
 {
   "domain": "aikido.dev",
-  "companyName": "Aikido Security",
+  "companyName": null,
   "selfDescription": {
     "text": "Detect, pentest, and block security threats across your entire stack - from one unified platform.",
     "sourceUrl": "https://www.aikido.dev"
   },
   "geography": null,
-  "builtAt": "2026-08-24T12:33:53.112Z",
+  "builtAt": "2026-08-24T17:58:29.735Z",
   "oldestEvidenceAt": "2026-08-21T13:57:18.512Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -42,11 +42,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o146",
+          "id": "o175",
           "quote": "and get support from our no-nonsense enablement and co-sell motions.",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.112Z",
+          "retrievedAt": "2026-08-24T17:58:29.735Z",
           "strength": "confirmed",
           "proves": "the company describes partners selling or reselling its product",
           "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -54,11 +54,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o147",
+          "id": "o176",
           "quote": "Scale your business Earn commissions, grow your revenue, and get support from our no-nonsense enablement and co-sell",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.112Z",
+          "retrievedAt": "2026-08-24T17:58:29.735Z",
           "strength": "confirmed",
           "proves": "the company pitches partner participation as revenue for the partner",
           "doesNotProve": "that any partner earns it, or that the company tracks it",
@@ -84,11 +84,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o148",
+          "id": "o177",
           "quote": "Become a partner Enroll If you fit the partners we’re looking for, we’ll be thrilled",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.112Z",
+          "retrievedAt": "2026-08-24T17:58:29.735Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -96,11 +96,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o149",
+          "id": "o178",
           "quote": "registration and tracking of commission fees Dedicated Partner Success Manager who will be with you every step of the way – from training",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.112Z",
+          "retrievedAt": "2026-08-24T17:58:29.735Z",
           "strength": "strong_proxy",
           "proves": "the company supplies partners with resources, enablement or a named contact",
           "doesNotProve": "that partners use them",
@@ -126,11 +126,11 @@
       "state": "moderate",
       "evidence": [
         {
-          "id": "o150",
+          "id": "o179",
           "quote": "Benefits Exclusive access to Aikido’s Partner Room for deal registration and tracking of commission fees Dedicated Partner Success Manager",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.112Z",
+          "retrievedAt": "2026-08-24T17:58:29.735Z",
           "strength": "strong_proxy",
           "proves": "partners participate in the sales process through a defined intake",
           "doesNotProve": "that the company is unhappy with how it handles them today",
@@ -138,11 +138,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o151",
+          "id": "o180",
           "quote": "Aikido’s Partner Room for deal registration and tracking of commission fees Dedicated Partner Success Manager who will be with you every",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.112Z",
+          "retrievedAt": "2026-08-24T17:58:29.735Z",
           "strength": "strong_proxy",
           "proves": "the company pays partners for commercial outcomes",
           "doesNotProve": "the size of the payments or how they are calculated",
@@ -170,11 +170,11 @@
       "publishedName": "Aikido Partner Program",
       "evidence": [
         {
-          "id": "o152",
+          "id": "o181",
           "quote": "Security-first customers that thrive with our partners Ways to partner Reseller Partner As a Reseller, you have the autonomy to build and manage relationships with your customers by owning the full sales cycle and",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.112Z",
+          "retrievedAt": "2026-08-24T17:58:29.735Z",
           "strength": "strong_proxy",
           "proves": "the company uses reseller partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -189,16 +189,50 @@
       "publishedName": "Aikido Partner Program",
       "evidence": [
         {
-          "id": "o153",
+          "id": "o182",
           "quote": "Gain access to an exclusive Admin Portal that lets you manage your customers effectively, and design services that align with their goals Technology Partner As a technology partner, you have the unique opportunity to create a powerful synergy that extends the capabilities of both platforms –",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.112Z",
+          "retrievedAt": "2026-08-24T17:58:29.735Z",
           "strength": "strong_proxy",
           "proves": "the company uses technology partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
           "duplicateCount": 1,
           "alsoSeenAt": []
+        }
+      ],
+      "surfaces": []
+    },
+    {
+      "kind": "msp",
+      "publishedName": null,
+      "evidence": [
+        {
+          "id": "o183",
+          "quote": "Trade vocabulary for a msp motion found on a partner surface recovered from www.aikido.dev.",
+          "sourceUrl": "https://www.aikido.dev/partner",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses msp trade vocabulary about itself on a page base research did not reach",
+          "doesNotProve": "that the programme is active, staffed or material, nor that the company operates rather than participates in the network"
+        }
+      ],
+      "surfaces": []
+    },
+    {
+      "kind": "solution_partner",
+      "publishedName": null,
+      "evidence": [
+        {
+          "id": "o184",
+          "quote": "Trade vocabulary for a solution partner motion found on a partner surface recovered from www.aikido.dev.",
+          "sourceUrl": "https://www.aikido.dev/partner",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses solution partner trade vocabulary about itself on a page base research did not reach",
+          "doesNotProve": "that the programme is active, staffed or material, nor that the company operates rather than participates in the network"
         }
       ],
       "surfaces": []
@@ -210,11 +244,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o154",
+          "id": "o185",
           "quote": "Become a partner Enroll If you fit the partners we’re looking for, we’ll be thrilled to receive your application!",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.112Z",
+          "retrievedAt": "2026-08-24T17:58:29.735Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -258,11 +292,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o155",
+          "id": "o186",
           "quote": "Program Benefits Exclusive access to Aikido’s Partner Room for deal registration and tracking of commission fees Dedicated Partner Success Manager who will be with you every step of the",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.112Z",
+          "retrievedAt": "2026-08-24T17:58:29.735Z",
           "strength": "strong_proxy",
           "proves": "the company operates opportunity conflict management with partners",
           "doesNotProve": "the number of deals registered",
@@ -276,11 +310,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o156",
+          "id": "o187",
           "quote": "Scale your business Earn commissions, grow your revenue, and get support from our no-nonsense enablement and co-sell motions. Become a trusted advisor Get an exclusive Aikido Partner Badge and position yourself as a trusted ad",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.112Z",
+          "retrievedAt": "2026-08-24T17:58:29.735Z",
           "strength": "strong_proxy",
           "proves": "the company describes selling alongside partners",
           "doesNotProve": "that co-selling is systematised",
@@ -294,11 +328,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o157",
+          "id": "o188",
           "quote": "EN Login Start for Free No CC required Aikido Partner Program Let's Partner Login to Partner Room Why partner? Scale your business Earn commissions, grow your revenue, and get support from ou",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T12:33:53.112Z",
+          "retrievedAt": "2026-08-24T17:58:29.735Z",
           "strength": "strong_proxy",
           "proves": "partners have an authenticated destination",
           "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -323,112 +357,34 @@
       "evidence": []
     }
   ],
-  "jobEvidence": {
-    "domain": "aikido.dev",
-    "retrievedAt": "2026-08-24T12:33:54.639Z",
-    "tenants": [
+  "recovery": {
+    "attempted": true,
+    "domainsSearched": [
+      "aikido.dev"
+    ],
+    "surfacesFound": 2,
+    "pagesRead": 2,
+    "softNotFound": 0,
+    "addedMotions": [
+      "msp",
+      "solution_partner"
+    ],
+    "addedSurfaces": [
+      "partner_portal"
+    ],
+    "addedDirectoryType": "msp_directory",
+    "sourceUrls": [
       {
-        "vendor": "recruitee",
-        "token": "aikidosecurity",
-        "boardUrl": "https://aikidosecurity.recruitee.com",
-        "ownership": "owned",
-        "basis": "first_party_link",
-        "evidenceUrl": "https://aikido.dev/careers"
+        "url": "https://www.aikido.dev/partner",
+        "origin": "canonical_domain"
+      },
+      {
+        "url": "https://www.aikido.dev/partners/aws",
+        "origin": "canonical_domain"
       }
     ],
-    "vacanciesFound": 40,
-    "vacanciesUsed": 40,
-    "vacanciesQuarantined": 0,
-    "duplicatesCollapsed": 0,
-    "crmHits": [
-      {
-        "vendor": "HubSpot",
-        "level": "crm_confirmed",
-        "quote": "Maintain an accurate forecast and disciplined pipeline management in HubSpot.",
-        "rule": "operational_duty",
-        "vacancyId": "recruitee:aikidosecurity:2515263",
-        "jobTitle": "Account Executive Enterprise UK",
-        "jobUrl": "https://aikidosecurity.recruitee.com/o/account-executive-enterprise-uk",
-        "currentness": "current",
-        "proves": "the role’s published duties involve working in this CRM at this company",
-        "doesNotProve": "that it is the company’s primary CRM, or that other systems are absent"
-      }
-    ],
-    "operationalHits": [
-      {
-        "vacancyId": "recruitee:aikidosecurity:2694359",
-        "jobTitle": "Channel Business Manager Atlanta",
-        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-business-manager-atlanta",
-        "currentness": "current",
-        "fact": "partner_role_hiring",
-        "quote": "Channel Business Manager Atlanta",
-        "rule": "partner_role_title",
-        "proves": "the company is currently recruiting for a partner-facing role",
-        "doesNotProve": "that a partner team already exists, how large it is, or that the company is evaluating any software"
-      },
-      {
-        "vacancyId": "recruitee:aikidosecurity:2694358",
-        "jobTitle": "Channel Business Manager Austin",
-        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-business-manager-austin",
-        "currentness": "current",
-        "fact": "partner_role_hiring",
-        "quote": "Channel Business Manager Austin",
-        "rule": "partner_role_title",
-        "proves": "the company is currently recruiting for a partner-facing role",
-        "doesNotProve": "that a partner team already exists, how large it is, or that the company is evaluating any software"
-      },
-      {
-        "vacancyId": "recruitee:aikidosecurity:2683002",
-        "jobTitle": "Channel Business Manager MENAT",
-        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-business-manager-menat",
-        "currentness": "current",
-        "fact": "partner_pipeline",
-        "quote": "…manage a healthy portfolio of key partners that drive business both ways Build and manage partner-sourced pipeline;",
-        "rule": "pattern:partner_pipeline",
-        "proves": "the company tracks pipeline attributable to partners",
-        "doesNotProve": "the size of that pipeline or its share of total revenue"
-      },
-      {
-        "vacancyId": "recruitee:aikidosecurity:2683002",
-        "jobTitle": "Channel Business Manager MENAT",
-        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-business-manager-menat",
-        "currentness": "current",
-        "fact": "deal_registration",
-        "quote": "…activate partners through training, joint GTM plans, and consistent execution Track KPIs, deal registration, and pipeline health in CRM/PRM Champion a partner-preferred, results-oriented motion tha…",
-        "rule": "pattern:deal_registration",
-        "proves": "the company operates a deal-registration process with partners",
-        "doesNotProve": "how many deals are registered, or that the process is systematised rather than manual"
-      },
-      {
-        "vacancyId": "recruitee:aikidosecurity:2683002",
-        "jobTitle": "Channel Business Manager MENAT",
-        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-business-manager-menat",
-        "currentness": "current",
-        "fact": "prm_usage",
-        "quote": "…plans, and consistent execution Track KPIs, deal registration, and pipeline health in CRM/PRM Champion a partner-preferred, results-oriented motion that fuels predictable growth",
-        "rule": "pattern:prm_usage",
-        "proves": "the advert names a partner-management platform",
-        "doesNotProve": "that it is deployed, current, or the only one — and nothing about satisfaction or intent to switch"
-      }
-    ],
-    "health": [
-      {
-        "url": "https://aikido.dev/",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://aikido.dev/careers",
-        "health": "success",
-        "status": 200
-      },
-      {
-        "url": "https://aikidosecurity.recruitee.com/api/offers/",
-        "health": "success",
-        "status": 200
-      }
-    ],
-    "note": "40 current vacancies read; HubSpot evidence at confirmed."
+    "redundant": false,
+    "stoppedBecause": "sufficient"
   },
   "partnerDirectory": {
     "isDirectory": false,
@@ -457,7 +413,7 @@
                 "detail": "Website artifact",
                 "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
                 "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all",
-                "observedAt": "2026-08-24T12:33:53.112Z"
+                "observedAt": "2026-08-24T17:58:29.735Z"
               },
               {
                 "kind": "website_fingerprint",
@@ -467,22 +423,12 @@
                 "detail": "Website artifact",
                 "proves": "HubSpot-hosted assets or analytics are in use",
                 "doesNotProve": "which HubSpot products are licensed",
-                "observedAt": "2026-08-24T12:33:53.112Z"
-              },
-              {
-                "kind": "job_description",
-                "level": "crm_confirmed",
-                "quote": "Maintain an accurate forecast and disciplined pipeline management in HubSpot.",
-                "sourceUrl": "https://aikidosecurity.recruitee.com/o/account-executive-enterprise-uk",
-                "detail": "Account Executive Enterprise UK · current",
-                "proves": "the role’s published duties involve working in this CRM at this company",
-                "doesNotProve": "that it is the company’s primary CRM, or that other systems are absent",
-                "observedAt": ""
+                "observedAt": "2026-08-24T17:58:29.735Z"
               }
             ],
-            "jobVacancies": 1,
+            "jobVacancies": 0,
             "hasFingerprint": true,
-            "lastObservedAt": "2026-08-24T12:33:53.112Z"
+            "lastObservedAt": "2026-08-24T17:58:29.735Z"
           }
         ],
         "primary": {
@@ -497,7 +443,7 @@
               "detail": "Website artifact",
               "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
               "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all",
-              "observedAt": "2026-08-24T12:33:53.112Z"
+              "observedAt": "2026-08-24T17:58:29.735Z"
             },
             {
               "kind": "website_fingerprint",
@@ -507,54 +453,44 @@
               "detail": "Website artifact",
               "proves": "HubSpot-hosted assets or analytics are in use",
               "doesNotProve": "which HubSpot products are licensed",
-              "observedAt": "2026-08-24T12:33:53.112Z"
-            },
-            {
-              "kind": "job_description",
-              "level": "crm_confirmed",
-              "quote": "Maintain an accurate forecast and disciplined pipeline management in HubSpot.",
-              "sourceUrl": "https://aikidosecurity.recruitee.com/o/account-executive-enterprise-uk",
-              "detail": "Account Executive Enterprise UK · current",
-              "proves": "the role’s published duties involve working in this CRM at this company",
-              "doesNotProve": "that it is the company’s primary CRM, or that other systems are absent",
-              "observedAt": ""
+              "observedAt": "2026-08-24T17:58:29.735Z"
             }
           ],
-          "jobVacancies": 1,
+          "jobVacancies": 0,
           "hasFingerprint": true,
-          "lastObservedAt": "2026-08-24T12:33:53.112Z"
+          "lastObservedAt": "2026-08-24T17:58:29.735Z"
         },
         "conflict": null,
         "sourcesChecked": {
           "website": true,
-          "jobs": true,
-          "vacanciesRead": 40
+          "jobs": false,
+          "vacanciesRead": 0
         },
-        "note": "HubSpot at confirmed, from 3 sources. Evidence of use is not evidence that this is the partner team’s system of record."
+        "note": "HubSpot at confirmed, from 2 sources. Evidence of use is not evidence that this is the partner team’s system of record."
       },
       "evidence": [
         {
-          "id": "o158",
+          "id": "o189",
           "quote": "js.hs-scripts.com/26076760.js",
           "sourceUrl": "https://aikido.dev/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T12:33:53.112Z",
+          "retrievedAt": "2026-08-24T17:58:29.735Z",
           "strength": "confirmed",
           "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
           "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
         },
         {
-          "id": "o159",
+          "id": "o190",
           "quote": "hubspotusercontent",
           "sourceUrl": "https://aikido.dev/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T12:33:53.112Z",
+          "retrievedAt": "2026-08-24T17:58:29.735Z",
           "strength": "strong_proxy",
           "proves": "HubSpot-hosted assets or analytics are in use",
           "doesNotProve": "which HubSpot products are licensed"
         }
       ],
-      "note": "HubSpot at confirmed, from 3 sources. Evidence of use is not evidence that this is the partner team’s system of record."
+      "note": "HubSpot at confirmed, from 2 sources. Evidence of use is not evidence that this is the partner team’s system of record."
     },
     "prm": {
       "state": "unknown",
@@ -570,8 +506,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T12:33:53.112Z",
-    "lastCheckedAt": "2026-08-24T12:33:53.112Z",
+    "baselineAt": "2026-08-24T17:58:29.735Z",
+    "lastCheckedAt": "2026-08-24T17:58:29.735Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -693,7 +629,7 @@
       "status": 404
     }
   ],
-  "commercialSummary": "Aikido Security describes itself as \"Detect, pentest, and block security threats across your entire stack - from one unified platform\". Public pages describe a reseller, technology motion under the name \"Aikido Partner Program\". Visible partner workflows include partner recruitment, deal registration, co selling, portal. The company appears to operate the programme itself. Public evidence does not establish partner platform or partner-team size.",
+  "commercialSummary": "This company describes itself as \"Detect, pentest, and block security threats across your entire stack - from one unified platform\". Public pages describe a reseller, technology, msp motion under the name \"Aikido Partner Program\". Visible partner workflows include partner recruitment, deal registration, co selling, portal. The company appears to operate the programme itself. Public evidence does not establish partner platform or partner-team size.",
   "machineInterpretation": {
     "state": "strong_evidence",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
@@ -706,7 +642,7 @@
       "independentSourceCount": 1,
       "publicationDensity": "moderate",
       "constructEvidenceCount": 6,
-      "supportingFindingCount": 6,
+      "supportingFindingCount": 8,
       "volumeSensitive": false,
       "unattributableDropped": 0
     }

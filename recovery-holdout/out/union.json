@@ -1,0 +1,1610 @@
+[
+  {
+    "domain": "adeunis.com",
+    "cohort": "iot_connected_devices",
+    "sectorClass": "physical",
+    "country": "FR",
+    "state": "research",
+    "programmes": [
+      "reseller",
+      "distributor"
+    ],
+    "surfaces": [],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 0,
+    "observations": 0,
+    "pagesRead": null,
+    "recovery": null,
+    "seconds": 1
+  },
+  {
+    "domain": "atlantic.fr",
+    "cohort": "manufacturing_equipment",
+    "sectorClass": "physical",
+    "country": "FR",
+    "state": "research",
+    "programmes": [
+      "distributor",
+      "installer"
+    ],
+    "surfaces": [],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 0,
+    "observations": 0,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "atlantic.fr",
+        "atlantic.be",
+        "atlantic.ua"
+      ],
+      "surfacesFound": 5,
+      "pagesRead": 5,
+      "softNotFound": 0,
+      "addedMotions": [
+        "installer"
+      ],
+      "addedSurfaces": [
+        "partner_locator"
+      ],
+      "addedDirectoryType": "installer_locator",
+      "sourceUrls": [
+        {
+          "url": "https://www.atlantic.fr/Chauffer-l-eau/Chauffe-eau/Guide-chauffe-eau/Installateur-RGE-un-pro-pour-votre-chauffe-eau-thermodynamique",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.atlantic.fr/aide/cozytouch/acheter/ou-acheter-le-bridge-cozytouch",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.atlantic.fr/aide/cozytouch/acheter/ou-acheter-des-radiateurs-connectes",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.atlantic.fr/aide/cozytouch/installer/comment-realiser-une-installation-cozytouch-pour-des-produits-atlantic",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.atlantic.fr/aide/climatisation/tous-modeles-sauf-gainables/ou-acheter-le-pack-naviclim",
+          "origin": "canonical_domain"
+        }
+      ],
+      "redundant": false,
+      "stoppedBecause": "sufficient"
+    },
+    "seconds": 89
+  },
+  {
+    "domain": "baramundi.com",
+    "cohort": "cybersecurity_it",
+    "sectorClass": "software",
+    "country": "DE",
+    "state": "research",
+    "programmes": [
+      "reseller",
+      "solution_partner"
+    ],
+    "surfaces": [
+      null
+    ],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 3,
+    "observations": 3,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "baramundi.com"
+      ],
+      "surfacesFound": 1,
+      "pagesRead": 1,
+      "softNotFound": 0,
+      "addedMotions": [
+        "solution_partner"
+      ],
+      "addedSurfaces": [],
+      "addedDirectoryType": "solution_partner_directory",
+      "sourceUrls": [
+        {
+          "url": "https://baramundi.com/en-gb/partners/",
+          "origin": "canonical_domain"
+        }
+      ],
+      "redundant": false,
+      "stoppedBecause": "sufficient"
+    },
+    "seconds": 5
+  },
+  {
+    "domain": "bticino.it",
+    "cohort": "hardware_electronics",
+    "sectorClass": "physical",
+    "country": "IT",
+    "state": "under_observed",
+    "programmes": [],
+    "surfaces": [],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 0,
+    "observations": 0,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "bticino.it"
+      ],
+      "surfacesFound": 0,
+      "pagesRead": 0,
+      "softNotFound": 0,
+      "addedMotions": [],
+      "addedSurfaces": [],
+      "addedDirectoryType": null,
+      "sourceUrls": [],
+      "redundant": true,
+      "stoppedBecause": "nothing_found"
+    },
+    "seconds": 16
+  },
+  {
+    "domain": "clavister.com",
+    "cohort": "cybersecurity_it",
+    "sectorClass": "software",
+    "country": "SE",
+    "state": "research",
+    "programmes": [
+      "reseller",
+      "distributor"
+    ],
+    "surfaces": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 7,
+    "observations": 7,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "clavister.com"
+      ],
+      "surfacesFound": 1,
+      "pagesRead": 1,
+      "softNotFound": 0,
+      "addedMotions": [],
+      "addedSurfaces": [
+        "tiering"
+      ],
+      "addedDirectoryType": null,
+      "sourceUrls": [
+        {
+          "url": "https://www.clavister.com/partners/",
+          "origin": "canonical_domain"
+        }
+      ],
+      "redundant": false,
+      "stoppedBecause": "sufficient"
+    },
+    "seconds": 3
+  },
+  {
+    "domain": "eurotech.com",
+    "cohort": "iot_connected_devices",
+    "sectorClass": "physical",
+    "country": "IT",
+    "state": "plausible",
+    "programmes": [
+      "technology",
+      "distributor",
+      "system_integrator",
+      "solution_partner"
+    ],
+    "surfaces": [
+      null,
+      null
+    ],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 1,
+    "observations": 1,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "eurotech.com"
+      ],
+      "surfacesFound": 4,
+      "pagesRead": 4,
+      "softNotFound": 0,
+      "addedMotions": [
+        "system_integrator",
+        "solution_partner"
+      ],
+      "addedSurfaces": [],
+      "addedDirectoryType": "distributor_directory",
+      "sourceUrls": [
+        {
+          "url": "https://www.eurotech.com/partner-ecosystem/advancing-iiot-security-with-device-attestation-and-more/",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.eurotech.com/certified-compliant-iec-62443-4-2-off-the-shelf-gateways-for-red-da/",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.eurotech.com/partners/",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.eurotech.com/find-a-distributor/",
+          "origin": "company_locator"
+        }
+      ],
+      "redundant": false,
+      "stoppedBecause": "sufficient"
+    },
+    "seconds": 10
+  },
+  {
+    "domain": "gdata.de",
+    "cohort": "cybersecurity_it",
+    "sectorClass": "software",
+    "country": "DE",
+    "state": "strong_evidence",
+    "programmes": [
+      "reseller",
+      "distributor",
+      "msp"
+    ],
+    "surfaces": [
+      null,
+      null,
+      null
+    ],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 3,
+    "observations": 3,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "gdata.de"
+      ],
+      "surfacesFound": 1,
+      "pagesRead": 1,
+      "softNotFound": 0,
+      "addedMotions": [
+        "msp"
+      ],
+      "addedSurfaces": [
+        "partner_recruitment",
+        "partner_portal",
+        "tiering"
+      ],
+      "addedDirectoryType": "msp_directory",
+      "sourceUrls": [
+        {
+          "url": "https://gdata.de/unternehmen/partner-werden",
+          "origin": "canonical_domain"
+        }
+      ],
+      "redundant": false,
+      "stoppedBecause": "sufficient"
+    },
+    "seconds": 2
+  },
+  {
+    "domain": "gira.de",
+    "cohort": "hardware_electronics",
+    "sectorClass": "physical",
+    "country": "DE",
+    "state": "research",
+    "programmes": [
+      "system_integrator",
+      "installer"
+    ],
+    "surfaces": [],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 0,
+    "observations": 0,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "gira.de",
+        "gira.com"
+      ],
+      "surfacesFound": 6,
+      "pagesRead": 6,
+      "softNotFound": 0,
+      "addedMotions": [
+        "system_integrator",
+        "installer"
+      ],
+      "addedSurfaces": [],
+      "addedDirectoryType": "installer_locator",
+      "sourceUrls": [
+        {
+          "url": "https://www.gira.de/fachpartner",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://partner.gira.com/en/index.html",
+          "origin": "programme_subdomain"
+        },
+        {
+          "url": "https://partner.gira.com/en/kontakt/international.html",
+          "origin": "programme_subdomain"
+        },
+        {
+          "url": "https://partner.gira.com/en/service/software-tools/developer.html",
+          "origin": "programme_subdomain"
+        },
+        {
+          "url": "https://partner.gira.de/service/projektentwickler.html?gzg=projektentwickler",
+          "origin": "programme_subdomain"
+        },
+        {
+          "url": "https://partner.gira.de/agb.html",
+          "origin": "programme_subdomain"
+        }
+      ],
+      "redundant": false,
+      "stoppedBecause": "sufficient"
+    },
+    "seconds": 2
+  },
+  {
+    "domain": "harting.com",
+    "cohort": "industrial_automation",
+    "sectorClass": "physical",
+    "country": "DE",
+    "state": "under_observed",
+    "programmes": [],
+    "surfaces": [],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 0,
+    "observations": 0,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "harting.com"
+      ],
+      "surfacesFound": 0,
+      "pagesRead": 0,
+      "softNotFound": 0,
+      "addedMotions": [],
+      "addedSurfaces": [],
+      "addedDirectoryType": null,
+      "sourceUrls": [],
+      "redundant": true,
+      "stoppedBecause": "nothing_found"
+    },
+    "seconds": 30
+  },
+  {
+    "domain": "jung.de",
+    "cohort": "hardware_electronics",
+    "sectorClass": "physical",
+    "country": "DE",
+    "state": "research",
+    "programmes": [
+      "installer",
+      "system_integrator"
+    ],
+    "surfaces": [
+      null
+    ],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 0,
+    "observations": 0,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "jung.de",
+        "jung-group.com"
+      ],
+      "surfacesFound": 10,
+      "pagesRead": 10,
+      "softNotFound": 0,
+      "addedMotions": [
+        "installer",
+        "system_integrator"
+      ],
+      "addedSurfaces": [
+        "partner_locator"
+      ],
+      "addedDirectoryType": "installer_locator",
+      "sourceUrls": [
+        {
+          "url": "https://www.jung.de/partners",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.jung.de/partner",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.jung.de/partner-program",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.jung.de/partnerships",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.jung.de/become-a-partner",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.jung.de/resellers",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.jung.de/dealers",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.jung.de/dealer-locator",
+          "origin": "company_locator"
+        },
+        {
+          "url": "https://www.jung.de/find-a-dealer",
+          "origin": "company_locator"
+        },
+        {
+          "url": "https://www.jung.de/where-to-buy",
+          "origin": "company_locator"
+        }
+      ],
+      "redundant": false,
+      "stoppedBecause": "sufficient"
+    },
+    "seconds": 63
+  },
+  {
+    "domain": "kontron.com",
+    "cohort": "iot_connected_devices",
+    "sectorClass": "physical",
+    "country": "DE",
+    "state": "plausible",
+    "programmes": [
+      "services",
+      "distributor"
+    ],
+    "surfaces": [
+      null,
+      null
+    ],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 3,
+    "observations": 3,
+    "pagesRead": null,
+    "recovery": null,
+    "seconds": 1
+  },
+  {
+    "domain": "kostal-solar-electric.com",
+    "cohort": "solar_energy_tech",
+    "sectorClass": "physical",
+    "country": "DE",
+    "state": "research",
+    "programmes": [
+      "distributor",
+      "installer",
+      "service_partner"
+    ],
+    "surfaces": [
+      null
+    ],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 0,
+    "observations": 0,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "kostal-solar-electric.com"
+      ],
+      "surfacesFound": 6,
+      "pagesRead": 6,
+      "softNotFound": 0,
+      "addedMotions": [
+        "installer",
+        "service_partner"
+      ],
+      "addedSurfaces": [
+        "partner_recruitment",
+        "partner_locator"
+      ],
+      "addedDirectoryType": "installer_locator",
+      "sourceUrls": [
+        {
+          "url": "https://www.kostal-solar-electric.com/de/installateur-start/",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.kostal-solar-electric.com/de/installateurportal/fachpartner-digital-event/",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.kostal-solar-electric.com/de/partner-portal/",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.kostal-solar-electric.com/de/installateur-werden/",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.kostal-solar-electric.com/de/partner-mit-perspektive/",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.kostal-solar-electric.com/de/installateur-schlau/plenticore-mp/",
+          "origin": "canonical_domain"
+        }
+      ],
+      "redundant": false,
+      "stoppedBecause": "sufficient"
+    },
+    "seconds": 8
+  },
+  {
+    "domain": "lapp.com",
+    "cohort": "industrial_automation",
+    "sectorClass": "physical",
+    "country": "DE",
+    "state": "research",
+    "programmes": [
+      "distributor"
+    ],
+    "surfaces": [],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 0,
+    "observations": 0,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "lapp.com"
+      ],
+      "surfacesFound": 0,
+      "pagesRead": 0,
+      "softNotFound": 0,
+      "addedMotions": [],
+      "addedSurfaces": [],
+      "addedDirectoryType": null,
+      "sourceUrls": [],
+      "redundant": true,
+      "stoppedBecause": "nothing_found"
+    },
+    "seconds": 28
+  },
+  {
+    "domain": "lime-technologies.com",
+    "cohort": "saas_software",
+    "sectorClass": "software",
+    "country": "SE",
+    "state": "research",
+    "programmes": [
+      "affiliate"
+    ],
+    "surfaces": [],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 0,
+    "observations": 0,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "lime-technologies.com"
+      ],
+      "surfacesFound": 1,
+      "pagesRead": 1,
+      "softNotFound": 0,
+      "addedMotions": [],
+      "addedSurfaces": [],
+      "addedDirectoryType": null,
+      "sourceUrls": [
+        {
+          "url": "https://www.lime-technologies.com/sv/produkter/lime-go/partners/integration-partner/",
+          "origin": "canonical_domain"
+        }
+      ],
+      "redundant": true,
+      "stoppedBecause": "nothing_found"
+    },
+    "seconds": 7
+  },
+  {
+    "domain": "logpoint.com",
+    "cohort": "cybersecurity_it",
+    "sectorClass": "software",
+    "country": "DK",
+    "state": "plausible",
+    "programmes": [
+      "reseller",
+      "distributor",
+      "services",
+      "technology"
+    ],
+    "surfaces": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 1,
+    "observations": 2,
+    "pagesRead": null,
+    "recovery": null,
+    "seconds": 1
+  },
+  {
+    "domain": "lucanet.com",
+    "cohort": "saas_software",
+    "sectorClass": "software",
+    "country": "DE",
+    "state": "plausible",
+    "programmes": [
+      "referral",
+      "services"
+    ],
+    "surfaces": [
+      null,
+      null
+    ],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 5,
+    "observations": 5,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "lucanet.com",
+        "lucanet.cn",
+        "lucanet.hk"
+      ],
+      "surfacesFound": 4,
+      "pagesRead": 3,
+      "softNotFound": 0,
+      "addedMotions": [],
+      "addedSurfaces": [],
+      "addedDirectoryType": null,
+      "sourceUrls": [
+        {
+          "url": "https://www.lucanet.com/en/partners/",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://lucanet.cn/about_us/partners.html",
+          "origin": "regional_domain"
+        },
+        {
+          "url": "http://solution.lucanet.hk/about_us/partners.html",
+          "origin": "regional_domain"
+        }
+      ],
+      "redundant": true,
+      "stoppedBecause": "nothing_found"
+    },
+    "seconds": 19
+  },
+  {
+    "domain": "murrelektronik.com",
+    "cohort": "industrial_automation",
+    "sectorClass": "physical",
+    "country": "DE",
+    "state": "under_observed",
+    "programmes": [],
+    "surfaces": [],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 0,
+    "observations": 0,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "murrelektronik.com"
+      ],
+      "surfacesFound": 10,
+      "pagesRead": 10,
+      "softNotFound": 0,
+      "addedMotions": [],
+      "addedSurfaces": [],
+      "addedDirectoryType": null,
+      "sourceUrls": [
+        {
+          "url": "https://www.murrelektronik.com/partners",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.murrelektronik.com/partner",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.murrelektronik.com/partner-program",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.murrelektronik.com/partnerships",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.murrelektronik.com/become-a-partner",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.murrelektronik.com/resellers",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.murrelektronik.com/dealers",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.murrelektronik.com/dealer-locator",
+          "origin": "company_locator"
+        },
+        {
+          "url": "https://www.murrelektronik.com/find-a-dealer",
+          "origin": "company_locator"
+        },
+        {
+          "url": "https://www.murrelektronik.com/where-to-buy",
+          "origin": "company_locator"
+        }
+      ],
+      "redundant": true,
+      "stoppedBecause": "nothing_found"
+    },
+    "seconds": 35
+  },
+  {
+    "domain": "nextcloud.com",
+    "cohort": "saas_software",
+    "sectorClass": "software",
+    "country": "DE",
+    "state": "research",
+    "programmes": [
+      "distributor",
+      "reseller",
+      "services",
+      "technology"
+    ],
+    "surfaces": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 7,
+    "observations": 8,
+    "pagesRead": null,
+    "recovery": null,
+    "seconds": 1
+  },
+  {
+    "domain": "pepperl-fuchs.com",
+    "cohort": "industrial_automation",
+    "sectorClass": "physical",
+    "country": "DE",
+    "state": "under_observed",
+    "programmes": [],
+    "surfaces": [],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 0,
+    "observations": 0,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "pepperl-fuchs.com"
+      ],
+      "surfacesFound": 0,
+      "pagesRead": 0,
+      "softNotFound": 0,
+      "addedMotions": [],
+      "addedSurfaces": [],
+      "addedDirectoryType": null,
+      "sourceUrls": [],
+      "redundant": true,
+      "stoppedBecause": "nothing_found"
+    },
+    "seconds": 30
+  },
+  {
+    "domain": "pipedrive.com",
+    "cohort": "saas_software",
+    "sectorClass": "software",
+    "country": "EE",
+    "state": "strong_evidence",
+    "programmes": [
+      "reseller",
+      "services",
+      "technology",
+      "affiliate",
+      "system_integrator",
+      "solution_partner"
+    ],
+    "surfaces": [
+      null,
+      null
+    ],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 6,
+    "observations": 6,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "pipedrive.com",
+        "pipedrive.tools",
+        "pipedrive.live"
+      ],
+      "surfacesFound": 3,
+      "pagesRead": 3,
+      "softNotFound": 0,
+      "addedMotions": [
+        "system_integrator",
+        "solution_partner"
+      ],
+      "addedSurfaces": [],
+      "addedDirectoryType": "affiliate_directory",
+      "sourceUrls": [
+        {
+          "url": "https://www.pipedrive.com/cs/solution-provider-partnership",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.pipedrive.com/cs/partner",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.pipedrive.live/partners",
+          "origin": "regional_domain"
+        }
+      ],
+      "redundant": false,
+      "stoppedBecause": "sufficient"
+    },
+    "seconds": 80
+  },
+  {
+    "domain": "remeha.nl",
+    "cohort": "manufacturing_equipment",
+    "sectorClass": "physical",
+    "country": "NL",
+    "state": "research",
+    "programmes": [
+      "installer"
+    ],
+    "surfaces": [],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 0,
+    "observations": 0,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "remeha.nl"
+      ],
+      "surfacesFound": 2,
+      "pagesRead": 1,
+      "softNotFound": 0,
+      "addedMotions": [
+        "installer"
+      ],
+      "addedSurfaces": [],
+      "addedDirectoryType": "installer_locator",
+      "sourceUrls": [
+        {
+          "url": "https://www.remeha.nl/installateurs-support",
+          "origin": "canonical_domain"
+        }
+      ],
+      "redundant": false,
+      "stoppedBecause": "sufficient"
+    },
+    "seconds": 1
+  },
+  {
+    "domain": "signicat.com",
+    "cohort": "fintech",
+    "sectorClass": "software",
+    "country": "NO",
+    "state": "plausible",
+    "programmes": [],
+    "surfaces": [
+      null
+    ],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 2,
+    "observations": 2,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "signicat.com"
+      ],
+      "surfacesFound": 0,
+      "pagesRead": 0,
+      "softNotFound": 0,
+      "addedMotions": [],
+      "addedSurfaces": [],
+      "addedDirectoryType": null,
+      "sourceUrls": [],
+      "redundant": true,
+      "stoppedBecause": "nothing_found"
+    },
+    "seconds": 33
+  },
+  {
+    "domain": "stiebel-eltron.de",
+    "cohort": "manufacturing_equipment",
+    "sectorClass": "physical",
+    "country": "DE",
+    "state": "research",
+    "programmes": [
+      "installer",
+      "service_partner"
+    ],
+    "surfaces": [],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 0,
+    "observations": 0,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "stiebel-eltron.de"
+      ],
+      "surfacesFound": 2,
+      "pagesRead": 2,
+      "softNotFound": 0,
+      "addedMotions": [
+        "installer",
+        "service_partner"
+      ],
+      "addedSurfaces": [
+        "partner_recruitment",
+        "tiering"
+      ],
+      "addedDirectoryType": "installer_locator",
+      "sourceUrls": [
+        {
+          "url": "https://www.stiebel-eltron.de/de/fachkunden/zusammenarbeit-stiebel-eltron/fachhandwerker/fachpartner-werden.html",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.stiebel-eltron.de/de/fachkunden/zusammenarbeit-stiebel-eltron/fachhandwerker/partnerprogramm/fachpartner-vertrag.html",
+          "origin": "canonical_domain"
+        }
+      ],
+      "redundant": false,
+      "stoppedBecause": "sufficient"
+    },
+    "seconds": 1
+  },
+  {
+    "domain": "superoffice.com",
+    "cohort": "saas_software",
+    "sectorClass": "software",
+    "country": "NO",
+    "state": "strong_evidence",
+    "programmes": [
+      "reseller",
+      "referral"
+    ],
+    "surfaces": [
+      null,
+      null
+    ],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 9,
+    "observations": 9,
+    "pagesRead": null,
+    "recovery": null,
+    "seconds": 1
+  },
+  {
+    "domain": "systemair.com",
+    "cohort": "manufacturing_equipment",
+    "sectorClass": "physical",
+    "country": "SE",
+    "state": "under_observed",
+    "programmes": [],
+    "surfaces": [],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 0,
+    "observations": 0,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "systemair.com"
+      ],
+      "surfacesFound": 10,
+      "pagesRead": 10,
+      "softNotFound": 0,
+      "addedMotions": [],
+      "addedSurfaces": [],
+      "addedDirectoryType": null,
+      "sourceUrls": [
+        {
+          "url": "https://www.systemair.com/partners",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.systemair.com/partner",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.systemair.com/partner-program",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.systemair.com/partnerships",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.systemair.com/become-a-partner",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.systemair.com/resellers",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.systemair.com/dealers",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.systemair.com/dealer-locator",
+          "origin": "company_locator"
+        },
+        {
+          "url": "https://www.systemair.com/find-a-dealer",
+          "origin": "company_locator"
+        },
+        {
+          "url": "https://www.systemair.com/where-to-buy",
+          "origin": "company_locator"
+        }
+      ],
+      "redundant": true,
+      "stoppedBecause": "nothing_found"
+    },
+    "seconds": 28
+  },
+  {
+    "domain": "teamviewer.com",
+    "cohort": "saas_software",
+    "sectorClass": "software",
+    "country": "DE",
+    "state": "research",
+    "programmes": [
+      "reseller",
+      "referral",
+      "distributor",
+      "msp"
+    ],
+    "surfaces": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 7,
+    "observations": 8,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "teamviewer.com"
+      ],
+      "surfacesFound": 10,
+      "pagesRead": 6,
+      "softNotFound": 0,
+      "addedMotions": [
+        "msp"
+      ],
+      "addedSurfaces": [],
+      "addedDirectoryType": "msp_directory",
+      "sourceUrls": [
+        {
+          "url": "https://www.teamviewer.com/ams/solutions/roles/managed-service-providers/",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.teamviewer.com/ams/partner/",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.teamviewer.com/ams/pricing/buy-now/",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.teamviewer.com/apac/solutions/roles/managed-service-providers/",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.teamviewer.com/apac/partner/",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.teamviewer.com/apac/pricing/buy-now/",
+          "origin": "canonical_domain"
+        }
+      ],
+      "redundant": false,
+      "stoppedBecause": "sufficient"
+    },
+    "seconds": 37
+  },
+  {
+    "domain": "templafy.com",
+    "cohort": "saas_software",
+    "sectorClass": "software",
+    "country": "DK",
+    "state": "under_observed",
+    "programmes": [],
+    "surfaces": [],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 0,
+    "observations": 0,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "templafy.com"
+      ],
+      "surfacesFound": 1,
+      "pagesRead": 1,
+      "softNotFound": 0,
+      "addedMotions": [],
+      "addedSurfaces": [],
+      "addedDirectoryType": null,
+      "sourceUrls": [
+        {
+          "url": "https://www.templafy.com/home/about-us/partnerships/microsoft-partnership/",
+          "origin": "canonical_domain"
+        }
+      ],
+      "redundant": true,
+      "stoppedBecause": "nothing_found"
+    },
+    "seconds": 2
+  },
+  {
+    "domain": "theben.de",
+    "cohort": "hardware_electronics",
+    "sectorClass": "physical",
+    "country": "DE",
+    "state": "under_observed",
+    "programmes": [],
+    "surfaces": [],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 0,
+    "observations": 0,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "theben.de",
+        "theben.au",
+        "theben.fr",
+        "theben.it"
+      ],
+      "surfacesFound": 2,
+      "pagesRead": 2,
+      "softNotFound": 0,
+      "addedMotions": [],
+      "addedSurfaces": [],
+      "addedDirectoryType": null,
+      "sourceUrls": [
+        {
+          "url": "https://www.theben.de/contact-en-gb/distribution/",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.theben.fr/contact-fr-fr/distribution-dans-le-monde/",
+          "origin": "regional_domain"
+        }
+      ],
+      "redundant": true,
+      "stoppedBecause": "nothing_found"
+    },
+    "seconds": 79
+  },
+  {
+    "domain": "weclapp.com",
+    "cohort": "saas_software",
+    "sectorClass": "software",
+    "country": "DE",
+    "state": "plausible",
+    "programmes": [
+      "dealer",
+      "reseller",
+      "distributor"
+    ],
+    "surfaces": [
+      null,
+      null,
+      null
+    ],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 3,
+    "observations": 4,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "weclapp.com",
+        "weclapp.ch",
+        "weclapp.it"
+      ],
+      "surfacesFound": 10,
+      "pagesRead": 9,
+      "softNotFound": 0,
+      "addedMotions": [
+        "dealer",
+        "reseller",
+        "distributor"
+      ],
+      "addedSurfaces": [
+        "partner_recruitment"
+      ],
+      "addedDirectoryType": "dealer_locator",
+      "sourceUrls": [
+        {
+          "url": "https://www.weclapp.it/become-a-partner",
+          "origin": "regional_domain"
+        },
+        {
+          "url": "https://www.weclapp.it/partner",
+          "origin": "regional_domain"
+        },
+        {
+          "url": "https://www.weclapp.ch/partner-werden/",
+          "origin": "regional_domain"
+        },
+        {
+          "url": "https://www.weclapp.ch/lexikon/distribution/",
+          "origin": "regional_domain"
+        },
+        {
+          "url": "https://www.weclapp.it/partners",
+          "origin": "regional_domain"
+        },
+        {
+          "url": "https://www.weclapp.it/partner-program",
+          "origin": "regional_domain"
+        },
+        {
+          "url": "https://www.weclapp.it/partnerships",
+          "origin": "regional_domain"
+        },
+        {
+          "url": "https://www.weclapp.it/resellers",
+          "origin": "regional_domain"
+        },
+        {
+          "url": "https://www.weclapp.it/dealers",
+          "origin": "regional_domain"
+        }
+      ],
+      "redundant": false,
+      "stoppedBecause": "sufficient"
+    },
+    "seconds": 44
+  },
+  {
+    "domain": "weidmueller.com",
+    "cohort": "industrial_automation",
+    "sectorClass": "physical",
+    "country": "DE",
+    "state": "research",
+    "programmes": [
+      "reseller",
+      "distributor"
+    ],
+    "surfaces": [],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 0,
+    "observations": 0,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "weidmueller.com",
+        "weidmueller.de",
+        "weidmueller.be",
+        "weidmueller.at"
+      ],
+      "surfacesFound": 6,
+      "pagesRead": 6,
+      "softNotFound": 0,
+      "addedMotions": [
+        "reseller",
+        "distributor"
+      ],
+      "addedSurfaces": [
+        "partner_recruitment"
+      ],
+      "addedDirectoryType": "distributor_directory",
+      "sourceUrls": [
+        {
+          "url": "https://www.weidmueller.com/int/company/markets_industries/distribution/index.jsp",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.weidmueller.de/de/vertrieb/distribution/verteilung/weidmueller_distribution_pro.jsp",
+          "origin": "regional_domain"
+        },
+        {
+          "url": "https://www.weidmueller.be/nl_be/verkoop/partner/index.jsp",
+          "origin": "regional_domain"
+        },
+        {
+          "url": "https://www.weidmueller.be/nl_be/company/markten_branches/distribution/index.jsp",
+          "origin": "regional_domain"
+        },
+        {
+          "url": "https://www.weidmueller.at/de/vertrieb/partner/index.jsp",
+          "origin": "regional_domain"
+        },
+        {
+          "url": "https://www.weidmueller.at/de/unternehmen/maerkte_industrien/distribution/index.jsp",
+          "origin": "regional_domain"
+        }
+      ],
+      "redundant": false,
+      "stoppedBecause": "sufficient"
+    },
+    "seconds": 21
+  },
+  {
+    "domain": "withsecure.com",
+    "cohort": "cybersecurity_it",
+    "sectorClass": "software",
+    "country": "FI",
+    "state": "strong_evidence",
+    "programmes": [
+      "reseller",
+      "distributor",
+      "msp"
+    ],
+    "surfaces": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 6,
+    "observations": 7,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "withsecure.com"
+      ],
+      "surfacesFound": 3,
+      "pagesRead": 3,
+      "softNotFound": 0,
+      "addedMotions": [
+        "msp"
+      ],
+      "addedSurfaces": [
+        "partner_portal",
+        "tiering"
+      ],
+      "addedDirectoryType": "msp_directory",
+      "sourceUrls": [
+        {
+          "url": "https://www.withsecure.com/en/partners/",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.withsecure.com/fr/partenaires/reussites-partenaires/",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.withsecure.com/de/partner/partner-success-services/",
+          "origin": "canonical_domain"
+        }
+      ],
+      "redundant": false,
+      "stoppedBecause": "sufficient"
+    },
+    "seconds": 13
+  },
+  {
+    "domain": "wolf.eu",
+    "cohort": "manufacturing_equipment",
+    "sectorClass": "physical",
+    "country": "DE",
+    "state": "plausible",
+    "programmes": [
+      "installer"
+    ],
+    "surfaces": [
+      null,
+      null
+    ],
+    "directory": null,
+    "directoryType": null,
+    "materiality": null,
+    "ownership": null,
+    "surfaceState": null,
+    "distinctClaims": 1,
+    "observations": 1,
+    "pagesRead": null,
+    "recovery": {
+      "attempted": true,
+      "domainsSearched": [
+        "wolf.eu"
+      ],
+      "surfacesFound": 3,
+      "pagesRead": 3,
+      "softNotFound": 0,
+      "addedMotions": [
+        "installer"
+      ],
+      "addedSurfaces": [
+        "partner_portal"
+      ],
+      "addedDirectoryType": "installer_locator",
+      "sourceUrls": [
+        {
+          "url": "https://www.wolf.eu/de-de/partner/planer-energieberater-architekten",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.wolf.eu/it-it/professionisti/installatori",
+          "origin": "canonical_domain"
+        },
+        {
+          "url": "https://www.wolf.eu/it-it/professionisti/rivenditori",
+          "origin": "canonical_domain"
+        }
+      ],
+      "redundant": false,
+      "stoppedBecause": "sufficient"
+    },
+    "seconds": 6
+  }
+]

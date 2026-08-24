@@ -1,12 +1,12 @@
 {
   "domain": "cegeka.com",
-  "companyName": "Cegeka",
+  "companyName": null,
   "selfDescription": {
     "text": "Cegeka partners with clients to drive impactful technology solutions across industries, ensuring innovation and security through tailored services and expertise. Discover how we can elevate your business.",
     "sourceUrl": "https://www.cegeka.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T12:33:52.082Z",
+  "builtAt": "2026-08-24T17:58:02.300Z",
   "oldestEvidenceAt": "2026-08-24T07:35:51.911Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -157,49 +157,53 @@
       "evidence": []
     }
   ],
-  "jobEvidence": {
-    "domain": "cegeka.com",
-    "retrievedAt": "2026-08-24T12:33:54.291Z",
-    "tenants": [],
-    "vacanciesFound": 0,
-    "vacanciesUsed": 0,
-    "vacanciesQuarantined": 0,
-    "duplicatesCollapsed": 0,
-    "crmHits": [],
-    "operationalHits": [],
-    "health": [
+  "recovery": {
+    "attempted": true,
+    "domainsSearched": [
+      "cegeka.com"
+    ],
+    "surfacesFound": 10,
+    "pagesRead": 8,
+    "softNotFound": 0,
+    "addedMotions": [],
+    "addedSurfaces": [],
+    "addedDirectoryType": null,
+    "sourceUrls": [
       {
-        "url": "https://cegeka.com/",
-        "health": "success",
-        "status": 200
+        "url": "https://www.cegeka.com/sv-se/solutions/business-applications/partnerships",
+        "origin": "canonical_domain"
       },
       {
-        "url": "https://cegeka.com/careers",
-        "health": "not_found",
-        "status": 404
+        "url": "https://www.cegeka.com/nl-nl/nieuws/partnership-databricks",
+        "origin": "canonical_domain"
       },
       {
-        "url": "https://cegeka.com/career",
-        "health": "not_found",
-        "status": 404
+        "url": "https://www.cegeka.com/nl-nl/nieuws/partnership-arda",
+        "origin": "canonical_domain"
       },
       {
-        "url": "https://cegeka.com/jobs",
-        "health": "success",
-        "status": 200
+        "url": "https://www.cegeka.com/nl-nl/nieuws/partnership-obeya-association-agilewalls",
+        "origin": "canonical_domain"
       },
       {
-        "url": "https://cegeka.com/join-us",
-        "health": "not_found",
-        "status": 404
+        "url": "https://www.cegeka.com/nl-nl/blogs/together-in-tech/partner-selecteren",
+        "origin": "canonical_domain"
       },
       {
-        "url": "https://cegeka.com/work-with-us",
-        "health": "not_found",
-        "status": 404
+        "url": "https://www.cegeka.com/nl-be/nieuws/channel-awards-2026",
+        "origin": "canonical_domain"
+      },
+      {
+        "url": "https://www.cegeka.com/de-at/loesungen/business-applications/partner",
+        "origin": "canonical_domain"
+      },
+      {
+        "url": "https://www.cegeka.com/fr-be/industries/distribution",
+        "origin": "canonical_domain"
       }
     ],
-    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM."
+    "redundant": true,
+    "stoppedBecause": "nothing_found"
   },
   "partnerDirectory": {
     "isDirectory": false,
@@ -228,7 +232,7 @@
                 "detail": "Website artifact",
                 "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
                 "doesNotProve": "that opportunities and partner deals are managed there",
-                "observedAt": "2026-08-24T12:33:52.082Z"
+                "observedAt": "2026-08-24T17:58:02.300Z"
               },
               {
                 "kind": "website_fingerprint",
@@ -238,12 +242,12 @@
                 "detail": "Website artifact",
                 "proves": "HubSpot-hosted assets or analytics are in use",
                 "doesNotProve": "which HubSpot products are licensed",
-                "observedAt": "2026-08-24T12:33:52.082Z"
+                "observedAt": "2026-08-24T17:58:02.300Z"
               }
             ],
             "jobVacancies": 0,
             "hasFingerprint": true,
-            "lastObservedAt": "2026-08-24T12:33:52.082Z"
+            "lastObservedAt": "2026-08-24T17:58:02.300Z"
           }
         ],
         "primary": {
@@ -258,7 +262,7 @@
               "detail": "Website artifact",
               "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
               "doesNotProve": "that opportunities and partner deals are managed there",
-              "observedAt": "2026-08-24T12:33:52.082Z"
+              "observedAt": "2026-08-24T17:58:02.300Z"
             },
             {
               "kind": "website_fingerprint",
@@ -268,38 +272,38 @@
               "detail": "Website artifact",
               "proves": "HubSpot-hosted assets or analytics are in use",
               "doesNotProve": "which HubSpot products are licensed",
-              "observedAt": "2026-08-24T12:33:52.082Z"
+              "observedAt": "2026-08-24T17:58:02.300Z"
             }
           ],
           "jobVacancies": 0,
           "hasFingerprint": true,
-          "lastObservedAt": "2026-08-24T12:33:52.082Z"
+          "lastObservedAt": "2026-08-24T17:58:02.300Z"
         },
         "conflict": null,
         "sourcesChecked": {
           "website": true,
-          "jobs": true,
+          "jobs": false,
           "vacanciesRead": 0
         },
         "note": "HubSpot at confirmed, from 2 sources. Evidence of use is not evidence that this is the partner team’s system of record."
       },
       "evidence": [
         {
-          "id": "o144",
+          "id": "o150",
           "quote": "forms.hsforms.com",
           "sourceUrl": "https://cegeka.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T12:33:52.082Z",
+          "retrievedAt": "2026-08-24T17:58:02.300Z",
           "strength": "confirmed",
           "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
           "doesNotProve": "that opportunities and partner deals are managed there"
         },
         {
-          "id": "o145",
+          "id": "o151",
           "quote": "hubspotusercontent",
           "sourceUrl": "https://cegeka.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T12:33:52.082Z",
+          "retrievedAt": "2026-08-24T17:58:02.300Z",
           "strength": "strong_proxy",
           "proves": "HubSpot-hosted assets or analytics are in use",
           "doesNotProve": "which HubSpot products are licensed"
@@ -321,8 +325,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T12:33:52.082Z",
-    "lastCheckedAt": "2026-08-24T12:33:52.082Z",
+    "baselineAt": "2026-08-24T17:58:02.300Z",
+    "lastCheckedAt": "2026-08-24T17:58:02.300Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -474,7 +478,7 @@
       "status": 404
     }
   ],
-  "commercialSummary": "Cegeka describes itself as \"Cegeka partners with clients to drive impactful technology solutions across industries, ensuring innovation and security through tailored services and…\". No partner programme type could be identified, although 2 partner pages did return content. Public evidence does not establish partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "This company describes itself as \"Cegeka partners with clients to drive impactful technology solutions across industries, ensuring innovation and security through tailored services and…\". No partner programme type could be identified, although 2 partner pages did return content. Public evidence does not establish partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "under_observed",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
