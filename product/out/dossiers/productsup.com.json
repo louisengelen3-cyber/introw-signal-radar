@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.productsup.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:28:39.431Z",
+  "builtAt": "2026-08-24T12:33:51.078Z",
   "oldestEvidenceAt": "2026-08-24T07:35:41.706Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -157,6 +157,50 @@
       "evidence": []
     }
   ],
+  "jobEvidence": {
+    "domain": "productsup.com",
+    "retrievedAt": "2026-08-24T12:33:52.646Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://productsup.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://productsup.com/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://productsup.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://productsup.com/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://productsup.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://productsup.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM."
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -170,13 +214,82 @@
   "systems": {
     "crm": {
       "state": "hubspot_confirmed",
+      "bundle": {
+        "vendors": [
+          {
+            "vendor": "HubSpot",
+            "level": "crm_confirmed",
+            "sources": [
+              {
+                "kind": "website_fingerprint",
+                "level": "crm_confirmed",
+                "quote": "js.hsforms.net",
+                "sourceUrl": "https://productsup.com/",
+                "detail": "Website artifact",
+                "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
+                "doesNotProve": "that opportunities and partner deals are managed there",
+                "observedAt": "2026-08-24T12:33:51.078Z"
+              },
+              {
+                "kind": "website_fingerprint",
+                "level": "crm_supporting_evidence",
+                "quote": "hubspotusercontent",
+                "sourceUrl": "https://productsup.com/",
+                "detail": "Website artifact",
+                "proves": "HubSpot-hosted assets or analytics are in use",
+                "doesNotProve": "which HubSpot products are licensed",
+                "observedAt": "2026-08-24T12:33:51.078Z"
+              }
+            ],
+            "jobVacancies": 0,
+            "hasFingerprint": true,
+            "lastObservedAt": "2026-08-24T12:33:51.078Z"
+          }
+        ],
+        "primary": {
+          "vendor": "HubSpot",
+          "level": "crm_confirmed",
+          "sources": [
+            {
+              "kind": "website_fingerprint",
+              "level": "crm_confirmed",
+              "quote": "js.hsforms.net",
+              "sourceUrl": "https://productsup.com/",
+              "detail": "Website artifact",
+              "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
+              "doesNotProve": "that opportunities and partner deals are managed there",
+              "observedAt": "2026-08-24T12:33:51.078Z"
+            },
+            {
+              "kind": "website_fingerprint",
+              "level": "crm_supporting_evidence",
+              "quote": "hubspotusercontent",
+              "sourceUrl": "https://productsup.com/",
+              "detail": "Website artifact",
+              "proves": "HubSpot-hosted assets or analytics are in use",
+              "doesNotProve": "which HubSpot products are licensed",
+              "observedAt": "2026-08-24T12:33:51.078Z"
+            }
+          ],
+          "jobVacancies": 0,
+          "hasFingerprint": true,
+          "lastObservedAt": "2026-08-24T12:33:51.078Z"
+        },
+        "conflict": null,
+        "sourcesChecked": {
+          "website": true,
+          "jobs": true,
+          "vacanciesRead": 0
+        },
+        "note": "HubSpot at confirmed, from 2 sources. Evidence of use is not evidence that this is the partner team’s system of record."
+      },
       "evidence": [
         {
           "id": "o135",
           "quote": "js.hsforms.net",
           "sourceUrl": "https://productsup.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T11:28:39.431Z",
+          "retrievedAt": "2026-08-24T12:33:51.078Z",
           "strength": "confirmed",
           "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
           "doesNotProve": "that opportunities and partner deals are managed there"
@@ -186,13 +299,13 @@
           "quote": "hubspotusercontent",
           "sourceUrl": "https://productsup.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T11:28:39.431Z",
+          "retrievedAt": "2026-08-24T12:33:51.078Z",
           "strength": "strong_proxy",
           "proves": "HubSpot-hosted assets or analytics are in use",
           "doesNotProve": "which HubSpot products are licensed"
         }
       ],
-      "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
+      "note": "HubSpot at confirmed, from 2 sources. Evidence of use is not evidence that this is the partner team’s system of record."
     },
     "prm": {
       "state": "unknown",
@@ -208,8 +321,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:28:39.431Z",
-    "lastCheckedAt": "2026-08-24T11:28:39.431Z",
+    "baselineAt": "2026-08-24T12:33:51.078Z",
+    "lastCheckedAt": "2026-08-24T12:33:51.078Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

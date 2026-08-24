@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.leapsome.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:28:36.549Z",
+  "builtAt": "2026-08-24T12:33:47.684Z",
   "oldestEvidenceAt": "2026-08-24T07:34:24.885Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -157,6 +157,50 @@
       "evidence": []
     }
   ],
+  "jobEvidence": {
+    "domain": "leapsome.com",
+    "retrievedAt": "2026-08-24T12:33:49.095Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://leapsome.com/",
+        "health": "blocked",
+        "status": 0
+      },
+      {
+        "url": "https://leapsome.com/careers",
+        "health": "blocked",
+        "status": 0
+      },
+      {
+        "url": "https://leapsome.com/career",
+        "health": "blocked",
+        "status": 0
+      },
+      {
+        "url": "https://leapsome.com/jobs",
+        "health": "blocked",
+        "status": 0
+      },
+      {
+        "url": "https://leapsome.com/join-us",
+        "health": "blocked",
+        "status": 0
+      },
+      {
+        "url": "https://leapsome.com/work-with-us",
+        "health": "blocked",
+        "status": 0
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM."
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -170,29 +214,98 @@
   "systems": {
     "crm": {
       "state": "hubspot_confirmed",
+      "bundle": {
+        "vendors": [
+          {
+            "vendor": "HubSpot",
+            "level": "crm_confirmed",
+            "sources": [
+              {
+                "kind": "website_fingerprint",
+                "level": "crm_confirmed",
+                "quote": "js.hs-scripts.com/5468055.js",
+                "sourceUrl": "https://leapsome.com/",
+                "detail": "Website artifact",
+                "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
+                "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all",
+                "observedAt": "2026-08-24T12:33:47.684Z"
+              },
+              {
+                "kind": "website_fingerprint",
+                "level": "crm_confirmed",
+                "quote": "js.hsforms.net",
+                "sourceUrl": "https://leapsome.com/",
+                "detail": "Website artifact",
+                "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
+                "doesNotProve": "that opportunities and partner deals are managed there",
+                "observedAt": "2026-08-24T12:33:47.684Z"
+              }
+            ],
+            "jobVacancies": 0,
+            "hasFingerprint": true,
+            "lastObservedAt": "2026-08-24T12:33:47.684Z"
+          }
+        ],
+        "primary": {
+          "vendor": "HubSpot",
+          "level": "crm_confirmed",
+          "sources": [
+            {
+              "kind": "website_fingerprint",
+              "level": "crm_confirmed",
+              "quote": "js.hs-scripts.com/5468055.js",
+              "sourceUrl": "https://leapsome.com/",
+              "detail": "Website artifact",
+              "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
+              "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all",
+              "observedAt": "2026-08-24T12:33:47.684Z"
+            },
+            {
+              "kind": "website_fingerprint",
+              "level": "crm_confirmed",
+              "quote": "js.hsforms.net",
+              "sourceUrl": "https://leapsome.com/",
+              "detail": "Website artifact",
+              "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
+              "doesNotProve": "that opportunities and partner deals are managed there",
+              "observedAt": "2026-08-24T12:33:47.684Z"
+            }
+          ],
+          "jobVacancies": 0,
+          "hasFingerprint": true,
+          "lastObservedAt": "2026-08-24T12:33:47.684Z"
+        },
+        "conflict": null,
+        "sourcesChecked": {
+          "website": true,
+          "jobs": true,
+          "vacanciesRead": 0
+        },
+        "note": "HubSpot at confirmed, from 2 sources. Evidence of use is not evidence that this is the partner team’s system of record."
+      },
       "evidence": [
         {
-          "id": "o78",
+          "id": "o80",
           "quote": "js.hs-scripts.com/5468055.js",
           "sourceUrl": "https://leapsome.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T11:28:36.549Z",
+          "retrievedAt": "2026-08-24T12:33:47.684Z",
           "strength": "confirmed",
           "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
           "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
         },
         {
-          "id": "o79",
+          "id": "o81",
           "quote": "js.hsforms.net",
           "sourceUrl": "https://leapsome.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T11:28:36.549Z",
+          "retrievedAt": "2026-08-24T12:33:47.684Z",
           "strength": "confirmed",
           "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
           "doesNotProve": "that opportunities and partner deals are managed there"
         }
       ],
-      "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
+      "note": "HubSpot at confirmed, from 2 sources. Evidence of use is not evidence that this is the partner team’s system of record."
     },
     "prm": {
       "state": "unknown",
@@ -208,8 +321,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:28:36.549Z",
-    "lastCheckedAt": "2026-08-24T11:28:36.549Z",
+    "baselineAt": "2026-08-24T12:33:47.684Z",
+    "lastCheckedAt": "2026-08-24T12:33:47.684Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

@@ -8,7 +8,9 @@ import { buildDossier } from '../src/dossier/build.js';
 const OUT = new URL('./out/dossiers/', import.meta.url).pathname;
 mkdirSync(OUT, { recursive: true });
 
-const args = process.argv.slice(2);
+const args = process.argv.slice(2).filter((a) => a !== '--jobs');
+/** Opt-in enrichment from the company's own job adverts. Off unless asked for. */
+const useJobs = process.argv.includes('--jobs');
 let targets: { domain: string; name?: string }[] = [];
 for (const a of args) {
   if (a.endsWith('.json')) {
@@ -25,14 +27,17 @@ await Promise.all(Array.from({ length: 4 }, async () => {
     const t = targets[i++];
     const started = Date.now();
     try {
-      const d = await buildDossier(t.domain, { name: t.name });
+      const d = await buildDossier(t.domain, { name: t.name, jobs: useJobs });
       writeFileSync(`${OUT}${t.domain.replace(/[^a-z0-9.]/gi, '_')}.json`, JSON.stringify(d, null, 2));
       all.push(d);
       console.error(
         `[${all.length}/${targets.length}] ${t.domain.padEnd(24)} ${d.machineInterpretation.state.padEnd(20)} ` +
         `cat=${d.category.state.padEnd(24)} claims=${String(d.machineInterpretation.diagnostics.distinctClaimCount).padEnd(3)}/` +
         `${String(d.machineInterpretation.diagnostics.observationCount).padEnd(3)} progs=${d.programmes.length} ` +
-        `surf=${d.programmes[0]?.surfaces.length ?? 0} tasks=${d.researchTasks.length} ${Math.round((Date.now() - started) / 1000)}s`,
+        `surf=${d.surfaces?.filter((s) => s.state === 'confirmed').length ?? 0} ` +
+        `crm=${d.systems.crm.state.replace('_confirmed', '').padEnd(10)} ` +
+        `jobs=${d.jobEvidence ? `${d.jobEvidence.vacanciesUsed}v/${d.jobEvidence.operationalHits.length}f` : '-'} ` +
+        `${Math.round((Date.now() - started) / 1000)}s`,
       );
     } catch (e) { console.error(`[err] ${t.domain}: ${(e as Error).message}`); }
   }

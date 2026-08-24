@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.planhat.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:28:33.122Z",
+  "builtAt": "2026-08-24T12:33:43.618Z",
   "oldestEvidenceAt": "2026-08-24T07:33:14.188Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -46,7 +46,7 @@
           "quote": "As an IT Services Partner, you'll get co-sell support, joint pipeline opportunities, and a platform built for",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:33.122Z",
+          "retrievedAt": "2026-08-24T12:33:43.618Z",
           "strength": "confirmed",
           "proves": "the company describes partners selling or reselling its product",
           "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -58,7 +58,7 @@
           "quote": "In return, you'll grow your Planhat expertise, win new business, and expand what you can offer.",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:33.122Z",
+          "retrievedAt": "2026-08-24T12:33:43.618Z",
           "strength": "confirmed",
           "proves": "the company describes partners bringing it leads, deals or customers",
           "doesNotProve": "the number of deals, or that a process exists to handle them",
@@ -88,7 +88,7 @@
           "quote": "Planhat | Partner with Us partners We’re stronger together We work with software providers,",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:33.122Z",
+          "retrievedAt": "2026-08-24T12:33:43.618Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -100,7 +100,7 @@
           "quote": "Solution Partners Deliver consulting services — business insight, data mapping,",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:33.122Z",
+          "retrievedAt": "2026-08-24T12:33:43.618Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -150,7 +150,7 @@
           "quote": "Planhat | Partner with Us partners We’re stronger together We work with software providers, consultants, and investors to help",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:33.122Z",
+          "retrievedAt": "2026-08-24T12:33:43.618Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -203,7 +203,7 @@
           "quote": "As an IT Services Partner, you'll get co-sell support, joint pipeline opportunities, and a platform built for scale.",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:33.122Z",
+          "retrievedAt": "2026-08-24T12:33:43.618Z",
           "strength": "strong_proxy",
           "proves": "the company describes selling alongside partners",
           "doesNotProve": "that co-selling is systematised",
@@ -233,6 +233,50 @@
       "evidence": []
     }
   ],
+  "jobEvidence": {
+    "domain": "planhat.com",
+    "retrievedAt": "2026-08-24T12:33:44.702Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://planhat.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://planhat.com/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://planhat.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://planhat.com/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://planhat.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://planhat.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM."
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -246,8 +290,19 @@
   "systems": {
     "crm": {
       "state": "unknown",
+      "bundle": {
+        "vendors": [],
+        "primary": null,
+        "conflict": null,
+        "sourcesChecked": {
+          "website": true,
+          "jobs": true,
+          "vacanciesRead": 0
+        },
+        "note": "No reliable public CRM evidence was established from website artifacts and 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+      },
       "evidence": [],
-      "note": "No CRM artifact found on the retrieved pages. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 33% recall against companies known to run a supported CRM, and Salesforce was never detected at all."
+      "note": "No reliable public CRM evidence was established from website artifacts and 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
     },
     "prm": {
       "state": "unknown",
@@ -263,8 +318,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:28:33.122Z",
-    "lastCheckedAt": "2026-08-24T11:28:33.122Z",
+    "baselineAt": "2026-08-24T12:33:43.618Z",
+    "lastCheckedAt": "2026-08-24T12:33:43.618Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

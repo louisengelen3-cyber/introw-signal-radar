@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.mews.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:28:35.205Z",
+  "builtAt": "2026-08-24T12:33:46.027Z",
   "oldestEvidenceAt": "2026-08-24T07:33:51.138Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -63,7 +63,7 @@
           "quote": "Partner werden Partner werden Schließe dich uns an und werde Mews",
           "sourceUrl": "https://www.mews.com/de/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:35.205Z",
+          "retrievedAt": "2026-08-24T12:33:46.027Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -75,7 +75,7 @@
           "quote": "See partner resources Refer a property Your customers chose you for a good reason: they",
           "sourceUrl": "https://www.mews.com/en/partnerships",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:35.205Z",
+          "retrievedAt": "2026-08-24T12:33:46.027Z",
           "strength": "strong_proxy",
           "proves": "the company supplies partners with resources, enablement or a named contact",
           "doesNotProve": "that partners use them",
@@ -124,7 +124,7 @@
           "quote": "Become a partner Become a partner Join us and become a Mews integration partner. Start your journey with Mews and scale your business with our global customers.",
           "sourceUrl": "https://www.mews.com/en/partnerships",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:35.205Z",
+          "retrievedAt": "2026-08-24T12:33:46.027Z",
           "strength": "strong_proxy",
           "proves": "the company uses integration partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -145,7 +145,7 @@
           "quote": "Partner werden Partner werden Schließe dich uns an und werde Mews Integrationspartner.",
           "sourceUrl": "https://www.mews.com/de/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:35.205Z",
+          "retrievedAt": "2026-08-24T12:33:46.027Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -157,7 +157,7 @@
           "quote": "Become a partner Become a partner Join us and become a Mews integration partner.",
           "sourceUrl": "https://www.mews.com/en/partnerships",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:35.205Z",
+          "retrievedAt": "2026-08-24T12:33:46.027Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -185,7 +185,7 @@
           "quote": "Explore all the resources created to help partners like you succeed. See partner resources Refer a property Your customers chose you for a good reason: they trust you.",
           "sourceUrl": "https://www.mews.com/en/partnerships",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:35.205Z",
+          "retrievedAt": "2026-08-24T12:33:46.027Z",
           "strength": "strong_proxy",
           "proves": "material is produced specifically for partners",
           "doesNotProve": "that partners consume it",
@@ -240,6 +240,50 @@
       "evidence": []
     }
   ],
+  "jobEvidence": {
+    "domain": "mews.com",
+    "retrievedAt": "2026-08-24T12:33:47.533Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://mews.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://mews.com/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://mews.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://mews.com/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://mews.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://mews.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM."
+  },
   "partnerDirectory": {
     "isDirectory": true,
     "lowerBound": 11,
@@ -262,7 +306,7 @@
       "quote": "Unsere technischen Partner Schau dir einige der erstaunlichen Innovatoren an, die sich für eine Partnerschaft mit Mews entschieden haben, um ihren Einfluss auf das Gastgewerbe zu vergrößern. Akia Amadeus Bowo Breezeway Canary Technologies Cendyn Customer allia",
       "sourceUrl": "https://www.mews.com/de/partnerschaften/partner",
       "sourceType": "partner_directory",
-      "retrievedAt": "2026-08-24T11:28:35.205Z",
+      "retrievedAt": "2026-08-24T12:33:46.027Z",
       "strength": "confirmed",
       "proves": "the company publicly lists at least 11 partner organisations",
       "doesNotProve": "the true number of partners, that they transact, or that the list is current — a directory is a lower bound and usually a filtered view"
@@ -271,19 +315,68 @@
   "systems": {
     "crm": {
       "state": "hubspot_confirmed",
+      "bundle": {
+        "vendors": [
+          {
+            "vendor": "HubSpot",
+            "level": "crm_confirmed",
+            "sources": [
+              {
+                "kind": "website_fingerprint",
+                "level": "crm_confirmed",
+                "quote": "js.hs-scripts.com/5255565.js",
+                "sourceUrl": "https://mews.com/",
+                "detail": "Website artifact",
+                "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
+                "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all",
+                "observedAt": "2026-08-24T12:33:46.027Z"
+              }
+            ],
+            "jobVacancies": 0,
+            "hasFingerprint": true,
+            "lastObservedAt": "2026-08-24T12:33:46.027Z"
+          }
+        ],
+        "primary": {
+          "vendor": "HubSpot",
+          "level": "crm_confirmed",
+          "sources": [
+            {
+              "kind": "website_fingerprint",
+              "level": "crm_confirmed",
+              "quote": "js.hs-scripts.com/5255565.js",
+              "sourceUrl": "https://mews.com/",
+              "detail": "Website artifact",
+              "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
+              "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all",
+              "observedAt": "2026-08-24T12:33:46.027Z"
+            }
+          ],
+          "jobVacancies": 0,
+          "hasFingerprint": true,
+          "lastObservedAt": "2026-08-24T12:33:46.027Z"
+        },
+        "conflict": null,
+        "sourcesChecked": {
+          "website": true,
+          "jobs": true,
+          "vacanciesRead": 0
+        },
+        "note": "HubSpot at confirmed, from 1 source. Evidence of use is not evidence that this is the partner team’s system of record."
+      },
       "evidence": [
         {
           "id": "o59",
           "quote": "js.hs-scripts.com/5255565.js",
           "sourceUrl": "https://mews.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T11:28:35.205Z",
+          "retrievedAt": "2026-08-24T12:33:46.027Z",
           "strength": "confirmed",
           "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
           "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
         }
       ],
-      "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
+      "note": "HubSpot at confirmed, from 1 source. Evidence of use is not evidence that this is the partner team’s system of record."
     },
     "prm": {
       "state": "unknown",
@@ -299,8 +392,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:28:35.205Z",
-    "lastCheckedAt": "2026-08-24T11:28:35.205Z",
+    "baselineAt": "2026-08-24T12:33:46.027Z",
+    "lastCheckedAt": "2026-08-24T12:33:46.027Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

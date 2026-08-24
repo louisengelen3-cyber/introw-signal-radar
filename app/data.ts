@@ -33,6 +33,10 @@ export interface IndexRow {
   topUnknown: string | null;
   machineReason: string | null;
   prmIsIntrow: boolean;
+  crmLevel: string | null;
+  crmVendor: string | null;
+  jobVacancies: number;
+  jobFacts: number;
   retrievedAt: string;
   sourceHealthOk: number;
   sourceHealthTotal: number;
@@ -207,6 +211,38 @@ export const OWNERSHIP_LABEL: Record<string, string> = {
 
 export const SURFACE_LABEL: Record<string, string> = {
   rich: 'Rich', moderate: 'Moderate', light: 'Light', unknown: 'Unknown',
+};
+
+/**
+ * Evidence levels, worded so SUPPORTING can never be mistaken for CONFIRMED. The difference
+ * is the difference between "the company says it runs this" and "the company asks candidates
+ * to know it", and the interface must carry that distinction in words as well as colour.
+ */
+export const CRM_LEVEL_LABEL: Record<string, string> = {
+  crm_confirmed: 'Confirmed',
+  crm_strong_evidence: 'Strong evidence',
+  crm_supporting_evidence: 'Supporting evidence only',
+  crm_mention_only: 'Mentioned only',
+  crm_unknown: 'Unknown',
+};
+
+export const CRM_LEVEL_TONE: Record<string, 'verified' | 'uncertain' | 'neutral'> = {
+  crm_confirmed: 'verified',
+  crm_strong_evidence: 'verified',
+  crm_supporting_evidence: 'uncertain',
+  crm_mention_only: 'neutral',
+  crm_unknown: 'neutral',
+};
+
+export const OPERATIONAL_FACT_LABEL: Record<string, string> = {
+  partner_workflow: 'Partner workflow', deal_registration: 'Deal registration',
+  partner_pipeline: 'Partner-sourced pipeline', lead_routing: 'Lead routing',
+  co_selling: 'Co-selling', referral_process: 'Referral process',
+  channel_operations: 'Channel operations', partner_onboarding: 'Partner onboarding',
+  partner_enablement: 'Partner enablement', partner_portal: 'Partner portal',
+  prm_usage: 'Partner platform named', revops_process: 'Revenue operations',
+  manual_workflow: 'Manual process', system_ownership: 'System ownership',
+  partner_role_hiring: 'Partner role being recruited', partner_team_size_stated: 'Partner team size stated',
 };
 
 export const CRM_LABEL: Record<string, string> = {

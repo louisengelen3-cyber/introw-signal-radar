@@ -1,0 +1,592 @@
+[
+  {
+    "domain": "linear.app",
+    "board": "ashby",
+    "vacancies": 27,
+    "verdicts": [
+      {
+        "vendor": "HubSpot",
+        "level": "crm_mention_only",
+        "vacancies": 0
+      }
+    ],
+    "conflict": null,
+    "ops": 1,
+    "crmHits": [
+      {
+        "vendor": "HubSpot",
+        "level": "crm_mention_only",
+        "quote": "Data Warehouse: Snowflake, dbt Cloud Dashboards / Analysis: Metabase, Hex ETL / rETL: Hevo, Fivetran GTM tools: Hubspot, Pocus, Clay What we offer We're a small, focused team that cares deeply about the quality of our work and the people we do it with.",
+        "rule": "bare_mention",
+        "vacancyId": "ashby:Linear:f272fc4a-91a7-4dcf-9cb5-3600ebaf14e1",
+        "jobTitle": "Analytics Engineer",
+        "jobUrl": "https://jobs.ashbyhq.com/Linear/f272fc4a-91a7-4dcf-9cb5-3600ebaf14e1",
+        "currentness": "current",
+        "proves": "this CRM is named somewhere in the advert",
+        "doesNotProve": "that the company uses it operationally"
+      }
+    ]
+  },
+  {
+    "domain": "vercel.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "gitlab.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "retool.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "amplitude.com",
+    "board": "greenhouse",
+    "vacancies": 32,
+    "verdicts": [
+      {
+        "vendor": "Salesforce",
+        "level": "crm_confirmed",
+        "vacancies": 1
+      }
+    ],
+    "conflict": null,
+    "ops": 2,
+    "crmHits": [
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Experience with marketing automation and CRM platforms such as Marketo and Salesforce.",
+        "rule": "category_example",
+        "vacancyId": "greenhouse:amplitude:8649234002",
+        "jobTitle": "Sr. Field Marketing Manager",
+        "jobUrl": "https://job-boards.greenhouse.io/amplitude/jobs/8649234002",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_confirmed",
+        "quote": "Pull and organize website-attributed pipeline data in Salesforce, helping surface trends across GTM segments and win/loss patterns.",
+        "rule": "operational_duty",
+        "vacancyId": "greenhouse:amplitude:8590452002",
+        "jobTitle": "Web Growth Marketing Manager",
+        "jobUrl": "https://job-boards.greenhouse.io/amplitude/jobs/8590452002",
+        "currentness": "current",
+        "proves": "the role’s published duties involve working in this CRM at this company",
+        "doesNotProve": "that it is the company’s primary CRM, or that other systems are absent"
+      }
+    ]
+  },
+  {
+    "domain": "hashicorp.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "mixpanel.com",
+    "board": "greenhouse",
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "notion.so",
+    "board": "ashby",
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "figma.com",
+    "board": "greenhouse",
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "webflow.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "monday.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "miro.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "typeform.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "contentful.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "postman.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "algolia.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "brex.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "front.com",
+    "board": "ashby",
+    "vacancies": 24,
+    "verdicts": [
+      {
+        "vendor": "HubSpot",
+        "level": "crm_supporting_evidence",
+        "vacancies": 1
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "vacancies": 0
+      }
+    ],
+    "conflict": null,
+    "ops": 4,
+    "crmHits": [
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:2e65945d-7791-414a-b42a-9d3b5faa03eb",
+        "jobTitle": "Senior Software Engineer - Front End Architecture / React Native",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/2e65945d-7791-414a-b42a-9d3b5faa03eb",
+        "currentness": "recent_historical",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:91e4b4ad-9ce3-4bc7-896e-f36ff234eca1",
+        "jobTitle": "Account Executive, SMB",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/91e4b4ad-9ce3-4bc7-896e-f36ff234eca1",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:071af87c-644e-4677-b4f8-ce0646ccc608",
+        "jobTitle": "AI Engineering Manager (Core AI Platform)",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/071af87c-644e-4677-b4f8-ce0646ccc608",
+        "currentness": "recent_historical",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:6f8123bc-8c6c-479a-9a6d-0935f94b42ca",
+        "jobTitle": "Software Engineer (Backend), Foundation",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/6f8123bc-8c6c-479a-9a6d-0935f94b42ca",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:5fc319f6-b860-466e-aea5-fe222003ee8b",
+        "jobTitle": "Senior Software Engineer (Backend), Deliverability ",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/5fc319f6-b860-466e-aea5-fe222003ee8b",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:f8ee1ada-f72b-4a09-a150-35dc954324cf",
+        "jobTitle": "Senior Design Engineer",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/f8ee1ada-f72b-4a09-a150-35dc954324cf",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:47e7d42a-0988-4445-b5d3-09ed4534c94a",
+        "jobTitle": "Senior Product Manager - AI ",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/47e7d42a-0988-4445-b5d3-09ed4534c94a",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:df76a7e9-05a4-4b85-bcf4-6111055d2ea4",
+        "jobTitle": "Senior Software Engineer, Workflows",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/df76a7e9-05a4-4b85-bcf4-6111055d2ea4",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:6ca0f3aa-4593-4ca2-8c64-dcb61e96465d",
+        "jobTitle": "Head of Product Design",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/6ca0f3aa-4593-4ca2-8c64-dcb61e96465d",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:ac0d7219-d569-481f-bda9-efd755ffd715",
+        "jobTitle": "Senior Applied AI Engineer",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/ac0d7219-d569-481f-bda9-efd755ffd715",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:9b24503f-b0c5-4120-9297-c73c37dcbd08",
+        "jobTitle": "Senior Product Manager (Developer Platform)",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/9b24503f-b0c5-4120-9297-c73c37dcbd08",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:ef22a4eb-df20-4ba5-acd4-1c4bbd341935",
+        "jobTitle": "Senior Product Manager - AI ",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/ef22a4eb-df20-4ba5-acd4-1c4bbd341935",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:bae3ca2b-1f07-41f7-947a-5833a8ee9904",
+        "jobTitle": "Senior Software Engineer, Core Product",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/bae3ca2b-1f07-41f7-947a-5833a8ee9904",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:152ba592-a6d7-455e-a98b-290ed6e357f3",
+        "jobTitle": "Customer Success Manager - Tech Touch",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/152ba592-a6d7-455e-a98b-290ed6e357f3",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:6fdf9a6f-124a-4665-82f7-1bc95c74afd8",
+        "jobTitle": "Marketing Operations Manager",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/6fdf9a6f-124a-4665-82f7-1bc95c74afd8",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "crm_supporting_evidence",
+        "quote": "Hands-on experience owning a marketing automation platform and CRM integration Required experience in HubSpot.",
+        "rule": "candidate_requirement",
+        "vacancyId": "ashby:frontcareers:6fdf9a6f-124a-4665-82f7-1bc95c74afd8",
+        "jobTitle": "Marketing Operations Manager",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/6fdf9a6f-124a-4665-82f7-1bc95c74afd8",
+        "currentness": "current",
+        "proves": "the company asks candidates for experience with this CRM",
+        "doesNotProve": "that the company runs this CRM — asking for a skill is not the same as using the tool"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:cafd38ae-06b9-4737-ae27-0517f46ffbd6",
+        "jobTitle": "Senior Corporate FP&A Manager",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/cafd38ae-06b9-4737-ae27-0517f46ffbd6",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:9af2a994-c917-4da2-9d5d-8deb2548ff2f",
+        "jobTitle": "Staff Data Engineer",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/9af2a994-c917-4da2-9d5d-8deb2548ff2f",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:60162568-23f1-4667-acd2-643d84a59454",
+        "jobTitle": "Customer Support Specialist",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/60162568-23f1-4667-acd2-643d84a59454",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:f23dc110-ca43-4a30-b077-7d74f293643d",
+        "jobTitle": "Senior Solutions Engineer",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/f23dc110-ca43-4a30-b077-7d74f293643d",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:1026a32c-f8cc-4eee-992b-bacdf771d9fc",
+        "jobTitle": "Software Engineering Intern - Spring/Summer 2027",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/1026a32c-f8cc-4eee-992b-bacdf771d9fc",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:8680c054-832c-407b-aa53-abb7df3810db",
+        "jobTitle": "Director, Account Management",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/8680c054-832c-407b-aa53-abb7df3810db",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:c1e61672-6e07-4e31-a6f3-ec3e4fcb81e2",
+        "jobTitle": "Director, Account Management",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/c1e61672-6e07-4e31-a6f3-ec3e4fcb81e2",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:9376f2fd-b9ac-4090-8a0d-4ea60a3ed4c5",
+        "jobTitle": "Senior Platform Security Engineer - Contract to Hire",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/9376f2fd-b9ac-4090-8a0d-4ea60a3ed4c5",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "crm_mention_only",
+        "quote": "Gong, HubSpot, Outreach or similar GTM tooling and their data models.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:9376f2fd-b9ac-4090-8a0d-4ea60a3ed4c5",
+        "jobTitle": "Senior Platform Security Engineer - Contract to Hire",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/9376f2fd-b9ac-4090-8a0d-4ea60a3ed4c5",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Backed by Sequoia Capital and Salesforce Ventures, Front has raised $204M from leading venture capital firms and independent investors including top executives at Atlassian, Okta, Qualtrics, Zoom, and PagerDuty.",
+        "rule": "category_example",
+        "vacancyId": "ashby:frontcareers:4569d010-5644-4329-9f84-dbcb36a67b8f",
+        "jobTitle": "Account Executive, EMEA",
+        "jobUrl": "https://jobs.ashbyhq.com/frontcareers/4569d010-5644-4329-9f84-dbcb36a67b8f",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      }
+    ]
+  },
+  {
+    "domain": "ramp.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "rippling.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "gusto.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "intercom.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "airtable.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  },
+  {
+    "domain": "zapier.com",
+    "board": null,
+    "vacancies": 0,
+    "verdicts": [],
+    "conflict": null,
+    "ops": 0,
+    "crmHits": []
+  }
+]

@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.kiflo.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:28:41.856Z",
+  "builtAt": "2026-08-24T12:33:53.915Z",
   "oldestEvidenceAt": "2026-08-23T08:48:52.121Z",
   "category": {
     "whyItMatters": "The company appears on the maintained competitor list AND positions its own product as partner management.",
@@ -56,24 +56,37 @@
       "sourceQuality": {
         "distinctClaims": 0,
         "independentSources": 0,
-        "observedItems": 0
+        "observedItems": 1
       },
       "whyItMatters": "Partners appear to take part in winning customers or revenue, which is what makes partner operations worth tooling.",
       "whyItMayNotMatter": "It does not establish how much revenue, how many partners, or whether the motion is active today."
     },
     {
       "construct": "operational_ownership",
-      "state": "unknown",
-      "evidence": [],
+      "state": "direct",
+      "evidence": [
+        {
+          "id": "o160",
+          "quote": "Thank you for applying to our Partner Program. We will get back to",
+          "sourceUrl": "https://www.kiflo.com/partners",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T12:33:53.915Z",
+          "strength": "strong_proxy",
+          "proves": "the company invites organisations to join a programme it runs",
+          "doesNotProve": "that anyone joins, or that the programme is staffed",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
       "counterEvidence": [],
       "unknown": [
         "who owns the programme internally",
         "whether operation is shared with a distributor"
       ],
       "sourceQuality": {
-        "distinctClaims": 0,
-        "independentSources": 0,
-        "observedItems": 0
+        "distinctClaims": 1,
+        "independentSources": 1,
+        "observedItems": 1
       },
       "whyItMatters": "The company appears to run the partner motion itself, so it would be the buyer of tooling rather than a participant in someone else's.",
       "whyItMayNotMatter": "Operating a programme says nothing about its size; a competitor with an excellent programme scores identically here."
@@ -90,80 +103,195 @@
       "sourceQuality": {
         "distinctClaims": 0,
         "independentSources": 0,
-        "observedItems": 0
+        "observedItems": 1
       },
       "whyItMatters": "Visible partner workflows suggest there is machinery that software could reduce the manual cost of.",
       "whyItMayNotMatter": "A published workflow is not a used workflow, and login-walled machinery is invisible either way."
     }
   ],
-  "programmes": [],
+  "programmes": [
+    {
+      "kind": "referral",
+      "publishedName": "Affiliate Partner Program",
+      "evidence": [
+        {
+          "id": "o161",
+          "quote": "No requirements Earn 20% for one year Apply Now Referral Partner Program If you’re a consultant, an agency, or industry expert with clients that want to start or grow a partner program, share their",
+          "sourceUrl": "https://www.kiflo.com/partners",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T12:33:53.915Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses referral partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "surfaces": []
+    },
+    {
+      "kind": "services",
+      "publishedName": "Affiliate Partner Program",
+      "evidence": [
+        {
+          "id": "o162",
+          "quote": "No requirements Earn 20% for one year Apply Now Solution Partner Program If you have the capacity to manage the sales cycle and want to sell value-added services like training and onboarding to your",
+          "sourceUrl": "https://www.kiflo.com/partners",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T12:33:53.915Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses services partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "surfaces": []
+    },
+    {
+      "kind": "affiliate",
+      "publishedName": "Affiliate Partner Program",
+      "evidence": [
+        {
+          "id": "o163",
+          "quote": "Affiliate Partner Program If you’re an influencer or content creator with a network that trusts you, simply share your trackable link and earn commissions",
+          "sourceUrl": "https://www.kiflo.com/partners",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T12:33:53.915Z",
+          "strength": "strong_proxy",
+          "proves": "the company uses affiliate partner vocabulary about itself",
+          "doesNotProve": "that the programme is active, staffed or material",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ],
+      "surfaces": []
+    }
+  ],
   "surfaces": [
     {
       "surface": "partner_recruitment",
-      "state": "unknown",
-      "evidence": []
+      "state": "confirmed",
+      "evidence": [
+        {
+          "id": "o164",
+          "quote": "Your First Name Your Last Name Your Email Your Company Name Why do you want to partner with us? Thank you for applying to our Partner Program. We will get back to you shortly! 😍 Oops!",
+          "sourceUrl": "https://www.kiflo.com/partners",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T12:33:53.915Z",
+          "strength": "strong_proxy",
+          "proves": "the company publicly invites organisations to join a programme",
+          "doesNotProve": "that anyone joins, or how many",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ]
     },
     {
       "surface": "application",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "onboarding",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "enablement",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "certification",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "lead_submission",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "referral_submission",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "deal_registration",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "co_selling",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "portal",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "partner_pipeline",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "programme_tiers",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "partner_resources",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     }
   ],
+  "jobEvidence": {
+    "domain": "kiflo.com",
+    "retrievedAt": "2026-08-24T12:33:56.289Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://kiflo.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://kiflo.com/careers",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://kiflo.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://kiflo.com/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://kiflo.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://kiflo.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM."
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -177,8 +305,19 @@
   "systems": {
     "crm": {
       "state": "unknown",
+      "bundle": {
+        "vendors": [],
+        "primary": null,
+        "conflict": null,
+        "sourcesChecked": {
+          "website": true,
+          "jobs": true,
+          "vacanciesRead": 0
+        },
+        "note": "No reliable public CRM evidence was established from website artifacts and 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+      },
       "evidence": [],
-      "note": "No CRM artifact found on the retrieved pages. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 33% recall against companies known to run a supported CRM, and Salesforce was never detected at all."
+      "note": "No reliable public CRM evidence was established from website artifacts and 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
     },
     "prm": {
       "state": "unknown",
@@ -194,33 +333,27 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:28:41.856Z",
-    "lastCheckedAt": "2026-08-24T11:28:41.856Z",
+    "baselineAt": "2026-08-24T12:33:53.915Z",
+    "lastCheckedAt": "2026-08-24T12:33:53.915Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
   "contradictions": [],
   "researchTasks": [
     {
-      "question": "Does this company run a partner programme at all?",
-      "whyItBlocks": "No partner claim was retrieved, so nothing here supports or refutes fit. Everything is blocking.",
-      "whereToLook": "Check the site footer and main navigation for a partner link, then search for the company name with \"partner program\".",
-      "resolves": "commercial_materiality"
-    },
-    {
-      "question": "Does this company recruit its own partners, or has it joined someone else's programme?",
-      "whyItBlocks": "Participant pages read exactly like operator pages, and the evidence would belong to a different company.",
-      "whereToLook": "Look for a \"become a partner\" intake form on this domain, not a partner badge.",
-      "resolves": "operational_ownership"
-    },
-    {
       "question": "Which CRM does the partner team use?",
       "whyItBlocks": "Introw syncs into HubSpot or Salesforce; the answer is unobservable publicly about two-thirds of the time.",
       "whereToLook": "Ask on the first call. Public detection is not reliable enough to be worth more effort.",
       "resolves": "crm"
+    },
+    {
+      "question": "Is there partner machinery behind a login that we cannot see?",
+      "whyItBlocks": "Deal registration and pipeline usually sit behind the partner portal, so absence of public evidence is expected rather than informative.",
+      "whereToLook": "Check whether a partner login exists at all; its presence implies machinery we cannot inspect.",
+      "resolves": "operational_surface"
     }
   ],
-  "evidenceCoverage": "none",
+  "evidenceCoverage": "sparse",
   "coverageNote": "Sparse public evidence. This describes how much this company publishes, not how good a prospect it is.",
   "sourceHealth": [
     {
@@ -279,9 +412,9 @@
       "status": 200
     },
     {
-      "url": "https://partner.kiflo.com/",
-      "health": "not_found",
-      "status": 404
+      "url": "https://www.kiflo.com/partners",
+      "health": "success",
+      "status": 200
     },
     {
       "url": "https://www.kiflo.com/glossary/distribution-partnerships",
@@ -364,7 +497,7 @@
       "status": 404
     }
   ],
-  "commercialSummary": "Kiflo describes itself as \"The partner revenue platform that goes beyond partner management (PRM) software. Connect your partner ecosystem to target accounts, co-sell, and revenue\". Its own product positioning is partner management, so its partner content describes what it sells rather than how it goes to market. No partner programme type could be identified, although 9 partner pages did return content. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "Kiflo describes itself as \"The partner revenue platform that goes beyond partner management (PRM) software. Connect your partner ecosystem to target accounts, co-sell, and revenue\". Its own product positioning is partner management, so its partner content describes what it sells rather than how it goes to market. Public pages describe a referral, services, affiliate motion under the name \"Affiliate Partner Program\". Visible partner workflows include partner recruitment. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "suppression_candidate",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
@@ -372,12 +505,12 @@
       "Listed as a known competitor (asserted business data)."
     ],
     "diagnostics": {
-      "observationCount": 0,
-      "distinctClaimCount": 0,
-      "independentSourceCount": 0,
-      "publicationDensity": "none",
-      "constructEvidenceCount": 0,
-      "supportingFindingCount": 0,
+      "observationCount": 1,
+      "distinctClaimCount": 1,
+      "independentSourceCount": 1,
+      "publicationDensity": "sparse",
+      "constructEvidenceCount": 1,
+      "supportingFindingCount": 4,
       "volumeSensitive": false,
       "unattributableDropped": 10
     }

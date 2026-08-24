@@ -23,6 +23,8 @@
 
 import type { CategoryClassification } from '../category/classify.js';
 import type { DirectoryFinding } from './directory.js';
+import type { CrmBundle } from '../jobs/bundle.js';
+import type { JobEnrichment } from '../jobs/types.js';
 import type { SourceHealth } from '../evidence/positioning.js';
 
 export type EvidenceStrength = 'confirmed' | 'strong_proxy' | 'weak_proxy' | 'unknown';
@@ -106,7 +108,16 @@ export type PeopleState =
   | 'currentness_uncertain' | 'employer_uncertain' | 'unknown';
 
 export interface SystemsPanel {
-  crm: { state: CrmState; evidence: Observation[]; note: string };
+  crm: {
+    state: CrmState;
+    evidence: Observation[];
+    note: string;
+    /**
+     * Per-vendor evidence from every source that spoke, with levels preserved. Present when
+     * anything was found; the flat `state` above stays for callers that only need one word.
+     */
+    bundle?: CrmBundle;
+  };
   prm: {
     state: PrmState;
     vendor: string | null;
@@ -229,6 +240,15 @@ export interface Dossier {
   programmes: Programme[];
   /** Kept top-level so a workflow claim always has its evidence stored beside it. */
   surfaces: SurfaceFinding[];
+  /**
+   * Evidence drawn from the company's own current job adverts.
+   *
+   * Deliberately does NOT feed the three constructs, evidence coverage, or the machine
+   * interpretation: a company that publishes more vacancies must not become a better
+   * prospect, and hiring is never read as buying intent. It enriches the CRM panel and adds
+   * its own section.
+   */
+  jobEvidence?: JobEnrichment;
   /**
    * A published list of partner organisations. Kept as its own field because it is a
    * different KIND of evidence from everything else: the partners describe themselves, so

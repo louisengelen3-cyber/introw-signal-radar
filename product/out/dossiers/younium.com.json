@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.younium.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:28:40.170Z",
+  "builtAt": "2026-08-24T12:33:51.891Z",
   "oldestEvidenceAt": "2026-08-24T07:35:48.614Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -46,7 +46,7 @@
           "quote": "Built-In Co-Sell Opportunities The marketplace acts as a co-sell engine, allowing",
           "sourceUrl": "https://www.younium.com/partnership",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:40.170Z",
+          "retrievedAt": "2026-08-24T12:33:51.891Z",
           "strength": "strong_proxy",
           "proves": "the company describes partners selling or reselling its product",
           "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -76,7 +76,7 @@
           "quote": "Become a Partner in Our Ecosystem Join forces with Younium to help B2B SaaS",
           "sourceUrl": "https://www.younium.com/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:40.170Z",
+          "retrievedAt": "2026-08-24T12:33:51.891Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -106,7 +106,7 @@
           "quote": "Why Partner With Younium Earn as You Refer Enjoy a generous revenue share for every qualified lead or customer you bring in.",
           "sourceUrl": "https://www.younium.com/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:40.170Z",
+          "retrievedAt": "2026-08-24T12:33:51.891Z",
           "strength": "strong_proxy",
           "proves": "the company pays partners for commercial outcomes",
           "doesNotProve": "the size of the payments or how they are calculated",
@@ -139,7 +139,7 @@
           "quote": "Become a Partner in Our Ecosystem Join forces with Younium to help B2B SaaS companies run smarter subscription operations.",
           "sourceUrl": "https://www.younium.com/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:40.170Z",
+          "retrievedAt": "2026-08-24T12:33:51.891Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -151,7 +151,7 @@
           "quote": "Partner with us | Marketplace Expose Your App Where Subscription Finance Teams Work Join the Younium Marketplace and",
           "sourceUrl": "https://www.younium.com/partnership",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:40.170Z",
+          "retrievedAt": "2026-08-24T12:33:51.891Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -204,7 +204,7 @@
           "quote": "Built-In Co-Sell Opportunities The marketplace acts as a co-sell engine, allowing customers to request direct connections",
           "sourceUrl": "https://www.younium.com/partnership",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:40.170Z",
+          "retrievedAt": "2026-08-24T12:33:51.891Z",
           "strength": "strong_proxy",
           "proves": "the company describes selling alongside partners",
           "doesNotProve": "that co-selling is systematised",
@@ -234,6 +234,50 @@
       "evidence": []
     }
   ],
+  "jobEvidence": {
+    "domain": "younium.com",
+    "retrievedAt": "2026-08-24T12:33:53.893Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://younium.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://younium.com/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://younium.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://younium.com/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://younium.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://younium.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM."
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -246,20 +290,69 @@
   },
   "systems": {
     "crm": {
-      "state": "hubspot_confirmed",
+      "state": "unknown",
+      "bundle": {
+        "vendors": [
+          {
+            "vendor": "HubSpot",
+            "level": "crm_supporting_evidence",
+            "sources": [
+              {
+                "kind": "website_fingerprint",
+                "level": "crm_supporting_evidence",
+                "quote": "hubspotusercontent",
+                "sourceUrl": "https://younium.com/",
+                "detail": "Website artifact",
+                "proves": "HubSpot-hosted assets or analytics are in use",
+                "doesNotProve": "which HubSpot products are licensed",
+                "observedAt": "2026-08-24T12:33:51.891Z"
+              }
+            ],
+            "jobVacancies": 0,
+            "hasFingerprint": true,
+            "lastObservedAt": "2026-08-24T12:33:51.891Z"
+          }
+        ],
+        "primary": {
+          "vendor": "HubSpot",
+          "level": "crm_supporting_evidence",
+          "sources": [
+            {
+              "kind": "website_fingerprint",
+              "level": "crm_supporting_evidence",
+              "quote": "hubspotusercontent",
+              "sourceUrl": "https://younium.com/",
+              "detail": "Website artifact",
+              "proves": "HubSpot-hosted assets or analytics are in use",
+              "doesNotProve": "which HubSpot products are licensed",
+              "observedAt": "2026-08-24T12:33:51.891Z"
+            }
+          ],
+          "jobVacancies": 0,
+          "hasFingerprint": true,
+          "lastObservedAt": "2026-08-24T12:33:51.891Z"
+        },
+        "conflict": null,
+        "sourcesChecked": {
+          "website": true,
+          "jobs": true,
+          "vacanciesRead": 0
+        },
+        "note": "HubSpot at supporting evidence, from 1 source. Evidence of use is not evidence that this is the partner team’s system of record."
+      },
       "evidence": [
         {
           "id": "o143",
           "quote": "hubspotusercontent",
           "sourceUrl": "https://younium.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T11:28:40.170Z",
+          "retrievedAt": "2026-08-24T12:33:51.891Z",
           "strength": "strong_proxy",
           "proves": "HubSpot-hosted assets or analytics are in use",
           "doesNotProve": "which HubSpot products are licensed"
         }
       ],
-      "note": "A probable HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
+      "note": "HubSpot at supporting evidence, from 1 source. Evidence of use is not evidence that this is the partner team’s system of record."
     },
     "prm": {
       "state": "unknown",
@@ -275,13 +368,19 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:28:40.170Z",
-    "lastCheckedAt": "2026-08-24T11:28:40.170Z",
+    "baselineAt": "2026-08-24T12:33:51.891Z",
+    "lastCheckedAt": "2026-08-24T12:33:51.891Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
   "contradictions": [],
   "researchTasks": [
+    {
+      "question": "Which CRM does the partner team use?",
+      "whyItBlocks": "Introw syncs into HubSpot or Salesforce; the answer is unobservable publicly about two-thirds of the time.",
+      "whereToLook": "Ask on the first call. Public detection is not reliable enough to be worth more effort.",
+      "resolves": "crm"
+    },
     {
       "question": "Is there partner machinery behind a login that we cannot see?",
       "whyItBlocks": "Deal registration and pipeline usually sit behind the partner portal, so absence of public evidence is expected rather than informative.",
@@ -393,7 +492,7 @@
       "status": 404
     }
   ],
-  "commercialSummary": "Younium describes itself as \"Younium is the subscription management & billing platform for running a scalable B2B subscription business\". No partner programme type could be identified, although 4 partner pages did return content. Visible partner workflows include partner recruitment, co selling. The company appears to operate the programme itself. Public evidence does not establish partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "Younium describes itself as \"Younium is the subscription management & billing platform for running a scalable B2B subscription business\". No partner programme type could be identified, although 4 partner pages did return content. Visible partner workflows include partner recruitment, co selling. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "research",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",

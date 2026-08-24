@@ -348,3 +348,20 @@ table.accounts { border-collapse: collapse; width: 100%; font-size: .84rem; min-
 .suppress-why { font-size: .82rem; color: var(--blocker); max-width: 78ch; }
 .suppress-chips { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 .suppress-go { font-size: .84rem; font-weight: 600; color: var(--accent); white-space: nowrap; }
+
+/* ── CRM provenance ──────────────────────────────────────────────────────
+ * Supporting evidence must never read like confirmed evidence. The level is stated in words
+ * beside every vendor and again on every source line, so the distinction survives being
+ * skimmed and does not depend on colour.
+ */
+.crm-panel { display: grid; gap: 14px; width: 100%; }
+.crm-conflict {
+  margin: 0; padding: 10px 13px; background: var(--uncertain-bg);
+  border: 1px solid var(--uncertain-line); border-radius: var(--r-sm); font-size: .84rem;
+}
+.crm-vendor { border-left: 2px solid var(--line); padding-left: 13px; }
+.crm-vendor-head { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }
+.crm-vendor-name { font-weight: 700; color: var(--ink); font-size: .95rem; }
+.crm-sources { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px; }
+.ev-notprove { font-size: .78rem; color: var(--muted); margin: 6px 0 0; }
+.job-stated { font-size: .84rem; margin: 8px 0 0; }

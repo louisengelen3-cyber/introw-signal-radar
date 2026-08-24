@@ -1,0 +1,30 @@
+[1/24] linear.app         board=ashby            vac=27  crm=-
+[2/24] vercel.com         board=-                vac=0   crm=-
+[3/24] gitlab.com         board=-                vac=0   crm=-
+[4/24] retool.com         board=-                vac=0   crm=-
+[5/24] amplitude.com      board=greenhouse       vac=32  crm=Salesforce:confirmed
+[6/24] hashicorp.com      board=-                vac=0   crm=-
+[7/24] mixpanel.com       board=greenhouse       vac=0   crm=-
+[8/24] notion.so          board=ashby            vac=0   crm=-
+[9/24] figma.com          board=greenhouse       vac=0   crm=-
+[10/24] webflow.com        board=-                vac=0   crm=-
+[11/24] monday.com         board=-                vac=0   crm=-
+[12/24] miro.com           board=-                vac=0   crm=-
+[13/24] typeform.com       board=-                vac=0   crm=-
+[14/24] contentful.com     board=-                vac=0   crm=-
+[15/24] postman.com        board=-                vac=0   crm=-
+[16/24] algolia.com        board=-                vac=0   crm=-
+[17/24] brex.com           board=-                vac=0   crm=-
+[18/24] front.com          board=ashby            vac=24  crm=HubSpot:supporting_evidence
+[19/24] ramp.com           board=-                vac=0   crm=-
+[20/24] rippling.com       board=-                vac=0   crm=-
+[21/24] gusto.com          board=-                vac=0   crm=-
+[22/24] intercom.com       board=-                vac=0   crm=-
+[23/24] airtable.com       board=-                vac=0   crm=-
+[24/24] zapier.com         board=-                vac=0   crm=-
+
+Boards attributed        : 6/24
+CRM evidence established : 2/24  (2/6 of those with a board)
+  of which confirmed     : 1
+Conflicts                : 0
+DONE

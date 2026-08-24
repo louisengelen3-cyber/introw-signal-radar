@@ -135,6 +135,71 @@ describe('dataset invariants', () => {
     }
   });
 
+  it('never states an absence from job evidence', () => {
+    for (const d of DS) {
+      // Strip explicit negation framing first: "this is not evidence that the company has no
+      // CRM" is the CORRECT wording and must not be flagged as an absence claim.
+      const note = [d.systems.crm.note, d.jobEvidence?.note ?? ''].join(' ')
+        .replace(/\b(is |are )?not evidence that[^.]*\./gi, ' ')
+        .replace(/\bnever means?[^.]*\./gi, ' ');
+      expect(note, d.domain).not.toMatch(/\b(no|does not use|is not using)\s+(HubSpot|Salesforce|CRM)\b(?!\s+(artifact|evidence|fingerprint))/i);
+      if (d.jobEvidence && d.jobEvidence.vacanciesUsed === 0 && d.jobEvidence.tenants.length === 0) {
+        expect(d.jobEvidence.note, d.domain).toMatch(/not evidence/i);
+      }
+    }
+  });
+
+  it('never lets vacancy volume reach the machine interpretation', () => {
+    // Companies that hire heavily publish more adverts. Job count must never become a fit
+    // signal, so no reason string may cite it.
+    for (const d of DS) {
+      for (const r of d.machineInterpretation.reasons) {
+        expect(r, d.domain).not.toMatch(/vacanc|job advert|hiring|job posting/i);
+      }
+    }
+  });
+
+  it('never turns hiring into intent or timing', () => {
+    for (const d of DS) {
+      for (const h of d.jobEvidence?.operationalHits ?? []) {
+        expect(h.proves, `${d.domain}/${h.fact}`).not.toMatch(/intent|ready to buy|evaluating|in market|why now/i);
+      }
+      // A first observation stays a first observation whatever the adverts say.
+      if (d.temporal.state === 'first_observation') expect(d.temporal.changes.length, d.domain).toBe(0);
+    }
+  });
+
+  it('attributes every job-derived observation to a vacancy and a URL', () => {
+    for (const d of DS) {
+      for (const h of [...(d.jobEvidence?.crmHits ?? []), ...(d.jobEvidence?.operationalHits ?? [])]) {
+        expect(h.jobUrl, d.domain).toBeTruthy();
+        expect(h.jobTitle, d.domain).toBeTruthy();
+        expect(h.quote.length, d.domain).toBeGreaterThan(5);
+        expect(h.doesNotProve.length, d.domain).toBeGreaterThan(5);
+      }
+    }
+  });
+
+  it('only uses vacancies whose ownership was established', () => {
+    for (const d of DS) {
+      for (const t of d.jobEvidence?.tenants ?? []) {
+        // A board we could not tie to the company must never contribute evidence.
+        if (t.ownership !== 'owned') expect(d.jobEvidence!.crmHits.length, d.domain).toBe(0);
+        else expect(t.basis, d.domain).not.toBe('unverified');
+      }
+    }
+  });
+
+  it('does not raise a CRM state above what the evidence level supports', () => {
+    for (const d of DS) {
+      const b = d.systems.crm.bundle;
+      if (!b || d.systems.crm.state === 'unknown') continue;
+      // A named CRM state requires strong-or-better; supporting evidence alone stays unknown.
+      const best = b.vendors[0];
+      expect(['crm_confirmed', 'crm_strong_evidence'], `${d.domain} ${best?.level}`).toContain(best?.level);
+    }
+  });
+
   it('keeps the human review field untouched by the machine', () => {
     for (const d of DS) expect(d.humanReview, d.domain).toBeNull();
   });

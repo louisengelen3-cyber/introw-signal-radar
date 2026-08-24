@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.deloitte.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:28:45.633Z",
+  "builtAt": "2026-08-24T12:33:58.876Z",
   "oldestEvidenceAt": "2026-08-21T13:59:36.539Z",
   "category": {
     "whyItMatters": "The company is a professional-services firm; its \"partners\" are frequently equity partners or alliance memberships.",
@@ -150,6 +150,67 @@
       "evidence": []
     }
   ],
+  "jobEvidence": {
+    "domain": "deloitte.com",
+    "retrievedAt": "2026-08-24T12:34:02.052Z",
+    "tenants": [
+      {
+        "vendor": "lever",
+        "token": "deloitte",
+        "boardUrl": "https://jobs.lever.co/deloitte",
+        "ownership": "owned",
+        "basis": "first_party_link",
+        "evidenceUrl": "https://deloitte.com/jobs"
+      },
+      {
+        "vendor": "smartrecruiters",
+        "token": "Deloitte6",
+        "boardUrl": "https://careers.smartrecruiters.com/Deloitte6",
+        "ownership": "owned",
+        "basis": "first_party_link",
+        "evidenceUrl": "https://deloitte.com/jobs"
+      }
+    ],
+    "vacanciesFound": 40,
+    "vacanciesUsed": 40,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://deloitte.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://deloitte.com/careers",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://deloitte.com/career",
+        "health": "no_relevant_evidence",
+        "status": 0
+      },
+      {
+        "url": "https://deloitte.com/jobs",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://api.lever.co/v0/postings/deloitte?mode=json",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://api.smartrecruiters.com/v1/companies/Deloitte6/postings?limit=100",
+        "health": "success",
+        "status": 200
+      }
+    ],
+    "note": "40 current vacancies read; no defensible CRM evidence found. This is not evidence that the company has no CRM."
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -163,8 +224,19 @@
   "systems": {
     "crm": {
       "state": "unknown",
+      "bundle": {
+        "vendors": [],
+        "primary": null,
+        "conflict": null,
+        "sourcesChecked": {
+          "website": true,
+          "jobs": true,
+          "vacanciesRead": 40
+        },
+        "note": "No reliable public CRM evidence was established from website artifacts and 40 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+      },
       "evidence": [],
-      "note": "No CRM artifact found on the retrieved pages. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 33% recall against companies known to run a supported CRM, and Salesforce was never detected at all."
+      "note": "No reliable public CRM evidence was established from website artifacts and 40 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
     },
     "prm": {
       "state": "unknown",
@@ -180,8 +252,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:28:45.633Z",
-    "lastCheckedAt": "2026-08-24T11:28:45.633Z",
+    "baselineAt": "2026-08-24T12:33:58.876Z",
+    "lastCheckedAt": "2026-08-24T12:33:58.876Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

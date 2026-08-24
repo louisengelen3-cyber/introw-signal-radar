@@ -1,0 +1,12 @@
+{
+  "purpose": "A second, bounded sample chosen for one reason: these companies are likely to run a supported ATS. The first sample was board-poor (7 of 35), which cannot answer whether reading vacancies ESTABLISHES CRM evidence — only whether it happens to corroborate what the website already showed.",
+  "rule": "Enrichment only. These are not added to the product corpus and no dossier is built for them.",
+  "frozenAt": "2026-08-24",
+  "domains": [
+    "gitlab.com", "hashicorp.com", "vercel.com", "linear.app", "retool.com",
+    "amplitude.com", "mixpanel.com", "webflow.com", "notion.so", "figma.com",
+    "monday.com", "miro.com", "typeform.com", "contentful.com", "algolia.com",
+    "postman.com", "brex.com", "ramp.com", "rippling.com", "gusto.com",
+    "front.com", "intercom.com", "zapier.com", "airtable.com"
+  ]
+}

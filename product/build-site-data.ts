@@ -43,6 +43,11 @@ export interface IndexRow {
   /** The machine's own first reason, so a list row states why rather than restating a category. */
   machineReason: string | null;
   prmIsIntrow: boolean;
+  /** Strongest CRM evidence level, so a list row can distinguish supporting from confirmed. */
+  crmLevel: string | null;
+  crmVendor: string | null;
+  jobVacancies: number;
+  jobFacts: number;
   retrievedAt: string;
   sourceHealthOk: number;
   sourceHealthTotal: number;
@@ -74,6 +79,10 @@ const row = (d: Dossier): IndexRow => ({
   topUnknown: d.researchTasks[0]?.question ?? null,
   machineReason: d.machineInterpretation.reasons[0] ?? null,
   prmIsIntrow: d.systems.prm.state === 'introw_confirmed',
+  crmLevel: d.systems.crm.bundle?.vendors[0]?.level ?? null,
+  crmVendor: d.systems.crm.bundle?.vendors[0]?.vendor ?? null,
+  jobVacancies: d.jobEvidence?.vacanciesUsed ?? 0,
+  jobFacts: d.jobEvidence?.operationalHits.length ?? 0,
   retrievedAt: d.oldestEvidenceAt ?? d.builtAt,
   sourceHealthOk: d.sourceHealth.filter((h) => h.health === 'success').length,
   sourceHealthTotal: d.sourceHealth.length,

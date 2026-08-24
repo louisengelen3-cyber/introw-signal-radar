@@ -1,0 +1,19 @@
+{
+  "purpose": "Frozen sample for the job-enrichment layer. Chosen to span the cases that matter, not the cases that flatter: companies with a known CRM, companies with none established, companies likely to use generic CRM wording, and companies likely to have no findable board.",
+  "warning": "Accounts already in the dossier corpus. This measures INCREMENTAL evidence on companies already researched, which is the layer's actual job. It is not an accuracy benchmark.",
+  "frozenAt": "2026-08-24",
+  "expectations": {
+    "note": "Recorded before running. These are expectations about coverage, not ground truth about the companies.",
+    "crm_known_before": ["aikido.dev", "cubbit.io", "trengo.com", "factorialhr.com", "aircall.io"],
+    "crm_unknown_before": ["archerirm.com", "planhat.com", "oneflow.com", "mews.com", "sana-commerce.com", "weglot.com", "getaccept.com", "spendesk.com", "pleo.io", "juro.com"],
+    "expect_no_board": ["deloitte.com", "doordash.com", "glovoapp.com"]
+  },
+  "domains": [
+    "aikido.dev", "cubbit.io", "trengo.com", "factorialhr.com", "aircall.io",
+    "archerirm.com", "planhat.com", "oneflow.com", "mews.com", "sana-commerce.com",
+    "weglot.com", "getaccept.com", "spendesk.com", "pleo.io", "juro.com",
+    "leapsome.com", "productsup.com", "channable.com", "younium.com", "lano.io",
+    "twikey.com", "upsales.com", "apaleo.com", "foleon.com", "payfit.com",
+    "deloitte.com", "doordash.com", "glovoapp.com", "datadoghq.com", "vinted.com"
+  ]
+}

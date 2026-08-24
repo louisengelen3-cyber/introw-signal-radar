@@ -1,0 +1,37 @@
+[1/35] planhat.com              research             cat=likely_target_category   claims=4  /4   progs=0 surf=2 crm=unknown    jobs=0v/0f 1s
+[2/35] trengo.com               plausible            cat=likely_target_category   claims=4  /4   progs=2 surf=2 crm=hubspot    jobs=0v/0f 2s
+[3/35] oneflow.com              research             cat=likely_target_category   claims=5  /5   progs=0 surf=2 crm=unknown    jobs=0v/0f 2s
+[4/35] getaccept.com            research             cat=likely_target_category   claims=2  /3   progs=0 surf=1 crm=hubspot    jobs=0v/0f 3s
+[5/35] channable.com            plausible            cat=unknown                  claims=3  /4   progs=1 surf=2 crm=unknown    jobs=0v/0f 2s
+[6/35] efficy.com               under_observed       cat=unknown                  claims=0  /0   progs=0 surf=0 crm=unknown    jobs=0v/0f 1s
+[7/35] sana-commerce.com        strong_evidence      cat=likely_target_category   claims=7  /7   progs=2 surf=4 crm=unknown    jobs=6v/0f 2s
+[8/35] mews.com                 plausible            cat=likely_target_category   claims=2  /2   progs=1 surf=2 crm=hubspot    jobs=0v/0f 2s
+[9/35] weglot.com               strong_evidence      cat=likely_target_category   claims=5  /6   progs=5 surf=2 crm=unknown    jobs=0v/0f 2s
+[10/35] apaleo.com               under_observed       cat=likely_target_category   claims=0  /0   progs=0 surf=0 crm=unknown    jobs=7v/2f 2s
+[11/35] juro.com                 under_observed       cat=likely_target_category   claims=0  /0   progs=0 surf=0 crm=hubspot    jobs=0v/0f 2s
+[12/35] leapsome.com             under_observed       cat=likely_target_category   claims=0  /0   progs=0 surf=0 crm=hubspot    jobs=0v/0f 2s
+[13/35] spendesk.com             plausible            cat=likely_target_category   claims=4  /4   progs=0 surf=2 crm=unknown    jobs=0v/0f 1s
+[14/35] pleo.io                  research             cat=likely_target_category   claims=6  /6   progs=1 surf=1 crm=unknown    jobs=34v/11f 2s
+[15/35] payfit.com               plausible            cat=likely_target_category   claims=4  /4   progs=0 surf=2 crm=unknown    jobs=0v/0f 2s
+[16/35] factorialhr.com          strong_evidence      cat=likely_target_category   claims=6  /6   progs=2 surf=3 crm=unknown    jobs=0v/0f 2s
+[17/35] twikey.com               plausible            cat=likely_target_category   claims=2  /2   progs=0 surf=1 crm=unknown    jobs=0v/0f 2s
+[18/35] foleon.com               research             cat=likely_target_category   claims=0  /0   progs=0 surf=0 crm=hubspot    jobs=1v/0f 1s
+[19/35] lano.io                  plausible            cat=likely_target_category   claims=1  /1   progs=2 surf=1 crm=unknown    jobs=0v/0f 2s
+[20/35] productsup.com           under_observed       cat=likely_target_category   claims=0  /0   progs=0 surf=0 crm=hubspot    jobs=0v/0f 2s
+[21/35] upsales.com              under_observed       cat=likely_target_category   claims=0  /0   progs=0 surf=0 crm=unknown    jobs=0v/0f 2s
+[22/35] younium.com              research             cat=likely_target_category   claims=3  /3   progs=0 surf=2 crm=hubspot    jobs=0v/0f 2s
+[23/35] vinted.com               under_observed       cat=likely_target_category   claims=0  /0   progs=0 surf=0 crm=unknown    jobs=0v/0f 1s
+[24/35] cegeka.com               under_observed       cat=likely_target_category   claims=0  /0   progs=0 surf=0 crm=hubspot    jobs=0v/0f 2s
+[25/35] aikido.dev               strong_evidence      cat=likely_target_category   claims=6  /6   progs=2 surf=4 crm=hubspot    jobs=40v/8f 2s
+[26/35] archerirm.com            plausible            cat=likely_target_category   claims=2  /2   progs=2 surf=4 crm=unknown    jobs=0v/0f 3s
+[27/35] magentrix.com            suppression_candidate cat=direct_introw_competitor claims=6  /6   progs=1 surf=6 crm=unknown    jobs=0v/0f 2s
+[28/35] kiflo.com                suppression_candidate cat=direct_introw_competitor claims=0  /0   progs=0 surf=0 crm=unknown    jobs=0v/0f 4s
+[29/35] devoteam.com             plausible            cat=likely_target_category   claims=1  /1   progs=0 surf=0 crm=unknown    jobs=0v/0f 3s
+[30/35] datadoghq.com            under_observed       cat=likely_target_category   claims=0  /0   progs=0 surf=0 crm=unknown    jobs=0v/0f 2s
+[31/35] cubbit.io                suppression_candidate cat=likely_target_category   claims=4  /4   progs=3 surf=2 crm=hubspot    jobs=0v/0f 2s
+[32/35] glovoapp.com             suppression_candidate cat=supply_side_marketplace  claims=0  /0   progs=0 surf=0 crm=unknown    jobs=0v/0f 2s
+[33/35] doordash.com             under_observed       cat=unknown                  claims=0  /0   progs=0 surf=0 crm=unknown    jobs=0v/0f 2s
+[34/35] aircall.io               research             cat=likely_target_category   claims=7  /7   progs=2 surf=3 crm=hubspot    jobs=40v/7f 2s
+[35/35] deloitte.com             suppression_candidate cat=professional_services    claims=0  /0   progs=0 surf=0 crm=unknown    jobs=40v/0f 4s
+
+wrote 35 dossiers (35 total in index)

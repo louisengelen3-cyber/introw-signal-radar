@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.pleo.io"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:28:37.257Z",
+  "builtAt": "2026-08-24T12:33:48.270Z",
   "oldestEvidenceAt": "2026-08-24T07:34:36.126Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -42,11 +42,11 @@
       "state": "weak_proxy",
       "evidence": [
         {
-          "id": "o82",
+          "id": "o89",
           "quote": "tevreden klanten op, die op hun beurt andere bedrijven doorverwijzen naar ons bedrijf.\"",
           "sourceUrl": "https://www.pleo.io/nl/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:37.257Z",
+          "retrievedAt": "2026-08-24T12:33:48.270Z",
           "strength": "strong_proxy",
           "proves": "the company describes partners bringing it leads, deals or customers",
           "doesNotProve": "the number of deals, or that a process exists to handle them",
@@ -72,11 +72,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o83",
+          "id": "o90",
           "quote": "We werken ook samen met: Waarom partner worden van Pleo? Het allerbeste voor je klanten De veiligheid van je",
           "sourceUrl": "https://www.pleo.io/nl/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:37.257Z",
+          "retrievedAt": "2026-08-24T12:33:48.270Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -84,11 +84,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o84",
+          "id": "o91",
           "quote": "Find your perfect accounting partner We work with trusted accounting partners to make your decision easier.",
           "sourceUrl": "https://www.pleo.io/en/partner-directory",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:37.257Z",
+          "retrievedAt": "2026-08-24T12:33:48.270Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -96,11 +96,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o85",
+          "id": "o92",
           "quote": "Gold Platinum Chat support Email support Video call support Dedicated Partner Manager \"I would recommend Pleo to every company that wants to save time.",
           "sourceUrl": "https://www.pleo.io/en/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:37.257Z",
+          "retrievedAt": "2026-08-24T12:33:48.270Z",
           "strength": "strong_proxy",
           "proves": "the company supplies partners with resources, enablement or a named contact",
           "doesNotProve": "that partners use them",
@@ -126,11 +126,11 @@
       "state": "moderate",
       "evidence": [
         {
-          "id": "o86",
+          "id": "o93",
           "quote": "Get started Explore Product Explore our Partner Portal Everything you need, in one place With Pleo’s Partner Portal, you",
           "sourceUrl": "https://www.pleo.io/en/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:37.257Z",
+          "retrievedAt": "2026-08-24T12:33:48.270Z",
           "strength": "strong_proxy",
           "proves": "a partner-specific operational surface exists",
           "doesNotProve": "adoption, or that partners log into it",
@@ -138,11 +138,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o87",
+          "id": "o94",
           "quote": "plan for your clients Listing on Pleo Partner directory Revenue share 10% 20% Marketing New Partner Bronze Silver Gold Platinum Marketing",
           "sourceUrl": "https://www.pleo.io/en/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:37.257Z",
+          "retrievedAt": "2026-08-24T12:33:48.270Z",
           "strength": "strong_proxy",
           "proves": "the company pays partners for commercial outcomes",
           "doesNotProve": "the size of the payments or how they are calculated",
@@ -170,11 +170,11 @@
       "publishedName": null,
       "evidence": [
         {
-          "id": "o88",
+          "id": "o95",
           "quote": "Become a Pleo Technology Partner First name Last name Your email I'm interested in becoming a… Company size Select Country I agree to receive more information about the",
           "sourceUrl": "https://www.pleo.io/en/become_tech_partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:37.257Z",
+          "retrievedAt": "2026-08-24T12:33:48.270Z",
           "strength": "strong_proxy",
           "proves": "the company uses technology partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -236,11 +236,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o89",
+          "id": "o96",
           "quote": "Get started Explore Product Explore our Partner Portal Everything you need, in one place With Pleo’s Partner Portal, you can onboard and manage your clients and",
           "sourceUrl": "https://www.pleo.io/en/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:37.257Z",
+          "retrievedAt": "2026-08-24T12:33:48.270Z",
           "strength": "strong_proxy",
           "proves": "partners have an authenticated destination",
           "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -248,11 +248,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o90",
+          "id": "o97",
           "quote": "Aan de slag Product verkennen Ontdek ons Partnerportaal Alles wat je nodig hebt op één plek Met het Partnerportaal van Pleo kun je je klanten en hun uitgaven op",
           "sourceUrl": "https://www.pleo.io/nl/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:37.257Z",
+          "retrievedAt": "2026-08-24T12:33:48.270Z",
           "strength": "strong_proxy",
           "proves": "partners have an authenticated destination",
           "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -277,6 +277,127 @@
       "evidence": []
     }
   ],
+  "jobEvidence": {
+    "domain": "pleo.io",
+    "retrievedAt": "2026-08-24T12:33:50.043Z",
+    "tenants": [
+      {
+        "vendor": "ashby",
+        "token": "pleo",
+        "boardUrl": "https://jobs.ashbyhq.com/pleo",
+        "ownership": "owned",
+        "basis": "first_party_link",
+        "evidenceUrl": "https://pleo.io/careers"
+      }
+    ],
+    "vacanciesFound": 35,
+    "vacanciesUsed": 34,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 1,
+    "crmHits": [
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Examples: Zendesk or similar, Salesforce, Gainsight or similar, learning/content platforms, chatbot and AI tools, Looker/Tableau/Power BI, Jira/Asana, and Slack.",
+        "rule": "category_example",
+        "vacancyId": "ashby:pleo:0a30babb-a60b-46f8-8e09-9bf1ecd904bd",
+        "jobTitle": "Strategic Programme Manager - Customer Experience",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/0a30babb-a60b-46f8-8e09-9bf1ecd904bd",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Examples may include Salesforce, Gainsight or similar, Zendesk, learning management and webinar platforms, customer engagement tools, product analytics platforms, Looker, Tableau or Power BI, Jira, Asana, and Slack.",
+        "rule": "category_example",
+        "vacancyId": "ashby:pleo:288ea716-a481-4bb7-9234-43ec0af774b7",
+        "jobTitle": "Manager, Digital Scaled Onboarding",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/288ea716-a481-4bb7-9234-43ec0af774b7",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "crm_mention_only",
+        "quote": "A data-driven approach, comfortable utilising CRM and CS tooling (e.g.Hubspot, Vitally) to drive team performance and forecasting.",
+        "rule": "category_example",
+        "vacancyId": "ashby:pleo:636df222-00f7-445e-80e2-493df986734e",
+        "jobTitle": "Senior Manager, Customer Success",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/636df222-00f7-445e-80e2-493df986734e",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "crm_mention_only",
+        "quote": "You can expect to work with the following tech stack: HubSpot, Gong, LinkedIn Sales Navigator, Claude.",
+        "rule": "bare_mention",
+        "vacancyId": "ashby:pleo:5931594c-d0e3-40c5-85d2-c685f8b22eba",
+        "jobTitle": "Senior Manager, Sales UKI",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/5931594c-d0e3-40c5-85d2-c685f8b22eba",
+        "currentness": "current",
+        "proves": "this CRM is named somewhere in the advert",
+        "doesNotProve": "that the company uses it operationally"
+      }
+    ],
+    "operationalHits": [
+      {
+        "vacancyId": "ashby:pleo:b4e92b9e-3c46-44f8-ad28-8e430e254a44",
+        "jobTitle": "RevOps Performance Analyst",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/b4e92b9e-3c46-44f8-ad28-8e430e254a44",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "About the role We're looking for a RevOps Performance Analyst to join our Revenue Operations team at Pleo.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "ashby:pleo:b4e92b9e-3c46-44f8-ad28-8e430e254a44",
+        "jobTitle": "RevOps Performance Analyst",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/b4e92b9e-3c46-44f8-ad28-8e430e254a44",
+        "currentness": "current",
+        "fact": "lead_routing",
+        "quote": "Analyse the impact of key variables in the sales process—such as discounting behaviours, lead routing efficiency, and promotion effectiveness—to drive operational excellence.",
+        "rule": "pattern:lead_routing",
+        "proves": "the company operates a defined lead-routing process",
+        "doesNotProve": "lead volume, or that partners are part of that routing"
+      },
+      {
+        "vacancyId": "ashby:pleo:0a30babb-a60b-46f8-8e09-9bf1ecd904bd",
+        "jobTitle": "Strategic Programme Manager - Customer Experience",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/0a30babb-a60b-46f8-8e09-9bf1ecd904bd",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "…tomer Success, Onboarding, Product, Product Operations, Engineering, Marketing, Data, and RevOps .",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      }
+    ],
+    "health": [
+      {
+        "url": "https://pleo.io/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://pleo.io/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://api.ashbyhq.com/posting-api/job-board/pleo?includeCompensation=false",
+        "health": "success",
+        "status": 200
+      }
+    ],
+    "note": "34 current vacancies read; no defensible CRM evidence found. This is not evidence that the company has no CRM."
+  },
   "partnerDirectory": {
     "isDirectory": true,
     "lowerBound": 15,
@@ -293,11 +414,11 @@
     "sourceUrl": "https://www.pleo.io/en/partner-directory",
     "evidenceQuote": "Find your perfect accounting partner We work with trusted accounting partners to make your decision easier. Explore Pleo-approved accountants and bookkeepers below. Find your perfect partner Virgate Count on us to be your full service finance team supported by",
     "observation": {
-      "id": "o91",
+      "id": "o98",
       "quote": "Find your perfect accounting partner We work with trusted accounting partners to make your decision easier. Explore Pleo-approved accountants and bookkeepers below. Find your perfect partner Virgate Count on us to be your full service finance team supported by",
       "sourceUrl": "https://www.pleo.io/en/partner-directory",
       "sourceType": "partner_directory",
-      "retrievedAt": "2026-08-24T11:28:37.257Z",
+      "retrievedAt": "2026-08-24T12:33:48.270Z",
       "strength": "confirmed",
       "proves": "the company publicly lists at least 15 partner organisations",
       "doesNotProve": "the true number of partners, that they transact, or that the list is current — a directory is a lower bound and usually a filtered view"
@@ -306,8 +427,78 @@
   "systems": {
     "crm": {
       "state": "unknown",
+      "bundle": {
+        "vendors": [
+          {
+            "vendor": "Salesforce",
+            "level": "crm_mention_only",
+            "sources": [
+              {
+                "kind": "job_description",
+                "level": "crm_mention_only",
+                "quote": "Examples: Zendesk or similar, Salesforce, Gainsight or similar, learning/content platforms, chatbot and AI tools, Looker/Tableau/Power BI, Jira/Asana, and Slack.",
+                "sourceUrl": "https://jobs.ashbyhq.com/pleo/0a30babb-a60b-46f8-8e09-9bf1ecd904bd",
+                "detail": "Strategic Programme Manager - Customer Experience · current",
+                "proves": "this CRM was named as an example of a category",
+                "doesNotProve": "anything at all about which CRM this company uses",
+                "observedAt": ""
+              },
+              {
+                "kind": "job_description",
+                "level": "crm_mention_only",
+                "quote": "Examples may include Salesforce, Gainsight or similar, Zendesk, learning management and webinar platforms, customer engagement tools, product analytics platforms, Looker, Tableau or Power BI, Jira, Asana, and Slack.",
+                "sourceUrl": "https://jobs.ashbyhq.com/pleo/288ea716-a481-4bb7-9234-43ec0af774b7",
+                "detail": "Manager, Digital Scaled Onboarding · current",
+                "proves": "this CRM was named as an example of a category",
+                "doesNotProve": "anything at all about which CRM this company uses",
+                "observedAt": ""
+              }
+            ],
+            "jobVacancies": 0,
+            "hasFingerprint": false,
+            "lastObservedAt": null
+          },
+          {
+            "vendor": "HubSpot",
+            "level": "crm_mention_only",
+            "sources": [
+              {
+                "kind": "job_description",
+                "level": "crm_mention_only",
+                "quote": "A data-driven approach, comfortable utilising CRM and CS tooling (e.g.Hubspot, Vitally) to drive team performance and forecasting.",
+                "sourceUrl": "https://jobs.ashbyhq.com/pleo/636df222-00f7-445e-80e2-493df986734e",
+                "detail": "Senior Manager, Customer Success · current",
+                "proves": "this CRM was named as an example of a category",
+                "doesNotProve": "anything at all about which CRM this company uses",
+                "observedAt": ""
+              },
+              {
+                "kind": "job_description",
+                "level": "crm_mention_only",
+                "quote": "You can expect to work with the following tech stack: HubSpot, Gong, LinkedIn Sales Navigator, Claude.",
+                "sourceUrl": "https://jobs.ashbyhq.com/pleo/5931594c-d0e3-40c5-85d2-c685f8b22eba",
+                "detail": "Senior Manager, Sales UKI · current",
+                "proves": "this CRM is named somewhere in the advert",
+                "doesNotProve": "that the company uses it operationally",
+                "observedAt": ""
+              }
+            ],
+            "jobVacancies": 0,
+            "hasFingerprint": false,
+            "lastObservedAt": null
+          }
+        ],
+        "primary": null,
+        "conflict": null,
+        "sourcesChecked": {
+          "website": true,
+          "jobs": true,
+          "vacanciesRead": 34
+        },
+        "note": "No reliable public CRM evidence was established from website artifacts and 34 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+      },
       "evidence": [],
-      "note": "No CRM artifact found on the retrieved pages. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 33% recall against companies known to run a supported CRM, and Salesforce was never detected at all."
+      "note": "No reliable public CRM evidence was established from website artifacts and 34 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
     },
     "prm": {
       "state": "unknown",
@@ -323,8 +514,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:28:37.257Z",
-    "lastCheckedAt": "2026-08-24T11:28:37.257Z",
+    "baselineAt": "2026-08-24T12:33:48.270Z",
+    "lastCheckedAt": "2026-08-24T12:33:48.270Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

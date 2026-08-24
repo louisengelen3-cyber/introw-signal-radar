@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import {
-  CATEGORY_LABEL, CRM_LABEL, MACHINE_LABEL, MATERIALITY_LABEL, OUTCOME_HELP, OUTCOME_LABEL,
+  CATEGORY_LABEL, CRM_LEVEL_LABEL, CRM_LEVEL_TONE, MACHINE_LABEL, MATERIALITY_LABEL,
+  OPERATIONAL_FACT_LABEL, OUTCOME_HELP, OUTCOME_LABEL,
   OWNERSHIP_LABEL, PEOPLE_LABEL, PRM_LABEL, SURFACE_LABEL, WORKFLOW_LABEL,
   clearReview, getReview, humanise, loadDossier, logEvent, saveReview, workflowState,
   type ReviewRecord,
@@ -117,6 +118,59 @@ function SurfaceGrid({ surfaces }: { surfaces: SurfaceFinding[] }) {
         </li>
       ))}
     </ul>
+  );
+}
+
+/**
+ * CRM with its provenance.
+ *
+ * The level is stated in words, not only in colour: "Supporting evidence only" must never
+ * read like "Confirmed", because the difference is whether the company said it runs the
+ * system or merely asked a candidate to know it.
+ */
+function CrmPanel({ d }: { d: D }) {
+  const b = d.systems.crm.bundle;
+  if (!b || b.vendors.length === 0) {
+    return <StateChip label="Unknown" tone="neutral" title="No reliable public CRM evidence was established. This is not evidence that the company has no CRM." />;
+  }
+  return (
+    <div className="crm-panel">
+      {b.conflict && (
+        <p className="crm-conflict">
+          <strong>More than one CRM is independently evidenced.</strong> A company may legitimately run
+          several, so neither observation is discarded — this is for you to resolve, not the machine.
+        </p>
+      )}
+      {b.vendors.map((v) => (
+        <div key={v.vendor} className="crm-vendor">
+          <div className="crm-vendor-head">
+            <span className="crm-vendor-name">{v.vendor}</span>
+            <StateChip label={CRM_LEVEL_LABEL[v.level] ?? humanise(v.level)} tone={CRM_LEVEL_TONE[v.level] ?? 'neutral'} />
+          </div>
+          <div className="crm-sources">
+            {v.hasFingerprint && <Chip tone="neutral">1 website artifact</Chip>}
+            {v.jobVacancies > 0 && <Chip tone="neutral">{v.jobVacancies} current {v.jobVacancies === 1 ? 'vacancy' : 'vacancies'}</Chip>}
+          </div>
+          <ul className="ev-list">
+            {v.sources.slice(0, 3).map((src, i) => (
+              <li className="ev" key={i}>
+                <blockquote className="ev-quote">{src.quote}</blockquote>
+                <div className="ev-meta">
+                  {src.sourceUrl.startsWith('http')
+                    ? <a className="ev-src" href={src.sourceUrl} target="_blank" rel="noreferrer">{shortUrl(src.sourceUrl)} ↗</a>
+                    : <span className="ev-src">{src.sourceUrl}</span>}
+                  <span className="ev-sep" aria-hidden="true">·</span>
+                  <span>{src.detail}</span>
+                  <span className="ev-sep" aria-hidden="true">·</span>
+                  <span>{CRM_LEVEL_LABEL[src.level] ?? src.level}</span>
+                </div>
+                <p className="ev-notprove"><span className="lab">Does not prove</span>{src.doesNotProve}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
   );
 }
 
@@ -388,7 +442,7 @@ export function DossierView({ domain, onBack, onNext, remaining, onReviewed }: {
         <Panel title="Systems and people">
           <dl className="kv">
             <dt>CRM</dt>
-            <dd><StateChip label={CRM_LABEL[d.systems.crm.state] ?? humanise(d.systems.crm.state)} tone={d.systems.crm.state === 'unknown' ? 'neutral' : 'verified'} /></dd>
+            <dd><CrmPanel d={d} /></dd>
             <dd className="kv-note">{d.systems.crm.note}</dd>
 
             <dt>Partner platform</dt>
@@ -438,6 +492,38 @@ export function DossierView({ domain, onBack, onNext, remaining, onReviewed }: {
             ))}
           </ol>
         )}
+
+      {d.jobEvidence && (d.jobEvidence.operationalHits.length > 0 || d.jobEvidence.vacanciesUsed > 0) && (
+        <>
+          <h2 className="sect display">From current job adverts</h2>
+          <p className="sect-sub">
+            {d.jobEvidence.vacanciesUsed} current {d.jobEvidence.vacanciesUsed === 1 ? 'vacancy' : 'vacancies'} read from
+            the company’s own {d.jobEvidence.tenants[0]?.vendor ?? 'careers'} board. What a company writes in its adverts
+            is a statement about how it works — it is not a signal that it is buying anything.
+          </p>
+          {d.jobEvidence.operationalHits.length === 0 ? (
+            <EmptyState title="No operational facts extracted"
+              body="The vacancies were read but contained no partner-operations or systems language we could attribute."
+              note="This is not evidence that those processes do not exist." />
+          ) : (
+            <div className="grid-2">
+              {[...new Map(d.jobEvidence.operationalHits.map((h) => [h.fact, h])).values()].map((h) => (
+                <Panel key={h.fact} title={OPERATIONAL_FACT_LABEL[h.fact] ?? humanise(h.fact)}
+                  aside={<StateChip label={humanise(h.currentness)} tone={h.currentness === 'current' ? 'verified' : 'neutral'} />}>
+                  <blockquote className="ev-quote">{h.quote}</blockquote>
+                  <div className="ev-meta">
+                    <a className="ev-src" href={h.jobUrl} target="_blank" rel="noreferrer">{h.jobTitle} ↗</a>
+                  </div>
+                  {h.statedValue !== undefined && (
+                    <p className="job-stated"><strong>{h.statedValue}</strong> — stated by the company itself, not inferred.</p>
+                  )}
+                  <p className="ev-notprove"><span className="lab">Does not prove</span>{h.doesNotProve}</p>
+                </Panel>
+              ))}
+            </div>
+          )}
+        </>
+      )}
 
       <h2 className="sect display">Retrieval</h2>
       <Panel>

@@ -19,6 +19,9 @@ import { scanSurfaces, SURFACE_DEFS } from './surfaces.js';
 import { detectProgrammes } from './programmes.js';
 import { detectDirectory, NO_DIRECTORY } from './directory.js';
 import { isContentPath, isPartnerSource, isReadableQuote, partitionAttributable } from './attribution.js';
+import { enrichWithJobs, summariseCrm } from '../jobs/enrich.js';
+import { buildCrmBundle, type FingerprintInput } from '../jobs/bundle.js';
+import { EMPTY_ENRICHMENT } from '../jobs/types.js';
 import { buildCommercialSummary } from './summary.js';
 import type {
   ConstructPanel, Contradiction, Dossier, MachineInterpretation, Observation,
@@ -32,6 +35,11 @@ function obs(o: Omit<Observation, 'id'>): Observation {
 }
 
 export interface BuildOptions {
+  /**
+   * Read the company's own job adverts for additional operational evidence. Off by default:
+   * this is an enrichment layer that runs after partner research, never during discovery.
+   */
+  jobs?: boolean;
   distributionIndex?: Parameters<typeof assessCompany>[1] extends { distributionIndex?: infer D } ? D : never;
   name?: string;
   /** Pre-computed assessment, so a caller can avoid re-crawling. */
@@ -188,6 +196,27 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
     if (r.ok && r.body) crmBodies.push(r.body);
   }
   const crm = assessCrm(crmBodies);
+
+  /* ── job enrichment ─────────────────────────────────────────────────────
+   * Bounded and opt-in. Runs only for a company already researched, and its output is
+   * confined to the CRM bundle and its own dossier section.
+   */
+  const jobEvidence = opts.jobs ? await enrichWithJobs(bare) : EMPTY_ENRICHMENT(bare);
+  const jobCrm = summariseCrm(jobEvidence.crmHits);
+
+  const fingerprints: FingerprintInput[] = crm.observations.map((o) => ({
+    vendorLabel: o.vendor === 'hubspot' ? 'HubSpot' : o.vendor === 'salesforce' ? 'Salesforce'
+      : o.vendor.charAt(0).toUpperCase() + o.vendor.slice(1),
+    confirmed: o.state === 'confirmed',
+    quote: o.matched, sourceUrl: `https://${bare}/`,
+    proves: o.proves, doesNotProve: o.doesNotProve, observedAt: builtAt,
+  }));
+
+  const crmBundle = buildCrmBundle(fingerprints, jobCrm.verdicts, {
+    websiteChecked: crmBodies.length > 0,
+    jobsChecked: opts.jobs === true,
+    vacanciesRead: jobEvidence.vacanciesUsed,
+  });
   const prm = assessPrm(
     assessment.dns.platform ? [{ host: assessment.dns.platform.host, cname: assessment.dns.platform.cname, distinct: true, nonProd: false }] : [],
     assessment.dns.lookupFailures,
@@ -200,17 +229,23 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
 
   const systems: SystemsPanel = {
     crm: {
-      state: crm.vendor === 'hubspot' ? 'hubspot_confirmed'
-        : crm.vendor === 'salesforce' ? 'salesforce_confirmed'
-        : crm.vendor ? 'other_crm_confirmed' : 'unknown',
+      /**
+       * The state comes from the BUNDLE alone, with no fallback.
+       *
+       * The old fallback read `crm.vendor` regardless of its level, so a `cdn2.hubspot.net`
+       * asset — whose own `doesNotProve` says "HubSpot CMS is bought without Sales Hub" —
+       * rendered as "HubSpot confirmed". A named CRM state now requires strong-or-better;
+       * anything weaker stays `unknown` with its supporting evidence still visible in the
+       * bundle. That downgrades some accounts, and the downgrade is the correction.
+       */
+      state: crmStateFromBundle(crmBundle) ?? 'unknown',
+      bundle: crmBundle,
       evidence: crm.observations.map((o) => obs({
         quote: o.matched, sourceUrl: `https://${bare}/`, sourceType: 'html_artifact', retrievedAt: builtAt,
         strength: o.state === 'confirmed' ? 'confirmed' : 'strong_proxy', proves: o.proves, doesNotProve: o.doesNotProve,
       })),
       // Measured: 33% recall against a group that provably runs a supported CRM.
-      note: crm.vendor
-        ? crm.rationale
-        : 'No CRM artifact found on the retrieved pages. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 33% recall against companies known to run a supported CRM, and Salesforce was never detected at all.',
+      note: crmBundle.note,
     },
     prm: {
       state: prm.detections.some((d) => d.vendor === 'introw') || prmText.some((h) => h.vendor === 'Introw') ? 'introw_confirmed'
@@ -337,6 +372,7 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
     category: { ...category, knownCompetitorList: { onList: known.isKnownCompetitor(bare), lastReviewed: known.lastReviewed } },
     constructs, programmes,
     surfaces,
+    jobEvidence: opts.jobs ? jobEvidence : undefined,
     partnerDirectory: {
       ...directory,
       observation: directory.isDirectory && directory.sourceUrl ? obs({
@@ -371,6 +407,19 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
     humanReview: null,
     provenance: 'real_observation',
   };
+}
+
+/**
+ * Collapse the bundle to the single word the list screens show. Only a vendor at
+ * strong-or-better earns a named state; supporting evidence alone stays `unknown`, because
+ * "the company asks candidates for HubSpot experience" is not "the company runs HubSpot".
+ */
+function crmStateFromBundle(b: ReturnType<typeof buildCrmBundle>): 'hubspot_confirmed' | 'salesforce_confirmed' | 'other_crm_confirmed' | null {
+  const v = b.vendors.find((x) => x.level === 'crm_confirmed' || x.level === 'crm_strong_evidence');
+  if (!v) return null;
+  if (/hubspot/i.test(v.vendor)) return 'hubspot_confirmed';
+  if (/salesforce/i.test(v.vendor)) return 'salesforce_confirmed';
+  return 'other_crm_confirmed';
 }
 
 function buildConstruct(

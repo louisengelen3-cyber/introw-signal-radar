@@ -1,0 +1,2388 @@
+[
+  {
+    "domain": "aikido.dev",
+    "retrievedAt": "2026-08-24T12:17:56.571Z",
+    "tenants": [
+      {
+        "vendor": "recruitee",
+        "token": "aikidosecurity",
+        "boardUrl": "https://aikidosecurity.recruitee.com",
+        "ownership": "owned",
+        "basis": "first_party_link",
+        "evidenceUrl": "https://aikido.dev/careers"
+      }
+    ],
+    "vacanciesFound": 40,
+    "vacanciesUsed": 40,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [
+      {
+        "vendor": "HubSpot",
+        "level": "crm_confirmed",
+        "quote": "Maintain an accurate forecast and disciplined pipeline management in HubSpot.",
+        "rule": "operational_duty",
+        "vacancyId": "recruitee:aikidosecurity:2515263",
+        "jobTitle": "Account Executive Enterprise UK",
+        "jobUrl": "https://aikidosecurity.recruitee.com/o/account-executive-enterprise-uk",
+        "currentness": "current",
+        "proves": "the role’s published duties involve working in this CRM at this company",
+        "doesNotProve": "that it is the company’s primary CRM, or that other systems are absent"
+      }
+    ],
+    "operationalHits": [
+      {
+        "vacancyId": "recruitee:aikidosecurity:2694359",
+        "jobTitle": "Channel Business Manager Atlanta",
+        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-business-manager-atlanta",
+        "currentness": "current",
+        "fact": "partner_role_hiring",
+        "quote": "Channel Business Manager Atlanta",
+        "rule": "partner_role_title",
+        "proves": "the company is currently recruiting for a partner-facing role",
+        "doesNotProve": "that a partner team already exists, how large it is, or that the company is evaluating any software"
+      },
+      {
+        "vacancyId": "recruitee:aikidosecurity:2694358",
+        "jobTitle": "Channel Business Manager Austin",
+        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-business-manager-austin",
+        "currentness": "current",
+        "fact": "partner_role_hiring",
+        "quote": "Channel Business Manager Austin",
+        "rule": "partner_role_title",
+        "proves": "the company is currently recruiting for a partner-facing role",
+        "doesNotProve": "that a partner team already exists, how large it is, or that the company is evaluating any software"
+      },
+      {
+        "vacancyId": "recruitee:aikidosecurity:2683002",
+        "jobTitle": "Channel Business Manager MENAT",
+        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-business-manager-menat",
+        "currentness": "current",
+        "fact": "partner_role_hiring",
+        "quote": "Channel Business Manager MENAT",
+        "rule": "partner_role_title",
+        "proves": "the company is currently recruiting for a partner-facing role",
+        "doesNotProve": "that a partner team already exists, how large it is, or that the company is evaluating any software"
+      },
+      {
+        "vacancyId": "recruitee:aikidosecurity:2683002",
+        "jobTitle": "Channel Business Manager MENAT",
+        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-business-manager-menat",
+        "currentness": "current",
+        "fact": "partner_pipeline",
+        "quote": "Responsibilities Own and achieve set targets across your region and partner portfolio Develop and manage a healthy portfolio of key partners that drive business both ways Build and manage partner-sourced pipeline;",
+        "rule": "pattern:partner_pipeline",
+        "proves": "the company tracks pipeline attributable to partners",
+        "doesNotProve": "the size of that pipeline or its share of total revenue"
+      },
+      {
+        "vacancyId": "recruitee:aikidosecurity:2683002",
+        "jobTitle": "Channel Business Manager MENAT",
+        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-business-manager-menat",
+        "currentness": "current",
+        "fact": "deal_registration",
+        "quote": "co-own qualified opportunities with sales to close Channel opportunities to partners to strengthen joint success and engagement Enable and activate partners through training, joint GTM plans, and consistent execution Track KPIs, deal registration, and pipeline health in CRM/PRM Champion a partner-preferred, results-oriented motion that fuels predictable growth",
+        "rule": "pattern:deal_registration",
+        "proves": "the company operates a deal-registration process with partners",
+        "doesNotProve": "how many deals are registered, or that the process is systematised rather than manual"
+      },
+      {
+        "vacancyId": "recruitee:aikidosecurity:2683002",
+        "jobTitle": "Channel Business Manager MENAT",
+        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-business-manager-menat",
+        "currentness": "current",
+        "fact": "prm_usage",
+        "quote": "co-own qualified opportunities with sales to close Channel opportunities to partners to strengthen joint success and engagement Enable and activate partners through training, joint GTM plans, and consistent execution Track KPIs, deal registration, and pipeline health in CRM/PRM Champion a partner-preferred, results-oriented motion that fuels predictable growth",
+        "rule": "pattern:prm_usage",
+        "proves": "the advert names a partner-management platform",
+        "doesNotProve": "that it is deployed, current, or the only one — and nothing about satisfaction or intent to switch"
+      },
+      {
+        "vacancyId": "recruitee:aikidosecurity:2676102",
+        "jobTitle": "Channel Business Manager ANZ",
+        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-business-manager-anz",
+        "currentness": "current",
+        "fact": "partner_role_hiring",
+        "quote": "Channel Business Manager ANZ",
+        "rule": "partner_role_title",
+        "proves": "the company is currently recruiting for a partner-facing role",
+        "doesNotProve": "that a partner team already exists, how large it is, or that the company is evaluating any software"
+      },
+      {
+        "vacancyId": "recruitee:aikidosecurity:2676102",
+        "jobTitle": "Channel Business Manager ANZ",
+        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-business-manager-anz",
+        "currentness": "current",
+        "fact": "partner_pipeline",
+        "quote": "Responsibilities Own and achieve set targets across your region and partner portfolio Develop and manage a healthy portfolio of key partners that drive business both ways Build and manage partner-sourced pipeline;",
+        "rule": "pattern:partner_pipeline",
+        "proves": "the company tracks pipeline attributable to partners",
+        "doesNotProve": "the size of that pipeline or its share of total revenue"
+      },
+      {
+        "vacancyId": "recruitee:aikidosecurity:2676102",
+        "jobTitle": "Channel Business Manager ANZ",
+        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-business-manager-anz",
+        "currentness": "current",
+        "fact": "deal_registration",
+        "quote": "co-own qualified opportunities with sales to close Channel opportunities to partners to strengthen joint success and engagement Enable and activate partners through training, joint GTM plans, and consistent execution Track KPIs, deal registration, and pipeline health in CRM/PRM Champion a partner-preferred, results-oriented motion that fuels predictable growth",
+        "rule": "pattern:deal_registration",
+        "proves": "the company operates a deal-registration process with partners",
+        "doesNotProve": "how many deals are registered, or that the process is systematised rather than manual"
+      },
+      {
+        "vacancyId": "recruitee:aikidosecurity:2676102",
+        "jobTitle": "Channel Business Manager ANZ",
+        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-business-manager-anz",
+        "currentness": "current",
+        "fact": "prm_usage",
+        "quote": "co-own qualified opportunities with sales to close Channel opportunities to partners to strengthen joint success and engagement Enable and activate partners through training, joint GTM plans, and consistent execution Track KPIs, deal registration, and pipeline health in CRM/PRM Champion a partner-preferred, results-oriented motion that fuels predictable growth",
+        "rule": "pattern:prm_usage",
+        "proves": "the advert names a partner-management platform",
+        "doesNotProve": "that it is deployed, current, or the only one — and nothing about satisfaction or intent to switch"
+      },
+      {
+        "vacancyId": "recruitee:aikidosecurity:2559435",
+        "jobTitle": "Channel Bussiness Manager (France)",
+        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-bussiness-manager-france",
+        "currentness": "recent_historical",
+        "fact": "partner_role_hiring",
+        "quote": "Channel Bussiness Manager (France)",
+        "rule": "partner_role_title",
+        "proves": "the company is currently recruiting for a partner-facing role",
+        "doesNotProve": "that a partner team already exists, how large it is, or that the company is evaluating any software"
+      },
+      {
+        "vacancyId": "recruitee:aikidosecurity:2559435",
+        "jobTitle": "Channel Bussiness Manager (France)",
+        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-bussiness-manager-france",
+        "currentness": "recent_historical",
+        "fact": "partner_pipeline",
+        "quote": "Responsibilities Own and achieve set targets across your region and partner portfolio Develop and manage a healthy portfolio of key partners that drive business both ways Build and manage partner-sourced pipeline;",
+        "rule": "pattern:partner_pipeline",
+        "proves": "the company tracks pipeline attributable to partners",
+        "doesNotProve": "the size of that pipeline or its share of total revenue"
+      },
+      {
+        "vacancyId": "recruitee:aikidosecurity:2559435",
+        "jobTitle": "Channel Bussiness Manager (France)",
+        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-bussiness-manager-france",
+        "currentness": "recent_historical",
+        "fact": "deal_registration",
+        "quote": "co-own qualified opportunities with sales to close Channel opportunities to partners to strengthen joint success and engagement Enable and activate partners through training, joint GTM plans, and consistent execution Track KPIs, deal registration, and pipeline health in CRM/PRM Champion a partner-preferred, results-oriented motion that fuels predictable growth",
+        "rule": "pattern:deal_registration",
+        "proves": "the company operates a deal-registration process with partners",
+        "doesNotProve": "how many deals are registered, or that the process is systematised rather than manual"
+      },
+      {
+        "vacancyId": "recruitee:aikidosecurity:2559435",
+        "jobTitle": "Channel Bussiness Manager (France)",
+        "jobUrl": "https://aikidosecurity.recruitee.com/o/channel-bussiness-manager-france",
+        "currentness": "recent_historical",
+        "fact": "prm_usage",
+        "quote": "co-own qualified opportunities with sales to close Channel opportunities to partners to strengthen joint success and engagement Enable and activate partners through training, joint GTM plans, and consistent execution Track KPIs, deal registration, and pipeline health in CRM/PRM Champion a partner-preferred, results-oriented motion that fuels predictable growth",
+        "rule": "pattern:prm_usage",
+        "proves": "the advert names a partner-management platform",
+        "doesNotProve": "that it is deployed, current, or the only one — and nothing about satisfaction or intent to switch"
+      }
+    ],
+    "health": [
+      {
+        "url": "https://aikido.dev/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://aikido.dev/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://aikidosecurity.recruitee.com/api/offers/",
+        "health": "success",
+        "status": 200
+      }
+    ],
+    "note": "40 current vacancies read; HubSpot evidence at confirmed.",
+    "crmSummary": {
+      "verdicts": [
+        {
+          "vendor": "HubSpot",
+          "level": "crm_confirmed",
+          "supportingVacancies": 1,
+          "currentVacancies": 1,
+          "hits": [
+            {
+              "vendor": "HubSpot",
+              "level": "crm_confirmed",
+              "quote": "Maintain an accurate forecast and disciplined pipeline management in HubSpot.",
+              "rule": "operational_duty",
+              "vacancyId": "recruitee:aikidosecurity:2515263",
+              "jobTitle": "Account Executive Enterprise UK",
+              "jobUrl": "https://aikidosecurity.recruitee.com/o/account-executive-enterprise-uk",
+              "currentness": "current",
+              "proves": "the role’s published duties involve working in this CRM at this company",
+              "doesNotProve": "that it is the company’s primary CRM, or that other systems are absent"
+            }
+          ]
+        }
+      ],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "aircall.io",
+    "retrievedAt": "2026-08-24T12:17:56.812Z",
+    "tenants": [
+      {
+        "vendor": "greenhouse",
+        "token": "aircallioinc",
+        "boardUrl": "https://boards.greenhouse.io/aircallioinc",
+        "ownership": "owned",
+        "basis": "first_party_link",
+        "evidenceUrl": "https://aircall.io/careers"
+      }
+    ],
+    "vacanciesFound": 40,
+    "vacanciesUsed": 40,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [
+      {
+        "vendor": "Salesforce",
+        "level": "crm_confirmed",
+        "quote": "Keeping your pipeline and activities up to date in Salesforce (full training provided).",
+        "rule": "operational_duty",
+        "vacancyId": "greenhouse:aircallioinc:4368184009",
+        "jobTitle": "Business Development Representative (BDR), DACH Market",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4368184009",
+        "currentness": "current",
+        "proves": "the role’s published duties involve working in this CRM at this company",
+        "doesNotProve": "that it is the company’s primary CRM, or that other systems are absent"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Experience with Salesforce and revenue engagement tools such as Gong, Outreach, Salesloft A knowledge of sales methodologies such as SPICED / MEDDIC is a plus A proactive , driven seller able to identify and communicate business pains and outcomes, drive urgency and take end to end ownership for quota attainment Successful track record of closing net new business and generating your own pipeline Demonstrable organisational and time management skills Competitive and driven to achieve goals , build new skills and bring new ideas on how to do things faster and better!",
+        "rule": "category_example",
+        "vacancyId": "greenhouse:aircallioinc:4377530009",
+        "jobTitle": "Confirmed Strategic Account Executive",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4377530009",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "crm_mention_only",
+        "quote": "ABOUT THE ROLE: Aircall is seeking a Director of Channel Partnerships, Americas to define and lead the regional channel strategy, with a dual mandate: deepening our presence within the CRM Solutions Partner landscape (e.g., Salesforce, HubSpot, and similar platforms) while spearheading a diversification strategy to expand into new partner types beyond our current ecosystem.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4313880009",
+        "jobTitle": "Director, Channel Partnerships",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313880009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "ABOUT THE ROLE: Aircall is seeking a Director of Channel Partnerships, Americas to define and lead the regional channel strategy, with a dual mandate: deepening our presence within the CRM Solutions Partner landscape (e.g., Salesforce, HubSpot, and similar platforms) while spearheading a diversification strategy to expand into new partner types beyond our current ecosystem.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4313880009",
+        "jobTitle": "Director, Channel Partnerships",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313880009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_confirmed",
+        "quote": "comfortable partnering with Data and Systems teams on architecture, reporting, and a trustworthy single source of truth (Salesforce and the broader GTM stack).",
+        "rule": "company_possession",
+        "vacancyId": "greenhouse:aircallioinc:4313882009",
+        "jobTitle": "Director, Revenue Operations",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313882009",
+        "currentness": "current",
+        "proves": "the company refers to a CRM instance of its own",
+        "doesNotProve": "that it is the only CRM, or that it is the partner team’s system of record"
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "crm_mention_only",
+        "quote": "Design, build, and deploy integrations using low/no-code platforms (Zapier, Make, n8n, Workato) and CRM automation tools (HubSpot Workflows, Salesforce Flow) with API connectors.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4315316009",
+        "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4315316009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Design, build, and deploy integrations using low/no-code platforms (Zapier, Make, n8n, Workato) and CRM automation tools (HubSpot Workflows, Salesforce Flow) with API connectors.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4315316009",
+        "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4315316009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "crm_mention_only",
+        "quote": "Design, build, and deploy integrations using low/no-code platforms (Zapier, Make, n8n, Workato) and CRM automation tools (HubSpot Workflows, Salesforce Flow) with API connectors.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4308436009",
+        "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4308436009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Design, build, and deploy integrations using low/no-code platforms (Zapier, Make, n8n, Workato) and CRM automation tools (HubSpot Workflows, Salesforce Flow) with API connectors.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4308436009",
+        "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4308436009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Manage and track performance of Nordic Channel partners Data Management : Help ensure the accuracy and proper maintenance of Salesforce fields for our key partners.",
+        "rule": "bare_mention",
+        "vacancyId": "greenhouse:aircallioinc:4356133009",
+        "jobTitle": "Partnership Intern - UKI & Nordics",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4356133009",
+        "currentness": "current",
+        "proves": "this CRM is named somewhere in the advert",
+        "doesNotProve": "that the company uses it operationally"
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "crm_mention_only",
+        "quote": "Monitor, analyze, and optimize campaign performance using data from tools like Looker, Google Analytics, HubSpot, and Salesforce.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4318236009",
+        "jobTitle": "Performance Marketing Manager",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4318236009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Monitor, analyze, and optimize campaign performance using data from tools like Looker, Google Analytics, HubSpot, and Salesforce.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4318236009",
+        "jobTitle": "Performance Marketing Manager",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4318236009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "crm_mention_only",
+        "quote": "Proficiency in HubSpot, Salesforce, Looker, or similar tools.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4307408009",
+        "jobTitle": "Regional Marketing Manager, Iberia & Italy Markets",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4307408009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Proficiency in HubSpot, Salesforce, Looker, or similar tools.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4307408009",
+        "jobTitle": "Regional Marketing Manager, Iberia & Italy Markets",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4307408009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Reconcile inputs across Salesforce, Looker, BambooHR, and CaptivateIQ so every payout is accurate, traceable, and audit-ready.",
+        "rule": "bare_mention",
+        "vacancyId": "greenhouse:aircallioinc:4307087009",
+        "jobTitle": "Revenue Operations Manager, Planning & Commissions",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4307087009",
+        "currentness": "current",
+        "proves": "this CRM is named somewhere in the advert",
+        "doesNotProve": "that the company uses it operationally"
+      }
+    ],
+    "operationalHits": [
+      {
+        "vacancyId": "greenhouse:aircallioinc:4314137009",
+        "jobTitle": "Account Manager",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4314137009",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "Analytical, detail-oriented, and accountable for forecast accuracy and pipeline hygiene.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "greenhouse:aircallioinc:4335790009",
+        "jobTitle": "Account Manager, APAC ",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4335790009",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "Analytical, detail-oriented, and accountable for forecast accuracy and pipeline hygiene.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "greenhouse:aircallioinc:4313897009",
+        "jobTitle": "Account Manager, DACH Market",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313897009",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "Analytical, detail-oriented, and accountable for forecast accuracy and pipeline hygiene.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "greenhouse:aircallioinc:4360184009",
+        "jobTitle": "Associate Account Manager - FIME Market",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4360184009",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "Analytical, detail-oriented, and accountable for forecast accuracy and pipeline hygiene.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "greenhouse:aircallioinc:4313799009",
+        "jobTitle": "Data Scientist, Visualization",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313799009",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "Aircall's go-to-market teams (Sales, Marketing, Customer Success, Customer Support, and RevOps) rely on dashboards and data products every day.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "greenhouse:aircallioinc:4313880009",
+        "jobTitle": "Director, Channel Partnerships",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313880009",
+        "currentness": "current",
+        "fact": "channel_operations",
+        "quote": "ABOUT THE ROLE: Aircall is seeking a Director of Channel Partnerships, Americas to define and lead the regional channel strategy, with a dual mandate: deepening our presence within the CRM Solutions Partner landscape (e.g., Salesforce, HubSpot, and similar platforms) while spearheading a diversification strategy to expand into new partner types beyond our current ecosystem.",
+        "rule": "pattern:channel_operations",
+        "proves": "the company describes a channel function",
+        "doesNotProve": "the size or maturity of that channel"
+      },
+      {
+        "vacancyId": "greenhouse:aircallioinc:4307245009",
+        "jobTitle": "Director, Forward Deployed Engineering & AI GTM",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4307245009",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "Drive strong AI Agents go-to-market execution by embedding disciplined operating practices across the team, including pipeline hygiene, forecasting accuracy, and effective collaboration with Sales, AM, SE, Partners, and CEs.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "greenhouse:aircallioinc:4313882009",
+        "jobTitle": "Director, Revenue Operations",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313882009",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "ABOUT THE ROLE Revenue Operations (RevOps) sits at the center of how Aircall plans, prioritizes, and executes across our go-to-market organization.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "greenhouse:aircallioinc:4315316009",
+        "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4315316009",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "Collaborate with GTM leadership to embed routines and cadences that drive accountability for new product pipeline, forecast accuracy, and performance tracking.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "greenhouse:aircallioinc:4308436009",
+        "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4308436009",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "Collaborate with GTM leadership to embed routines and cadences that drive accountability for new product pipeline, forecast accuracy, and performance tracking.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "greenhouse:aircallioinc:4307087009",
+        "jobTitle": "Revenue Operations Manager, Planning & Commissions",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4307087009",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "About the role: Commissions are one of the most consequential things Revenue Operations owns.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      }
+    ],
+    "health": [
+      {
+        "url": "https://aircall.io/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://aircall.io/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://boards-api.greenhouse.io/v1/boards/aircallioinc/jobs?content=true",
+        "health": "success",
+        "status": 200
+      }
+    ],
+    "note": "40 current vacancies read; Salesforce evidence at confirmed.",
+    "crmSummary": {
+      "verdicts": [
+        {
+          "vendor": "Salesforce",
+          "level": "crm_confirmed",
+          "supportingVacancies": 2,
+          "currentVacancies": 2,
+          "hits": [
+            {
+              "vendor": "Salesforce",
+              "level": "crm_confirmed",
+              "quote": "Keeping your pipeline and activities up to date in Salesforce (full training provided).",
+              "rule": "operational_duty",
+              "vacancyId": "greenhouse:aircallioinc:4368184009",
+              "jobTitle": "Business Development Representative (BDR), DACH Market",
+              "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4368184009",
+              "currentness": "current",
+              "proves": "the role’s published duties involve working in this CRM at this company",
+              "doesNotProve": "that it is the company’s primary CRM, or that other systems are absent"
+            },
+            {
+              "vendor": "Salesforce",
+              "level": "crm_confirmed",
+              "quote": "comfortable partnering with Data and Systems teams on architecture, reporting, and a trustworthy single source of truth (Salesforce and the broader GTM stack).",
+              "rule": "company_possession",
+              "vacancyId": "greenhouse:aircallioinc:4313882009",
+              "jobTitle": "Director, Revenue Operations",
+              "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313882009",
+              "currentness": "current",
+              "proves": "the company refers to a CRM instance of its own",
+              "doesNotProve": "that it is the only CRM, or that it is the partner team’s system of record"
+            },
+            {
+              "vendor": "Salesforce",
+              "level": "crm_mention_only",
+              "quote": "Experience with Salesforce and revenue engagement tools such as Gong, Outreach, Salesloft A knowledge of sales methodologies such as SPICED / MEDDIC is a plus A proactive , driven seller able to identify and communicate business pains and outcomes, drive urgency and take end to end ownership for quota attainment Successful track record of closing net new business and generating your own pipeline Demonstrable organisational and time management skills Competitive and driven to achieve goals , build new skills and bring new ideas on how to do things faster and better!",
+              "rule": "category_example",
+              "vacancyId": "greenhouse:aircallioinc:4377530009",
+              "jobTitle": "Confirmed Strategic Account Executive",
+              "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4377530009",
+              "currentness": "current",
+              "proves": "this CRM was named as an example of a category",
+              "doesNotProve": "anything at all about which CRM this company uses"
+            },
+            {
+              "vendor": "Salesforce",
+              "level": "crm_mention_only",
+              "quote": "ABOUT THE ROLE: Aircall is seeking a Director of Channel Partnerships, Americas to define and lead the regional channel strategy, with a dual mandate: deepening our presence within the CRM Solutions Partner landscape (e.g., Salesforce, HubSpot, and similar platforms) while spearheading a diversification strategy to expand into new partner types beyond our current ecosystem.",
+              "rule": "names_multiple_systems",
+              "vacancyId": "greenhouse:aircallioinc:4313880009",
+              "jobTitle": "Director, Channel Partnerships",
+              "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313880009",
+              "currentness": "current",
+              "proves": "the advert names more than one CRM in the same sentence",
+              "doesNotProve": "which of the named systems, if any, this company actually uses"
+            },
+            {
+              "vendor": "Salesforce",
+              "level": "crm_mention_only",
+              "quote": "Design, build, and deploy integrations using low/no-code platforms (Zapier, Make, n8n, Workato) and CRM automation tools (HubSpot Workflows, Salesforce Flow) with API connectors.",
+              "rule": "names_multiple_systems",
+              "vacancyId": "greenhouse:aircallioinc:4315316009",
+              "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+              "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4315316009",
+              "currentness": "current",
+              "proves": "the advert names more than one CRM in the same sentence",
+              "doesNotProve": "which of the named systems, if any, this company actually uses"
+            },
+            {
+              "vendor": "Salesforce",
+              "level": "crm_mention_only",
+              "quote": "Design, build, and deploy integrations using low/no-code platforms (Zapier, Make, n8n, Workato) and CRM automation tools (HubSpot Workflows, Salesforce Flow) with API connectors.",
+              "rule": "names_multiple_systems",
+              "vacancyId": "greenhouse:aircallioinc:4308436009",
+              "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+              "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4308436009",
+              "currentness": "current",
+              "proves": "the advert names more than one CRM in the same sentence",
+              "doesNotProve": "which of the named systems, if any, this company actually uses"
+            },
+            {
+              "vendor": "Salesforce",
+              "level": "crm_mention_only",
+              "quote": "Manage and track performance of Nordic Channel partners Data Management : Help ensure the accuracy and proper maintenance of Salesforce fields for our key partners.",
+              "rule": "bare_mention",
+              "vacancyId": "greenhouse:aircallioinc:4356133009",
+              "jobTitle": "Partnership Intern - UKI & Nordics",
+              "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4356133009",
+              "currentness": "current",
+              "proves": "this CRM is named somewhere in the advert",
+              "doesNotProve": "that the company uses it operationally"
+            },
+            {
+              "vendor": "Salesforce",
+              "level": "crm_mention_only",
+              "quote": "Monitor, analyze, and optimize campaign performance using data from tools like Looker, Google Analytics, HubSpot, and Salesforce.",
+              "rule": "names_multiple_systems",
+              "vacancyId": "greenhouse:aircallioinc:4318236009",
+              "jobTitle": "Performance Marketing Manager",
+              "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4318236009",
+              "currentness": "current",
+              "proves": "the advert names more than one CRM in the same sentence",
+              "doesNotProve": "which of the named systems, if any, this company actually uses"
+            },
+            {
+              "vendor": "Salesforce",
+              "level": "crm_mention_only",
+              "quote": "Proficiency in HubSpot, Salesforce, Looker, or similar tools.",
+              "rule": "names_multiple_systems",
+              "vacancyId": "greenhouse:aircallioinc:4307408009",
+              "jobTitle": "Regional Marketing Manager, Iberia & Italy Markets",
+              "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4307408009",
+              "currentness": "current",
+              "proves": "the advert names more than one CRM in the same sentence",
+              "doesNotProve": "which of the named systems, if any, this company actually uses"
+            },
+            {
+              "vendor": "Salesforce",
+              "level": "crm_mention_only",
+              "quote": "Reconcile inputs across Salesforce, Looker, BambooHR, and CaptivateIQ so every payout is accurate, traceable, and audit-ready.",
+              "rule": "bare_mention",
+              "vacancyId": "greenhouse:aircallioinc:4307087009",
+              "jobTitle": "Revenue Operations Manager, Planning & Commissions",
+              "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4307087009",
+              "currentness": "current",
+              "proves": "this CRM is named somewhere in the advert",
+              "doesNotProve": "that the company uses it operationally"
+            }
+          ]
+        },
+        {
+          "vendor": "HubSpot",
+          "level": "crm_mention_only",
+          "supportingVacancies": 0,
+          "currentVacancies": 0,
+          "hits": [
+            {
+              "vendor": "HubSpot",
+              "level": "crm_mention_only",
+              "quote": "ABOUT THE ROLE: Aircall is seeking a Director of Channel Partnerships, Americas to define and lead the regional channel strategy, with a dual mandate: deepening our presence within the CRM Solutions Partner landscape (e.g., Salesforce, HubSpot, and similar platforms) while spearheading a diversification strategy to expand into new partner types beyond our current ecosystem.",
+              "rule": "names_multiple_systems",
+              "vacancyId": "greenhouse:aircallioinc:4313880009",
+              "jobTitle": "Director, Channel Partnerships",
+              "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313880009",
+              "currentness": "current",
+              "proves": "the advert names more than one CRM in the same sentence",
+              "doesNotProve": "which of the named systems, if any, this company actually uses"
+            },
+            {
+              "vendor": "HubSpot",
+              "level": "crm_mention_only",
+              "quote": "Design, build, and deploy integrations using low/no-code platforms (Zapier, Make, n8n, Workato) and CRM automation tools (HubSpot Workflows, Salesforce Flow) with API connectors.",
+              "rule": "names_multiple_systems",
+              "vacancyId": "greenhouse:aircallioinc:4315316009",
+              "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+              "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4315316009",
+              "currentness": "current",
+              "proves": "the advert names more than one CRM in the same sentence",
+              "doesNotProve": "which of the named systems, if any, this company actually uses"
+            },
+            {
+              "vendor": "HubSpot",
+              "level": "crm_mention_only",
+              "quote": "Design, build, and deploy integrations using low/no-code platforms (Zapier, Make, n8n, Workato) and CRM automation tools (HubSpot Workflows, Salesforce Flow) with API connectors.",
+              "rule": "names_multiple_systems",
+              "vacancyId": "greenhouse:aircallioinc:4308436009",
+              "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+              "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4308436009",
+              "currentness": "current",
+              "proves": "the advert names more than one CRM in the same sentence",
+              "doesNotProve": "which of the named systems, if any, this company actually uses"
+            },
+            {
+              "vendor": "HubSpot",
+              "level": "crm_mention_only",
+              "quote": "Monitor, analyze, and optimize campaign performance using data from tools like Looker, Google Analytics, HubSpot, and Salesforce.",
+              "rule": "names_multiple_systems",
+              "vacancyId": "greenhouse:aircallioinc:4318236009",
+              "jobTitle": "Performance Marketing Manager",
+              "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4318236009",
+              "currentness": "current",
+              "proves": "the advert names more than one CRM in the same sentence",
+              "doesNotProve": "which of the named systems, if any, this company actually uses"
+            },
+            {
+              "vendor": "HubSpot",
+              "level": "crm_mention_only",
+              "quote": "Proficiency in HubSpot, Salesforce, Looker, or similar tools.",
+              "rule": "names_multiple_systems",
+              "vacancyId": "greenhouse:aircallioinc:4307408009",
+              "jobTitle": "Regional Marketing Manager, Iberia & Italy Markets",
+              "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4307408009",
+              "currentness": "current",
+              "proves": "the advert names more than one CRM in the same sentence",
+              "doesNotProve": "which of the named systems, if any, this company actually uses"
+            }
+          ]
+        }
+      ],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "cubbit.io",
+    "retrievedAt": "2026-08-24T12:17:56.576Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://cubbit.io/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://cubbit.io/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://cubbit.io/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://cubbit.io/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://cubbit.io/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://cubbit.io/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "trengo.com",
+    "retrievedAt": "2026-08-24T12:17:56.577Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://trengo.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://trengo.com/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://trengo.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://trengo.com/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://trengo.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://trengo.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "archerirm.com",
+    "retrievedAt": "2026-08-24T12:17:56.943Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://archerirm.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://archerirm.com/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://archerirm.com/career",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://archerirm.com/jobs",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://archerirm.com/join-us",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://archerirm.com/work-with-us",
+        "health": "success",
+        "status": 200
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "planhat.com",
+    "retrievedAt": "2026-08-24T12:17:56.951Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://planhat.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://planhat.com/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://planhat.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://planhat.com/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://planhat.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://planhat.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "sana-commerce.com",
+    "retrievedAt": "2026-08-24T12:17:57.800Z",
+    "tenants": [
+      {
+        "vendor": "smartrecruiters",
+        "token": "SanaCommerce",
+        "boardUrl": "https://careers.smartrecruiters.com/SanaCommerce",
+        "ownership": "owned",
+        "basis": "first_party_link",
+        "evidenceUrl": "https://sana-commerce.com/careers"
+      }
+    ],
+    "vacanciesFound": 6,
+    "vacanciesUsed": 6,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://sana-commerce.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://sana-commerce.com/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://api.smartrecruiters.com/v1/companies/SanaCommerce/postings?limit=100",
+        "health": "success",
+        "status": 200
+      }
+    ],
+    "note": "6 current vacancies read; no defensible CRM evidence found. This is not evidence that the company has no CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "mews.com",
+    "retrievedAt": "2026-08-24T12:17:57.724Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://mews.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://mews.com/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://mews.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://mews.com/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://mews.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://mews.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "weglot.com",
+    "retrievedAt": "2026-08-24T12:17:57.893Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://weglot.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://weglot.com/careers",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://weglot.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://weglot.com/jobs",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://weglot.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://weglot.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "getaccept.com",
+    "retrievedAt": "2026-08-24T12:17:57.934Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://getaccept.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://getaccept.com/careers",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://getaccept.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://getaccept.com/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://getaccept.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://getaccept.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "pleo.io",
+    "retrievedAt": "2026-08-24T12:17:58.035Z",
+    "tenants": [
+      {
+        "vendor": "ashby",
+        "token": "pleo",
+        "boardUrl": "https://jobs.ashbyhq.com/pleo",
+        "ownership": "owned",
+        "basis": "first_party_link",
+        "evidenceUrl": "https://pleo.io/careers"
+      }
+    ],
+    "vacanciesFound": 35,
+    "vacanciesUsed": 34,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 1,
+    "crmHits": [
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Examples: Zendesk or similar, Salesforce, Gainsight or similar, learning/content platforms, chatbot and AI tools, Looker/Tableau/Power BI, Jira/Asana, and Slack.",
+        "rule": "category_example",
+        "vacancyId": "ashby:pleo:0a30babb-a60b-46f8-8e09-9bf1ecd904bd",
+        "jobTitle": "Strategic Programme Manager - Customer Experience",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/0a30babb-a60b-46f8-8e09-9bf1ecd904bd",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Examples may include Salesforce, Gainsight or similar, Zendesk, learning management and webinar platforms, customer engagement tools, product analytics platforms, Looker, Tableau or Power BI, Jira, Asana, and Slack.",
+        "rule": "category_example",
+        "vacancyId": "ashby:pleo:288ea716-a481-4bb7-9234-43ec0af774b7",
+        "jobTitle": "Manager, Digital Scaled Onboarding",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/288ea716-a481-4bb7-9234-43ec0af774b7",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "crm_mention_only",
+        "quote": "A data-driven approach, comfortable utilising CRM and CS tooling (e.g.Hubspot, Vitally) to drive team performance and forecasting.",
+        "rule": "category_example",
+        "vacancyId": "ashby:pleo:636df222-00f7-445e-80e2-493df986734e",
+        "jobTitle": "Senior Manager, Customer Success",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/636df222-00f7-445e-80e2-493df986734e",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "crm_mention_only",
+        "quote": "You can expect to work with the following tech stack: HubSpot, Gong, LinkedIn Sales Navigator, Claude.",
+        "rule": "bare_mention",
+        "vacancyId": "ashby:pleo:5931594c-d0e3-40c5-85d2-c685f8b22eba",
+        "jobTitle": "Senior Manager, Sales UKI",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/5931594c-d0e3-40c5-85d2-c685f8b22eba",
+        "currentness": "current",
+        "proves": "this CRM is named somewhere in the advert",
+        "doesNotProve": "that the company uses it operationally"
+      }
+    ],
+    "operationalHits": [
+      {
+        "vacancyId": "ashby:pleo:b4e92b9e-3c46-44f8-ad28-8e430e254a44",
+        "jobTitle": "RevOps Performance Analyst",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/b4e92b9e-3c46-44f8-ad28-8e430e254a44",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "About the role We're looking for a RevOps Performance Analyst to join our Revenue Operations team at Pleo.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "ashby:pleo:b4e92b9e-3c46-44f8-ad28-8e430e254a44",
+        "jobTitle": "RevOps Performance Analyst",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/b4e92b9e-3c46-44f8-ad28-8e430e254a44",
+        "currentness": "current",
+        "fact": "lead_routing",
+        "quote": "Analyse the impact of key variables in the sales process—such as discounting behaviours, lead routing efficiency, and promotion effectiveness—to drive operational excellence.",
+        "rule": "pattern:lead_routing",
+        "proves": "the company operates a defined lead-routing process",
+        "doesNotProve": "lead volume, or that partners are part of that routing"
+      },
+      {
+        "vacancyId": "ashby:pleo:f7088170-f17d-4eb1-b6e8-cb947d2bb769",
+        "jobTitle": "Staff Analytics Engineer",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/f7088170-f17d-4eb1-b6e8-cb947d2bb769",
+        "currentness": "current",
+        "fact": "system_ownership",
+        "quote": "Run your own workflow on AI coding tooling to the point where you can say clearly what the function should adopt, what it should not, and why.",
+        "rule": "pattern:system_ownership",
+        "proves": "a named role owns the company’s systems",
+        "doesNotProve": "which systems, unless separately evidenced"
+      },
+      {
+        "vacancyId": "ashby:pleo:0a30babb-a60b-46f8-8e09-9bf1ecd904bd",
+        "jobTitle": "Strategic Programme Manager - Customer Experience",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/0a30babb-a60b-46f8-8e09-9bf1ecd904bd",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "Who you’ll be working with and reporting to You’ll report to the Manager of Customer Success and work closely with teams across Support, Customer Success, Onboarding, Product, Product Operations, Engineering, Marketing, Data, and RevOps .",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "ashby:pleo:7f9bad69-94b8-4aa1-916a-1d810872489f",
+        "jobTitle": "Director, Customer Success ",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/7f9bad69-94b8-4aa1-916a-1d810872489f",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "This is a transformation role In this role, you'll lead multiple teams of Customer Success Managers, develop frontline leaders, and work hands-in-hand with Sales, Product, Support, and RevOps to drive retention, expansion, and long-term customer value.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "ashby:pleo:288ea716-a481-4bb7-9234-43ec0af774b7",
+        "jobTitle": "Manager, Digital Scaled Onboarding",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/288ea716-a481-4bb7-9234-43ec0af774b7",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "Who you’ll be working with and reporting to You’ll report to our Director of Scaled Customer Success and Onboarding and work closely with teams across: Customer Success Customer Support Digital Content and Self-Service Product and Product Operations Sales and Revenue Operations Implementation and Solutions teams Data and Analytics Program Management and Operations You’ll directly lead a team of digital-first Onboarding Managers , setting clear expectations for customer outcomes, digital engagement, productivity, quality, and operational execution.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "ashby:pleo:636df222-00f7-445e-80e2-493df986734e",
+        "jobTitle": "Senior Manager, Customer Success",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/636df222-00f7-445e-80e2-493df986734e",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "You’ll also have the chance to work closely with UKI commercial team, account managers, customer support, onboarding, product and RevOps to ensure customer risk is addressed early and growth opportunities are maximised What You’ll Be Doing As a Senior Manager of Customer Success, you will: Lead and coach a team of 10 CSMs, providing active coaching, career development, and daily operational guidance to ensure consistent, high-quality performance.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "ashby:pleo:b1ee3659-469e-48cc-b0b6-ce10edcbcc48",
+        "jobTitle": "Account Manager - UK&I",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/b1ee3659-469e-48cc-b0b6-ce10edcbcc48",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "Use MEDDICC (or similar) to rigorously qualify upsell and cross-sell opportunities to ensure forecast accuracy and deal velocity.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "ashby:pleo:f5e2905c-9fd4-406e-8edf-6980d5387a55",
+        "jobTitle": "Manager, Sales UKI (Emerging Market-SMB) ",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/f5e2905c-9fd4-406e-8edf-6980d5387a55",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "In this role, you’ll help drive revenue expansion in the UKI B2B market and be part of our team as we scale Who you’ll be working with and reporting to You’ll report to our Senior Manager of Sales and work closely with teams in Marketing, Revenue Operations, and Customer Success.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "ashby:pleo:40a8a279-8680-4169-a17c-51cc30d4c840",
+        "jobTitle": "Manager, Sales (Emerging: ES, NL, Nordics) ",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/40a8a279-8680-4169-a17c-51cc30d4c840",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "Who you’ll be working with and reporting to You’ll report to our Senior Manager of Sales and work closely with teams in Marketing, Revenue Operations, and Customer Success.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "ashby:pleo:5931594c-d0e3-40c5-85d2-c685f8b22eba",
+        "jobTitle": "Senior Manager, Sales UKI",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/5931594c-d0e3-40c5-85d2-c685f8b22eba",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "Who you’ll be working with and reporting to You’ll report to our Director of Sales and work closely with teams in Sales Development, Revenue Operations, Customer Success, Marketing and Product.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "ashby:pleo:acb84882-ff87-4c1e-8707-07c589742243",
+        "jobTitle": "Senior Enterprise Customer Success Manager",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/acb84882-ff87-4c1e-8707-07c589742243",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "Who you’ll be working with and reporting to You’ll report to our Manager of Customer Success, Large & High-Growth Customers and work closely with teams across: Customer Support Customer Onboarding Sales and Account Management Product and Product Operations Revenue Operations Finance Data and Analytics Program Management and Operations You’ll work with customer stakeholders across finance, procurement, operations, technology, transformation, and executive leadership.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "ashby:pleo:2cd2285d-487f-44dc-9da8-7bdbebd51fef",
+        "jobTitle": "Staff Analytics Engineer",
+        "jobUrl": "https://jobs.ashbyhq.com/pleo/2cd2285d-487f-44dc-9da8-7bdbebd51fef",
+        "currentness": "current",
+        "fact": "system_ownership",
+        "quote": "Run your own workflow on AI coding tooling to the point where you can say clearly what the function should adopt, what it should not, and why.",
+        "rule": "pattern:system_ownership",
+        "proves": "a named role owns the company’s systems",
+        "doesNotProve": "which systems, unless separately evidenced"
+      }
+    ],
+    "health": [
+      {
+        "url": "https://pleo.io/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://pleo.io/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://api.ashbyhq.com/posting-api/job-board/pleo?includeCompensation=false",
+        "health": "success",
+        "status": 200
+      }
+    ],
+    "note": "34 current vacancies read; no defensible CRM evidence found. This is not evidence that the company has no CRM.",
+    "crmSummary": {
+      "verdicts": [
+        {
+          "vendor": "Salesforce",
+          "level": "crm_mention_only",
+          "supportingVacancies": 0,
+          "currentVacancies": 0,
+          "hits": [
+            {
+              "vendor": "Salesforce",
+              "level": "crm_mention_only",
+              "quote": "Examples: Zendesk or similar, Salesforce, Gainsight or similar, learning/content platforms, chatbot and AI tools, Looker/Tableau/Power BI, Jira/Asana, and Slack.",
+              "rule": "category_example",
+              "vacancyId": "ashby:pleo:0a30babb-a60b-46f8-8e09-9bf1ecd904bd",
+              "jobTitle": "Strategic Programme Manager - Customer Experience",
+              "jobUrl": "https://jobs.ashbyhq.com/pleo/0a30babb-a60b-46f8-8e09-9bf1ecd904bd",
+              "currentness": "current",
+              "proves": "this CRM was named as an example of a category",
+              "doesNotProve": "anything at all about which CRM this company uses"
+            },
+            {
+              "vendor": "Salesforce",
+              "level": "crm_mention_only",
+              "quote": "Examples may include Salesforce, Gainsight or similar, Zendesk, learning management and webinar platforms, customer engagement tools, product analytics platforms, Looker, Tableau or Power BI, Jira, Asana, and Slack.",
+              "rule": "category_example",
+              "vacancyId": "ashby:pleo:288ea716-a481-4bb7-9234-43ec0af774b7",
+              "jobTitle": "Manager, Digital Scaled Onboarding",
+              "jobUrl": "https://jobs.ashbyhq.com/pleo/288ea716-a481-4bb7-9234-43ec0af774b7",
+              "currentness": "current",
+              "proves": "this CRM was named as an example of a category",
+              "doesNotProve": "anything at all about which CRM this company uses"
+            }
+          ]
+        },
+        {
+          "vendor": "HubSpot",
+          "level": "crm_mention_only",
+          "supportingVacancies": 0,
+          "currentVacancies": 0,
+          "hits": [
+            {
+              "vendor": "HubSpot",
+              "level": "crm_mention_only",
+              "quote": "A data-driven approach, comfortable utilising CRM and CS tooling (e.g.Hubspot, Vitally) to drive team performance and forecasting.",
+              "rule": "category_example",
+              "vacancyId": "ashby:pleo:636df222-00f7-445e-80e2-493df986734e",
+              "jobTitle": "Senior Manager, Customer Success",
+              "jobUrl": "https://jobs.ashbyhq.com/pleo/636df222-00f7-445e-80e2-493df986734e",
+              "currentness": "current",
+              "proves": "this CRM was named as an example of a category",
+              "doesNotProve": "anything at all about which CRM this company uses"
+            },
+            {
+              "vendor": "HubSpot",
+              "level": "crm_mention_only",
+              "quote": "You can expect to work with the following tech stack: HubSpot, Gong, LinkedIn Sales Navigator, Claude.",
+              "rule": "bare_mention",
+              "vacancyId": "ashby:pleo:5931594c-d0e3-40c5-85d2-c685f8b22eba",
+              "jobTitle": "Senior Manager, Sales UKI",
+              "jobUrl": "https://jobs.ashbyhq.com/pleo/5931594c-d0e3-40c5-85d2-c685f8b22eba",
+              "currentness": "current",
+              "proves": "this CRM is named somewhere in the advert",
+              "doesNotProve": "that the company uses it operationally"
+            }
+          ]
+        }
+      ],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "juro.com",
+    "retrievedAt": "2026-08-24T12:17:58.159Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://juro.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://juro.com/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://juro.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://juro.com/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://juro.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://juro.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "oneflow.com",
+    "retrievedAt": "2026-08-24T12:17:56.957Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://oneflow.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://oneflow.com/careers",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://oneflow.com/career",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://oneflow.com/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://oneflow.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://oneflow.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "productsup.com",
+    "retrievedAt": "2026-08-24T12:18:02.088Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://productsup.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://productsup.com/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://productsup.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://productsup.com/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://productsup.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://productsup.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "channable.com",
+    "retrievedAt": "2026-08-24T12:18:02.242Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://channable.com/",
+        "health": "blocked",
+        "status": 429
+      },
+      {
+        "url": "https://channable.com/careers",
+        "health": "blocked",
+        "status": 429
+      },
+      {
+        "url": "https://channable.com/career",
+        "health": "blocked",
+        "status": 429
+      },
+      {
+        "url": "https://channable.com/jobs",
+        "health": "blocked",
+        "status": 429
+      },
+      {
+        "url": "https://channable.com/join-us",
+        "health": "blocked",
+        "status": 429
+      },
+      {
+        "url": "https://channable.com/work-with-us",
+        "health": "blocked",
+        "status": 429
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "spendesk.com",
+    "retrievedAt": "2026-08-24T12:17:57.992Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://spendesk.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://spendesk.com/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://spendesk.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://spendesk.com/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://spendesk.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://spendesk.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "lano.io",
+    "retrievedAt": "2026-08-24T12:18:03.019Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://lano.io/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://lano.io/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://lano.io/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://lano.io/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://lano.io/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://lano.io/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "twikey.com",
+    "retrievedAt": "2026-08-24T12:18:03.078Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://twikey.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://twikey.com/careers",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://twikey.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://twikey.com/jobs",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://twikey.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://twikey.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "upsales.com",
+    "retrievedAt": "2026-08-24T12:18:03.084Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://upsales.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://upsales.com/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://upsales.com/career",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://upsales.com/jobs",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://upsales.com/join-us",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://upsales.com/work-with-us",
+        "health": "success",
+        "status": 200
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "apaleo.com",
+    "retrievedAt": "2026-08-24T12:18:03.089Z",
+    "tenants": [
+      {
+        "vendor": "greenhouse",
+        "token": "apaleo",
+        "boardUrl": "https://boards.greenhouse.io/apaleo",
+        "ownership": "owned",
+        "basis": "first_party_link",
+        "evidenceUrl": "https://apaleo.com/careers"
+      }
+    ],
+    "vacanciesFound": 7,
+    "vacanciesUsed": 7,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [
+      {
+        "vacancyId": "greenhouse:apaleo:7892433003",
+        "jobTitle": "Deal Desk Manager (f/m/d)",
+        "jobUrl": "https://job-boards.greenhouse.io/apaleo/jobs/7892433003",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "What you bring Multiple years experience in deal desk, revenue operations, business operations or commercial finance Strong analytics.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "greenhouse:apaleo:7858178003",
+        "jobTitle": "GTM Operations Specialist (f/m/d",
+        "jobUrl": "https://job-boards.greenhouse.io/apaleo/jobs/7858178003",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "About the role Revenue Operations keeps Apaleo's GTM engine running, and running toward one thing: revenue growth.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      }
+    ],
+    "health": [
+      {
+        "url": "https://apaleo.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://apaleo.com/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://boards-api.greenhouse.io/v1/boards/apaleo/jobs?content=true",
+        "health": "success",
+        "status": 200
+      }
+    ],
+    "note": "7 current vacancies read; no defensible CRM evidence found. This is not evidence that the company has no CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "foleon.com",
+    "retrievedAt": "2026-08-24T12:18:03.144Z",
+    "tenants": [
+      {
+        "vendor": "recruitee",
+        "token": "foleon",
+        "boardUrl": "https://foleon.recruitee.com",
+        "ownership": "owned",
+        "basis": "first_party_link",
+        "evidenceUrl": "https://foleon.com/"
+      }
+    ],
+    "vacanciesFound": 1,
+    "vacanciesUsed": 1,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://foleon.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://foleon.recruitee.com/api/offers/",
+        "health": "success",
+        "status": 200
+      }
+    ],
+    "note": "1 current vacancy read; no defensible CRM evidence found. This is not evidence that the company has no CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "payfit.com",
+    "retrievedAt": "2026-08-24T12:18:03.155Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://payfit.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://payfit.com/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://payfit.com/career",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://payfit.com/jobs",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://payfit.com/join-us",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://payfit.com/work-with-us",
+        "health": "success",
+        "status": 200
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "deloitte.com",
+    "retrievedAt": "2026-08-24T12:18:03.282Z",
+    "tenants": [
+      {
+        "vendor": "lever",
+        "token": "deloitte",
+        "boardUrl": "https://jobs.lever.co/deloitte",
+        "ownership": "owned",
+        "basis": "first_party_link",
+        "evidenceUrl": "https://deloitte.com/jobs"
+      },
+      {
+        "vendor": "smartrecruiters",
+        "token": "Deloitte6",
+        "boardUrl": "https://careers.smartrecruiters.com/Deloitte6",
+        "ownership": "owned",
+        "basis": "first_party_link",
+        "evidenceUrl": "https://deloitte.com/jobs"
+      }
+    ],
+    "vacanciesFound": 40,
+    "vacanciesUsed": 40,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://deloitte.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://deloitte.com/careers",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://deloitte.com/career",
+        "health": "no_relevant_evidence",
+        "status": 0
+      },
+      {
+        "url": "https://deloitte.com/jobs",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://api.lever.co/v0/postings/deloitte?mode=json",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://api.smartrecruiters.com/v1/companies/Deloitte6/postings?limit=100",
+        "health": "success",
+        "status": 200
+      }
+    ],
+    "note": "40 current vacancies read; no defensible CRM evidence found. This is not evidence that the company has no CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "doordash.com",
+    "retrievedAt": "2026-08-24T12:18:03.319Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://doordash.com/",
+        "health": "blocked",
+        "status": 403
+      },
+      {
+        "url": "https://doordash.com/careers",
+        "health": "blocked",
+        "status": 403
+      },
+      {
+        "url": "https://doordash.com/career",
+        "health": "blocked",
+        "status": 403
+      },
+      {
+        "url": "https://doordash.com/jobs",
+        "health": "blocked",
+        "status": 403
+      },
+      {
+        "url": "https://doordash.com/join-us",
+        "health": "blocked",
+        "status": 403
+      },
+      {
+        "url": "https://doordash.com/work-with-us",
+        "health": "blocked",
+        "status": 403
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "glovoapp.com",
+    "retrievedAt": "2026-08-24T12:18:03.322Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://glovoapp.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://glovoapp.com/careers",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://glovoapp.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://glovoapp.com/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://glovoapp.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://glovoapp.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "datadoghq.com",
+    "retrievedAt": "2026-08-24T12:18:03.341Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://datadoghq.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://datadoghq.com/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://datadoghq.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://datadoghq.com/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://datadoghq.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://datadoghq.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "vinted.com",
+    "retrievedAt": "2026-08-24T12:18:03.372Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://vinted.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://vinted.com/careers",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://vinted.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://vinted.com/jobs",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://vinted.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://vinted.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "factorialhr.com",
+    "retrievedAt": "2026-08-24T12:17:56.579Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://factorialhr.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://factorialhr.com/careers",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://factorialhr.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://factorialhr.com/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://factorialhr.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://factorialhr.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "younium.com",
+    "retrievedAt": "2026-08-24T12:18:02.250Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://younium.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://younium.com/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://younium.com/career",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://younium.com/jobs",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://younium.com/join-us",
+        "health": "not_found",
+        "status": 404
+      },
+      {
+        "url": "https://younium.com/work-with-us",
+        "health": "not_found",
+        "status": 404
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  },
+  {
+    "domain": "leapsome.com",
+    "retrievedAt": "2026-08-24T12:17:58.182Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://leapsome.com/",
+        "health": "blocked",
+        "status": 0
+      },
+      {
+        "url": "https://leapsome.com/careers",
+        "health": "blocked",
+        "status": 0
+      },
+      {
+        "url": "https://leapsome.com/career",
+        "health": "blocked",
+        "status": 0
+      },
+      {
+        "url": "https://leapsome.com/jobs",
+        "health": "blocked",
+        "status": 0
+      },
+      {
+        "url": "https://leapsome.com/join-us",
+        "health": "blocked",
+        "status": 0
+      },
+      {
+        "url": "https://leapsome.com/work-with-us",
+        "health": "blocked",
+        "status": 0
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM.",
+    "crmSummary": {
+      "verdicts": [],
+      "conflict": null
+    }
+  }
+]

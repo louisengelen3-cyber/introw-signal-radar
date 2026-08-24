@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.foleon.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:28:39.083Z",
+  "builtAt": "2026-08-24T12:33:50.669Z",
   "oldestEvidenceAt": "2026-08-24T07:35:31.379Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -157,6 +157,39 @@
       "evidence": []
     }
   ],
+  "jobEvidence": {
+    "domain": "foleon.com",
+    "retrievedAt": "2026-08-24T12:33:52.071Z",
+    "tenants": [
+      {
+        "vendor": "recruitee",
+        "token": "foleon",
+        "boardUrl": "https://foleon.recruitee.com",
+        "ownership": "owned",
+        "basis": "first_party_link",
+        "evidenceUrl": "https://foleon.com/"
+      }
+    ],
+    "vacanciesFound": 1,
+    "vacanciesUsed": 1,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://foleon.com/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://foleon.recruitee.com/api/offers/",
+        "health": "success",
+        "status": 200
+      }
+    ],
+    "note": "1 current vacancy read; no defensible CRM evidence found. This is not evidence that the company has no CRM."
+  },
   "partnerDirectory": {
     "isDirectory": true,
     "lowerBound": 82,
@@ -179,7 +212,7 @@
       "quote": "Our Partners – Foleon --> Foleon certified partners Creative organizations that excel in producing first-class interactive content All locations All languages All service types All use cases Tag Agency Each agency in the tag network is uniquely positioned and",
       "sourceUrl": "https://www.foleon.com/partners",
       "sourceType": "partner_directory",
-      "retrievedAt": "2026-08-24T11:28:39.083Z",
+      "retrievedAt": "2026-08-24T12:33:50.669Z",
       "strength": "confirmed",
       "proves": "the company publicly lists at least 82 partner organisations",
       "doesNotProve": "the true number of partners, that they transact, or that the list is current — a directory is a lower bound and usually a filtered view"
@@ -188,19 +221,68 @@
   "systems": {
     "crm": {
       "state": "hubspot_confirmed",
+      "bundle": {
+        "vendors": [
+          {
+            "vendor": "HubSpot",
+            "level": "crm_confirmed",
+            "sources": [
+              {
+                "kind": "website_fingerprint",
+                "level": "crm_confirmed",
+                "quote": "js.hsforms.net",
+                "sourceUrl": "https://foleon.com/",
+                "detail": "Website artifact",
+                "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
+                "doesNotProve": "that opportunities and partner deals are managed there",
+                "observedAt": "2026-08-24T12:33:50.669Z"
+              }
+            ],
+            "jobVacancies": 0,
+            "hasFingerprint": true,
+            "lastObservedAt": "2026-08-24T12:33:50.669Z"
+          }
+        ],
+        "primary": {
+          "vendor": "HubSpot",
+          "level": "crm_confirmed",
+          "sources": [
+            {
+              "kind": "website_fingerprint",
+              "level": "crm_confirmed",
+              "quote": "js.hsforms.net",
+              "sourceUrl": "https://foleon.com/",
+              "detail": "Website artifact",
+              "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
+              "doesNotProve": "that opportunities and partner deals are managed there",
+              "observedAt": "2026-08-24T12:33:50.669Z"
+            }
+          ],
+          "jobVacancies": 0,
+          "hasFingerprint": true,
+          "lastObservedAt": "2026-08-24T12:33:50.669Z"
+        },
+        "conflict": null,
+        "sourcesChecked": {
+          "website": true,
+          "jobs": true,
+          "vacanciesRead": 1
+        },
+        "note": "HubSpot at confirmed, from 1 source. Evidence of use is not evidence that this is the partner team’s system of record."
+      },
       "evidence": [
         {
           "id": "o133",
           "quote": "js.hsforms.net",
           "sourceUrl": "https://foleon.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T11:28:39.083Z",
+          "retrievedAt": "2026-08-24T12:33:50.669Z",
           "strength": "confirmed",
           "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
           "doesNotProve": "that opportunities and partner deals are managed there"
         }
       ],
-      "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
+      "note": "HubSpot at confirmed, from 1 source. Evidence of use is not evidence that this is the partner team’s system of record."
     },
     "prm": {
       "state": "unknown",
@@ -216,8 +298,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:28:39.083Z",
-    "lastCheckedAt": "2026-08-24T11:28:39.083Z",
+    "baselineAt": "2026-08-24T12:33:50.669Z",
+    "lastCheckedAt": "2026-08-24T12:33:50.669Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

@@ -6,7 +6,7 @@
     "sourceUrl": "https://aircall.io"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:28:45.837Z",
+  "builtAt": "2026-08-24T12:33:58.999Z",
   "oldestEvidenceAt": "2026-08-23T07:45:56.222Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -42,11 +42,11 @@
       "state": "strong_proxy",
       "evidence": [
         {
-          "id": "o197",
+          "id": "o202",
           "quote": "and Demo Environment so you can be fully armed when you resell our industry-leading communications platform. and more...",
           "sourceUrl": "https://aircall.io/partners/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:45.837Z",
+          "retrievedAt": "2026-08-24T12:33:58.999Z",
           "strength": "strong_proxy",
           "proves": "the company describes partners selling or reselling its product",
           "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -54,11 +54,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o198",
+          "id": "o203",
           "quote": "04 Reach new customers and scale. Featured on our App Marketplace and surfaced inside the",
           "sourceUrl": "https://aircall.io/en-au/partners/technology/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:45.837Z",
+          "retrievedAt": "2026-08-24T12:33:58.999Z",
           "strength": "strong_proxy",
           "proves": "the company describes partners reaching customers it would not reach directly",
           "doesNotProve": "that the reach is exclusive, managed, or measured",
@@ -84,11 +84,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o199",
+          "id": "o204",
           "quote": "Why join the Partner Collective? You’ll become part of a collaborative partner community",
           "sourceUrl": "https://aircall.io/partners/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:45.837Z",
+          "retrievedAt": "2026-08-24T12:33:58.999Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -96,11 +96,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o200",
+          "id": "o205",
           "quote": "Collective is our way of investing back into our core channel partners like you.",
           "sourceUrl": "https://aircall.io/partners/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:45.837Z",
+          "retrievedAt": "2026-08-24T12:33:58.999Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -126,11 +126,11 @@
       "state": "moderate",
       "evidence": [
         {
-          "id": "o201",
+          "id": "o206",
           "quote": "to partner? We are. Join the Partner Collective Log in to Partner",
           "sourceUrl": "https://aircall.io/partners/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:45.837Z",
+          "retrievedAt": "2026-08-24T12:33:58.999Z",
           "strength": "strong_proxy",
           "proves": "a partner-specific operational surface exists",
           "doesNotProve": "adoption, or that partners log into it",
@@ -138,11 +138,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o202",
+          "id": "o207",
           "quote": "Retail and E-commerce Travel and Hospitality All Partners Gold Partner Fileroom Fileroom is a full-stack growth agency and HubSpot",
           "sourceUrl": "https://aircall.io/en-au/partner-services/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:45.837Z",
+          "retrievedAt": "2026-08-24T12:33:58.999Z",
           "strength": "strong_proxy",
           "proves": "the company differentiates partners by commitment or performance",
           "doesNotProve": "how many partners sit in each tier",
@@ -150,11 +150,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o203",
+          "id": "o208",
           "quote": "Commission Earn more as you progress! Your share of revenue increases as you",
           "sourceUrl": "https://aircall.io/partners/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:45.837Z",
+          "retrievedAt": "2026-08-24T12:33:58.999Z",
           "strength": "strong_proxy",
           "proves": "the company pays partners for commercial outcomes",
           "doesNotProve": "the size of the payments or how they are calculated",
@@ -182,11 +182,11 @@
       "publishedName": null,
       "evidence": [
         {
-          "id": "o204",
+          "id": "o209",
           "quote": "French German Spanish Dutch Portuguese Romanian Hindi Chinese Certifications Aircall Administrator Aircall Agents Aircall AI Aircall Solutions Partner Aircall Workspace Aircall x HubSpot Integration Aircall x Salesforce Integration Analytics Building Services around Aircall Live",
           "sourceUrl": "https://aircall.io/en-au/partner-services/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:45.837Z",
+          "retrievedAt": "2026-08-24T12:33:58.999Z",
           "strength": "strong_proxy",
           "proves": "the company uses services partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -201,11 +201,11 @@
       "publishedName": null,
       "evidence": [
         {
-          "id": "o205",
+          "id": "o210",
           "quote": "Configuration Aircall Dashboard Aircall Phone App Aircall Integrations Pricing and Packaging Services Monitor and Review Aircall + Zendesk Integration Partner Foundations Porting Essentials Aircall Services Onboarding - Configuration and Training Advanced Aircall Solutions Ecosystem Solutions",
           "sourceUrl": "https://aircall.io/en-au/partner-services/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:45.837Z",
+          "retrievedAt": "2026-08-24T12:33:58.999Z",
           "strength": "strong_proxy",
           "proves": "the company uses integration partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -222,11 +222,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o206",
+          "id": "o211",
           "quote": "HubSpot Want to become a partner? Join the Collective Ready to build better conversations?",
           "sourceUrl": "https://aircall.io/en-au/partner-services/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:45.837Z",
+          "retrievedAt": "2026-08-24T12:33:58.999Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -280,11 +280,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o207",
+          "id": "o212",
           "quote": "eriences to be the best they can possibly be. Ready to partner? We are. Join the Partner Collective Log in to Partner Portal",
           "sourceUrl": "https://aircall.io/partners/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:45.837Z",
+          "retrievedAt": "2026-08-24T12:33:58.999Z",
           "strength": "strong_proxy",
           "proves": "partners have an authenticated destination",
           "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -303,11 +303,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o208",
+          "id": "o213",
           "quote": "and Services Marketing and Advertising Other Retail and E-commerce Travel and Hospitality All Partners Gold Partner Fileroom Fileroom is a full-stack growth agency and HubSpot Platinum Partner.",
           "sourceUrl": "https://aircall.io/en-au/partner-services/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:28:45.837Z",
+          "retrievedAt": "2026-08-24T12:33:58.999Z",
           "strength": "strong_proxy",
           "proves": "the programme distinguishes partners by level",
           "doesNotProve": "how many sit in each tier",
@@ -322,6 +322,259 @@
       "evidence": []
     }
   ],
+  "jobEvidence": {
+    "domain": "aircall.io",
+    "retrievedAt": "2026-08-24T12:34:00.474Z",
+    "tenants": [
+      {
+        "vendor": "greenhouse",
+        "token": "aircallioinc",
+        "boardUrl": "https://boards.greenhouse.io/aircallioinc",
+        "ownership": "owned",
+        "basis": "first_party_link",
+        "evidenceUrl": "https://aircall.io/careers"
+      }
+    ],
+    "vacanciesFound": 40,
+    "vacanciesUsed": 40,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [
+      {
+        "vendor": "Salesforce",
+        "level": "crm_confirmed",
+        "quote": "Keeping your pipeline and activities up to date in Salesforce (full training provided).",
+        "rule": "operational_duty",
+        "vacancyId": "greenhouse:aircallioinc:4368184009",
+        "jobTitle": "Business Development Representative (BDR), DACH Market",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4368184009",
+        "currentness": "current",
+        "proves": "the role’s published duties involve working in this CRM at this company",
+        "doesNotProve": "that it is the company’s primary CRM, or that other systems are absent"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Experience with Salesforce and revenue engagement tools such as Gong, Outreach, Salesloft A knowledge of sales methodologies such as SPICED / MEDDIC is a plus A proactive , driven seller able to identify and communicate business pains and outcomes, drive urgency and take end to end ownership for quota attainment Successful track record of closing net new business and generating your own pipeline Demonstrable organisational and time management skills Competitive and driven to achieve goals , build new skills and bring new ideas on how to do things faster and better!",
+        "rule": "category_example",
+        "vacancyId": "greenhouse:aircallioinc:4377530009",
+        "jobTitle": "Confirmed Strategic Account Executive",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4377530009",
+        "currentness": "current",
+        "proves": "this CRM was named as an example of a category",
+        "doesNotProve": "anything at all about which CRM this company uses"
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "crm_mention_only",
+        "quote": "ABOUT THE ROLE: Aircall is seeking a Director of Channel Partnerships, Americas to define and lead the regional channel strategy, with a dual mandate: deepening our presence within the CRM Solutions Partner landscape (e.g., Salesforce, HubSpot, and similar platforms) while spearheading a diversification strategy to expand into new partner types beyond our current ecosystem.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4313880009",
+        "jobTitle": "Director, Channel Partnerships",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313880009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "ABOUT THE ROLE: Aircall is seeking a Director of Channel Partnerships, Americas to define and lead the regional channel strategy, with a dual mandate: deepening our presence within the CRM Solutions Partner landscape (e.g., Salesforce, HubSpot, and similar platforms) while spearheading a diversification strategy to expand into new partner types beyond our current ecosystem.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4313880009",
+        "jobTitle": "Director, Channel Partnerships",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313880009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_confirmed",
+        "quote": "comfortable partnering with Data and Systems teams on architecture, reporting, and a trustworthy single source of truth (Salesforce and the broader GTM stack).",
+        "rule": "company_possession",
+        "vacancyId": "greenhouse:aircallioinc:4313882009",
+        "jobTitle": "Director, Revenue Operations",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313882009",
+        "currentness": "current",
+        "proves": "the company refers to a CRM instance of its own",
+        "doesNotProve": "that it is the only CRM, or that it is the partner team’s system of record"
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "crm_mention_only",
+        "quote": "Design, build, and deploy integrations using low/no-code platforms (Zapier, Make, n8n, Workato) and CRM automation tools (HubSpot Workflows, Salesforce Flow) with API connectors.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4315316009",
+        "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4315316009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Design, build, and deploy integrations using low/no-code platforms (Zapier, Make, n8n, Workato) and CRM automation tools (HubSpot Workflows, Salesforce Flow) with API connectors.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4315316009",
+        "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4315316009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "crm_mention_only",
+        "quote": "Design, build, and deploy integrations using low/no-code platforms (Zapier, Make, n8n, Workato) and CRM automation tools (HubSpot Workflows, Salesforce Flow) with API connectors.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4308436009",
+        "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4308436009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Design, build, and deploy integrations using low/no-code platforms (Zapier, Make, n8n, Workato) and CRM automation tools (HubSpot Workflows, Salesforce Flow) with API connectors.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4308436009",
+        "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4308436009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Manage and track performance of Nordic Channel partners Data Management : Help ensure the accuracy and proper maintenance of Salesforce fields for our key partners.",
+        "rule": "bare_mention",
+        "vacancyId": "greenhouse:aircallioinc:4356133009",
+        "jobTitle": "Partnership Intern - UKI & Nordics",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4356133009",
+        "currentness": "current",
+        "proves": "this CRM is named somewhere in the advert",
+        "doesNotProve": "that the company uses it operationally"
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "crm_mention_only",
+        "quote": "Monitor, analyze, and optimize campaign performance using data from tools like Looker, Google Analytics, HubSpot, and Salesforce.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4318236009",
+        "jobTitle": "Performance Marketing Manager",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4318236009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Monitor, analyze, and optimize campaign performance using data from tools like Looker, Google Analytics, HubSpot, and Salesforce.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4318236009",
+        "jobTitle": "Performance Marketing Manager",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4318236009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "crm_mention_only",
+        "quote": "Proficiency in HubSpot, Salesforce, Looker, or similar tools.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4307408009",
+        "jobTitle": "Regional Marketing Manager, Iberia & Italy Markets",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4307408009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Proficiency in HubSpot, Salesforce, Looker, or similar tools.",
+        "rule": "names_multiple_systems",
+        "vacancyId": "greenhouse:aircallioinc:4307408009",
+        "jobTitle": "Regional Marketing Manager, Iberia & Italy Markets",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4307408009",
+        "currentness": "current",
+        "proves": "the advert names more than one CRM in the same sentence",
+        "doesNotProve": "which of the named systems, if any, this company actually uses"
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "crm_mention_only",
+        "quote": "Reconcile inputs across Salesforce, Looker, BambooHR, and CaptivateIQ so every payout is accurate, traceable, and audit-ready.",
+        "rule": "bare_mention",
+        "vacancyId": "greenhouse:aircallioinc:4307087009",
+        "jobTitle": "Revenue Operations Manager, Planning & Commissions",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4307087009",
+        "currentness": "current",
+        "proves": "this CRM is named somewhere in the advert",
+        "doesNotProve": "that the company uses it operationally"
+      }
+    ],
+    "operationalHits": [
+      {
+        "vacancyId": "greenhouse:aircallioinc:4314137009",
+        "jobTitle": "Account Manager",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4314137009",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "Analytical, detail-oriented, and accountable for forecast accuracy and pipeline hygiene.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "greenhouse:aircallioinc:4313799009",
+        "jobTitle": "Data Scientist, Visualization",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313799009",
+        "currentness": "current",
+        "fact": "revops_process",
+        "quote": "Aircall's go-to-market teams (Sales, Marketing, Customer Success, Customer Support, and RevOps) rely on dashboards and data products every day.",
+        "rule": "pattern:revops_process",
+        "proves": "the company runs a revenue-operations function",
+        "doesNotProve": "anything about partner operations specifically"
+      },
+      {
+        "vacancyId": "greenhouse:aircallioinc:4313880009",
+        "jobTitle": "Director, Channel Partnerships",
+        "jobUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313880009",
+        "currentness": "current",
+        "fact": "channel_operations",
+        "quote": "…l is seeking a Director of Channel Partnerships, Americas to define and lead the regional channel strategy, with a dual mandate: deepening our presence within the CRM Solutions Partner landscape (…",
+        "rule": "pattern:channel_operations",
+        "proves": "the company describes a channel function",
+        "doesNotProve": "the size or maturity of that channel"
+      }
+    ],
+    "health": [
+      {
+        "url": "https://aircall.io/",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://aircall.io/careers",
+        "health": "success",
+        "status": 200
+      },
+      {
+        "url": "https://boards-api.greenhouse.io/v1/boards/aircallioinc/jobs?content=true",
+        "health": "success",
+        "status": 200
+      }
+    ],
+    "note": "40 current vacancies read; Salesforce evidence at confirmed."
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -335,19 +588,167 @@
   "systems": {
     "crm": {
       "state": "hubspot_confirmed",
+      "bundle": {
+        "vendors": [
+          {
+            "vendor": "HubSpot",
+            "level": "crm_confirmed",
+            "sources": [
+              {
+                "kind": "website_fingerprint",
+                "level": "crm_confirmed",
+                "quote": "js.hs-scripts.com/48407761.js",
+                "sourceUrl": "https://aircall.io/",
+                "detail": "Website artifact",
+                "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
+                "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all",
+                "observedAt": "2026-08-24T12:33:58.999Z"
+              },
+              {
+                "kind": "job_description",
+                "level": "crm_mention_only",
+                "quote": "ABOUT THE ROLE: Aircall is seeking a Director of Channel Partnerships, Americas to define and lead the regional channel strategy, with a dual mandate: deepening our presence within the CRM Solutions Partner landscape (e.g., Salesforce, HubSpot, and similar platforms) while spearheading a diversification strategy to expand into new partner types beyond our current ecosystem.",
+                "sourceUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313880009",
+                "detail": "Director, Channel Partnerships · current",
+                "proves": "the advert names more than one CRM in the same sentence",
+                "doesNotProve": "which of the named systems, if any, this company actually uses",
+                "observedAt": ""
+              },
+              {
+                "kind": "job_description",
+                "level": "crm_mention_only",
+                "quote": "Design, build, and deploy integrations using low/no-code platforms (Zapier, Make, n8n, Workato) and CRM automation tools (HubSpot Workflows, Salesforce Flow) with API connectors.",
+                "sourceUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4315316009",
+                "detail": "Forward Deployed Engineer - AI Solutions Engineering · current",
+                "proves": "the advert names more than one CRM in the same sentence",
+                "doesNotProve": "which of the named systems, if any, this company actually uses",
+                "observedAt": ""
+              },
+              {
+                "kind": "job_description",
+                "level": "crm_mention_only",
+                "quote": "Design, build, and deploy integrations using low/no-code platforms (Zapier, Make, n8n, Workato) and CRM automation tools (HubSpot Workflows, Salesforce Flow) with API connectors.",
+                "sourceUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4308436009",
+                "detail": "Forward Deployed Engineer - AI Solutions Engineering · current",
+                "proves": "the advert names more than one CRM in the same sentence",
+                "doesNotProve": "which of the named systems, if any, this company actually uses",
+                "observedAt": ""
+              }
+            ],
+            "jobVacancies": 0,
+            "hasFingerprint": true,
+            "lastObservedAt": "2026-08-24T12:33:58.999Z"
+          },
+          {
+            "vendor": "Salesforce",
+            "level": "crm_confirmed",
+            "sources": [
+              {
+                "kind": "job_description",
+                "level": "crm_confirmed",
+                "quote": "Keeping your pipeline and activities up to date in Salesforce (full training provided).",
+                "sourceUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4368184009",
+                "detail": "Business Development Representative (BDR), DACH Market · current",
+                "proves": "the role’s published duties involve working in this CRM at this company",
+                "doesNotProve": "that it is the company’s primary CRM, or that other systems are absent",
+                "observedAt": ""
+              },
+              {
+                "kind": "job_description",
+                "level": "crm_confirmed",
+                "quote": "comfortable partnering with Data and Systems teams on architecture, reporting, and a trustworthy single source of truth (Salesforce and the broader GTM stack).",
+                "sourceUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313882009",
+                "detail": "Director, Revenue Operations · current",
+                "proves": "the company refers to a CRM instance of its own",
+                "doesNotProve": "that it is the only CRM, or that it is the partner team’s system of record",
+                "observedAt": ""
+              },
+              {
+                "kind": "job_description",
+                "level": "crm_mention_only",
+                "quote": "Experience with Salesforce and revenue engagement tools such as Gong, Outreach, Salesloft A knowledge of sales methodologies such as SPICED / MEDDIC is a plus A proactive , driven seller able to identify and communicate business pains and outcomes, drive urgency and take end to end ownership for quota attainment Successful track record of closing net new business and generating your own pipeline Demonstrable organisational and time management skills Competitive and driven to achieve goals , build new skills and bring new ideas on how to do things faster and better!",
+                "sourceUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4377530009",
+                "detail": "Confirmed Strategic Account Executive · current",
+                "proves": "this CRM was named as an example of a category",
+                "doesNotProve": "anything at all about which CRM this company uses",
+                "observedAt": ""
+              }
+            ],
+            "jobVacancies": 2,
+            "hasFingerprint": false,
+            "lastObservedAt": null
+          }
+        ],
+        "primary": {
+          "vendor": "HubSpot",
+          "level": "crm_confirmed",
+          "sources": [
+            {
+              "kind": "website_fingerprint",
+              "level": "crm_confirmed",
+              "quote": "js.hs-scripts.com/48407761.js",
+              "sourceUrl": "https://aircall.io/",
+              "detail": "Website artifact",
+              "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
+              "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all",
+              "observedAt": "2026-08-24T12:33:58.999Z"
+            },
+            {
+              "kind": "job_description",
+              "level": "crm_mention_only",
+              "quote": "ABOUT THE ROLE: Aircall is seeking a Director of Channel Partnerships, Americas to define and lead the regional channel strategy, with a dual mandate: deepening our presence within the CRM Solutions Partner landscape (e.g., Salesforce, HubSpot, and similar platforms) while spearheading a diversification strategy to expand into new partner types beyond our current ecosystem.",
+              "sourceUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4313880009",
+              "detail": "Director, Channel Partnerships · current",
+              "proves": "the advert names more than one CRM in the same sentence",
+              "doesNotProve": "which of the named systems, if any, this company actually uses",
+              "observedAt": ""
+            },
+            {
+              "kind": "job_description",
+              "level": "crm_mention_only",
+              "quote": "Design, build, and deploy integrations using low/no-code platforms (Zapier, Make, n8n, Workato) and CRM automation tools (HubSpot Workflows, Salesforce Flow) with API connectors.",
+              "sourceUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4315316009",
+              "detail": "Forward Deployed Engineer - AI Solutions Engineering · current",
+              "proves": "the advert names more than one CRM in the same sentence",
+              "doesNotProve": "which of the named systems, if any, this company actually uses",
+              "observedAt": ""
+            },
+            {
+              "kind": "job_description",
+              "level": "crm_mention_only",
+              "quote": "Design, build, and deploy integrations using low/no-code platforms (Zapier, Make, n8n, Workato) and CRM automation tools (HubSpot Workflows, Salesforce Flow) with API connectors.",
+              "sourceUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4308436009",
+              "detail": "Forward Deployed Engineer - AI Solutions Engineering · current",
+              "proves": "the advert names more than one CRM in the same sentence",
+              "doesNotProve": "which of the named systems, if any, this company actually uses",
+              "observedAt": ""
+            }
+          ],
+          "jobVacancies": 0,
+          "hasFingerprint": true,
+          "lastObservedAt": "2026-08-24T12:33:58.999Z"
+        },
+        "conflict": "multiple_systems_observed",
+        "sourcesChecked": {
+          "website": true,
+          "jobs": true,
+          "vacanciesRead": 40
+        },
+        "note": "More than one CRM is independently evidenced. A company may legitimately run several, so neither observation is discarded — this is routed to review rather than resolved."
+      },
       "evidence": [
         {
-          "id": "o209",
+          "id": "o214",
           "quote": "js.hs-scripts.com/48407761.js",
           "sourceUrl": "https://aircall.io/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T11:28:45.837Z",
+          "retrievedAt": "2026-08-24T12:33:58.999Z",
           "strength": "confirmed",
           "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
           "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
         }
       ],
-      "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
+      "note": "More than one CRM is independently evidenced. A company may legitimately run several, so neither observation is discarded — this is routed to review rather than resolved."
     },
     "prm": {
       "state": "unknown",
@@ -363,8 +764,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:28:45.837Z",
-    "lastCheckedAt": "2026-08-24T11:28:45.837Z",
+    "baselineAt": "2026-08-24T12:33:58.999Z",
+    "lastCheckedAt": "2026-08-24T12:33:58.999Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

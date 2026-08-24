@@ -3,8 +3,8 @@
   "companyName": "Efficy",
   "selfDescription": null,
   "geography": null,
-  "builtAt": "2026-08-24T11:28:34.736Z",
-  "oldestEvidenceAt": "2026-08-24T11:28:34.736Z",
+  "builtAt": "2026-08-24T12:33:45.450Z",
+  "oldestEvidenceAt": "2026-08-24T12:33:45.450Z",
   "category": {
     "whyItMatters": "No identity-bearing surface could be read, so the company category is not established.",
     "whyItMayNotMatter": "This says nothing about the company — only about our retrieval.",
@@ -139,6 +139,50 @@
       "evidence": []
     }
   ],
+  "jobEvidence": {
+    "domain": "efficy.com",
+    "retrievedAt": "2026-08-24T12:33:46.501Z",
+    "tenants": [],
+    "vacanciesFound": 0,
+    "vacanciesUsed": 0,
+    "vacanciesQuarantined": 0,
+    "duplicatesCollapsed": 0,
+    "crmHits": [],
+    "operationalHits": [],
+    "health": [
+      {
+        "url": "https://efficy.com/",
+        "health": "blocked",
+        "status": 403
+      },
+      {
+        "url": "https://efficy.com/careers",
+        "health": "blocked",
+        "status": 403
+      },
+      {
+        "url": "https://efficy.com/career",
+        "health": "blocked",
+        "status": 403
+      },
+      {
+        "url": "https://efficy.com/jobs",
+        "health": "blocked",
+        "status": 403
+      },
+      {
+        "url": "https://efficy.com/join-us",
+        "health": "blocked",
+        "status": 403
+      },
+      {
+        "url": "https://efficy.com/work-with-us",
+        "health": "blocked",
+        "status": 403
+      }
+    ],
+    "note": "No ATS board could be attributed to this company from its own careers pages. That is a limit of what we could find, not evidence that the company is not hiring — and it says nothing about its CRM."
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -152,8 +196,19 @@
   "systems": {
     "crm": {
       "state": "unknown",
+      "bundle": {
+        "vendors": [],
+        "primary": null,
+        "conflict": null,
+        "sourcesChecked": {
+          "website": false,
+          "jobs": true,
+          "vacanciesRead": 0
+        },
+        "note": "No reliable public CRM evidence was established from 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
+      },
       "evidence": [],
-      "note": "No CRM artifact found on the retrieved pages. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 33% recall against companies known to run a supported CRM, and Salesforce was never detected at all."
+      "note": "No reliable public CRM evidence was established from 0 current vacancies. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 2 of 6 against companies known to run a supported CRM, and Salesforce was never detected from a website artifact."
     },
     "prm": {
       "state": "unknown",
@@ -169,8 +224,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:28:34.736Z",
-    "lastCheckedAt": "2026-08-24T11:28:34.736Z",
+    "baselineAt": "2026-08-24T12:33:45.450Z",
+    "lastCheckedAt": "2026-08-24T12:33:45.450Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
