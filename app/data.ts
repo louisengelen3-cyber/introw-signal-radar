@@ -171,7 +171,10 @@ export const OUTCOME_HELP: Record<HumanOutcome, string> = {
 /* ── shared vocabulary ───────────────────────────────────────────────────── */
 
 export const CATEGORY_LABEL: Record<string, string> = {
-  likely_target_category: 'Target-like company',
+  // Named for what was actually measured. The classifier's own matched value is
+  // "(no disqualifying category signal)", and calling that "Target-like" asserted fit for a
+  // consumer marketplace on the strength of a title tag.
+  likely_target_category: 'No disqualifying signal',
   partner_tech_vendor: 'Partner-tech vendor',
   direct_introw_competitor: 'Direct Introw competitor',
   supply_side_marketplace: 'Supply-side marketplace',

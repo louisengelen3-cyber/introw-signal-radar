@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.datadoghq.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:13:01.507Z",
+  "builtAt": "2026-08-24T11:26:43.653Z",
   "oldestEvidenceAt": "2026-08-23T07:46:21.999Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -187,8 +187,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:13:01.507Z",
-    "lastCheckedAt": "2026-08-24T11:13:01.507Z",
+    "baselineAt": "2026-08-24T11:26:43.653Z",
+    "lastCheckedAt": "2026-08-24T11:26:43.653Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -247,32 +247,22 @@
       "status": 200
     },
     {
-      "url": "https://partnerhub.datadoghq.com/",
-      "health": "not_found",
-      "status": 401
-    },
-    {
-      "url": "https://deals.datadoghq.com/",
-      "health": "not_found",
-      "status": 401
-    },
-    {
-      "url": "https://installers.datadoghq.com/",
-      "health": "not_found",
-      "status": 401
-    },
-    {
-      "url": "https://ecosystem.datadoghq.com/",
-      "health": "not_found",
-      "status": 401
-    },
-    {
       "url": "https://www.datadoghq.com/free-datadog-trial/partner/",
       "health": "success",
       "status": 200
     },
     {
       "url": "https://www.datadoghq.com/resources/technology-partner-program-guide/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.datadoghq.com/partner/awssecurity2026-apac-mobile/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.datadoghq.com/partner/azure-observability-mobile/",
       "health": "success",
       "status": 200
     },
@@ -342,12 +332,12 @@
       "status": 200
     }
   ],
-  "commercialSummary": "Datadog describes itself as \"See metrics from all of your apps, tools & services in one place with Datadog’s cloud monitoring as a service solution. Try it for free\". No partner programme type could be identified; 13 conventional partner paths were checked and none returned a partner page. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "Datadog describes itself as \"See metrics from all of your apps, tools & services in one place with Datadog’s cloud monitoring as a service solution. Try it for free\". No partner programme type could be identified, although 5 partner pages did return content. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "under_observed",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
     "reasons": [
-      "No distinct partner claim was retrieved. This reflects what the company publishes, not its suitability."
+      "No distinct partner claim could be extracted. This may mean the company publishes little, or that we could not read what it publishes — it says nothing about suitability."
     ],
     "diagnostics": {
       "observationCount": 0,

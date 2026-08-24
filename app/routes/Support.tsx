@@ -23,9 +23,10 @@ export function Changes({ index }: { index: SiteIndex }) {
         </p>
         <p>
           The mechanism was tested by re-fetching 40 surfaces with caching forcibly disabled:{' '}
-          <strong>0 of 40 differed</strong>, a 0% false-positive floor. When a change is eventually
-          reported it will carry the previous state, the new state, the interval between observations,
-          the source, and a clearly separated reading of why it may matter.
+          <strong>0 of 40 differed</strong> — consistent with a false-positive rate under roughly 7%,
+          which is the tightest bound 40 trials can support. When a change is eventually reported it
+          will carry the previous state, the new state, the interval between observations, the source,
+          and a clearly separated reading of why it may matter.
         </p>
       </Panel>
     </>
@@ -104,7 +105,7 @@ export function DataHealth({ index }: { index: SiteIndex }) {
     p >= 80 ? ['Healthy', 'verified'] : p >= 40 ? ['Degraded', 'uncertain'] : ['Sparse', 'neutral'];
 
   const coverageRows: [string, number, number, string][] = [
-    ['Category classification', stats.categoryKnown, stats.dossiers, 'Inferred from the company’s own positioning. Measured recall on partner-tech vendors is 57%.'],
+    ['Category classification', stats.categoryKnown, stats.dossiers, 'Inferred from the company’s own positioning. The rule caught 8 of 14 partner-tech vendors across two frozen holdouts.'],
     ['CRM evidence', stats.crmKnown, stats.dossiers, 'Measured at 33% recall against companies that provably run a supported CRM. Salesforce was never detected once.'],
     ['Partner platform', stats.prmKnown, stats.dossiers, 'DNS fingerprints plus platform names appearing on partner pages. Absence is always unknown.'],
     ['People evidence', stats.peopleKnown, stats.dossiers, 'Not attempted. Public person discovery was measured at 2 of 18 companies and is not viable, so no crawler was built. The panel is kept so a licensed provider can fill it later.'],
@@ -153,8 +154,8 @@ export function DataHealth({ index }: { index: SiteIndex }) {
       <h2 className="sect display">Known measurement limits</h2>
       <Panel tone="soft">
         <ul className="limits">
-          <li><strong>Category classifier — 57% recall on partner-tech vendors.</strong> Its disqualifying rules have not wrongly excluded a genuine target in 13 cases, which bounds that error near 21% rather than proving it zero. Advisory only: roughly two in five vendors still reach you unflagged.</li>
-          <li><strong>CRM detection — 33% recall</strong> against companies that provably run a supported CRM, and Salesforce was never detected. Unknown never means “no CRM”.</li>
+          <li><strong>Category classifier — caught 8 of 14 partner-tech vendors</strong> across two frozen holdouts. On that sample size the true recall plausibly sits anywhere from about 30% to 80%, so treat it as advisory: a meaningful share of vendors still reach you unflagged. Its disqualifying rules have not wrongly excluded a genuine target in 13 cases, which bounds that error near 21% rather than proving it zero.</li>
+          <li><strong>CRM detection — found 2 of 6</strong> companies that provably run a supported CRM, and Salesforce was never detected once. Unknown never means “no CRM”.</li>
           <li><strong>Public person evidence — 2 of 18 companies.</strong> Not viable for contact resolution. The architecture accepts a licensed provider later.</li>
           <li><strong>Temporal — baseline only.</strong> Change detection has a measured 0% false-positive floor but needs elapsed calendar time before it can report anything.</li>
           <li><strong>Client-side rendering is invisible.</strong> A partner page that returns HTTP 200 and renders its content in JavaScript reads as empty to this pipeline.</li>

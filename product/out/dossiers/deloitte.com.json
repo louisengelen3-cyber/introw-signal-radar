@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.deloitte.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:13:03.109Z",
+  "builtAt": "2026-08-24T11:26:46.033Z",
   "oldestEvidenceAt": "2026-08-21T13:59:36.539Z",
   "category": {
     "whyItMatters": "The company is a professional-services firm; its \"partners\" are frequently equity partners or alliance memberships.",
@@ -180,8 +180,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:13:03.109Z",
-    "lastCheckedAt": "2026-08-24T11:13:03.109Z",
+    "baselineAt": "2026-08-24T11:26:46.033Z",
+    "lastCheckedAt": "2026-08-24T11:26:46.033Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -335,12 +335,12 @@
       "status": 404
     }
   ],
-  "commercialSummary": "Deloitte describes itself as \"Industry insights and audit, consulting, financial advisory, risk management and tax services from Deloitte's global network of member firms\". No partner programme type could be identified; 13 conventional partner paths were checked and none returned a partner page. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "Deloitte describes itself as \"Industry insights and audit, consulting, financial advisory, risk management and tax services from Deloitte's global network of member firms\". No partner programme type could be identified, although 1 partner page did return content. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
-    "state": "under_observed",
+    "state": "suppression_candidate",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
     "reasons": [
-      "No distinct partner claim was retrieved. This reflects what the company publishes, not its suitability."
+      "The company positions itself as a services firm, which is typically a partner in other vendors' programmes rather than an operator of its own."
     ],
     "diagnostics": {
       "observationCount": 0,

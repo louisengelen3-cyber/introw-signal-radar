@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.kiflo.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:12:59.549Z",
+  "builtAt": "2026-08-24T11:26:42.447Z",
   "oldestEvidenceAt": "2026-08-23T08:48:52.121Z",
   "category": {
     "whyItMatters": "The company appears on the maintained competitor list AND positions its own product as partner management.",
@@ -194,8 +194,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:12:59.549Z",
-    "lastCheckedAt": "2026-08-24T11:12:59.549Z",
+    "baselineAt": "2026-08-24T11:26:42.447Z",
+    "lastCheckedAt": "2026-08-24T11:26:42.447Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -364,7 +364,7 @@
       "status": 404
     }
   ],
-  "commercialSummary": "Kiflo describes itself as \"The partner revenue platform that goes beyond partner management (PRM) software. Connect your partner ecosystem to target accounts, co-sell, and revenue\". Its own product positioning is partner management, so its partner content describes what it sells rather than how it goes to market. No partner programme type could be identified; 12 conventional partner paths were checked and none returned a partner page. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "Kiflo describes itself as \"The partner revenue platform that goes beyond partner management (PRM) software. Connect your partner ecosystem to target accounts, co-sell, and revenue\". Its own product positioning is partner management, so its partner content describes what it sells rather than how it goes to market. No partner programme type could be identified, although 10 partner pages did return content. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "suppression_candidate",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",

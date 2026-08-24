@@ -8,6 +8,7 @@
 import { describe, expect, it } from 'vitest';
 import { readFileSync, existsSync } from 'node:fs';
 import { FORBIDDEN_SUMMARY_PATTERNS } from '../src/dossier/summary.js';
+import { SURFACE_DEFS } from '../src/dossier/surfaces.js';
 import type { Dossier } from '../src/dossier/types.js';
 
 const PATH = new URL('../product/out/dossiers.json', import.meta.url).pathname;
@@ -89,6 +90,40 @@ describe('dataset invariants', () => {
         // Partial coverage is allowed, but it must be declared rather than implied.
         expect(d.machineInterpretation.reasons.join(' '), d.domain).toMatch(/could not be retrieved|partial/i);
       }
+    }
+  });
+
+  it('never quotes a surface as proof of a workflow the quote does not mention', () => {
+    // Sentence-snapping once trimmed the matched term out of the quote, leaving `portal` and
+    // `co_selling` "confirmed" on text containing neither word — then promoted into the
+    // summary as fact.
+    const byKind = new Map(SURFACE_DEFS.map((d) => [d.surface, d.patterns]));
+    for (const d of DS) {
+      for (const s of d.surfaces ?? []) {
+        if (s.state !== 'confirmed') continue;
+        const pats = byKind.get(s.surface) ?? [];
+        for (const o of s.evidence) {
+          expect(pats.some((re) => re.test(o.quote)), `${d.domain}/${s.surface}: "${o.quote.slice(0, 60)}"`).toBe(true);
+        }
+      }
+    }
+  });
+
+  it('never claims no partner page returned when one did', () => {
+    // The summary drew this from an attempt counter while the Retrieval panel drew it from
+    // results, so one dossier could state both "none returned" and "10 returned".
+    for (const d of DS) {
+      if (!/none returned a readable partner page/.test(d.commercialSummary)) continue;
+      const found = d.sourceHealth.filter((h) => /partner|reseller|agenc|partenaires|channel/i.test(h.url) && h.health === 'success').length;
+      expect(found, `${d.domain} claims none returned`).toBe(0);
+    }
+  });
+
+  it('never routes a confirmed Introw customer into the prospecting queue', () => {
+    for (const d of DS) {
+      if (d.systems.prm.state !== 'introw_confirmed') continue;
+      expect(d.machineInterpretation.state, d.domain).toBe('suppression_candidate');
+      expect(d.machineInterpretation.reasons.join(' '), d.domain).toMatch(/already a customer/i);
     }
   });
 

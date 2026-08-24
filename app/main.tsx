@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import {
   allReviews, loadIndex, type ReviewRecord, type SiteIndex, type WorkflowState,
 } from './data.js';
-import { ErrorState, Loading } from './components/ui.js';
+import { ErrorState, Loading, fmtDate } from './components/ui.js';
 import { Overview } from './routes/Overview.js';
 import { AccountsTable, EMPTY_FILTERS, type Filters } from './routes/Accounts.js';
 import { DossierView } from './routes/Dossier.js';
@@ -34,7 +34,7 @@ function parseHash(): Route {
 const NAV: { id: Route['name']; label: string; job: string }[] = [
   { id: 'overview', label: 'Overview', job: 'What needs attention' },
   { id: 'accounts', label: 'Accounts', job: 'Every researched company' },
-  { id: 'review', label: 'Review', job: 'Decide on what is ready' },
+  { id: 'review', label: 'Review', job: 'Every account without a decision' },
   { id: 'watching', label: 'Watching', job: 'Monitored, not yet actionable' },
   { id: 'changes', label: 'Changes', job: 'Verified change only' },
   { id: 'health', label: 'Data health', job: 'Retrieval and coverage' },
@@ -101,7 +101,7 @@ function App() {
         return (
           <>
             <PageHead title="Review"
-              sub="Accounts without a recorded decision. Open one, read the evidence, decide. Keys: P promote · R research · W watch · X reject · S suppress." />
+              sub={`Every account without a recorded decision — ${undecided.length} of ${index.accounts.length}, including under-observed and suppression-flagged ones. Open one, read the evidence, decide. Keys: P promote · R research · W watch · X reject · S suppress.`} />
             <AccountsTable rows={undecided} reviews={reviews} onOpen={open}
               filters={filters} setFilters={setFilters} order={order} setOrder={setOrder} />
           </>
@@ -164,7 +164,7 @@ function App() {
       <footer className="sitefoot">
         <p>
           Evidence assistant — no scores, no ranking, no predicted intent. Every claim carries its source.
-          {index && <> · {index.count} dossiers · monitoring since {index.monitoringSince}</>}
+          {index && <> · {index.count} dossiers · monitoring since {fmtDate(index.monitoringSince)}</>}
         </p>
         <p className="dim">
           Decisions are stored in this browser only. Public evidence has known limits — see{' '}

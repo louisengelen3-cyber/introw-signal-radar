@@ -3,8 +3,8 @@
   "companyName": "Efficy",
   "selfDescription": null,
   "geography": null,
-  "builtAt": "2026-08-24T11:12:52.409Z",
-  "oldestEvidenceAt": "2026-08-24T11:12:52.409Z",
+  "builtAt": "2026-08-24T11:26:35.350Z",
+  "oldestEvidenceAt": "2026-08-24T11:26:35.350Z",
   "category": {
     "whyItMatters": "No identity-bearing surface could be read, so the company category is not established.",
     "whyItMayNotMatter": "This says nothing about the company — only about our retrieval.",
@@ -169,8 +169,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:12:52.409Z",
-    "lastCheckedAt": "2026-08-24T11:12:52.409Z",
+    "baselineAt": "2026-08-24T11:26:35.350Z",
+    "lastCheckedAt": "2026-08-24T11:26:35.350Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -215,7 +215,7 @@
       "status": 403
     }
   ],
-  "commercialSummary": "Efficy publishes no retrievable self-description. No partner programme type could be identified from the pages retrieved. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "Efficy publishes no retrievable self-description. No partner programme type could be identified; 1 conventional partner paths were tried and none returned a readable partner page. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "under_observed",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",

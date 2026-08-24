@@ -263,10 +263,41 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
   };
 
   const contradictions = buildContradictions(assessment, category, systems);
-  const machineInterpretation = interpret(assessment, category, diagnostics, contradictions, directory, constructs);
+  const machineInterpretation = interpret(assessment, category, diagnostics, contradictions, directory, constructs, systems);
   const researchTasks = buildResearchTasks(assessment, category, systems, diagnostics, constructs, directory);
 
+  const sourceHealthAll: { url: string; health: SourceHealth; status?: number }[] = [
+    ...positioning.health,
+    ...assessment.pagesFetched.map((p) => ({
+      url: p.url,
+      health: (p.status >= 200 && p.status < 300 && p.chars > 200 ? 'success'
+        : p.status === 404 ? 'not_found'
+        : p.status >= 200 && p.status < 300 ? 'no_relevant_evidence'
+        : p.status === 0 ? 'unknown' : 'not_found') as SourceHealth,
+      status: p.status,
+    })),
+    ...assessment.partnerPathAttempts.map((p) => ({
+      url: p.url,
+      health: (p.outcome === 'found' ? 'success'
+        : p.outcome === 'blocked' ? 'blocked'
+        : p.outcome === 'error' ? 'unknown'
+        : p.outcome === 'thin' ? 'no_relevant_evidence'
+        : 'not_found') as SourceHealth,
+      status: p.status,
+    })),
+  ];
+
   const selfDescription = positioning.items.find((i) => i.sourceType === 'meta_description' || i.sourceType === 'og_description' || i.sourceType === 'homepage_hero');
+
+  /**
+   * Partner-path retrieval, counted exactly as the Retrieval panel counts it.
+   *
+   * The summary previously drew this from an attempt counter while the panel drew it from
+   * results, so a dossier could state "12 paths checked, none returned a partner page"
+   * directly above "17 checked · 10 returned a partner page". One number, one source.
+   */
+  const partnerHealth = sourceHealthAll.filter((h) => /partner|reseller|agenc|partenaires|channel/i.test(h.url));
+  const partnerPathsFound = partnerHealth.filter((h) => h.health === 'success').length;
 
   const commercialSummary = buildCommercialSummary({
     companyName: opts.name ?? null,
@@ -274,7 +305,12 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
     programmes, surfaces, constructs, systems,
     people: { state: 'unknown', people: [], note: '' },
     coverage: density, categoryState: category.state,
-    partnerPathsChecked: assessment.partnerPathAttempts.length,
+    // Count what RETURNED a partner page, not what was attempted. The summary previously
+    // said "N conventional partner paths were checked and none returned a partner page"
+    // from an attempt counter — false on 17 of the 19 dossiers that carried it, and
+    // contradicted by the Retrieval panel on the same screen.
+    partnerPathsChecked: partnerHealth.length,
+    partnerPathsFound,
     partnerDirectoryLowerBound: directory.isDirectory ? directory.lowerBound : null,
     directoryCertified: directory.certificationLanguage,
   });
@@ -329,33 +365,7 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
       : 'Public evidence was sufficient to read the partner surfaces that exist.',
     // Partner-path attempts are merged into source health so "no programme identified" is
     // interpretable: a logged 404 on /partners means something, a missing entry does not.
-    /**
-     * The union of BOTH pipelines. Health previously reported only the category
-     * classifier's fetches — /product, /compare, /vs — while the partner pages that produced
-     * 100% of the commercial content were invisible. Sana Commerce drew all eight of its
-     * claims from /our-partners/ and its health block listed not one partner URL, which made
-     * the entire Data Health view a monitor of the pipeline nobody buys.
-     */
-    sourceHealth: [
-      ...positioning.health,
-      ...assessment.pagesFetched.map((p) => ({
-        url: p.url,
-        health: (p.status >= 200 && p.status < 300 && p.chars > 200 ? 'success'
-          : p.status === 404 ? 'not_found'
-          : p.status >= 200 && p.status < 300 ? 'no_relevant_evidence'
-          : p.status === 0 ? 'unknown' : 'not_found') as SourceHealth,
-        status: p.status,
-      })),
-      ...assessment.partnerPathAttempts.map((p) => ({
-        url: p.url,
-        health: (p.outcome === 'found' ? 'success'
-          : p.outcome === 'blocked' ? 'blocked'
-          : p.outcome === 'error' ? 'unknown'
-          : p.outcome === 'thin' ? 'no_relevant_evidence'
-          : 'not_found') as SourceHealth,
-        status: p.status,
-      })),
-    ],
+    sourceHealth: sourceHealthAll,
     commercialSummary,
     machineInterpretation,
     humanReview: null,
@@ -427,7 +437,7 @@ function buildContradictions(a: Assessment, category: any, systems: SystemsPanel
  */
 function interpret(
   a: Assessment, category: any, d: PublicationDiagnostics, contradictions: Contradiction[],
-  directory: typeof NO_DIRECTORY, constructs: ConstructPanel[],
+  directory: typeof NO_DIRECTORY, constructs: ConstructPanel[], systems: SystemsPanel,
 ): MachineInterpretation {
   const disclaimer = 'Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.';
   const reasons: string[] = [];
@@ -443,6 +453,15 @@ function interpret(
     reasons.push(`The main domain could not be retrieved (${a.blockReason ?? 'unknown reason'}), but other surfaces were read; treat coverage as partial.`);
   }
 
+  // An Introw CNAME on the partner surface is the strongest single fact in this system, and
+  // it means the account is already a customer. It was previously routed to `research` with
+  // the open question "is there partner machinery behind a login?" — about a company whose
+  // partner portal Introw itself serves.
+  if (systems.prm.state === 'introw_confirmed') {
+    reasons.push('The partner surface is served by Introw. This account is already a customer, not a prospect.');
+    return { state: 'suppression_candidate', disclaimer, reasons, diagnostics: d };
+  }
+
   if (category.state === 'partner_tech_vendor' || category.state === 'direct_introw_competitor') {
     reasons.push(category.state === 'direct_introw_competitor'
       ? 'Listed as a known competitor (asserted business data).'
@@ -453,13 +472,26 @@ function interpret(
     reasons.push('Partners appear to be supply rather than a route to market.');
     return { state: 'suppression_candidate', disclaimer, reasons, diagnostics: d };
   }
+  if (category.state === 'professional_services' || category.state === 'reseller_or_participant') {
+    // These firms are usually the PARTNERS in someone else's programme rather than operators
+    // of their own. Note the detector's own recall here is poor, so this fires rarely — but
+    // when it does fire it was previously the only non-target category left in the queue.
+    reasons.push(category.state === 'professional_services'
+      ? 'The company positions itself as a services firm, which is typically a partner in other vendors\' programmes rather than an operator of its own.'
+      : 'The company identifies itself as a partner in someone else\'s programme.');
+    return { state: 'suppression_candidate', disclaimer, reasons, diagnostics: d };
+  }
 
   if (directory.isDirectory) {
     reasons.push(`A published directory lists at least ${directory.lowerBound} partner organisations${directory.certificationLanguage ? ', described as certified' : ''}.`);
   }
 
   if (d.distinctClaimCount === 0 && !directory.isDirectory && d.supportingFindingCount === 0) {
-    reasons.push('No distinct partner claim was retrieved. This reflects what the company publishes, not its suitability.');
+    // NOT "this reflects what the company publishes" — for several accounts partner pages
+    // did return content and our extraction could not read them (client-side rendering).
+    // Attributing our limit to the company's behaviour is the inversion this product exists
+    // to avoid.
+    reasons.push('No distinct partner claim could be extracted. This may mean the company publishes little, or that we could not read what it publishes — it says nothing about suitability.');
     return { state: 'under_observed', disclaimer, reasons, diagnostics: d };
   }
   if (d.distinctClaimCount === 0 && d.supportingFindingCount > 0) {
@@ -511,6 +543,15 @@ function interpret(
 /** The smallest question that would move the decision — never "more research needed". */
 function buildResearchTasks(a: Assessment, category: any, systems: SystemsPanel, d: PublicationDiagnostics, constructs: ConstructPanel[], directory: typeof NO_DIRECTORY): ResearchTask[] {
   const tasks: ResearchTask[] = [];
+
+  if (systems.prm.state === 'introw_confirmed') {
+    return [{
+      question: 'Confirm this account in the CRM before any outreach.',
+      whyItBlocks: 'The partner surface resolves to Introw, so this is an existing customer rather than a prospect. Everything below would be prospecting research on your own account.',
+      whereToLook: 'Your own CRM. Public evidence cannot distinguish an active customer from a lapsed one.',
+      resolves: 'category',
+    }];
+  }
 
   // "No blocking question identified" appeared on the two dossiers with literally zero
   // evidence, inverting the signal exactly where caution matters most. When we know nothing,

@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.vinted.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:12:58.690Z",
+  "builtAt": "2026-08-24T11:26:41.614Z",
   "oldestEvidenceAt": "2026-08-24T07:36:10.129Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -187,8 +187,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:12:58.690Z",
-    "lastCheckedAt": "2026-08-24T11:12:58.690Z",
+    "baselineAt": "2026-08-24T11:26:41.614Z",
+    "lastCheckedAt": "2026-08-24T11:26:41.614Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -327,12 +327,12 @@
       "status": 404
     }
   ],
-  "commercialSummary": "Vinted describes itself as \"One community, thousands of brands, and a whole lot of second-hand style. Ready to get started? Here’s how it works\". No partner programme type could be identified; 13 conventional partner paths were checked and none returned a partner page. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "Vinted describes itself as \"One community, thousands of brands, and a whole lot of second-hand style. Ready to get started? Here’s how it works\". No partner programme type could be identified; 13 conventional partner paths were tried and none returned a readable partner page. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "under_observed",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
     "reasons": [
-      "No distinct partner claim was retrieved. This reflects what the company publishes, not its suitability."
+      "No distinct partner claim could be extracted. This may mean the company publishes little, or that we could not read what it publishes — it says nothing about suitability."
     ],
     "diagnostics": {
       "observationCount": 0,

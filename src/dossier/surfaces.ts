@@ -60,7 +60,11 @@ export const SURFACE_DEFS: SurfaceDef[] = [
     proves: 'material is produced specifically for partners',
     doesNotProve: 'that partners consume it' },
   { surface: 'certification', label: 'Certification',
-    patterns: [/\b(partner certification|certified (partner|installer|implementation)|accreditation|become certified)\b/i],
+    // `accreditation` alone matched "continuously audited with certifications from
+    // accreditation bodies" on glovoapp.com/en/security — an ISO compliance statement about
+    // infrastructure providers, promoted into the summary as proof that the company
+    // "distinguishes qualified partners formally". Every alternative now names a partner.
+    patterns: [/\b(partner certification|certified (partner|reseller|installer|implementation|agency)|partner accreditation|become a certified partner)\b/i],
     proves: 'the company distinguishes qualified partners formally',
     doesNotProve: 'the number certified' },
   { surface: 'lead_submission', label: 'Lead submission',
@@ -129,10 +133,16 @@ export function scanSurfaces(pages: { url: string; text: string }[]): SurfaceSca
         if (!m || m.index === undefined) continue;
         const start = Math.max(0, m.index - CONTEXT);
         const end = m.index + m[0].length + CONTEXT;
+        const raw = p.text.slice(start, end);
+        // Sentence-snapping can trim away the very term that matched, leaving a quote that
+        // does not mention the workflow it is offered as proof of — Aikido's `portal` and
+        // `co_selling` were both "confirmed" on quotes containing neither word. If the match
+        // does not survive the snap, keep the raw window.
+        const snapped = snapToSentences(raw);
+        const quote = snapped.toLowerCase().includes(m[0].toLowerCase()) ? snapped : raw.replace(/\s+/g, ' ').trim();
         hits.push({
           surface: def.surface, label: def.label,
-          // Snap to whole words only where the window actually cut the text.
-          quote: snapToSentences(p.text.slice(start, end)),
+          quote,
           sourceUrl: p.url, proves: def.proves, doesNotProve: def.doesNotProve,
         });
         found.add(def.surface);

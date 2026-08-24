@@ -33,6 +33,9 @@ export function Overview({ index, reviews, onOpen, onGo }: {
   const ready = useMemo(
     () => index.accounts
       .filter((a) => !reviews[a.domain] && workflowState(a.machineState, null) === 'ready_for_review')
+      // The copy below promises oldest-researched first. It previously promised it without
+      // sorting, so the newest and thinnest account sat third on the front page.
+      .sort((a, b) => a.retrievedAt.localeCompare(b.retrievedAt))
       .slice(0, 6),
     [index, reviews],
   );

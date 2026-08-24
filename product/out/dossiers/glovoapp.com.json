@@ -6,7 +6,7 @@
     "sourceUrl": "https://glovoapp.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:13:02.212Z",
+  "builtAt": "2026-08-24T11:26:45.157Z",
   "oldestEvidenceAt": "2026-08-24T07:16:23.377Z",
   "category": {
     "whyItMatters": "The company's \"partners\" appear to be supply — restaurants, drivers, hosts, properties — rather than a route to market for its own product.",
@@ -113,21 +113,8 @@
     },
     {
       "surface": "certification",
-      "state": "confirmed",
-      "evidence": [
-        {
-          "id": "o197",
-          "quote": "As such, they are continuously audited with certifications from accreditation bodies across geographies and verticals.",
-          "sourceUrl": "https://glovoapp.com/en/security",
-          "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:13:02.212Z",
-          "strength": "strong_proxy",
-          "proves": "the company distinguishes qualified partners formally",
-          "doesNotProve": "the number certified",
-          "duplicateCount": 1,
-          "alsoSeenAt": []
-        }
-      ]
+      "state": "not_observed",
+      "evidence": []
     },
     {
       "surface": "lead_submission",
@@ -200,8 +187,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:13:02.212Z",
-    "lastCheckedAt": "2026-08-24T11:13:02.212Z",
+    "baselineAt": "2026-08-24T11:26:45.157Z",
+    "lastCheckedAt": "2026-08-24T11:26:45.157Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -359,7 +346,7 @@
       "status": 404
     }
   ],
-  "commercialSummary": "Glovo describes itself as \"Glovo is the food delivery site that will get you anything you want to your doorstep. You order online, you&#x27;ll have it!\". Its \"partners\" appear to be supply rather than a route to market. No partner programme type could be identified; 13 conventional partner paths were checked and none returned a partner page. Visible partner workflows include certification. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "Glovo describes itself as \"Glovo is the food delivery site that will get you anything you want to your doorstep. You order online, you&#x27;ll have it!\". Its \"partners\" appear to be supply rather than a route to market. No partner programme type could be identified, although 1 partner page did return content. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "suppression_candidate",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
@@ -372,7 +359,7 @@
       "independentSourceCount": 0,
       "publicationDensity": "none",
       "constructEvidenceCount": 0,
-      "supportingFindingCount": 1,
+      "supportingFindingCount": 0,
       "volumeSensitive": false,
       "unattributableDropped": 1
     }

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-24T11:13:51.229Z",
+ "generatedAt": "2026-08-24T11:26:52.727Z",
  "count": 35,
  "monitoringSince": "2026-08-23",
  "accounts": [
@@ -172,7 +172,7 @@
    "contradictions": 1,
    "researchTasks": 4,
    "topUnknown": "What does this company sell?",
-   "retrievedAt": "2026-08-24T11:12:51.959Z",
+   "retrievedAt": "2026-08-24T11:26:34.845Z",
    "sourceHealthOk": 1,
    "sourceHealthTotal": 3
   },
@@ -182,7 +182,7 @@
    "selfDescription": "Get S3 compatibility, embedded multi-region, and up to 80% savings vs. hyperscalers. Choose where your data lives — full control, no lock-in.",
    "category": "likely_target_category",
    "onCompetitorList": false,
-   "machineState": "research",
+   "machineState": "suppression_candidate",
    "materiality": "weak_proxy",
    "ownership": "direct",
    "surface": "light",
@@ -202,7 +202,7 @@
    "independentSources": 2,
    "contradictions": 0,
    "researchTasks": 1,
-   "topUnknown": "Is there partner machinery behind a login that we cannot see?",
+   "topUnknown": "Confirm this account in the CRM before any outreach.",
    "retrievedAt": "2026-08-21T13:56:22.010Z",
    "sourceHealthOk": 9,
    "sourceHealthTotal": 23
@@ -231,8 +231,8 @@
    "researchTasks": 3,
    "topUnknown": "Does this company run a partner programme at all?",
    "retrievedAt": "2026-08-23T07:46:21.999Z",
-   "sourceHealthOk": 5,
-   "sourceHealthTotal": 25
+   "sourceHealthOk": 7,
+   "sourceHealthTotal": 23
   },
   {
    "domain": "deloitte.com",
@@ -240,7 +240,7 @@
    "selfDescription": "Industry insights and audit, consulting, financial advisory, risk management and tax services from Deloitte's global network of member firms.",
    "category": "professional_services",
    "onCompetitorList": false,
-   "machineState": "under_observed",
+   "machineState": "suppression_candidate",
    "materiality": "unknown",
    "ownership": "unknown",
    "surface": "unknown",
@@ -311,7 +311,7 @@
    "contradictions": 0,
    "researchTasks": 4,
    "topUnknown": "Does this company run a partner programme at all?",
-   "retrievedAt": "2026-08-24T11:13:02.625Z",
+   "retrievedAt": "2026-08-24T11:26:45.521Z",
    "sourceHealthOk": 0,
    "sourceHealthTotal": 2
   },
@@ -338,7 +338,7 @@
    "contradictions": 0,
    "researchTasks": 4,
    "topUnknown": "Does this company run a partner programme at all?",
-   "retrievedAt": "2026-08-24T11:12:52.409Z",
+   "retrievedAt": "2026-08-24T11:26:35.350Z",
    "sourceHealthOk": 0,
    "sourceHealthTotal": 2
   },
@@ -437,7 +437,7 @@
    "ownership": "unknown",
    "surface": "unknown",
    "programmes": [],
-   "surfacesConfirmed": 1,
+   "surfacesConfirmed": 0,
    "directoryLowerBound": null,
    "crm": "unknown",
    "prm": "unknown",

@@ -143,16 +143,20 @@ export function AccountsTable({ rows, reviews, onOpen, filters, setFilters, orde
                       <td><StateChip label={MATERIALITY_LABEL[r.materiality] ?? humanise(r.materiality)} tone={constructTone(r.materiality)} /></td>
                       <td><StateChip label={OWNERSHIP_LABEL[r.ownership] ?? humanise(r.ownership)} tone={constructTone(r.ownership)} /></td>
                       <td><StateChip label={SURFACE_LABEL[r.surface] ?? humanise(r.surface)} tone={constructTone(r.surface)} /></td>
-                      <td className="c-ev mono">
-                        {r.distinctClaims}<span className="dim">/{r.independentSources}src</span>
+                      <td className="c-ev mono" title={`${r.distinctClaims} distinct claims from ${r.independentSources} independent source(s)${r.directoryLowerBound ? `; a directory lists at least ${r.directoryLowerBound} partner organisations` : ''}`}>
+                        {r.distinctClaims}<span className="dim"> · {r.independentSources} src</span>
                         {r.directoryLowerBound ? <span className="c-dir" title="Partner organisations publicly listed. A lower bound, not a count."> ≥{r.directoryLowerBound}</span> : null}
                       </td>
                       {/* CRM and platform share a cell: both are unknown on most accounts, and
                           two columns of "Unknown" pushed the status column off screen. */}
-                      <td className="c-systems">
-                        {r.crm !== 'unknown' && <StateChip label={(CRM_LABEL[r.crm] ?? humanise(r.crm)).replace(' confirmed', '')} tone="verified" />}
-                        {r.prm !== 'unknown' && <StateChip label={r.prmVendor ?? (PRM_LABEL[r.prm] ?? humanise(r.prm))} tone={r.prm === 'competitor_prm_confirmed' ? 'blocker' : 'verified'} />}
-                        {r.crm === 'unknown' && r.prm === 'unknown' && <StateChip label="Unknown" tone="neutral" />}
+                      {/* The chips sit in a wrapper, not directly on the cell: making a <td>
+                          a flex container breaks table-cell alignment and its border. */}
+                      <td>
+                        <span className="c-systems">
+                          {r.crm !== 'unknown' && <StateChip label={(CRM_LABEL[r.crm] ?? humanise(r.crm)).replace(' confirmed', '')} tone="verified" />}
+                          {r.prm !== 'unknown' && <StateChip label={r.prmVendor ?? (PRM_LABEL[r.prm] ?? humanise(r.prm))} tone={r.prm === 'competitor_prm_confirmed' ? 'blocker' : 'verified'} />}
+                          {r.crm === 'unknown' && r.prm === 'unknown' && <StateChip label="Unknown" tone="neutral" />}
+                        </span>
                       </td>
                       <td><StateChip label={WORKFLOW_LABEL[workflowState(r.machineState, rev)]} tone={rev ? 'accent' : 'neutral'} /></td>
                     </tr>

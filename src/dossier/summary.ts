@@ -29,6 +29,8 @@ export interface SummaryInput {
   categoryState: string;
   /** How many conventional partner paths were probed, so "not found" is interpretable. */
   partnerPathsChecked?: number;
+  /** How many of those actually returned a partner page. Never conflate the two. */
+  partnerPathsFound?: number;
   /** Lower bound only; the summary must never state it as a count. */
   partnerDirectoryLowerBound?: number | null;
   directoryCertified?: boolean;
@@ -65,9 +67,16 @@ export function buildCommercialSummary(i: SummaryInput): string {
       ? `Public pages describe ${article} ${list} motion under the name "${named}".`
       : `Public pages describe ${article} ${list} motion.`);
   } else {
-    parts.push(i.partnerPathsChecked
-      ? `No partner programme type could be identified; ${i.partnerPathsChecked} conventional partner paths were checked and none returned a partner page.`
-      : 'No partner programme type could be identified from the pages retrieved.');
+    // Only claim a null result for paths that actually returned something. Where partner
+    // pages WERE retrieved and still yielded no programme type, say that instead — it is a
+    // different and more useful fact.
+    if (i.partnerPathsFound && i.partnerPathsFound > 0) {
+      parts.push(`No partner programme type could be identified, although ${i.partnerPathsFound} partner ${i.partnerPathsFound === 1 ? 'page' : 'pages'} did return content.`);
+    } else if (i.partnerPathsChecked) {
+      parts.push(`No partner programme type could be identified; ${i.partnerPathsChecked} conventional partner paths were tried and none returned a readable partner page.`);
+    } else {
+      parts.push('No partner programme type could be identified from the pages retrieved.');
+    }
   }
 
   // 3b. A directory is quotable and specific, so it earns a sentence — phrased as the

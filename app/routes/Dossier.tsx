@@ -133,6 +133,9 @@ function ReviewBar({ domain, existing, onSaved, onNext, remaining }: {
   const [confidence, setConfidence] = useState<'low' | 'medium' | 'high'>(existing?.confidence ?? 'medium');
   const [rationale, setRationale] = useState(existing?.rationale ?? '');
   const [saved, setSaved] = useState<HumanOutcome | null>(existing?.outcome ?? null);
+  // Keyboard shortcuts commit AND navigate, so they stay off until the reviewer has engaged
+  // with this panel. A stray keypress while reading should never file a verdict.
+  const [keysArmed, setKeysArmed] = useState(false);
 
   const commit = useCallback((o: HumanOutcome, advance: boolean) => {
     saveReview({
@@ -148,6 +151,7 @@ function ReviewBar({ domain, existing, onSaved, onNext, remaining }: {
   // Confidence and rationale are set first; the decision keys save and move on. An earlier
   // build put the note box below the buttons, so pressing P and then typing discarded it.
   useEffect(() => {
+    if (!keysArmed) return;
     const h = (e: KeyboardEvent) => {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
       const el = e.target as HTMLElement | null;
@@ -157,10 +161,10 @@ function ReviewBar({ domain, existing, onSaved, onNext, remaining }: {
     };
     window.addEventListener('keydown', h);
     return () => window.removeEventListener('keydown', h);
-  }, [commit]);
+  }, [commit, keysArmed]);
 
   return (
-    <div className="review">
+    <div className="review" onMouseEnter={() => setKeysArmed(true)} onFocus={() => setKeysArmed(true)}>
       <div className="review-row">
         <span className="lab">Confidence</span>
         <div className="btn-row" role="group" aria-label="Decision confidence">
@@ -195,6 +199,7 @@ function ReviewBar({ domain, existing, onSaved, onNext, remaining }: {
       </div>
       <p className="dim small review-help">
         <strong>Promote</strong> means the evidence is enough to consider outreach — not that this is the top account, and not “call now”.
+        {' '}Keyboard shortcuts {keysArmed ? 'are active' : 'activate when you reach this panel'}; a decision can be changed or cleared at any time.
       </p>
     </div>
   );
@@ -259,7 +264,8 @@ export function DossierView({ domain, onBack, onNext, remaining, onReviewed }: {
         <span className="lab">Commercial summary</span>
         <p className="summary-body">{d.commercialSummary}</p>
         <p className="summary-note">
-          Assembled only from clauses backed by collected evidence. Every factual statement above appears as a quote below.
+          Assembled from clauses the collected evidence supports. Claims about the partner motion appear as
+          quotes below; statements about what was retrieved or not established are drawn from the retrieval log.
         </p>
       </section>
 
@@ -375,7 +381,7 @@ export function DossierView({ domain, onBack, onNext, remaining, onReviewed }: {
             <span className="lab">Provenance</span>
             {d.category.knownCompetitorList.onList
               ? <>Known-competitor list — <strong>asserted commercial data</strong>, maintained by hand and reported separately from the inference above.</>
-              : <>Inferred from the company’s own positioning. Not on the maintained competitor list. Measured recall on partner-tech vendors is 57%, so absence of a flag means little.</>}
+              : <>Inferred from the company’s own positioning. Not on the maintained competitor list. The rule caught <strong>8 of 14</strong> partner-tech vendors across two frozen holdouts, so the absence of a flag means little.</>}
           </div>
         </Panel>
 

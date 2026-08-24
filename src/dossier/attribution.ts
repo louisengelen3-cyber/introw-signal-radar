@@ -88,7 +88,7 @@ export function isPartnerSource(sourceUrl: string | undefined): boolean {
  * A content path is disqualifying outright: no quote from /blog, /glossary, /customers or
  * /contract-templates may support a claim about this company's partner motion.
  */
-const CONTENT_SEGMENT = /^(blog|glossary|resources?|learn|guides?|academy|insights|news|templates?|contract-templates|library|help|docs|support|customers?|case-stud(y|ies)|stories|press|newsroom|events?|webinars?|ebooks?|whitepapers?|wholesalers?-and-distributors)$/i;
+const CONTENT_SEGMENT = /^(blog|glossary|resources?|learn|guides?|academy|insights|news|templates?|contract-templates|library|help|docs|support|customers?|case-stud(y|ies)|stories|press|newsroom|events?|webinars?|ebooks?|whitepapers?|wholesalers?-and-distributors|security|compliance|trust|legal|privacy|gdpr|cookies?|terms)$/i;
 
 export function isContentPath(sourceUrl: string | undefined): boolean {
   if (!sourceUrl) return false;

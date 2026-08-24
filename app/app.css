@@ -152,7 +152,7 @@ table.accounts { border-collapse: collapse; width: 100%; font-size: .84rem; min-
 .c-motion { min-width: 150px; }
 .c-ev { white-space: nowrap; font-size: .78rem; }
 .c-checked { display: block; font-size: .68rem; color: var(--faint); margin-top: 2px; }
-.c-systems { display: flex; flex-wrap: wrap; gap: 4px; }
+.c-systems { display: inline-flex; flex-wrap: wrap; gap: 4px; align-items: center; }
 .c-dir { color: var(--accent); font-weight: 600; }
 .health-table { min-width: 720px; }
 .health-note { color: var(--muted); font-size: .8rem; max-width: 46ch; }

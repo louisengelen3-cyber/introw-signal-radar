@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.leapsome.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:12:54.264Z",
+  "builtAt": "2026-08-24T11:26:37.169Z",
   "oldestEvidenceAt": "2026-08-24T07:34:24.885Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -176,7 +176,7 @@
           "quote": "js.hs-scripts.com/5468055.js",
           "sourceUrl": "https://leapsome.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T11:12:54.264Z",
+          "retrievedAt": "2026-08-24T11:26:37.169Z",
           "strength": "confirmed",
           "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
           "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
@@ -186,7 +186,7 @@
           "quote": "js.hsforms.net",
           "sourceUrl": "https://leapsome.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T11:12:54.264Z",
+          "retrievedAt": "2026-08-24T11:26:37.169Z",
           "strength": "confirmed",
           "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
           "doesNotProve": "that opportunities and partner deals are managed there"
@@ -208,8 +208,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:12:54.264Z",
-    "lastCheckedAt": "2026-08-24T11:12:54.264Z",
+    "baselineAt": "2026-08-24T11:26:37.169Z",
+    "lastCheckedAt": "2026-08-24T11:26:37.169Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -357,12 +357,12 @@
       "status": 404
     }
   ],
-  "commercialSummary": "Leapsome describes itself as \"Discover the ultimate HR software platform your team will love. Streamline your processes and boost productivity. Get started today!\". No partner programme type could be identified; 12 conventional partner paths were checked and none returned a partner page. Public evidence does not establish partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "Leapsome describes itself as \"Discover the ultimate HR software platform your team will love. Streamline your processes and boost productivity. Get started today!\". No partner programme type could be identified, although 6 partner pages did return content. Public evidence does not establish partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "under_observed",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
     "reasons": [
-      "No distinct partner claim was retrieved. This reflects what the company publishes, not its suitability."
+      "No distinct partner claim could be extracted. This may mean the company publishes little, or that we could not read what it publishes — it says nothing about suitability."
     ],
     "diagnostics": {
       "observationCount": 0,

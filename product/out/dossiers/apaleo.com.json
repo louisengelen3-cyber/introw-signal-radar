@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.apaleo.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:12:53.389Z",
+  "builtAt": "2026-08-24T11:26:36.216Z",
   "oldestEvidenceAt": "2026-08-24T07:33:59.645Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -187,8 +187,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:12:53.389Z",
-    "lastCheckedAt": "2026-08-24T11:12:53.389Z",
+    "baselineAt": "2026-08-24T11:26:36.216Z",
+    "lastCheckedAt": "2026-08-24T11:26:36.216Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -312,12 +312,12 @@
       "status": 404
     }
   ],
-  "commercialSummary": "Apaleo describes itself as \"Transform your hospitality business with an open platform. Easily connect 3rd party applications to build a best-in-class tech stack for your hotel\". No partner programme type could be identified; 13 conventional partner paths were checked and none returned a partner page. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "Apaleo describes itself as \"Transform your hospitality business with an open platform. Easily connect 3rd party applications to build a best-in-class tech stack for your hotel\". No partner programme type could be identified, although 1 partner page did return content. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "under_observed",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
     "reasons": [
-      "No distinct partner claim was retrieved. This reflects what the company publishes, not its suitability."
+      "No distinct partner claim could be extracted. This may mean the company publishes little, or that we could not read what it publishes — it says nothing about suitability."
     ],
     "diagnostics": {
       "observationCount": 0,
