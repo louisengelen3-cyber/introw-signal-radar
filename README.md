@@ -39,6 +39,7 @@ Dossiers are real observations, not fixtures. Rebuilding them makes live HTTP re
 ```bash
 npx tsx product/build-dossiers.ts product/validation-sample.v1.json   # research a company list
 npx tsx product/build-dossiers.ts example.com                         # or a single domain
+npx tsx product/build-dossiers.ts --jobs example.com                  # + read the company's vacancies
 npm run data:site                                                     # split into public/data/
 npm run audit:bias                                                    # publication-bias diagnostic
 ```
@@ -55,6 +56,7 @@ src/category/     what a company SELLS, read only from identity surfaces
 src/dossier/      the dossier model, dedup, attribution, surfaces, programmes, directory
 src/pipeline/     per-company orchestration
 src/temporal/     snapshots and change detection
+src/jobs/         job-posting enrichment: ATS ownership, semantic CRM levels, operational facts
 app/              the web application (routes, components, design tokens)
 product/          data builders, holdout runners, audits
 tests/            unit tests plus executable product invariants
@@ -72,6 +74,7 @@ These are measured, not estimated, and the app publishes them on its own Data he
 | Public person evidence | 2 of 18 companies. Not viable; the pipeline does not attempt it. |
 | Temporal | Baseline only. Change detection has a 0% false-positive floor but needs elapsed calendar time. |
 | Client-side rendering | A partner page that renders in JavaScript reads as empty. |
+| Job enrichment | A supported ATS board was attributable for 13 of 59 companies (22%). Where a board was readable, CRM evidence was established for 4 of 13. |
 | Fundamental | The system reads partner web *pages*, not partner *programmes*. A dormant programme keeps its marketing page. |
 
 Human review decisions are stored in `localStorage` only. There is no backend and no CRM

@@ -124,3 +124,31 @@ and says so. New dossiers are generated from the command line.
   screenshots; the browser tooling available would not resize the window.
 - **No real seller has used it.** Every validation number comes from language models
   substituting for sellers. That is the largest weakness and the next test should replace it.
+
+---
+
+## Job-posting enrichment (added 24 Aug 2026)
+
+A bounded layer that reads a researched company's own current vacancies for operational
+evidence. It is not a discovery mechanism and runs only behind `--jobs`.
+
+**Demo additions**, slot after step 10:
+
+- **Aircall** → Systems. The CRM panel shows a genuine conflict: a HubSpot artifact on the
+  website, and **Salesforce confirmed from two current vacancies** — *"Keeping your pipeline
+  and activities up to date in Salesforce"* (BDR, DACH) and *"a trustworthy single source of
+  truth (Salesforce and the broader GTM stack)"* (Director, Revenue Operations). Each links to
+  the live Greenhouse posting. Read the panel text aloud: *a company may legitimately run
+  several, so neither observation is discarded — this is for you to resolve, not the machine.*
+- **Aikido** → *From current job adverts*. Deal registration and a partner platform, both from
+  the same line in a Channel Business Manager advert: *"Track KPIs, deal registration, and
+  pipeline health in CRM/PRM"*. Then point at **Partner role being recruited**, whose
+  `Does not prove` reads *"that a partner team already exists, how large it is, or that the
+  company is evaluating any software"* — the layer refuses to turn hiring into intent.
+- **GetAccept** → the CRM panel reads **“Supporting evidence only”** in amber, from one website
+  artifact. This is the distinction the layer exists to make, and it is stated in words rather
+  than only in colour.
+
+**What it deliberately does not do:** touch the three constructs, evidence coverage, or the
+machine interpretation. A company that publishes more vacancies does not become a better
+prospect, and no machine reason may cite hiring.
