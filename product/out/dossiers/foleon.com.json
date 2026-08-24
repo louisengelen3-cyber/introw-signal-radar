@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.foleon.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T17:57:58.538Z",
+  "builtAt": "2026-08-24T19:37:25.033Z",
   "oldestEvidenceAt": "2026-08-24T07:35:31.379Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -182,6 +182,70 @@
     "redundant": true,
     "stoppedBecause": "nothing_found"
   },
+  "crmForensics": {
+    "company": "foleon.com",
+    "vendors": [
+      {
+        "vendor": "HubSpot",
+        "level": "strong_supporting",
+        "basis": {
+          "company": "foleon.com",
+          "vendor": "HubSpot",
+          "sourceType": "website_fingerprint",
+          "languageBasis": "fingerprint",
+          "quote": "js.hsforms.net",
+          "sourceUrl": "https://foleon.com/",
+          "observedAt": "2026-08-24T19:37:25.033Z",
+          "sourcePublishedAt": null,
+          "jobTitle": null,
+          "rule": "website_artifact",
+          "proves": "an artifact belonging to this vendor is served from the company’s website",
+          "doesNotProve": "which of the vendor’s products is licensed, or that sales runs on it"
+        },
+        "observations": [
+          {
+            "company": "foleon.com",
+            "vendor": "HubSpot",
+            "sourceType": "website_fingerprint",
+            "languageBasis": "fingerprint",
+            "quote": "js.hsforms.net",
+            "sourceUrl": "https://foleon.com/",
+            "observedAt": "2026-08-24T19:37:25.033Z",
+            "sourcePublishedAt": null,
+            "jobTitle": null,
+            "rule": "website_artifact",
+            "proves": "an artifact belonging to this vendor is served from the company’s website",
+            "doesNotProve": "which of the vendor’s products is licensed, or that sales runs on it"
+          }
+        ],
+        "timeline": [],
+        "rationale": "Supporting evidence only — fingerprint. Nothing establishes that the company itself operates on HubSpot."
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": true,
+      "vacanciesRead": 3,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 3,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 21,
+      "jobsInspected": 3
+    },
+    "note": "3 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "familiesObserved": {
+      "other": 1
+    },
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0
+  },
   "partnerDirectory": {
     "isDirectory": true,
     "lowerBound": 82,
@@ -200,11 +264,11 @@
     "sourceUrl": "https://www.foleon.com/partners",
     "evidenceQuote": "Our Partners – Foleon --> Foleon certified partners Creative organizations that excel in producing first-class interactive content All locations All languages All service types All use cases Tag Agency Each agency in the tag network is uniquely positioned and",
     "observation": {
-      "id": "o204",
+      "id": "o112",
       "quote": "Our Partners – Foleon --> Foleon certified partners Creative organizations that excel in producing first-class interactive content All locations All languages All service types All use cases Tag Agency Each agency in the tag network is uniquely positioned and",
       "sourceUrl": "https://www.foleon.com/partners",
       "sourceType": "partner_directory",
-      "retrievedAt": "2026-08-24T17:57:58.538Z",
+      "retrievedAt": "2026-08-24T19:37:25.033Z",
       "strength": "confirmed",
       "proves": "the company publicly lists at least 82 partner organisations",
       "doesNotProve": "the true number of partners, that they transact, or that the list is current — a directory is a lower bound and usually a filtered view"
@@ -227,12 +291,12 @@
                 "detail": "Website artifact",
                 "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
                 "doesNotProve": "that opportunities and partner deals are managed there",
-                "observedAt": "2026-08-24T17:57:58.538Z"
+                "observedAt": "2026-08-24T19:37:25.033Z"
               }
             ],
             "jobVacancies": 0,
             "hasFingerprint": true,
-            "lastObservedAt": "2026-08-24T17:57:58.538Z"
+            "lastObservedAt": "2026-08-24T19:37:25.033Z"
           }
         ],
         "primary": {
@@ -247,12 +311,12 @@
               "detail": "Website artifact",
               "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
               "doesNotProve": "that opportunities and partner deals are managed there",
-              "observedAt": "2026-08-24T17:57:58.538Z"
+              "observedAt": "2026-08-24T19:37:25.033Z"
             }
           ],
           "jobVacancies": 0,
           "hasFingerprint": true,
-          "lastObservedAt": "2026-08-24T17:57:58.538Z"
+          "lastObservedAt": "2026-08-24T19:37:25.033Z"
         },
         "conflict": null,
         "sourcesChecked": {
@@ -264,11 +328,11 @@
       },
       "evidence": [
         {
-          "id": "o203",
+          "id": "o111",
           "quote": "js.hsforms.net",
           "sourceUrl": "https://foleon.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T17:57:58.538Z",
+          "retrievedAt": "2026-08-24T19:37:25.033Z",
           "strength": "confirmed",
           "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
           "doesNotProve": "that opportunities and partner deals are managed there"
@@ -290,8 +354,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T17:57:58.538Z",
-    "lastCheckedAt": "2026-08-24T17:57:58.538Z",
+    "baselineAt": "2026-08-24T19:37:25.033Z",
+    "lastCheckedAt": "2026-08-24T19:37:25.033Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

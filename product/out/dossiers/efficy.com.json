@@ -3,8 +3,8 @@
   "companyName": null,
   "selfDescription": null,
   "geography": null,
-  "builtAt": "2026-08-24T17:57:15.684Z",
-  "oldestEvidenceAt": "2026-08-24T17:57:15.684Z",
+  "builtAt": "2026-08-24T19:37:19.626Z",
+  "oldestEvidenceAt": "2026-08-24T19:37:19.626Z",
   "category": {
     "whyItMatters": "No identity-bearing surface could be read, so the company category is not established.",
     "whyItMayNotMatter": "This says nothing about the company — only about our retrieval.",
@@ -140,6 +140,29 @@
     }
   ],
   "recovery": null,
+  "crmForensics": {
+    "company": "efficy.com",
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 10,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 9,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 25,
+      "jobsInspected": 10
+    },
+    "note": "10 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -181,8 +204,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T17:57:15.684Z",
-    "lastCheckedAt": "2026-08-24T17:57:15.684Z",
+    "baselineAt": "2026-08-24T19:37:19.626Z",
+    "lastCheckedAt": "2026-08-24T19:37:19.626Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

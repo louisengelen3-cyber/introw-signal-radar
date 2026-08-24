@@ -6,7 +6,7 @@
     "sourceUrl": "https://glovoapp.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T17:58:39.822Z",
+  "builtAt": "2026-08-24T19:37:35.165Z",
   "oldestEvidenceAt": "2026-08-24T07:16:23.377Z",
   "category": {
     "whyItMatters": "The company's \"partners\" appear to be supply — restaurants, drivers, hosts, properties — rather than a route to market for its own product.",
@@ -172,6 +172,29 @@
     "redundant": true,
     "stoppedBecause": "nothing_found"
   },
+  "crmForensics": {
+    "company": "glovoapp.com",
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 3,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 3,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 17,
+      "jobsInspected": 3
+    },
+    "note": "3 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -213,8 +236,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T17:58:39.822Z",
-    "lastCheckedAt": "2026-08-24T17:58:39.822Z",
+    "baselineAt": "2026-08-24T19:37:35.165Z",
+    "lastCheckedAt": "2026-08-24T19:37:35.165Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

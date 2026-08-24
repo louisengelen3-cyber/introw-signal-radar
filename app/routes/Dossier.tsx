@@ -128,6 +128,96 @@ function SurfaceGrid({ surfaces }: { surfaces: SurfaceFinding[] }) {
  * read like "Confirmed", because the difference is whether the company said it runs the
  * system or merely asked a candidate to know it.
  */
+/**
+ * The forensic CRM layer (§39, §40).
+ *
+ * The rule this component exists to enforce: historical evidence must LOOK historical. A
+ * 2023 vacancy proving a company used Salesforce then is genuinely useful, and rendering it
+ * with the same weight as a live advert would quietly convert "used" into "uses".
+ */
+const FORENSIC_LABEL: Record<string, string> = {
+  confirmed_current: 'Confirmed current',
+  confirmed_recent: 'Confirmed recently',
+  confirmed_historical: 'Confirmed historically',
+  strong_supporting: 'Supporting evidence only',
+  mention_only: 'Named, proves nothing',
+  conflicting: 'Conflicting',
+  unknown: 'Unknown',
+};
+const FORENSIC_TONE: Record<string, Tone> = {
+  confirmed_current: 'verified', confirmed_recent: 'verified', confirmed_historical: 'uncertain',
+  strong_supporting: 'uncertain', mention_only: 'neutral', conflicting: 'uncertain', unknown: 'neutral',
+};
+const SOURCE_LABEL: Record<string, string> = {
+  company_current_vacancy: 'Company careers page',
+  company_ats_vacancy: 'Company ATS board',
+  company_cached_vacancy: 'Cached company vacancy',
+  company_careers_index: 'Careers index (many roles)',
+  company_documentation: 'Company documentation',
+  public_linkedin_job: 'Public LinkedIn job',
+  job_board_reproduction: 'Job board',
+  recruiting_mirror: 'Recruiting mirror',
+  search_snippet: 'Search snippet',
+  website_fingerprint: 'Website artifact',
+};
+/** Month + year is the right precision for evidence dating; a day implies more than we know. */
+const fmtEvidenceDate = (iso: string | null) =>
+  iso ? new Date(iso).toLocaleDateString('en-GB', { month: 'short', year: 'numeric' }) : 'Date unknown';
+
+function CrmForensicPanel({ d }: { d: D }) {
+  const f = (d as any).crmForensics;
+  if (!f || !f.vendors?.length) return null;
+  return (
+    <div className="crm-panel">
+      <p className="lede small">
+        Read from {f.coverage.vacanciesRead} vacanc{f.coverage.vacanciesRead === 1 ? 'y' : 'ies'} across the
+        company&rsquo;s own careers pages{f.coverage.atsBoardFound ? ' and applicant tracking board' : ''}
+        {f.coverage.nonPartnerTitlesRead > 0 ? `, ${f.coverage.nonPartnerTitlesRead} of them in roles unrelated to partnerships` : ''}.
+        A CRM is company infrastructure, so an Account Executive advert is valid evidence about it.
+      </p>
+      {f.conflict && (
+        <p className="crm-conflict">
+          <strong>{f.conflict.kind === 'possible_transition' ? 'A possible CRM transition.' : 'More than one system is evidenced.'}</strong>{' '}
+          {f.conflict.explanation}
+        </p>
+      )}
+      {f.vendors.map((v: any) => (
+        <div key={v.vendor} className={`crm-vendor${/historical/.test(v.level) ? ' crm-historical' : ''}`}>
+          <div className="crm-vendor-head">
+            <span className="crm-vendor-name">{v.vendor}</span>
+            <StateChip label={FORENSIC_LABEL[v.level] ?? humanise(v.level)} tone={FORENSIC_TONE[v.level] ?? 'neutral'} />
+            {v.basis?.jobTitle && <span className="crm-role">{v.basis.jobTitle}</span>}
+            <span className="crm-date">{fmtEvidenceDate(v.basis?.sourcePublishedAt ?? null)}</span>
+          </div>
+          <p className="crm-rationale">{v.rationale}</p>
+          {v.basis && (
+            <ul className="ev-list">
+              <li className="ev">
+                <blockquote className="ev-quote">{v.basis.quote}</blockquote>
+                <div className="ev-meta">
+                  {String(v.basis.sourceUrl).startsWith('http')
+                    ? <a className="ev-src" href={v.basis.sourceUrl} target="_blank" rel="noreferrer">{shortUrl(v.basis.sourceUrl)} ↗</a>
+                    : <span className="ev-src">{v.basis.sourceUrl}</span>}
+                  <span className="ev-sep" aria-hidden="true">·</span>
+                  <span>{SOURCE_LABEL[v.basis.sourceType] ?? humanise(v.basis.sourceType)}</span>
+                  <span className="ev-sep" aria-hidden="true">·</span>
+                  <span>{FORENSIC_LABEL[v.level] ?? v.level}</span>
+                </div>
+                <p className="ev-notprove"><span className="lab">Does not prove</span>{v.basis.doesNotProve}</p>
+              </li>
+            </ul>
+          )}
+          {v.timeline?.length > 1 && (
+            <p className="crm-timeline">
+              Evidence dates: {v.timeline.map((t: any) => `${fmtEvidenceDate(t.date)}`).join(' → ')}
+            </p>
+          )}
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function CrmPanel({ d }: { d: D }) {
   const b = d.systems.crm.bundle;
   if (!b || b.vendors.length === 0) {
@@ -441,9 +531,22 @@ export function DossierView({ domain, onBack, onNext, remaining, onReviewed }: {
 
         <Panel title="Systems and people">
           <dl className="kv">
+            {/*
+              * When the forensic layer ran it SUPERSEDES the legacy panel rather than sitting
+              * beside it. Both were shown briefly and the result was a dossier reading
+              * "HubSpot Confirmed" next to "Salesforce Confirmed current" — the legacy label
+              * being the fingerprint over-claim §20 warns about. The underlying legacy bundle
+              * is still in the dossier JSON, so no evidence is deleted (§26); it is simply not
+              * rendered twice under two contradictory labels.
+              */}
             <dt>CRM</dt>
-            <dd><CrmPanel d={d} /></dd>
-            <dd className="kv-note">{d.systems.crm.note}</dd>
+            {(d as any).crmForensics?.vendors?.length > 0 ? (<>
+              <dd><CrmForensicPanel d={d} /></dd>
+              <dd className="kv-note">{(d as any).crmForensics.note}</dd>
+            </>) : (<>
+              <dd><CrmPanel d={d} /></dd>
+              <dd className="kv-note">{d.systems.crm.note}</dd>
+            </>)}
 
             <dt>Partner platform</dt>
             <dd>

@@ -1,0 +1,380 @@
+[
+ {
+  "domain": "fortinet.com",
+  "label": "VALID_OPERATOR",
+  "note": "MSSP programme, multitenancy, custom portals",
+  "geo": "US/CA",
+  "sector": "cybersecurity",
+  "family": "ENGLISH_MSP_PROGRAM",
+  "lang": "en"
+ },
+ {
+  "domain": "paloaltonetworks.com",
+  "label": "VALID_OPERATOR",
+  "note": "MSSP partner programme (PDF)",
+  "geo": "US/CA",
+  "sector": "cybersecurity",
+  "family": "ENGLISH_MSP_PROGRAM",
+  "lang": "en"
+ },
+ {
+  "domain": "lumen.com",
+  "label": "VALID_OPERATOR",
+  "note": "channel partner programme",
+  "geo": "UK",
+  "sector": "software",
+  "family": "ENGLISH_MSP_PROGRAM",
+  "lang": "en"
+ },
+ {
+  "domain": "expo-e.uk",
+  "label": "VALID_OPERATOR",
+  "note": "reseller partner programme, IT solutions portfolio",
+  "geo": "UK",
+  "sector": "software",
+  "family": "ENGLISH_MSP_PROGRAM",
+  "lang": "en"
+ },
+ {
+  "domain": "bytes.co.uk",
+  "label": "VALID_OPERATOR",
+  "note": "partner programs, 35 years in the UK channel",
+  "geo": "UK",
+  "sector": "software",
+  "family": "ENGLISH_MSP_PROGRAM",
+  "lang": "en"
+ },
+ {
+  "domain": "firstcomeurope.co.uk",
+  "label": "VALID_OPERATOR",
+  "note": "channel partners programme",
+  "geo": "UK",
+  "sector": "software",
+  "family": "ENGLISH_MSP_PROGRAM",
+  "lang": "en"
+ },
+ {
+  "domain": "canonical.com",
+  "label": "VALID_OPERATOR",
+  "note": "channel / reseller programme",
+  "geo": "UK",
+  "sector": "software",
+  "family": "ENGLISH_MSP_PROGRAM",
+  "lang": "en"
+ },
+ {
+  "domain": "cloud.ionos.co.uk",
+  "label": "VALID_OPERATOR",
+  "note": "cloud channel partner programme",
+  "geo": "UK",
+  "sector": "software",
+  "family": "ENGLISH_MSP_PROGRAM",
+  "lang": "en"
+ },
+ {
+  "domain": "heidenhain.com",
+  "label": "VALID_OPERATOR",
+  "note": "HEIDENHAIN Partnerprogramm Automatisierung",
+  "geo": "DACH",
+  "sector": "industrial",
+  "family": "ENGLISH_SYSTEM_INTEGRATOR_PROGRAM",
+  "lang": "de"
+ },
+ {
+  "domain": "3mdeutschland.de",
+  "label": "VALID_OPERATOR",
+  "note": "system integrator network for robot cells",
+  "geo": "DACH",
+  "sector": "industrial",
+  "family": "ENGLISH_SYSTEM_INTEGRATOR_PROGRAM",
+  "lang": "de"
+ },
+ {
+  "domain": "fb-automation.com",
+  "label": "VALID_OPERATOR",
+  "note": "system integrator network, intralogistics",
+  "geo": "DACH",
+  "sector": "industrial",
+  "family": "ENGLISH_SYSTEM_INTEGRATOR_PROGRAM",
+  "lang": "de"
+ },
+ {
+  "domain": "gestan.fr",
+  "label": "VALID_OPERATOR",
+  "note": "three partner categories: prescripteurs, formateurs, développeurs",
+  "geo": "FR",
+  "sector": "software",
+  "family": "FRENCH_REVENDEUR_PROGRAM",
+  "lang": "fr"
+ },
+ {
+  "domain": "ebp.com",
+  "label": "VALID_OPERATOR",
+  "note": "Alliance partner programme with certification",
+  "geo": "FR",
+  "sector": "software",
+  "family": "FRENCH_REVENDEUR_PROGRAM",
+  "lang": "fr"
+ },
+ {
+  "domain": "sage.com",
+  "label": "VALID_OPERATOR",
+  "note": "become a Sage reseller",
+  "geo": "FR",
+  "sector": "software",
+  "family": "FRENCH_REVENDEUR_PROGRAM",
+  "lang": "fr"
+ },
+ {
+  "domain": "start-platform.com",
+  "label": "VALID_OPERATOR",
+  "note": "platform reseller programme",
+  "geo": "FR",
+  "sector": "software",
+  "family": "FRENCH_REVENDEUR_PROGRAM",
+  "lang": "fr"
+ },
+ {
+  "domain": "yesicd.com",
+  "label": "VALID_OPERATOR",
+  "note": "reseller programme with commission per subscription",
+  "geo": "FR",
+  "sector": "software",
+  "family": "FRENCH_REVENDEUR_PROGRAM",
+  "lang": "fr"
+ },
+ {
+  "domain": "datacore.com",
+  "label": "VALID_OPERATOR",
+  "note": "software reseller programme",
+  "geo": "FR",
+  "sector": "software",
+  "family": "FRENCH_REVENDEUR_PROGRAM",
+  "lang": "fr"
+ },
+ {
+  "domain": "ei3.com",
+  "label": "VALID_OPERATOR",
+  "note": "authorised IIoT reseller programme with support and training",
+  "geo": "US/global",
+  "sector": "iot_hardware",
+  "family": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+  "lang": "en"
+ },
+ {
+  "domain": "motorolasolutions.com",
+  "label": "VALID_OPERATOR",
+  "note": "PartnerEmpower reseller programme",
+  "geo": "US/global",
+  "sector": "iot_hardware",
+  "family": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+  "lang": "en"
+ },
+ {
+  "domain": "allthingstalk.com",
+  "label": "VALID_OPERATOR",
+  "note": "IoT reseller programme",
+  "geo": "US/global",
+  "sector": "iot_hardware",
+  "family": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+  "lang": "en"
+ },
+ {
+  "domain": "korewireless.com",
+  "label": "VALID_OPERATOR",
+  "note": "KORE Channels for resellers, VARs and MSPs",
+  "geo": "US/global",
+  "sector": "iot_hardware",
+  "family": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+  "lang": "en"
+ },
+ {
+  "domain": "atomsenses.com",
+  "label": "VALID_OPERATOR",
+  "note": "LoRaWAN partner network, distributor/reseller/technology tracks",
+  "geo": "US/global",
+  "sector": "iot_hardware",
+  "family": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+  "lang": "en"
+ },
+ {
+  "domain": "iotopen.io",
+  "label": "VALID_OPERATOR",
+  "note": "reseller programme for licences and on-prem",
+  "geo": "US/global",
+  "sector": "iot_hardware",
+  "family": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+  "lang": "en"
+ },
+ {
+  "domain": "ositalia.com",
+  "label": "VALID_OPERATOR",
+  "note": "reseller and partner programme for management software",
+  "geo": "IT",
+  "sector": "software",
+  "family": "ITALIAN_RESELLER_OPERATOR",
+  "lang": "it"
+ },
+ {
+  "domain": "softwaresemplice.it",
+  "label": "VALID_OPERATOR",
+  "note": "white-label reseller programme",
+  "geo": "IT",
+  "sector": "software",
+  "family": "ITALIAN_RESELLER_OPERATOR",
+  "lang": "it"
+ },
+ {
+  "domain": "2bit.it",
+  "label": "VALID_OPERATOR",
+  "note": "three partnership programmes",
+  "geo": "IT",
+  "sector": "software",
+  "family": "ITALIAN_RESELLER_OPERATOR",
+  "lang": "it"
+ },
+ {
+  "domain": "stesi.it",
+  "label": "VALID_OPERATOR",
+  "note": "three-tier affiliation system",
+  "geo": "IT",
+  "sector": "software",
+  "family": "ITALIAN_RESELLER_OPERATOR",
+  "lang": "it"
+ },
+ {
+  "domain": "edisoftware.it",
+  "label": "VALID_OPERATOR",
+  "note": "reseller certification programme, pre/post-sale duties",
+  "geo": "IT",
+  "sector": "software",
+  "family": "ITALIAN_RESELLER_OPERATOR",
+  "lang": "it"
+ },
+ {
+  "domain": "giersch.de",
+  "label": "VALID_OPERATOR",
+  "note": "Fachpartner werden: four half-day training blocks, exam, certificate",
+  "geo": "DACH",
+  "sector": "manufacturing",
+  "family": "GERMAN_OPERATOR_FACHPARTNER",
+  "lang": "de"
+ },
+ {
+  "domain": "machineering.de",
+  "label": "VALID_OPERATOR",
+  "note": "new partner programme for iPhysics simulation software",
+  "geo": "DACH",
+  "sector": "manufacturing",
+  "family": "GERMAN_OPERATOR_FACHPARTNER",
+  "lang": "de"
+ },
+ {
+  "domain": "conwex.de",
+  "label": "VALID_OPERATOR",
+  "note": "Maschinenbau Partner network",
+  "geo": "DACH",
+  "sector": "manufacturing",
+  "family": "GERMAN_OPERATOR_FACHPARTNER",
+  "lang": "de"
+ },
+ {
+  "domain": "avast.com",
+  "label": "VALID_OPERATOR",
+  "note": "Avast Business partner programme for MSSPs, resellers, VARs, distributors",
+  "geo": "Benelux",
+  "sector": "software",
+  "family": "DUTCH_VIA_ENGLISH_REACH",
+  "lang": "nl"
+ },
+ {
+  "domain": "appelit.com",
+  "label": "VALID_OPERATOR",
+  "note": "white-label ICT reseller programme, NL and BE offices",
+  "geo": "Benelux",
+  "sector": "software",
+  "family": "DUTCH_VIA_ENGLISH_REACH",
+  "lang": "nl"
+ },
+ {
+  "domain": "vectorsecurity.com",
+  "label": "VALID_OPERATOR",
+  "note": "become a dealer programme",
+  "geo": "US",
+  "sector": "manufacturing",
+  "family": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+  "lang": "en"
+ },
+ {
+  "domain": "allisontransmission.com",
+  "label": "VALID_OPERATOR",
+  "note": "become an Allison authorised dealer, aftermarket channel",
+  "geo": "US",
+  "sector": "manufacturing",
+  "family": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+  "lang": "en"
+ },
+ {
+  "domain": "nordfarm.se",
+  "label": "VALID_OPERATOR",
+  "note": "operates its own nationwide reseller network; all sales, service and parts run through resellers",
+  "geo": "Nordics",
+  "sector": "manufacturing",
+  "family": "SWEDISH_RESELLER_OPERATOR",
+  "lang": "sv"
+ },
+ {
+  "domain": "attachmentwarehouse.eu",
+  "label": "VALID_OPERATOR",
+  "note": "contractor/reseller partner programme with exclusive pricing and joint marketing",
+  "geo": "Nordics",
+  "sector": "manufacturing",
+  "family": "SWEDISH_RESELLER_OPERATOR",
+  "lang": "sv"
+ },
+ {
+  "domain": "myfactory.com",
+  "label": "VALID_OPERATOR",
+  "note": "Vertriebspartner gesucht, ERP/business software",
+  "geo": "DACH",
+  "sector": "software",
+  "family": "GERMAN_OPERATOR_FACHPARTNER",
+  "lang": "de"
+ },
+ {
+  "domain": "saas-partner.de",
+  "label": "VALID_OPERATOR",
+  "note": "SaaS vendor partner programme, 20-50% monthly commission",
+  "geo": "DACH",
+  "sector": "software",
+  "family": "GERMAN_OPERATOR_FACHPARTNER",
+  "lang": "de"
+ },
+ {
+  "domain": "comarch.de",
+  "label": "VALID_OPERATOR",
+  "note": "ERP partner programme across DACH",
+  "geo": "DACH",
+  "sector": "software",
+  "family": "GERMAN_OPERATOR_FACHPARTNER",
+  "lang": "de"
+ },
+ {
+  "domain": "gofilemaker.de",
+  "label": "VALID_OPERATOR",
+  "note": "B2B software sales partner sought",
+  "geo": "DACH",
+  "sector": "software",
+  "family": "GERMAN_OPERATOR_FACHPARTNER",
+  "lang": "de"
+ },
+ {
+  "domain": "apicbase.com",
+  "label": "VALID_OPERATOR_VIA_DIRECTORY",
+  "note": "seeking DACH sales partners with recurring revenue — surfaced through a third-party pinboard, so identity is counterparty-sourced (§9 lower entity confidence)",
+  "geo": "DACH",
+  "sector": "software",
+  "family": "GERMAN_OPERATOR_FACHPARTNER",
+  "lang": "de"
+ }
+]

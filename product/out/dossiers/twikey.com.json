@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.twikey.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T17:58:01.311Z",
+  "builtAt": "2026-08-24T19:37:26.943Z",
   "oldestEvidenceAt": "2026-08-24T07:35:26.251Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -59,11 +59,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o125",
+          "id": "o127",
           "quote": "Contact us if you would like to become a partner or integrator!",
           "sourceUrl": "https://www.twikey.com/partners.html",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:01.311Z",
+          "retrievedAt": "2026-08-24T19:37:26.943Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -89,11 +89,11 @@
       "state": "light",
       "evidence": [
         {
-          "id": "o126",
+          "id": "o128",
           "quote": "relationship No discussions No more administration Faster payout Twikey - Microsoft Dynamics 365 Business Central How it works 1",
           "sourceUrl": "https://www.twikey.com/partner/businesscentral.html",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:01.311Z",
+          "retrievedAt": "2026-08-24T19:37:26.943Z",
           "strength": "strong_proxy",
           "proves": "the company pays partners for commercial outcomes",
           "doesNotProve": "the size of the payments or how they are calculated",
@@ -122,11 +122,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o127",
+          "id": "o129",
           "quote": "Contact us if you would like to become a partner or integrator!",
           "sourceUrl": "https://www.twikey.com/partners.html",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:01.311Z",
+          "retrievedAt": "2026-08-24T19:37:26.943Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -134,11 +134,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o128",
+          "id": "o130",
           "quote": "If you would like to become a partner, contact us now! Offer more smart and efficient payment solutions All payment methods and Payment Service",
           "sourceUrl": "https://www.twikey.com/partnerpage.html",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:01.311Z",
+          "retrievedAt": "2026-08-24T19:37:26.943Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -236,6 +236,29 @@
     "redundant": true,
     "stoppedBecause": "nothing_found"
   },
+  "crmForensics": {
+    "company": "twikey.com",
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 10,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 10,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 18,
+      "jobsInspected": 10
+    },
+    "note": "10 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -277,8 +300,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T17:58:01.311Z",
-    "lastCheckedAt": "2026-08-24T17:58:01.311Z",
+    "baselineAt": "2026-08-24T19:37:26.943Z",
+    "lastCheckedAt": "2026-08-24T19:37:26.943Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

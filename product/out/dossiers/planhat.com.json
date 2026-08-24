@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.planhat.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T17:57:13.997Z",
+  "builtAt": "2026-08-24T19:37:18.231Z",
   "oldestEvidenceAt": "2026-08-24T07:33:14.188Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -42,11 +42,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o25",
+          "id": "o23",
           "quote": "As an IT Services Partner, you'll get co-sell support, joint pipeline opportunities, and a platform built for",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:57:13.997Z",
+          "retrievedAt": "2026-08-24T19:37:18.231Z",
           "strength": "confirmed",
           "proves": "the company describes partners selling or reselling its product",
           "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -54,11 +54,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o26",
+          "id": "o24",
           "quote": "In return, you'll grow your Planhat expertise, win new business, and expand what you can offer.",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:57:13.997Z",
+          "retrievedAt": "2026-08-24T19:37:18.231Z",
           "strength": "confirmed",
           "proves": "the company describes partners bringing it leads, deals or customers",
           "doesNotProve": "the number of deals, or that a process exists to handle them",
@@ -84,11 +84,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o27",
+          "id": "o25",
           "quote": "Planhat | Partner with Us partners We’re stronger together We work with software providers,",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:57:13.997Z",
+          "retrievedAt": "2026-08-24T19:37:18.231Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -96,11 +96,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o28",
+          "id": "o26",
           "quote": "Solution Partners Deliver consulting services — business insight, data mapping,",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:57:13.997Z",
+          "retrievedAt": "2026-08-24T19:37:18.231Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -145,11 +145,11 @@
       "publishedName": null,
       "evidence": [
         {
-          "id": "o51",
+          "id": "o27",
           "quote": "Trade vocabulary for a solution partner motion found on a partner surface recovered from www.planhat.com.",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:57:13.997Z",
+          "retrievedAt": "2026-08-24T19:37:18.231Z",
           "strength": "strong_proxy",
           "proves": "the company uses solution partner trade vocabulary about itself on a page base research did not reach",
           "doesNotProve": "that the programme is active, staffed or material, nor that the company operates rather than participates in the network"
@@ -164,11 +164,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o52",
+          "id": "o28",
           "quote": "Planhat | Partner with Us partners We’re stronger together We work with software providers, consultants, and investors to help",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:57:13.997Z",
+          "retrievedAt": "2026-08-24T19:37:18.231Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -217,11 +217,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o53",
+          "id": "o29",
           "quote": "As an IT Services Partner, you'll get co-sell support, joint pipeline opportunities, and a platform built for scale.",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:57:13.997Z",
+          "retrievedAt": "2026-08-24T19:37:18.231Z",
           "strength": "strong_proxy",
           "proves": "the company describes selling alongside partners",
           "doesNotProve": "that co-selling is systematised",
@@ -277,6 +277,134 @@
     "redundant": false,
     "stoppedBecause": "sufficient"
   },
+  "crmForensics": {
+    "company": "planhat.com",
+    "vendors": [
+      {
+        "vendor": "Salesforce",
+        "level": "strong_supporting",
+        "basis": {
+          "company": "planhat.com",
+          "vendor": "Salesforce",
+          "sourceType": "company_careers_index",
+          "languageBasis": "candidate_experience",
+          "quote": "Salesforce Admin knowledge is a plus Problem solver: you're structured, you like logical challenges, and also know when you're heading down a rabbit hole Trajectory We are one of the most versatile teams at Planhat.",
+          "sourceUrl": "https://www.planhat.com/careers/5005200d-5070-478f-871b-52bda7fbb246",
+          "observedAt": "2026-08-24T19:37:18.231Z",
+          "sourcePublishedAt": null,
+          "jobTitle": null,
+          "rule": "candidate_requirement",
+          "proves": "the company asks candidates for experience with this CRM",
+          "doesNotProve": "that the company runs this CRM — asking for a skill is not using the tool"
+        },
+        "observations": [
+          {
+            "company": "planhat.com",
+            "vendor": "Salesforce",
+            "sourceType": "company_careers_index",
+            "languageBasis": "alternatives_list",
+            "quote": "What we're looking for: Experience: 5-10 years administering a CRM (Salesforce, HubSpot, or similar) and a GTM systems stack at a tech company or fast-growing startup.",
+            "sourceUrl": "https://www.planhat.com/careers/7ec4f885-a8ba-44b1-8b10-95997ef5bd11",
+            "observedAt": "2026-08-24T19:37:18.231Z",
+            "sourcePublishedAt": null,
+            "jobTitle": null,
+            "rule": "names_multiple_systems",
+            "proves": "this CRM is named, in language that does not attach it to this company",
+            "doesNotProve": "anything about which CRM this company actually uses"
+          },
+          {
+            "company": "planhat.com",
+            "vendor": "Salesforce",
+            "sourceType": "company_careers_index",
+            "languageBasis": "candidate_experience",
+            "quote": "Salesforce Admin knowledge is a plus Problem solver: you're structured, you like logical challenges, and also know when you're heading down a rabbit hole Trajectory We are one of the most versatile teams at Planhat.",
+            "sourceUrl": "https://www.planhat.com/careers/5005200d-5070-478f-871b-52bda7fbb246",
+            "observedAt": "2026-08-24T19:37:18.231Z",
+            "sourcePublishedAt": null,
+            "jobTitle": null,
+            "rule": "candidate_requirement",
+            "proves": "the company asks candidates for experience with this CRM",
+            "doesNotProve": "that the company runs this CRM — asking for a skill is not using the tool"
+          }
+        ],
+        "timeline": [],
+        "rationale": "Supporting evidence only — candidate experience. Nothing establishes that the company itself operates on Salesforce."
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "mention_only",
+        "basis": {
+          "company": "planhat.com",
+          "vendor": "HubSpot",
+          "sourceType": "company_careers_index",
+          "languageBasis": "alternatives_list",
+          "quote": "What we're looking for: Experience: 5-10 years administering a CRM (Salesforce, HubSpot, or similar) and a GTM systems stack at a tech company or fast-growing startup.",
+          "sourceUrl": "https://www.planhat.com/careers/7ec4f885-a8ba-44b1-8b10-95997ef5bd11",
+          "observedAt": "2026-08-24T19:37:18.231Z",
+          "sourcePublishedAt": null,
+          "jobTitle": null,
+          "rule": "names_multiple_systems",
+          "proves": "this CRM is named, in language that does not attach it to this company",
+          "doesNotProve": "anything about which CRM this company actually uses"
+        },
+        "observations": [
+          {
+            "company": "planhat.com",
+            "vendor": "HubSpot",
+            "sourceType": "company_careers_index",
+            "languageBasis": "alternatives_list",
+            "quote": "What we're looking for: Experience: 5-10 years administering a CRM (Salesforce, HubSpot, or similar) and a GTM systems stack at a tech company or fast-growing startup.",
+            "sourceUrl": "https://www.planhat.com/careers/7ec4f885-a8ba-44b1-8b10-95997ef5bd11",
+            "observedAt": "2026-08-24T19:37:18.231Z",
+            "sourcePublishedAt": null,
+            "jobTitle": null,
+            "rule": "names_multiple_systems",
+            "proves": "this CRM is named, in language that does not attach it to this company",
+            "doesNotProve": "anything about which CRM this company actually uses"
+          },
+          {
+            "company": "planhat.com",
+            "vendor": "HubSpot",
+            "sourceType": "company_careers_index",
+            "languageBasis": "alternatives_list",
+            "quote": "Some of us had a technical background before joining, and experience with tools like Salesforce, Hubspot, Zapier, or Data Warehouses such as Snowflake and BigQuery.",
+            "sourceUrl": "https://www.planhat.com/careers/5005200d-5070-478f-871b-52bda7fbb246",
+            "observedAt": "2026-08-24T19:37:18.231Z",
+            "sourcePublishedAt": null,
+            "jobTitle": null,
+            "rule": "names_multiple_systems",
+            "proves": "this CRM is named, in language that does not attach it to this company",
+            "doesNotProve": "anything about which CRM this company actually uses"
+          }
+        ],
+        "timeline": [],
+        "rationale": "Named, but only in language that proves nothing about this company (alternatives list)."
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 12,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 12,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "company_careers_index"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 18,
+      "jobsInspected": 12
+    },
+    "note": "12 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "familiesObserved": {
+      "other": 4
+    },
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -318,8 +446,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T17:57:13.997Z",
-    "lastCheckedAt": "2026-08-24T17:57:13.997Z",
+    "baselineAt": "2026-08-24T19:37:18.231Z",
+    "lastCheckedAt": "2026-08-24T19:37:18.231Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.kiflo.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T17:58:14.668Z",
+  "builtAt": "2026-08-24T19:37:29.450Z",
   "oldestEvidenceAt": "2026-08-23T08:48:52.121Z",
   "category": {
     "whyItMatters": "The company appears on the maintained competitor list AND positions its own product as partner management.",
@@ -102,11 +102,11 @@
       "publishedName": null,
       "evidence": [
         {
-          "id": "o156",
+          "id": "o154",
           "quote": "Trade vocabulary for a solution partner motion found on a partner surface recovered from www.kiflo.com.",
           "sourceUrl": "https://www.kiflo.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:14.668Z",
+          "retrievedAt": "2026-08-24T19:37:29.450Z",
           "strength": "strong_proxy",
           "proves": "the company uses solution partner trade vocabulary about itself on a page base research did not reach",
           "doesNotProve": "that the programme is active, staffed or material, nor that the company operates rather than participates in the network"
@@ -216,6 +216,29 @@
     "redundant": false,
     "stoppedBecause": "sufficient"
   },
+  "crmForensics": {
+    "company": "kiflo.com",
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 0
+    },
+    "note": "No source could be read, so nothing was established. This is not evidence that the company has no CRM.",
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -257,8 +280,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T17:58:14.668Z",
-    "lastCheckedAt": "2026-08-24T17:58:14.668Z",
+    "baselineAt": "2026-08-24T19:37:29.450Z",
+    "lastCheckedAt": "2026-08-24T19:37:29.450Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -342,9 +365,9 @@
       "status": 200
     },
     {
-      "url": "https://partners.kiflo.com/",
-      "health": "success",
-      "status": 200
+      "url": "https://partner.kiflo.com/",
+      "health": "not_found",
+      "status": 404
     },
     {
       "url": "https://www.kiflo.com/glossary/distribution-partnerships",
@@ -442,7 +465,7 @@
       "constructEvidenceCount": 0,
       "supportingFindingCount": 1,
       "volumeSensitive": false,
-      "unattributableDropped": 9
+      "unattributableDropped": 10
     }
   },
   "humanReview": null,

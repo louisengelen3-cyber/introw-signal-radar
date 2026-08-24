@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.datadoghq.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T17:58:31.509Z",
+  "builtAt": "2026-08-24T19:37:33.729Z",
   "oldestEvidenceAt": "2026-08-23T07:46:21.999Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -93,67 +93,67 @@
   "surfaces": [
     {
       "surface": "partner_recruitment",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "application",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "onboarding",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "enablement",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "certification",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "lead_submission",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "referral_submission",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "deal_registration",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "co_selling",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "portal",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "partner_pipeline",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "programme_tiers",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     },
     {
       "surface": "partner_resources",
-      "state": "unknown",
+      "state": "not_observed",
       "evidence": []
     }
   ],
@@ -184,6 +184,29 @@
     ],
     "redundant": true,
     "stoppedBecause": "nothing_found"
+  },
+  "crmForensics": {
+    "company": "datadoghq.com",
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 3,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 3,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 3
+    },
+    "note": "3 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0
   },
   "partnerDirectory": {
     "isDirectory": false,
@@ -226,8 +249,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T17:58:31.509Z",
-    "lastCheckedAt": "2026-08-24T17:58:31.509Z",
+    "baselineAt": "2026-08-24T19:37:33.729Z",
+    "lastCheckedAt": "2026-08-24T19:37:33.729Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -286,37 +309,32 @@
       "status": 200
     },
     {
-      "url": "https://partner.datadoghq.com/",
+      "url": "https://deals.datadoghq.com/",
       "health": "not_found",
       "status": 401
     },
     {
-      "url": "https://dealreg.datadoghq.com/",
+      "url": "https://installers.datadoghq.com/",
       "health": "not_found",
       "status": 401
     },
     {
-      "url": "https://dealer.datadoghq.com/",
+      "url": "https://resellers.datadoghq.com/",
       "health": "not_found",
       "status": 401
     },
     {
-      "url": "https://dealers.datadoghq.com/",
-      "health": "not_found",
-      "status": 401
-    },
-    {
-      "url": "https://channel.datadoghq.com/",
-      "health": "not_found",
-      "status": 401
-    },
-    {
-      "url": "https://ecosystem.datadoghq.com/",
-      "health": "not_found",
-      "status": 401
+      "url": "https://www.datadoghq.com/free-datadog-trial/partner/",
+      "health": "success",
+      "status": 200
     },
     {
       "url": "https://www.datadoghq.com/resources/technology-partner-program-guide/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.datadoghq.com/partner/awssecurity2026-apac-mobile/",
       "health": "success",
       "status": 200
     },
@@ -386,7 +404,7 @@
       "status": 200
     }
   ],
-  "commercialSummary": "This company describes itself as \"See metrics from all of your apps, tools & services in one place with Datadog’s cloud monitoring as a service solution. Try it for free\". No partner programme type could be identified, although 2 partner pages did return content. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "This company describes itself as \"See metrics from all of your apps, tools & services in one place with Datadog’s cloud monitoring as a service solution. Try it for free\". No partner programme type could be identified, although 4 partner pages did return content. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "under_observed",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",

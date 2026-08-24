@@ -19,6 +19,7 @@ import { scanSurfaces, SURFACE_DEFS } from './surfaces.js';
 import { detectProgrammes } from './programmes.js';
 import { detectDirectory, NO_DIRECTORY } from './directory.js';
 import { mergeRecovery, shouldAttemptRecovery, type RecoveryContribution } from '../recovery/union.js';
+import { researchCrm, type CrmResearchResult } from '../crm/research.js';
 import { isContentPath, isPartnerSource, isReadableQuote, partitionAttributable } from './attribution.js';
 import { enrichWithJobs, summariseCrm } from '../jobs/enrich.js';
 import { buildCrmBundle, type FingerprintInput } from '../jobs/bundle.js';
@@ -55,6 +56,15 @@ export interface BuildOptions {
    * so a well-observed company costs nothing extra.
    */
   recovery?: boolean;
+  /**
+   * Run the CRM forensic layer: ATS boards, the company's own careers pages, historical
+   * vacancies and website fingerprints, resolved with explicit temporal semantics.
+   *
+   * Off by default and gated by CRM_FORENSICS_ENABLED in production. It reads ordinary
+   * commercial vacancies — an Account Executive advert is valid CRM evidence — and it is
+   * never restricted to partnership titles.
+   */
+  crmForensics?: boolean;
 }
 
 export async function buildDossier(domain: string, opts: BuildOptions = {}): Promise<Dossier> {
@@ -211,6 +221,12 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
     } catch { recovery = null; }   // recovery failing must never fail a dossier
   }
 
+  /* ── CRM forensics (§6) ────────────────────────────────────────────────
+   * Additive, like recovery: it produces its own evidence object and never overwrites the
+   * existing `systems.crm` bundle, so a reader can compare what each layer established.
+   */
+  let crmForensics: CrmResearchResult | null = null;
+
   const scan = scanSurfaces(attributablePages);
   scan.hits = scan.hits.filter((h) => isReadableQuote(h.quote));
   const surfaces: SurfaceFinding[] = SURFACE_DEFS.map((def) => {
@@ -270,6 +286,15 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
   // catches deployments DNS cannot see.
   const prmText = detectPrmInText(attributablePages, isPartnerSource as (u: string) => boolean);
   const competitorNamed = prmText.filter((h) => h.vendor !== 'Introw');
+
+  if (opts.crmForensics) {
+    try {
+      const fps = (crmBundle.vendors ?? []).flatMap((v: any) =>
+        (v.sources ?? []).filter((x: any) => x.kind === 'website_fingerprint')
+          .map((x: any) => ({ vendor: v.vendor, quote: x.quote ?? '', sourceUrl: x.sourceUrl ?? `https://${bare}/` })));
+      crmForensics = await researchCrm(bare, { requestBudget: 40, fingerprints: fps, now: builtAt });
+    } catch { crmForensics = null; }   // CRM research failing must never fail a dossier
+  }
 
   const systems: SystemsPanel = {
     crm: {
@@ -417,6 +442,7 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
     constructs, programmes,
     surfaces,
     recovery,
+    crmForensics,
     jobEvidence: opts.jobs ? jobEvidence : undefined,
     partnerDirectory: {
       ...directory,

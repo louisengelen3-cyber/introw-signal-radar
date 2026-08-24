@@ -1,0 +1,169 @@
+{
+  "passed": 20,
+  "total": 20,
+  "rows": [
+    {
+      "id": "poss-current-ats",
+      "pass": true,
+      "expected": "Salesforce/confirmed_current",
+      "actual": "Salesforce/confirmed_current",
+      "why": "§17 possession, §13 current date, trusted source",
+      "quote": "You will own and administer our Salesforce instance, keeping opportuni"
+    },
+    {
+      "id": "duty-current-ae",
+      "pass": true,
+      "expected": "Salesforce/confirmed_current",
+      "actual": "Salesforce/confirmed_current",
+      "why": "§7/§42 a plain AE vacancy is valid CRM evidence; operational duty is decisive",
+      "quote": "Maintain accurate pipeline and opportunity data in Salesforce througho"
+    },
+    {
+      "id": "duty-revops-hubspot",
+      "pass": true,
+      "expected": "HubSpot/confirmed_current",
+      "actual": "HubSpot/confirmed_current",
+      "why": "§7 RevOps possession is the strongest job signal",
+      "quote": "Own HubSpot administration, including workflows, lifecycle stages and "
+    },
+    {
+      "id": "duty-cs-hubspot",
+      "pass": true,
+      "expected": "HubSpot/confirmed_current",
+      "actual": "HubSpot/confirmed_current",
+      "why": "§42 non-partner, non-sales title must be able to confirm",
+      "quote": "Log every customer interaction in HubSpot so the account team has one "
+    },
+    {
+      "id": "duty-mktops-dynamics",
+      "pass": true,
+      "expected": "Microsoft Dynamics/confirmed_current",
+      "actual": "Microsoft Dynamics/confirmed_current",
+      "why": "§11 other CRMs matter; §17 possession",
+      "quote": "You will maintain campaign and lead records in our Dynamics 365 enviro"
+    },
+    {
+      "id": "recent-boundary",
+      "pass": true,
+      "expected": "Pipedrive/confirmed_recent",
+      "actual": "Pipedrive/confirmed_recent",
+      "why": "§14 strong but beyond current window",
+      "quote": "Administer our Pipedrive CRM and keep the deal pipeline clean."
+    },
+    {
+      "id": "historical-2023",
+      "pass": true,
+      "expected": "Salesforce/confirmed_historical",
+      "actual": "Salesforce/confirmed_historical",
+      "why": "§15 proves usage at that time only — must NOT become current",
+      "quote": "You will manage all opportunities in Salesforce and report weekly on p"
+    },
+    {
+      "id": "experience-only",
+      "pass": true,
+      "expected": "Salesforce/strong_supporting",
+      "actual": "Salesforce/strong_supporting",
+      "why": "§17 candidate experience never establishes possession",
+      "quote": "Experience with Salesforce is preferred, and you are comfortable in a "
+    },
+    {
+      "id": "alternatives-two",
+      "pass": true,
+      "expected": "ANY/mention_only",
+      "actual": "HubSpot+Salesforce/mention_only+mention_only",
+      "why": "§18 names two competing systems and proves neither",
+      "quote": "Experience with Salesforce, HubSpot or a similar CRM is required."
+    },
+    {
+      "id": "alternatives-list",
+      "pass": true,
+      "expected": "ANY/mention_only",
+      "actual": "HubSpot+Salesforce+Pipedrive+Zoho/mention_only+mention_only+mention_only+mention_only",
+      "why": "§18 category example list",
+      "quote": "Familiarity with tools such as Salesforce, HubSpot, Pipedrive or Zoho."
+    },
+    {
+      "id": "customer-integration",
+      "pass": true,
+      "expected": "ANY/mention_only",
+      "actual": "HubSpot+Salesforce/mention_only+mention_only",
+      "why": "§19 product integration is not internal use — the classic false positive",
+      "quote": "Our platform integrates natively with Salesforce and HubSpot so custom"
+    },
+    {
+      "id": "snippet-cannot-confirm",
+      "pass": true,
+      "expected": "Salesforce/strong_supporting",
+      "actual": "Salesforce/strong_supporting",
+      "why": "§45 a snippet alone should rarely establish CONFIRMED_CURRENT",
+      "quote": "… manage our Salesforce pipeline and forecast …"
+    },
+    {
+      "id": "fingerprint-not-saleshub",
+      "pass": true,
+      "expected": "HubSpot/strong_supporting",
+      "actual": "HubSpot/strong_supporting",
+      "why": "§20 a tracking artifact does not prove Sales Hub",
+      "quote": "js.hsforms.net"
+    },
+    {
+      "id": "mirror-single-source",
+      "pass": true,
+      "expected": "HubSpot/confirmed_recent",
+      "actual": "HubSpot/confirmed_recent",
+      "why": "§45 mirror is low trust; §47 single low-trust source triggers a self-audit downgrade from current",
+      "quote": "You will own our HubSpot CRM and its reporting."
+    },
+    {
+      "id": "undated-mirror",
+      "pass": true,
+      "expected": "Salesforce/strong_supporting",
+      "actual": "Salesforce/strong_supporting",
+      "why": "§46 undated non-live source must not be presented as current; audit downgrades further",
+      "quote": "Maintain opportunities in Salesforce."
+    },
+    {
+      "id": "undated-live-board",
+      "pass": true,
+      "expected": "HubSpot/confirmed_current",
+      "actual": "HubSpot/confirmed_current",
+      "why": "A live board advert is current by being served, even undated",
+      "quote": "Own our HubSpot instance and keep deal stages accurate."
+    },
+    {
+      "id": "dynamics-false-friend",
+      "pass": true,
+      "expected": "NONE/unknown",
+      "actual": "NONE/unknown",
+      "why": "Bare 'dynamics' must never match Microsoft Dynamics",
+      "quote": "You understand the dynamics of selling a complex platform to enterpris"
+    },
+    {
+      "id": "generic-crm-no-vendor",
+      "pass": true,
+      "expected": "NONE/unknown",
+      "actual": "NONE/unknown",
+      "why": "Generic CRM language names no vendor; must stay unknown, not guess",
+      "quote": "You will keep the CRM up to date and report on pipeline weekly."
+    },
+    {
+      "id": "zoho-possession",
+      "pass": true,
+      "expected": "Zoho/confirmed_current",
+      "actual": "Zoho/confirmed_current",
+      "why": "Dutch possession must work; European boards post in local languages",
+      "quote": "Beheer onze Zoho CRM en houd de pipeline actueel."
+    },
+    {
+      "id": "german-possession",
+      "pass": true,
+      "expected": "Salesforce/confirmed_current",
+      "actual": "Salesforce/confirmed_current",
+      "why": "German possession",
+      "quote": "Sie pflegen unsere Salesforce-Instanz und dokumentieren alle Opportuni"
+    }
+  ],
+  "falseConfirm": 0,
+  "overCurrent": 0,
+  "missed": 0
+}

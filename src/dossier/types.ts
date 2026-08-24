@@ -225,6 +225,12 @@ export interface Dossier {
    * (§11) — it records which pages recovery reached, not a separate set of claims.
    */
   recovery?: import('../recovery/union.js').RecoveryContribution | null;
+  /**
+   * CRM forensics: what could be established about this company's CRM from the full public
+   * evidence surface, with explicit temporal semantics. Additive — it never overwrites
+   * `systems.crm`, so the two layers can be compared.
+   */
+  crmForensics?: import('../crm/research.js').CrmResearchResult | null;
   domain: string;
   companyName: string | null;
   /** Verbatim self-description, so the reader sees what the company says it is. */

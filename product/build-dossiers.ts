@@ -8,7 +8,7 @@ import { buildDossier } from '../src/dossier/build.js';
 const OUT = new URL('./out/dossiers/', import.meta.url).pathname;
 mkdirSync(OUT, { recursive: true });
 
-const args = process.argv.slice(2).filter((a) => a !== '--jobs' && a !== '--recovery');
+const args = process.argv.slice(2).filter((a) => a !== '--jobs' && a !== '--recovery' && a !== '--crm');
 /** Opt-in enrichment from the company's own job adverts. Off unless asked for. */
 const useJobs = process.argv.includes('--jobs');
 /**
@@ -16,6 +16,8 @@ const useJobs = process.argv.includes('--jobs');
  * under-observed, so well-observed accounts cost nothing extra. Never replaces base research.
  */
 const useRecovery = process.argv.includes('--recovery');
+/** CRM forensics: ATS + careers pages + historical vacancies + fingerprints, temporally resolved. */
+const useCrm = process.argv.includes('--crm');
 let targets: { domain: string; name?: string }[] = [];
 for (const a of args) {
   if (a.endsWith('.json')) {
@@ -32,7 +34,7 @@ await Promise.all(Array.from({ length: 4 }, async () => {
     const t = targets[i++];
     const started = Date.now();
     try {
-      const d = await buildDossier(t.domain, { name: t.name, jobs: useJobs, recovery: useRecovery });
+      const d = await buildDossier(t.domain, { name: t.name, jobs: useJobs, recovery: useRecovery, crmForensics: useCrm });
       writeFileSync(`${OUT}${t.domain.replace(/[^a-z0-9.]/gi, '_')}.json`, JSON.stringify(d, null, 2));
       all.push(d);
       console.error(
@@ -43,6 +45,7 @@ await Promise.all(Array.from({ length: 4 }, async () => {
         `crm=${d.systems.crm.state.replace('_confirmed', '').padEnd(10)} ` +
         `jobs=${d.jobEvidence ? `${d.jobEvidence.vacanciesUsed}v/${d.jobEvidence.operationalHits.length}f` : '-'} ` +
         `rec=${d.recovery ? (d.recovery.redundant ? 'ran' : `+${d.recovery.addedMotions.length + d.recovery.addedSurfaces.length}`) : '-'} ` +
+        `crm=${d.crmForensics?.vendors?.[0] ? `${d.crmForensics.vendors[0].vendor}/${d.crmForensics.vendors[0].level}` : '-'} ` +
         `${Math.round((Date.now() - started) / 1000)}s`,
       );
     } catch (e) { console.error(`[err] ${t.domain}: ${(e as Error).message}`); }

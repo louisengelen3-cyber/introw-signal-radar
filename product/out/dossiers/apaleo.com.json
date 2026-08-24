@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.apaleo.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T17:57:16.185Z",
+  "builtAt": "2026-08-24T19:37:20.496Z",
   "oldestEvidenceAt": "2026-08-24T07:33:59.645Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -174,6 +174,29 @@
     "redundant": true,
     "stoppedBecause": "nothing_found"
   },
+  "crmForensics": {
+    "company": "apaleo.com",
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": true,
+      "vacanciesRead": 10,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 10,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 27,
+      "jobsInspected": 10
+    },
+    "note": "10 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -215,8 +238,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T17:57:16.185Z",
-    "lastCheckedAt": "2026-08-24T17:57:16.185Z",
+    "baselineAt": "2026-08-24T19:37:20.496Z",
+    "lastCheckedAt": "2026-08-24T19:37:20.496Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

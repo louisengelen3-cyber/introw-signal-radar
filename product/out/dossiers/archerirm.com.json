@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.archerirm.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T17:58:17.112Z",
+  "builtAt": "2026-08-24T19:37:29.796Z",
   "oldestEvidenceAt": "2026-08-21T13:57:33.319Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -59,11 +59,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o152",
+          "id": "o155",
           "quote": "Consulting partners can earn domain Specializations to unlock preferential deal",
           "sourceUrl": "https://www.archerirm.com/archer-partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:17.112Z",
+          "retrievedAt": "2026-08-24T19:37:29.796Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -89,11 +89,11 @@
       "state": "moderate",
       "evidence": [
         {
-          "id": "o153",
+          "id": "o156",
           "quote": "Apply Now Partner Portal About the Archer Velocity Partner Program The Velocity Partner",
           "sourceUrl": "https://www.archerirm.com/archer-partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:17.112Z",
+          "retrievedAt": "2026-08-24T19:37:29.796Z",
           "strength": "strong_proxy",
           "proves": "a partner-specific operational surface exists",
           "doesNotProve": "adoption, or that partners log into it",
@@ -121,11 +121,11 @@
       "publishedName": "Partner Network",
       "evidence": [
         {
-          "id": "o154",
+          "id": "o157",
           "quote": "Value-added Resellers Sell Archer products and services, including new logos, expansions, and renewals, through authorized distributors in your region.",
           "sourceUrl": "https://www.archerirm.com/archer-partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:17.112Z",
+          "retrievedAt": "2026-08-24T19:37:29.796Z",
           "strength": "strong_proxy",
           "proves": "the company uses reseller partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -140,11 +140,11 @@
       "publishedName": "Partner Network",
       "evidence": [
         {
-          "id": "o155",
+          "id": "o158",
           "quote": "EY GLOBAL ALLIANCE Brings leading GRC practices and Archer expertise to help regulated enterprises manage risk and compliance at scale.",
           "sourceUrl": "https://www.archerirm.com/archer-partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:17.112Z",
+          "retrievedAt": "2026-08-24T19:37:29.796Z",
           "strength": "strong_proxy",
           "proves": "the company uses strategic alliance partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -176,11 +176,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o222",
+          "id": "o159",
           "quote": "Development & enablement support Dedicated partner resources, enablement content, and Archer team coordination to accelerate your onboarding and ongoing growth.",
           "sourceUrl": "https://www.archerirm.com/archer-partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:17.112Z",
+          "retrievedAt": "2026-08-24T19:37:29.796Z",
           "strength": "strong_proxy",
           "proves": "material is produced specifically for partners",
           "doesNotProve": "that partners consume it",
@@ -209,11 +209,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o223",
+          "id": "o160",
           "quote": "Resellers benefit from deal registration protection, tier-based pricing discounts, and Partner of Record renewal rights.",
           "sourceUrl": "https://www.archerirm.com/archer-partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:17.112Z",
+          "retrievedAt": "2026-08-24T19:37:29.796Z",
           "strength": "strong_proxy",
           "proves": "the company operates opportunity conflict management with partners",
           "doesNotProve": "the number of deals registered",
@@ -227,11 +227,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o224",
+          "id": "o161",
           "quote": "Consulting partners can earn domain Specializations to unlock preferential deal routing, deeper co-sell support, and additional program benefits.",
           "sourceUrl": "https://www.archerirm.com/archer-partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:17.112Z",
+          "retrievedAt": "2026-08-24T19:37:29.796Z",
           "strength": "strong_proxy",
           "proves": "the company describes selling alongside partners",
           "doesNotProve": "that co-selling is systematised",
@@ -245,11 +245,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o225",
+          "id": "o162",
           "quote": "Apply Now Partner Portal About the Archer Velocity Partner Program The Velocity Partner Program is designed to equip our partners",
           "sourceUrl": "https://www.archerirm.com/archer-partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:17.112Z",
+          "retrievedAt": "2026-08-24T19:37:29.796Z",
           "strength": "strong_proxy",
           "proves": "partners have an authenticated destination",
           "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -289,6 +289,29 @@
     "sourceUrls": [],
     "redundant": true,
     "stoppedBecause": "nothing_found"
+  },
+  "crmForensics": {
+    "company": "archerirm.com",
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 3,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 3,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 3
+    },
+    "note": "3 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0
   },
   "partnerDirectory": {
     "isDirectory": false,
@@ -331,8 +354,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T17:58:17.112Z",
-    "lastCheckedAt": "2026-08-24T17:58:17.112Z",
+    "baselineAt": "2026-08-24T19:37:29.796Z",
+    "lastCheckedAt": "2026-08-24T19:37:29.796Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

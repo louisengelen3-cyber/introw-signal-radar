@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.deloitte.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T17:58:38.078Z",
+  "builtAt": "2026-08-24T19:37:34.613Z",
   "oldestEvidenceAt": "2026-08-21T13:59:36.539Z",
   "category": {
     "whyItMatters": "The company is a professional-services firm; its \"partners\" are frequently equity partners or alliance memberships.",
@@ -198,6 +198,29 @@
     "redundant": true,
     "stoppedBecause": "nothing_found"
   },
+  "crmForensics": {
+    "company": "deloitte.com",
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": true,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 48,
+      "jobsInspected": 40
+    },
+    "note": "No source could be read, so nothing was established. This is not evidence that the company has no CRM.",
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -239,8 +262,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T17:58:38.078Z",
-    "lastCheckedAt": "2026-08-24T17:58:38.078Z",
+    "baselineAt": "2026-08-24T19:37:34.613Z",
+    "lastCheckedAt": "2026-08-24T19:37:34.613Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

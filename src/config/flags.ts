@@ -18,6 +18,8 @@ export interface RadarFlags {
   DISCOVERY_VISIBLE: boolean;
   /** Add the recovery source layer to research. Never replaces base research (§14). */
   RECOVERY_ENABLED: boolean;
+  /** Run CRM forensics: ATS, careers pages, historical vacancies, temporal resolution. */
+  CRM_FORENSICS_ENABLED: boolean;
   /** Query families explicitly disabled, by name. Empty means all validated families run. */
   DISABLED_QUERY_FAMILIES: string[];
 }
@@ -30,6 +32,7 @@ export const DEFAULT_FLAGS: RadarFlags = {
   DISCOVERY_ENABLED: false,
   DISCOVERY_VISIBLE: false,
   RECOVERY_ENABLED: false,
+  CRM_FORENSICS_ENABLED: false,
   DISABLED_QUERY_FAMILIES: [],
 };
 
@@ -46,6 +49,7 @@ export function resolveFlags(env: Record<string, string | undefined> = process.e
     DISCOVERY_ENABLED: truthy(env.DISCOVERY_ENABLED) ?? DEFAULT_FLAGS.DISCOVERY_ENABLED,
     DISCOVERY_VISIBLE: truthy(env.DISCOVERY_VISIBLE) ?? DEFAULT_FLAGS.DISCOVERY_VISIBLE,
     RECOVERY_ENABLED: truthy(env.RECOVERY_ENABLED) ?? DEFAULT_FLAGS.RECOVERY_ENABLED,
+    CRM_FORENSICS_ENABLED: truthy(env.CRM_FORENSICS_ENABLED) ?? DEFAULT_FLAGS.CRM_FORENSICS_ENABLED,
     DISABLED_QUERY_FAMILIES: (env.DISABLED_QUERY_FAMILIES ?? '').split(',').map((s) => s.trim()).filter(Boolean),
   };
 }

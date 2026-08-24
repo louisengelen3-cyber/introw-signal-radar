@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.upsales.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T17:58:01.106Z",
+  "builtAt": "2026-08-24T19:37:26.286Z",
   "oldestEvidenceAt": "2026-08-24T07:35:43.336Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -172,6 +172,29 @@
     "redundant": true,
     "stoppedBecause": "nothing_found"
   },
+  "crmForensics": {
+    "company": "upsales.com",
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 0
+    },
+    "note": "No source could be read, so nothing was established. This is not evidence that the company has no CRM.",
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -213,8 +236,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T17:58:01.106Z",
-    "lastCheckedAt": "2026-08-24T17:58:01.106Z",
+    "baselineAt": "2026-08-24T19:37:26.286Z",
+    "lastCheckedAt": "2026-08-24T19:37:26.286Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

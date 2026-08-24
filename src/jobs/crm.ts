@@ -29,10 +29,10 @@
 
 import type { JobCrmHit, Vacancy } from './types.js';
 
-interface VendorDef { id: string; label: string; re: RegExp }
+export interface VendorDef { id: string; label: string; re: RegExp }
 
 /** Word-boundary matching only. "hubspot.com" in a footer must not read as usage. */
-const VENDORS: VendorDef[] = [
+export const VENDORS: VendorDef[] = [
   { id: 'hubspot', label: 'HubSpot', re: /\bhub\s?spot\b/i },
   { id: 'salesforce', label: 'Salesforce', re: /\bsalesforce\b|\bsfdc\b/i },
   { id: 'pipedrive', label: 'Pipedrive', re: /\bpipedrive\b/i },
@@ -59,6 +59,21 @@ const ALTERNATIVES = [
 ];
 
 /**
+ * The company describing its own PRODUCT's integrations (§19).
+ *
+ * "Our platform integrates with Salesforce" contains "our … Salesforce" and would otherwise
+ * satisfy the possession rule outright. For a SaaS company this sentence appears in a large
+ * share of adverts, and reading it as internal use would confirm a CRM for every vendor whose
+ * connector they ship. The subject of the sentence is the product, not the sales team.
+ */
+const CUSTOMER_INTEGRATION = [
+  /\b(our|the|this)\s+(platform|product|app|application|software|solution|tool|api|integration)\b[^.]{0,80}\b(integrat\w+|connect\w+|sync\w*)\b/i,
+  /\b(integrat\w+|connector|connectors|sync\w*)\b[^.]{0,40}\b(with|to|into)\b[^.]{0,40}\b(VENDOR)\b[^.]{0,60}\b(customers?|clients?|users?)\b/i,
+  /\b(native|two[- ]way|bi[- ]directional|out[- ]of[- ]the[- ]box)\s+(integration|sync)\b/i,
+  /\b(VENDOR)\b\s+(integration|connector|app|marketplace listing)\b/i,
+];
+
+/**
  * The company speaks about a system it possesses. Decisive.
  * Multilingual because European boards routinely post in Dutch, German and French, and a
  * locale-blind rule would simply find nothing and call it unknown.
@@ -68,7 +83,11 @@ const POSSESSION = [
   // The noun must be BOUND to the vendor, not merely nearby. A looser proximity rule matched
   // "…a trustworthy single source of truth (Salesforce and the broader GTM stack)" on the
   // word "stack", which is a property of the GTM stack, not of Salesforce.
-  /\b(VENDOR)[- ](instance|environment|portal|org|tenant|account|setup|admin|crm|instance)\b/i,
+  // `admin` and `crm` are PRODUCT DESCRIPTORS, not possessions: "Salesforce Admin knowledge
+  // is a plus" and "HubSpot CRM experience" describe a skill the candidate should bring.
+  // Because possession is tested before requirement framing, leaving them here confirmed a
+  // CRM from the sentence "Salesforce Admin knowledge is a plus".
+  /\b(VENDOR)[- ](instance|environment|tenant|org|workspace|setup)\b/i,
   // "System of record" and "source of truth" are only ever said about the speaker's own
   // systems, so a vendor named inside that phrase is company evidence however it is worded.
   /\b(system of record|source of truth)\b[^.]{0,60}\b(VENDOR)\b|\b(VENDOR)\b[^.]{0,40}\b(is|as) (our|the) (system of record|source of truth)\b/i,
@@ -133,21 +152,38 @@ export function classifySentence(sentence: string, vendor: VendorDef): SentenceV
   if (named.length >= 2) {
     return { vendor: vendor.id, label: vendor.label, level: 'crm_mention_only', rule: 'names_multiple_systems' };
   }
-  if (ALTERNATIVES.some((re) => re.test(sentence))) {
+  /**
+   * A category marker only makes this vendor an EXAMPLE when the marker introduces it —
+   * "tools such as HubSpot". When the vendor comes first and the marker introduces something
+   * else — "Own HubSpot administration, including workflows and reporting" — the sentence is
+   * about duties, and reading it as a category example threw away the strongest possession
+   * evidence a RevOps advert can carry.
+   */
+  const vendorAt = sentence.search(vendor.re);
+  const before = vendorAt > 0 ? sentence.slice(Math.max(0, vendorAt - 60), vendorAt) : '';
+  if (ALTERNATIVES.some((re) => re.test(before))) {
     return { vendor: vendor.id, label: vendor.label, level: 'crm_mention_only', rule: 'category_example' };
   }
 
-  // 2. The company speaking about a system it possesses. Decisive even inside a requirement.
+  // 2. The company describing what its PRODUCT connects to, not what its team runs on.
+  //    Checked BEFORE possession, because "our platform integrates with X" satisfies both.
+  for (const re of expand(CUSTOMER_INTEGRATION, src)) {
+    if (re.test(sentence)) {
+      return { vendor: vendor.id, label: vendor.label, level: 'crm_mention_only', rule: 'customer_integration' };
+    }
+  }
+
+  // 3. The company speaking about a system it possesses. Decisive even inside a requirement.
   for (const re of expand(POSSESSION, src)) {
     if (re.test(sentence)) return { vendor: vendor.id, label: vendor.label, level: 'crm_confirmed', rule: 'company_possession' };
   }
 
-  // 3. Skills the candidate should bring.
+  // 4. Skills the candidate should bring.
   for (const re of expand(REQUIREMENT, src)) {
     if (re.test(sentence)) return { vendor: vendor.id, label: vendor.label, level: 'crm_supporting_evidence', rule: 'candidate_requirement' };
   }
 
-  // 4. What the hire will do, here.
+  // 5. What the hire will do, here.
   for (const re of expand(OPERATIONAL_DUTY, src)) {
     if (re.test(sentence)) return { vendor: vendor.id, label: vendor.label, level: 'crm_confirmed', rule: 'operational_duty' };
   }
@@ -162,6 +198,7 @@ const PROVES: Record<string, string> = {
   category_example: 'this CRM was named as an example of a category',
   names_multiple_systems: 'the advert names more than one CRM in the same sentence',
   bare_mention: 'this CRM is named somewhere in the advert',
+  customer_integration: 'the company ships or describes an integration with this CRM',
 };
 
 const DOES_NOT_PROVE: Record<string, string> = {
@@ -171,6 +208,7 @@ const DOES_NOT_PROVE: Record<string, string> = {
   category_example: 'anything at all about which CRM this company uses',
   names_multiple_systems: 'which of the named systems, if any, this company actually uses',
   bare_mention: 'that the company uses it operationally',
+  customer_integration: 'that the company uses this CRM internally — shipping a connector says nothing about the vendor\'s own system of record',
 };
 
 export interface CrmScanResult {

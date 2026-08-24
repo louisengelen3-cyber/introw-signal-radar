@@ -3,8 +3,8 @@
   "companyName": null,
   "selfDescription": null,
   "geography": null,
-  "builtAt": "2026-08-24T17:58:37.528Z",
-  "oldestEvidenceAt": "2026-08-24T17:58:37.528Z",
+  "builtAt": "2026-08-24T19:37:34.070Z",
+  "oldestEvidenceAt": "2026-08-24T19:37:34.070Z",
   "category": {
     "whyItMatters": "No identity-bearing surface could be read, so the company category is not established.",
     "whyItMayNotMatter": "This says nothing about the company — only about our retrieval.",
@@ -140,6 +140,29 @@
     }
   ],
   "recovery": null,
+  "crmForensics": {
+    "company": "doordash.com",
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 1,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 1,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 1
+    },
+    "note": "1 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -181,8 +204,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T17:58:37.528Z",
-    "lastCheckedAt": "2026-08-24T17:58:37.528Z",
+    "baselineAt": "2026-08-24T19:37:34.070Z",
+    "lastCheckedAt": "2026-08-24T19:37:34.070Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

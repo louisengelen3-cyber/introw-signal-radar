@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.getaccept.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T17:57:13.992Z",
+  "builtAt": "2026-08-24T19:37:18.226Z",
   "oldestEvidenceAt": "2026-08-24T07:33:14.186Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -42,11 +42,11 @@
       "state": "weak_proxy",
       "evidence": [
         {
-          "id": "o20",
+          "id": "o30",
           "quote": "Become a partner Grow your business by building integrations Let's add value for our mutual customers",
           "sourceUrl": "https://www.getaccept.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:57:13.993Z",
+          "retrievedAt": "2026-08-24T19:37:18.227Z",
           "strength": "strong_proxy",
           "proves": "the company pitches partner participation as revenue for the partner",
           "doesNotProve": "that any partner earns it, or that the company tracks it",
@@ -89,11 +89,11 @@
       "state": "light",
       "evidence": [
         {
-          "id": "o21",
+          "id": "o31",
           "quote": "GetAccept partner programs Globally recognized and trusted by over 5,000 customers, GetAccept",
           "sourceUrl": "https://www.getaccept.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:57:13.993Z",
+          "retrievedAt": "2026-08-24T19:37:18.227Z",
           "strength": "strong_proxy",
           "proves": "the company runs more than one distinct partner track",
           "doesNotProve": "that they share an owner or a system",
@@ -122,11 +122,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o22",
+          "id": "o32",
           "quote": "lling process. You earn a kickback if an opportunity is qualified and closed within the specified time frame. Become a partner Grow your business by building integrations Let's add value for our mutual customers and grow your business b",
           "sourceUrl": "https://www.getaccept.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:57:13.993Z",
+          "retrievedAt": "2026-08-24T19:37:18.227Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -134,11 +134,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o23",
+          "id": "o33",
           "quote": "de vente à distance. Vous gagnez un bonus si une opportunité est qualifiée et conclue dans le délai indiqué. Devenir partenaire Développez votre activité avec des intégrations Ajoutons de la valeur à nos clients communs et développez vot",
           "sourceUrl": "https://www.getaccept.com/fr/partenaires",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:57:13.993Z",
+          "retrievedAt": "2026-08-24T19:37:18.227Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -228,6 +228,100 @@
     "redundant": true,
     "stoppedBecause": "nothing_found"
   },
+  "crmForensics": {
+    "company": "getaccept.com",
+    "vendors": [
+      {
+        "vendor": "HubSpot",
+        "level": "strong_supporting",
+        "basis": {
+          "company": "getaccept.com",
+          "vendor": "HubSpot",
+          "sourceType": "company_current_vacancy",
+          "languageBasis": "candidate_experience",
+          "quote": "Experience with HubSpot's CMS or CRM.",
+          "sourceUrl": "https://jobs.getaccept.com/jobs/8049673-web-editor-internship",
+          "observedAt": "2026-08-24T19:37:18.226Z",
+          "sourcePublishedAt": "2026-07-10T05:54:22.000Z",
+          "jobTitle": "Web Editor - Internship - GetAccept",
+          "rule": "candidate_requirement",
+          "proves": "the company asks candidates for experience with this CRM",
+          "doesNotProve": "that the company runs this CRM — asking for a skill is not using the tool"
+        },
+        "observations": [
+          {
+            "company": "getaccept.com",
+            "vendor": "HubSpot",
+            "sourceType": "company_current_vacancy",
+            "languageBasis": "candidate_experience",
+            "quote": "Experience with HubSpot's CMS or CRM.",
+            "sourceUrl": "https://jobs.getaccept.com/jobs/8049673-web-editor-internship",
+            "observedAt": "2026-08-24T19:37:18.226Z",
+            "sourcePublishedAt": "2026-07-10T05:54:22.000Z",
+            "jobTitle": "Web Editor - Internship - GetAccept",
+            "rule": "candidate_requirement",
+            "proves": "the company asks candidates for experience with this CRM",
+            "doesNotProve": "that the company runs this CRM — asking for a skill is not using the tool"
+          },
+          {
+            "company": "getaccept.com",
+            "vendor": "HubSpot",
+            "sourceType": "company_current_vacancy",
+            "languageBasis": "candidate_experience",
+            "quote": "Preferred if you bring experience within the SaaS or AI sectors, alongside proficiency in HubSpot, LinkedIn Sales Navigator, and Digital Sales Rooms.",
+            "sourceUrl": "https://jobs.getaccept.com/jobs/7852363-account-executive",
+            "observedAt": "2026-08-24T19:37:18.226Z",
+            "sourcePublishedAt": "2026-06-04T10:55:21.000Z",
+            "jobTitle": "Account Executive - GetAccept",
+            "rule": "candidate_requirement",
+            "proves": "the company asks candidates for experience with this CRM",
+            "doesNotProve": "that the company runs this CRM — asking for a skill is not using the tool"
+          },
+          {
+            "company": "getaccept.com",
+            "vendor": "HubSpot",
+            "sourceType": "website_fingerprint",
+            "languageBasis": "fingerprint",
+            "quote": "hubspotusercontent",
+            "sourceUrl": "https://getaccept.com/",
+            "observedAt": "2026-08-24T19:37:18.226Z",
+            "sourcePublishedAt": null,
+            "jobTitle": null,
+            "rule": "website_artifact",
+            "proves": "an artifact belonging to this vendor is served from the company’s website",
+            "doesNotProve": "which of the vendor’s products is licensed, or that sales runs on it"
+          }
+        ],
+        "timeline": [],
+        "rationale": "Supporting evidence only — candidate experience. Nothing establishes that the company itself operates on HubSpot."
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 4,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 4,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "company_current_vacancy",
+        "website_fingerprint"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 4
+    },
+    "note": "4 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "familiesObserved": {
+      "other": 2,
+      "sales": 1
+    },
+    "fromNonPartnerRoles": 2,
+    "fromHistorical": 0
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -255,12 +349,12 @@
                 "detail": "Website artifact",
                 "proves": "HubSpot-hosted assets or analytics are in use",
                 "doesNotProve": "which HubSpot products are licensed",
-                "observedAt": "2026-08-24T17:57:13.992Z"
+                "observedAt": "2026-08-24T19:37:18.226Z"
               }
             ],
             "jobVacancies": 0,
             "hasFingerprint": true,
-            "lastObservedAt": "2026-08-24T17:57:13.992Z"
+            "lastObservedAt": "2026-08-24T19:37:18.226Z"
           }
         ],
         "primary": {
@@ -275,12 +369,12 @@
               "detail": "Website artifact",
               "proves": "HubSpot-hosted assets or analytics are in use",
               "doesNotProve": "which HubSpot products are licensed",
-              "observedAt": "2026-08-24T17:57:13.992Z"
+              "observedAt": "2026-08-24T19:37:18.226Z"
             }
           ],
           "jobVacancies": 0,
           "hasFingerprint": true,
-          "lastObservedAt": "2026-08-24T17:57:13.992Z"
+          "lastObservedAt": "2026-08-24T19:37:18.226Z"
         },
         "conflict": null,
         "sourcesChecked": {
@@ -292,11 +386,11 @@
       },
       "evidence": [
         {
-          "id": "o24",
+          "id": "o34",
           "quote": "hubspotusercontent",
           "sourceUrl": "https://getaccept.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T17:57:13.992Z",
+          "retrievedAt": "2026-08-24T19:37:18.226Z",
           "strength": "strong_proxy",
           "proves": "HubSpot-hosted assets or analytics are in use",
           "doesNotProve": "which HubSpot products are licensed"
@@ -318,8 +412,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T17:57:13.992Z",
-    "lastCheckedAt": "2026-08-24T17:57:13.992Z",
+    "baselineAt": "2026-08-24T19:37:18.226Z",
+    "lastCheckedAt": "2026-08-24T19:37:18.226Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

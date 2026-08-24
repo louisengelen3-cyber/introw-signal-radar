@@ -101,6 +101,10 @@ export function DataHealth({ index }: { index: SiteIndex }) {
       recoveryAdded: cover((r) => (r.recovery?.added ?? 0) > 0),
       recoveryPages: a.reduce((n, r) => n + (r.recovery?.pagesRead ?? 0), 0),
       multiDomain: cover((r) => (r.recovery?.domainsSearched ?? 0) > 1),
+      crmVacancies: a.reduce((n, r) => n + (r.crmForensic?.vacanciesRead ?? 0), 0),
+      crmNoBoard: cover((r) => (r.crmForensic?.vacanciesRead ?? 0) > 0 && r.crmForensic?.sourceType !== 'company_ats_vacancy'),
+      crmConfirmed: cover((r) => /^confirmed_/.test(r.crmForensic?.level ?? '')),
+      crmConflicts: cover((r) => !!r.crmForensic?.conflict),
     };
   }, [index]);
 
@@ -110,7 +114,7 @@ export function DataHealth({ index }: { index: SiteIndex }) {
 
   const coverageRows: [string, number, number, string][] = [
     ['Category classification', stats.categoryKnown, stats.dossiers, 'Inferred from the company’s own positioning. The rule caught 8 of 14 partner-tech vendors across two frozen holdouts.'],
-    ['CRM evidence', stats.crmKnown, stats.dossiers, 'Measured at 33% recall against companies that provably run a supported CRM. Salesforce was never detected once.'],
+    ['CRM evidence', stats.crmKnown, stats.dossiers, 'Now established from hiring evidence — the company’s own careers pages and ATS board — rather than website artifacts. A tracking script proves a script is installed, not that sales runs on that CRM, so ten accounts previously shown as confirmed are now supporting evidence only. Every conclusion here is a company describing its own system in a live advert.'],
     ['Partner platform', stats.prmKnown, stats.dossiers, 'DNS fingerprints plus platform names appearing on partner pages. Absence is always unknown.'],
     ['People evidence', stats.peopleKnown, stats.dossiers, 'Not attempted. Public person discovery was measured at 2 of 18 companies and is not viable, so no crawler was built. The panel is kept so a licensed provider can fill it later.'],
     ['Partner directory', stats.directories, stats.dossiers, 'A published list of partner organisations. Counted as a lower bound, never as a partner count.'],
@@ -130,6 +134,22 @@ export function DataHealth({ index }: { index: SiteIndex }) {
         <li><div className="tile tile-plain"><span className="tile-n display">{stats.noSurface}</span><span className="tile-l">Accounts with no readable surface</span><span className="tile-note">A retrieval limit, not a finding</span></div></li>
         <li><div className="tile tile-plain"><span className="tile-n display">{stats.underObserved}</span><span className="tile-l">Under-observed</span><span className="tile-note">Publishes little — not low fit</span></div></li>
         <li><div className="tile tile-plain"><span className="tile-n display">{stats.contradictions}</span><span className="tile-l">Open contradictions</span></div></li>
+      </ul>
+
+      <h2 className="sect display">CRM hiring evidence</h2>
+      <p className="lede">
+        A CRM is company infrastructure, so any commercial vacancy can reveal it — an Account
+        Executive advert saying &ldquo;keep your pipeline up to date in Salesforce&rdquo; is
+        evidence about the company, not about the candidate. Research is never restricted to
+        partnership titles, reads the company&rsquo;s own careers pages when no applicant
+        tracking board can be attributed, and dates every finding so historical evidence
+        cannot be read as current.
+      </p>
+      <ul className="tiles tiles-static">
+        <li><div className="tile tile-plain"><span className="tile-n display">{stats.crmVacancies}</span><span className="tile-l">Vacancies read</span><span className="tile-note">Across all job families, not only partnerships</span></div></li>
+        <li><div className="tile tile-plain"><span className="tile-n display">{stats.crmNoBoard}</span><span className="tile-l">Accounts reached without an ATS board</span><span className="tile-note">A missing board no longer ends CRM research</span></div></li>
+        <li><div className="tile tile-plain"><span className="tile-n display">{stats.crmConfirmed}</span><span className="tile-l">CRM confirmed from a live advert</span><span className="tile-note">Each traced to one sentence a company wrote about its own system</span></div></li>
+        <li><div className="tile tile-plain"><span className="tile-n display">{stats.crmConflicts}</span><span className="tile-l">Multi-system environments</span><span className="tile-note">Reported, never resolved to one vendor</span></div></li>
       </ul>
 
       <h2 className="sect display">Additive source recovery</h2>

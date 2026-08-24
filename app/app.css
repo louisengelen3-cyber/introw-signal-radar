@@ -365,3 +365,21 @@ table.accounts { border-collapse: collapse; width: 100%; font-size: .84rem; min-
 .crm-sources { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px; }
 .ev-notprove { font-size: .78rem; color: var(--muted); margin: 6px 0 0; }
 .job-stated { font-size: .84rem; margin: 8px 0 0; }
+
+/* Forensic CRM panel. Historical findings must not read like current ones (§40). */
+.crm-role { font-size: .78rem; color: var(--muted); }
+.crm-date {
+  font-size: .72rem; color: var(--muted); margin-left: auto;
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.crm-rationale { font-size: .82rem; color: var(--muted); margin: 4px 0 8px; }
+.crm-timeline {
+  font-size: .76rem; color: var(--muted); margin-top: 6px;
+  font-variant-numeric: tabular-nums;
+}
+/* A historical finding is visually recessed: dashed edge, muted ground, lighter quote. */
+.crm-vendor.crm-historical {
+  border-left: 2px dashed var(--line); padding-left: 12px; opacity: .86;
+}
+.crm-vendor.crm-historical .ev-quote { font-style: italic; }
+.lede.small { font-size: .82rem; }

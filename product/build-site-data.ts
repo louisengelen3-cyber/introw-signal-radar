@@ -56,6 +56,14 @@ export interface IndexRow {
    * recovery did not run, which is the expected state for a well-observed account.
    */
   recovery: { ran: boolean; added: number; domainsSearched: number; pagesRead: number } | null;
+  /**
+   * Forensic CRM panel (§39). Carries the LEVEL and the DATE, because a historical finding
+   * must not be presentable as a current one (§40).
+   */
+  crmForensic: {
+    vendor: string; level: string; jobTitle: string | null; sourceType: string | null;
+    publishedAt: string | null; conflict: string | null; vacanciesRead: number;
+  } | null;
 }
 
 const row = (d: Dossier): IndexRow => ({
@@ -71,7 +79,18 @@ const row = (d: Dossier): IndexRow => ({
   programmes: [...new Set(d.programmes.map((p) => p.kind))],
   surfacesConfirmed: (d.surfaces ?? []).filter((s) => s.state === 'confirmed').length,
   directoryLowerBound: d.partnerDirectory.isDirectory ? d.partnerDirectory.lowerBound : null,
-  crm: d.systems.crm.state,
+  /**
+   * The index CRM state follows the same precedence as the dossier panel: when forensics ran
+   * it supersedes the legacy fingerprint-derived state, so Accounts, Data health and the
+   * dossier cannot disagree about the same company.
+   */
+  crm: (() => {
+    const f = (d as any).crmForensics;
+    const top = f?.vendors?.[0];
+    if (!top) return d.systems.crm.state;
+    if (/^confirmed_/.test(top.level)) return `${top.vendor.toLowerCase().replace(/\s+/g, '_')}_${top.level.replace('confirmed_', '')}`;
+    return 'unknown';
+  })(),
   prm: d.systems.prm.state,
   prmVendor: d.systems.prm.vendor,
   people: d.people.state,
@@ -95,6 +114,18 @@ const row = (d: Dossier): IndexRow => ({
     ? { ran: true, added: d.recovery.addedMotions.length + d.recovery.addedSurfaces.length + (d.recovery.addedDirectoryType ? 1 : 0),
         domainsSearched: d.recovery.domainsSearched.length, pagesRead: d.recovery.pagesRead }
     : null,
+  crmForensic: (() => {
+    const f = (d as any).crmForensics;
+    const top = f?.vendors?.[0];
+    if (!top) return null;
+    return {
+      vendor: top.vendor, level: top.level,
+      jobTitle: top.basis?.jobTitle ?? null, sourceType: top.basis?.sourceType ?? null,
+      publishedAt: top.basis?.sourcePublishedAt ?? null,
+      conflict: f.conflict?.kind ?? null,
+      vacanciesRead: f.coverage?.vacanciesRead ?? 0,
+    };
+  })(),
 });
 
 for (const d of all) writeFileSync(`${OUT}dossiers/${d.domain}.json`, JSON.stringify(d));

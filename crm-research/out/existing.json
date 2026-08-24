@@ -1,0 +1,1285 @@
+[
+  {
+    "domain": "aikido.dev",
+    "previousCrmState": "hubspot_confirmed",
+    "previousVendor": "HubSpot",
+    "previousFingerprints": 2,
+    "vendors": [
+      {
+        "vendor": "HubSpot",
+        "level": "confirmed_current",
+        "rationale": "1 decisive observation; strongest is operational duty from company ats vacancy published 2026-06-23.",
+        "jobTitle": "Account Executive Enterprise UK",
+        "sourceType": "company_ats_vacancy",
+        "publishedAt": "2026-06-23 11:55:04 UTC",
+        "quote": "Maintain an accurate forecast and disciplined pipeline management in HubSpot.",
+        "sourceUrl": "https://aikidosecurity.recruitee.com/o/account-executive-enterprise-uk",
+        "timeline": [
+          {
+            "date": "2026-06-23 11:55:04 UTC",
+            "level": "confirmed_current",
+            "jobTitle": "Account Executive Enterprise UK"
+          }
+        ]
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": true,
+      "vacanciesRead": 40,
+      "historicalVacanciesRead": 7,
+      "nonPartnerTitlesRead": 35,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "company_ats_vacancy",
+        "website_fingerprint"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 47,
+      "jobsInspected": 40
+    },
+    "familiesObserved": {
+      "sales": 1,
+      "other": 2
+    },
+    "fromNonPartnerRoles": 1,
+    "fromHistorical": 0,
+    "note": "HubSpot at confirmed current.",
+    "seconds": 0
+  },
+  {
+    "domain": "aircall.io",
+    "previousCrmState": "hubspot_confirmed",
+    "previousVendor": "HubSpot",
+    "previousFingerprints": 1,
+    "vendors": [
+      {
+        "vendor": "Salesforce",
+        "level": "confirmed_current",
+        "rationale": "2 decisive observations; strongest is operational duty from company ats vacancy published 2026-08-17.",
+        "jobTitle": "Business Development Representative (BDR), DACH Market",
+        "sourceType": "company_ats_vacancy",
+        "publishedAt": "2026-08-17T08:11:39-04:00",
+        "quote": "Keeping your pipeline and activities up to date in Salesforce (full training provided).",
+        "sourceUrl": "https://job-boards.greenhouse.io/aircallioinc/jobs/4368184009",
+        "timeline": [
+          {
+            "date": "2026-07-29T19:27:13-04:00",
+            "level": "confirmed_current",
+            "jobTitle": "Director, Revenue Operations"
+          },
+          {
+            "date": "2026-08-17T08:11:39-04:00",
+            "level": "confirmed_current",
+            "jobTitle": "Business Development Representative (BDR), DACH Market"
+          }
+        ]
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "strong_supporting",
+        "rationale": "Supporting evidence only — fingerprint. Nothing establishes that the company itself operates on HubSpot.",
+        "jobTitle": null,
+        "sourceType": "website_fingerprint",
+        "publishedAt": null,
+        "quote": "js.hs-scripts.com/48407761.js",
+        "sourceUrl": "https://aircall.io/",
+        "timeline": []
+      }
+    ],
+    "conflict": {
+      "kind": "multiple_systems",
+      "vendors": [
+        "Salesforce",
+        "HubSpot"
+      ],
+      "explanation": "Salesforce is evidenced operationally, while HubSpot is present as a website artifact. The common explanation is a split between marketing tooling and the sales system of record, but a migration or a departmental system would look identical. Reported rather than resolved."
+    },
+    "coverage": {
+      "atsBoardFound": true,
+      "vacanciesRead": 40,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 38,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "company_ats_vacancy",
+        "website_fingerprint"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 47,
+      "jobsInspected": 40
+    },
+    "familiesObserved": {
+      "sales": 2,
+      "partnerships": 3,
+      "revops": 2,
+      "other": 5,
+      "marketing": 4
+    },
+    "fromNonPartnerRoles": 12,
+    "fromHistorical": 0,
+    "note": "Decisive evidence for Salesforce. Reported as multiple systems rather than resolved.",
+    "seconds": 0
+  },
+  {
+    "domain": "apaleo.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": true,
+      "vacanciesRead": 10,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 10,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 27,
+      "jobsInspected": 10
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "10 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "archerirm.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 3,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 3,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 3
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "3 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 1
+  },
+  {
+    "domain": "cegeka.com",
+    "previousCrmState": "hubspot_confirmed",
+    "previousVendor": "HubSpot",
+    "previousFingerprints": 2,
+    "vendors": [
+      {
+        "vendor": "HubSpot",
+        "level": "strong_supporting",
+        "rationale": "Supporting evidence only — fingerprint. Nothing establishes that the company itself operates on HubSpot.",
+        "jobTitle": null,
+        "sourceType": "website_fingerprint",
+        "publishedAt": null,
+        "quote": "forms.hsforms.com",
+        "sourceUrl": "https://cegeka.com/",
+        "timeline": []
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 0
+    },
+    "familiesObserved": {
+      "other": 2
+    },
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "No source could be read, so nothing was established. This is not evidence that the company has no CRM.",
+    "seconds": 1
+  },
+  {
+    "domain": "channable.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 1,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 1,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 1
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "1 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "cubbit.io",
+    "previousCrmState": "hubspot_confirmed",
+    "previousVendor": "HubSpot",
+    "previousFingerprints": 1,
+    "vendors": [
+      {
+        "vendor": "HubSpot",
+        "level": "strong_supporting",
+        "rationale": "Supporting evidence only — candidate experience. Nothing establishes that the company itself operates on HubSpot.",
+        "jobTitle": "Performance Marketer (Freelance)",
+        "sourceType": "company_current_vacancy",
+        "publishedAt": null,
+        "quote": "Familiarity with HubSpot or similar CRM/marketing automation platforms.",
+        "sourceUrl": "https://www.cubbit.io/careers/performance-marketer-freelance",
+        "timeline": []
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "mention_only",
+        "rationale": "Named, but only in language that proves nothing about this company (alternatives list).",
+        "jobTitle": "Go-to-Market Engineer",
+        "sourceType": "company_current_vacancy",
+        "publishedAt": null,
+        "quote": "‍ Bonus point Experience with HubSpot, Salesforce, or other CRM platforms.",
+        "sourceUrl": "https://www.cubbit.io/careers/go-to-market-engineer",
+        "timeline": []
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 9,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 9,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "company_current_vacancy",
+        "website_fingerprint"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 15,
+      "jobsInspected": 9
+    },
+    "familiesObserved": {
+      "other": 5
+    },
+    "fromNonPartnerRoles": 4,
+    "fromHistorical": 0,
+    "note": "9 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "datadoghq.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 3,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 3,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 3
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "3 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "deloitte.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": true,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 48,
+      "jobsInspected": 40
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "No source could be read, so nothing was established. This is not evidence that the company has no CRM.",
+    "seconds": 0
+  },
+  {
+    "domain": "devoteam.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 4,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 4,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 10,
+      "jobsInspected": 4
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "4 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "doordash.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 1,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 1,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 1
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "1 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "efficy.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 10,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 9,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 25,
+      "jobsInspected": 10
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "10 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "factorialhr.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 2,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 2,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 16,
+      "jobsInspected": 2
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "2 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "foleon.com",
+    "previousCrmState": "hubspot_confirmed",
+    "previousVendor": "HubSpot",
+    "previousFingerprints": 1,
+    "vendors": [
+      {
+        "vendor": "HubSpot",
+        "level": "strong_supporting",
+        "rationale": "Supporting evidence only — fingerprint. Nothing establishes that the company itself operates on HubSpot.",
+        "jobTitle": null,
+        "sourceType": "website_fingerprint",
+        "publishedAt": null,
+        "quote": "js.hsforms.net",
+        "sourceUrl": "https://foleon.com/",
+        "timeline": []
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": true,
+      "vacanciesRead": 3,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 3,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 21,
+      "jobsInspected": 3
+    },
+    "familiesObserved": {
+      "other": 1
+    },
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "3 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "getaccept.com",
+    "previousCrmState": "unknown",
+    "previousVendor": "HubSpot",
+    "previousFingerprints": 1,
+    "vendors": [
+      {
+        "vendor": "HubSpot",
+        "level": "strong_supporting",
+        "rationale": "Supporting evidence only — candidate experience. Nothing establishes that the company itself operates on HubSpot.",
+        "jobTitle": "Web Editor - Internship - GetAccept",
+        "sourceType": "company_current_vacancy",
+        "publishedAt": "2026-07-10T05:54:22.000Z",
+        "quote": "Experience with HubSpot's CMS or CRM.",
+        "sourceUrl": "https://jobs.getaccept.com/jobs/8049673-web-editor-internship",
+        "timeline": []
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 4,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 4,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "company_current_vacancy",
+        "website_fingerprint"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 4
+    },
+    "familiesObserved": {
+      "other": 2,
+      "sales": 1
+    },
+    "fromNonPartnerRoles": 2,
+    "fromHistorical": 0,
+    "note": "4 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 1
+  },
+  {
+    "domain": "glovoapp.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 3,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 3,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 17,
+      "jobsInspected": 3
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "3 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "juro.com",
+    "previousCrmState": "hubspot_confirmed",
+    "previousVendor": "HubSpot",
+    "previousFingerprints": 2,
+    "vendors": [
+      {
+        "vendor": "HubSpot",
+        "level": "strong_supporting",
+        "rationale": "Supporting evidence only — fingerprint. Nothing establishes that the company itself operates on HubSpot.",
+        "jobTitle": null,
+        "sourceType": "website_fingerprint",
+        "publishedAt": null,
+        "quote": "js.hs-scripts.com/3786704.js",
+        "sourceUrl": "https://juro.com/",
+        "timeline": []
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 1,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 1,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 1
+    },
+    "familiesObserved": {
+      "other": 2
+    },
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "1 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 1
+  },
+  {
+    "domain": "kiflo.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 0
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "No source could be read, so nothing was established. This is not evidence that the company has no CRM.",
+    "seconds": 1
+  },
+  {
+    "domain": "lano.io",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 2,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 2,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 2
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "2 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "leapsome.com",
+    "previousCrmState": "hubspot_confirmed",
+    "previousVendor": "HubSpot",
+    "previousFingerprints": 2,
+    "vendors": [
+      {
+        "vendor": "HubSpot",
+        "level": "strong_supporting",
+        "rationale": "Supporting evidence only — fingerprint. Nothing establishes that the company itself operates on HubSpot.",
+        "jobTitle": null,
+        "sourceType": "website_fingerprint",
+        "publishedAt": null,
+        "quote": "js.hs-scripts.com/5468055.js",
+        "sourceUrl": "https://leapsome.com/",
+        "timeline": []
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 1,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 1,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 1
+    },
+    "familiesObserved": {
+      "other": 2
+    },
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "1 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "magentrix.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 2,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 2,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 2
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "2 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "mews.com",
+    "previousCrmState": "hubspot_confirmed",
+    "previousVendor": "HubSpot",
+    "previousFingerprints": 1,
+    "vendors": [
+      {
+        "vendor": "HubSpot",
+        "level": "strong_supporting",
+        "rationale": "Supporting evidence only — fingerprint. Nothing establishes that the company itself operates on HubSpot.",
+        "jobTitle": null,
+        "sourceType": "website_fingerprint",
+        "publishedAt": null,
+        "quote": "js.hs-scripts.com/5255565.js",
+        "sourceUrl": "https://mews.com/",
+        "timeline": []
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 2,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 2,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 8,
+      "jobsInspected": 2
+    },
+    "familiesObserved": {
+      "other": 1
+    },
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "2 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "oneflow.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 7,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 6,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 14,
+      "jobsInspected": 7
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "7 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 1
+  },
+  {
+    "domain": "payfit.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [
+      {
+        "vendor": "Salesforce",
+        "level": "confirmed_current",
+        "rationale": "1 decisive observation; strongest is operational duty from company current vacancy published 2026-05-18.",
+        "jobTitle": "Sales/SDR Barcelona - English Speaker - PayFit",
+        "sourceType": "company_current_vacancy",
+        "publishedAt": "2026-05-18T12:20:53.000Z",
+        "quote": "Keeping clear and relevant information about potential customers up to date in Salesforce, our CRM.",
+        "sourceUrl": "https://careers.payfit.com/jobs/7749950-sales-sdr-barcelona-english-speaker",
+        "timeline": [
+          {
+            "date": "2026-05-18T12:20:53.000Z",
+            "level": "confirmed_current",
+            "jobTitle": "Sales/SDR Barcelona - English Speaker - PayFit"
+          }
+        ]
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "mention_only",
+        "rationale": "Named, but only in language that proves nothing about this company (alternatives list).",
+        "jobTitle": "Growth Marketing Apprentice - starting in November (1 year) - PayFit",
+        "sourceType": "company_current_vacancy",
+        "publishedAt": "2026-08-05T09:53:15.000Z",
+        "quote": "Experience using a CMS such as DatoCMS, HubSpot, WordPress or a similar platform.",
+        "sourceUrl": "https://careers.payfit.com/jobs/8173444-growth-marketing-apprentice-starting-in-november-1-year",
+        "timeline": []
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 18,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 18,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "company_current_vacancy"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 24,
+      "jobsInspected": 18
+    },
+    "familiesObserved": {
+      "sales": 2,
+      "marketing": 2
+    },
+    "fromNonPartnerRoles": 4,
+    "fromHistorical": 0,
+    "note": "Salesforce at confirmed current.",
+    "seconds": 0
+  },
+  {
+    "domain": "planhat.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [
+      {
+        "vendor": "Salesforce",
+        "level": "strong_supporting",
+        "rationale": "Supporting evidence only — candidate experience. Nothing establishes that the company itself operates on Salesforce.",
+        "jobTitle": null,
+        "sourceType": "company_careers_index",
+        "publishedAt": null,
+        "quote": "Salesforce Admin knowledge is a plus Problem solver: you're structured, you like logical challenges, and also know when you're heading down a rabbit hole Trajectory We are one of the most versatile teams at Planhat.",
+        "sourceUrl": "https://www.planhat.com/careers/5005200d-5070-478f-871b-52bda7fbb246",
+        "timeline": []
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "mention_only",
+        "rationale": "Named, but only in language that proves nothing about this company (alternatives list).",
+        "jobTitle": null,
+        "sourceType": "company_careers_index",
+        "publishedAt": null,
+        "quote": "What we're looking for: Experience: 5-10 years administering a CRM (Salesforce, HubSpot, or similar) and a GTM systems stack at a tech company or fast-growing startup.",
+        "sourceUrl": "https://www.planhat.com/careers/7ec4f885-a8ba-44b1-8b10-95997ef5bd11",
+        "timeline": []
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 12,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 12,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "company_careers_index"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 18,
+      "jobsInspected": 12
+    },
+    "familiesObserved": {
+      "other": 4
+    },
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "12 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 1
+  },
+  {
+    "domain": "pleo.io",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [
+      {
+        "vendor": "HubSpot",
+        "level": "mention_only",
+        "rationale": "Named, but only in language that proves nothing about this company (alternatives list).",
+        "jobTitle": "Senior Manager, Customer Success",
+        "sourceType": "company_ats_vacancy",
+        "publishedAt": "2026-08-21T10:11:26.744+00:00",
+        "quote": "A data-driven approach, comfortable utilising CRM and CS tooling (e.g.Hubspot, Vitally) to drive team performance and forecasting.",
+        "sourceUrl": "https://jobs.ashbyhq.com/pleo/636df222-00f7-445e-80e2-493df986734e",
+        "timeline": []
+      },
+      {
+        "vendor": "Salesforce",
+        "level": "mention_only",
+        "rationale": "Named, but only in language that proves nothing about this company (alternatives list).",
+        "jobTitle": "Manager, Digital Scaled Onboarding",
+        "sourceType": "company_ats_vacancy",
+        "publishedAt": "2026-07-14T14:28:02.121+00:00",
+        "quote": "Examples may include Salesforce, Gainsight or similar, Zendesk, learning management and webinar platforms, customer engagement tools, product analytics platforms, Looker, Tableau or Power BI, Jira, Asana, and Slack.",
+        "sourceUrl": "https://jobs.ashbyhq.com/pleo/288ea716-a481-4bb7-9234-43ec0af774b7",
+        "timeline": []
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": true,
+      "vacanciesRead": 38,
+      "historicalVacanciesRead": 2,
+      "nonPartnerTitlesRead": 38,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "company_ats_vacancy"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 52,
+      "jobsInspected": 38
+    },
+    "familiesObserved": {
+      "customer_success": 2,
+      "other": 1,
+      "sales": 1
+    },
+    "fromNonPartnerRoles": 4,
+    "fromHistorical": 0,
+    "note": "38 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "productsup.com",
+    "previousCrmState": "hubspot_confirmed",
+    "previousVendor": "HubSpot",
+    "previousFingerprints": 2,
+    "vendors": [
+      {
+        "vendor": "HubSpot",
+        "level": "strong_supporting",
+        "rationale": "Supporting evidence only — fingerprint. Nothing establishes that the company itself operates on HubSpot.",
+        "jobTitle": null,
+        "sourceType": "website_fingerprint",
+        "publishedAt": null,
+        "quote": "js.hsforms.net",
+        "sourceUrl": "https://productsup.com/",
+        "timeline": []
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 3,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 3,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 9,
+      "jobsInspected": 3
+    },
+    "familiesObserved": {
+      "other": 2
+    },
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "3 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "sana-commerce.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": true,
+      "vacanciesRead": 2,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 2,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 15,
+      "jobsInspected": 8
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "2 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "spendesk.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 7,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 7,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 13,
+      "jobsInspected": 7
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "7 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "trengo.com",
+    "previousCrmState": "hubspot_confirmed",
+    "previousVendor": "HubSpot",
+    "previousFingerprints": 2,
+    "vendors": [
+      {
+        "vendor": "HubSpot",
+        "level": "strong_supporting",
+        "rationale": "Supporting evidence only — fingerprint. Nothing establishes that the company itself operates on HubSpot.",
+        "jobTitle": null,
+        "sourceType": "website_fingerprint",
+        "publishedAt": null,
+        "quote": "js.hs-scripts.com/7219685.js",
+        "sourceUrl": "https://trengo.com/",
+        "timeline": []
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 1,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 1,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 1
+    },
+    "familiesObserved": {
+      "other": 2
+    },
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "1 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 1
+  },
+  {
+    "domain": "twikey.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 10,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 10,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 18,
+      "jobsInspected": 10
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "10 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "upsales.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 0
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "No source could be read, so nothing was established. This is not evidence that the company has no CRM.",
+    "seconds": 0
+  },
+  {
+    "domain": "vinted.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 3,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 3,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 3
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "3 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 1
+  },
+  {
+    "domain": "weglot.com",
+    "previousCrmState": "unknown",
+    "previousVendor": null,
+    "previousFingerprints": 0,
+    "vendors": [],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 4,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 4,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 18,
+      "jobsInspected": 4
+    },
+    "familiesObserved": {},
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "4 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 0
+  },
+  {
+    "domain": "younium.com",
+    "previousCrmState": "unknown",
+    "previousVendor": "HubSpot",
+    "previousFingerprints": 1,
+    "vendors": [
+      {
+        "vendor": "HubSpot",
+        "level": "strong_supporting",
+        "rationale": "Supporting evidence only — fingerprint. Nothing establishes that the company itself operates on HubSpot.",
+        "jobTitle": null,
+        "sourceType": "website_fingerprint",
+        "publishedAt": null,
+        "quote": "hubspotusercontent",
+        "sourceUrl": "https://younium.com/",
+        "timeline": []
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 2,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 2,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 2
+    },
+    "familiesObserved": {
+      "other": 1
+    },
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0,
+    "note": "2 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "seconds": 1
+  }
+]

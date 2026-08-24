@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.leapsome.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T17:57:17.125Z",
+  "builtAt": "2026-08-24T19:37:21.480Z",
   "oldestEvidenceAt": "2026-08-24T07:34:24.885Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -186,6 +186,84 @@
     "redundant": true,
     "stoppedBecause": "nothing_found"
   },
+  "crmForensics": {
+    "company": "leapsome.com",
+    "vendors": [
+      {
+        "vendor": "HubSpot",
+        "level": "strong_supporting",
+        "basis": {
+          "company": "leapsome.com",
+          "vendor": "HubSpot",
+          "sourceType": "website_fingerprint",
+          "languageBasis": "fingerprint",
+          "quote": "js.hs-scripts.com/5468055.js",
+          "sourceUrl": "https://leapsome.com/",
+          "observedAt": "2026-08-24T19:37:21.480Z",
+          "sourcePublishedAt": null,
+          "jobTitle": null,
+          "rule": "website_artifact",
+          "proves": "an artifact belonging to this vendor is served from the company’s website",
+          "doesNotProve": "which of the vendor’s products is licensed, or that sales runs on it"
+        },
+        "observations": [
+          {
+            "company": "leapsome.com",
+            "vendor": "HubSpot",
+            "sourceType": "website_fingerprint",
+            "languageBasis": "fingerprint",
+            "quote": "js.hs-scripts.com/5468055.js",
+            "sourceUrl": "https://leapsome.com/",
+            "observedAt": "2026-08-24T19:37:21.480Z",
+            "sourcePublishedAt": null,
+            "jobTitle": null,
+            "rule": "website_artifact",
+            "proves": "an artifact belonging to this vendor is served from the company’s website",
+            "doesNotProve": "which of the vendor’s products is licensed, or that sales runs on it"
+          },
+          {
+            "company": "leapsome.com",
+            "vendor": "HubSpot",
+            "sourceType": "website_fingerprint",
+            "languageBasis": "fingerprint",
+            "quote": "js.hsforms.net",
+            "sourceUrl": "https://leapsome.com/",
+            "observedAt": "2026-08-24T19:37:21.480Z",
+            "sourcePublishedAt": null,
+            "jobTitle": null,
+            "rule": "website_artifact",
+            "proves": "an artifact belonging to this vendor is served from the company’s website",
+            "doesNotProve": "which of the vendor’s products is licensed, or that sales runs on it"
+          }
+        ],
+        "timeline": [],
+        "rationale": "Supporting evidence only — fingerprint. Nothing establishes that the company itself operates on HubSpot."
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 1,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 1,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 1
+    },
+    "note": "1 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
+    "familiesObserved": {
+      "other": 2
+    },
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -213,7 +291,7 @@
                 "detail": "Website artifact",
                 "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
                 "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all",
-                "observedAt": "2026-08-24T17:57:17.125Z"
+                "observedAt": "2026-08-24T19:37:21.480Z"
               },
               {
                 "kind": "website_fingerprint",
@@ -223,12 +301,12 @@
                 "detail": "Website artifact",
                 "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
                 "doesNotProve": "that opportunities and partner deals are managed there",
-                "observedAt": "2026-08-24T17:57:17.125Z"
+                "observedAt": "2026-08-24T19:37:21.480Z"
               }
             ],
             "jobVacancies": 0,
             "hasFingerprint": true,
-            "lastObservedAt": "2026-08-24T17:57:17.125Z"
+            "lastObservedAt": "2026-08-24T19:37:21.480Z"
           }
         ],
         "primary": {
@@ -243,7 +321,7 @@
               "detail": "Website artifact",
               "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
               "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all",
-              "observedAt": "2026-08-24T17:57:17.125Z"
+              "observedAt": "2026-08-24T19:37:21.480Z"
             },
             {
               "kind": "website_fingerprint",
@@ -253,12 +331,12 @@
               "detail": "Website artifact",
               "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
               "doesNotProve": "that opportunities and partner deals are managed there",
-              "observedAt": "2026-08-24T17:57:17.125Z"
+              "observedAt": "2026-08-24T19:37:21.480Z"
             }
           ],
           "jobVacancies": 0,
           "hasFingerprint": true,
-          "lastObservedAt": "2026-08-24T17:57:17.125Z"
+          "lastObservedAt": "2026-08-24T19:37:21.480Z"
         },
         "conflict": null,
         "sourcesChecked": {
@@ -270,21 +348,21 @@
       },
       "evidence": [
         {
-          "id": "o116",
+          "id": "o57",
           "quote": "js.hs-scripts.com/5468055.js",
           "sourceUrl": "https://leapsome.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T17:57:17.125Z",
+          "retrievedAt": "2026-08-24T19:37:21.480Z",
           "strength": "confirmed",
           "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
           "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
         },
         {
-          "id": "o117",
+          "id": "o58",
           "quote": "js.hsforms.net",
           "sourceUrl": "https://leapsome.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T17:57:17.125Z",
+          "retrievedAt": "2026-08-24T19:37:21.480Z",
           "strength": "confirmed",
           "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
           "doesNotProve": "that opportunities and partner deals are managed there"
@@ -306,8 +384,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T17:57:17.125Z",
-    "lastCheckedAt": "2026-08-24T17:57:17.125Z",
+    "baselineAt": "2026-08-24T19:37:21.480Z",
+    "lastCheckedAt": "2026-08-24T19:37:21.480Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

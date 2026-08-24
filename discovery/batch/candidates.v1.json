@@ -1,0 +1,611 @@
+{
+ "purpose": "Autonomous discovery batch (mandate §28). Eight queries from validated query families across six geographies and six sectors. No company name appears in any query, so every candidate has a discovery provenance (§29).",
+ "frozenAt": "2026-08-24",
+ "runs": [
+  {
+   "family": "ENGLISH_MSP_PROGRAM",
+   "lang": "en",
+   "geo": "US/CA",
+   "sector": "cybersecurity",
+   "query": "\"MSSP partner program\" apply North America managed security",
+   "results": [
+    {
+     "domain": "fortinet.com",
+     "label": "VALID_OPERATOR",
+     "note": "MSSP programme, multitenancy, custom portals"
+    },
+    {
+     "domain": "paloaltonetworks.com",
+     "label": "VALID_OPERATOR",
+     "note": "MSSP partner programme (PDF)"
+    },
+    {
+     "domain": "exclusive-networks.com",
+     "label": "PARTICIPANT_ONLY",
+     "note": "distributor running MSSP ecosystem, not the vendor"
+    },
+    {
+     "domain": "forrester.com",
+     "label": "IRRELEVANT",
+     "note": "analyst blog"
+    },
+    {
+     "domain": "keysight.com",
+     "label": "DUPLICATE_PRIOR",
+     "note": "found in shadow run"
+    },
+    {
+     "domain": "acronis.com",
+     "label": "DUPLICATE_PRIOR",
+     "note": "benchmark + shadow"
+    },
+    {
+     "domain": "aws.amazon.com",
+     "label": "DUPLICATE_PRIOR",
+     "note": "shadow"
+    },
+    {
+     "domain": "opentext.com",
+     "label": "DUPLICATE_PRIOR",
+     "note": "shadow"
+    }
+   ]
+  },
+  {
+   "family": "ENGLISH_MSP_PROGRAM",
+   "lang": "en",
+   "geo": "UK",
+   "sector": "software",
+   "query": "\"channel partner programme\" apply UK reseller software",
+   "results": [
+    {
+     "domain": "lumen.com",
+     "label": "VALID_OPERATOR",
+     "note": "channel partner programme"
+    },
+    {
+     "domain": "expo-e.uk",
+     "label": "VALID_OPERATOR",
+     "note": "reseller partner programme, IT solutions portfolio"
+    },
+    {
+     "domain": "bytes.co.uk",
+     "label": "VALID_OPERATOR",
+     "note": "partner programs, 35 years in the UK channel"
+    },
+    {
+     "domain": "firstcomeurope.co.uk",
+     "label": "VALID_OPERATOR",
+     "note": "channel partners programme"
+    },
+    {
+     "domain": "canonical.com",
+     "label": "VALID_OPERATOR",
+     "note": "channel / reseller programme"
+    },
+    {
+     "domain": "cloud.ionos.co.uk",
+     "label": "VALID_OPERATOR",
+     "note": "cloud channel partner programme"
+    },
+    {
+     "domain": "power2motivate.co.uk",
+     "label": "CONSULTANT_OR_VENDOR",
+     "note": "sells channel incentive software — partner-tech category"
+    },
+    {
+     "domain": "insideedgesolutions.co.uk",
+     "label": "CONSULTANT_OR_VENDOR",
+     "note": "channel consultancy writing about building programmes"
+    },
+    {
+     "domain": "daniel-one.com",
+     "label": "IRRELEVANT",
+     "note": "how-to guide"
+    },
+    {
+     "domain": "en.wikipedia.org",
+     "label": "IRRELEVANT",
+     "note": "encyclopaedia"
+    }
+   ]
+  },
+  {
+   "family": "ENGLISH_SYSTEM_INTEGRATOR_PROGRAM",
+   "lang": "de",
+   "geo": "DACH",
+   "sector": "industrial",
+   "query": "\"Systemintegrator Partnerprogramm\" Industrie Automatisierung Hersteller",
+   "results": [
+    {
+     "domain": "heidenhain.com",
+     "label": "VALID_OPERATOR",
+     "note": "HEIDENHAIN Partnerprogramm Automatisierung"
+    },
+    {
+     "domain": "3mdeutschland.de",
+     "label": "VALID_OPERATOR",
+     "note": "system integrator network for robot cells"
+    },
+    {
+     "domain": "fb-automation.com",
+     "label": "VALID_OPERATOR",
+     "note": "system integrator network, intralogistics"
+    },
+    {
+     "domain": "se.com",
+     "label": "DUPLICATE_PRIOR",
+     "note": "shadow + prior discovery"
+    },
+    {
+     "domain": "weidmueller.de",
+     "label": "DUPLICATE_PRIOR",
+     "note": "recovery holdout company"
+    }
+   ]
+  },
+  {
+   "family": "FRENCH_REVENDEUR_PROGRAM",
+   "lang": "fr",
+   "geo": "FR",
+   "sector": "software",
+   "query": "\"devenir partenaire revendeur\" logiciel programme France",
+   "results": [
+    {
+     "domain": "gestan.fr",
+     "label": "VALID_OPERATOR",
+     "note": "three partner categories: prescripteurs, formateurs, développeurs"
+    },
+    {
+     "domain": "ebp.com",
+     "label": "VALID_OPERATOR",
+     "note": "Alliance partner programme with certification"
+    },
+    {
+     "domain": "sage.com",
+     "label": "VALID_OPERATOR",
+     "note": "become a Sage reseller"
+    },
+    {
+     "domain": "start-platform.com",
+     "label": "VALID_OPERATOR",
+     "note": "platform reseller programme"
+    },
+    {
+     "domain": "yesicd.com",
+     "label": "VALID_OPERATOR",
+     "note": "reseller programme with commission per subscription"
+    },
+    {
+     "domain": "datacore.com",
+     "label": "VALID_OPERATOR",
+     "note": "software reseller programme"
+    },
+    {
+     "domain": "cegid.com",
+     "label": "DUPLICATE_PRIOR",
+     "note": "already in corpus"
+    },
+    {
+     "domain": "avantagebusiness.fr",
+     "label": "DUPLICATE_PRIOR",
+     "note": "prior discovery"
+    },
+    {
+     "domain": "koban.cloud",
+     "label": "DUPLICATE_PRIOR",
+     "note": "prior discovery"
+    }
+   ]
+  },
+  {
+   "family": "SWEDISH_RESELLER_OPERATOR",
+   "lang": "sv",
+   "geo": "Nordics",
+   "sector": "software",
+   "query": "\"bli återförsäljare\" partnerprogram programvara Sverige",
+   "results": [
+    {
+     "domain": "partnerpul.se",
+     "label": "IRRELEVANT",
+     "note": "guide to Microsoft Partner Network"
+    },
+    {
+     "domain": "salesforce.com",
+     "label": "CONSULTANT_OR_VENDOR",
+     "note": "PRM product page — the category Introw competes in"
+    },
+    {
+     "domain": "canon.se",
+     "label": "DUPLICATE_PRIOR",
+     "note": "shadow"
+    },
+    {
+     "domain": "se.com",
+     "label": "DUPLICATE_PRIOR",
+     "note": "prior"
+    },
+    {
+     "domain": "beebyte.se",
+     "label": "DUPLICATE_PRIOR",
+     "note": "shadow"
+    },
+    {
+     "domain": "acronis.com",
+     "label": "DUPLICATE_PRIOR",
+     "note": "prior"
+    },
+    {
+     "domain": "support.microsoft.com",
+     "label": "IRRELEVANT",
+     "note": "support documentation"
+    }
+   ]
+  },
+  {
+   "family": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+   "lang": "en",
+   "geo": "US/global",
+   "sector": "iot_hardware",
+   "query": "\"authorized reseller program\" apply IoT hardware manufacturer",
+   "results": [
+    {
+     "domain": "ei3.com",
+     "label": "VALID_OPERATOR",
+     "note": "authorised IIoT reseller programme with support and training"
+    },
+    {
+     "domain": "getwirelessllc.com",
+     "label": "PARTICIPANT_ONLY",
+     "note": "itself a VAR/distributor recruiting resellers of others' hardware"
+    },
+    {
+     "domain": "motorolasolutions.com",
+     "label": "VALID_OPERATOR",
+     "note": "PartnerEmpower reseller programme"
+    },
+    {
+     "domain": "allthingstalk.com",
+     "label": "VALID_OPERATOR",
+     "note": "IoT reseller programme"
+    },
+    {
+     "domain": "korewireless.com",
+     "label": "VALID_OPERATOR",
+     "note": "KORE Channels for resellers, VARs and MSPs"
+    },
+    {
+     "domain": "atomsenses.com",
+     "label": "VALID_OPERATOR",
+     "note": "LoRaWAN partner network, distributor/reseller/technology tracks"
+    },
+    {
+     "domain": "iotopen.io",
+     "label": "VALID_OPERATOR",
+     "note": "reseller programme for licences and on-prem"
+    },
+    {
+     "domain": "arrow.com",
+     "label": "PARTICIPANT_ONLY",
+     "note": "authorised distributor for Microsoft, not the vendor"
+    },
+    {
+     "domain": "learn.microsoft.com",
+     "label": "IRRELEVANT",
+     "note": "vendor documentation index"
+    }
+   ]
+  },
+  {
+   "family": "ITALIAN_RESELLER_OPERATOR",
+   "lang": "it",
+   "geo": "IT",
+   "sector": "software",
+   "query": "\"programma partner\" diventa rivenditore software Italia",
+   "results": [
+    {
+     "domain": "ositalia.com",
+     "label": "VALID_OPERATOR",
+     "note": "reseller and partner programme for management software"
+    },
+    {
+     "domain": "softwaresemplice.it",
+     "label": "VALID_OPERATOR",
+     "note": "white-label reseller programme"
+    },
+    {
+     "domain": "2bit.it",
+     "label": "VALID_OPERATOR",
+     "note": "three partnership programmes"
+    },
+    {
+     "domain": "stesi.it",
+     "label": "VALID_OPERATOR",
+     "note": "three-tier affiliation system"
+    },
+    {
+     "domain": "edisoftware.it",
+     "label": "VALID_OPERATOR",
+     "note": "reseller certification programme, pre/post-sale duties"
+    },
+    {
+     "domain": "register.it",
+     "label": "DUPLICATE_PRIOR",
+     "note": "shadow"
+    },
+    {
+     "domain": "sap.com",
+     "label": "DUPLICATE_PRIOR",
+     "note": "shadow"
+    },
+    {
+     "domain": "motorolasolutions.com",
+     "label": "DUPLICATE_BATCH",
+     "note": "same batch, IoT query"
+    },
+    {
+     "domain": "imperium-app.it",
+     "label": "IRRELEVANT",
+     "note": "blog"
+    }
+   ]
+  },
+  {
+   "family": "GERMAN_OPERATOR_FACHPARTNER",
+   "lang": "de",
+   "geo": "DACH",
+   "sector": "manufacturing",
+   "query": "\"Fachpartner werden\" Hersteller Partnerprogramm Maschinenbau",
+   "results": [
+    {
+     "domain": "giersch.de",
+     "label": "VALID_OPERATOR",
+     "note": "Fachpartner werden: four half-day training blocks, exam, certificate"
+    },
+    {
+     "domain": "machineering.de",
+     "label": "VALID_OPERATOR",
+     "note": "new partner programme for iPhysics simulation software"
+    },
+    {
+     "domain": "conwex.de",
+     "label": "VALID_OPERATOR",
+     "note": "Maschinenbau Partner network"
+    },
+    {
+     "domain": "stiebel-eltron.de",
+     "label": "DUPLICATE_PRIOR",
+     "note": "recovery holdout company"
+    },
+    {
+     "domain": "handwerk-magazin.de",
+     "label": "IRRELEVANT",
+     "note": "trade magazine article about partner programmes"
+    },
+    {
+     "domain": "der-maschinenbau.de",
+     "label": "IRRELEVANT",
+     "note": "trade press"
+    },
+    {
+     "domain": "me-magazin.com",
+     "label": "IRRELEVANT",
+     "note": "trade press"
+    },
+    {
+     "domain": "pressroom-rbt.com",
+     "label": "IRRELEVANT",
+     "note": "press-release host"
+    }
+   ]
+  },
+  {
+   "family": "DUTCH_VIA_ENGLISH_REACH",
+   "lang": "nl",
+   "geo": "Benelux",
+   "sector": "software",
+   "query": "\"partnerprogramma\" wederverkoper worden software Nederland België",
+   "note": "Both Dutch query families are disabled on precision. This query was run to test whether Benelux is reachable at all; results are reported but the family is NOT promoted.",
+   "results": [
+    {
+     "domain": "avast.com",
+     "label": "VALID_OPERATOR",
+     "note": "Avast Business partner programme for MSSPs, resellers, VARs, distributors"
+    },
+    {
+     "domain": "avg.com",
+     "label": "SAME_GROUP",
+     "note": "AVG Business — same corporate group as Avast (Gen Digital); one entity, not two"
+    },
+    {
+     "domain": "appelit.com",
+     "label": "VALID_OPERATOR",
+     "note": "white-label ICT reseller programme, NL and BE offices"
+    },
+    {
+     "domain": "acronis.com",
+     "label": "DUPLICATE_PRIOR",
+     "note": "prior"
+    },
+    {
+     "domain": "sap.com",
+     "label": "DUPLICATE_PRIOR",
+     "note": "prior"
+    },
+    {
+     "domain": "demodernenomaden.nl",
+     "label": "IRRELEVANT",
+     "note": "affiliate listicle"
+    }
+   ]
+  },
+  {
+   "family": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+   "lang": "en",
+   "geo": "US",
+   "sector": "manufacturing",
+   "query": "\"become an authorized dealer\" equipment manufacturer application United States",
+   "results": [
+    {
+     "domain": "vectorsecurity.com",
+     "label": "VALID_OPERATOR",
+     "note": "become a dealer programme"
+    },
+    {
+     "domain": "allisontransmission.com",
+     "label": "VALID_OPERATOR",
+     "note": "become an Allison authorised dealer, aftermarket channel"
+    },
+    {
+     "domain": "hy-capacity.com",
+     "label": "DUPLICATE_PRIOR",
+     "note": "prior discovery"
+    },
+    {
+     "domain": "grdian.com",
+     "label": "DUPLICATE_PRIOR",
+     "note": "shadow"
+    },
+    {
+     "domain": "ecfr.gov",
+     "label": "IRRELEVANT",
+     "note": "federal regulation"
+    },
+    {
+     "domain": "law.cornell.edu",
+     "label": "IRRELEVANT",
+     "note": "legal reference"
+    },
+    {
+     "domain": "smallbusiness.chron.com",
+     "label": "IRRELEVANT",
+     "note": "how-to article"
+    },
+    {
+     "domain": "buildmyonlinestore.com",
+     "label": "IRRELEVANT",
+     "note": "dictionary"
+    },
+    {
+     "domain": "nearity.co",
+     "label": "IRRELEVANT",
+     "note": "advice blog"
+    }
+   ]
+  },
+  {
+   "family": "SWEDISH_RESELLER_OPERATOR",
+   "lang": "sv",
+   "geo": "Nordics",
+   "sector": "manufacturing",
+   "query": "\"forhandler\" OR \"återförsäljare\" partnerprogram maskiner tillverkare Norden",
+   "note": "Lowest-yield query of the batch: Nordic machinery search surfaces DEALERS rather than the manufacturers that appoint them — the operator/participant inversion §32 warns about.",
+   "results": [
+    {
+     "domain": "nordfarm.se",
+     "label": "VALID_OPERATOR",
+     "note": "operates its own nationwide reseller network; all sales, service and parts run through resellers"
+    },
+    {
+     "domain": "attachmentwarehouse.eu",
+     "label": "VALID_OPERATOR",
+     "note": "contractor/reseller partner programme with exclusive pricing and joint marketing"
+    },
+    {
+     "domain": "nordcon.se",
+     "label": "PARTICIPANT_ONLY",
+     "note": "reseller of other manufacturers' machines"
+    },
+    {
+     "domain": "nordkustmaskin.se",
+     "label": "PARTICIPANT_ONLY",
+     "note": "reseller of SANY"
+    },
+    {
+     "domain": "gjmaskin.se",
+     "label": "PARTICIPANT_ONLY",
+     "note": "carries other brands"
+    },
+    {
+     "domain": "maskinkontakt.se",
+     "label": "IRRELEVANT",
+     "note": "industry registry"
+    },
+    {
+     "domain": "branschkoll.se",
+     "label": "IRRELEVANT",
+     "note": "trade news"
+    },
+    {
+     "domain": "skogsmaskindagarna.se",
+     "label": "IRRELEVANT",
+     "note": "trade fair exhibitor list"
+    },
+    {
+     "domain": "se.linkedin.com",
+     "label": "IRRELEVANT",
+     "note": "social profile"
+    }
+   ]
+  },
+  {
+   "family": "GERMAN_OPERATOR_FACHPARTNER",
+   "lang": "de",
+   "geo": "DACH",
+   "sector": "software",
+   "query": "\"Vertriebspartner gesucht\" Hersteller Partnerprogramm Software DACH",
+   "results": [
+    {
+     "domain": "myfactory.com",
+     "label": "VALID_OPERATOR",
+     "note": "Vertriebspartner gesucht, ERP/business software"
+    },
+    {
+     "domain": "saas-partner.de",
+     "label": "VALID_OPERATOR",
+     "note": "SaaS vendor partner programme, 20-50% monthly commission"
+    },
+    {
+     "domain": "comarch.de",
+     "label": "VALID_OPERATOR",
+     "note": "ERP partner programme across DACH"
+    },
+    {
+     "domain": "gofilemaker.de",
+     "label": "VALID_OPERATOR",
+     "note": "B2B software sales partner sought"
+    },
+    {
+     "domain": "apicbase.com",
+     "label": "VALID_OPERATOR_VIA_DIRECTORY",
+     "note": "seeking DACH sales partners with recurring revenue — surfaced through a third-party pinboard, so identity is counterparty-sourced (§9 lower entity confidence)"
+    },
+    {
+     "domain": "softguide.de",
+     "label": "IRRELEVANT",
+     "note": "third-party partner-search pinboard, not an operator"
+    },
+    {
+     "domain": "itreseller.ch",
+     "label": "IRRELEVANT",
+     "note": "trade press"
+    },
+    {
+     "domain": "cleverdataconsulting.net",
+     "label": "CONSULTANT_OR_VENDOR",
+     "note": "channel recruitment consultancy"
+    },
+    {
+     "domain": "yuhiro.de",
+     "label": "IRRELEVANT",
+     "note": "listicle"
+    },
+    {
+     "domain": "e-marketer.de",
+     "label": "IRRELEVANT",
+     "note": "partner-search directory"
+    }
+   ]
+  }
+ ]
+}

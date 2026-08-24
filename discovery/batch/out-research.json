@@ -1,0 +1,2042 @@
+[
+  {
+    "domain": "2bit.it",
+    "discoveredVia": "ITALIAN_RESELLER_OPERATOR",
+    "lang": "it",
+    "geo": "IT",
+    "sector": "software",
+    "discoveryNote": "three partnership programmes",
+    "machineState": "under_observed",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "under_observed",
+    "fitReasons": [
+      "3 pages and 0 vacancies were read without establishing a partner motion."
+    ],
+    "wouldResolve": [
+      "A partner surface on a regional domain, a dealer locator, or a partner page not linked from the main navigation."
+    ],
+    "seconds": 1
+  },
+  {
+    "domain": "3mdeutschland.de",
+    "discoveredVia": "ENGLISH_SYSTEM_INTEGRATOR_PROGRAM",
+    "lang": "de",
+    "geo": "DACH",
+    "sector": "industrial",
+    "discoveryNote": "system integrator network for robot cells",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller"
+    ],
+    "surfaces": [],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 2,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 2,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "likely_not_fit",
+    "fitReasons": [
+      "A published directory lists at least 7 partner organisations."
+    ],
+    "wouldResolve": [],
+    "seconds": 1
+  },
+  {
+    "domain": "allisontransmission.com",
+    "discoveredVia": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+    "lang": "en",
+    "geo": "US",
+    "sector": "manufacturing",
+    "discoveryNote": "become an Allison authorised dealer, aftermarket channel",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "distributor",
+      "dealer",
+      "oem_partner"
+    ],
+    "surfaces": [],
+    "recoveryAdded": [
+      "dealer",
+      "oem_partner"
+    ],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 7,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 7,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [
+      "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
+      "Which CRM the commercial team runs on — ask on the first call; public detection resolved this for a minority of accounts.",
+      "Whether partners actually influence revenue, or the programme is a directory listing."
+    ],
+    "seconds": 1
+  },
+  {
+    "domain": "allthingstalk.com",
+    "discoveredVia": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+    "lang": "en",
+    "geo": "US/global",
+    "sector": "iot_hardware",
+    "discoveryNote": "IoT reseller programme",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller"
+    ],
+    "surfaces": [],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": "HubSpot",
+      "level": "strong_supporting",
+      "jobTitle": null,
+      "sourceType": "website_fingerprint",
+      "publishedAt": null,
+      "quote": "js.hsforms.net",
+      "sourceUrl": "https://allthingstalk.com/",
+      "allVendors": [
+        "HubSpot/strong_supporting"
+      ],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 1,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 1,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "familiesObserved": {
+      "other": 2
+    },
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [
+      "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
+      "Whether partners actually influence revenue, or the programme is a directory listing."
+    ],
+    "seconds": 1
+  },
+  {
+    "domain": "apicbase.com",
+    "discoveredVia": "GERMAN_OPERATOR_FACHPARTNER",
+    "lang": "de",
+    "geo": "DACH",
+    "sector": "software",
+    "discoveryNote": "seeking DACH sales partners with recurring revenue — surfaced through a third-party pinboard, so identity is counterparty-sourced (§9 lower entity confidence)",
+    "machineState": "under_observed",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": "HubSpot",
+      "level": "strong_supporting",
+      "jobTitle": null,
+      "sourceType": "website_fingerprint",
+      "publishedAt": null,
+      "quote": "js.hs-scripts.com/5867239.js",
+      "sourceUrl": "https://apicbase.com/",
+      "allVendors": [
+        "HubSpot/strong_supporting"
+      ],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 5,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 5,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "familiesObserved": {
+      "other": 2
+    },
+    "fit": "under_observed",
+    "fitReasons": [
+      "3 pages and 5 vacancies were read without establishing a partner motion."
+    ],
+    "wouldResolve": [
+      "A partner surface on a regional domain, a dealer locator, or a partner page not linked from the main navigation."
+    ],
+    "seconds": 1
+  },
+  {
+    "domain": "appelit.com",
+    "discoveredVia": "DUTCH_VIA_ENGLISH_REACH",
+    "lang": "nl",
+    "geo": "Benelux",
+    "sector": "software",
+    "discoveryNote": "white-label ICT reseller programme, NL and BE offices",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "technology",
+      "msp"
+    ],
+    "surfaces": [],
+    "recoveryAdded": [
+      "msp"
+    ],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [
+      "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
+      "Which CRM the commercial team runs on — ask on the first call; public detection resolved this for a minority of accounts.",
+      "Whether partners actually influence revenue, or the programme is a directory listing."
+    ],
+    "seconds": 1
+  },
+  {
+    "domain": "atomsenses.com",
+    "discoveredVia": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+    "lang": "en",
+    "geo": "US/global",
+    "sector": "iot_hardware",
+    "discoveryNote": "LoRaWAN partner network, distributor/reseller/technology tracks",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller",
+      "technology"
+    ],
+    "surfaces": [
+      "partner_recruitment"
+    ],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 5,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 5,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [
+      "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
+      "Which CRM the commercial team runs on — ask on the first call; public detection resolved this for a minority of accounts."
+    ],
+    "seconds": 1
+  },
+  {
+    "domain": "attachmentwarehouse.eu",
+    "discoveredVia": "SWEDISH_RESELLER_OPERATOR",
+    "lang": "sv",
+    "geo": "Nordics",
+    "sector": "manufacturing",
+    "discoveryNote": "contractor/reseller partner programme with exclusive pricing and joint marketing",
+    "machineState": "under_observed",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 2,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 2,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "under_observed",
+    "fitReasons": [
+      "3 pages and 2 vacancies were read without establishing a partner motion."
+    ],
+    "wouldResolve": [
+      "A partner surface on a regional domain, a dealer locator, or a partner page not linked from the main navigation."
+    ],
+    "seconds": 1
+  },
+  {
+    "domain": "avast.com",
+    "discoveredVia": "DUTCH_VIA_ENGLISH_REACH",
+    "lang": "nl",
+    "geo": "Benelux",
+    "sector": "software",
+    "discoveryNote": "Avast Business partner programme for MSSPs, resellers, VARs, distributors",
+    "machineState": "strong_evidence",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller",
+      "referral",
+      "distributor",
+      "msp"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "deal_registration",
+      "portal"
+    ],
+    "recoveryAdded": [
+      "msp"
+    ],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": true,
+      "vacanciesRead": 2,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 2,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "plausible_introw_fit",
+    "fitReasons": [
+      "Company-owned partner programme with 3 publicly visible workflow(s): partner_recruitment, deal_registration, portal.",
+      "Partners are evidenced as influencing commercial opportunities, not only integrations.",
+      "CRM is unknown. That is the expected state for most companies and is not a reason to deprioritise (§34)."
+    ],
+    "wouldResolve": [],
+    "seconds": 2
+  },
+  {
+    "domain": "bytes.co.uk",
+    "discoveredVia": "ENGLISH_MSP_PROGRAM",
+    "lang": "en",
+    "geo": "UK",
+    "sector": "software",
+    "discoveryNote": "partner programs, 35 years in the UK channel",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller",
+      "solution_partner"
+    ],
+    "surfaces": [],
+    "recoveryAdded": [
+      "solution_partner"
+    ],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [
+      "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
+      "Which CRM the commercial team runs on — ask on the first call; public detection resolved this for a minority of accounts."
+    ],
+    "seconds": 4
+  },
+  {
+    "domain": "canonical.com",
+    "discoveredVia": "ENGLISH_MSP_PROGRAM",
+    "lang": "en",
+    "geo": "UK",
+    "sector": "software",
+    "discoveryNote": "channel / reseller programme",
+    "machineState": "strong_evidence",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "deal_registration",
+      "co_selling",
+      "portal"
+    ],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": "Salesforce",
+      "level": "strong_supporting",
+      "jobTitle": null,
+      "sourceType": "company_careers_index",
+      "publishedAt": null,
+      "quote": "Engineering Director - Business Data https://canonical.com/careers/7646448 Lead one of the teams developing Ubuntu Pro backend services, integrating Ubuntu Pro with public clouds, developing JAAS and Livepatch, integrati",
+      "sourceUrl": "https://www.canonical.com/careers/feed",
+      "allVendors": [
+        "Salesforce/strong_supporting"
+      ],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": true,
+      "vacanciesRead": 15,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 14,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "company_careers_index"
+      ]
+    },
+    "familiesObserved": {
+      "other": 1
+    },
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [],
+    "seconds": 2
+  },
+  {
+    "domain": "cloud.ionos.co.uk",
+    "discoveredVia": "ENGLISH_MSP_PROGRAM",
+    "lang": "en",
+    "geo": "UK",
+    "sector": "software",
+    "discoveryNote": "cloud channel partner programme",
+    "machineState": "plausible",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller",
+      "technology"
+    ],
+    "surfaces": [
+      "enablement",
+      "co_selling",
+      "portal"
+    ],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [
+      "Which CRM the commercial team runs on — ask on the first call; public detection resolved this for a minority of accounts.",
+      "Whether partners actually influence revenue, or the programme is a directory listing."
+    ],
+    "seconds": 3
+  },
+  {
+    "domain": "comarch.de",
+    "discoveredVia": "GERMAN_OPERATOR_FACHPARTNER",
+    "lang": "de",
+    "geo": "DACH",
+    "sector": "software",
+    "discoveryNote": "ERP partner programme across DACH",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "service_partner",
+      "solution_partner",
+      "system_integrator"
+    ],
+    "surfaces": [
+      "tiering"
+    ],
+    "recoveryAdded": [
+      "service_partner",
+      "solution_partner",
+      "system_integrator",
+      "tiering"
+    ],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 1,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 1,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [
+      "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
+      "Which CRM the commercial team runs on — ask on the first call; public detection resolved this for a minority of accounts.",
+      "Whether partners actually influence revenue, or the programme is a directory listing."
+    ],
+    "seconds": 2
+  },
+  {
+    "domain": "conwex.de",
+    "discoveredVia": "GERMAN_OPERATOR_FACHPARTNER",
+    "lang": "de",
+    "geo": "DACH",
+    "sector": "manufacturing",
+    "discoveryNote": "Maschinenbau Partner network",
+    "machineState": "under_observed",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 2,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 2,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "under_observed",
+    "fitReasons": [
+      "Only 2 page(s) could be read. Too little was retrieved to say anything about the partner motion."
+    ],
+    "wouldResolve": [
+      "Find the partner surface — it may be on a regional domain or behind a locator."
+    ],
+    "seconds": 1
+  },
+  {
+    "domain": "datacore.com",
+    "discoveredVia": "FRENCH_REVENDEUR_PROGRAM",
+    "lang": "fr",
+    "geo": "FR",
+    "sector": "software",
+    "discoveryNote": "software reseller programme",
+    "machineState": "strong_evidence",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller",
+      "technology"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "enablement",
+      "certification",
+      "portal"
+    ],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": "Salesforce",
+      "level": "strong_supporting",
+      "jobTitle": null,
+      "sourceType": "website_fingerprint",
+      "publishedAt": null,
+      "quote": "datacore.my.site.com",
+      "sourceUrl": "https://datacore.com/",
+      "allVendors": [
+        "Salesforce/strong_supporting"
+      ],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 6,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 6,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "familiesObserved": {
+      "other": 1
+    },
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [],
+    "seconds": 4
+  },
+  {
+    "domain": "ebp.com",
+    "discoveredVia": "FRENCH_REVENDEUR_PROGRAM",
+    "lang": "fr",
+    "geo": "FR",
+    "sector": "software",
+    "discoveryNote": "Alliance partner programme with certification",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "certification",
+      "partner_locator"
+    ],
+    "recoveryAdded": [
+      "partner_locator"
+    ],
+    "crm": {
+      "vendor": "HubSpot",
+      "level": "strong_supporting",
+      "jobTitle": null,
+      "sourceType": "website_fingerprint",
+      "publishedAt": null,
+      "quote": "hs-analytics.net",
+      "sourceUrl": "https://ebp.com/",
+      "allVendors": [
+        "HubSpot/strong_supporting"
+      ],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "familiesObserved": {
+      "other": 1
+    },
+    "fit": "plausible_introw_fit",
+    "fitReasons": [
+      "Company-owned partner programme with 2 publicly visible workflow(s): partner_recruitment, certification.",
+      "HubSpot evidenced at strong supporting — a CRM Introw connects to."
+    ],
+    "wouldResolve": [],
+    "seconds": 2
+  },
+  {
+    "domain": "edisoftware.it",
+    "discoveredVia": "ITALIAN_RESELLER_OPERATOR",
+    "lang": "it",
+    "geo": "IT",
+    "sector": "software",
+    "discoveryNote": "reseller certification programme, pre/post-sale duties",
+    "machineState": "under_observed",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 8,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 8,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "under_observed",
+    "fitReasons": [
+      "Only 2 page(s) could be read. Too little was retrieved to say anything about the partner motion."
+    ],
+    "wouldResolve": [
+      "Find the partner surface — it may be on a regional domain or behind a locator."
+    ],
+    "seconds": 2
+  },
+  {
+    "domain": "ei3.com",
+    "discoveredVia": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+    "lang": "en",
+    "geo": "US/global",
+    "sector": "iot_hardware",
+    "discoveryNote": "authorised IIoT reseller programme with support and training",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller"
+    ],
+    "surfaces": [],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": "HubSpot",
+      "level": "strong_supporting",
+      "jobTitle": null,
+      "sourceType": "website_fingerprint",
+      "publishedAt": null,
+      "quote": "js.hsforms.net",
+      "sourceUrl": "https://ei3.com/",
+      "allVendors": [
+        "HubSpot/strong_supporting"
+      ],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 2,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 2,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "familiesObserved": {
+      "other": 2
+    },
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [
+      "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
+      "Whether partners actually influence revenue, or the programme is a directory listing."
+    ],
+    "seconds": 1
+  },
+  {
+    "domain": "expo-e.uk",
+    "discoveredVia": "ENGLISH_MSP_PROGRAM",
+    "lang": "en",
+    "geo": "UK",
+    "sector": "software",
+    "discoveryNote": "reseller partner programme, IT solutions portfolio",
+    "machineState": "strong_evidence",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "onboarding",
+      "portal",
+      "programme_tiers"
+    ],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "plausible_introw_fit",
+    "fitReasons": [
+      "Company-owned partner programme with 4 publicly visible workflow(s): partner_recruitment, onboarding, portal, programme_tiers.",
+      "Partners are evidenced as influencing commercial opportunities, not only integrations.",
+      "CRM is unknown. That is the expected state for most companies and is not a reason to deprioritise (§34)."
+    ],
+    "wouldResolve": [],
+    "seconds": 5
+  },
+  {
+    "domain": "fb-automation.com",
+    "discoveredVia": "ENGLISH_SYSTEM_INTEGRATOR_PROGRAM",
+    "lang": "de",
+    "geo": "DACH",
+    "sector": "industrial",
+    "discoveryNote": "system integrator network, intralogistics",
+    "machineState": "under_observed",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": "HubSpot",
+      "level": "strong_supporting",
+      "jobTitle": null,
+      "sourceType": "website_fingerprint",
+      "publishedAt": null,
+      "quote": "js.hsforms.net",
+      "sourceUrl": "https://fb-automation.com/",
+      "allVendors": [
+        "HubSpot/strong_supporting"
+      ],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 3,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 3,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "company_careers_index",
+        "company_current_vacancy",
+        "website_fingerprint"
+      ]
+    },
+    "familiesObserved": {
+      "other": 3
+    },
+    "fit": "under_observed",
+    "fitReasons": [
+      "8 pages and 3 vacancies were read without establishing a partner motion."
+    ],
+    "wouldResolve": [
+      "A partner surface on a regional domain, a dealer locator, or a partner page not linked from the main navigation."
+    ],
+    "seconds": 1
+  },
+  {
+    "domain": "firstcomeurope.co.uk",
+    "discoveredVia": "ENGLISH_MSP_PROGRAM",
+    "lang": "en",
+    "geo": "UK",
+    "sector": "software",
+    "discoveryNote": "channel partners programme",
+    "machineState": "strong_evidence",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller",
+      "affiliate",
+      "referral",
+      "solution_partner"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "enablement",
+      "portal",
+      "programme_tiers",
+      "partner_resources"
+    ],
+    "recoveryAdded": [
+      "solution_partner"
+    ],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 2,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 2,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "plausible_introw_fit",
+    "fitReasons": [
+      "Company-owned partner programme with 4 publicly visible workflow(s): partner_recruitment, enablement, portal, programme_tiers.",
+      "Partners are evidenced as influencing commercial opportunities, not only integrations.",
+      "CRM is unknown. That is the expected state for most companies and is not a reason to deprioritise (§34)."
+    ],
+    "wouldResolve": [],
+    "seconds": 1
+  },
+  {
+    "domain": "fortinet.com",
+    "discoveredVia": "ENGLISH_MSP_PROGRAM",
+    "lang": "en",
+    "geo": "US/CA",
+    "sector": "cybersecurity",
+    "discoveryNote": "MSSP programme, multitenancy, custom portals",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller"
+    ],
+    "surfaces": [
+      "portal"
+    ],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": "Salesforce",
+      "level": "strong_supporting",
+      "jobTitle": null,
+      "sourceType": "website_fingerprint",
+      "publishedAt": null,
+      "quote": "salesforceliveagent.com",
+      "sourceUrl": "https://fortinet.com/",
+      "allVendors": [
+        "Salesforce/strong_supporting"
+      ],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 3,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 3,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "familiesObserved": {
+      "other": 1
+    },
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [
+      "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
+      "Whether partners actually influence revenue, or the programme is a directory listing."
+    ],
+    "seconds": 15
+  },
+  {
+    "domain": "gestan.fr",
+    "discoveredVia": "FRENCH_REVENDEUR_PROGRAM",
+    "lang": "fr",
+    "geo": "FR",
+    "sector": "software",
+    "discoveryNote": "three partner categories: prescripteurs, formateurs, développeurs",
+    "machineState": "plausible",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [
+      "partner_recruitment"
+    ],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 8,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 8,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "research_required",
+    "fitReasons": [
+      "Partner vocabulary is present, but ownership of the programme is not established."
+    ],
+    "wouldResolve": [
+      "Whether the company recruits its own partners, or has joined someone else's programme — look for an intake form on its own domain, not a partner badge.",
+      "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
+      "Which CRM the commercial team runs on — ask on the first call; public detection resolved this for a minority of accounts.",
+      "Whether partners actually influence revenue, or the programme is a directory listing."
+    ],
+    "seconds": 2
+  },
+  {
+    "domain": "giersch.de",
+    "discoveredVia": "GERMAN_OPERATOR_FACHPARTNER",
+    "lang": "de",
+    "geo": "DACH",
+    "sector": "manufacturing",
+    "discoveryNote": "Fachpartner werden: four half-day training blocks, exam, certificate",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "dealer"
+    ],
+    "surfaces": [],
+    "recoveryAdded": [
+      "dealer"
+    ],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [
+      "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
+      "Which CRM the commercial team runs on — ask on the first call; public detection resolved this for a minority of accounts.",
+      "Whether partners actually influence revenue, or the programme is a directory listing."
+    ],
+    "seconds": 2
+  },
+  {
+    "domain": "gofilemaker.de",
+    "discoveredVia": "GERMAN_OPERATOR_FACHPARTNER",
+    "lang": "de",
+    "geo": "DACH",
+    "sector": "software",
+    "discoveryNote": "B2B software sales partner sought",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller",
+      "distributor"
+    ],
+    "surfaces": [],
+    "recoveryAdded": [
+      "reseller",
+      "distributor"
+    ],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [
+      "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
+      "Which CRM the commercial team runs on — ask on the first call; public detection resolved this for a minority of accounts.",
+      "Whether partners actually influence revenue, or the programme is a directory listing."
+    ],
+    "seconds": 1
+  },
+  {
+    "domain": "heidenhain.com",
+    "discoveredVia": "ENGLISH_SYSTEM_INTEGRATOR_PROGRAM",
+    "lang": "de",
+    "geo": "DACH",
+    "sector": "industrial",
+    "discoveryNote": "HEIDENHAIN Partnerprogramm Automatisierung",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "service_partner"
+    ],
+    "surfaces": [
+      "certification",
+      "training"
+    ],
+    "recoveryAdded": [
+      "service_partner",
+      "certification",
+      "training"
+    ],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 2,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 2,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [
+      "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
+      "Which CRM the commercial team runs on — ask on the first call; public detection resolved this for a minority of accounts.",
+      "Whether partners actually influence revenue, or the programme is a directory listing."
+    ],
+    "seconds": 2
+  },
+  {
+    "domain": "iotopen.io",
+    "discoveredVia": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+    "lang": "en",
+    "geo": "US/global",
+    "sector": "iot_hardware",
+    "discoveryNote": "reseller programme for licences and on-prem",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller",
+      "distributor",
+      "system_integrator"
+    ],
+    "surfaces": [
+      "partner_recruitment"
+    ],
+    "recoveryAdded": [
+      "system_integrator"
+    ],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [
+      "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
+      "Which CRM the commercial team runs on — ask on the first call; public detection resolved this for a minority of accounts."
+    ],
+    "seconds": 2
+  },
+  {
+    "domain": "korewireless.com",
+    "discoveredVia": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+    "lang": "en",
+    "geo": "US/global",
+    "sector": "iot_hardware",
+    "discoveryNote": "KORE Channels for resellers, VARs and MSPs",
+    "machineState": "strong_evidence",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "application",
+      "enablement",
+      "deal_registration",
+      "portal"
+    ],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": "HubSpot",
+      "level": "strong_supporting",
+      "jobTitle": null,
+      "sourceType": "website_fingerprint",
+      "publishedAt": null,
+      "quote": "js.hsforms.net",
+      "sourceUrl": "https://korewireless.com/",
+      "allVendors": [
+        "HubSpot/strong_supporting"
+      ],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 8,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 8,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "familiesObserved": {
+      "other": 1
+    },
+    "fit": "plausible_introw_fit",
+    "fitReasons": [
+      "Company-owned partner programme with 5 publicly visible workflow(s): partner_recruitment, application, enablement, deal_registration, portal.",
+      "HubSpot evidenced at strong supporting — a CRM Introw connects to."
+    ],
+    "wouldResolve": [],
+    "seconds": 1
+  },
+  {
+    "domain": "lumen.com",
+    "discoveredVia": "ENGLISH_MSP_PROGRAM",
+    "lang": "en",
+    "geo": "UK",
+    "sector": "software",
+    "discoveryNote": "channel partner programme",
+    "machineState": "strong_evidence",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller",
+      "technology",
+      "system_integrator",
+      "msp",
+      "solution_partner"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "referral_submission",
+      "portal"
+    ],
+    "recoveryAdded": [
+      "system_integrator",
+      "msp",
+      "solution_partner"
+    ],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 3,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 3,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "plausible_introw_fit",
+    "fitReasons": [
+      "Company-owned partner programme with 3 publicly visible workflow(s): partner_recruitment, referral_submission, portal.",
+      "Partners are evidenced as influencing commercial opportunities, not only integrations.",
+      "CRM is unknown. That is the expected state for most companies and is not a reason to deprioritise (§34)."
+    ],
+    "wouldResolve": [],
+    "seconds": 15
+  },
+  {
+    "domain": "machineering.de",
+    "discoveredVia": "GERMAN_OPERATOR_FACHPARTNER",
+    "lang": "de",
+    "geo": "DACH",
+    "sector": "manufacturing",
+    "discoveryNote": "new partner programme for iPhysics simulation software",
+    "machineState": "under_observed",
+    "category": "unknown",
+    "programmes": [],
+    "surfaces": [],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "under_observed",
+    "fitReasons": [
+      "Only 0 page(s) could be read. Too little was retrieved to say anything about the partner motion."
+    ],
+    "wouldResolve": [
+      "Find the partner surface — it may be on a regional domain or behind a locator."
+    ],
+    "seconds": 2
+  },
+  {
+    "domain": "motorolasolutions.com",
+    "discoveredVia": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+    "lang": "en",
+    "geo": "US/global",
+    "sector": "iot_hardware",
+    "discoveryNote": "PartnerEmpower reseller programme",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller"
+    ],
+    "surfaces": [],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": "Salesforce",
+      "level": "strong_supporting",
+      "jobTitle": null,
+      "sourceType": "website_fingerprint",
+      "publishedAt": null,
+      "quote": "motorolasolutions.my.site.com",
+      "sourceUrl": "https://motorolasolutions.com/",
+      "allVendors": [
+        "Salesforce/strong_supporting"
+      ],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "familiesObserved": {
+      "other": 1
+    },
+    "fit": "likely_not_fit",
+    "fitReasons": [
+      "A published directory lists at least 6 partner organisations."
+    ],
+    "wouldResolve": [],
+    "seconds": 2
+  },
+  {
+    "domain": "myfactory.com",
+    "discoveredVia": "GERMAN_OPERATOR_FACHPARTNER",
+    "lang": "de",
+    "geo": "DACH",
+    "sector": "software",
+    "discoveryNote": "Vertriebspartner gesucht, ERP/business software",
+    "machineState": "plausible",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller",
+      "distributor"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "certification",
+      "partner_recruitment",
+      "partner_portal"
+    ],
+    "recoveryAdded": [
+      "reseller",
+      "distributor",
+      "certification",
+      "partner_recruitment",
+      "partner_portal"
+    ],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "plausible_introw_fit",
+    "fitReasons": [
+      "Company-owned partner programme with 3 publicly visible workflow(s): partner_recruitment, certification, partner_portal.",
+      "CRM is unknown. That is the expected state for most companies and is not a reason to deprioritise (§34)."
+    ],
+    "wouldResolve": [],
+    "seconds": 2
+  },
+  {
+    "domain": "nordfarm.se",
+    "discoveredVia": "SWEDISH_RESELLER_OPERATOR",
+    "lang": "sv",
+    "geo": "Nordics",
+    "sector": "manufacturing",
+    "discoveryNote": "operates its own nationwide reseller network; all sales, service and parts run through resellers",
+    "machineState": "under_observed",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "under_observed",
+    "fitReasons": [
+      "4 pages and 0 vacancies were read without establishing a partner motion."
+    ],
+    "wouldResolve": [
+      "A partner surface on a regional domain, a dealer locator, or a partner page not linked from the main navigation."
+    ],
+    "seconds": 2
+  },
+  {
+    "domain": "ositalia.com",
+    "discoveredVia": "ITALIAN_RESELLER_OPERATOR",
+    "lang": "it",
+    "geo": "IT",
+    "sector": "software",
+    "discoveryNote": "reseller and partner programme for management software",
+    "machineState": "under_observed",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 2,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 2,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "under_observed",
+    "fitReasons": [
+      "7 pages and 2 vacancies were read without establishing a partner motion."
+    ],
+    "wouldResolve": [
+      "A partner surface on a regional domain, a dealer locator, or a partner page not linked from the main navigation."
+    ],
+    "seconds": 2
+  },
+  {
+    "domain": "paloaltonetworks.com",
+    "discoveredVia": "ENGLISH_MSP_PROGRAM",
+    "lang": "en",
+    "geo": "US/CA",
+    "sector": "cybersecurity",
+    "discoveryNote": "MSSP partner programme (PDF)",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller"
+    ],
+    "surfaces": [
+      "partner_recruitment"
+    ],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": "Salesforce",
+      "level": "strong_supporting",
+      "jobTitle": null,
+      "sourceType": "website_fingerprint",
+      "publishedAt": null,
+      "quote": "paloaltonetworks.my.site.com",
+      "sourceUrl": "https://paloaltonetworks.com/",
+      "allVendors": [
+        "Salesforce/strong_supporting"
+      ],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 1,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 1,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "familiesObserved": {
+      "other": 1
+    },
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [
+      "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
+      "Whether partners actually influence revenue, or the programme is a directory listing."
+    ],
+    "seconds": 2
+  },
+  {
+    "domain": "saas-partner.de",
+    "discoveredVia": "GERMAN_OPERATOR_FACHPARTNER",
+    "lang": "de",
+    "geo": "DACH",
+    "sector": "software",
+    "discoveryNote": "SaaS vendor partner programme, 20-50% monthly commission",
+    "machineState": "under_observed",
+    "category": "unknown",
+    "programmes": [],
+    "surfaces": [],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "under_observed",
+    "fitReasons": [
+      "Only 0 page(s) could be read. Too little was retrieved to say anything about the partner motion."
+    ],
+    "wouldResolve": [
+      "Find the partner surface — it may be on a regional domain or behind a locator."
+    ],
+    "seconds": 1
+  },
+  {
+    "domain": "sage.com",
+    "discoveredVia": "FRENCH_REVENDEUR_PROGRAM",
+    "lang": "fr",
+    "geo": "FR",
+    "sector": "software",
+    "discoveryNote": "become a Sage reseller",
+    "machineState": "plausible",
+    "category": "unknown",
+    "programmes": [],
+    "surfaces": [
+      "partner_recruitment"
+    ],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "research_required",
+    "fitReasons": [
+      "Partner vocabulary is present, but ownership of the programme is not established."
+    ],
+    "wouldResolve": [
+      "Whether the company recruits its own partners, or has joined someone else's programme — look for an intake form on its own domain, not a partner badge.",
+      "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
+      "Which CRM the commercial team runs on — ask on the first call; public detection resolved this for a minority of accounts.",
+      "Whether partners actually influence revenue, or the programme is a directory listing."
+    ],
+    "seconds": 1
+  },
+  {
+    "domain": "softwaresemplice.it",
+    "discoveredVia": "ITALIAN_RESELLER_OPERATOR",
+    "lang": "it",
+    "geo": "IT",
+    "sector": "software",
+    "discoveryNote": "white-label reseller programme",
+    "machineState": "under_observed",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 5,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 5,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "under_observed",
+    "fitReasons": [
+      "3 pages and 5 vacancies were read without establishing a partner motion."
+    ],
+    "wouldResolve": [
+      "A partner surface on a regional domain, a dealer locator, or a partner page not linked from the main navigation."
+    ],
+    "seconds": 1
+  },
+  {
+    "domain": "start-platform.com",
+    "discoveredVia": "FRENCH_REVENDEUR_PROGRAM",
+    "lang": "fr",
+    "geo": "FR",
+    "sector": "software",
+    "discoveryNote": "platform reseller programme",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller"
+    ],
+    "surfaces": [
+      "partner_recruitment"
+    ],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [
+      "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
+      "Which CRM the commercial team runs on — ask on the first call; public detection resolved this for a minority of accounts."
+    ],
+    "seconds": 1
+  },
+  {
+    "domain": "stesi.it",
+    "discoveredVia": "ITALIAN_RESELLER_OPERATOR",
+    "lang": "it",
+    "geo": "IT",
+    "sector": "software",
+    "discoveryNote": "three-tier affiliation system",
+    "machineState": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller"
+    ],
+    "surfaces": [
+      "partner_recruitment"
+    ],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": "HubSpot",
+      "level": "strong_supporting",
+      "jobTitle": null,
+      "sourceType": "website_fingerprint",
+      "publishedAt": null,
+      "quote": "js.hs-scripts.com/6145123.js",
+      "sourceUrl": "https://stesi.it/",
+      "allVendors": [
+        "HubSpot/strong_supporting"
+      ],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "familiesObserved": {
+      "other": 1
+    },
+    "fit": "research_required",
+    "fitReasons": [
+      "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
+    ],
+    "wouldResolve": [
+      "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
+      "Whether partners actually influence revenue, or the programme is a directory listing."
+    ],
+    "seconds": 1
+  },
+  {
+    "domain": "vectorsecurity.com",
+    "discoveredVia": "ENGLISH_AUTHORIZED_RESELLER_HARDWARE",
+    "lang": "en",
+    "geo": "US",
+    "sector": "manufacturing",
+    "discoveryNote": "become a dealer programme",
+    "machineState": "under_observed",
+    "category": "unknown",
+    "programmes": [],
+    "surfaces": [],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "under_observed",
+    "fitReasons": [
+      "Only 0 page(s) could be read. Too little was retrieved to say anything about the partner motion."
+    ],
+    "wouldResolve": [
+      "Find the partner surface — it may be on a regional domain or behind a locator."
+    ],
+    "seconds": 4
+  },
+  {
+    "domain": "yesicd.com",
+    "discoveredVia": "FRENCH_REVENDEUR_PROGRAM",
+    "lang": "fr",
+    "geo": "FR",
+    "sector": "software",
+    "discoveryNote": "reseller programme with commission per subscription",
+    "machineState": "under_observed",
+    "category": "unknown",
+    "programmes": [],
+    "surfaces": [],
+    "recoveryAdded": [],
+    "crm": {
+      "vendor": null,
+      "level": "unknown",
+      "jobTitle": null,
+      "sourceType": null,
+      "publishedAt": null,
+      "quote": null,
+      "sourceUrl": null,
+      "allVendors": [],
+      "conflict": null
+    },
+    "crmCoverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": []
+    },
+    "familiesObserved": {},
+    "fit": "under_observed",
+    "fitReasons": [
+      "Only 0 page(s) could be read. Too little was retrieved to say anything about the partner motion."
+    ],
+    "wouldResolve": [
+      "Find the partner surface — it may be on a regional domain or behind a locator."
+    ],
+    "seconds": 1
+  }
+]

@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.aikido.dev"
   },
   "geography": null,
-  "builtAt": "2026-08-24T17:58:29.735Z",
+  "builtAt": "2026-08-24T19:37:31.355Z",
   "oldestEvidenceAt": "2026-08-21T13:57:18.512Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -42,11 +42,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o175",
+          "id": "o181",
           "quote": "and get support from our no-nonsense enablement and co-sell motions.",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "retrievedAt": "2026-08-24T19:37:31.355Z",
           "strength": "confirmed",
           "proves": "the company describes partners selling or reselling its product",
           "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -54,11 +54,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o176",
+          "id": "o182",
           "quote": "Scale your business Earn commissions, grow your revenue, and get support from our no-nonsense enablement and co-sell",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "retrievedAt": "2026-08-24T19:37:31.355Z",
           "strength": "confirmed",
           "proves": "the company pitches partner participation as revenue for the partner",
           "doesNotProve": "that any partner earns it, or that the company tracks it",
@@ -84,11 +84,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o177",
+          "id": "o183",
           "quote": "Become a partner Enroll If you fit the partners we’re looking for, we’ll be thrilled",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "retrievedAt": "2026-08-24T19:37:31.355Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -96,11 +96,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o178",
+          "id": "o184",
           "quote": "registration and tracking of commission fees Dedicated Partner Success Manager who will be with you every step of the way – from training",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "retrievedAt": "2026-08-24T19:37:31.355Z",
           "strength": "strong_proxy",
           "proves": "the company supplies partners with resources, enablement or a named contact",
           "doesNotProve": "that partners use them",
@@ -126,11 +126,11 @@
       "state": "moderate",
       "evidence": [
         {
-          "id": "o179",
+          "id": "o185",
           "quote": "Benefits Exclusive access to Aikido’s Partner Room for deal registration and tracking of commission fees Dedicated Partner Success Manager",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "retrievedAt": "2026-08-24T19:37:31.355Z",
           "strength": "strong_proxy",
           "proves": "partners participate in the sales process through a defined intake",
           "doesNotProve": "that the company is unhappy with how it handles them today",
@@ -138,11 +138,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o180",
+          "id": "o186",
           "quote": "Aikido’s Partner Room for deal registration and tracking of commission fees Dedicated Partner Success Manager who will be with you every",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "retrievedAt": "2026-08-24T19:37:31.355Z",
           "strength": "strong_proxy",
           "proves": "the company pays partners for commercial outcomes",
           "doesNotProve": "the size of the payments or how they are calculated",
@@ -170,11 +170,11 @@
       "publishedName": "Aikido Partner Program",
       "evidence": [
         {
-          "id": "o181",
+          "id": "o187",
           "quote": "Security-first customers that thrive with our partners Ways to partner Reseller Partner As a Reseller, you have the autonomy to build and manage relationships with your customers by owning the full sales cycle and",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "retrievedAt": "2026-08-24T19:37:31.355Z",
           "strength": "strong_proxy",
           "proves": "the company uses reseller partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -189,11 +189,11 @@
       "publishedName": "Aikido Partner Program",
       "evidence": [
         {
-          "id": "o182",
+          "id": "o188",
           "quote": "Gain access to an exclusive Admin Portal that lets you manage your customers effectively, and design services that align with their goals Technology Partner As a technology partner, you have the unique opportunity to create a powerful synergy that extends the capabilities of both platforms –",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "retrievedAt": "2026-08-24T19:37:31.355Z",
           "strength": "strong_proxy",
           "proves": "the company uses technology partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -208,11 +208,11 @@
       "publishedName": null,
       "evidence": [
         {
-          "id": "o183",
+          "id": "o189",
           "quote": "Trade vocabulary for a msp motion found on a partner surface recovered from www.aikido.dev.",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "retrievedAt": "2026-08-24T19:37:31.355Z",
           "strength": "strong_proxy",
           "proves": "the company uses msp trade vocabulary about itself on a page base research did not reach",
           "doesNotProve": "that the programme is active, staffed or material, nor that the company operates rather than participates in the network"
@@ -225,11 +225,11 @@
       "publishedName": null,
       "evidence": [
         {
-          "id": "o184",
+          "id": "o190",
           "quote": "Trade vocabulary for a solution partner motion found on a partner surface recovered from www.aikido.dev.",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "retrievedAt": "2026-08-24T19:37:31.355Z",
           "strength": "strong_proxy",
           "proves": "the company uses solution partner trade vocabulary about itself on a page base research did not reach",
           "doesNotProve": "that the programme is active, staffed or material, nor that the company operates rather than participates in the network"
@@ -244,11 +244,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o185",
+          "id": "o191",
           "quote": "Become a partner Enroll If you fit the partners we’re looking for, we’ll be thrilled to receive your application!",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "retrievedAt": "2026-08-24T19:37:31.355Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -292,11 +292,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o186",
+          "id": "o192",
           "quote": "Program Benefits Exclusive access to Aikido’s Partner Room for deal registration and tracking of commission fees Dedicated Partner Success Manager who will be with you every step of the",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "retrievedAt": "2026-08-24T19:37:31.355Z",
           "strength": "strong_proxy",
           "proves": "the company operates opportunity conflict management with partners",
           "doesNotProve": "the number of deals registered",
@@ -310,11 +310,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o187",
+          "id": "o193",
           "quote": "Scale your business Earn commissions, grow your revenue, and get support from our no-nonsense enablement and co-sell motions. Become a trusted advisor Get an exclusive Aikido Partner Badge and position yourself as a trusted ad",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "retrievedAt": "2026-08-24T19:37:31.355Z",
           "strength": "strong_proxy",
           "proves": "the company describes selling alongside partners",
           "doesNotProve": "that co-selling is systematised",
@@ -328,11 +328,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o188",
+          "id": "o194",
           "quote": "EN Login Start for Free No CC required Aikido Partner Program Let's Partner Login to Partner Room Why partner? Scale your business Earn commissions, grow your revenue, and get support from ou",
           "sourceUrl": "https://www.aikido.dev/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "retrievedAt": "2026-08-24T19:37:31.355Z",
           "strength": "strong_proxy",
           "proves": "partners have an authenticated destination",
           "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -386,6 +386,106 @@
     "redundant": false,
     "stoppedBecause": "sufficient"
   },
+  "crmForensics": {
+    "company": "aikido.dev",
+    "vendors": [
+      {
+        "vendor": "HubSpot",
+        "level": "confirmed_current",
+        "basis": {
+          "company": "aikido.dev",
+          "vendor": "HubSpot",
+          "sourceType": "company_ats_vacancy",
+          "languageBasis": "operational_duty",
+          "quote": "Maintain an accurate forecast and disciplined pipeline management in HubSpot.",
+          "sourceUrl": "https://aikidosecurity.recruitee.com/o/account-executive-enterprise-uk",
+          "observedAt": "2026-08-24T19:37:31.355Z",
+          "sourcePublishedAt": "2026-06-23 11:55:04 UTC",
+          "jobTitle": "Account Executive Enterprise UK",
+          "rule": "operational_duty",
+          "proves": "the published duties of a role at this company involve working in this CRM",
+          "doesNotProve": "that it is the company’s primary CRM, or that other systems are absent"
+        },
+        "observations": [
+          {
+            "company": "aikido.dev",
+            "vendor": "HubSpot",
+            "sourceType": "company_ats_vacancy",
+            "languageBasis": "operational_duty",
+            "quote": "Maintain an accurate forecast and disciplined pipeline management in HubSpot.",
+            "sourceUrl": "https://aikidosecurity.recruitee.com/o/account-executive-enterprise-uk",
+            "observedAt": "2026-08-24T19:37:31.355Z",
+            "sourcePublishedAt": "2026-06-23 11:55:04 UTC",
+            "jobTitle": "Account Executive Enterprise UK",
+            "rule": "operational_duty",
+            "proves": "the published duties of a role at this company involve working in this CRM",
+            "doesNotProve": "that it is the company’s primary CRM, or that other systems are absent"
+          },
+          {
+            "company": "aikido.dev",
+            "vendor": "HubSpot",
+            "sourceType": "website_fingerprint",
+            "languageBasis": "fingerprint",
+            "quote": "js.hs-scripts.com/26076760.js",
+            "sourceUrl": "https://aikido.dev/",
+            "observedAt": "2026-08-24T19:37:31.355Z",
+            "sourcePublishedAt": null,
+            "jobTitle": null,
+            "rule": "website_artifact",
+            "proves": "an artifact belonging to this vendor is served from the company’s website",
+            "doesNotProve": "which of the vendor’s products is licensed, or that sales runs on it"
+          },
+          {
+            "company": "aikido.dev",
+            "vendor": "HubSpot",
+            "sourceType": "website_fingerprint",
+            "languageBasis": "fingerprint",
+            "quote": "hubspotusercontent",
+            "sourceUrl": "https://aikido.dev/",
+            "observedAt": "2026-08-24T19:37:31.355Z",
+            "sourcePublishedAt": null,
+            "jobTitle": null,
+            "rule": "website_artifact",
+            "proves": "an artifact belonging to this vendor is served from the company’s website",
+            "doesNotProve": "which of the vendor’s products is licensed, or that sales runs on it"
+          }
+        ],
+        "timeline": [
+          {
+            "date": "2026-06-23 11:55:04 UTC",
+            "level": "confirmed_current",
+            "jobTitle": "Account Executive Enterprise UK"
+          }
+        ],
+        "rationale": "1 decisive observation; strongest is operational duty from company ats vacancy published 2026-06-23."
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": true,
+      "vacanciesRead": 40,
+      "historicalVacanciesRead": 7,
+      "nonPartnerTitlesRead": 35,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "company_ats_vacancy",
+        "website_fingerprint"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 47,
+      "jobsInspected": 40
+    },
+    "note": "HubSpot at confirmed current.",
+    "familiesObserved": {
+      "sales": 1,
+      "other": 2
+    },
+    "fromNonPartnerRoles": 1,
+    "fromHistorical": 0
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -413,7 +513,7 @@
                 "detail": "Website artifact",
                 "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
                 "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all",
-                "observedAt": "2026-08-24T17:58:29.735Z"
+                "observedAt": "2026-08-24T19:37:31.355Z"
               },
               {
                 "kind": "website_fingerprint",
@@ -423,12 +523,12 @@
                 "detail": "Website artifact",
                 "proves": "HubSpot-hosted assets or analytics are in use",
                 "doesNotProve": "which HubSpot products are licensed",
-                "observedAt": "2026-08-24T17:58:29.735Z"
+                "observedAt": "2026-08-24T19:37:31.355Z"
               }
             ],
             "jobVacancies": 0,
             "hasFingerprint": true,
-            "lastObservedAt": "2026-08-24T17:58:29.735Z"
+            "lastObservedAt": "2026-08-24T19:37:31.355Z"
           }
         ],
         "primary": {
@@ -443,7 +543,7 @@
               "detail": "Website artifact",
               "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
               "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all",
-              "observedAt": "2026-08-24T17:58:29.735Z"
+              "observedAt": "2026-08-24T19:37:31.355Z"
             },
             {
               "kind": "website_fingerprint",
@@ -453,12 +553,12 @@
               "detail": "Website artifact",
               "proves": "HubSpot-hosted assets or analytics are in use",
               "doesNotProve": "which HubSpot products are licensed",
-              "observedAt": "2026-08-24T17:58:29.735Z"
+              "observedAt": "2026-08-24T19:37:31.355Z"
             }
           ],
           "jobVacancies": 0,
           "hasFingerprint": true,
-          "lastObservedAt": "2026-08-24T17:58:29.735Z"
+          "lastObservedAt": "2026-08-24T19:37:31.355Z"
         },
         "conflict": null,
         "sourcesChecked": {
@@ -470,21 +570,21 @@
       },
       "evidence": [
         {
-          "id": "o189",
+          "id": "o195",
           "quote": "js.hs-scripts.com/26076760.js",
           "sourceUrl": "https://aikido.dev/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "retrievedAt": "2026-08-24T19:37:31.355Z",
           "strength": "confirmed",
           "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
           "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
         },
         {
-          "id": "o190",
+          "id": "o196",
           "quote": "hubspotusercontent",
           "sourceUrl": "https://aikido.dev/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T17:58:29.735Z",
+          "retrievedAt": "2026-08-24T19:37:31.355Z",
           "strength": "strong_proxy",
           "proves": "HubSpot-hosted assets or analytics are in use",
           "doesNotProve": "which HubSpot products are licensed"
@@ -506,8 +606,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T17:58:29.735Z",
-    "lastCheckedAt": "2026-08-24T17:58:29.735Z",
+    "baselineAt": "2026-08-24T19:37:31.355Z",
+    "lastCheckedAt": "2026-08-24T19:37:31.355Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

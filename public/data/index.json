@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-24T18:01:16.630Z",
+ "generatedAt": "2026-08-24T19:41:16.912Z",
  "count": 35,
  "monitoringSince": "2026-08-23",
  "accounts": [
@@ -21,7 +21,7 @@
    ],
    "surfacesConfirmed": 4,
    "directoryLowerBound": null,
-   "crm": "hubspot_confirmed",
+   "crm": "hubspot_current",
    "prm": "unknown",
    "prmVendor": null,
    "people": "unknown",
@@ -45,6 +45,15 @@
     "added": 4,
     "domainsSearched": 1,
     "pagesRead": 2
+   },
+   "crmForensic": {
+    "vendor": "HubSpot",
+    "level": "confirmed_current",
+    "jobTitle": "Account Executive Enterprise UK",
+    "sourceType": "company_ats_vacancy",
+    "publishedAt": "2026-06-23 11:55:04 UTC",
+    "conflict": null,
+    "vacanciesRead": 40
    }
   },
   {
@@ -65,7 +74,7 @@
    ],
    "surfacesConfirmed": 3,
    "directoryLowerBound": null,
-   "crm": "hubspot_confirmed",
+   "crm": "salesforce_current",
    "prm": "unknown",
    "prmVendor": null,
    "people": "unknown",
@@ -89,6 +98,15 @@
     "added": 4,
     "domainsSearched": 1,
     "pagesRead": 3
+   },
+   "crmForensic": {
+    "vendor": "Salesforce",
+    "level": "confirmed_current",
+    "jobTitle": "Business Development Representative (BDR), DACH Market",
+    "sourceType": "company_ats_vacancy",
+    "publishedAt": "2026-08-17T08:11:39-04:00",
+    "conflict": "multiple_systems",
+    "vacanciesRead": 40
    }
   },
   {
@@ -128,7 +146,8 @@
     "added": 0,
     "domainsSearched": 3,
     "pagesRead": 0
-   }
+   },
+   "crmForensic": null
   },
   {
    "domain": "archerirm.com",
@@ -170,7 +189,8 @@
     "added": 0,
     "domainsSearched": 2,
     "pagesRead": 0
-   }
+   },
+   "crmForensic": null
   },
   {
    "domain": "cegeka.com",
@@ -185,7 +205,7 @@
    "programmes": [],
    "surfacesConfirmed": 0,
    "directoryLowerBound": null,
-   "crm": "hubspot_confirmed",
+   "crm": "unknown",
    "prm": "unknown",
    "prmVendor": null,
    "people": "unknown",
@@ -209,6 +229,15 @@
     "added": 0,
     "domainsSearched": 1,
     "pagesRead": 8
+   },
+   "crmForensic": {
+    "vendor": "HubSpot",
+    "level": "strong_supporting",
+    "jobTitle": null,
+    "sourceType": "website_fingerprint",
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 0
    }
   },
   {
@@ -242,10 +271,11 @@
    "crmVendor": null,
    "jobVacancies": 0,
    "jobFacts": 0,
-   "retrievedAt": "2026-08-24T17:57:14.987Z",
+   "retrievedAt": "2026-08-24T19:37:19.246Z",
    "sourceHealthOk": 1,
    "sourceHealthTotal": 3,
-   "recovery": null
+   "recovery": null,
+   "crmForensic": null
   },
   {
    "domain": "cubbit.io",
@@ -265,7 +295,7 @@
    ],
    "surfacesConfirmed": 2,
    "directoryLowerBound": null,
-   "crm": "hubspot_confirmed",
+   "crm": "unknown",
    "prm": "introw_confirmed",
    "prmVendor": "Introw",
    "people": "unknown",
@@ -289,6 +319,15 @@
     "added": 2,
     "domainsSearched": 1,
     "pagesRead": 1
+   },
+   "crmForensic": {
+    "vendor": "HubSpot",
+    "level": "strong_supporting",
+    "jobTitle": "Performance Marketer (Freelance)",
+    "sourceType": "company_current_vacancy",
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 9
    }
   },
   {
@@ -321,14 +360,15 @@
    "jobVacancies": 0,
    "jobFacts": 0,
    "retrievedAt": "2026-08-23T07:46:21.999Z",
-   "sourceHealthOk": 4,
-   "sourceHealthTotal": 26,
+   "sourceHealthOk": 6,
+   "sourceHealthTotal": 25,
    "recovery": {
     "ran": true,
     "added": 0,
     "domainsSearched": 1,
     "pagesRead": 3
-   }
+   },
+   "crmForensic": null
   },
   {
    "domain": "deloitte.com",
@@ -367,7 +407,8 @@
     "added": 0,
     "domainsSearched": 1,
     "pagesRead": 8
-   }
+   },
+   "crmForensic": null
   },
   {
    "domain": "devoteam.com",
@@ -408,7 +449,8 @@
     "added": 2,
     "domainsSearched": 1,
     "pagesRead": 2
-   }
+   },
+   "crmForensic": null
   },
   {
    "domain": "doordash.com",
@@ -439,10 +481,11 @@
    "crmVendor": null,
    "jobVacancies": 0,
    "jobFacts": 0,
-   "retrievedAt": "2026-08-24T17:58:37.528Z",
+   "retrievedAt": "2026-08-24T19:37:34.070Z",
    "sourceHealthOk": 0,
    "sourceHealthTotal": 2,
-   "recovery": null
+   "recovery": null,
+   "crmForensic": null
   },
   {
    "domain": "efficy.com",
@@ -473,10 +516,11 @@
    "crmVendor": null,
    "jobVacancies": 0,
    "jobFacts": 0,
-   "retrievedAt": "2026-08-24T17:57:15.684Z",
+   "retrievedAt": "2026-08-24T19:37:19.626Z",
    "sourceHealthOk": 0,
    "sourceHealthTotal": 2,
-   "recovery": null
+   "recovery": null,
+   "crmForensic": null
   },
   {
    "domain": "factorialhr.com",
@@ -518,7 +562,8 @@
     "added": 2,
     "domainsSearched": 4,
     "pagesRead": 10
-   }
+   },
+   "crmForensic": null
   },
   {
    "domain": "foleon.com",
@@ -533,7 +578,7 @@
    "programmes": [],
    "surfacesConfirmed": 0,
    "directoryLowerBound": 82,
-   "crm": "hubspot_confirmed",
+   "crm": "unknown",
    "prm": "unknown",
    "prmVendor": null,
    "people": "unknown",
@@ -557,6 +602,15 @@
     "added": 0,
     "domainsSearched": 2,
     "pagesRead": 2
+   },
+   "crmForensic": {
+    "vendor": "HubSpot",
+    "level": "strong_supporting",
+    "jobTitle": null,
+    "sourceType": "website_fingerprint",
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 3
    }
   },
   {
@@ -596,6 +650,15 @@
     "added": 0,
     "domainsSearched": 1,
     "pagesRead": 1
+   },
+   "crmForensic": {
+    "vendor": "HubSpot",
+    "level": "strong_supporting",
+    "jobTitle": "Web Editor - Internship - GetAccept",
+    "sourceType": "company_current_vacancy",
+    "publishedAt": "2026-07-10T05:54:22.000Z",
+    "conflict": null,
+    "vacanciesRead": 4
    }
   },
   {
@@ -635,7 +698,8 @@
     "added": 0,
     "domainsSearched": 1,
     "pagesRead": 0
-   }
+   },
+   "crmForensic": null
   },
   {
    "domain": "juro.com",
@@ -650,7 +714,7 @@
    "programmes": [],
    "surfacesConfirmed": 0,
    "directoryLowerBound": null,
-   "crm": "hubspot_confirmed",
+   "crm": "unknown",
    "prm": "unknown",
    "prmVendor": null,
    "people": "unknown",
@@ -674,6 +738,15 @@
     "added": 0,
     "domainsSearched": 1,
     "pagesRead": 0
+   },
+   "crmForensic": {
+    "vendor": "HubSpot",
+    "level": "strong_supporting",
+    "jobTitle": null,
+    "sourceType": "website_fingerprint",
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 1
    }
   },
   {
@@ -708,14 +781,15 @@
    "jobVacancies": 0,
    "jobFacts": 0,
    "retrievedAt": "2026-08-23T08:48:52.121Z",
-   "sourceHealthOk": 13,
+   "sourceHealthOk": 12,
    "sourceHealthTotal": 28,
    "recovery": {
     "ran": true,
     "added": 2,
     "domainsSearched": 1,
     "pagesRead": 4
-   }
+   },
+   "crmForensic": null
   },
   {
    "domain": "lano.io",
@@ -757,7 +831,8 @@
     "added": 1,
     "domainsSearched": 1,
     "pagesRead": 2
-   }
+   },
+   "crmForensic": null
   },
   {
    "domain": "leapsome.com",
@@ -772,7 +847,7 @@
    "programmes": [],
    "surfacesConfirmed": 0,
    "directoryLowerBound": null,
-   "crm": "hubspot_confirmed",
+   "crm": "unknown",
    "prm": "unknown",
    "prmVendor": null,
    "people": "unknown",
@@ -796,6 +871,15 @@
     "added": 0,
     "domainsSearched": 2,
     "pagesRead": 3
+   },
+   "crmForensic": {
+    "vendor": "HubSpot",
+    "level": "strong_supporting",
+    "jobTitle": null,
+    "sourceType": "website_fingerprint",
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 1
    }
   },
   {
@@ -838,7 +922,8 @@
     "added": 3,
     "domainsSearched": 1,
     "pagesRead": 5
-   }
+   },
+   "crmForensic": null
   },
   {
    "domain": "mews.com",
@@ -855,7 +940,7 @@
    ],
    "surfacesConfirmed": 2,
    "directoryLowerBound": 11,
-   "crm": "hubspot_confirmed",
+   "crm": "unknown",
    "prm": "unknown",
    "prmVendor": null,
    "people": "unknown",
@@ -874,7 +959,16 @@
    "retrievedAt": "2026-08-24T07:33:51.138Z",
    "sourceHealthOk": 17,
    "sourceHealthTotal": 26,
-   "recovery": null
+   "recovery": null,
+   "crmForensic": {
+    "vendor": "HubSpot",
+    "level": "strong_supporting",
+    "jobTitle": null,
+    "sourceType": "website_fingerprint",
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 2
+   }
   },
   {
    "domain": "oneflow.com",
@@ -915,7 +1009,8 @@
     "added": 2,
     "domainsSearched": 2,
     "pagesRead": 3
-   }
+   },
+   "crmForensic": null
   },
   {
    "domain": "payfit.com",
@@ -930,7 +1025,7 @@
    "programmes": [],
    "surfacesConfirmed": 2,
    "directoryLowerBound": null,
-   "crm": "unknown",
+   "crm": "salesforce_current",
    "prm": "unknown",
    "prmVendor": null,
    "people": "unknown",
@@ -954,6 +1049,15 @@
     "added": 0,
     "domainsSearched": 1,
     "pagesRead": 1
+   },
+   "crmForensic": {
+    "vendor": "Salesforce",
+    "level": "confirmed_current",
+    "jobTitle": "Sales/SDR Barcelona - English Speaker - PayFit",
+    "sourceType": "company_current_vacancy",
+    "publishedAt": "2026-05-18T12:20:53.000Z",
+    "conflict": null,
+    "vacanciesRead": 18
    }
   },
   {
@@ -995,6 +1099,15 @@
     "added": 2,
     "domainsSearched": 1,
     "pagesRead": 2
+   },
+   "crmForensic": {
+    "vendor": "Salesforce",
+    "level": "strong_supporting",
+    "jobTitle": null,
+    "sourceType": "company_careers_index",
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 12
    }
   },
   {
@@ -1031,7 +1144,16 @@
    "retrievedAt": "2026-08-24T07:34:36.126Z",
    "sourceHealthOk": 9,
    "sourceHealthTotal": 25,
-   "recovery": null
+   "recovery": null,
+   "crmForensic": {
+    "vendor": "HubSpot",
+    "level": "mention_only",
+    "jobTitle": "Senior Manager, Customer Success",
+    "sourceType": "company_ats_vacancy",
+    "publishedAt": "2026-08-21T10:11:26.744+00:00",
+    "conflict": null,
+    "vacanciesRead": 34
+   }
   },
   {
    "domain": "productsup.com",
@@ -1049,7 +1171,7 @@
    ],
    "surfacesConfirmed": 0,
    "directoryLowerBound": null,
-   "crm": "hubspot_confirmed",
+   "crm": "unknown",
    "prm": "unknown",
    "prmVendor": null,
    "people": "unknown",
@@ -1073,6 +1195,15 @@
     "added": 3,
     "domainsSearched": 1,
     "pagesRead": 4
+   },
+   "crmForensic": {
+    "vendor": "HubSpot",
+    "level": "strong_supporting",
+    "jobTitle": null,
+    "sourceType": "website_fingerprint",
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 3
    }
   },
   {
@@ -1110,7 +1241,8 @@
    "retrievedAt": "2026-08-24T07:33:43.814Z",
    "sourceHealthOk": 9,
    "sourceHealthTotal": 23,
-   "recovery": null
+   "recovery": null,
+   "crmForensic": null
   },
   {
    "domain": "spendesk.com",
@@ -1151,7 +1283,8 @@
     "added": 2,
     "domainsSearched": 1,
     "pagesRead": 1
-   }
+   },
+   "crmForensic": null
   },
   {
    "domain": "trengo.com",
@@ -1171,7 +1304,7 @@
    ],
    "surfacesConfirmed": 2,
    "directoryLowerBound": null,
-   "crm": "hubspot_confirmed",
+   "crm": "unknown",
    "prm": "competitor_prm_confirmed",
    "prmVendor": "Kiflo",
    "people": "unknown",
@@ -1195,6 +1328,15 @@
     "added": 3,
     "domainsSearched": 1,
     "pagesRead": 4
+   },
+   "crmForensic": {
+    "vendor": "HubSpot",
+    "level": "strong_supporting",
+    "jobTitle": null,
+    "sourceType": "website_fingerprint",
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 1
    }
   },
   {
@@ -1234,7 +1376,8 @@
     "added": 0,
     "domainsSearched": 1,
     "pagesRead": 3
-   }
+   },
+   "crmForensic": null
   },
   {
    "domain": "upsales.com",
@@ -1273,7 +1416,8 @@
     "added": 0,
     "domainsSearched": 1,
     "pagesRead": 0
-   }
+   },
+   "crmForensic": null
   },
   {
    "domain": "vinted.com",
@@ -1312,7 +1456,8 @@
     "added": 0,
     "domainsSearched": 4,
     "pagesRead": 0
-   }
+   },
+   "crmForensic": null
   },
   {
    "domain": "weglot.com",
@@ -1358,7 +1503,8 @@
     "added": 2,
     "domainsSearched": 2,
     "pagesRead": 2
-   }
+   },
+   "crmForensic": null
   },
   {
    "domain": "younium.com",
@@ -1397,6 +1543,15 @@
     "added": 0,
     "domainsSearched": 1,
     "pagesRead": 1
+   },
+   "crmForensic": {
+    "vendor": "HubSpot",
+    "level": "strong_supporting",
+    "jobTitle": null,
+    "sourceType": "website_fingerprint",
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 2
    }
   }
  ]

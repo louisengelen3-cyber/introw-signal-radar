@@ -1,0 +1,34 @@
+{
+  "purpose": "§10 search-engine CRM forensics, run on a bounded sample of accounts that programmatic research left UNKNOWN. The question measured is marginal value: what does targeted search add beyond ATS boards and careers-page crawling?",
+  "method": "Four targeted searches on four accounts, each combining the company name with CRM vendor names and operational vocabulary. Results were classified by the SAME rules as any other source (§18, §19, §45) — a search snippet may never establish current use on its own.",
+  "sampleRationale": "Accounts chosen from the 20 that programmatic research left unknown, favouring ones with commercial relevance and differing shapes (SaaS with an ATS, SaaS without, a CRM vendor, a hospitality platform).",
+  "runs": [
+    { "company": "channable.com", "query": "\"Channable\" vacancy \"Salesforce\" OR \"HubSpot\" revenue operations",
+      "outcome": "NO_EVIDENCE",
+      "detail": "Returned generic RevOps job boards, HubSpot's own knowledge base and an agency. Nothing company-specific.",
+      "newConclusion": null, "falsePositiveAvoided": false },
+    { "company": "factorialhr.com", "query": "\"Factorial\" careers \"HubSpot\" OR \"Salesforce\" sales operations Barcelona",
+      "outcome": "MENTION_ONLY",
+      "detail": "Surfaced AE roles requiring 'CRM tool familiarity with Salesforce or HubSpot'. This is §18 alternatives language and §17 candidate experience at once — it names two competing systems and proves neither.",
+      "newConclusion": null, "falsePositiveAvoided": true,
+      "naiveDetectorWouldHave": "confirmed BOTH Salesforce and HubSpot from one sentence" },
+    { "company": "apaleo.com", "query": "\"Apaleo\" job \"Salesforce\" OR \"HubSpot\" sales pipeline hospitality software",
+      "outcome": "MENTION_ONLY",
+      "detail": "Surfaced 'Apaleo integrates with HubSpot, facilitated by PolyAPI' from Apaleo's own blog. This is §19 customer integration — a product connector, not the vendor's own system of record.",
+      "newConclusion": null, "falsePositiveAvoided": true,
+      "naiveDetectorWouldHave": "confirmed HubSpot as Apaleo's internal CRM" },
+    { "company": "efficy.com", "query": "\"Efficy\" OR \"efficy.com\" careers \"HubSpot\" OR \"Salesforce\" CRM internal",
+      "outcome": "NO_EVIDENCE",
+      "detail": "Returned product comparison pages (Efficy vs HubSpot, Efficy vs Salesforce) on review sites. Efficy IS a CRM vendor, so its name co-occurs with every competitor. §32's is-vendor versus uses-vendor distinction.",
+      "newConclusion": null, "falsePositiveAvoided": true,
+      "naiveDetectorWouldHave": "confirmed HubSpot and/or Salesforce from comparison pages" }
+  ],
+  "measurement": {
+    "searchesRun": 4,
+    "accountsCovered": 4,
+    "newCrmConclusions": 0,
+    "falsePositivesAvoided": 3,
+    "finding": "Search forensics added NO new CRM conclusions on this sample. Its measured contribution was negative-space: three of four searches surfaced language that a keyword detector would have converted into a false confirmation. That is a real result about the source class, not a failure of the searches — company-name-plus-vendor queries return comparison pages, integration blogs and category listicles far more often than they return a company's own operational language.",
+    "implication": "Search should be used to LOCATE candidate sources for direct reading, not to establish CRM state from snippets. §45 already forbids the latter, and this sample supports that rule empirically."
+  }
+}

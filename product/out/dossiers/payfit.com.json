@@ -6,7 +6,7 @@
     "sourceUrl": "https://payfit.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T17:57:57.869Z",
+  "builtAt": "2026-08-24T19:37:24.584Z",
   "oldestEvidenceAt": "2026-08-24T07:35:07.147Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -59,11 +59,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o101",
+          "id": "o105",
           "quote": "Whether you're a point solution or strategic advisor, partner with us to share leads and grow together.",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:57:57.869Z",
+          "retrievedAt": "2026-08-24T19:37:24.584Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -71,11 +71,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o102",
+          "id": "o106",
           "quote": "Integration Partners Integrate with us or join our Open API program to help our clients",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:57:57.869Z",
+          "retrievedAt": "2026-08-24T19:37:24.584Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -83,11 +83,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o103",
+          "id": "o107",
           "quote": "more about becoming a PayFit partner, please complete the partner form on this page and a member of our partnerships team will be in",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:57:57.869Z",
+          "retrievedAt": "2026-08-24T19:37:24.584Z",
           "strength": "strong_proxy",
           "proves": "the company runs its own intake for partner applications, leads or deals",
           "doesNotProve": "the volume through it, or that it is automated rather than an inbox",
@@ -113,11 +113,11 @@
       "state": "light",
       "evidence": [
         {
-          "id": "o104",
+          "id": "o108",
           "quote": "Features include co-marketing, revenue share and mutual referrals.",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:57:57.869Z",
+          "retrievedAt": "2026-08-24T19:37:24.584Z",
           "strength": "strong_proxy",
           "proves": "the company pays partners for commercial outcomes",
           "doesNotProve": "the size of the payments or how they are calculated",
@@ -146,11 +146,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o105",
+          "id": "o109",
           "quote": "Referral Partners Whether you're a point solution or strategic advisor, partner with us to share leads and grow together.",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:57:57.869Z",
+          "retrievedAt": "2026-08-24T19:37:24.584Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -164,11 +164,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o106",
+          "id": "o110",
           "quote": "Fill out our partnership application form and a partnerships manager will be in touch. Apply today What do our partners say about us?",
           "sourceUrl": "https://payfit.com/partnerships/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T17:57:57.869Z",
+          "retrievedAt": "2026-08-24T19:37:24.584Z",
           "strength": "strong_proxy",
           "proves": "there is an intake step with a form",
           "doesNotProve": "that applications are reviewed or that a pipeline exists",
@@ -253,6 +253,141 @@
     "redundant": true,
     "stoppedBecause": "nothing_found"
   },
+  "crmForensics": {
+    "company": "payfit.com",
+    "vendors": [
+      {
+        "vendor": "Salesforce",
+        "level": "confirmed_current",
+        "basis": {
+          "company": "payfit.com",
+          "vendor": "Salesforce",
+          "sourceType": "company_current_vacancy",
+          "languageBasis": "operational_duty",
+          "quote": "Keeping clear and relevant information about potential customers up to date in Salesforce, our CRM.",
+          "sourceUrl": "https://careers.payfit.com/jobs/7749950-sales-sdr-barcelona-english-speaker",
+          "observedAt": "2026-08-24T19:37:24.584Z",
+          "sourcePublishedAt": "2026-05-18T12:20:53.000Z",
+          "jobTitle": "Sales/SDR Barcelona - English Speaker - PayFit",
+          "rule": "operational_duty",
+          "proves": "the published duties of a role at this company involve working in this CRM",
+          "doesNotProve": "that it is the company’s primary CRM, or that other systems are absent"
+        },
+        "observations": [
+          {
+            "company": "payfit.com",
+            "vendor": "Salesforce",
+            "sourceType": "company_current_vacancy",
+            "languageBasis": "operational_duty",
+            "quote": "Keeping clear and relevant information about potential customers up to date in Salesforce, our CRM.",
+            "sourceUrl": "https://careers.payfit.com/jobs/7749950-sales-sdr-barcelona-english-speaker",
+            "observedAt": "2026-08-24T19:37:24.584Z",
+            "sourcePublishedAt": "2026-05-18T12:20:53.000Z",
+            "jobTitle": "Sales/SDR Barcelona - English Speaker - PayFit",
+            "rule": "operational_duty",
+            "proves": "the published duties of a role at this company involve working in this CRM",
+            "doesNotProve": "that it is the company’s primary CRM, or that other systems are absent"
+          },
+          {
+            "company": "payfit.com",
+            "vendor": "Salesforce",
+            "sourceType": "company_current_vacancy",
+            "languageBasis": "alternatives_list",
+            "quote": "Ta mission : Monter en compétence rapidement sur les fondamentaux de la rétention : identifier les signaux de churn, déclencher les bons plans d'action, préparer les renouvellements, et découvrir les premières opportunités d'expansion — tout en construisant une documentation irréprochable dans Salesforce dès le départ.",
+            "sourceUrl": "https://careers.payfit.com/jobs/8104643-customer-growth-manager-junior",
+            "observedAt": "2026-08-24T19:37:24.584Z",
+            "sourcePublishedAt": "2026-07-21T15:11:10.000Z",
+            "jobTitle": "Customer Growth Manager Junior - PayFit",
+            "rule": "bare_mention",
+            "proves": "this CRM is named, in language that does not attach it to this company",
+            "doesNotProve": "anything about which CRM this company actually uses"
+          },
+          {
+            "company": "payfit.com",
+            "vendor": "Salesforce",
+            "sourceType": "company_current_vacancy",
+            "languageBasis": "alternatives_list",
+            "quote": "Tu seras aidé.e par la mise à disposition des outils de vente les plus performants : Modjo, Salesforce, Dust.",
+            "sourceUrl": "https://careers.payfit.com/jobs/8084914-account-executive-mid-market-paris",
+            "observedAt": "2026-08-24T19:37:24.584Z",
+            "sourcePublishedAt": "2026-07-17T08:37:41.000Z",
+            "jobTitle": "Account Executive Mid Market - Paris - PayFit",
+            "rule": "bare_mention",
+            "proves": "this CRM is named, in language that does not attach it to this company",
+            "doesNotProve": "anything about which CRM this company actually uses"
+          }
+        ],
+        "timeline": [
+          {
+            "date": "2026-05-18T12:20:53.000Z",
+            "level": "confirmed_current",
+            "jobTitle": "Sales/SDR Barcelona - English Speaker - PayFit"
+          }
+        ],
+        "rationale": "1 decisive observation; strongest is operational duty from company current vacancy published 2026-05-18."
+      },
+      {
+        "vendor": "HubSpot",
+        "level": "mention_only",
+        "basis": {
+          "company": "payfit.com",
+          "vendor": "HubSpot",
+          "sourceType": "company_current_vacancy",
+          "languageBasis": "alternatives_list",
+          "quote": "Experience using a CMS such as DatoCMS, HubSpot, WordPress or a similar platform.",
+          "sourceUrl": "https://careers.payfit.com/jobs/8173444-growth-marketing-apprentice-starting-in-november-1-year",
+          "observedAt": "2026-08-24T19:37:24.584Z",
+          "sourcePublishedAt": "2026-08-05T09:53:15.000Z",
+          "jobTitle": "Growth Marketing Apprentice - starting in November (1 year) - PayFit",
+          "rule": "category_example",
+          "proves": "this CRM is named, in language that does not attach it to this company",
+          "doesNotProve": "anything about which CRM this company actually uses"
+        },
+        "observations": [
+          {
+            "company": "payfit.com",
+            "vendor": "HubSpot",
+            "sourceType": "company_current_vacancy",
+            "languageBasis": "alternatives_list",
+            "quote": "Experience using a CMS such as DatoCMS, HubSpot, WordPress or a similar platform.",
+            "sourceUrl": "https://careers.payfit.com/jobs/8173444-growth-marketing-apprentice-starting-in-november-1-year",
+            "observedAt": "2026-08-24T19:37:24.584Z",
+            "sourcePublishedAt": "2026-08-05T09:53:15.000Z",
+            "jobTitle": "Growth Marketing Apprentice - starting in November (1 year) - PayFit",
+            "rule": "category_example",
+            "proves": "this CRM is named, in language that does not attach it to this company",
+            "doesNotProve": "anything about which CRM this company actually uses"
+          }
+        ],
+        "timeline": [],
+        "rationale": "Named, but only in language that proves nothing about this company (alternatives list)."
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 18,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 18,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "company_current_vacancy"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 24,
+      "jobsInspected": 18
+    },
+    "note": "Salesforce at confirmed current.",
+    "familiesObserved": {
+      "sales": 2,
+      "marketing": 2
+    },
+    "fromNonPartnerRoles": 4,
+    "fromHistorical": 0
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -294,8 +429,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T17:57:57.869Z",
-    "lastCheckedAt": "2026-08-24T17:57:57.869Z",
+    "baselineAt": "2026-08-24T19:37:24.584Z",
+    "lastCheckedAt": "2026-08-24T19:37:24.584Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

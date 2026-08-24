@@ -1,0 +1,48 @@
+{
+  "purpose": "Adversarial CRM language holdout (mandate §48). Tests the semantics the mandate specifies in §13-§19: company possession vs candidate experience vs alternatives lists vs customer integration, and current vs recent vs historical.",
+  "groundTruthBasis": "Each expected level follows directly from the mandate's own stated rules, not from my judgement about any company. §17 makes possession decisive and experience supporting; §18 makes alternatives lists MENTION_ONLY; §19 makes customer integration non-evidence; §13-15 set current/recent/historical by date; §45 forbids snippets and fingerprints from confirming.",
+  "discipline": "Frozen before the classifier was wired to the forensics layer. Not edited after seeing results. Cases are written as sentences rather than company names so the ground truth cannot drift with the web.",
+  "frozenAt": "2026-08-24",
+  "now": "2026-08-24",
+  "cases": [
+    { "id": "poss-current-ats", "sentence": "You will own and administer our Salesforce instance, keeping opportunity data accurate.", "sourceType": "company_ats_vacancy", "publishedAt": "2026-07-01", "jobTitle": "Revenue Operations Manager", "expect": { "vendor": "Salesforce", "level": "confirmed_current" }, "why": "§17 possession, §13 current date, trusted source" },
+
+    { "id": "duty-current-ae", "sentence": "Maintain accurate pipeline and opportunity data in Salesforce throughout the sales cycle.", "sourceType": "company_current_vacancy", "publishedAt": "2026-06-15", "jobTitle": "Enterprise Account Executive", "expect": { "vendor": "Salesforce", "level": "confirmed_current" }, "why": "§7/§42 a plain AE vacancy is valid CRM evidence; operational duty is decisive" },
+
+    { "id": "duty-revops-hubspot", "sentence": "Own HubSpot administration, including workflows, lifecycle stages and reporting.", "sourceType": "company_ats_vacancy", "publishedAt": "2026-05-20", "jobTitle": "RevOps Lead", "expect": { "vendor": "HubSpot", "level": "confirmed_current" }, "why": "§7 RevOps possession is the strongest job signal" },
+
+    { "id": "duty-cs-hubspot", "sentence": "Log every customer interaction in HubSpot so the account team has one view.", "sourceType": "company_ats_vacancy", "publishedAt": "2026-04-02", "jobTitle": "Customer Success Manager", "expect": { "vendor": "HubSpot", "level": "confirmed_current" }, "why": "§42 non-partner, non-sales title must be able to confirm" },
+
+    { "id": "duty-mktops-dynamics", "sentence": "You will maintain campaign and lead records in our Dynamics 365 environment.", "sourceType": "company_ats_vacancy", "publishedAt": "2026-03-11", "jobTitle": "Marketing Operations Specialist", "expect": { "vendor": "Microsoft Dynamics", "level": "confirmed_current" }, "why": "§11 other CRMs matter; §17 possession" },
+
+    { "id": "recent-boundary", "sentence": "Administer our Pipedrive CRM and keep the deal pipeline clean.", "sourceType": "company_cached_vacancy", "publishedAt": "2025-01-10", "jobTitle": "Sales Operations Manager", "expect": { "vendor": "Pipedrive", "level": "confirmed_recent" }, "why": "§14 strong but beyond current window" },
+
+    { "id": "historical-2023", "sentence": "You will manage all opportunities in Salesforce and report weekly on pipeline.", "sourceType": "company_cached_vacancy", "publishedAt": "2023-05-04", "jobTitle": "Sales Manager", "expect": { "vendor": "Salesforce", "level": "confirmed_historical" }, "why": "§15 proves usage at that time only — must NOT become current" },
+
+    { "id": "experience-only", "sentence": "Experience with Salesforce is preferred, and you are comfortable in a fast-moving team.", "sourceType": "company_ats_vacancy", "publishedAt": "2026-07-01", "jobTitle": "Account Executive", "expect": { "vendor": "Salesforce", "level": "strong_supporting" }, "why": "§17 candidate experience never establishes possession" },
+
+    { "id": "alternatives-two", "sentence": "Experience with Salesforce, HubSpot or a similar CRM is required.", "sourceType": "company_ats_vacancy", "publishedAt": "2026-07-01", "jobTitle": "Account Executive", "expect": { "vendor": "ANY", "level": "mention_only" }, "why": "§18 names two competing systems and proves neither" },
+
+    { "id": "alternatives-list", "sentence": "Familiarity with tools such as Salesforce, HubSpot, Pipedrive or Zoho.", "sourceType": "company_ats_vacancy", "publishedAt": "2026-07-01", "jobTitle": "SDR", "expect": { "vendor": "ANY", "level": "mention_only" }, "why": "§18 category example list" },
+
+    { "id": "customer-integration", "sentence": "Our platform integrates natively with Salesforce and HubSpot so customers keep their data in sync.", "sourceType": "company_documentation", "publishedAt": "2026-06-01", "jobTitle": null, "expect": { "vendor": "ANY", "level": "mention_only" }, "why": "§19 product integration is not internal use — the classic false positive" },
+
+    { "id": "snippet-cannot-confirm", "sentence": "… manage our Salesforce pipeline and forecast …", "sourceType": "search_snippet", "publishedAt": "2026-07-01", "jobTitle": null, "expect": { "vendor": "Salesforce", "level": "strong_supporting" }, "why": "§45 a snippet alone should rarely establish CONFIRMED_CURRENT" },
+
+    { "id": "fingerprint-not-saleshub", "sentence": "js.hsforms.net", "sourceType": "website_fingerprint", "publishedAt": null, "jobTitle": null, "expect": { "vendor": "HubSpot", "level": "strong_supporting" }, "why": "§20 a tracking artifact does not prove Sales Hub" },
+
+    { "id": "mirror-single-source", "sentence": "You will own our HubSpot CRM and its reporting.", "sourceType": "recruiting_mirror", "publishedAt": "2026-06-01", "jobTitle": "Sales Ops", "expect": { "vendor": "HubSpot", "level": "confirmed_recent" }, "why": "§45 mirror is low trust; §47 single low-trust source triggers a self-audit downgrade from current" },
+
+    { "id": "undated-mirror", "sentence": "Maintain opportunities in Salesforce.", "sourceType": "recruiting_mirror", "publishedAt": null, "jobTitle": "Account Manager", "expect": { "vendor": "Salesforce", "level": "strong_supporting" }, "why": "§46 undated non-live source must not be presented as current; audit downgrades further" },
+
+    { "id": "undated-live-board", "sentence": "Own our HubSpot instance and keep deal stages accurate.", "sourceType": "company_ats_vacancy", "publishedAt": null, "jobTitle": "RevOps Manager", "expect": { "vendor": "HubSpot", "level": "confirmed_current" }, "why": "A live board advert is current by being served, even undated" },
+
+    { "id": "dynamics-false-friend", "sentence": "You understand the dynamics of selling a complex platform to enterprise buyers.", "sourceType": "company_ats_vacancy", "publishedAt": "2026-07-01", "jobTitle": "Enterprise AE", "expect": { "vendor": "NONE", "level": "unknown" }, "why": "Bare 'dynamics' must never match Microsoft Dynamics" },
+
+    { "id": "generic-crm-no-vendor", "sentence": "You will keep the CRM up to date and report on pipeline weekly.", "sourceType": "company_ats_vacancy", "publishedAt": "2026-07-01", "jobTitle": "SDR", "expect": { "vendor": "NONE", "level": "unknown" }, "why": "Generic CRM language names no vendor; must stay unknown, not guess" },
+
+    { "id": "zoho-possession", "sentence": "Beheer onze Zoho CRM en houd de pipeline actueel.", "sourceType": "company_ats_vacancy", "publishedAt": "2026-05-01", "jobTitle": "Sales Operations", "expect": { "vendor": "Zoho", "level": "confirmed_current" }, "why": "Dutch possession must work; European boards post in local languages" },
+
+    { "id": "german-possession", "sentence": "Sie pflegen unsere Salesforce-Instanz und dokumentieren alle Opportunities.", "sourceType": "company_ats_vacancy", "publishedAt": "2026-04-15", "jobTitle": "Vertriebsinnendienst", "expect": { "vendor": "Salesforce", "level": "confirmed_current" }, "why": "German possession" }
+  ]
+}

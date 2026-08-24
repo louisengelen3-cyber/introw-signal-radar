@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.cegeka.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T17:58:02.300Z",
+  "builtAt": "2026-08-24T19:37:27.946Z",
   "oldestEvidenceAt": "2026-08-24T07:35:51.911Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -205,6 +205,84 @@
     "redundant": true,
     "stoppedBecause": "nothing_found"
   },
+  "crmForensics": {
+    "company": "cegeka.com",
+    "vendors": [
+      {
+        "vendor": "HubSpot",
+        "level": "strong_supporting",
+        "basis": {
+          "company": "cegeka.com",
+          "vendor": "HubSpot",
+          "sourceType": "website_fingerprint",
+          "languageBasis": "fingerprint",
+          "quote": "forms.hsforms.com",
+          "sourceUrl": "https://cegeka.com/",
+          "observedAt": "2026-08-24T19:37:27.946Z",
+          "sourcePublishedAt": null,
+          "jobTitle": null,
+          "rule": "website_artifact",
+          "proves": "an artifact belonging to this vendor is served from the company’s website",
+          "doesNotProve": "which of the vendor’s products is licensed, or that sales runs on it"
+        },
+        "observations": [
+          {
+            "company": "cegeka.com",
+            "vendor": "HubSpot",
+            "sourceType": "website_fingerprint",
+            "languageBasis": "fingerprint",
+            "quote": "forms.hsforms.com",
+            "sourceUrl": "https://cegeka.com/",
+            "observedAt": "2026-08-24T19:37:27.946Z",
+            "sourcePublishedAt": null,
+            "jobTitle": null,
+            "rule": "website_artifact",
+            "proves": "an artifact belonging to this vendor is served from the company’s website",
+            "doesNotProve": "which of the vendor’s products is licensed, or that sales runs on it"
+          },
+          {
+            "company": "cegeka.com",
+            "vendor": "HubSpot",
+            "sourceType": "website_fingerprint",
+            "languageBasis": "fingerprint",
+            "quote": "hubspotusercontent",
+            "sourceUrl": "https://cegeka.com/",
+            "observedAt": "2026-08-24T19:37:27.946Z",
+            "sourcePublishedAt": null,
+            "jobTitle": null,
+            "rule": "website_artifact",
+            "proves": "an artifact belonging to this vendor is served from the company’s website",
+            "doesNotProve": "which of the vendor’s products is licensed, or that sales runs on it"
+          }
+        ],
+        "timeline": [],
+        "rationale": "Supporting evidence only — fingerprint. Nothing establishes that the company itself operates on HubSpot."
+      }
+    ],
+    "conflict": null,
+    "coverage": {
+      "atsBoardFound": false,
+      "vacanciesRead": 0,
+      "historicalVacanciesRead": 0,
+      "nonPartnerTitlesRead": 0,
+      "searchQueriesRun": 0,
+      "linkedinBlocked": false,
+      "sourcesConsulted": [
+        "website_fingerprint"
+      ]
+    },
+    "budget": {
+      "queries": 0,
+      "sourcesInspected": 19,
+      "jobsInspected": 0
+    },
+    "note": "No source could be read, so nothing was established. This is not evidence that the company has no CRM.",
+    "familiesObserved": {
+      "other": 2
+    },
+    "fromNonPartnerRoles": 0,
+    "fromHistorical": 0
+  },
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -232,7 +310,7 @@
                 "detail": "Website artifact",
                 "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
                 "doesNotProve": "that opportunities and partner deals are managed there",
-                "observedAt": "2026-08-24T17:58:02.300Z"
+                "observedAt": "2026-08-24T19:37:27.946Z"
               },
               {
                 "kind": "website_fingerprint",
@@ -242,12 +320,12 @@
                 "detail": "Website artifact",
                 "proves": "HubSpot-hosted assets or analytics are in use",
                 "doesNotProve": "which HubSpot products are licensed",
-                "observedAt": "2026-08-24T17:58:02.300Z"
+                "observedAt": "2026-08-24T19:37:27.946Z"
               }
             ],
             "jobVacancies": 0,
             "hasFingerprint": true,
-            "lastObservedAt": "2026-08-24T17:58:02.300Z"
+            "lastObservedAt": "2026-08-24T19:37:27.946Z"
           }
         ],
         "primary": {
@@ -262,7 +340,7 @@
               "detail": "Website artifact",
               "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
               "doesNotProve": "that opportunities and partner deals are managed there",
-              "observedAt": "2026-08-24T17:58:02.300Z"
+              "observedAt": "2026-08-24T19:37:27.946Z"
             },
             {
               "kind": "website_fingerprint",
@@ -272,12 +350,12 @@
               "detail": "Website artifact",
               "proves": "HubSpot-hosted assets or analytics are in use",
               "doesNotProve": "which HubSpot products are licensed",
-              "observedAt": "2026-08-24T17:58:02.300Z"
+              "observedAt": "2026-08-24T19:37:27.946Z"
             }
           ],
           "jobVacancies": 0,
           "hasFingerprint": true,
-          "lastObservedAt": "2026-08-24T17:58:02.300Z"
+          "lastObservedAt": "2026-08-24T19:37:27.946Z"
         },
         "conflict": null,
         "sourcesChecked": {
@@ -289,21 +367,21 @@
       },
       "evidence": [
         {
-          "id": "o150",
+          "id": "o148",
           "quote": "forms.hsforms.com",
           "sourceUrl": "https://cegeka.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T17:58:02.300Z",
+          "retrievedAt": "2026-08-24T19:37:27.946Z",
           "strength": "confirmed",
           "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
           "doesNotProve": "that opportunities and partner deals are managed there"
         },
         {
-          "id": "o151",
+          "id": "o149",
           "quote": "hubspotusercontent",
           "sourceUrl": "https://cegeka.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T17:58:02.300Z",
+          "retrievedAt": "2026-08-24T19:37:27.946Z",
           "strength": "strong_proxy",
           "proves": "HubSpot-hosted assets or analytics are in use",
           "doesNotProve": "which HubSpot products are licensed"
@@ -325,8 +403,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T17:58:02.300Z",
-    "lastCheckedAt": "2026-08-24T17:58:02.300Z",
+    "baselineAt": "2026-08-24T19:37:27.946Z",
+    "lastCheckedAt": "2026-08-24T19:37:27.946Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
