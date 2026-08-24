@@ -68,13 +68,22 @@ Fourteen steps, ~6 minutes. Every account below is a real observation.
     partner terms — *"Affiliate Partner Portal: means the Kiflo portal…"*. Then read the note:
     it indicates programme maturity and **not** dissatisfaction or intent to switch. Then the
     Contradictions panel, which states both sides.
-11. **Open Kiflo** — `suppression candidate`, flagged as a direct competitor, with the
-    provenance line distinguishing the maintained list from the inferred classification.
+11. **Back to Overview → Flagged for suppression.** Five accounts, each stating its own reason
+    and where that reason came from:
+    - **Cubbit** — *"The partner surface is served by Introw. This account is already a
+      customer, not a prospect."* · chip: **Existing customer**. From a DNS CNAME.
+    - **Kiflo** — *"Listed as a known competitor (asserted business data)."* · chip: **On
+      competitor list**.
+    - **Deloitte** — a services firm, typically a partner in other vendors' programmes.
+    - **Glovo** — *"Partners appear to be supply rather than a route to market."*
+    Open Kiflo to show the provenance line distinguishing the maintained list from the
+    inferred classification.
 12. **Open Foleon** — a directory of **at least 82 certified partner organisations**, phrased
     as a lower bound, with named agencies.
 13. **Changes** — deliberately empty. Monitoring began 23 Aug 2026; every account is at its
     first observation, so there is no timing claim to make. There is no "Why Now" anywhere.
-14. **Data health** — the product publishes its own recall numbers: category 57%, CRM 33%,
+14. **Data health** — the product publishes its own recall numbers as counts rather than
+    flattering percentages: category caught 8 of 14 partner-tech vendors, CRM found 2 of 6,
     people not attempted.
 
 Optional closer: **How this works** explains why the score was removed.
@@ -92,7 +101,7 @@ Optional closer: **How this works** explains why the score was removed.
 | foleon.com | Partner directory, 82 organisations, phrased as a lower bound |
 | vinted.com | Supply-side marketplace — "partners" that are not a channel |
 | deloitte.com | Professional services |
-| cubbit.io | HubSpot confirmed from a real artifact |
+| cubbit.io | An existing Introw customer, detected by DNS and kept out of the queue |
 | channable.com | Apex domain blocked, partner subdomain readable — partial coverage declared |
 
 ## Deliberately not built

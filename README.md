@@ -67,8 +67,8 @@ These are measured, not estimated, and the app publishes them on its own Data he
 
 | | |
 |---|---|
-| Category classifier | 57% recall on partner-tech vendors. Advisory only — roughly two in five reach a seller unflagged. |
-| CRM detection | 33% recall against companies that provably run a supported CRM. Salesforce was never detected once. |
+| Category classifier | Caught 8 of 14 partner-tech vendors across two frozen holdouts. Advisory only — a meaningful share reach a seller unflagged. |
+| CRM detection | Found 2 of 6 companies that provably run a supported CRM. Salesforce was never detected once. |
 | Public person evidence | 2 of 18 companies. Not viable; the pipeline does not attempt it. |
 | Temporal | Baseline only. Change detection has a 0% false-positive floor but needs elapsed calendar time. |
 | Client-side rendering | A partner page that renders in JavaScript reads as empty. |
