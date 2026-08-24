@@ -3,7 +3,8 @@
   "companyName": "Channable",
   "selfDescription": null,
   "geography": null,
-  "builtAt": "2026-08-24T07:50:58.596Z",
+  "builtAt": "2026-08-24T08:18:16.529Z",
+  "oldestEvidenceAt": "2026-08-24T08:18:16.529Z",
   "category": {
     "whyItMatters": "No identity-bearing surface could be read, so the company category is not established.",
     "whyItMayNotMatter": "This says nothing about the company — only about our retrieval.",
@@ -40,11 +41,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o33",
-          "quote": "Us Success Stories See all success stories Partners Become a partner Agency partner Boost growth, strategy and visibility Find a partner",
+          "id": "o34",
+          "quote": "Contact Us Success Stories See all success stories Partners Become a partner Agency partner Boost growth, strategy and visibility Find a partner",
           "sourceUrl": "https://partners.channable.com/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:50:58.596Z",
+          "retrievedAt": "2026-08-24T08:18:16.529Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -52,11 +53,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o34",
-          "quote": "growth, strategy and visibility Find a partner Explore agency partners Find agencies to manage campaigns Explore platform partners Get",
+          "id": "o35",
+          "quote": "oost growth, strategy and visibility Find a partner Explore agency partners Find agencies to manage campaigns Explore platform partners Get",
           "sourceUrl": "https://partners.channable.com/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:50:58.596Z",
+          "retrievedAt": "2026-08-24T08:18:16.529Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -82,11 +83,11 @@
       "state": "light",
       "evidence": [
         {
-          "id": "o35",
-          "quote": "our team, your Agency Partnerships Manager Get matched Gold Partner nextlane® A Channable Gold Partner offering senior support. We help",
+          "id": "o36",
+          "quote": "Meet our team, your Agency Partnerships Manager Get matched Gold Partner nextlane® A Channable Gold Partner offering senior support.",
           "sourceUrl": "https://partners.channable.com/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:50:58.596Z",
+          "retrievedAt": "2026-08-24T08:18:16.529Z",
           "strength": "strong_proxy",
           "proves": "the company differentiates partners by commitment or performance",
           "doesNotProve": "how many partners sit in each tier",
@@ -114,11 +115,11 @@
       "publishedName": null,
       "evidence": [
         {
-          "id": "o36",
+          "id": "o37",
           "quote": "Agency Partner Directory Channable Product List Feed Management Filter, enrich and optimize your product data for any online channel Marketplace",
           "sourceUrl": "https://partners.channable.com/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:50:58.596Z",
+          "retrievedAt": "2026-08-24T08:18:16.529Z",
           "strength": "strong_proxy",
           "proves": "the company uses agency partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -132,11 +133,11 @@
           "state": "confirmed",
           "evidence": [
             {
-              "id": "o37",
-              "quote": "Demo Center Channable Academy Help Center Contact Us Success Stories See all success stories Partners Become a partner Agency partner Boost growth, strategy and visibility Find a partner Explore agency partners Find agencies",
+              "id": "o38",
+              "quote": "Support Demo Center Channable Academy Help Center Contact Us Success Stories See all success stories Partners Become a partner Agency partner Boost growth, strategy and visibility Find a partner Explore agency partners Find agencies",
               "sourceUrl": "https://partners.channable.com/",
               "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T07:50:58.596Z",
+              "retrievedAt": "2026-08-24T08:18:16.529Z",
               "strength": "strong_proxy",
               "proves": "the company publicly invites organisations to join a programme",
               "doesNotProve": "that anyone joins, or how many",
@@ -146,15 +147,65 @@
           ]
         },
         {
+          "surface": "application",
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
+          "surface": "onboarding",
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
+          "surface": "enablement",
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
+          "surface": "certification",
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
+          "surface": "lead_submission",
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
+          "surface": "referral_submission",
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
+          "surface": "deal_registration",
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
+          "surface": "co_selling",
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
+          "surface": "portal",
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
+          "surface": "partner_pipeline",
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
           "surface": "programme_tiers",
           "state": "confirmed",
           "evidence": [
             {
-              "id": "o38",
-              "quote": "the Channable Partner that fits your needs. Meet our team, your Agency Partnerships Manager Get matched Gold Partner nextlane® A Channable Gold Partner offering senior support. We help businesses establish a sustainable",
+              "id": "o39",
+              "quote": "Meet our team, your Agency Partnerships Manager Get matched Gold Partner nextlane® A Channable Gold Partner offering senior support.",
               "sourceUrl": "https://partners.channable.com/",
               "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T07:50:58.596Z",
+              "retrievedAt": "2026-08-24T08:18:16.529Z",
               "strength": "strong_proxy",
               "proves": "the programme distinguishes partners by level",
               "doesNotProve": "how many sit in each tier",
@@ -162,8 +213,106 @@
               "alsoSeenAt": []
             }
           ]
+        },
+        {
+          "surface": "partner_resources",
+          "state": "not_observed",
+          "evidence": []
         }
       ]
+    }
+  ],
+  "surfaces": [
+    {
+      "surface": "partner_recruitment",
+      "state": "confirmed",
+      "evidence": [
+        {
+          "id": "o38",
+          "quote": "Support Demo Center Channable Academy Help Center Contact Us Success Stories See all success stories Partners Become a partner Agency partner Boost growth, strategy and visibility Find a partner Explore agency partners Find agencies",
+          "sourceUrl": "https://partners.channable.com/",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T08:18:16.529Z",
+          "strength": "strong_proxy",
+          "proves": "the company publicly invites organisations to join a programme",
+          "doesNotProve": "that anyone joins, or how many",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ]
+    },
+    {
+      "surface": "application",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "onboarding",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "enablement",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "certification",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "lead_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "referral_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "deal_registration",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "co_selling",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "portal",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_pipeline",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "programme_tiers",
+      "state": "confirmed",
+      "evidence": [
+        {
+          "id": "o39",
+          "quote": "Meet our team, your Agency Partnerships Manager Get matched Gold Partner nextlane® A Channable Gold Partner offering senior support.",
+          "sourceUrl": "https://partners.channable.com/",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T08:18:16.529Z",
+          "strength": "strong_proxy",
+          "proves": "the programme distinguishes partners by level",
+          "doesNotProve": "how many sit in each tier",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ]
+    },
+    {
+      "surface": "partner_resources",
+      "state": "not_observed",
+      "evidence": []
     }
   ],
   "partnerDirectory": {
@@ -192,14 +341,14 @@
   "people": {
     "state": "unknown",
     "people": [],
-    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+    "note": "No person lookup was performed for this account. Public person discovery was measured at 2 of 18 companies and is not viable, so the pipeline does not attempt it. This is not evidence that no partner team exists, and team size below two is never a disqualifier."
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T07:50:58.596Z",
-    "lastCheckedAt": "2026-08-24T07:50:58.596Z",
+    "baselineAt": "2026-08-24T08:18:16.529Z",
+    "lastCheckedAt": "2026-08-24T08:18:16.529Z",
     "changes": [],
-    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+    "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
   "contradictions": [
     {
@@ -241,16 +390,26 @@
       "resolves": "operational_surface"
     }
   ],
-  "evidenceCoverage": "none",
+  "evidenceCoverage": "sparse",
   "coverageNote": "Sparse public evidence. This describes how much this company publishes, not how good a prospect it is.",
   "sourceHealth": [
     {
       "url": "https://channable.com/",
       "health": "blocked",
       "status": 429
+    },
+    {
+      "url": "https://www.channable.com/es/partner-program",
+      "health": "not_found",
+      "status": 429
+    },
+    {
+      "url": "https://partners.channable.com/",
+      "health": "success",
+      "status": 200
     }
   ],
-  "commercialSummary": "Channable publishes no retrievable self-description. Public pages describe a agency motion. Visible partner workflows include partner recruitment, programme tiers. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "Channable publishes no retrievable self-description. Public pages describe an agency motion. Visible partner workflows include partner recruitment, programme tiers. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "plausible",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
@@ -263,8 +422,9 @@
       "observationCount": 4,
       "distinctClaimCount": 3,
       "independentSourceCount": 1,
-      "publicationDensity": "none",
+      "publicationDensity": "sparse",
       "constructEvidenceCount": 3,
+      "supportingFindingCount": 3,
       "volumeSensitive": false,
       "unattributableDropped": 0
     }

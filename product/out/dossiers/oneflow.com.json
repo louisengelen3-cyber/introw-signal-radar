@@ -6,7 +6,8 @@
     "sourceUrl": "https://oneflow.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T07:50:57.435Z",
+  "builtAt": "2026-08-24T08:18:15.708Z",
+  "oldestEvidenceAt": "2026-08-24T07:33:14.187Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
     "whyItMayNotMatter": "This is the absence of a disqualifying signal, not positive evidence of fit. Abstract positioning can hide a partner-tech product.",
@@ -41,11 +42,11 @@
       "state": "weak_proxy",
       "evidence": [
         {
-          "id": "o21",
-          "quote": "HubSpot Diamond Partner Why partner with Oneflow? New revenue streams Increase sales with existing customers and by expanding into new",
+          "id": "o22",
+          "quote": "New revenue streams Increase sales with existing customers and by expanding into new",
           "sourceUrl": "https://oneflow.com/partner/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:50:57.435Z",
+          "retrievedAt": "2026-08-24T08:18:15.708Z",
           "strength": "strong_proxy",
           "proves": "the company pitches partner participation as revenue for the partner",
           "doesNotProve": "that any partner earns it, or that the company tracks it",
@@ -71,11 +72,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o22",
-          "quote": "of great partnerships. Let’s create wonders, together. Become a partner Integration Partners Salesforce Q2C automation in Salesforce CRM",
+          "id": "o23",
+          "quote": "Let’s create wonders, together. Become a partner Integration Partners Salesforce Q2C automation in Salesforce CRM",
           "sourceUrl": "https://oneflow.com/partner/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:50:57.435Z",
+          "retrievedAt": "2026-08-24T08:18:15.708Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -83,11 +84,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o23",
-          "quote": "Solution Partners Let our partners help you implement and integrate custom projects,",
+          "id": "o24",
+          "quote": "Our Solution Partners Let our partners help you implement and integrate custom projects,",
           "sourceUrl": "https://oneflow.com/partner-directory/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:50:57.435Z",
+          "retrievedAt": "2026-08-24T08:18:15.708Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -95,11 +96,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o24",
-          "quote": "Access Oneflow’s partner playbooks, resources, and our partner team anytime. Become a Oneflow partner Partnering up with Oneflow is",
+          "id": "o25",
+          "quote": "rces Access Oneflow’s partner playbooks, resources, and our partner team anytime.",
           "sourceUrl": "https://oneflow.com/partner/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:50:57.435Z",
+          "retrievedAt": "2026-08-24T08:18:15.708Z",
           "strength": "strong_proxy",
           "proves": "the company supplies partners with resources, enablement or a named contact",
           "doesNotProve": "that partners use them",
@@ -125,11 +126,11 @@
       "state": "light",
       "evidence": [
         {
-          "id": "o25",
-          "quote": "Partner Manager, HubSpot Solution Partners Bonana HubSpot Elite Partner Fluido Leading European Salesforce consultancy Knowit Nordic IT",
+          "id": "o26",
+          "quote": "n Partner Manager, HubSpot Solution Partners Bonana HubSpot Elite Partner Fluido Leading European Salesforce consultancy Knowit Nordic IT",
           "sourceUrl": "https://oneflow.com/partner/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:50:57.435Z",
+          "retrievedAt": "2026-08-24T08:18:15.708Z",
           "strength": "strong_proxy",
           "proves": "the company differentiates partners by commitment or performance",
           "doesNotProve": "how many partners sit in each tier",
@@ -152,6 +153,99 @@
     }
   ],
   "programmes": [],
+  "surfaces": [
+    {
+      "surface": "partner_recruitment",
+      "state": "confirmed",
+      "evidence": [
+        {
+          "id": "o27",
+          "quote": "Let’s create wonders, together. Become a partner Integration Partners Salesforce Q2C automation in Salesforce CRM and Revenue Cloud HubSpot Close deals and",
+          "sourceUrl": "https://oneflow.com/partner/",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T08:18:15.708Z",
+          "strength": "strong_proxy",
+          "proves": "the company publicly invites organisations to join a programme",
+          "doesNotProve": "that anyone joins, or how many",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ]
+    },
+    {
+      "surface": "application",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "onboarding",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "enablement",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "certification",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "lead_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "referral_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "deal_registration",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "co_selling",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "portal",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_pipeline",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "programme_tiers",
+      "state": "confirmed",
+      "evidence": [
+        {
+          "id": "o28",
+          "quote": "Aron Gosselin Partner Manager, HubSpot Solution Partners Bonana HubSpot Elite Partner Fluido Leading European Salesforce consultancy Knowit Nordic IT consultancy Twoday Leading Nordic",
+          "sourceUrl": "https://oneflow.com/partner/",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T08:18:15.708Z",
+          "strength": "strong_proxy",
+          "proves": "the programme distinguishes partners by level",
+          "doesNotProve": "how many sit in each tier",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ]
+    },
+    {
+      "surface": "partner_resources",
+      "state": "not_observed",
+      "evidence": []
+    }
+  ],
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -178,14 +272,14 @@
   "people": {
     "state": "unknown",
     "people": [],
-    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+    "note": "No person lookup was performed for this account. Public person discovery was measured at 2 of 18 companies and is not viable, so the pipeline does not attempt it. This is not evidence that no partner team exists, and team size below two is never a disqualifier."
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T07:50:57.435Z",
-    "lastCheckedAt": "2026-08-24T07:50:57.435Z",
+    "baselineAt": "2026-08-24T08:18:15.708Z",
+    "lastCheckedAt": "2026-08-24T08:18:15.708Z",
     "changes": [],
-    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+    "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
   "contradictions": [],
   "researchTasks": [
@@ -224,9 +318,89 @@
       "url": "https://oneflow.com/alternatives",
       "health": "success",
       "status": 200
+    },
+    {
+      "url": "https://oneflow.com/partner-directory/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://partners.oneflow.com/",
+      "health": "unknown",
+      "status": 0
+    },
+    {
+      "url": "https://oneflow.com/partner/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://oneflow.com/ir/governance/incentive-programs/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://oneflow.com/partners",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://oneflow.com/partner-program",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://oneflow.com/partner-programme",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://oneflow.com/partnerships",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://oneflow.com/resellers",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://oneflow.com/agencies",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://oneflow.com/become-a-partner",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://oneflow.com/partner-network",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://oneflow.com/en/partners",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://oneflow.com/nl/partners",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://oneflow.com/fr/partenaires",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://oneflow.com/de/partner",
+      "health": "success",
+      "status": 200
     }
   ],
-  "commercialSummary": "Oneflow describes itself as \"Oneflow is a Contract Lifecycle Management platform that transforms static contracts into dynamic data - giving visibility into obligations, renewals, risks…\". No partner programme type could be identified from the pages retrieved. Visible partner workflows include partner recruitment, programme tiers. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size.",
+  "commercialSummary": "Oneflow describes itself as \"Oneflow is a Contract Lifecycle Management platform that transforms static contracts into dynamic data - giving visibility into obligations, renewals, risks…\". No partner programme type could be identified; 12 conventional partner paths were checked and none returned a partner page. Visible partner workflows include partner recruitment, programme tiers. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size.",
   "machineInterpretation": {
     "state": "research",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
@@ -239,6 +413,7 @@
       "independentSourceCount": 1,
       "publicationDensity": "moderate",
       "constructEvidenceCount": 5,
+      "supportingFindingCount": 2,
       "volumeSensitive": false,
       "unattributableDropped": 0
     }

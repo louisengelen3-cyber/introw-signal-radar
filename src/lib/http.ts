@@ -128,6 +128,35 @@ export function snapToWords(text: string, opts: { leadingEllipsis?: boolean } = 
 }
 
 /**
+ * Trim a snippet to whole SENTENCES where that is possible without gutting it.
+ *
+ * Word snapping still produced quotes like "of great partnerships. Let's create wonders,
+ * together. Become a partner Integration Partners Salesforce Q2C automation" — a fragment
+ * that starts mid-thought. Reps paste these into emails, so the unit of a quote should be a
+ * sentence. Falls back to the word-snapped form when no sentence boundary is available,
+ * because a readable fragment beats an empty string.
+ */
+export function snapToSentences(text: string, opts: { minLength?: number } = {}): string {
+  const min = opts.minLength ?? 60;
+  const t = snapToWords(text, { leadingEllipsis: false });
+  // Start at the first sentence boundary, provided enough text survives it.
+  const startMatch = t.match(/[.!?]["')\]]?\s+(?=[A-Z0-9"'(\u00C0-\u024F])/);
+  let out = t;
+  if (startMatch && startMatch.index !== undefined) {
+    const candidate = t.slice(startMatch.index + startMatch[0].length).trim();
+    if (candidate.length >= min) out = candidate;
+  }
+  // End at the last sentence boundary, on the same condition.
+  const ends = [...out.matchAll(/[.!?]["')\]]?(?=\s|$)/g)];
+  const last = ends.at(-1);
+  if (last && last.index !== undefined) {
+    const candidate = out.slice(0, last.index + last[0].length).trim();
+    if (candidate.length >= min) out = candidate;
+  }
+  return out.length >= min ? out : t;
+}
+
+/**
  * Remove stylesheet and script text that survived tag stripping.
  *
  * Tag-based removal assumes well-formed HTML, and real sites are not. Accenture's homepage
@@ -138,8 +167,21 @@ export function snapToWords(text: string, opts: { leadingEllipsis?: boolean } = 
  */
 export function denoise(text: string): string {
   return text
-    // `selector { prop: value; ... }` — with or without the leading selector
-    .replace(/(?:[.#]?[\w-]+\s*,\s*)*[.#]?[\w-]+\s*\{[^{}]{0,600}\}/g, ' ')
+    // Attribute soup from inline SVG and web components survives tag stripping when the
+    // markup is malformed: `width="18px" viewBox="0 0 25 23" fill="none" xmlns="..."`.
+    .replace(/\b[a-zA-Z:-]+\s*=\s*["'][^"']{0,200}["']/g, ' ')
+    // …and an attribute whose closing quote was lost to truncation.
+    .replace(/\b[a-zA-Z:-]+\s*=\s*["'][^"']{0,200}$/g, ' ')
+    // `selector { prop: value; ... }`. The selector list is NOT matched with a starred group
+    // over a repeatable subpattern — that construction backtracked quadratically and took
+    // 8.8s on a 24k-character comma-separated run, stalling the build with no timeout. A
+    // bounded character class cannot backtrack.
+    // The selector run is built from CSS-shaped TOKENS joined by combinators, never from free
+    // text. An earlier version used a broad character class including whitespace, which was
+    // lazy enough to start inside prose and swallow the sentence before the brace
+    // ("Together We Reinvented .sr-only { … }" lost the headline). Note the absence of /i:
+    // element selectors are lowercase, so a capitalised English word cannot open a match.
+    .replace(/(?<![\w-])(?:[.#][\w-]+|[a-z][\w-]*)(?:\s*[,>+~]\s*(?:[.#][\w-]+|[a-z][\w-]*)|\s*::?[\w-]+(?:\([^()]{0,40}\))?|\s+[.#][\w-]+|\[[^\]]{0,60}\]){0,20}\s*\{[^{}]{0,600}\}/g, ' ')
     .replace(/\{[^{}]{0,600}\}/g, ' ')
     // stray declarations left over from a truncated rule
     .replace(/\b(?:position|display|margin|padding|overflow|clip|width|height|font-size|line-height|z-index|border|background|color|transform|opacity)\s*:\s*[^;]{1,60};/gi, ' ')

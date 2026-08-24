@@ -12,11 +12,16 @@
  *   category classifier is the defence.
  */
 
-import { snapToWords } from '../lib/http.js';
+import { snapToSentences } from '../lib/http.js';
 import type { ProgrammeKind } from './types.js';
 
 export const PROGRAMME_PATTERNS: { kind: ProgrammeKind; label: string; re: RegExp }[] = [
-  { kind: 'reseller', label: 'Reseller', re: /\b(reseller|resell(ing|s)?\b|VAR\b|value[- ]added reseller|wederverkoper|revendeur|fachhändler)\b/i },
+  // `VAR` is NOT in this pattern. Under /i, `\bVAR\b` matches the bare word "var", which is
+  // an extremely common Swedish and Dutch word ("was" / "where") — and half this corpus is
+  // Nordic or Dutch, with the pipeline reading /nl/partners and /de/partner. It had not
+  // fired only because an earlier real "reseller" happened to match first. The acronym is
+  // already covered by "value-added reseller".
+  { kind: 'reseller', label: 'Reseller', re: /\b(resellers?|reselling|value[- ]added reseller|wederverkopers?|revendeurs?|fachhändler)\b/i },
   { kind: 'referral', label: 'Referral', re: /\b(referral partner|refer(ral)? program(me)?|introducer|tipgever)\b/i },
   { kind: 'implementation', label: 'Implementation', re: /\b(implementation partner|delivery partner|onboarding partner|deployment partner)\b/i },
   { kind: 'services', label: 'Services', re: /\b(service partner|solution(s)? partner|consulting partner)\b/i },
@@ -47,7 +52,7 @@ export function detectProgrammes(pages: { url: string; text: string }[]): Progra
       const m = p.text.match(def.re);
       if (!m || m.index === undefined) continue;
       const start = Math.max(0, m.index - 140);
-      const window = snapToWords(p.text.slice(start, m.index + m[0].length + 140), { leadingEllipsis: start > 0 });
+      const window = snapToSentences(p.text.slice(start, m.index + m[0].length + 140));
       const named = p.text.match(NAMED);
       out.push({ kind: def.kind, label: def.label, quote: window, sourceUrl: p.url, publishedName: named?.[1] ?? null });
     }

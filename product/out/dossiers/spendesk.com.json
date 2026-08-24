@@ -6,7 +6,8 @@
     "sourceUrl": "https://www.spendesk.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T07:51:01.779Z",
+  "builtAt": "2026-08-24T08:18:19.865Z",
+  "oldestEvidenceAt": "2026-08-24T07:35:00.978Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
     "whyItMayNotMatter": "This is the absence of a disqualifying signal, not positive evidence of fit. Abstract positioning can hide a partner-tech product.",
@@ -58,11 +59,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o102",
-          "quote": "to transform how they think about spend and procurement. Become a partner Why become a Spendesk partner Implement the best tool for spend",
+          "id": "o95",
+          "quote": "Become a partner Why become a Spendesk partner Implement the best tool for spend",
           "sourceUrl": "https://www.spendesk.com/partners/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:01.779Z",
+          "retrievedAt": "2026-08-24T08:18:19.865Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -70,11 +71,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o103",
-          "quote": "improve margin across your portfolio. Become a partner Technology partners Complement your offering with best-in-class spend management and",
+          "id": "o96",
+          "quote": "Become a partner Technology partners Complement your offering with best-in-class spend management and",
           "sourceUrl": "https://www.spendesk.com/partners/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:01.779Z",
+          "retrievedAt": "2026-08-24T08:18:19.865Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -82,11 +83,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o104",
-          "quote": "via early access to new product releases and exclusive partner enablement from our dedicated teams. Rewards for you and your clients Earn",
+          "id": "o97",
+          "quote": "ents via early access to new product releases and exclusive partner enablement from our dedicated teams.",
           "sourceUrl": "https://www.spendesk.com/partners/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:01.779Z",
+          "retrievedAt": "2026-08-24T08:18:19.865Z",
           "strength": "strong_proxy",
           "proves": "the company supplies partners with resources, enablement or a named contact",
           "doesNotProve": "that partners use them",
@@ -112,11 +113,11 @@
       "state": "light",
       "evidence": [
         {
-          "id": "o105",
-          "quote": "teams. Rewards for you and your clients Earn generous revenue share, while your clients benefit from special pricing and access to our",
+          "id": "o98",
+          "quote": "Rewards for you and your clients Earn generous revenue share, while your clients benefit from special pricing and access to our",
           "sourceUrl": "https://www.spendesk.com/partners/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:01.779Z",
+          "retrievedAt": "2026-08-24T08:18:19.865Z",
           "strength": "strong_proxy",
           "proves": "the company pays partners for commercial outcomes",
           "doesNotProve": "the size of the payments or how they are calculated",
@@ -139,6 +140,111 @@
     }
   ],
   "programmes": [],
+  "surfaces": [
+    {
+      "surface": "partner_recruitment",
+      "state": "confirmed",
+      "evidence": [
+        {
+          "id": "o99",
+          "quote": "Become a partner Why become a Spendesk partner Implement the best tool for spend management Your clients' spend is scattered",
+          "sourceUrl": "https://www.spendesk.com/partners/",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T08:18:19.865Z",
+          "strength": "strong_proxy",
+          "proves": "the company publicly invites organisations to join a programme",
+          "doesNotProve": "that anyone joins, or how many",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o100",
+          "quote": "Devenir partenaire Pourquoi devenir partenaire Spendesk Déployez une solution complète de gestion des dépenses Les dépenses de",
+          "sourceUrl": "https://www.spendesk.com/fr/partners/",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T08:18:19.865Z",
+          "strength": "strong_proxy",
+          "proves": "the company publicly invites organisations to join a programme",
+          "doesNotProve": "that anyone joins, or how many",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ]
+    },
+    {
+      "surface": "application",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "onboarding",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "enablement",
+      "state": "confirmed",
+      "evidence": [
+        {
+          "id": "o101",
+          "quote": "Rewards for you and your clients Earn generous revenue share, while your clients",
+          "sourceUrl": "https://www.spendesk.com/partners/",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T08:18:19.865Z",
+          "strength": "strong_proxy",
+          "proves": "material is produced specifically for partners",
+          "doesNotProve": "that partners consume it",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ]
+    },
+    {
+      "surface": "certification",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "lead_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "referral_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "deal_registration",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "co_selling",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "portal",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_pipeline",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "programme_tiers",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_resources",
+      "state": "not_observed",
+      "evidence": []
+    }
+  ],
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -165,14 +271,14 @@
   "people": {
     "state": "unknown",
     "people": [],
-    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+    "note": "No person lookup was performed for this account. Public person discovery was measured at 2 of 18 companies and is not viable, so the pipeline does not attempt it. This is not evidence that no partner team exists, and team size below two is never a disqualifier."
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T07:51:01.779Z",
-    "lastCheckedAt": "2026-08-24T07:51:01.779Z",
+    "baselineAt": "2026-08-24T08:18:19.865Z",
+    "lastCheckedAt": "2026-08-24T08:18:19.865Z",
     "changes": [],
-    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+    "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
   "contradictions": [],
   "researchTasks": [
@@ -226,9 +332,79 @@
       "url": "https://www.spendesk.com/vs",
       "health": "not_found",
       "status": 404
+    },
+    {
+      "url": "https://www.spendesk.com/partners/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.spendesk.com/fr/partners/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.spendesk.com/partner",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.spendesk.com/partner-program",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.spendesk.com/partner-programme",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.spendesk.com/partnerships",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.spendesk.com/resellers",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.spendesk.com/agencies",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.spendesk.com/become-a-partner",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.spendesk.com/partner-network",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.spendesk.com/en/partners",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.spendesk.com/nl/partners",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.spendesk.com/fr/partenaires",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.spendesk.com/de/partner",
+      "health": "not_found",
+      "status": 404
     }
   ],
-  "commercialSummary": "Spendesk describes itself as \"Maîtrisez les dépenses de votre entreprise avec Spendesk – la solution de gestion des dépenses qui connecte tous les aspects de votre activité\". No partner programme type could be identified from the pages retrieved. Visible partner workflows include partner recruitment, enablement. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size.",
+  "commercialSummary": "Spendesk describes itself as \"Maîtrisez les dépenses de votre entreprise avec Spendesk – la solution de gestion des dépenses qui connecte tous les aspects de votre activité\". No partner programme type could be identified; 12 conventional partner paths were checked and none returned a partner page. Visible partner workflows include partner recruitment, enablement. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size.",
   "machineInterpretation": {
     "state": "plausible",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
@@ -241,6 +417,7 @@
       "independentSourceCount": 1,
       "publicationDensity": "moderate",
       "constructEvidenceCount": 4,
+      "supportingFindingCount": 2,
       "volumeSensitive": false,
       "unattributableDropped": 0
     }

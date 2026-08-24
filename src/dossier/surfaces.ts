@@ -31,7 +31,7 @@
  *   workflows. Mitigated by deduplication and by reporting distinct claims, never raw hits.
  */
 
-import { snapToWords } from '../lib/http.js';
+import { snapToSentences } from '../lib/http.js';
 import type { SurfaceKind } from './types.js';
 
 interface SurfaceDef {
@@ -132,7 +132,7 @@ export function scanSurfaces(pages: { url: string; text: string }[]): SurfaceSca
         hits.push({
           surface: def.surface, label: def.label,
           // Snap to whole words only where the window actually cut the text.
-          quote: snapToWords(p.text.slice(start, end), { leadingEllipsis: start > 0 }),
+          quote: snapToSentences(p.text.slice(start, end)),
           sourceUrl: p.url, proves: def.proves, doesNotProve: def.doesNotProve,
         });
         found.add(def.surface);

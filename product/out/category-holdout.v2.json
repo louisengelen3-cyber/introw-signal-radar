@@ -1,0 +1,841 @@
+[
+  {
+    "domain": "getreditus.com",
+    "expected": "partner_tech_vendor",
+    "basis": "sells B2B SaaS partner/affiliate platform",
+    "got": "likely_target_category",
+    "ok": false,
+    "items": 6,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "B2B SaaS Affiliate Network | Reditus",
+        "url": "https://getreditus.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Grow the MRR for your B2B SaaS by leveraging the audience of someone else. Setup, manage & recruit B2B SaaS affiliates via Reditus. 14-day free trial.",
+        "url": "https://getreditus.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "getreditus.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "success",
+      "success"
+    ]
+  },
+  {
+    "domain": "firstpromoter.com",
+    "expected": "partner_tech_vendor",
+    "basis": "sells referral/affiliate program software",
+    "got": "partner_tech_vendor",
+    "ok": true,
+    "items": 6,
+    "signals": [
+      {
+        "kind": "partner_tech_product",
+        "quote": "Launch your affiliate management software in minutes and run affiliate, referral and influencer programs from one platform, trusted by 3,000+ SaaS companies.",
+        "url": "https://firstpromoter.com",
+        "sourceType": "meta_description",
+        "matched": "affiliate management software"
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "Launch your affiliate management software in minutes and run affiliate, referral and influencer programs from one platform, trusted by 3,000+ SaaS companies.",
+        "url": "https://firstpromoter.com",
+        "sourceType": "og_description",
+        "matched": "affiliate management software"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "firstpromoter.com",
+      "onList": false,
+      "classifierSaysPartnerTech": true,
+      "agreement": "classifier_only"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "success",
+      "success"
+    ]
+  },
+  {
+    "domain": "tolt.io",
+    "expected": "partner_tech_vendor",
+    "basis": "sells affiliate program software for SaaS",
+    "got": "partner_tech_vendor",
+    "ok": true,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "partner_tech_product",
+        "quote": "Tolt - Affiliate Marketing Software for SaaS Startups",
+        "url": "https://tolt.com",
+        "sourceType": "title_tag",
+        "matched": "Affiliate Marketing Software"
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "Affiliate Marketing software for SaaS startups — Tolt - Affiliate Marketing Software for SaaS Startups Pricing Resources Log in Sign Up Log in Start your 14 days free trial! Affiliate Marketing software for SaaS startups An all-in-one solution to launch your own affiliate program. Tolt helps SaaS st",
+        "url": "https://tolt.com",
+        "sourceType": "homepage_hero",
+        "matched": "Affiliate Marketing software"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "tolt.io",
+      "onList": false,
+      "classifierSaysPartnerTech": true,
+      "agreement": "classifier_only"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "success",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "rewardful.com",
+    "expected": "partner_tech_vendor",
+    "basis": "sells affiliate/referral tracking software",
+    "got": "partner_tech_vendor",
+    "ok": true,
+    "items": 6,
+    "signals": [
+      {
+        "kind": "partner_tech_product",
+        "quote": "All-in-One Affiliate Management Software for SaaS — Rewardful - Affiliate Software for SaaS Pricing Resources Book a Demo → Features Log in Sign up Log in Start your affiliate program Rated #1 for Ease of Setup on G2 All-in-One Affiliate Management Software for SaaS Rewardful is an affiliate and ref",
+        "url": "https://www.rewardful.com",
+        "sourceType": "homepage_hero",
+        "matched": "Affiliate Management Software"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "rewardful.com",
+      "onList": false,
+      "classifierSaysPartnerTech": true,
+      "agreement": "classifier_only"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "success",
+      "not_found",
+      "success"
+    ]
+  },
+  {
+    "domain": "elioplus.com",
+    "expected": "partner_tech_vendor",
+    "basis": "sells PRM for software vendors",
+    "got": "partner_tech_vendor",
+    "ok": true,
+    "items": 6,
+    "signals": [
+      {
+        "kind": "partner_tech_product",
+        "quote": "Build and manage your channel partner network with Elioplus. Recruit resellers, VARs and MSPs and scale indirect sales with an all-in-one PRM platform.",
+        "url": "https://elioplus.com",
+        "sourceType": "meta_description",
+        "matched": "PRM"
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "Recruit new channel partners and manage your partner network in an all-in-one solution. Attract new resellers, consultants, VARs and MSPs to help you scale your indirect sales.",
+        "url": "https://elioplus.com",
+        "sourceType": "og_description",
+        "matched": "manage your partner"
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "Connecting cloud & software vendors with channel partners — Connecting cloud & software vendors with channel partners Effortless and affordable. We are matching software & cloud vendors and channel partners creating more than 390243 partnerships in 120+ product categories BROWSE COMPANIES ADD YOUR C",
+        "url": "https://elioplus.com",
+        "sourceType": "homepage_hero",
+        "matched": "Manage your partner"
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "Connecting cloud & software vendors with channel partners — Connecting cloud & software vendors with channel partners Effortless and affordable. We are matching software & cloud vendors and channel partners creating more than 390243 partnerships in 120+ product categories BROWSE COMPANIES ADD YOUR C",
+        "url": "https://elioplus.com/product",
+        "sourceType": "product_page",
+        "matched": "Manage your partner"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "elioplus.com",
+      "onList": false,
+      "classifierSaysPartnerTech": true,
+      "agreement": "classifier_only"
+    },
+    "health": [
+      "success",
+      "success",
+      "success"
+    ]
+  },
+  {
+    "domain": "affise.com",
+    "expected": "partner_tech_vendor",
+    "basis": "sells partner marketing platform",
+    "got": "partner_tech_vendor",
+    "ok": true,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "partner_tech_product",
+        "quote": "Affise: Affiliate Marketing Software & Partner Marketing Platform",
+        "url": "https://www.affise.com",
+        "sourceType": "title_tag",
+        "matched": "Affiliate Marketing Software"
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "Affise is a leading affiliate marketing network software and partner marketing platform for scaling performance-driven partnerships.",
+        "url": "https://www.affise.com",
+        "sourceType": "meta_description",
+        "matched": "partner marketing platform"
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "Affise is a leading affiliate marketing network software and partner marketing platform for scaling performance-driven partnerships.",
+        "url": "https://www.affise.com",
+        "sourceType": "og_description",
+        "matched": "partner marketing platform"
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "Affiliate Marketing Software for Performance Growth — Affise: Affiliate Marketing Software & Partner Marketing Platform “App Market Media saw a 300% increase in Revenue with Affise. The сompany commits to generate efficient user-engagement strategies through performance-based models to ensure the ma",
+        "url": "https://www.affise.com",
+        "sourceType": "homepage_hero",
+        "matched": "Affiliate Marketing Software"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "affise.com",
+      "onList": false,
+      "classifierSaysPartnerTech": true,
+      "agreement": "classifier_only"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "success",
+      "not_found",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "tapfiliate.com",
+    "expected": "partner_tech_vendor",
+    "basis": "sells affiliate tracking software",
+    "got": "partner_tech_vendor",
+    "ok": true,
+    "items": 6,
+    "signals": [
+      {
+        "kind": "partner_tech_product",
+        "quote": "Easy-to-use partner tracking and management platform. Trusted by Over 69,500+ Customers. Create, track, and scale your partner program in minutes, not weeks",
+        "url": "https://tapfiliate.com",
+        "sourceType": "meta_description",
+        "matched": "scale your partner "
+      },
+      {
+        "kind": "partner_tech_product",
+        "quote": "The only affiliate marketing software designed to pay for itself before your trial ends — The only affiliate marketing software designed to pay for itself before your trial ends Monthly Annual Get two months free with an annual plan! LAUNCH $ 89 /month $ 74 /month $890/year Perfect for getting start",
+        "url": "https://tapfiliate.com/pricing",
+        "sourceType": "pricing_page",
+        "matched": "affiliate marketing software"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "tapfiliate.com",
+      "onList": false,
+      "classifierSaysPartnerTech": true,
+      "agreement": "classifier_only"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "success",
+      "not_found",
+      "success"
+    ]
+  },
+  {
+    "domain": "teamleader.eu",
+    "expected": "likely_target_category",
+    "basis": "BE SaaS CRM/work management, runs a real partner channel",
+    "got": "likely_target_category",
+    "ok": true,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "CRM, invoices, quotations and projects in one tool | Teamleader",
+        "url": "https://www.teamleader.eu",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Manage your business easily in one place. Over 34,000 entrepreneurs and their teams hand over their paperwork to Teamleader's business software.",
+        "url": "https://www.teamleader.eu",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "teamleader.eu",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "success",
+      "not_found",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "odoo.com",
+    "expected": "likely_target_category",
+    "basis": "ERP with a very large implementation-partner channel",
+    "got": "likely_target_category",
+    "ok": true,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Open Source ERP and CRM | Odoo",
+        "url": "https://www.odoo.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "From ERP to CRM, eCommerce and CMS. Download Odoo or use it in the cloud. Grow Your Business.",
+        "url": "https://www.odoo.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "odoo.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "success",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "mollie.com",
+    "expected": "likely_target_category",
+    "basis": "payments, runs agency/tech partner programme",
+    "got": "likely_target_category",
+    "ok": true,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Mollie – Online and in-person payments built for businesses of every size",
+        "url": "https://www.mollie.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Start growing your business with Mollie Payments, for online and in-person payments: ✓ Quick setup ✓ Honest pricing ✓ All leading payment methods. Start today »",
+        "url": "https://www.mollie.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "mollie.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "success",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "sendcloud.com",
+    "expected": "likely_target_category",
+    "basis": "shipping SaaS with partner programme",
+    "got": "likely_target_category",
+    "ok": true,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Sendcloud | Europe's no.1 Shipping Software for E-commerce",
+        "url": "https://www.sendcloud.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "We help 30,000+ online retailers save time, effort and money with our shipping software. Connect your favourite couriers and ship worldwide.",
+        "url": "https://www.sendcloud.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "sendcloud.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "success",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "storyblok.com",
+    "expected": "likely_target_category",
+    "basis": "CMS with agency partner programme",
+    "got": "likely_target_category",
+    "ok": true,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Storyblok — Headless CMS with Visual Editor | Storyblok",
+        "url": "https://www.storyblok.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Storyblok is an intuitive content management system that helps your developer and marketing teams get value from your content faster and create innovative digital experiences.",
+        "url": "https://www.storyblok.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "storyblok.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "success",
+      "not_found",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "lightspeedhq.com",
+    "expected": "likely_target_category",
+    "basis": "POS with reseller channel",
+    "got": "likely_target_category",
+    "ok": true,
+    "items": 4,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Lightspeed: Leading Point of Sale (POS) & Commerce Platform - Lightspeed",
+        "url": "https://www.lightspeedhq.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "POS & Payments Platform — POS & Payments Platform Built to scale Sell in person and online from one connected platform that simplifies your entire business. Watch a demo Request a quote Choose your industry Retail Restaurant Golf Wholesale Buy wholesale from top brands and sync orders instantly to y",
+        "url": "https://www.lightspeedhq.com",
+        "sourceType": "homepage_hero",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "lightspeedhq.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "success",
+      "success"
+    ]
+  },
+  {
+    "domain": "gorgias.com",
+    "expected": "likely_target_category",
+    "basis": "support SaaS with agency partners",
+    "got": "likely_target_category",
+    "ok": true,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "The Conversational AI platform for Ecommerce | Gorgias",
+        "url": "https://www.gorgias.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Drive more sales and automate support with AI Agent, Helpdesk integrated to your stack, Chat, FAQ and more. Trusted by top 17,000 brands and counting.",
+        "url": "https://www.gorgias.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "gorgias.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "success",
+      "not_found",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "chargebee.com",
+    "expected": "likely_target_category",
+    "basis": "billing SaaS with partner programme",
+    "got": "likely_target_category",
+    "ok": true,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Chargebee: Billing & Monetization for SaaS and AI Companies",
+        "url": "https://www.chargebee.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Chargebee powers billing, pricing, and revenue operations for 6,500+ businesses. From recurring subscriptions to usage-based AI monetization - every model, one platform.",
+        "url": "https://www.chargebee.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "chargebee.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "success",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "wolt.com",
+    "expected": "supply_side_marketplace",
+    "basis": "delivery marketplace; partners are restaurants and couriers",
+    "got": "supply_side_marketplace",
+    "ok": true,
+    "items": 4,
+    "signals": [
+      {
+        "kind": "supply_side_product",
+        "quote": "When people try Wolt, they love it! The joy of food, groceries and more from local stores and restaurants, delivered in 30 minutes. Try the most-loved delivery app now.",
+        "url": "https://wolt.com",
+        "sourceType": "meta_description",
+        "matched": "groceries and more from local stores and restaurants, delivered"
+      },
+      {
+        "kind": "supply_side_product",
+        "quote": "When people try Wolt, they love it! The joy of food, groceries and more from local stores and restaurants, delivered in 30 minutes. Try the most-loved delivery app now.",
+        "url": "https://wolt.com",
+        "sourceType": "og_description",
+        "matched": "groceries and more from local stores and restaurants, delivered"
+      },
+      {
+        "kind": "supply_side_product",
+        "quote": "Wolt Delivery | Food, Groceries and more in 30 minutes – Wolt E v e r y t h i n g . D e l i v e r e d . Delivered sustainably Log in for saved addresses Popular around you right now Become a courier partner Earn by delivering to local customers. Set your own schedule, deliver when and where you want",
+        "url": "https://wolt.com",
+        "sourceType": "homepage_hero",
+        "matched": "Become a courier"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "wolt.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "devoteam.com",
+    "expected": "professional_services",
+    "basis": "IT consultancy and reseller/participant",
+    "got": "likely_target_category",
+    "ok": false,
+    "items": 6,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Devoteam - AI-driven Tech Consulting",
+        "url": "https://www.devoteam.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Transform your bussines with Devoteam, the AI-driven tech consulting. Become a leading company embracing AI for sustainable value.",
+        "url": "https://www.devoteam.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "devoteam.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "success",
+      "not_found",
+      "not_found",
+      "success"
+    ]
+  },
+  {
+    "domain": "glovoapp.com",
+    "expected": "supply_side_marketplace",
+    "basis": "delivery marketplace",
+    "got": "supply_side_marketplace",
+    "ok": true,
+    "items": 4,
+    "signals": [
+      {
+        "kind": "supply_side_product",
+        "quote": "Glovo is the food delivery site that will get you anything you want to your doorstep. You order online, you&#x27;ll have it!",
+        "url": "https://glovoapp.com",
+        "sourceType": "meta_description",
+        "matched": "food delivery"
+      },
+      {
+        "kind": "supply_side_product",
+        "quote": "Food delivery and more Groceries, shops, pharmacies, anything! Top restaurants and more in Glovo McDonald's KFC BurgerKing Carrefour PizzaHut Papa John's Subway TacoBell Anything delivered Your city's top restaurants With a great variety of restaurants you can order your favourite food or explore ne",
+        "url": "https://glovoapp.com",
+        "sourceType": "homepage_hero",
+        "matched": "Food delivery"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "glovoapp.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found"
+    ]
+  },
+  {
+    "domain": "capgemini.com",
+    "expected": "professional_services",
+    "basis": "IT consultancy",
+    "got": "professional_services",
+    "ok": true,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "professional_services",
+        "quote": "A global leader in consulting, technology services and digital transformation, we offer an array of integrated services combining technology with deep sector expertise.",
+        "url": "https://www.capgemini.com",
+        "sourceType": "meta_description",
+        "matched": "consulting + digital transformation"
+      },
+      {
+        "kind": "professional_services",
+        "quote": "A global leader in consulting, technology services and digital transformation, we offer an array of integrated services combining technology with deep sector expertise.",
+        "url": "https://www.capgemini.com",
+        "sourceType": "meta_description",
+        "matched": "global leader in consulting"
+      },
+      {
+        "kind": "professional_services",
+        "quote": "A global leader in consulting, technology services and digital transformation, we offer an array of integrated services combining technology with deep sector expertise.",
+        "url": "https://www.capgemini.com",
+        "sourceType": "og_description",
+        "matched": "global leader in consulting"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "capgemini.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found",
+      "success"
+    ]
+  },
+  {
+    "domain": "xebia.com",
+    "expected": "professional_services",
+    "basis": "IT consultancy and participant in vendor programmes",
+    "got": "likely_target_category",
+    "ok": false,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Xebia | Shaping Tomorrow With AI Today",
+        "url": "https://www.xebia.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "Xebia is a global, award-winning AI-first consulting, software engineering, and training company, turning AI strategy into real-world business transformation.",
+        "url": "https://www.xebia.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "xebia.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found",
+      "not_found",
+      "success"
+    ]
+  },
+  {
+    "domain": "partnero.com",
+    "expected": "partner_tech_vendor",
+    "basis": "sells partner program software",
+    "got": "likely_target_category",
+    "ok": false,
+    "items": 5,
+    "signals": [
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "AI-Powered Affiliate & Referral Programs | Partnero",
+        "url": "https://www.partnero.com",
+        "sourceType": "title_tag",
+        "matched": "(no disqualifying category signal)"
+      },
+      {
+        "kind": "ordinary_product_identity",
+        "quote": "AI-powered affiliate and referral software. Automate program setup, partner discovery, and growth.",
+        "url": "https://www.partnero.com",
+        "sourceType": "meta_description",
+        "matched": "(no disqualifying category signal)"
+      }
+    ],
+    "listVsClassifier": {
+      "domain": "partnero.com",
+      "onList": false,
+      "classifierSaysPartnerTech": false,
+      "agreement": "neither"
+    },
+    "health": [
+      "success",
+      "not_found",
+      "not_found",
+      "not_found",
+      "success",
+      "not_found",
+      "not_found"
+    ]
+  }
+]

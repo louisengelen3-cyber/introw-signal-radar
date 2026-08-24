@@ -169,10 +169,18 @@ export interface PublicationDiagnostics {
   volumeSensitive: boolean;
   /** Observations discarded because they could not be attributed to the partner motion. */
   unattributableDropped: number;
+  /** Programme, workflow and directory findings — evidence that is not a probe observation. */
+  supportingFindingCount: number;
 }
 
+/**
+ * Advisory machine states. Deliberately NOT an ordering, and deliberately not named for fit:
+ * the previous top state was called `high_fit`, which the hardening report recommended
+ * deleting precisely because the name invites a ranking the evidence cannot support. These
+ * name what the EVIDENCE looks like, not how good the prospect is.
+ */
 export type MachineState =
-  | 'high_fit_evidence' | 'plausible' | 'research' | 'under_observed'
+  | 'strong_evidence' | 'plausible' | 'research' | 'under_observed'
   | 'weak_evidence' | 'suppression_candidate';
 
 export interface MachineInterpretation {
@@ -206,6 +214,11 @@ export interface Dossier {
   selfDescription: { text: string; sourceUrl: string } | null;
   geography: string | null;
   builtAt: string;
+  /**
+   * The oldest retrieval behind this dossier. Shown as "last checked" instead of `builtAt`,
+   * because the HTTP layer caches without expiry and assembly time is not observation time.
+   */
+  oldestEvidenceAt: string;
 
   category: CategoryClassification & {
     /** Asserted business data, reported beside the inference and never merged into it. */
@@ -214,6 +227,8 @@ export interface Dossier {
 
   constructs: ConstructPanel[];
   programmes: Programme[];
+  /** Kept top-level so a workflow claim always has its evidence stored beside it. */
+  surfaces: SurfaceFinding[];
   /**
    * A published list of partner organisations. Kept as its own field because it is a
    * different KIND of evidence from everything else: the partners describe themselves, so

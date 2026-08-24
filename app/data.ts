@@ -62,7 +62,7 @@ export function clearReview(domain: string): void {
  * unordered: there is no "top", no score, and no sort that implies priority (§9).
  */
 
-export type WorkflowState = 'ready_for_review' | 'research_needed' | 'under_observed' | 'reviewed' | 'watching' | 'suppressed';
+export type WorkflowState = 'ready_for_review' | 'research_needed' | 'under_observed' | 'suppression_flagged' | 'reviewed' | 'watching' | 'suppressed';
 
 export function workflowState(d: Dossier, review: ReviewRecord | null): WorkflowState {
   if (review) {
@@ -70,6 +70,11 @@ export function workflowState(d: Dossier, review: ReviewRecord | null): Workflow
     if (review.outcome === 'suppress') return 'suppressed';
     return 'reviewed';
   }
+  // The suppression branch was missing, so Kiflo and Magentrix — flagged by the machine as
+  // suppression candidates on the strength of the known-competitor list — rendered as
+  // "Ready for review" and sat in the review queue. The one machine judgement in this system
+  // that demonstrably works was being discarded by the workflow mapping.
+  if (d.machineInterpretation.state === 'suppression_candidate') return 'suppression_flagged';
   if (d.machineInterpretation.state === 'under_observed') return 'under_observed';
   if (d.machineInterpretation.state === 'research') return 'research_needed';
   return 'ready_for_review';
@@ -79,6 +84,7 @@ export const WORKFLOW_LABEL: Record<WorkflowState, string> = {
   ready_for_review: 'Ready for review',
   research_needed: 'Research needed',
   under_observed: 'Under-observed',
+  suppression_flagged: 'Suppression flagged',
   reviewed: 'Reviewed',
   watching: 'Watching',
   suppressed: 'Suppressed',

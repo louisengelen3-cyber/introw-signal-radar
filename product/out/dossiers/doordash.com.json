@@ -3,7 +3,8 @@
   "companyName": "DoorDash",
   "selfDescription": null,
   "geography": null,
-  "builtAt": "2026-08-24T07:53:08.560Z",
+  "builtAt": "2026-08-24T08:18:27.337Z",
+  "oldestEvidenceAt": "2026-08-24T08:18:27.337Z",
   "category": {
     "whyItMatters": "No identity-bearing surface could be read, so the company category is not established.",
     "whyItMayNotMatter": "This says nothing about the company — only about our retrieval.",
@@ -71,6 +72,73 @@
     }
   ],
   "programmes": [],
+  "surfaces": [
+    {
+      "surface": "partner_recruitment",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "application",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "onboarding",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "enablement",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "certification",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "lead_submission",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "referral_submission",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "deal_registration",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "co_selling",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "portal",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "partner_pipeline",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "programme_tiers",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "partner_resources",
+      "state": "unknown",
+      "evidence": []
+    }
+  ],
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -97,14 +165,14 @@
   "people": {
     "state": "unknown",
     "people": [],
-    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+    "note": "No person lookup was performed for this account. Public person discovery was measured at 2 of 18 companies and is not viable, so the pipeline does not attempt it. This is not evidence that no partner team exists, and team size below two is never a disqualifier."
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T07:53:08.560Z",
-    "lastCheckedAt": "2026-08-24T07:53:08.560Z",
+    "baselineAt": "2026-08-24T08:18:27.337Z",
+    "lastCheckedAt": "2026-08-24T08:18:27.337Z",
     "changes": [],
-    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+    "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
   "contradictions": [],
   "researchTasks": [
@@ -140,6 +208,11 @@
       "url": "https://doordash.com/",
       "health": "blocked",
       "status": 403
+    },
+    {
+      "url": "https://partner.doordash.com/",
+      "health": "unknown",
+      "status": 0
     }
   ],
   "commercialSummary": "DoorDash publishes no retrievable self-description. No partner programme type could be identified from the pages retrieved. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
@@ -152,6 +225,7 @@
       "independentSourceCount": 0,
       "publicationDensity": "none",
       "constructEvidenceCount": 0,
+      "supportingFindingCount": 0,
       "volumeSensitive": false,
       "unattributableDropped": 0
     },

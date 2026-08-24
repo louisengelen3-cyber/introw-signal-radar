@@ -6,7 +6,8 @@
     "sourceUrl": "https://www.foleon.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T07:51:03.524Z",
+  "builtAt": "2026-08-24T08:18:21.710Z",
+  "oldestEvidenceAt": "2026-08-24T07:35:31.379Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
     "whyItMayNotMatter": "This is the absence of a disqualifying signal, not positive evidence of fit. Abstract positioning can hide a partner-tech product.",
@@ -89,6 +90,73 @@
     }
   ],
   "programmes": [],
+  "surfaces": [
+    {
+      "surface": "partner_recruitment",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "application",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "onboarding",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "enablement",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "certification",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "lead_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "referral_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "deal_registration",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "co_selling",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "portal",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_pipeline",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "programme_tiers",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_resources",
+      "state": "not_observed",
+      "evidence": []
+    }
+  ],
   "partnerDirectory": {
     "isDirectory": true,
     "lowerBound": 82,
@@ -107,11 +175,11 @@
     "sourceUrl": "https://www.foleon.com/partners",
     "evidenceQuote": "Our Partners – Foleon --> Foleon certified partners Creative organizations that excel in producing first-class interactive content All locations All languages All service types All use cases Tag Agency Each agency in the tag network is uniquely positioned and",
     "observation": {
-      "id": "o145",
+      "id": "o137",
       "quote": "Our Partners – Foleon --> Foleon certified partners Creative organizations that excel in producing first-class interactive content All locations All languages All service types All use cases Tag Agency Each agency in the tag network is uniquely positioned and",
       "sourceUrl": "https://www.foleon.com/partners",
       "sourceType": "partner_directory",
-      "retrievedAt": "2026-08-24T07:51:03.524Z",
+      "retrievedAt": "2026-08-24T08:18:21.710Z",
       "strength": "confirmed",
       "proves": "the company publicly lists at least 82 partner organisations",
       "doesNotProve": "the true number of partners, that they transact, or that the list is current — a directory is a lower bound and usually a filtered view"
@@ -122,11 +190,11 @@
       "state": "hubspot_confirmed",
       "evidence": [
         {
-          "id": "o144",
+          "id": "o136",
           "quote": "js.hsforms.net",
           "sourceUrl": "https://foleon.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T07:51:03.524Z",
+          "retrievedAt": "2026-08-24T08:18:21.710Z",
           "strength": "confirmed",
           "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
           "doesNotProve": "that opportunities and partner deals are managed there"
@@ -144,14 +212,14 @@
   "people": {
     "state": "unknown",
     "people": [],
-    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+    "note": "No person lookup was performed for this account. Public person discovery was measured at 2 of 18 companies and is not viable, so the pipeline does not attempt it. This is not evidence that no partner team exists, and team size below two is never a disqualifier."
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T07:51:03.524Z",
-    "lastCheckedAt": "2026-08-24T07:51:03.524Z",
+    "baselineAt": "2026-08-24T08:18:21.710Z",
+    "lastCheckedAt": "2026-08-24T08:18:21.710Z",
     "changes": [],
-    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+    "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
   "contradictions": [],
   "researchTasks": [
@@ -189,15 +257,80 @@
       "url": "https://www.foleon.com/vs",
       "health": "not_found",
       "status": 404
+    },
+    {
+      "url": "https://www.foleon.com/partners",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.foleon.com/partner",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.foleon.com/partner-program",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.foleon.com/partner-programme",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.foleon.com/partnerships",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.foleon.com/resellers",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.foleon.com/agencies",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.foleon.com/become-a-partner",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.foleon.com/partner-network",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.foleon.com/en/partners",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.foleon.com/nl/partners",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.foleon.com/fr/partenaires",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.foleon.com/de/partner",
+      "health": "success",
+      "status": 200
     }
   ],
-  "commercialSummary": "Foleon describes itself as \"Foleon is an enterprise content platform that makes machine-readable interactive content creation scalable, governable, and 100% on-brand\". No partner programme type could be identified from the pages retrieved. It publishes a directory listing at least 82 partner organisations, described as certified. Public evidence does not establish partner platform or partner-team size.",
+  "commercialSummary": "Foleon describes itself as \"Foleon is an enterprise content platform that makes machine-readable interactive content creation scalable, governable, and 100% on-brand\". No partner programme type could be identified; 12 conventional partner paths were checked and none returned a partner page. It publishes a directory listing at least 82 partner organisations, described as certified. Public evidence does not establish partner platform or partner-team size.",
   "machineInterpretation": {
     "state": "research",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
     "reasons": [
       "A published directory lists at least 82 partner organisations, described as certified.",
-      "Programme prose is absent, so how the relationships work is unestablished."
+      "No construct-level claim survived attribution, but 1 programme or workflow finding(s) were observed. Read those quotes directly."
     ],
     "diagnostics": {
       "observationCount": 0,
@@ -205,6 +338,7 @@
       "independentSourceCount": 0,
       "publicationDensity": "moderate",
       "constructEvidenceCount": 0,
+      "supportingFindingCount": 1,
       "volumeSensitive": false,
       "unattributableDropped": 0
     }

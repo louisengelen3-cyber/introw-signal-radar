@@ -6,7 +6,8 @@
     "sourceUrl": "https://www.devoteam.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T07:53:06.943Z",
+  "builtAt": "2026-08-24T08:18:24.948Z",
+  "oldestEvidenceAt": "2026-08-24T07:16:24.961Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
     "whyItMayNotMatter": "This is the absence of a disqualifying signal, not positive evidence of fit. Abstract positioning can hide a partner-tech product.",
@@ -58,11 +59,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o95",
-          "quote": "of Devoteam’s awarded in-house specialists and leading technology partners like AWS, Microsoft, Google Cloud, ServiceNow, and more. Tailored",
+          "id": "o190",
+          "quote": "edge of Devoteam’s awarded in-house specialists and leading technology partners like AWS, Microsoft, Google Cloud, ServiceNow, and more.",
           "sourceUrl": "https://www.devoteam.com/partners/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:53:06.943Z",
+          "retrievedAt": "2026-08-24T08:18:24.948Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -102,6 +103,73 @@
     }
   ],
   "programmes": [],
+  "surfaces": [
+    {
+      "surface": "partner_recruitment",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "application",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "onboarding",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "enablement",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "certification",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "lead_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "referral_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "deal_registration",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "co_selling",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "portal",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_pipeline",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "programme_tiers",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_resources",
+      "state": "not_observed",
+      "evidence": []
+    }
+  ],
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -128,14 +196,14 @@
   "people": {
     "state": "unknown",
     "people": [],
-    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+    "note": "No person lookup was performed for this account. Public person discovery was measured at 2 of 18 companies and is not viable, so the pipeline does not attempt it. This is not evidence that no partner team exists, and team size below two is never a disqualifier."
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T07:53:06.943Z",
-    "lastCheckedAt": "2026-08-24T07:53:06.943Z",
+    "baselineAt": "2026-08-24T08:18:24.948Z",
+    "lastCheckedAt": "2026-08-24T08:18:24.948Z",
     "changes": [],
-    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+    "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
   "contradictions": [
     {
@@ -198,9 +266,104 @@
       "url": "https://www.devoteam.com/vs",
       "health": "success",
       "status": 200
+    },
+    {
+      "url": "https://www.devoteam.com/partners/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.devoteam.com/nl/partners/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.devoteam.com/fr/partenaires/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.devoteam.com/en-dk/official-mulesoft-partner-consultancy/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.devoteam.com/en-nl/atlassian-training-partner/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.devoteam.com/en-dk/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.devoteam.com/en-nl/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.devoteam.com/partner",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.devoteam.com/partner-program",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.devoteam.com/partner-programme",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.devoteam.com/partnerships",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.devoteam.com/resellers",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.devoteam.com/agencies",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.devoteam.com/become-a-partner",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.devoteam.com/partner-network",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.devoteam.com/en/partners",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.devoteam.com/nl/partners",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.devoteam.com/fr/partenaires",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.devoteam.com/de/partner",
+      "health": "success",
+      "status": 200
     }
   ],
-  "commercialSummary": "Devoteam describes itself as \"Transform your bussines with Devoteam, the AI-driven tech consulting. Become a leading company embracing AI for sustainable value\". No partner programme type could be identified from the pages retrieved. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "Devoteam describes itself as \"Transform your bussines with Devoteam, the AI-driven tech consulting. Become a leading company embracing AI for sustainable value\". No partner programme type could be identified; 12 conventional partner paths were checked and none returned a partner page. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "plausible",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
@@ -214,6 +377,7 @@
       "independentSourceCount": 1,
       "publicationDensity": "sparse",
       "constructEvidenceCount": 1,
+      "supportingFindingCount": 0,
       "volumeSensitive": false,
       "unattributableDropped": 0
     }

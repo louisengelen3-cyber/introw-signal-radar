@@ -6,7 +6,8 @@
     "sourceUrl": "https://www.productsup.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T07:51:03.844Z",
+  "builtAt": "2026-08-24T08:18:22.030Z",
+  "oldestEvidenceAt": "2026-08-24T07:35:41.706Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
     "whyItMayNotMatter": "This is the absence of a disqualifying signal, not positive evidence of fit. Abstract positioning can hide a partner-tech product.",
@@ -38,7 +39,7 @@
   "constructs": [
     {
       "construct": "commercial_materiality",
-      "state": "strong_proxy",
+      "state": "unknown",
       "evidence": [],
       "counterEvidence": [],
       "unknown": [
@@ -88,25 +89,72 @@
       "whyItMayNotMatter": "A published workflow is not a used workflow, and login-walled machinery is invisible either way."
     }
   ],
-  "programmes": [
+  "programmes": [],
+  "surfaces": [
     {
-      "kind": "distributor",
-      "publishedName": null,
-      "evidence": [
-        {
-          "id": "o146",
-          "quote": "optimize and distribute product content for… Supplier onboarding Standardize supplier data for product catalogs Learn more Retailer and distributor channels Syndicate optimized product content to retailers Learn more Marketplace channels Distribute product catalogs across major",
-          "sourceUrl": "https://www.productsup.com/wholesalers-and-distributors/",
-          "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:03.844Z",
-          "strength": "strong_proxy",
-          "proves": "the company uses distributor partner vocabulary about itself",
-          "doesNotProve": "that the programme is active, staffed or material",
-          "duplicateCount": 1,
-          "alsoSeenAt": []
-        }
-      ],
-      "surfaces": []
+      "surface": "partner_recruitment",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "application",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "onboarding",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "enablement",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "certification",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "lead_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "referral_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "deal_registration",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "co_selling",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "portal",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_pipeline",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "programme_tiers",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_resources",
+      "state": "not_observed",
+      "evidence": []
     }
   ],
   "partnerDirectory": {
@@ -124,21 +172,21 @@
       "state": "hubspot_confirmed",
       "evidence": [
         {
-          "id": "o147",
+          "id": "o138",
           "quote": "js.hsforms.net",
           "sourceUrl": "https://productsup.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T07:51:03.844Z",
+          "retrievedAt": "2026-08-24T08:18:22.030Z",
           "strength": "confirmed",
           "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
           "doesNotProve": "that opportunities and partner deals are managed there"
         },
         {
-          "id": "o148",
+          "id": "o139",
           "quote": "hubspotusercontent",
           "sourceUrl": "https://productsup.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T07:51:03.844Z",
+          "retrievedAt": "2026-08-24T08:18:22.030Z",
           "strength": "strong_proxy",
           "proves": "HubSpot-hosted assets or analytics are in use",
           "doesNotProve": "which HubSpot products are licensed"
@@ -156,14 +204,14 @@
   "people": {
     "state": "unknown",
     "people": [],
-    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+    "note": "No person lookup was performed for this account. Public person discovery was measured at 2 of 18 companies and is not viable, so the pipeline does not attempt it. This is not evidence that no partner team exists, and team size below two is never a disqualifier."
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T07:51:03.844Z",
-    "lastCheckedAt": "2026-08-24T07:51:03.844Z",
+    "baselineAt": "2026-08-24T08:18:22.030Z",
+    "lastCheckedAt": "2026-08-24T08:18:22.030Z",
     "changes": [],
-    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+    "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
   "contradictions": [],
   "researchTasks": [
@@ -174,7 +222,7 @@
       "resolves": "commercial_materiality"
     }
   ],
-  "evidenceCoverage": "sparse",
+  "evidenceCoverage": "none",
   "coverageNote": "Sparse public evidence. This describes how much this company publishes, not how good a prospect it is.",
   "sourceHealth": [
     {
@@ -211,9 +259,104 @@
       "url": "https://www.productsup.com/vs",
       "health": "success",
       "status": 200
+    },
+    {
+      "url": "https://www.productsup.com/en/partners/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://partners.productsup.com/",
+      "health": "unknown",
+      "status": 0
+    },
+    {
+      "url": "https://www.productsup.com/partners/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.productsup.com/de/grobhandler-und-vertriebspartner/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.productsup.com/wholesalers-and-distributors/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.productsup.com/de/handler/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.productsup.com/en/ai-discovery-offer/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.productsup.com/guides/channeling-success-the-product-feed-management-guide/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.productsup.com/partner",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.productsup.com/partner-program",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.productsup.com/partner-programme",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.productsup.com/partnerships",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.productsup.com/resellers",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.productsup.com/become-a-partner",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.productsup.com/partner-network",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.productsup.com/en/partners",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.productsup.com/nl/partners",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.productsup.com/fr/partenaires",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.productsup.com/de/partner",
+      "health": "not_found",
+      "status": 404
     }
   ],
-  "commercialSummary": "Productsup describes itself as \"Productsup’s enterprise feed management and syndication platform empowers businesses to optimize product experiences across all touchpoints. Get started today!\". Public pages describe a distributor motion. Public evidence does not establish partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "Productsup describes itself as \"Productsup’s enterprise feed management and syndication platform empowers businesses to optimize product experiences across all touchpoints. Get started today!\". No partner programme type could be identified; 11 conventional partner paths were checked and none returned a partner page. Public evidence does not establish partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "under_observed",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
@@ -224,8 +367,9 @@
       "observationCount": 0,
       "distinctClaimCount": 0,
       "independentSourceCount": 0,
-      "publicationDensity": "sparse",
+      "publicationDensity": "none",
       "constructEvidenceCount": 0,
+      "supportingFindingCount": 0,
       "volumeSensitive": false,
       "unattributableDropped": 2
     }

@@ -138,3 +138,66 @@ export function competitiveReading(d: PrmDetection): { maturity: string; switchi
     forbidden: 'Do not infer dissatisfaction, renewal timing, or readiness to switch. None of that is observable here.',
   };
 }
+
+
+/**
+ * Text-side partner-platform detection.
+ *
+ * DNS fingerprinting only sees a platform that serves a partner subdomain, which is a
+ * minority of deployments. Meanwhile trengo.com's own partner terms and conditions say, in
+ * the dossier's own quoted evidence: "Affiliate Partner Portal: means the Kiflo portal the
+ * Affiliate Partner has acquired an account for." Kiflo is a direct competitor. The single
+ * most commercially decisive fact in the whole dataset — this prospect already pays a
+ * competitor — sat in a quote while the systems panel above it reported `unknown`.
+ *
+ * WHAT IT PROVES  the company names this platform on a partner-facing page.
+ * WHAT IT DOES NOT PROVE  that it is deployed, current, or the only one; nor anything about
+ *   satisfaction, contract timing, or willingness to switch.
+ * KNOWN FALSE POSITIVE  a comparison or blog post naming vendors. Defended against by
+ *   requiring a partner-page source and a possessive or definite construction.
+ */
+const PRM_NAMES: [string, RegExp][] = [
+  ['Kiflo', /\bKiflo\b/], ['Allbound', /\bAllbound\b/], ['Impartner', /\bImpartner\b/],
+  ['PartnerStack', /\bPartnerStack\b/], ['Channeltivity', /\bChanneltivity\b/],
+  ['ZINFI', /\bZINFI\b/], ['Magentrix', /\bMagentrix\b/], ['Zift', /\bZift Solutions\b/],
+  ['Mindmatrix', /\bMindmatrix\b/], ['WorkSpan', /\bWorkSpan\b/], ['Crossbeam', /\bCrossbeam\b/],
+  ['PartnerPage', /\bPartnerPage\b/], ['Introw', /\bIntrow\b/], ['Kademi', /\bKademi\b/],
+  ['Reveal', /\bReveal\b(?=\s+(partner|ecosystem))/i],
+];
+
+/** The name must sit in a construction that claims USE, not merely a mention. */
+const USE_CONSTRUCTION = /\b(the|our|via|through|powered by|hosted on|means the|using|on)\s+$/i;
+
+export interface PrmTextHit {
+  vendor: string;
+  quote: string;
+  sourceUrl: string;
+  proves: string;
+  doesNotProve: string;
+}
+
+export function detectPrmInText(
+  pages: { url: string; text: string }[],
+  isPartnerSource: (url: string) => boolean,
+): PrmTextHit[] {
+  const out: PrmTextHit[] = [];
+  const seen = new Set<string>();
+  for (const p of pages) {
+    if (!isPartnerSource(p.url)) continue;   // a partner page, not a blog comparison
+    for (const [vendor, re] of PRM_NAMES) {
+      const m = p.text.match(re);
+      if (!m || m.index === undefined || seen.has(vendor)) continue;
+      const before = p.text.slice(Math.max(0, m.index - 24), m.index);
+      if (!USE_CONSTRUCTION.test(before)) continue;
+      seen.add(vendor);
+      out.push({
+        vendor,
+        quote: p.text.slice(Math.max(0, m.index - 130), m.index + m[0].length + 130).replace(/\s+/g, ' ').trim(),
+        sourceUrl: p.url,
+        proves: `a partner-facing page on this site names ${vendor} as a platform in use`,
+        doesNotProve: 'that it is currently deployed, the only platform, or anything about satisfaction, contract timing or willingness to switch',
+      });
+    }
+  }
+  return out;
+}

@@ -6,7 +6,8 @@
     "sourceUrl": "https://www.planhat.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T07:50:57.438Z",
+  "builtAt": "2026-08-24T08:18:15.711Z",
+  "oldestEvidenceAt": "2026-08-24T07:33:14.188Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
     "whyItMayNotMatter": "This is the absence of a disqualifying signal, not positive evidence of fit. Abstract positioning can hide a partner-tech product.",
@@ -41,11 +42,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o1",
-          "quote": "customer base. As an IT Services Partner, you'll get co-sell support, joint pipeline opportunities, and a platform built for",
+          "id": "o16",
+          "quote": "As an IT Services Partner, you'll get co-sell support, joint pipeline opportunities, and a platform built for",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:50:57.438Z",
+          "retrievedAt": "2026-08-24T08:18:15.711Z",
           "strength": "confirmed",
           "proves": "the company describes partners selling or reselling its product",
           "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -53,11 +54,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o2",
-          "quote": "clients. In return, you'll grow your Planhat expertise, win new business, and expand what you can offer. Solution Partners Deliver",
+          "id": "o17",
+          "quote": "In return, you'll grow your Planhat expertise, win new business, and expand what you can offer.",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:50:57.438Z",
+          "retrievedAt": "2026-08-24T08:18:15.711Z",
           "strength": "confirmed",
           "proves": "the company describes partners bringing it leads, deals or customers",
           "doesNotProve": "the number of deals, or that a process exists to handle them",
@@ -83,11 +84,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o3",
-          "quote": "| Partner with Us partners We’re stronger together We work with software providers,",
+          "id": "o18",
+          "quote": "Planhat | Partner with Us partners We’re stronger together We work with software providers,",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:50:57.438Z",
+          "retrievedAt": "2026-08-24T08:18:15.711Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -95,11 +96,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o4",
-          "quote": "and retain my data pursuant to its Privacy Policy . Solution Partners Deliver consulting services — business insight, data mapping,",
+          "id": "o19",
+          "quote": "Solution Partners Deliver consulting services — business insight, data mapping,",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:50:57.438Z",
+          "retrievedAt": "2026-08-24T08:18:15.711Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -139,6 +140,99 @@
     }
   ],
   "programmes": [],
+  "surfaces": [
+    {
+      "surface": "partner_recruitment",
+      "state": "confirmed",
+      "evidence": [
+        {
+          "id": "o20",
+          "quote": "Planhat | Partner with Us partners We’re stronger together We work with software providers, consultants, and investors to help",
+          "sourceUrl": "https://www.planhat.com/partners",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T08:18:15.711Z",
+          "strength": "strong_proxy",
+          "proves": "the company publicly invites organisations to join a programme",
+          "doesNotProve": "that anyone joins, or how many",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ]
+    },
+    {
+      "surface": "application",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "onboarding",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "enablement",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "certification",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "lead_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "referral_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "deal_registration",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "co_selling",
+      "state": "confirmed",
+      "evidence": [
+        {
+          "id": "o21",
+          "quote": "As an IT Services Partner, you'll get co-sell support, joint pipeline opportunities, and a platform built for scale.",
+          "sourceUrl": "https://www.planhat.com/partners",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T08:18:15.711Z",
+          "strength": "strong_proxy",
+          "proves": "the company describes selling alongside partners",
+          "doesNotProve": "that co-selling is systematised",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ]
+    },
+    {
+      "surface": "portal",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_pipeline",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "programme_tiers",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_resources",
+      "state": "not_observed",
+      "evidence": []
+    }
+  ],
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -165,14 +259,14 @@
   "people": {
     "state": "unknown",
     "people": [],
-    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+    "note": "No person lookup was performed for this account. Public person discovery was measured at 2 of 18 companies and is not viable, so the pipeline does not attempt it. This is not evidence that no partner team exists, and team size below two is never a disqualifier."
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T07:50:57.438Z",
-    "lastCheckedAt": "2026-08-24T07:50:57.438Z",
+    "baselineAt": "2026-08-24T08:18:15.711Z",
+    "lastCheckedAt": "2026-08-24T08:18:15.711Z",
     "changes": [],
-    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+    "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
   "contradictions": [],
   "researchTasks": [
@@ -226,14 +320,79 @@
       "url": "https://www.planhat.com/vs",
       "health": "not_found",
       "status": 404
+    },
+    {
+      "url": "https://www.planhat.com/partners",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.planhat.com/partner",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.planhat.com/partner-program",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.planhat.com/partner-programme",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.planhat.com/partnerships",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.planhat.com/resellers",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.planhat.com/agencies",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.planhat.com/become-a-partner",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.planhat.com/partner-network",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.planhat.com/en/partners",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.planhat.com/nl/partners",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.planhat.com/fr/partenaires",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.planhat.com/de/partner",
+      "health": "not_found",
+      "status": 404
     }
   ],
-  "commercialSummary": "Planhat describes itself as \"A customer platform where commercial teams work better. We build and deploy frontier technologies—integrating data, AI and collaboration—that empower…\". No partner programme type could be identified from the pages retrieved. Visible partner workflows include partner recruitment, co selling. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size.",
+  "commercialSummary": "Planhat describes itself as \"A customer platform where commercial teams work better. We build and deploy frontier technologies—integrating data, AI and collaboration—that empower…\". No partner programme type could be identified; 12 conventional partner paths were checked and none returned a partner page. Visible partner workflows include partner recruitment, co selling. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size.",
   "machineInterpretation": {
-    "state": "high_fit_evidence",
+    "state": "research",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
     "reasons": [
-      "Partners are described as taking part in revenue, and the company appears to operate the motion itself."
+      "Partners are described as taking part in revenue, but no partner workflow was observed — so there is no evidence of machinery for software to reduce."
     ],
     "diagnostics": {
       "observationCount": 4,
@@ -241,6 +400,7 @@
       "independentSourceCount": 1,
       "publicationDensity": "moderate",
       "constructEvidenceCount": 4,
+      "supportingFindingCount": 2,
       "volumeSensitive": false,
       "unattributableDropped": 0
     }

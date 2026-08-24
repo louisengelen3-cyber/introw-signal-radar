@@ -6,7 +6,8 @@
     "sourceUrl": "https://www.upsales.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T07:51:04.278Z",
+  "builtAt": "2026-08-24T08:18:22.349Z",
+  "oldestEvidenceAt": "2026-08-24T07:35:43.336Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
     "whyItMayNotMatter": "This is the absence of a disqualifying signal, not positive evidence of fit. Abstract positioning can hide a partner-tech product.",
@@ -89,6 +90,73 @@
     }
   ],
   "programmes": [],
+  "surfaces": [
+    {
+      "surface": "partner_recruitment",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "application",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "onboarding",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "enablement",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "certification",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "lead_submission",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "referral_submission",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "deal_registration",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "co_selling",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "portal",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "partner_pipeline",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "programme_tiers",
+      "state": "unknown",
+      "evidence": []
+    },
+    {
+      "surface": "partner_resources",
+      "state": "unknown",
+      "evidence": []
+    }
+  ],
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -115,14 +183,14 @@
   "people": {
     "state": "unknown",
     "people": [],
-    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+    "note": "No person lookup was performed for this account. Public person discovery was measured at 2 of 18 companies and is not viable, so the pipeline does not attempt it. This is not evidence that no partner team exists, and team size below two is never a disqualifier."
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T07:51:04.278Z",
-    "lastCheckedAt": "2026-08-24T07:51:04.278Z",
+    "baselineAt": "2026-08-24T08:18:22.349Z",
+    "lastCheckedAt": "2026-08-24T08:18:22.349Z",
     "changes": [],
-    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+    "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
   "contradictions": [],
   "researchTasks": [
@@ -145,7 +213,7 @@
       "resolves": "crm"
     }
   ],
-  "evidenceCoverage": "sparse",
+  "evidenceCoverage": "none",
   "coverageNote": "Sparse public evidence. This describes how much this company publishes, not how good a prospect it is.",
   "sourceHealth": [
     {
@@ -162,9 +230,74 @@
       "url": "https://www.upsales.com/compare",
       "health": "success",
       "status": 200
+    },
+    {
+      "url": "https://www.upsales.com/partners",
+      "health": "no_relevant_evidence",
+      "status": 200
+    },
+    {
+      "url": "https://www.upsales.com/partner",
+      "health": "no_relevant_evidence",
+      "status": 200
+    },
+    {
+      "url": "https://www.upsales.com/partner-program",
+      "health": "no_relevant_evidence",
+      "status": 200
+    },
+    {
+      "url": "https://www.upsales.com/partner-programme",
+      "health": "no_relevant_evidence",
+      "status": 200
+    },
+    {
+      "url": "https://www.upsales.com/partnerships",
+      "health": "no_relevant_evidence",
+      "status": 200
+    },
+    {
+      "url": "https://www.upsales.com/resellers",
+      "health": "no_relevant_evidence",
+      "status": 200
+    },
+    {
+      "url": "https://www.upsales.com/agencies",
+      "health": "no_relevant_evidence",
+      "status": 200
+    },
+    {
+      "url": "https://www.upsales.com/become-a-partner",
+      "health": "no_relevant_evidence",
+      "status": 200
+    },
+    {
+      "url": "https://www.upsales.com/partner-network",
+      "health": "no_relevant_evidence",
+      "status": 200
+    },
+    {
+      "url": "https://www.upsales.com/en/partners",
+      "health": "no_relevant_evidence",
+      "status": 200
+    },
+    {
+      "url": "https://www.upsales.com/nl/partners",
+      "health": "no_relevant_evidence",
+      "status": 200
+    },
+    {
+      "url": "https://www.upsales.com/fr/partenaires",
+      "health": "no_relevant_evidence",
+      "status": 200
+    },
+    {
+      "url": "https://www.upsales.com/de/partner",
+      "health": "no_relevant_evidence",
+      "status": 200
     }
   ],
-  "commercialSummary": "Upsales describes itself as \"Upsales CRM helps companies generate more leads, drive an effective sales process, and unlock upselling opportunities from existing clients.&#xA;&#xA\". No partner programme type could be identified from the pages retrieved. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "Upsales describes itself as \"Upsales CRM helps companies generate more leads, drive an effective sales process, and unlock upselling opportunities from existing clients.&#xA;&#xA\". No partner programme type could be identified; 13 conventional partner paths were checked and none returned a partner page. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "under_observed",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
@@ -175,8 +308,9 @@
       "observationCount": 0,
       "distinctClaimCount": 0,
       "independentSourceCount": 0,
-      "publicationDensity": "sparse",
+      "publicationDensity": "none",
       "constructEvidenceCount": 0,
+      "supportingFindingCount": 0,
       "volumeSensitive": false,
       "unattributableDropped": 0
     }

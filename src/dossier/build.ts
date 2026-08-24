@@ -12,18 +12,19 @@ import { collectPositioning } from '../evidence/positioning.js';
 import { classifyCategory } from '../category/classify.js';
 import { loadKnownCompetitors } from '../category/known-competitors.js';
 import { assessCrm } from '../evidence/crm.js';
-import { assessPrm } from '../evidence/prm.js';
-import { get, snapToWords } from '../lib/http.js';
+import { assessPrm, detectPrmInText } from '../evidence/prm.js';
+import { get, snapToSentences } from '../lib/http.js';
 import { dedupe } from './dedup.js';
 import { scanSurfaces, SURFACE_DEFS } from './surfaces.js';
 import { detectProgrammes } from './programmes.js';
 import { detectDirectory, NO_DIRECTORY } from './directory.js';
-import { partitionAttributable } from './attribution.js';
+import { isContentPath, isPartnerSource, partitionAttributable } from './attribution.js';
 import { buildCommercialSummary } from './summary.js';
 import type {
   ConstructPanel, Contradiction, Dossier, MachineInterpretation, Observation,
   Programme, PublicationDiagnostics, ResearchTask, SurfaceFinding, SystemsPanel,
 } from './types.js';
+import type { SourceHealth } from '../evidence/positioning.js';
 
 let obsSeq = 0;
 function obs(o: Omit<Observation, 'id'>): Observation {
@@ -62,14 +63,19 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
     if (r.ok && r.body) { p.html = r.body; p.text = mainContent(r.body); }
   }
   const readable = pages.filter((p) => p.text.length > 80);
-  const directory = detectDirectory(readable, bare);
+  // Programme and directory detection get the SAME attribution filter as the probes. The
+  // guard previously protected one consumer of three, which is how Juro's contract-template
+  // page still produced a "reseller motion" and Productsup's customer-segment page still
+  // produced a "distributor motion" after the guard shipped.
+  const attributablePages = readable.filter((p) => !isContentPath(p.url));
+  const directory = detectDirectory(attributablePages, bare);
 
   /* ── constructs ────────────────────────────────────────────────────────── */
   const positive = assessment.positive;
   // Upstream snippets are character-windowed, so they routinely begin mid-word. Snapping
   // here keeps every quote in the dossier readable without changing the detector.
   const rawObs = (positive?.observations ?? []).map((o) => ({
-    quote: snapToWords(o.quote, { leadingEllipsis: true }), sourceUrl: o.sourceUrl,
+    quote: snapToSentences(o.quote), sourceUrl: o.sourceUrl,
     construct: o.construct, proves: o.proves, doesNotProve: o.doesNotProve,
   }));
   // Drop observations that cannot be attributed to the partner motion. Both blind reviewers
@@ -88,23 +94,52 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
 
   const byConstruct = (name: string) => deduped.canonical.filter((o: any) => o.construct === name);
 
+  /**
+   * A construct state may never outrun its own evidence.
+   *
+   * The states came from the Phase 3 detector, which runs BEFORE the attribution guard,
+   * while the evidence shown came from AFTER it. That produced labels like
+   * `commercial_materiality: strong_proxy` beside `0 distinct claims from 0 independent
+   * sources` — an unsourced assertion in a field named after evidence. The guard made this
+   * worse rather than better: it removed the quote a careful reader used to catch the error
+   * and left the confident label standing alone.
+   *
+   * So a state with no surviving evidence collapses to `unknown`, and a state resting on a
+   * single claim cannot exceed `strong_proxy` / `moderate`. Downgrading is always safe;
+   * asserting past the evidence never is.
+   */
+  const gate = <T extends string>(state: T, n: number, fallback: T, capped?: Partial<Record<string, T>>): T => {
+    if (n === 0) return fallback;
+    if (n === 1 && capped && capped[state]) return capped[state] as T;
+    return state;
+  };
+  const nMat = byConstruct('materiality').length;
+  const nOwn = byConstruct('ownership').length;
+  const nSurf = byConstruct('surface').length;
+
   const constructs: ConstructPanel[] = [
-    buildConstruct('commercial_materiality', positive?.materiality ?? 'unknown', byConstruct('materiality'), deduped, toObservation,
+    buildConstruct('commercial_materiality',
+      gate(positive?.materiality ?? 'unknown', nMat, 'unknown', { confirmed: 'strong_proxy' }),
+      byConstruct('materiality'), deduped, toObservation,
       'Partners appear to take part in winning customers or revenue, which is what makes partner operations worth tooling.',
       'It does not establish how much revenue, how many partners, or whether the motion is active today.',
       ['partner-sourced revenue share', 'number of active partners']),
-    buildConstruct('operational_ownership', positive?.ownership ?? 'unknown', byConstruct('ownership'), deduped, toObservation,
+    buildConstruct('operational_ownership',
+      gate(positive?.ownership ?? 'unknown', nOwn, 'unknown'),
+      byConstruct('ownership'), deduped, toObservation,
       'The company appears to run the partner motion itself, so it would be the buyer of tooling rather than a participant in someone else\'s.',
       'Operating a programme says nothing about its size; a competitor with an excellent programme scores identically here.',
       ['who owns the programme internally', 'whether operation is shared with a distributor']),
-    buildConstruct('operational_surface', positive?.surface ?? 'unknown', byConstruct('surface'), deduped, toObservation,
+    buildConstruct('operational_surface',
+      gate(positive?.surface ?? 'unknown', nSurf, 'unknown', { rich: 'moderate' }),
+      byConstruct('surface'), deduped, toObservation,
       'Visible partner workflows suggest there is machinery that software could reduce the manual cost of.',
       'A published workflow is not a used workflow, and login-walled machinery is invisible either way.',
       ['volume through each workflow', 'what sits behind the partner login']),
   ];
 
   /* ── programmes and surfaces ───────────────────────────────────────────── */
-  const progHits = detectProgrammes(readable);
+  const progHits = detectProgrammes(attributablePages);
   const progDedup = dedupe(progHits);
   const programmes: Programme[] = [...new Set(progHits.map((p) => p.kind))].map((kind) => {
     const mine = progDedup.canonical.filter((h: any) => h.kind === kind);
@@ -121,7 +156,7 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
     };
   });
 
-  const scan = scanSurfaces(readable);
+  const scan = scanSurfaces(attributablePages);
   const surfaces: SurfaceFinding[] = SURFACE_DEFS.map((def) => {
     const hits = scan.hits.filter((h) => h.surface === def.surface);
     if (scan.couldNotLook) return { surface: def.surface, state: 'unknown' as const, evidence: [] };
@@ -136,7 +171,16 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
       })),
     };
   });
-  if (programmes.length) programmes[0].surfaces = surfaces.filter((s) => s.state === 'confirmed');
+  // All three states are attached, not just the confirmed ones. Filtering to `confirmed`
+  // meant `not_observed` and `unknown` never rendered anywhere in the product, so the grid
+  // became a solid block of green that grew with publication volume — a quality bar, which
+  // is precisely what the design forbids.
+  //
+  // Surfaces are ALSO stored at the top level. Attaching them only to `programmes[0]` meant
+  // that when no programme type was detected the summary still asserted "Visible partner
+  // workflows include partner recruitment" while every quote and URL behind it was silently
+  // dropped — eight dossiers made a claim with nothing in the file to check it against.
+  if (programmes.length) programmes[0].surfaces = surfaces;
 
   /* ── systems ───────────────────────────────────────────────────────────── */
   const crmBodies: string[] = [];
@@ -149,6 +193,11 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
     assessment.dns.platform ? [{ host: assessment.dns.platform.host, cname: assessment.dns.platform.cname, distinct: true, nonProd: false }] : [],
     assessment.dns.lookupFailures,
   );
+
+  // Text-side platform detection over the partner pages already fetched. Costs nothing and
+  // catches deployments DNS cannot see.
+  const prmText = detectPrmInText(attributablePages, isPartnerSource as (u: string) => boolean);
+  const competitorNamed = prmText.filter((h) => h.vendor !== 'Introw');
 
   const systems: SystemsPanel = {
     crm: {
@@ -165,17 +214,21 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
         : 'No CRM artifact found on the retrieved pages. This is not evidence that the company has no CRM, and not evidence that it is not HubSpot or Salesforce. Public CRM detection was measured at 33% recall against companies known to run a supported CRM, and Salesforce was never detected at all.',
     },
     prm: {
-      state: prm.detections.some((d) => d.vendor === 'introw') ? 'introw_confirmed'
-        : prm.detections.some((d) => d.category === 'prm') ? 'competitor_prm_confirmed'
+      state: prm.detections.some((d) => d.vendor === 'introw') || prmText.some((h) => h.vendor === 'Introw') ? 'introw_confirmed'
+        : prm.detections.some((d) => d.category === 'prm') || competitorNamed.length ? 'competitor_prm_confirmed'
         : prm.detections.length ? 'other_prm_confirmed' : 'unknown',
-      vendor: prm.detections[0]?.label ?? null,
-      evidence: prm.detections.map((d) => obs({
+      vendor: prm.detections[0]?.label ?? prmText[0]?.vendor ?? null,
+      evidence: [...prmText.map((h) => obs({
+        quote: h.quote, sourceUrl: h.sourceUrl, sourceType: 'partner_page_text',
+        retrievedAt: assessment.retrievedAt, strength: 'strong_proxy',
+        proves: h.proves, doesNotProve: h.doesNotProve,
+      })), ...prm.detections.map((d) => obs({
         quote: `${d.host} → ${d.cname.join(', ')}`, sourceUrl: `dns:${d.host}`, sourceType: 'dns_cname', retrievedAt: d.observedAt,
         strength: d.state === 'confirmed' ? 'confirmed' : 'weak_proxy',
         proves: `the partner surface at ${d.host} is served by ${d.label}`,
         doesNotProve: d.cannotEstablish,
-      })),
-      note: prm.detections.some((d) => d.category === 'prm' && d.vendor !== 'introw')
+      }))],
+      note: (prm.detections.some((d) => d.category === 'prm' && d.vendor !== 'introw') || competitorNamed.length > 0)
         ? 'A competitor PRM is in use. This indicates programme maturity. It does NOT indicate dissatisfaction, contract timing, or any intent to switch.'
         : prm.note,
     },
@@ -184,22 +237,34 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
   /* ── coverage, diagnostics, interpretation ─────────────────────────────── */
   // A directory of named partner organisations is substantial evidence even when the
   // programme prose detectors find nothing, so it lifts coverage out of `none`.
-  const rawDensity = positive?.evidenceDensity ?? 'none';
-  const density = directory.isDirectory && (rawDensity === 'none' || rawDensity === 'sparse')
-    ? (directory.lowerBound >= 12 ? 'moderate' as const : 'sparse' as const)
-    : rawDensity;
+  /**
+   * Coverage describes the evidence we actually hold, so it is computed from the surviving
+   * claims rather than inherited from the pre-attribution detector. Foleon previously read
+   * `coverage: moderate` beside `0 observations → 0 distinct claims`, and Channable read
+   * `coverage: none` beside three sourced claims — both incoherent, and a reviewer filtering
+   * on the column would have got the inverse of what they asked for.
+   */
+  const claims = deduped.distinctClaimCount;
+  const dirBonus = directory.isDirectory ? (directory.lowerBound >= 25 ? 2 : 1) : 0;
+  const weight = claims + dirBonus * 2;
+  const density: 'rich' | 'moderate' | 'sparse' | 'none' =
+    weight === 0 ? 'none' : weight >= 8 ? 'rich' : weight >= 4 ? 'moderate' : 'sparse';
   const diagnostics: PublicationDiagnostics = {
     observationCount: deduped.observationCount,
     distinctClaimCount: deduped.distinctClaimCount,
     independentSourceCount: deduped.independentSourceCount,
     publicationDensity: density,
     constructEvidenceCount: constructs.reduce((n, c) => n + c.evidence.length, 0),
+    // Programme and surface findings are evidence too. Counting only the probe observations
+    // made the interpretation announce "No distinct partner claim was retrieved" on the same
+    // screen as a summary naming the company's partner programme.
+    supportingFindingCount: programmes.length + surfaces.filter((s) => s.state === 'confirmed').length + (directory.isDirectory ? 1 : 0),
     volumeSensitive: deduped.observationCount >= 9 && deduped.distinctClaimCount < deduped.observationCount * 0.7,
     unattributableDropped: unattributable.length,
   };
 
   const contradictions = buildContradictions(assessment, category, systems);
-  const machineInterpretation = interpret(assessment, category, diagnostics, contradictions, directory);
+  const machineInterpretation = interpret(assessment, category, diagnostics, contradictions, directory, constructs);
   const researchTasks = buildResearchTasks(assessment, category, systems, diagnostics, constructs, directory);
 
   const selfDescription = positioning.items.find((i) => i.sourceType === 'meta_description' || i.sourceType === 'og_description' || i.sourceType === 'homepage_hero');
@@ -210,9 +275,22 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
     programmes, surfaces, constructs, systems,
     people: { state: 'unknown', people: [], note: '' },
     coverage: density, categoryState: category.state,
+    partnerPathsChecked: assessment.partnerPathAttempts.length,
     partnerDirectoryLowerBound: directory.isDirectory ? directory.lowerBound : null,
     directoryCertified: directory.certificationLanguage,
   });
+
+  /**
+   * When we actually looked, taken from the oldest contributing retrieval rather than from
+   * the clock. The HTTP layer caches without expiry, so `builtAt` could stamp today's date
+   * on a page fetched days earlier — a dossier reading "Last checked 24 Aug" over content
+   * retrieved on the 21st, with nothing on screen to reveal it.
+   */
+  const retrievalTimes = [
+    ...positioning.items.map((i) => i.retrievedAt),
+    assessment.retrievedAt,
+  ].filter(Boolean).sort();
+  const oldestEvidenceAt = retrievalTimes[0] ?? builtAt;
 
   return {
     domain: bare,
@@ -220,8 +298,10 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
     selfDescription: selfDescription ? { text: selfDescription.text, sourceUrl: selfDescription.url } : null,
     geography: null,
     builtAt,
+    oldestEvidenceAt,
     category: { ...category, knownCompetitorList: { onList: known.isKnownCompetitor(bare), lastReviewed: known.lastReviewed } },
     constructs, programmes,
+    surfaces,
     partnerDirectory: {
       ...directory,
       observation: directory.isDirectory && directory.sourceUrl ? obs({
@@ -234,19 +314,49 @@ export async function buildDossier(domain: string, opts: BuildOptions = {}): Pro
     systems,
     people: {
       state: 'unknown', people: [],
-      // Measured: 2 of 18 companies yielded any public person evidence.
-      note: 'No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier.',
+      // No person lookup runs in this pipeline, so the note must say that rather than
+      // report a null result. Measurement found public person evidence for 2 of 18
+      // companies, which is why no crawler was built.
+      note: 'No person lookup was performed for this account. Public person discovery was measured at 2 of 18 companies and is not viable, so the pipeline does not attempt it. This is not evidence that no partner team exists, and team size below two is never a disqualifier.',
     },
     temporal: {
       state: 'first_observation', baselineAt: builtAt, lastCheckedAt: builtAt, changes: [],
-      note: 'First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists.',
+      note: 'First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change.',
     },
     contradictions, researchTasks,
     evidenceCoverage: density,
     coverageNote: density === 'sparse' || density === 'none'
       ? 'Sparse public evidence. This describes how much this company publishes, not how good a prospect it is.'
       : 'Public evidence was sufficient to read the partner surfaces that exist.',
-    sourceHealth: positioning.health,
+    // Partner-path attempts are merged into source health so "no programme identified" is
+    // interpretable: a logged 404 on /partners means something, a missing entry does not.
+    /**
+     * The union of BOTH pipelines. Health previously reported only the category
+     * classifier's fetches — /product, /compare, /vs — while the partner pages that produced
+     * 100% of the commercial content were invisible. Sana Commerce drew all eight of its
+     * claims from /our-partners/ and its health block listed not one partner URL, which made
+     * the entire Data Health view a monitor of the pipeline nobody buys.
+     */
+    sourceHealth: [
+      ...positioning.health,
+      ...assessment.pagesFetched.map((p) => ({
+        url: p.url,
+        health: (p.status >= 200 && p.status < 300 && p.chars > 200 ? 'success'
+          : p.status === 404 ? 'not_found'
+          : p.status >= 200 && p.status < 300 ? 'no_relevant_evidence'
+          : p.status === 0 ? 'unknown' : 'not_found') as SourceHealth,
+        status: p.status,
+      })),
+      ...assessment.partnerPathAttempts.map((p) => ({
+        url: p.url,
+        health: (p.outcome === 'found' ? 'success'
+          : p.outcome === 'blocked' ? 'blocked'
+          : p.outcome === 'error' ? 'unknown'
+          : p.outcome === 'thin' ? 'no_relevant_evidence'
+          : 'not_found') as SourceHealth,
+        status: p.status,
+      })),
+    ],
     commercialSummary,
     machineInterpretation,
     humanReview: null,
@@ -316,7 +426,10 @@ function buildContradictions(a: Assessment, category: any, systems: SystemsPanel
  * Machine interpretation. Advisory only, and explicitly labelled as such everywhere it
  * appears. The states deliberately do not form an ordering.
  */
-function interpret(a: Assessment, category: any, d: PublicationDiagnostics, contradictions: Contradiction[], directory: typeof NO_DIRECTORY): MachineInterpretation {
+function interpret(
+  a: Assessment, category: any, d: PublicationDiagnostics, contradictions: Contradiction[],
+  directory: typeof NO_DIRECTORY, constructs: ConstructPanel[],
+): MachineInterpretation {
   const disclaimer = 'Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.';
   const reasons: string[] = [];
 
@@ -346,9 +459,13 @@ function interpret(a: Assessment, category: any, d: PublicationDiagnostics, cont
     reasons.push(`A published directory lists at least ${directory.lowerBound} partner organisations${directory.certificationLanguage ? ', described as certified' : ''}.`);
   }
 
-  if (d.distinctClaimCount === 0 && !directory.isDirectory) {
+  if (d.distinctClaimCount === 0 && !directory.isDirectory && d.supportingFindingCount === 0) {
     reasons.push('No distinct partner claim was retrieved. This reflects what the company publishes, not its suitability.');
     return { state: 'under_observed', disclaimer, reasons, diagnostics: d };
+  }
+  if (d.distinctClaimCount === 0 && d.supportingFindingCount > 0) {
+    reasons.push(`No construct-level claim survived attribution, but ${d.supportingFindingCount} programme or workflow finding(s) were observed. Read those quotes directly.`);
+    return { state: 'research', disclaimer, reasons, diagnostics: d };
   }
 
   if (d.distinctClaimCount === 0 && directory.isDirectory) {
@@ -363,10 +480,26 @@ function interpret(a: Assessment, category: any, d: PublicationDiagnostics, cont
   }
   if (contradictions.length) reasons.push(`${contradictions.length} unresolved contradiction${contradictions.length > 1 ? 's' : ''} in the evidence.`);
 
-  const mat = a.positive?.materiality, own = a.positive?.ownership;
-  if ((mat === 'confirmed' || mat === 'strong_proxy') && own === 'direct' && d.distinctClaimCount >= 3) {
-    reasons.push('Partners are described as taking part in revenue, and the company appears to operate the motion itself.');
-    return { state: contradictions.length ? 'research' : 'high_fit_evidence', disclaimer, reasons, diagnostics: d };
+  // Read the GATED states, not the raw detector output — otherwise the interpretation is
+  // computed from evidence the dossier has already discarded, and disagrees with the panels
+  // printed beside it.
+  const mat = constructs.find((c) => c.construct === 'commercial_materiality')?.state;
+  const own = constructs.find((c) => c.construct === 'operational_ownership')?.state;
+  const surf = constructs.find((c) => c.construct === 'operational_surface')?.state;
+
+  // Operational surface is required. Two promotion rules existed in this codebase and the
+  // dossier used the laxer one, which is how Planhat reached the top state with
+  // `operational_surface: unknown` — the single construct that speaks to whether Introw's
+  // product would have anything to do.
+  const surfaceObserved = surf === 'rich' || surf === 'moderate' || surf === 'light';
+
+  if ((mat === 'confirmed' || mat === 'strong_proxy') && own === 'direct' && surfaceObserved && d.distinctClaimCount >= 3) {
+    reasons.push('Partners are described as taking part in revenue, the company appears to operate the motion itself, and partner workflows are visible.');
+    return { state: contradictions.length ? 'research' : 'strong_evidence', disclaimer, reasons, diagnostics: d };
+  }
+  if ((mat === 'confirmed' || mat === 'strong_proxy') && own === 'direct' && !surfaceObserved) {
+    reasons.push('Partners are described as taking part in revenue, but no partner workflow was observed — so there is no evidence of machinery for software to reduce.');
+    return { state: 'research', disclaimer, reasons, diagnostics: d };
   }
   if (mat === 'weak_proxy' || own === 'unknown') {
     reasons.push('Partner motion is visible but its commercial role is not established.');

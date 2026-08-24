@@ -31,6 +31,14 @@ export interface Assessment {
   /** `blocked` is distinct from `unknown`: we tried and were refused. */
   blockReason?: 'bot_protection' | 'fetch_failed' | 'domain_unresolved';
   inventory: { site: number; commonCrawl: number; dnsHosts: number; probed: number; probeHits: number; softNotFound: number; sources: string[] };
+  /**
+   * Every conventional partner path we tried, and what came back.
+   *
+   * Both blind reviewers independently named this as the single most-missing thing: without
+   * it, "no partner programme identified" is indistinguishable from "we never looked", and
+   * the disclaimer under it has to carry weight a logged 404 would carry properly.
+   */
+  partnerPathAttempts: { url: string; status: number; outcome: 'found' | 'not_found' | 'blocked' | 'thin' | 'error' }[];
   dns: { wildcard: boolean; platform: { vendor: string; host: string; cname: string[] } | null; distinctHosts: number; lookupFailures: number };
   pagesFetched: { url: string; status: number; chars: number }[];
   classification: ClassifyResult | null;
@@ -64,6 +72,7 @@ export async function assessCompany(domain: string, opts: AssessOptions = {}): P
     domain: bare, retrievedAt: now, reachable: false,
     inventory: { site: 0, commonCrawl: 0, dnsHosts: 0, probed: 0, probeHits: 0, softNotFound: 0, sources: [] },
     dns: { wildcard: false, platform: null, distinctHosts: 0, lookupFailures: 0 },
+    partnerPathAttempts: [],
     pagesFetched: [], classification: null, operator: null, scale: null, suitability: null, positive: null, promotion: null,
     partnerCount: { value: null, countType: 'unknown', enumerationComplete: null, unit: null, source: null, observedAt: null, confidence: 'low' },
   };
@@ -134,9 +143,15 @@ export async function assessCompany(domain: string, opts: AssessOptions = {}): P
       if (have.has(p)) continue;
       const r = await get(origin + p);
       // A real partner page, not a soft-404 stub: substantial body that mentions partners.
-      if (r.ok && r.body && r.body.length > 2000 && /\bpartner|reseller|partenaire/i.test(mainContent(r.body))) {
-        extra.push(r.finalUrl ?? origin + p);
-      }
+      const substantive = r.ok && !!r.body && r.body.length > 2000 && /\bpartner|reseller|partenaire/i.test(mainContent(r.body));
+      const outcome = substantive ? 'found'
+        : r.blocked ? 'blocked'
+        : r.status === 404 ? 'not_found'
+        : r.ok && r.body ? 'thin'
+        : r.status === 0 ? 'error'
+        : 'not_found';
+      a.partnerPathAttempts.push({ url: origin + p, status: r.status, outcome });
+      if (substantive) extra.push(r.finalUrl ?? origin + p);
     }
     if (extra.length) {
       a.inventory.sources.push('canonical_path');

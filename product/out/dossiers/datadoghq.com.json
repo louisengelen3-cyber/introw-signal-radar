@@ -6,7 +6,8 @@
     "sourceUrl": "https://www.datadoghq.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T07:53:07.269Z",
+  "builtAt": "2026-08-24T08:18:25.428Z",
+  "oldestEvidenceAt": "2026-08-23T07:46:21.999Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
     "whyItMayNotMatter": "This is the absence of a disqualifying signal, not positive evidence of fit. Abstract positioning can hide a partner-tech product.",
@@ -88,25 +89,72 @@
       "whyItMayNotMatter": "A published workflow is not a used workflow, and login-walled machinery is invisible either way."
     }
   ],
-  "programmes": [
+  "programmes": [],
+  "surfaces": [
     {
-      "kind": "technology",
-      "publishedName": "Datadog Technology Partner Program",
-      "evidence": [
-        {
-          "id": "o94",
-          "quote": "Datadog Technology Partner Program Guide | Datadog ' width=\"18px\" viewBox=\"0 0 25 23\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"height: calc(18px +",
-          "sourceUrl": "https://www.datadoghq.com/resources/technology-partner-program-guide/",
-          "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:53:07.269Z",
-          "strength": "strong_proxy",
-          "proves": "the company uses technology partner vocabulary about itself",
-          "doesNotProve": "that the programme is active, staffed or material",
-          "duplicateCount": 1,
-          "alsoSeenAt": []
-        }
-      ],
-      "surfaces": []
+      "surface": "partner_recruitment",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "application",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "onboarding",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "enablement",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "certification",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "lead_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "referral_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "deal_registration",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "co_selling",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "portal",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_pipeline",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "programme_tiers",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_resources",
+      "state": "not_observed",
+      "evidence": []
     }
   ],
   "partnerDirectory": {
@@ -135,14 +183,14 @@
   "people": {
     "state": "unknown",
     "people": [],
-    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+    "note": "No person lookup was performed for this account. Public person discovery was measured at 2 of 18 companies and is not viable, so the pipeline does not attempt it. This is not evidence that no partner team exists, and team size below two is never a disqualifier."
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T07:53:07.269Z",
-    "lastCheckedAt": "2026-08-24T07:53:07.269Z",
+    "baselineAt": "2026-08-24T08:18:25.428Z",
+    "lastCheckedAt": "2026-08-24T08:18:25.428Z",
     "changes": [],
-    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+    "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
   "contradictions": [],
   "researchTasks": [
@@ -165,7 +213,7 @@
       "resolves": "crm"
     }
   ],
-  "evidenceCoverage": "sparse",
+  "evidenceCoverage": "none",
   "coverageNote": "Sparse public evidence. This describes how much this company publishes, not how good a prospect it is.",
   "sourceHealth": [
     {
@@ -192,9 +240,99 @@
       "url": "https://www.datadoghq.com/vs",
       "health": "not_found",
       "status": 404
+    },
+    {
+      "url": "https://partners.datadoghq.com/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.datadoghq.com/free-datadog-trial/partner/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.datadoghq.com/resources/technology-partner-program-guide/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.datadoghq.com/partner/awssecurity2026-apac-mobile/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.datadoghq.com/partner/azure-observability-mobile/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.datadoghq.com/partners",
+      "health": "no_relevant_evidence",
+      "status": 200
+    },
+    {
+      "url": "https://www.datadoghq.com/partner",
+      "health": "no_relevant_evidence",
+      "status": 200
+    },
+    {
+      "url": "https://www.datadoghq.com/partner-program",
+      "health": "no_relevant_evidence",
+      "status": 200
+    },
+    {
+      "url": "https://www.datadoghq.com/partner-programme",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.datadoghq.com/partnerships",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.datadoghq.com/resellers",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.datadoghq.com/agencies",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.datadoghq.com/become-a-partner",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.datadoghq.com/partner-network",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.datadoghq.com/en/partners",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.datadoghq.com/nl/partners",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.datadoghq.com/fr/partenaires",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.datadoghq.com/de/partner",
+      "health": "no_relevant_evidence",
+      "status": 200
     }
   ],
-  "commercialSummary": "Datadog describes itself as \"See metrics from all of your apps, tools & services in one place with Datadog’s cloud monitoring as a service solution. Try it for free\". Public pages describe a technology motion under the name \"Datadog Technology Partner Program\". Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "Datadog describes itself as \"See metrics from all of your apps, tools & services in one place with Datadog’s cloud monitoring as a service solution. Try it for free\". No partner programme type could be identified; 13 conventional partner paths were checked and none returned a partner page. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "under_observed",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
@@ -205,8 +343,9 @@
       "observationCount": 0,
       "distinctClaimCount": 0,
       "independentSourceCount": 0,
-      "publicationDensity": "sparse",
+      "publicationDensity": "none",
       "constructEvidenceCount": 0,
+      "supportingFindingCount": 0,
       "volumeSensitive": false,
       "unattributableDropped": 0
     }

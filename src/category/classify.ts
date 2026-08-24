@@ -293,23 +293,32 @@ export function classifyCategory(
  * Two frozen holdouts, single shot each, no tuning against either:
  *
  *   partner_tech_vendor      8/14  (57%)  — advisory only, never a gate
- *   likely_target_category  13/13 (100%)  — no real prospect has ever been excluded
- *   professional_services    0/7   (0%)   — DOES NOT WORK; absence means nothing
- *   supply_side_marketplace  1/3          — unmeasured, n too small
+ *   likely_target_category  13/13         — but this is the UNCONDITIONAL FALLTHROUGH, so the
+ *                                            row mostly restates control flow. Honest reading:
+ *                                            the disqualifying rules produced 0 false positives
+ *                                            in 13 non-vendor cases, consistent with a true
+ *                                            false-exclusion rate up to ~21% at 95% confidence.
+ *   professional_services    1/7   (14%)  — DOES NOT WORK; 0/4 on the only clean holdout
+ *   supply_side_marketplace  2/3          — unmeasured, n too small
  *
  * Retrieval failed outright on 24% of v3 domains (Cloudflare/Vercel challenges), which is a
  * coverage limit reported separately from accuracy.
  *
- * The one property strong enough to build on is the second row. Because the classifier has
- * never wrongly excluded a genuine target, it is safe to surface as a flag; because its
- * recall is 57%, it is not safe to act on automatically, and roughly two in five partner-tech
+ * The property strong enough to build on is that the disqualifying rules have not yet fired
+ * on a genuine target, so the flag is safe to surface; because recall is 57%, it is not safe
+ * to act on automatically, and roughly two in five partner-tech
  * vendors will still reach a seller. The dossier therefore always shows the positioning quote
  * alongside the state, so the human can catch what the rule misses.
  */
 export const CATEGORY_MEASURED = {
   holdouts: ['9b723cd4e29554c9', '2401b7ff8c178ce2'],
   partnerTechRecall: 8 / 14,
-  targetFalseExclusionRate: 0,
+  // 0 observed in 13 non-vendor cases. NOT a rate of 0 — the 95% upper bound is ~0.21, and
+  // `likely_target_category` is the fallthrough, so most of that row is control flow.
+  targetFalseExclusionObserved: 0,
+  targetFalseExclusionUpperBound95: 0.21,
+  // 1/7 combined, but the only untouched measurement is v3's 0/4 — the rule was
+  // redesigned on dev data after v2 was spent, so v2's row no longer counts as clean.
   professionalServicesRecall: 0,
   retrievalFailureRate: 5 / 21,
   licensedUse: 'advisory_flag_only',

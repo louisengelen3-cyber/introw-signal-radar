@@ -31,8 +31,9 @@ Standing limits, true of every dossier in this file — not repeated per company
   timing or "why now" claim is available for anyone yet.
 - **Sparse evidence describes what a company publishes, not how good a prospect it is.**
 - **Category classification is advisory.** It catches roughly 57% of partner-tech vendors
-  out-of-sample and has never wrongly excluded a genuine target — so treat a flag as worth
-  checking and the absence of one as meaning nothing.
+  out-of-sample. Its disqualifying rules have not yet wrongly excluded a genuine target in 13
+  cases, which bounds that error at roughly 21% rather than establishing it as zero. Treat a
+  flag as worth checking and the absence of one as meaning nothing.
 - **A partner directory count is a lower bound**, and usually a filtered view.
 
 `;

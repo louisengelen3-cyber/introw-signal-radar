@@ -6,7 +6,8 @@
     "sourceUrl": "https://www.apaleo.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T07:51:00.078Z",
+  "builtAt": "2026-08-24T08:18:18.165Z",
+  "oldestEvidenceAt": "2026-08-24T07:33:59.645Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
     "whyItMayNotMatter": "This is the absence of a disqualifying signal, not positive evidence of fit. Abstract positioning can hide a partner-tech product.",
@@ -89,6 +90,73 @@
     }
   ],
   "programmes": [],
+  "surfaces": [
+    {
+      "surface": "partner_recruitment",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "application",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "onboarding",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "enablement",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "certification",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "lead_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "referral_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "deal_registration",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "co_selling",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "portal",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_pipeline",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "programme_tiers",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_resources",
+      "state": "not_observed",
+      "evidence": []
+    }
+  ],
   "partnerDirectory": {
     "isDirectory": false,
     "lowerBound": 0,
@@ -115,14 +183,14 @@
   "people": {
     "state": "unknown",
     "people": [],
-    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+    "note": "No person lookup was performed for this account. Public person discovery was measured at 2 of 18 companies and is not viable, so the pipeline does not attempt it. This is not evidence that no partner team exists, and team size below two is never a disqualifier."
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T07:51:00.078Z",
-    "lastCheckedAt": "2026-08-24T07:51:00.078Z",
+    "baselineAt": "2026-08-24T08:18:18.165Z",
+    "lastCheckedAt": "2026-08-24T08:18:18.165Z",
     "changes": [],
-    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+    "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
   "contradictions": [],
   "researchTasks": [
@@ -145,7 +213,7 @@
       "resolves": "crm"
     }
   ],
-  "evidenceCoverage": "sparse",
+  "evidenceCoverage": "none",
   "coverageNote": "Sparse public evidence. This describes how much this company publishes, not how good a prospect it is.",
   "sourceHealth": [
     {
@@ -172,9 +240,79 @@
       "url": "https://www.apaleo.com/vs",
       "health": "not_found",
       "status": 404
+    },
+    {
+      "url": "https://apaleo.com/oktoberfest-partner-2026",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.apaleo.com/partners",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.apaleo.com/partner",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.apaleo.com/partner-program",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.apaleo.com/partner-programme",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.apaleo.com/partnerships",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.apaleo.com/resellers",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.apaleo.com/agencies",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.apaleo.com/become-a-partner",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.apaleo.com/partner-network",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.apaleo.com/en/partners",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.apaleo.com/nl/partners",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.apaleo.com/fr/partenaires",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.apaleo.com/de/partner",
+      "health": "not_found",
+      "status": 404
     }
   ],
-  "commercialSummary": "Apaleo describes itself as \"Transform your hospitality business with an open platform. Easily connect 3rd party applications to build a best-in-class tech stack for your hotel\". No partner programme type could be identified from the pages retrieved. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "Apaleo describes itself as \"Transform your hospitality business with an open platform. Easily connect 3rd party applications to build a best-in-class tech stack for your hotel\". No partner programme type could be identified; 13 conventional partner paths were checked and none returned a partner page. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "under_observed",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
@@ -185,8 +323,9 @@
       "observationCount": 0,
       "distinctClaimCount": 0,
       "independentSourceCount": 0,
-      "publicationDensity": "sparse",
+      "publicationDensity": "none",
       "constructEvidenceCount": 0,
+      "supportingFindingCount": 0,
       "volumeSensitive": false,
       "unattributableDropped": 0
     }

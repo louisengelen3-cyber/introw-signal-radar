@@ -25,7 +25,7 @@ await Promise.all(Array.from({ length: 5 }, async () => {
       const ok = cls.state === c.expected || (c.expected === 'partner_tech_vendor' && cls.state === 'direct_introw_competitor');
       rows.push({ ...c, got: cls.state, ok, items: pos.items.length, signals: cls.signals, listVsClassifier: cmp,
         health: pos.health.map((h) => h.health) });
-      writeFileSync(new URL('./out/category-holdout-v3.json', import.meta.url).pathname, JSON.stringify(rows, null, 2));
+      writeFileSync(new URL('./out/category-holdout.v3.json', import.meta.url).pathname, JSON.stringify(rows, null, 2));
       console.error(`${ok ? ' ok ' : 'MISS'} ${c.domain.padEnd(22)} expected=${c.expected.padEnd(24)} got=${cls.state.padEnd(24)} items=${pos.items.length} ${cls.signals[0]?.matched?.slice(0, 40) ?? ''}`);
     } catch (e) { console.error(`[err] ${c.domain}: ${(e as Error).message}`); }
   }

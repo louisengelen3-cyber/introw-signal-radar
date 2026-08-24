@@ -27,6 +27,8 @@ export interface SummaryInput {
   people: PeoplePanel;
   coverage: EvidenceCoverage;
   categoryState: string;
+  /** How many conventional partner paths were probed, so "not found" is interpretable. */
+  partnerPathsChecked?: number;
   /** Lower bound only; the summary must never state it as a count. */
   partnerDirectoryLowerBound?: number | null;
   directoryCertified?: boolean;
@@ -55,11 +57,17 @@ export function buildCommercialSummary(i: SummaryInput): string {
   const kinds = [...new Set(i.programmes.map((p) => p.kind))];
   if (kinds.length) {
     const named = i.programmes.find((p) => p.publishedName)?.publishedName;
+    const list = kinds.slice(0, 3).map((k) => k.replace(/_/g, ' ')).join(', ');
+    // "a agency motion" appeared in four of thirty-five summaries. On a product whose pitch
+    // is care, that is expensive in the first paragraph.
+    const article = /^[aeiou]/i.test(list) ? 'an' : 'a';
     parts.push(named
-      ? `Public pages describe a ${kinds.slice(0, 3).join(', ')} motion under the name "${named}".`
-      : `Public pages describe a ${kinds.slice(0, 3).join(', ')} motion.`);
+      ? `Public pages describe ${article} ${list} motion under the name "${named}".`
+      : `Public pages describe ${article} ${list} motion.`);
   } else {
-    parts.push('No partner programme type could be identified from the pages retrieved.');
+    parts.push(i.partnerPathsChecked
+      ? `No partner programme type could be identified; ${i.partnerPathsChecked} conventional partner paths were checked and none returned a partner page.`
+      : 'No partner programme type could be identified from the pages retrieved.');
   }
 
   // 3b. A directory is quotable and specific, so it earns a sentence — phrased as the

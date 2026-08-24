@@ -279,3 +279,11 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 
 .why-toggle { background: none; border: 0; color: var(--accent); cursor: pointer; font-family: inherit; font-size: .74rem; padding: 0 0 8px; }
 .mc-drop { color: var(--muted); }
+
+/* ── retrieval panel + review affordances ──────────────────────────────── */
+.health-grid { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 6px; }
+.health-pill { font-family: var(--mono); font-size: .72rem; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--rule); background: var(--surface-2); color: var(--body); }
+.health-success { color: var(--good); background: var(--good-bg); border-color: var(--good-rule); }
+.health-blocked, .health-timeout, .health-parse_error { color: var(--caution); background: var(--caution-bg); border-color: var(--caution-rule); }
+.rb-remaining { margin-left: auto; font-size: .76rem; color: var(--muted); }
+.clear-filter { background: none; border: 0; color: var(--accent); cursor: pointer; font-family: inherit; font-size: .85rem; text-decoration: underline; padding: 0; }

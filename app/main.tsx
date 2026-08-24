@@ -15,6 +15,18 @@ import './styles.css';
  * an error would push reviewers toward treating absence as a negative.
  */
 
+/**
+ * `likely_target_category` means only that no disqualifying signal was found — it is not
+ * positive evidence, and the measured record is explicit that 6 of 14 known partner-tech
+ * vendors sit inside it. Rendering it green put 28 of 35 rows in a colour a seller reads as
+ * "qualified". It is neutral here, and only genuine findings earn the good tone.
+ */
+function categoryTone(state: string): 'known' | 'unknown' | 'caution' {
+  if (state === 'unknown') return 'unknown';
+  if (state === 'likely_target_category') return 'known';
+  return 'caution';
+}
+
 function StateChip({ value, tone }: { value: string; tone?: 'known' | 'unknown' | 'caution' | 'good' }) {
   const t = tone ?? (/^unknown$|_unknown$|^none$/.test(value) ? 'unknown' : 'known');
   return <span className={`chip chip-${t}`}>{humanise(value)}</span>;
@@ -161,20 +173,36 @@ function ResearchList({ tasks }: { tasks: ResearchTask[] }) {
 const OUTCOMES: HumanOutcome[] = ['promote', 'research', 'watch', 'reject', 'suppress'];
 const KEYS: Record<string, HumanOutcome> = { p: 'promote', r: 'research', w: 'watch', x: 'reject', s: 'suppress' };
 
-function ReviewBar({ d, onDone, openedAt }: { d: Dossier; onDone: () => void; openedAt: number }) {
+/**
+ * Review controls.
+ *
+ * Three things were wrong and all three cost real decisions:
+ *   - the rationale box sat BELOW the buttons, so pressing P and then typing why silently
+ *     discarded the note;
+ *   - confidence defaulted to medium and the keyboard path never touched it, so every
+ *     keyboard review was recorded medium regardless;
+ *   - nothing advanced, so reviewing 200 accounts meant 200 × (Back → scan → click).
+ *
+ * Confidence and rationale are therefore set FIRST, the decision keys commit last, and
+ * committing moves to the next undecided account.
+ */
+function ReviewBar({ d, onDone, onNext, openedAt, remaining }: {
+  d: Dossier; onDone: () => void; onNext: () => void; openedAt: number; remaining: number;
+}) {
   const existing = getReview(d.domain);
   const [outcome, setOutcome] = useState<HumanOutcome | null>(existing?.outcome ?? null);
   const [confidence, setConfidence] = useState<'low' | 'medium' | 'high'>(existing?.confidence ?? 'medium');
   const [rationale, setRationale] = useState(existing?.rationale ?? '');
 
-  const commit = useCallback((o: HumanOutcome) => {
+  const commit = useCallback((o: HumanOutcome, advance: boolean) => {
     saveReview({
       domain: d.domain, outcome: o, confidence, rationale: rationale.trim() || null,
       reviewedAt: new Date().toISOString(), reviewer: 'local',
       decisionSeconds: Math.round((Date.now() - openedAt) / 1000),
     });
     onDone();
-  }, [d.domain, confidence, rationale, onDone, openedAt]);
+    if (advance) onNext();
+  }, [d.domain, confidence, rationale, onDone, onNext, openedAt]);
 
   // Keyboard-efficient review: the whole point is decisions per minute.
   useEffect(() => {
@@ -183,7 +211,7 @@ function ReviewBar({ d, onDone, openedAt }: { d: Dossier; onDone: () => void; op
       const el = e.target as HTMLElement;
       if (el && (el.tagName === 'TEXTAREA' || el.tagName === 'INPUT')) return;
       const o = KEYS[e.key.toLowerCase()];
-      if (o) { e.preventDefault(); setOutcome(o); commit(o); }
+      if (o) { e.preventDefault(); setOutcome(o); commit(o, true); }
     };
     window.addEventListener('keydown', h);
     return () => window.removeEventListener('keydown', h);
@@ -191,22 +219,6 @@ function ReviewBar({ d, onDone, openedAt }: { d: Dossier; onDone: () => void; op
 
   return (
     <div className="reviewbar">
-      <div className="rb-row">
-        <span className="rb-lab">Decision</span>
-        <div className="rb-btns">
-          {OUTCOMES.map((o) => (
-            <button
-              key={o}
-              className={`rb-btn rb-${o} ${outcome === o ? 'is-on' : ''}`}
-              title={`${OUTCOME_HELP[o]}  (${Object.entries(KEYS).find(([, v]) => v === o)?.[0].toUpperCase()})`}
-              onClick={() => { setOutcome(o); commit(o); }}
-            >
-              {OUTCOME_LABEL[o]}
-              <kbd>{Object.entries(KEYS).find(([, v]) => v === o)?.[0].toUpperCase()}</kbd>
-            </button>
-          ))}
-        </div>
-      </div>
       <div className="rb-row">
         <span className="rb-lab">Confidence</span>
         <div className="rb-btns">
@@ -217,16 +229,35 @@ function ReviewBar({ d, onDone, openedAt }: { d: Dossier; onDone: () => void; op
         {existing && <button className="rb-clear" onClick={() => { clearReview(d.domain); onDone(); }}>Clear decision</button>}
       </div>
       <textarea
-        className="rb-note" placeholder="Rationale (optional) — what decided it?"
+        className="rb-note" placeholder="Rationale (optional) — what decided it? Type this before deciding; the decision keys save and move on."
         value={rationale} onChange={(e) => setRationale(e.target.value)}
       />
+      <div className="rb-row">
+        <span className="rb-lab">Decision</span>
+        <div className="rb-btns">
+          {OUTCOMES.map((o) => (
+            <button
+              key={o}
+              className={`rb-btn rb-${o} ${outcome === o ? 'is-on' : ''}`}
+              title={`${OUTCOME_HELP[o]}  (${Object.entries(KEYS).find(([, v]) => v === o)?.[0].toUpperCase()})`}
+              onClick={() => { setOutcome(o); commit(o, true); }}
+            >
+              {OUTCOME_LABEL[o]}
+              <kbd>{Object.entries(KEYS).find(([, v]) => v === o)?.[0].toUpperCase()}</kbd>
+            </button>
+          ))}
+        </div>
+        <span className="rb-remaining">{remaining} undecided {remaining === 1 ? 'account' : 'accounts'} left</span>
+      </div>
     </div>
   );
 }
 
 /* ═══════════════════════════════════════════════════════════════ dossier ══ */
 
-function DossierView({ d, onBack, onReviewed }: { d: Dossier; onBack: () => void; onReviewed: () => void }) {
+function DossierView({ d, onBack, onReviewed, onNext, remaining }: {
+  d: Dossier; onBack: () => void; onReviewed: () => void; onNext: () => void; remaining: number;
+}) {
   const [openedAt] = useState(() => Date.now());
   const review = getReview(d.domain);
   const mi = d.machineInterpretation;
@@ -243,7 +274,7 @@ function DossierView({ d, onBack, onReviewed }: { d: Dossier; onBack: () => void
         </div>
         <div className="dh-meta">
           <StateChip value={WORKFLOW_LABEL[workflowState(d, review)]} tone={review ? 'good' : 'known'} />
-          <span className="dh-checked">Last checked {fmtDate(d.builtAt)}</span>
+          <span className="dh-checked" title="Taken from the oldest retrieval behind this dossier, not from when it was assembled.">Evidence retrieved {fmtDate(d.oldestEvidenceAt ?? d.builtAt)}</span>
           {d.provenance !== 'real_observation' && <span className="chip chip-caution">{humanise(d.provenance)}</span>}
         </div>
       </header>
@@ -279,7 +310,7 @@ function DossierView({ d, onBack, onReviewed }: { d: Dossier; onBack: () => void
 
       <div className="grid2">
         <section className="panel">
-          <header className="panel-h"><h3>Category</h3><StateChip value={d.category.state} tone={d.category.state === 'likely_target_category' ? 'good' : d.category.state === 'unknown' ? 'unknown' : 'caution'} /></header>
+          <header className="panel-h"><h3>Category</h3><StateChip value={d.category.state} tone={categoryTone(d.category.state)} /></header>
           <div className="why">
             <div><span className="why-lab">Why it may matter</span>{d.category.whyItMatters}</div>
             <div><span className="why-lab why-lab-neg">Why it may not</span>{d.category.whyItMayNotMatter}</div>
@@ -356,7 +387,20 @@ function DossierView({ d, onBack, onReviewed }: { d: Dossier; onBack: () => void
 
       <h2 className="sect">Programmes</h2>
       {d.programmes.length === 0 ? (
-        <p className="dim">No programme type was identified from the pages retrieved. This is not evidence that none exists.</p>
+        <>
+          <p className="dim">No programme type was identified from the pages retrieved. This is not evidence that none exists.</p>
+          {/* Surfaces render even with no programme: the workflow evidence exists and was
+              previously asserted in the summary while being dropped from the file. */}
+          {d.surfaces?.some((s) => s.state === 'confirmed') && (
+            <section className="panel">
+              <header className="panel-h"><h3>Observed partner workflows</h3></header>
+              <SurfaceGrid surfaces={d.surfaces} />
+              <ul className="ev-list">
+                {d.surfaces.filter((s) => s.state === 'confirmed').flatMap((s) => s.evidence).slice(0, 3).map((o) => <EvidenceItem key={o.id} o={o} />)}
+              </ul>
+            </section>
+          )}
+        </>
       ) : (
         <div className="progs">
           {d.programmes.map((p) => (
@@ -392,8 +436,35 @@ function DossierView({ d, onBack, onReviewed }: { d: Dossier; onBack: () => void
         </>
       )}
 
+      <h2 className="sect">Retrieval</h2>
+      <div className="panel">
+        <div className="kv-n">
+          What was fetched to build this dossier. A failure here is never evidence about the company —
+          it is the difference between “we looked and found nothing” and “we could not look”.
+        </div>
+        <div className="health-grid">
+          {(() => {
+            const t: Record<string, number> = {};
+            for (const h of d.sourceHealth) t[h.health] = (t[h.health] ?? 0) + 1;
+            return Object.entries(t).sort((a, b) => b[1] - a[1]).map(([k, v]) => (
+              <span key={k} className={`health-pill health-${k}`}>{v} {humanise(k).toLowerCase()}</span>
+            ));
+          })()}
+        </div>
+        {(() => {
+          const partnerPaths = d.sourceHealth.filter((h) => /partner|reseller|agenc|partenaires|channel/i.test(h.url));
+          const hit = partnerPaths.filter((h) => h.health === 'success').length;
+          if (!partnerPaths.length) return null;
+          return (
+            <div className="srcq">
+              {partnerPaths.length} conventional partner {partnerPaths.length === 1 ? 'path' : 'paths'} checked · {hit} returned a partner page
+            </div>
+          );
+        })()}
+      </div>
+
       <h2 className="sect">Your decision</h2>
-      <ReviewBar d={d} onDone={onReviewed} openedAt={openedAt} />
+      <ReviewBar d={d} onDone={onReviewed} onNext={onNext} openedAt={openedAt} remaining={remaining} />
     </article>
   );
 }
@@ -402,9 +473,9 @@ function DossierView({ d, onBack, onReviewed }: { d: Dossier; onBack: () => void
 
 type Nav = 'overview' | 'accounts' | 'review' | 'watching' | 'changes' | 'health';
 
-function Overview({ dossiers, reviews, go }: { dossiers: Dossier[]; reviews: Record<string, ReviewRecord>; go: (n: Nav) => void }) {
+function Overview({ dossiers, reviews, go }: { dossiers: Dossier[]; reviews: Record<string, ReviewRecord>; go: (n: Nav, w?: WorkflowState) => void }) {
   const counts = useMemo(() => {
-    const c: Record<WorkflowState, number> = { ready_for_review: 0, research_needed: 0, under_observed: 0, reviewed: 0, watching: 0, suppressed: 0 };
+    const c: Record<WorkflowState, number> = { ready_for_review: 0, research_needed: 0, under_observed: 0, suppression_flagged: 0, reviewed: 0, watching: 0, suppressed: 0 };
     for (const d of dossiers) c[workflowState(d, reviews[d.domain] ?? null)]++;
     return c;
   }, [dossiers, reviews]);
@@ -418,7 +489,7 @@ function Overview({ dossiers, reviews, go }: { dossiers: Dossier[]; reviews: Rec
       <p className="page-sub">System state. These are counts of work, not predictions of revenue.</p>
       <div className="stats">
         {(Object.keys(counts) as WorkflowState[]).map((k) => (
-          <button key={k} className="stat" onClick={() => go(k === 'watching' ? 'watching' : 'accounts')}>
+          <button key={k} className="stat" onClick={() => go(k === 'watching' ? 'watching' : 'accounts', k)}>
             <span className="stat-n">{counts[k]}</span>
             <span className="stat-l">{WORKFLOW_LABEL[k]}</span>
           </button>
@@ -467,7 +538,7 @@ function AccountsTable({ dossiers, reviews, onOpen, filter }: {
                 <tr key={d.domain} onClick={() => onOpen(d)} tabIndex={0}
                     onKeyDown={(e) => { if (e.key === 'Enter') onOpen(d); }}>
                   <td className="c-name"><strong>{d.companyName ?? d.domain}</strong><span className="c-dom">{d.domain}</span></td>
-                  <td><StateChip value={d.category.state} tone={d.category.state === 'likely_target_category' ? 'good' : d.category.state === 'unknown' ? 'unknown' : 'caution'} /></td>
+                  <td><StateChip value={d.category.state} tone={categoryTone(d.category.state)} /></td>
                   <td>{motions || <span className="dim">Not identified</span>}</td>
                   <td><StateChip value={own?.state ?? 'unknown'} /></td>
                   <td><StateChip value={surf?.state ?? 'unknown'} /></td>
@@ -569,8 +640,12 @@ function App() {
   const [nav, setNav] = useState<Nav>('overview');
   const [open, setOpen] = useState<Dossier | null>(null);
   const [tick, setTick] = useState(0);
+  // Set when an Overview tile is clicked, so the tile is a real filter rather than a link to
+  // the unfiltered table. Five of the six previously showed all accounts whatever you clicked.
+  const [workflowFilter, setWorkflowFilter] = useState<WorkflowState | null>(null);
   const reviews = useMemo(() => allReviews(), [tick]);
   const refresh = () => setTick((t) => t + 1);
+  const goto = (n: Nav, w?: WorkflowState) => { setNav(n); setWorkflowFilter(w ?? null); setOpen(null); };
 
   if (DOSSIERS.length === 0) {
     return (
@@ -594,7 +669,7 @@ function App() {
           <span className="brand-s">Partner intelligence for faster commercial research</span>
         </div>
         {NAV.map((n) => (
-          <button key={n.id} className={`nav-i ${nav === n.id && !open ? 'is-on' : ''}`} onClick={() => { setNav(n.id); setOpen(null); }}>
+          <button key={n.id} className={`nav-i ${nav === n.id && !open ? 'is-on' : ''}`} onClick={() => goto(n.id)}>
             <span className="nav-l">{n.label}</span>
             <span className="nav-j">{n.job}</span>
           </button>
@@ -607,14 +682,31 @@ function App() {
 
       <main className="main">
         {open ? (
-          <DossierView d={open} onBack={() => setOpen(null)} onReviewed={refresh} />
+          <DossierView
+            d={open} onBack={() => setOpen(null)} onReviewed={refresh}
+            remaining={DOSSIERS.filter((x) => !reviews[x.domain]).length}
+            onNext={() => {
+              // Move to the next undecided account rather than dropping the reviewer back
+              // to the table. Reviewing a queue should not cost a round trip per decision.
+              const next = DOSSIERS.find((x) => x.domain !== open.domain && !reviews[x.domain]);
+              setOpen(next ?? null);
+              window.scrollTo({ top: 0 });
+            }}
+          />
         ) : nav === 'overview' ? (
-          <Overview dossiers={DOSSIERS} reviews={reviews} go={setNav} />
+          <Overview dossiers={DOSSIERS} reviews={reviews} go={goto} />
         ) : nav === 'accounts' ? (
           <>
             <h1 className="page-h">Accounts</h1>
-            <p className="page-sub">{DOSSIERS.length} researched. Sorted alphabetically — deliberately not by any measure of quality.</p>
-            <AccountsTable dossiers={[...DOSSIERS].sort((a, b) => (a.companyName ?? a.domain).localeCompare(b.companyName ?? b.domain))} reviews={reviews} onOpen={setOpen} />
+            <p className="page-sub">
+              {DOSSIERS.length} researched. Sorted alphabetically — deliberately not by any measure of quality.
+              {workflowFilter && <> Showing <strong>{WORKFLOW_LABEL[workflowFilter]}</strong> only. <button className="clear-filter" onClick={() => setWorkflowFilter(null)}>Show all</button></>}
+            </p>
+            <AccountsTable
+              dossiers={[...DOSSIERS].sort((a, b) => (a.companyName ?? a.domain).localeCompare(b.companyName ?? b.domain))}
+              reviews={reviews} onOpen={setOpen}
+              filter={workflowFilter ? (d, r) => workflowState(d, r) === workflowFilter : undefined}
+            />
           </>
         ) : nav === 'review' ? (
           <>

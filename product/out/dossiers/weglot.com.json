@@ -6,7 +6,8 @@
     "sourceUrl": "https://www.weglot.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T07:51:00.174Z",
+  "builtAt": "2026-08-24T08:18:18.401Z",
+  "oldestEvidenceAt": "2026-08-24T07:34:06.389Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
     "whyItMayNotMatter": "This is the absence of a disqualifying signal, not positive evidence of fit. Abstract positioning can hide a partner-tech product.",
@@ -41,11 +42,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o71",
-          "quote": "| Become a Reseller Partner Product Integrations Pricing Solutions Resources Contact",
+          "id": "o66",
+          "quote": "Weglot | Become a Reseller Partner Product Integrations Pricing Solutions Resources Contact",
           "sourceUrl": "https://www.weglot.com/partner/reseller",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:00.174Z",
+          "retrievedAt": "2026-08-24T08:18:18.401Z",
           "strength": "confirmed",
           "proves": "the company describes partners selling or reselling its product",
           "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -53,11 +54,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o72",
-          "quote": "to your clients and scaling your business, creating a new revenue stream on auto-pilot. Seamless Integration Easily integrate Weglot with",
+          "id": "o67",
+          "quote": "eglot to your clients and scaling your business, creating a new revenue stream on auto-pilot.",
           "sourceUrl": "https://www.weglot.com/partner/reseller",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:00.174Z",
+          "retrievedAt": "2026-08-24T08:18:18.401Z",
           "strength": "confirmed",
           "proves": "the company pitches partner participation as revenue for the partner",
           "doesNotProve": "that any partner earns it, or that the company tracks it",
@@ -73,7 +74,7 @@
       "sourceQuality": {
         "distinctClaims": 2,
         "independentSources": 1,
-        "observedItems": 8
+        "observedItems": 6
       },
       "whyItMatters": "Partners appear to take part in winning customers or revenue, which is what makes partner operations worth tooling.",
       "whyItMayNotMatter": "It does not establish how much revenue, how many partners, or whether the motion is active today."
@@ -83,11 +84,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o73",
-          "quote": "freelancers and influencers. Our vetted partners Join our partner program Technology partners Integrate Weglot into your platform so",
+          "id": "o68",
+          "quote": "Our vetted partners Join our partner program Technology partners Integrate Weglot into your platform so",
           "sourceUrl": "https://www.weglot.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:00.174Z",
+          "retrievedAt": "2026-08-24T08:18:18.401Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -95,11 +96,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o74",
-          "quote": "Priority Support Faster response times and dedicated partner success managers to assist you. Co-Marketing Opportunities Collaborate with",
+          "id": "o69",
+          "quote": "Priority Support Faster response times and dedicated partner success managers to assist you.",
           "sourceUrl": "https://www.weglot.com/partner/reseller",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:00.174Z",
+          "retrievedAt": "2026-08-24T08:18:18.401Z",
           "strength": "strong_proxy",
           "proves": "the company supplies partners with resources, enablement or a named contact",
           "doesNotProve": "that partners use them",
@@ -115,7 +116,7 @@
       "sourceQuality": {
         "distinctClaims": 2,
         "independentSources": 1,
-        "observedItems": 8
+        "observedItems": 6
       },
       "whyItMatters": "The company appears to run the partner motion itself, so it would be the buyer of tooling rather than a participant in someone else's.",
       "whyItMayNotMatter": "Operating a programme says nothing about its size; a competitor with an excellent programme scores identically here."
@@ -125,23 +126,11 @@
       "state": "moderate",
       "evidence": [
         {
-          "id": "o75",
-          "quote": "generates a commission automatically in the background. Partner tiers that compound your earnings. As you refer more clients, you move up",
-          "sourceUrl": "https://www.weglot.com/academy/partner-hub-how-to-track-your-clients-and-collect-your-commissions",
-          "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:00.174Z",
-          "strength": "strong_proxy",
-          "proves": "the company differentiates partners by commitment or performance",
-          "doesNotProve": "how many partners sit in each tier",
-          "duplicateCount": 1,
-          "alsoSeenAt": []
-        },
-        {
-          "id": "o76",
-          "quote": "that come with becoming a Weglot partner. Attractive Commission Structure Competitive commission rates for each client you onboard.",
+          "id": "o70",
+          "quote": "Attractive Commission Structure Competitive commission rates for each client you onboard.",
           "sourceUrl": "https://www.weglot.com/partner/reseller",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:00.174Z",
+          "retrievedAt": "2026-08-24T08:18:18.401Z",
           "strength": "strong_proxy",
           "proves": "the company pays partners for commercial outcomes",
           "doesNotProve": "the size of the payments or how they are calculated",
@@ -155,9 +144,9 @@
         "what sits behind the partner login"
       ],
       "sourceQuality": {
-        "distinctClaims": 2,
+        "distinctClaims": 1,
         "independentSources": 1,
-        "observedItems": 8
+        "observedItems": 6
       },
       "whyItMatters": "Visible partner workflows suggest there is machinery that software could reduce the manual cost of.",
       "whyItMayNotMatter": "A published workflow is not a used workflow, and login-walled machinery is invisible either way."
@@ -169,11 +158,11 @@
       "publishedName": null,
       "evidence": [
         {
-          "id": "o77",
+          "id": "o71",
           "quote": "Weglot | Become a Reseller Partner Product Integrations Pricing Solutions Resources Contact sales Login Try for free EN Product Integrations Pricing Solutions",
           "sourceUrl": "https://www.weglot.com/partner/reseller",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:00.174Z",
+          "retrievedAt": "2026-08-24T08:18:18.401Z",
           "strength": "strong_proxy",
           "proves": "the company uses reseller partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -181,11 +170,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o78",
-          "quote": "agency partner Resellers Empower your clients to reach global audiences while adding a valuable revenue stream to your business. Become a reseller partner Why partner with Weglot? Industry-leading solution Weglot powers multilingual websites for thousands of businesses worldwide,",
+          "id": "o72",
+          "quote": "Offer multilingual websites and expansion services while growing your own business. Become an agency partner Resellers Empower your clients to reach global audiences while adding a valuable revenue stream to your business.",
           "sourceUrl": "https://www.weglot.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:00.174Z",
+          "retrievedAt": "2026-08-24T08:18:18.401Z",
           "strength": "strong_proxy",
           "proves": "the company uses reseller partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -199,11 +188,11 @@
           "state": "confirmed",
           "evidence": [
             {
-              "id": "o85",
+              "id": "o78",
               "quote": "Weglot | Become a Reseller Partner Product Integrations Pricing Solutions Resources Contact sales Login Try for free EN Product",
               "sourceUrl": "https://www.weglot.com/partner/reseller",
               "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T07:51:00.174Z",
+              "retrievedAt": "2026-08-24T08:18:18.401Z",
               "strength": "strong_proxy",
               "proves": "the company publicly invites organisations to join a programme",
               "doesNotProve": "that anyone joins, or how many",
@@ -211,11 +200,11 @@
               "alsoSeenAt": []
             },
             {
-              "id": "o86",
-              "quote": "partnership community of top CMS platforms, web agencies, freelancers and influencers. Our vetted partners Join our partner program Technology partners Integrate Weglot into your platform so users can go multilingual instantly, and",
+              "id": "o79",
+              "quote": "Our vetted partners Join our partner program Technology partners Integrate Weglot into your platform so users can go multilingual instantly, and",
               "sourceUrl": "https://www.weglot.com/partners",
               "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T07:51:00.174Z",
+              "retrievedAt": "2026-08-24T08:18:18.401Z",
               "strength": "strong_proxy",
               "proves": "the company publicly invites organisations to join a programme",
               "doesNotProve": "that anyone joins, or how many",
@@ -223,11 +212,11 @@
               "alsoSeenAt": []
             },
             {
-              "id": "o87",
-              "quote": "experience in developing tailored integrations across diverse solution environments. Co-Branded Activities Partner with us and start maximizing brand exposure and collaboration opportunities today. Join our Partner Program All",
+              "id": "o80",
+              "quote": "Co-Branded Activities Partner with us and start maximizing brand exposure and collaboration opportunities today.",
               "sourceUrl": "https://www.weglot.com/partner/technology",
               "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T07:51:00.174Z",
+              "retrievedAt": "2026-08-24T08:18:18.401Z",
               "strength": "strong_proxy",
               "proves": "the company publicly invites organisations to join a programme",
               "doesNotProve": "that anyone joins, or how many",
@@ -235,11 +224,11 @@
               "alsoSeenAt": []
             },
             {
-              "id": "o88",
-              "quote": "company and operate under the saying: Our speed, your success. A saying they truly stick to. Do you want to partner with us too? Do you want to partner with us and get more visibility from thousands of users around the world?",
+              "id": "o81",
+              "quote": "A saying they truly stick to. Do you want to partner with us too? Do you want to partner with us and get more visibility from thousands of users around the world?",
               "sourceUrl": "https://www.weglot.com/partners/a2-hosting",
               "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T07:51:00.174Z",
+              "retrievedAt": "2026-08-24T08:18:18.401Z",
               "strength": "strong_proxy",
               "proves": "the company publicly invites organisations to join a programme",
               "doesNotProve": "that anyone joins, or how many",
@@ -253,11 +242,11 @@
           "state": "confirmed",
           "evidence": [
             {
-              "id": "o89",
-              "quote": "Access to a free Weglot Pro plan to translate your own website How It Works 1 Apply to join Fill out the application form to become an official Weglot Reseller Partner. 2 Meet our team Let's explore your clients' needs and your",
+              "id": "o82",
+              "quote": "free Access to a free Weglot Pro plan to translate your own website How It Works 1 Apply to join Fill out the application form to become an official Weglot Reseller Partner.",
               "sourceUrl": "https://www.weglot.com/partner/reseller",
               "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T07:51:00.174Z",
+              "retrievedAt": "2026-08-24T08:18:18.401Z",
               "strength": "strong_proxy",
               "proves": "there is an intake step with a form",
               "doesNotProve": "that applications are reviewed or that a pipeline exists",
@@ -267,65 +256,72 @@
           ]
         },
         {
+          "surface": "onboarding",
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
+          "surface": "enablement",
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
+          "surface": "certification",
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
+          "surface": "lead_submission",
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
+          "surface": "referral_submission",
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
+          "surface": "deal_registration",
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
+          "surface": "co_selling",
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
           "surface": "portal",
-          "state": "confirmed",
-          "evidence": [
-            {
-              "id": "o90",
-              "quote": "Weglot for Agencies & Freelancers Weglot Partner Hub: how to track your clients and collect your commissions Your Weglot dashboard handles translation. The",
-              "sourceUrl": "https://www.weglot.com/academy/partner-hub-how-to-track-your-clients-and-collect-your-commissions",
-              "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T07:51:00.174Z",
-              "strength": "strong_proxy",
-              "proves": "partners have an authenticated destination",
-              "doesNotProve": "what is inside it — the portal is invisible to us by design",
-              "duplicateCount": 1,
-              "alsoSeenAt": []
-            }
-          ]
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
+          "surface": "partner_pipeline",
+          "state": "not_observed",
+          "evidence": []
         },
         {
           "surface": "programme_tiers",
-          "state": "confirmed",
-          "evidence": [
-            {
-              "id": "o91",
-              "quote": "New subscription, renewal, plan upgrade: each one generates a commission automatically in the background. Partner tiers that compound your earnings. As you refer more clients, you move up from First Timer to Expert Partner. A",
-              "sourceUrl": "https://www.weglot.com/academy/partner-hub-how-to-track-your-clients-and-collect-your-commissions",
-              "sourceType": "partner_surface",
-              "retrievedAt": "2026-08-24T07:51:00.174Z",
-              "strength": "strong_proxy",
-              "proves": "the programme distinguishes partners by level",
-              "doesNotProve": "how many sit in each tier",
-              "duplicateCount": 1,
-              "alsoSeenAt": []
-            }
-          ]
+          "state": "not_observed",
+          "evidence": []
+        },
+        {
+          "surface": "partner_resources",
+          "state": "not_observed",
+          "evidence": []
         }
       ]
     },
     {
       "kind": "agency",
-      "publishedName": "The Weglot Agency Program",
+      "publishedName": null,
       "evidence": [
         {
-          "id": "o79",
-          "quote": "Create content that resonates across markets. Educate, inspire, and help your audience grow internationally with us. Become an influencer partner Agencies and freelancers Support your clients’ international growth. Offer multilingual websites and expansion services while growing your own",
+          "id": "o73",
+          "quote": "Educate, inspire, and help your audience grow internationally with us. Become an influencer partner Agencies and freelancers Support your clients’ international growth.",
           "sourceUrl": "https://www.weglot.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:00.174Z",
-          "strength": "strong_proxy",
-          "proves": "the company uses agency partner vocabulary about itself",
-          "doesNotProve": "that the programme is active, staffed or material",
-          "duplicateCount": 1,
-          "alsoSeenAt": []
-        },
-        {
-          "id": "o80",
-          "quote": "gives you, how to register your clients correctly, and exactly how rewards turn into payouts. Two tools, two different jobs As a Weglot agency partner, you have access to two separate tools. Your Weglot dashboard is where everything translation-related lives — workspaces, projects,",
-          "sourceUrl": "https://www.weglot.com/academy/partner-hub-how-to-track-your-clients-and-collect-your-commissions",
-          "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:00.174Z",
+          "retrievedAt": "2026-08-24T08:18:18.401Z",
           "strength": "strong_proxy",
           "proves": "the company uses agency partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -340,11 +336,11 @@
       "publishedName": null,
       "evidence": [
         {
-          "id": "o81",
-          "quote": "Integrate Weglot into your platform so users can go multilingual instantly, and earn commission on referred subscriptions. Become a technology partner Influencers Create content that resonates across markets. Educate, inspire, and help your audience grow internationally with us. Become",
+          "id": "o74",
+          "quote": "Become a technology partner Influencers Create content that resonates across markets. Educate, inspire, and help your audience grow internationally with us.",
           "sourceUrl": "https://www.weglot.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:00.174Z",
+          "retrievedAt": "2026-08-24T08:18:18.401Z",
           "strength": "strong_proxy",
           "proves": "the company uses technology partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -359,11 +355,11 @@
       "publishedName": "Partner Program",
       "evidence": [
         {
-          "id": "o82",
-          "quote": "are the benefits of joining Weglot's partner program? Benefits vary depending on the type of partnership — whether you’re looking for an affiliate program, a technology integration, or an agency partnership. They typically include dedicated resources, priority support, and exclusive",
+          "id": "o75",
+          "quote": "Benefits vary depending on the type of partnership — whether you’re looking for an affiliate program, a technology integration, or an agency partnership.",
           "sourceUrl": "https://www.weglot.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:00.174Z",
+          "retrievedAt": "2026-08-24T08:18:18.401Z",
           "strength": "strong_proxy",
           "proves": "the company uses affiliate partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -371,11 +367,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o83",
-          "quote": "by seamlessly integrating a website translation solution. Boost Your Revenue Weglot stands out as a highly desirable product. Join our affiliate program today to receive a 20% commission per sale, with lifetime revenue shares. Integration Expertise Streamline your setup process with our",
+          "id": "o76",
+          "quote": "Boost Your Revenue Weglot stands out as a highly desirable product. Join our affiliate program today to receive a 20% commission per sale, with lifetime revenue shares.",
           "sourceUrl": "https://www.weglot.com/partner/technology",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:00.174Z",
+          "retrievedAt": "2026-08-24T08:18:18.401Z",
           "strength": "strong_proxy",
           "proves": "the company uses affiliate partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -390,11 +386,11 @@
       "publishedName": "Partner Program",
       "evidence": [
         {
-          "id": "o84",
-          "quote": "wrong while submitting the form. Do you want to partner with us? Embark on your partnership journey today by joining our network as an integration partner, unlocking exclusive perks, and gaining visibility among our extensive customer base. Become a",
+          "id": "o77",
+          "quote": "Do you want to partner with us? Embark on your partnership journey today by joining our network as an integration partner, unlocking exclusive perks, and gaining visibility among our extensive customer base.",
           "sourceUrl": "https://www.weglot.com/partner/technology",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T07:51:00.174Z",
+          "retrievedAt": "2026-08-24T08:18:18.401Z",
           "strength": "strong_proxy",
           "proves": "the company uses integration partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -403,6 +399,135 @@
         }
       ],
       "surfaces": []
+    }
+  ],
+  "surfaces": [
+    {
+      "surface": "partner_recruitment",
+      "state": "confirmed",
+      "evidence": [
+        {
+          "id": "o78",
+          "quote": "Weglot | Become a Reseller Partner Product Integrations Pricing Solutions Resources Contact sales Login Try for free EN Product",
+          "sourceUrl": "https://www.weglot.com/partner/reseller",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T08:18:18.401Z",
+          "strength": "strong_proxy",
+          "proves": "the company publicly invites organisations to join a programme",
+          "doesNotProve": "that anyone joins, or how many",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o79",
+          "quote": "Our vetted partners Join our partner program Technology partners Integrate Weglot into your platform so users can go multilingual instantly, and",
+          "sourceUrl": "https://www.weglot.com/partners",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T08:18:18.401Z",
+          "strength": "strong_proxy",
+          "proves": "the company publicly invites organisations to join a programme",
+          "doesNotProve": "that anyone joins, or how many",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o80",
+          "quote": "Co-Branded Activities Partner with us and start maximizing brand exposure and collaboration opportunities today.",
+          "sourceUrl": "https://www.weglot.com/partner/technology",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T08:18:18.401Z",
+          "strength": "strong_proxy",
+          "proves": "the company publicly invites organisations to join a programme",
+          "doesNotProve": "that anyone joins, or how many",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        },
+        {
+          "id": "o81",
+          "quote": "A saying they truly stick to. Do you want to partner with us too? Do you want to partner with us and get more visibility from thousands of users around the world?",
+          "sourceUrl": "https://www.weglot.com/partners/a2-hosting",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T08:18:18.401Z",
+          "strength": "strong_proxy",
+          "proves": "the company publicly invites organisations to join a programme",
+          "doesNotProve": "that anyone joins, or how many",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ]
+    },
+    {
+      "surface": "application",
+      "state": "confirmed",
+      "evidence": [
+        {
+          "id": "o82",
+          "quote": "free Access to a free Weglot Pro plan to translate your own website How It Works 1 Apply to join Fill out the application form to become an official Weglot Reseller Partner.",
+          "sourceUrl": "https://www.weglot.com/partner/reseller",
+          "sourceType": "partner_surface",
+          "retrievedAt": "2026-08-24T08:18:18.401Z",
+          "strength": "strong_proxy",
+          "proves": "there is an intake step with a form",
+          "doesNotProve": "that applications are reviewed or that a pipeline exists",
+          "duplicateCount": 1,
+          "alsoSeenAt": []
+        }
+      ]
+    },
+    {
+      "surface": "onboarding",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "enablement",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "certification",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "lead_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "referral_submission",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "deal_registration",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "co_selling",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "portal",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_pipeline",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "programme_tiers",
+      "state": "not_observed",
+      "evidence": []
+    },
+    {
+      "surface": "partner_resources",
+      "state": "not_observed",
+      "evidence": []
     }
   ],
   "partnerDirectory": {
@@ -431,14 +556,14 @@
   "people": {
     "state": "unknown",
     "people": [],
-    "note": "No partner-role person was established from public sources. This is not evidence that no partner team exists. Public person discovery was measured at 2 of 18 companies, and team size below two is never treated as a disqualifier."
+    "note": "No person lookup was performed for this account. Public person discovery was measured at 2 of 18 companies and is not viable, so the pipeline does not attempt it. This is not evidence that no partner team exists, and team size below two is never a disqualifier."
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T07:51:00.174Z",
-    "lastCheckedAt": "2026-08-24T07:51:00.174Z",
+    "baselineAt": "2026-08-24T08:18:18.401Z",
+    "lastCheckedAt": "2026-08-24T08:18:18.401Z",
     "changes": [],
-    "note": "First observation. A first observation is never a change, and no timing claim can be made until a second dated observation exists."
+    "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
   "contradictions": [],
   "researchTasks": [
@@ -455,7 +580,7 @@
       "resolves": "operational_surface"
     }
   ],
-  "evidenceCoverage": "rich",
+  "evidenceCoverage": "moderate",
   "coverageNote": "Public evidence was sufficient to read the partner surfaces that exist.",
   "sourceHealth": [
     {
@@ -492,23 +617,114 @@
       "url": "https://www.weglot.com/alternatives",
       "health": "success",
       "status": 200
+    },
+    {
+      "url": "https://www.weglot.com/partner/reseller",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://partners-hub.weglot.com/",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.weglot.com/partners",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.weglot.com/academy/partner-hub-how-to-track-your-clients-and-collect-your-commissions",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.weglot.com/partner/technology",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.weglot.com/partners/a2-hosting",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.weglot.com/partner",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.weglot.com/partner-program",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.weglot.com/partner-programme",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.weglot.com/partnerships",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.weglot.com/resellers",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.weglot.com/agencies",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.weglot.com/become-a-partner",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.weglot.com/partner-network",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.weglot.com/en/partners",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.weglot.com/nl/partners",
+      "health": "success",
+      "status": 200
+    },
+    {
+      "url": "https://www.weglot.com/fr/partenaires",
+      "health": "not_found",
+      "status": 404
+    },
+    {
+      "url": "https://www.weglot.com/de/partner",
+      "health": "success",
+      "status": 200
     }
   ],
-  "commercialSummary": "Weglot describes itself as \"Translate your site in minutes, reach a wider audience with Weglot. Display and manage multilingual content effortlessly, no code needed\". Public pages describe a reseller, agency, technology motion under the name \"The Weglot Agency Program\". Visible partner workflows include partner recruitment, application, portal, programme tiers. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size.",
+  "commercialSummary": "Weglot describes itself as \"Translate your site in minutes, reach a wider audience with Weglot. Display and manage multilingual content effortlessly, no code needed\". Public pages describe a reseller, agency, technology motion under the name \"Partner Program\". Visible partner workflows include partner recruitment, application. The company appears to operate the programme itself. Public evidence does not establish CRM, partner platform or partner-team size.",
   "machineInterpretation": {
-    "state": "high_fit_evidence",
+    "state": "strong_evidence",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",
     "reasons": [
-      "Partners are described as taking part in revenue, and the company appears to operate the motion itself."
+      "Partners are described as taking part in revenue, the company appears to operate the motion itself, and partner workflows are visible."
     ],
     "diagnostics": {
-      "observationCount": 8,
-      "distinctClaimCount": 6,
+      "observationCount": 6,
+      "distinctClaimCount": 5,
       "independentSourceCount": 1,
-      "publicationDensity": "rich",
-      "constructEvidenceCount": 6,
+      "publicationDensity": "moderate",
+      "constructEvidenceCount": 5,
+      "supportingFindingCount": 7,
       "volumeSensitive": false,
-      "unattributableDropped": 0
+      "unattributableDropped": 2
     }
   },
   "humanReview": null,
