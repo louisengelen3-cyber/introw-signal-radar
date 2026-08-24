@@ -1,0 +1,237 @@
+<title>Partner Intelligence Validation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;1,400&family=Public+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap">
+
+<style>
+:root{
+  --bg:#FBFCFD; --panel:#FFFFFF; --ink:#0D141B; --body:#39434F; --muted:#68737F;
+  --rule:#DFE5EB; --rule-soft:#EDF1F5;
+  --accent:#0B6B62; --accent-soft:#E6F1EF;
+  --good:#14624A; --good-bg:#EAF4F0; --good-rule:#BDD9CE;
+  --warn:#8A6212; --warn-bg:#FBF3E3; --warn-rule:#E5D2A8;
+  --bad:#96351A; --bad-bg:#FBEEE9; --bad-rule:#EBC8B7;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --sans:"Public Sans",system-ui,-apple-system,sans-serif;
+  --serif:"Spectral",Georgia,serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0B0F14; --panel:#121820; --ink:#E9EEF3; --body:#BEC8D3; --muted:#87919E;
+  --rule:#212A35; --rule-soft:#18202A;
+  --accent:#4BBBAB; --accent-soft:#0E211E;
+  --good:#5FBF9C; --good-bg:#0E1F1A; --good-rule:#1E4237;
+  --warn:#D6AB57; --warn-bg:#201A0D; --warn-rule:#463818;
+  --bad:#E2825B; --bad-bg:#231410; --bad-rule:#472619;
+}}
+:root[data-theme="dark"]{
+  --bg:#0B0F14; --panel:#121820; --ink:#E9EEF3; --body:#BEC8D3; --muted:#87919E;
+  --rule:#212A35; --rule-soft:#18202A;
+  --accent:#4BBBAB; --accent-soft:#0E211E;
+  --good:#5FBF9C; --good-bg:#0E1F1A; --good-rule:#1E4237;
+  --warn:#D6AB57; --warn-bg:#201A0D; --warn-rule:#463818;
+  --bad:#E2825B; --bad-bg:#231410; --bad-rule:#472619;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--body);font-family:var(--sans);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+.wrap{max-width:880px;margin:0 auto;padding:0 24px 100px}
+h1,h2,h3{color:var(--ink);margin:0;text-wrap:balance}
+h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.1rem,5.4vw,3.3rem);line-height:1.1;letter-spacing:-.015em}
+h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.35rem,3vw,1.75rem);line-height:1.25;margin:0 0 6px}
+h3{font-family:var(--mono);font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+p{margin:0 0 16px;max-width:68ch}
+strong{color:var(--ink);font-weight:600}
+a{color:var(--accent)}
+code{font-family:var(--mono);font-size:.86em;background:var(--rule-soft);padding:.1em .38em;border-radius:4px;color:var(--ink)}
+section{margin:0 0 48px}
+
+header{border-bottom:1px solid var(--rule);padding:56px 0 32px;margin-bottom:44px}
+.kicker{font-family:var(--mono);font-size:.71rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);display:flex;gap:16px;flex-wrap:wrap;margin-bottom:22px}
+.standfirst{font-family:var(--serif);font-size:1.22rem;line-height:1.55;margin-top:22px;max-width:62ch;color:var(--body)}
+.standfirst em{color:var(--ink);font-style:italic}
+
+.verdict{border:1px solid var(--warn-rule);background:var(--warn-bg);border-radius:10px;padding:26px 26px 22px;margin:0 0 14px}
+.verdict .tag{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--warn);margin-bottom:8px}
+.verdict h2{font-size:clamp(1.55rem,4vw,2rem)}
+.verdict p{margin:10px 0 0;color:var(--body)}
+
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:0 0 12px}
+.metric{background:var(--panel);border:1px solid var(--rule);border-radius:9px;padding:18px}
+.metric-n{font-family:var(--mono);font-size:1.85rem;font-weight:600;color:var(--ink);line-height:1.05;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.metric-l{font-size:.84rem;color:var(--body);margin-top:5px}
+.metric-s{font-size:.74rem;color:var(--muted);margin-top:3px}
+.caption{font-size:.83rem;color:var(--muted);max-width:66ch;margin:0 0 34px}
+
+.tw{overflow-x:auto;border:1px solid var(--rule);border-radius:9px;background:var(--panel);margin:0 0 12px}
+table{border-collapse:collapse;width:100%;font-size:.87rem;min-width:480px}
+th{text-align:left;font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600;padding:11px 15px;border-bottom:1px solid var(--rule);background:var(--rule-soft);white-space:nowrap}
+td{padding:11px 15px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+tr:last-child td{border-bottom:none}
+td:first-child{color:var(--ink)}
+.n{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.good{color:var(--good);font-weight:600}
+.bad{color:var(--bad);font-weight:600}
+.warnc{color:var(--warn);font-weight:600}
+
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0 0 12px}
+@media(max-width:680px){.cols{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--rule);border-radius:9px;padding:18px}
+.card.yes{border-color:var(--good-rule);background:var(--good-bg)}
+.card.no{border-color:var(--bad-rule);background:var(--bad-bg)}
+.card ul{margin:0;padding-left:18px;font-size:.9rem}
+.card li{margin-bottom:7px}
+.card.yes h3{color:var(--good)}
+.card.no h3{color:var(--bad)}
+
+blockquote{margin:0 0 14px;padding:14px 18px;background:var(--panel);border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:8px;font-family:var(--serif);font-size:1.02rem;line-height:1.55;color:var(--ink)}
+blockquote cite{display:block;margin-top:8px;font-family:var(--sans);font-style:normal;font-size:.78rem;color:var(--muted)}
+
+pre{background:var(--panel);border:1px solid var(--rule);border-radius:9px;padding:16px;overflow-x:auto;font-family:var(--mono);font-size:.78rem;line-height:1.7;color:var(--body);margin:0 0 12px}
+pre .hl{color:var(--bad);font-weight:600}
+pre .ok{color:var(--good);font-weight:600}
+
+.chain{list-style:none;padding:0;margin:0 0 14px}
+.chain li{position:relative;padding:11px 0 11px 34px;border-bottom:1px solid var(--rule-soft);font-size:.93rem}
+.chain li:last-child{border-bottom:none}
+.chain li:before{content:"→";position:absolute;left:6px;top:11px;color:var(--accent);font-family:var(--mono)}
+
+footer{border-top:1px solid var(--rule);padding-top:26px;margin-top:56px;font-size:.83rem;color:var(--muted)}
+.hashes{font-family:var(--mono);font-size:.73rem;line-height:2}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="kicker"><span>Introw Partner Intelligence</span><span>Product Validation</span><span>24 Aug 2026</span></div>
+  <h1>It reads pages a seller<br>wouldn't find. It cannot<br>tell a live programme<br>from a dead one.</h1>
+  <p class="standfirst">After four research phases proved that ranking partner-program prospects couldn't be supported by public evidence, the product became an evidence assistant. This is what it does, what it measurably saves, and the two limits that no further engineering will close.</p>
+</header>
+
+<section>
+  <div class="verdict">
+    <div class="tag">Verdict</div>
+    <h2>Product ready with limitations</h2>
+    <p>A reviewer with only the dossiers resolved <strong>two-thirds of a fresh, deliberately mixed sample with zero web retrievals</strong>. The structural failure that ended the previous phase — competitors ranked above prospects — is closed and verified by a directional test. Two rounds of adversarial review found sixteen defects; fifteen are fixed and the sixteenth is corrected in the claims rather than defended.</p>
+    <p>The limitation that matters is not in the list below: <strong>no real seller has used it yet.</strong> Every number here comes from language models standing in for sellers.</p>
+  </div>
+</section>
+
+<section>
+  <h3>Measured on a sample frozen before any dossier was built</h3>
+  <div class="metrics">
+    <div class="metric"><div class="metric-n">16<span style="color:var(--muted);font-size:1.1rem">/24</span></div><div class="metric-l">Defensible decisions from the dossier alone</div><div class="metric-s">zero external retrievals</div></div>
+    <div class="metric"><div class="metric-n">75 → 33</div><div class="metric-l">External retrievals needed</div><div class="metric-s">56% reduction</div></div>
+    <div class="metric"><div class="metric-n">16<span style="color:var(--muted);font-size:1.1rem">/24</span></div><div class="metric-l">Same direction as manual research</div><div class="metric-s">14/24 identical outcome</div></div>
+    <div class="metric"><div class="metric-n">0</div><div class="metric-l">Competitors reaching a seller from the top volume band</div><div class="metric-s">Phase 3: 8 of 9 promoted</div></div>
+  </div>
+  <p class="caption">24 companies, sha256 <code>9d5a8ef4d17d4633</code>, none appearing in any prior benchmark. Four isolated reviewers: two researched the web with only company names, two read only the dossiers with browsing prohibited. Both arms covered all 24, so the comparison is paired.</p>
+</section>
+
+<section>
+  <h2>The failure that ended the last phase is closed</h2>
+  <p>Phase 3's model promoted companies because they published more partner content. Nine of the ten accounts clearing nine observations were PRM vendors — because a PRM vendor publishes more partner copy than anyone alive — and eight of those nine were promoted.</p>
+  <p>Correlation alone turned out to be the wrong test. An account with zero evidence can't be reviewed, so "has evidence" will always predict "forwarded". The audit now separates the trivial dependence from the harmful one:</p>
+  <div class="tw"><table>
+    <thead><tr><th>Measure</th><th class="n">Value</th></tr></thead>
+    <tbody>
+      <tr><td>Correlation with raw observation count</td><td class="n">0.68</td></tr>
+      <tr><td>Correlation with <em>independent source</em> count</td><td class="n good">0.79</td></tr>
+      <tr><td>Correlation excluding zero-evidence accounts</td><td class="n good">−0.06</td></tr>
+      <tr><td>Known partner-tech vendors in the top volume band</td><td class="n good">0</td></tr>
+      <tr><td>…of those, forwarded to a seller</td><td class="n good">0</td></tr>
+    </tbody>
+  </table></div>
+  <p class="caption">The near-zero correlation once empty accounts are excluded shows the headline number is almost entirely trivial. The directional test is the one that matters: Phase 3's harm wasn't that volume predicted promotion, it was that volume selected for <em>competitors</em>. It no longer does.</p>
+</section>
+
+<section>
+  <h2>What it may and may not claim</h2>
+  <div class="cols">
+    <div class="card yes">
+      <h3>Supported</h3>
+      <ul>
+        <li>It reads pages a seller wouldn't find — partner terms and conditions, academy articles explaining how partners get paid</li>
+        <li>Every sentence carries its source and the limits of what that source proves</li>
+        <li>It removed the need for external research on two-thirds of a mixed sample</li>
+        <li>It never invented what it did not know</li>
+      </ul>
+    </div>
+    <div class="card no">
+      <h3>Not supported</h3>
+      <ul>
+        <li>That it saves seller <em>time</em> — retrievals were measured, minutes were not</li>
+        <li>That it filters competitors — on this sample the classifier was a lookup table</li>
+        <li>That it's more than a careful reading of one <code>/partners</code> page for 34 of 35 accounts</li>
+        <li>Any ordering, score, timing, or intent claim</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>The best thing it found</h2>
+  <p>Trengo's own partner terms, quoted verbatim inside its own dossier:</p>
+  <blockquote>
+    “Affiliate Partner Portal: means the <strong>Kiflo</strong> portal the Affiliate Partner has acquired an account for.”
+    <cite>trengo.com/partner-terms-and-conditions</cite>
+  </blockquote>
+  <p>Kiflo is a direct Introw competitor. This prospect already pays one. The systems panel directly above that quote said <code>unknown</code>, because platform detection read only DNS — a red-team panel caught it. Text-side detection over pages already fetched now runs, and Trengo reads <code>competitor_prm_confirmed · Kiflo</code>, sourced to that line.</p>
+  <p>It is the most commercially decisive single fact in the dataset, and it was sitting in the file unread.</p>
+</section>
+
+<section>
+  <h2>What the red team broke</h2>
+  <p>Three independent panels, eight roles, no contact between them, told to verify claims in code rather than trust comments. They found substantially more than the blind reviewers did. The central defect was mine:</p>
+  <pre>construct state computed BEFORE the attribution guard
+construct evidence filtered AFTER it
+
+  commercial_materiality: <span class="hl">strong_proxy</span>
+  Source quality: <span class="hl">0 distinct claims from 0 independent sources</span>
+  (no evidence collected for this construct)</pre>
+  <p>The guard, built to stop keyword false positives, made this <em>worse</em>: it removed the quote a careful reader used to catch the error and left the confident label standing alone. States now collapse to <code>unknown</code> without surviving evidence — <span class="good">0 unsourced labels remain</span>.</p>
+
+  <h3>Fifteen fixed</h3>
+  <ul class="chain">
+    <li><strong>The <code>/glossary/reseller</code> bug lived in a third file.</strong> Juro's entire "reseller motion" was a free downloadable contract template; Sana's "distributor motion" a customer case study about a dental wholesaler. Content-path exclusion now covers programmes, surfaces and directory — 0 remain.</li>
+    <li><strong>Surfaces were discarded when no programme was detected.</strong> Eight dossiers asserted "visible partner workflows include…" with every quote dropped — including a food-delivery app credited with partner certification.</li>
+    <li><strong><code>\bVAR\b/i</code> matches the Swedish and Dutch word "var"</strong> (was/where), in a corpus that is half Nordic and reads <code>/nl/partners</code>.</li>
+    <li><strong>Catastrophic backtracking</strong> in text cleaning: <span class="bad">8,848ms</span> → <span class="good">18ms</span> on a 24k-character selector run, inside every page fetch, with no timeout.</li>
+    <li><strong>"Last checked" was the assembly clock</strong> over a cache with no expiry — 78% of fetches predated the build day.</li>
+    <li><strong>Two promotion rules shipped in one codebase</strong>, and the dossier used the laxer one, so an account reached the top state with <code>operational_surface: unknown</code> — the one construct that says whether Introw would have anything to do.</li>
+    <li><strong>Competitors sat in the review queue labelled "Ready for review"</strong> — the workflow mapping had no branch for suppression, discarding the one machine judgement that demonstrably works.</li>
+    <li><strong>28 of 35 rows rendered green</strong> for a category state that is the absence of a signal, not evidence of fit.</li>
+    <li><strong>Rationale silently discarded</strong> on keyboard review; confidence decorative; no queue advance; five of six dashboard tiles were fake filters.</li>
+  </ul>
+
+  <h3>One corrected instead of defended</h3>
+  <p>“Never wrongly excluded a genuine target” was close to a tautology — <code>likely_target_category</code> is the unconditional fallthrough, so a target can only be excluded if a disqualifying rule misfires. Thirteen cases with zero failures bounds the true error at <strong>~21%</strong>, not 0%. Corrected in the measured record, the code, the interface and the seller-facing preamble.</p>
+</section>
+
+<section>
+  <h2>What no engineering will fix</h2>
+  <blockquote>
+    “This system does not model partner programmes. It models partner web pages. A company that launched a programme in 2021, recruited nine agencies, closed two deals and quietly stopped staffing it has exactly the same page today as a company doing 40% partner-sourced ARR.”
+    <cite>Red team — channel expert</cite>
+  </blockquote>
+  <p>That objection is correct. Every state in this product is a function of published intent; none is a function of activity. The discriminating facts — partner-sourced revenue share, active-versus-registered ratio, deal-registration volume — are all behind the partner login, and the product says so rather than guessing.</p>
+  <p>Alongside it, the reader-care problem, which two blind reviewers reached independently in almost the same words:</p>
+  <blockquote>
+    “A seller cannot safely skim the summaries — and skimming summaries is exactly what a seller with 200 accounts will do.”
+    <cite>Blind reviewer, assistant arm</cite>
+  </blockquote>
+  <p>A format that is self-correcting <em>for a careful reader</em> is only as safe as the reader's care. The defects behind that quote are fixed; the structural risk it describes is not.</p>
+</section>
+
+<section>
+  <h2>Recommended next step</h2>
+  <p>Not another research phase. Put it in front of <strong>one real Introw seller for one afternoon</strong>, on accounts they were already going to research. Every number in this report comes from language models substituting for sellers — that substitution is the single largest weakness here, and one afternoon with a real rep would replace it.</p>
+</section>
+
+<footer>
+  <p>35 real dossiers, ~7,500 lines of TypeScript, 97 tests including 13 executable product invariants enforcing the semantic rules — no score field, no absence-as-negative, no change on a first observation, every observation attributed.</p>
+  <p class="hashes">
+    validation-sample.v1.json &nbsp;<strong>9d5a8ef4d17d4633</strong><br>
+    holdout.v2.json &nbsp;<strong>9b723cd4e29554c9</strong><br>
+    holdout.v3.json &nbsp;<strong>2401b7ff8c178ce2</strong>
+  </p>
+  <p>Category classifier: 57% recall on partner-tech vendors · CRM detection: 33% against a guaranteed-positive control, Salesforce never once · public person evidence: 2 of 18 · temporal: baseline only, 0% false-positive floor.</p>
+</footer>
+</div>
