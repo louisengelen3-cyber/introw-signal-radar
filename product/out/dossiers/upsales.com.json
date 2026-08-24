@@ -2,11 +2,11 @@
   "domain": "upsales.com",
   "companyName": "Upsales",
   "selfDescription": {
-    "text": "Upsales CRM helps companies generate more leads, drive an effective sales process, and unlock upselling opportunities from existing clients.&#xA;&#xA;",
+    "text": "Upsales CRM helps companies generate more leads, drive an effective sales process, and unlock upselling opportunities from existing clients.",
     "sourceUrl": "https://www.upsales.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:26:40.359Z",
+  "builtAt": "2026-08-24T11:28:39.827Z",
   "oldestEvidenceAt": "2026-08-24T07:35:43.336Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -25,7 +25,7 @@
       },
       {
         "kind": "ordinary_product_identity",
-        "quote": "Upsales CRM helps companies generate more leads, drive an effective sales process, and unlock upselling opportunities from existing clients.&#xA;&#xA;",
+        "quote": "Upsales CRM helps companies generate more leads, drive an effective sales process, and unlock upselling opportunities from existing clients.",
         "url": "https://www.upsales.com",
         "sourceType": "meta_description",
         "matched": "(no disqualifying category signal)"
@@ -187,8 +187,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:26:40.359Z",
-    "lastCheckedAt": "2026-08-24T11:26:40.359Z",
+    "baselineAt": "2026-08-24T11:28:39.827Z",
+    "lastCheckedAt": "2026-08-24T11:28:39.827Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -297,7 +297,7 @@
       "status": 200
     }
   ],
-  "commercialSummary": "Upsales describes itself as \"Upsales CRM helps companies generate more leads, drive an effective sales process, and unlock upselling opportunities from existing clients.&#xA;&#xA\". No partner programme type could be identified; 13 conventional partner paths were tried and none returned a readable partner page. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
+  "commercialSummary": "Upsales describes itself as \"Upsales CRM helps companies generate more leads, drive an effective sales process, and unlock upselling opportunities from existing clients\". No partner programme type could be identified; 13 conventional partner paths were tried and none returned a readable partner page. Public evidence does not establish CRM, partner platform or partner-team size. Public evidence is sparse, so manual research is likely to be required — this is a limit of what the company publishes, not a judgement about it.",
   "machineInterpretation": {
     "state": "under_observed",
     "disclaimer": "Machine interpretation of collected evidence. Not a commercial verdict, not a prediction, and not comparable across companies.",

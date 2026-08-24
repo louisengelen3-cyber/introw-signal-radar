@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-24T11:26:52.727Z",
+ "generatedAt": "2026-08-24T11:28:53.321Z",
  "count": 35,
  "monitoringSince": "2026-08-23",
  "accounts": [
@@ -172,7 +172,7 @@
    "contradictions": 1,
    "researchTasks": 4,
    "topUnknown": "What does this company sell?",
-   "retrievedAt": "2026-08-24T11:26:34.845Z",
+   "retrievedAt": "2026-08-24T11:28:34.236Z",
    "sourceHealthOk": 1,
    "sourceHealthTotal": 3
   },
@@ -311,7 +311,7 @@
    "contradictions": 0,
    "researchTasks": 4,
    "topUnknown": "Does this company run a partner programme at all?",
-   "retrievedAt": "2026-08-24T11:26:45.521Z",
+   "retrievedAt": "2026-08-24T11:28:45.118Z",
    "sourceHealthOk": 0,
    "sourceHealthTotal": 2
   },
@@ -338,7 +338,7 @@
    "contradictions": 0,
    "researchTasks": 4,
    "topUnknown": "Does this company run a partner programme at all?",
-   "retrievedAt": "2026-08-24T11:26:35.350Z",
+   "retrievedAt": "2026-08-24T11:28:34.736Z",
    "sourceHealthOk": 0,
    "sourceHealthTotal": 2
   },
@@ -429,7 +429,7 @@
   {
    "domain": "glovoapp.com",
    "companyName": "Glovo",
-   "selfDescription": "Glovo is the food delivery site that will get you anything you want to your doorstep. You order online, you&#x27;ll have it!",
+   "selfDescription": "Glovo is the food delivery site that will get you anything you want to your doorstep. You order online, you'll have it!",
    "category": "supply_side_marketplace",
    "onCompetitorList": false,
    "machineState": "suppression_candidate",
@@ -504,7 +504,7 @@
    "researchTasks": 3,
    "topUnknown": "Does this company run a partner programme at all?",
    "retrievedAt": "2026-08-23T08:48:52.121Z",
-   "sourceHealthOk": 13,
+   "sourceHealthOk": 12,
    "sourceHealthTotal": 28
   },
   {
@@ -876,7 +876,7 @@
   {
    "domain": "upsales.com",
    "companyName": "Upsales",
-   "selfDescription": "Upsales CRM helps companies generate more leads, drive an effective sales process, and unlock upselling opportunities from existing clients.&#xA;&#xA;",
+   "selfDescription": "Upsales CRM helps companies generate more leads, drive an effective sales process, and unlock upselling opportunities from existing clients.",
    "category": "likely_target_category",
    "onCompetitorList": false,
    "machineState": "under_observed",

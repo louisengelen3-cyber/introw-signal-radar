@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.deloitte.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:26:46.033Z",
+  "builtAt": "2026-08-24T11:28:45.633Z",
   "oldestEvidenceAt": "2026-08-21T13:59:36.539Z",
   "category": {
     "whyItMatters": "The company is a professional-services firm; its \"partners\" are frequently equity partners or alliance memberships.",
@@ -180,8 +180,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:26:46.033Z",
-    "lastCheckedAt": "2026-08-24T11:26:46.033Z",
+    "baselineAt": "2026-08-24T11:28:45.633Z",
+    "lastCheckedAt": "2026-08-24T11:28:45.633Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

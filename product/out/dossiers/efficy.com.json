@@ -3,8 +3,8 @@
   "companyName": "Efficy",
   "selfDescription": null,
   "geography": null,
-  "builtAt": "2026-08-24T11:26:35.350Z",
-  "oldestEvidenceAt": "2026-08-24T11:26:35.350Z",
+  "builtAt": "2026-08-24T11:28:34.736Z",
+  "oldestEvidenceAt": "2026-08-24T11:28:34.736Z",
   "category": {
     "whyItMatters": "No identity-bearing surface could be read, so the company category is not established.",
     "whyItMayNotMatter": "This says nothing about the company — only about our retrieval.",
@@ -169,8 +169,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:26:35.350Z",
-    "lastCheckedAt": "2026-08-24T11:26:35.350Z",
+    "baselineAt": "2026-08-24T11:28:34.736Z",
+    "lastCheckedAt": "2026-08-24T11:28:34.736Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

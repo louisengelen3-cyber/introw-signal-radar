@@ -40,8 +40,7 @@
  *   thousand both yield one self-description.
  */
 
-import { get } from '../lib/http.js';
-import { mainContent, stripTags } from './collect.js';
+import { decodeEntities, get, mainContent, stripTags } from '../lib/http.js';
 
 export type PositioningSourceType =
   | 'meta_description' | 'og_description' | 'title_tag'
@@ -75,11 +74,8 @@ function metaOf(html: string, prop: string): string | null {
   return m ? decodeEntities(m[1]).trim() : null;
 }
 
-function decodeEntities(s: string): string {
-  return s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"').replace(/&#0?39;|&apos;|&rsquo;/g, "'").replace(/&nbsp;/g, ' ')
-    .replace(/&#(\d+);/g, (_, d) => String.fromCharCode(Number(d)));
-}
+/* Entity decoding is shared with the HTML pipeline — the local copy here handled the
+ * decimal form but not the hex one, so `you&#x27;ll` reached a commercial summary. */
 
 /**
  * The hero is the first substantial line of body copy. Nav chrome is stripped first —

@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.vinted.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:26:41.614Z",
+  "builtAt": "2026-08-24T11:28:40.904Z",
   "oldestEvidenceAt": "2026-08-24T07:36:10.129Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -187,8 +187,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:26:41.614Z",
-    "lastCheckedAt": "2026-08-24T11:26:41.614Z",
+    "baselineAt": "2026-08-24T11:28:40.904Z",
+    "lastCheckedAt": "2026-08-24T11:28:40.904Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

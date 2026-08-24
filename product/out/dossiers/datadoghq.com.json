@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.datadoghq.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:26:43.653Z",
+  "builtAt": "2026-08-24T11:28:43.296Z",
   "oldestEvidenceAt": "2026-08-23T07:46:21.999Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -187,8 +187,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:26:43.653Z",
-    "lastCheckedAt": "2026-08-24T11:26:43.653Z",
+    "baselineAt": "2026-08-24T11:28:43.296Z",
+    "lastCheckedAt": "2026-08-24T11:28:43.296Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

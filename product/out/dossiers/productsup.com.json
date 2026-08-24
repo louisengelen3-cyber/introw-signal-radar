@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.productsup.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:26:40.018Z",
+  "builtAt": "2026-08-24T11:28:39.431Z",
   "oldestEvidenceAt": "2026-08-24T07:35:41.706Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -176,7 +176,7 @@
           "quote": "js.hsforms.net",
           "sourceUrl": "https://productsup.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T11:26:40.018Z",
+          "retrievedAt": "2026-08-24T11:28:39.431Z",
           "strength": "confirmed",
           "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
           "doesNotProve": "that opportunities and partner deals are managed there"
@@ -186,7 +186,7 @@
           "quote": "hubspotusercontent",
           "sourceUrl": "https://productsup.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T11:26:40.018Z",
+          "retrievedAt": "2026-08-24T11:28:39.431Z",
           "strength": "strong_proxy",
           "proves": "HubSpot-hosted assets or analytics are in use",
           "doesNotProve": "which HubSpot products are licensed"
@@ -208,8 +208,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:26:40.018Z",
-    "lastCheckedAt": "2026-08-24T11:26:40.018Z",
+    "baselineAt": "2026-08-24T11:28:39.431Z",
+    "lastCheckedAt": "2026-08-24T11:28:39.431Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
