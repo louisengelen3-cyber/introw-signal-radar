@@ -7,7 +7,7 @@
       "sourceUrl": "https://www.getaccept.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:24.017Z",
+    "builtAt": "2026-08-24T11:12:50.742Z",
     "oldestEvidenceAt": "2026-08-24T07:33:14.186Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -47,7 +47,7 @@
             "quote": "Become a partner Grow your business by building integrations Let's add value for our mutual customers",
             "sourceUrl": "https://www.getaccept.com/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.018Z",
+            "retrievedAt": "2026-08-24T11:12:50.743Z",
             "strength": "strong_proxy",
             "proves": "the company pitches partner participation as revenue for the partner",
             "doesNotProve": "that any partner earns it, or that the company tracks it",
@@ -94,7 +94,7 @@
             "quote": "GetAccept partner programs Globally recognized and trusted by over 5,000 customers, GetAccept",
             "sourceUrl": "https://www.getaccept.com/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.018Z",
+            "retrievedAt": "2026-08-24T11:12:50.743Z",
             "strength": "strong_proxy",
             "proves": "the company runs more than one distinct partner track",
             "doesNotProve": "that they share an owner or a system",
@@ -127,7 +127,7 @@
             "quote": "You earn a kickback if an opportunity is qualified and closed within the specified time frame.",
             "sourceUrl": "https://www.getaccept.com/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.018Z",
+            "retrievedAt": "2026-08-24T11:12:50.743Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -139,7 +139,7 @@
             "quote": "Vous gagnez un bonus si une opportunité est qualifiée et conclue dans le délai indiqué.",
             "sourceUrl": "https://www.getaccept.com/fr/partenaires",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.018Z",
+            "retrievedAt": "2026-08-24T11:12:50.743Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -228,13 +228,13 @@
             "quote": "hubspotusercontent",
             "sourceUrl": "https://getaccept.com/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:24.017Z",
+            "retrievedAt": "2026-08-24T11:12:50.742Z",
             "strength": "strong_proxy",
             "proves": "HubSpot-hosted assets or analytics are in use",
             "doesNotProve": "which HubSpot products are licensed"
           }
         ],
-        "note": "hubspot evidence at strong_proxy (hs_analytics)"
+        "note": "A probable HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
       },
       "prm": {
         "state": "unknown",
@@ -250,8 +250,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:24.017Z",
-      "lastCheckedAt": "2026-08-24T11:04:24.017Z",
+      "baselineAt": "2026-08-24T11:12:50.742Z",
+      "lastCheckedAt": "2026-08-24T11:12:50.742Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -392,7 +392,7 @@
       "sourceUrl": "https://www.planhat.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:24.024Z",
+    "builtAt": "2026-08-24T11:12:50.750Z",
     "oldestEvidenceAt": "2026-08-24T07:33:14.188Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -428,11 +428,11 @@
         "state": "confirmed",
         "evidence": [
           {
-            "id": "o13",
+            "id": "o1",
             "quote": "As an IT Services Partner, you'll get co-sell support, joint pipeline opportunities, and a platform built for",
             "sourceUrl": "https://www.planhat.com/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.024Z",
+            "retrievedAt": "2026-08-24T11:12:50.750Z",
             "strength": "confirmed",
             "proves": "the company describes partners selling or reselling its product",
             "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -440,11 +440,11 @@
             "alsoSeenAt": []
           },
           {
-            "id": "o14",
+            "id": "o2",
             "quote": "In return, you'll grow your Planhat expertise, win new business, and expand what you can offer.",
             "sourceUrl": "https://www.planhat.com/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.024Z",
+            "retrievedAt": "2026-08-24T11:12:50.750Z",
             "strength": "confirmed",
             "proves": "the company describes partners bringing it leads, deals or customers",
             "doesNotProve": "the number of deals, or that a process exists to handle them",
@@ -470,11 +470,11 @@
         "state": "direct",
         "evidence": [
           {
-            "id": "o15",
+            "id": "o3",
             "quote": "Planhat | Partner with Us partners We’re stronger together We work with software providers,",
             "sourceUrl": "https://www.planhat.com/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.024Z",
+            "retrievedAt": "2026-08-24T11:12:50.750Z",
             "strength": "strong_proxy",
             "proves": "the company invites organisations to join a programme it runs",
             "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -482,11 +482,11 @@
             "alsoSeenAt": []
           },
           {
-            "id": "o16",
+            "id": "o4",
             "quote": "Solution Partners Deliver consulting services — business insight, data mapping,",
             "sourceUrl": "https://www.planhat.com/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.024Z",
+            "retrievedAt": "2026-08-24T11:12:50.750Z",
             "strength": "strong_proxy",
             "proves": "the company distinguishes and manages more than one kind of partner",
             "doesNotProve": "how many partners exist in each type",
@@ -532,11 +532,11 @@
         "state": "confirmed",
         "evidence": [
           {
-            "id": "o17",
+            "id": "o5",
             "quote": "Planhat | Partner with Us partners We’re stronger together We work with software providers, consultants, and investors to help",
             "sourceUrl": "https://www.planhat.com/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.024Z",
+            "retrievedAt": "2026-08-24T11:12:50.750Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -585,11 +585,11 @@
         "state": "confirmed",
         "evidence": [
           {
-            "id": "o18",
+            "id": "o6",
             "quote": "As an IT Services Partner, you'll get co-sell support, joint pipeline opportunities, and a platform built for scale.",
             "sourceUrl": "https://www.planhat.com/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.024Z",
+            "retrievedAt": "2026-08-24T11:12:50.750Z",
             "strength": "strong_proxy",
             "proves": "the company describes selling alongside partners",
             "doesNotProve": "that co-selling is systematised",
@@ -649,8 +649,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:24.024Z",
-      "lastCheckedAt": "2026-08-24T11:04:24.024Z",
+      "baselineAt": "2026-08-24T11:12:50.750Z",
+      "lastCheckedAt": "2026-08-24T11:12:50.750Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -802,7 +802,7 @@
       "sourceUrl": "https://trengo.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:24.031Z",
+    "builtAt": "2026-08-24T11:12:50.756Z",
     "oldestEvidenceAt": "2026-08-24T07:33:14.190Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -855,11 +855,11 @@
         "state": "direct",
         "evidence": [
           {
-            "id": "o1",
+            "id": "o7",
             "quote": "Apply to become a partner value More value for your customers Make customer communication",
             "sourceUrl": "https://trengo.com/partners/tech",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.031Z",
+            "retrievedAt": "2026-08-24T11:12:50.756Z",
             "strength": "strong_proxy",
             "proves": "the company invites organisations to join a programme it runs",
             "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -867,11 +867,11 @@
             "alsoSeenAt": []
           },
           {
-            "id": "o2",
+            "id": "o8",
             "quote": "Learn more For agencies & service partners Your clients need a AI Customer Communication tool.",
             "sourceUrl": "https://trengo.com/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.031Z",
+            "retrievedAt": "2026-08-24T11:12:50.756Z",
             "strength": "strong_proxy",
             "proves": "the company distinguishes and manages more than one kind of partner",
             "doesNotProve": "how many partners exist in each type",
@@ -897,11 +897,11 @@
         "state": "moderate",
         "evidence": [
           {
-            "id": "o3",
+            "id": "o9",
             "quote": "1.7. Lead Registration Form: means the (electronic) form as provided by Trengo which",
             "sourceUrl": "https://trengo.com/partner-terms-and-conditions",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.031Z",
+            "retrievedAt": "2026-08-24T11:12:50.756Z",
             "strength": "strong_proxy",
             "proves": "partners participate in the sales process through a defined intake",
             "doesNotProve": "that the company is unhappy with how it handles them today",
@@ -909,11 +909,11 @@
             "alsoSeenAt": []
           },
           {
-            "id": "o4",
+            "id": "o10",
             "quote": "termination without cause by either party: any applicable Commission accrued in accordance with the terms of the Partner Terms prior to",
             "sourceUrl": "https://trengo.com/partner-terms-and-conditions",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.031Z",
+            "retrievedAt": "2026-08-24T11:12:50.756Z",
             "strength": "strong_proxy",
             "proves": "the company pays partners for commercial outcomes",
             "doesNotProve": "the size of the payments or how they are calculated",
@@ -941,11 +941,11 @@
         "publishedName": null,
         "evidence": [
           {
-            "id": "o5",
+            "id": "o11",
             "quote": "Apply today Tech Connect with quality Trengo is built to enable top-quality integrations. As an integration partner, you will receive hands-on technical support and be featured on our Integrations Hub.",
             "sourceUrl": "https://trengo.com/partners/tech",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.031Z",
+            "retrievedAt": "2026-08-24T11:12:50.756Z",
             "strength": "strong_proxy",
             "proves": "the company uses integration partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -960,11 +960,11 @@
         "publishedName": "Trengo Partner Program",
         "evidence": [
           {
-            "id": "o6",
+            "id": "o12",
             "quote": "1. Technology Partners 1.1 No commission applies, unless Trengo and Partner separately agree otherwise in writing",
             "sourceUrl": "https://trengo.com/partner-terms-and-conditions",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.031Z",
+            "retrievedAt": "2026-08-24T11:12:50.756Z",
             "strength": "strong_proxy",
             "proves": "the company uses technology partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -983,11 +983,11 @@
         "state": "confirmed",
         "evidence": [
           {
-            "id": "o7",
+            "id": "o13",
             "quote": "Apply to become a partner value More value for your customers Make customer communication easy for your customers.",
             "sourceUrl": "https://trengo.com/partners/tech",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.031Z",
+            "retrievedAt": "2026-08-24T11:12:50.756Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -995,11 +995,11 @@
             "alsoSeenAt": []
           },
           {
-            "id": "o8",
+            "id": "o14",
             "quote": "1.3 Provided that the Partner has successfully completed the registration procedure to become a partner of Trengo, followed by acceptance by Trengo, the Partner shall be granted the rights associated with",
             "sourceUrl": "https://trengo.com/partner-terms-and-conditions",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.031Z",
+            "retrievedAt": "2026-08-24T11:12:50.756Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -1055,11 +1055,11 @@
         "state": "confirmed",
         "evidence": [
           {
-            "id": "o9",
+            "id": "o15",
             "quote": "1.10. Affiliate Partner Portal: means the Kiflo portal the Affiliate Partner has acquired an account for. 2. How to refer Leads 2.1.",
             "sourceUrl": "https://trengo.com/partner-terms-and-conditions",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.031Z",
+            "retrievedAt": "2026-08-24T11:12:50.756Z",
             "strength": "strong_proxy",
             "proves": "partners have an authenticated destination",
             "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -1101,38 +1101,38 @@
         "state": "hubspot_confirmed",
         "evidence": [
           {
-            "id": "o10",
+            "id": "o16",
             "quote": "js.hs-scripts.com/7219685.js",
             "sourceUrl": "https://trengo.com/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:24.031Z",
+            "retrievedAt": "2026-08-24T11:12:50.756Z",
             "strength": "confirmed",
             "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
             "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
           },
           {
-            "id": "o11",
+            "id": "o17",
             "quote": "js.hsforms.net",
             "sourceUrl": "https://trengo.com/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:24.031Z",
+            "retrievedAt": "2026-08-24T11:12:50.756Z",
             "strength": "confirmed",
             "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
             "doesNotProve": "that opportunities and partner deals are managed there"
           }
         ],
-        "note": "hubspot evidence at confirmed (hs_tracking_portal)"
+        "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
       },
       "prm": {
         "state": "competitor_prm_confirmed",
         "vendor": "Kiflo",
         "evidence": [
           {
-            "id": "o12",
+            "id": "o18",
             "quote": "c) all required information regarding the Lead has been submitted by Affiliate Partner. 1.10. Affiliate Partner Portal: means the Kiflo portal the Affiliate Partner has acquired an account for. 2. How to refer Leads 2.1. During the term and subject to the terms the",
             "sourceUrl": "https://trengo.com/partner-terms-and-conditions",
             "sourceType": "partner_page_text",
-            "retrievedAt": "2026-08-24T11:04:24.031Z",
+            "retrievedAt": "2026-08-24T11:12:50.756Z",
             "strength": "strong_proxy",
             "proves": "a partner-facing page on this site names Kiflo as a platform in use",
             "doesNotProve": "that it is currently deployed, the only platform, or anything about satisfaction, contract timing or willingness to switch"
@@ -1148,8 +1148,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:24.031Z",
-      "lastCheckedAt": "2026-08-24T11:04:24.031Z",
+      "baselineAt": "2026-08-24T11:12:50.756Z",
+      "lastCheckedAt": "2026-08-24T11:12:50.756Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -1160,11 +1160,11 @@
           "claim": "A competitor PRM serves the partner surface.",
           "evidence": [
             {
-              "id": "o12",
+              "id": "o18",
               "quote": "c) all required information regarding the Lead has been submitted by Affiliate Partner. 1.10. Affiliate Partner Portal: means the Kiflo portal the Affiliate Partner has acquired an account for. 2. How to refer Leads 2.1. During the term and subject to the terms the",
               "sourceUrl": "https://trengo.com/partner-terms-and-conditions",
               "sourceType": "partner_page_text",
-              "retrievedAt": "2026-08-24T11:04:24.031Z",
+              "retrievedAt": "2026-08-24T11:12:50.756Z",
               "strength": "strong_proxy",
               "proves": "a partner-facing page on this site names Kiflo as a platform in use",
               "doesNotProve": "that it is currently deployed, the only platform, or anything about satisfaction, contract timing or willingness to switch"
@@ -1360,7 +1360,7 @@
       "sourceUrl": "https://oneflow.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:24.021Z",
+    "builtAt": "2026-08-24T11:12:50.747Z",
     "oldestEvidenceAt": "2026-08-24T07:33:14.187Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -1400,7 +1400,7 @@
             "quote": "New revenue streams Increase sales with existing customers and by expanding into new",
             "sourceUrl": "https://oneflow.com/partner/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.021Z",
+            "retrievedAt": "2026-08-24T11:12:50.747Z",
             "strength": "strong_proxy",
             "proves": "the company pitches partner participation as revenue for the partner",
             "doesNotProve": "that any partner earns it, or that the company tracks it",
@@ -1430,7 +1430,7 @@
             "quote": "Let’s create wonders, together. Become a partner Integration Partners Salesforce Q2C automation in Salesforce CRM",
             "sourceUrl": "https://oneflow.com/partner/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.021Z",
+            "retrievedAt": "2026-08-24T11:12:50.747Z",
             "strength": "strong_proxy",
             "proves": "the company invites organisations to join a programme it runs",
             "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -1442,7 +1442,7 @@
             "quote": "Our Solution Partners Let our partners help you implement and integrate custom projects,",
             "sourceUrl": "https://oneflow.com/partner-directory/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.021Z",
+            "retrievedAt": "2026-08-24T11:12:50.747Z",
             "strength": "strong_proxy",
             "proves": "the company distinguishes and manages more than one kind of partner",
             "doesNotProve": "how many partners exist in each type",
@@ -1454,7 +1454,7 @@
             "quote": "Access Oneflow’s partner playbooks, resources, and our partner team anytime.",
             "sourceUrl": "https://oneflow.com/partner/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.021Z",
+            "retrievedAt": "2026-08-24T11:12:50.747Z",
             "strength": "strong_proxy",
             "proves": "the company supplies partners with resources, enablement or a named contact",
             "doesNotProve": "that partners use them",
@@ -1484,7 +1484,7 @@
             "quote": "Partner Manager, HubSpot Solution Partners Bonana HubSpot Elite Partner Fluido Leading European Salesforce consultancy Knowit Nordic IT",
             "sourceUrl": "https://oneflow.com/partner/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.021Z",
+            "retrievedAt": "2026-08-24T11:12:50.747Z",
             "strength": "strong_proxy",
             "proves": "the company differentiates partners by commitment or performance",
             "doesNotProve": "how many partners sit in each tier",
@@ -1517,7 +1517,7 @@
             "quote": "Let’s create wonders, together. Become a partner Integration Partners Salesforce Q2C automation in Salesforce CRM and Revenue Cloud HubSpot Close deals and",
             "sourceUrl": "https://oneflow.com/partner/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.021Z",
+            "retrievedAt": "2026-08-24T11:12:50.747Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -1585,7 +1585,7 @@
             "quote": "Aron Gosselin Partner Manager, HubSpot Solution Partners Bonana HubSpot Elite Partner Fluido Leading European Salesforce consultancy Knowit Nordic IT consultancy Twoday Leading Nordic",
             "sourceUrl": "https://oneflow.com/partner/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.021Z",
+            "retrievedAt": "2026-08-24T11:12:50.747Z",
             "strength": "strong_proxy",
             "proves": "the programme distinguishes partners by level",
             "doesNotProve": "how many sit in each tier",
@@ -1630,8 +1630,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:24.021Z",
-      "lastCheckedAt": "2026-08-24T11:04:24.021Z",
+      "baselineAt": "2026-08-24T11:12:50.747Z",
+      "lastCheckedAt": "2026-08-24T11:12:50.747Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -1780,8 +1780,8 @@
     "companyName": "Channable",
     "selfDescription": null,
     "geography": null,
-    "builtAt": "2026-08-24T11:04:24.857Z",
-    "oldestEvidenceAt": "2026-08-24T11:04:24.857Z",
+    "builtAt": "2026-08-24T11:12:51.959Z",
+    "oldestEvidenceAt": "2026-08-24T11:12:51.959Z",
     "category": {
       "whyItMatters": "No identity-bearing surface could be read, so the company category is not established.",
       "whyItMayNotMatter": "This says nothing about the company — only about our retrieval.",
@@ -1822,7 +1822,7 @@
             "quote": "Contact Us Success Stories See all success stories Partners Become a partner Agency partner Boost growth, strategy and visibility Find a partner",
             "sourceUrl": "https://partners.channable.com/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.857Z",
+            "retrievedAt": "2026-08-24T11:12:51.959Z",
             "strength": "strong_proxy",
             "proves": "the company invites organisations to join a programme it runs",
             "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -1834,7 +1834,7 @@
             "quote": "growth, strategy and visibility Find a partner Explore agency partners Find agencies to manage campaigns Explore platform partners Get",
             "sourceUrl": "https://partners.channable.com/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.857Z",
+            "retrievedAt": "2026-08-24T11:12:51.959Z",
             "strength": "strong_proxy",
             "proves": "the company distinguishes and manages more than one kind of partner",
             "doesNotProve": "how many partners exist in each type",
@@ -1864,7 +1864,7 @@
             "quote": "Meet our team, your Agency Partnerships Manager Get matched Gold Partner nextlane® A Channable Gold Partner offering senior support.",
             "sourceUrl": "https://partners.channable.com/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.857Z",
+            "retrievedAt": "2026-08-24T11:12:51.959Z",
             "strength": "strong_proxy",
             "proves": "the company differentiates partners by commitment or performance",
             "doesNotProve": "how many partners sit in each tier",
@@ -1896,7 +1896,7 @@
             "quote": "Agency Partner Directory Channable Product List Feed Management Filter, enrich and optimize your product data for any online channel Marketplace",
             "sourceUrl": "https://partners.channable.com/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.857Z",
+            "retrievedAt": "2026-08-24T11:12:51.959Z",
             "strength": "strong_proxy",
             "proves": "the company uses agency partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -1917,7 +1917,7 @@
             "quote": "Support Demo Center Channable Academy Help Center Contact Us Success Stories See all success stories Partners Become a partner Agency partner Boost growth, strategy and visibility Find a partner Explore agency partners Find agencies",
             "sourceUrl": "https://partners.channable.com/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.857Z",
+            "retrievedAt": "2026-08-24T11:12:51.959Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -1985,7 +1985,7 @@
             "quote": "Meet our team, your Agency Partnerships Manager Get matched Gold Partner nextlane® A Channable Gold Partner offering senior support.",
             "sourceUrl": "https://partners.channable.com/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:24.857Z",
+            "retrievedAt": "2026-08-24T11:12:51.959Z",
             "strength": "strong_proxy",
             "proves": "the programme distinguishes partners by level",
             "doesNotProve": "how many sit in each tier",
@@ -2030,8 +2030,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:24.857Z",
-      "lastCheckedAt": "2026-08-24T11:04:24.857Z",
+      "baselineAt": "2026-08-24T11:12:51.959Z",
+      "lastCheckedAt": "2026-08-24T11:12:51.959Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -2122,8 +2122,8 @@
     "companyName": "Efficy",
     "selfDescription": null,
     "geography": null,
-    "builtAt": "2026-08-24T11:04:25.562Z",
-    "oldestEvidenceAt": "2026-08-24T11:04:25.562Z",
+    "builtAt": "2026-08-24T11:12:52.409Z",
+    "oldestEvidenceAt": "2026-08-24T11:12:52.409Z",
     "category": {
       "whyItMatters": "No identity-bearing surface could be read, so the company category is not established.",
       "whyItMayNotMatter": "This says nothing about the company — only about our retrieval.",
@@ -2288,8 +2288,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:25.562Z",
-      "lastCheckedAt": "2026-08-24T11:04:25.562Z",
+      "baselineAt": "2026-08-24T11:12:52.409Z",
+      "lastCheckedAt": "2026-08-24T11:12:52.409Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -2363,7 +2363,7 @@
       "sourceUrl": "https://www.apaleo.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:26.445Z",
+    "builtAt": "2026-08-24T11:12:53.389Z",
     "oldestEvidenceAt": "2026-08-24T07:33:59.645Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -2544,8 +2544,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:26.445Z",
-      "lastCheckedAt": "2026-08-24T11:04:26.445Z",
+      "baselineAt": "2026-08-24T11:12:53.389Z",
+      "lastCheckedAt": "2026-08-24T11:12:53.389Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -2698,7 +2698,7 @@
       "sourceUrl": "https://www.sana-commerce.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:25.320Z",
+    "builtAt": "2026-08-24T11:12:52.203Z",
     "oldestEvidenceAt": "2026-08-24T07:33:43.814Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -2738,7 +2738,7 @@
             "quote": "global partner network of implementation specialists, resellers, and technology partners here to help you succeed.",
             "sourceUrl": "https://www.sana-commerce.com/our-partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:25.320Z",
+            "retrievedAt": "2026-08-24T11:12:52.203Z",
             "strength": "confirmed",
             "proves": "the company describes partners selling or reselling its product",
             "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -2750,7 +2750,7 @@
             "quote": "Extend your reach through joint marketing efforts, explore new revenue streams with the addition of implementation services, and earn referral",
             "sourceUrl": "https://www.sana-commerce.com/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:25.320Z",
+            "retrievedAt": "2026-08-24T11:12:52.203Z",
             "strength": "confirmed",
             "proves": "the company pitches partner participation as revenue for the partner",
             "doesNotProve": "that any partner earns it, or that the company tracks it",
@@ -2762,7 +2762,7 @@
             "quote": "Image Support your bottom line Extend your reach through joint marketing efforts, explore new revenue streams with",
             "sourceUrl": "https://www.sana-commerce.com/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:25.320Z",
+            "retrievedAt": "2026-08-24T11:12:52.203Z",
             "strength": "confirmed",
             "proves": "the company describes partners reaching customers it would not reach directly",
             "doesNotProve": "that the reach is exclusive, managed, or measured",
@@ -2774,7 +2774,7 @@
             "quote": "Ein Implementation Partner zu sein bedeutet, dass Sie den Support und die Hilfe von uns",
             "sourceUrl": "https://www.sana-commerce.com/de/partner/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:25.320Z",
+            "retrievedAt": "2026-08-24T11:12:52.203Z",
             "strength": "confirmed",
             "proves": "the company describes partners delivering or implementing its product for customers",
             "doesNotProve": "whether the partner or the company holds the commercial relationship",
@@ -2804,7 +2804,7 @@
             "quote": "Sie können natürlich auch Selling Partner werden. Sie fügen Sana Commerce zu Ihrem Produktportfolio hinzu, ohne Sana",
             "sourceUrl": "https://www.sana-commerce.com/de/partner/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:25.320Z",
+            "retrievedAt": "2026-08-24T11:12:52.203Z",
             "strength": "strong_proxy",
             "proves": "the company invites organisations to join a programme it runs",
             "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -2816,7 +2816,7 @@
             "quote": "Image Image Image Watch demo video View Partner Resources Learn more Make the most out of a partnership with Sana Commerce",
             "sourceUrl": "https://www.sana-commerce.com/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:25.320Z",
+            "retrievedAt": "2026-08-24T11:12:52.203Z",
             "strength": "strong_proxy",
             "proves": "the company supplies partners with resources, enablement or a named contact",
             "doesNotProve": "that partners use them",
@@ -2846,7 +2846,7 @@
             "quote": "Meet our partners Explore Sana Commerce's global partner network of implementation",
             "sourceUrl": "https://www.sana-commerce.com/our-partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:25.320Z",
+            "retrievedAt": "2026-08-24T11:12:52.203Z",
             "strength": "strong_proxy",
             "proves": "the company publishes named partner organisations",
             "doesNotProve": "that the listed partners are active",
@@ -2878,7 +2878,7 @@
             "quote": "Ein Implementation Partner zu sein bedeutet, dass Sie den Support und die Hilfe von uns erhalten, die Sie benötigen, um unsere integrierte E-Commerce Lösung an Ihre",
             "sourceUrl": "https://www.sana-commerce.com/de/partner/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:25.320Z",
+            "retrievedAt": "2026-08-24T11:12:52.203Z",
             "strength": "strong_proxy",
             "proves": "the company uses implementation partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -2897,7 +2897,7 @@
             "quote": "Filter the results Filters Partners Country - Country - Argentina Australia Austria",
             "sourceUrl": "https://www.sana-commerce.com/our-partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:25.320Z",
+            "retrievedAt": "2026-08-24T11:12:52.203Z",
             "strength": "strong_proxy",
             "proves": "the company uses reseller partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -2918,7 +2918,7 @@
             "quote": "Sie können natürlich auch Selling Partner werden. Sie fügen Sana Commerce zu Ihrem Produktportfolio hinzu, ohne Sana Commerce direkt selbst implementieren",
             "sourceUrl": "https://www.sana-commerce.com/de/partner/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:25.320Z",
+            "retrievedAt": "2026-08-24T11:12:52.203Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -2930,7 +2930,7 @@
             "quote": "Become a Partner Watch Sana Commerce Cloud Demo Interested in co-marketing with Sana Commerce?",
             "sourceUrl": "https://www.sana-commerce.com/partners/partner-resources/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:25.320Z",
+            "retrievedAt": "2026-08-24T11:12:52.203Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -2958,7 +2958,7 @@
             "quote": "Image Image Image Watch demo video View Partner Resources Learn more Make the most out of a partnership with Sana Commerce Image Enhance your product offerings Offer",
             "sourceUrl": "https://www.sana-commerce.com/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:25.320Z",
+            "retrievedAt": "2026-08-24T11:12:52.203Z",
             "strength": "strong_proxy",
             "proves": "material is produced specifically for partners",
             "doesNotProve": "that partners consume it",
@@ -2970,7 +2970,7 @@
             "quote": "The Partner Resource Hub One place, all the partner-exclusive insights, resources, and tools.",
             "sourceUrl": "https://www.sana-commerce.com/partners/partner-resources/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:25.320Z",
+            "retrievedAt": "2026-08-24T11:12:52.203Z",
             "strength": "strong_proxy",
             "proves": "material is produced specifically for partners",
             "doesNotProve": "that partners consume it",
@@ -3023,7 +3023,7 @@
             "quote": "United States Uruguay Vietnam ERP system - ERP - Microsoft Dynamics SAP Partner status - Partner status - Gold partner Silver partner Bronze partner Ambassador Implementation Selling Distribution Name Search All partners Image",
             "sourceUrl": "https://www.sana-commerce.com/our-partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:25.320Z",
+            "retrievedAt": "2026-08-24T11:12:52.203Z",
             "strength": "strong_proxy",
             "proves": "the programme distinguishes partners by level",
             "doesNotProve": "how many sit in each tier",
@@ -3041,7 +3041,7 @@
             "quote": "The Partner Resource Hub One place, all the partner-exclusive insights, resources, and tools.",
             "sourceUrl": "https://www.sana-commerce.com/partners/partner-resources/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:25.320Z",
+            "retrievedAt": "2026-08-24T11:12:52.203Z",
             "strength": "strong_proxy",
             "proves": "a partner-specific content area exists",
             "doesNotProve": "that it is maintained",
@@ -3073,7 +3073,7 @@
         "quote": "Meet our partners Explore Sana Commerce's global partner network of implementation specialists, resellers, and technology partners here to help you succeed. Filter the results Filters Partners Country - Country - Argentina Australia Austria Belgium Canada Chil",
         "sourceUrl": "https://www.sana-commerce.com/our-partners/",
         "sourceType": "partner_directory",
-        "retrievedAt": "2026-08-24T11:04:25.320Z",
+        "retrievedAt": "2026-08-24T11:12:52.203Z",
         "strength": "confirmed",
         "proves": "the company publicly lists at least 12 partner organisations",
         "doesNotProve": "the true number of partners, that they transact, or that the list is current — a directory is a lower bound and usually a filtered view"
@@ -3099,8 +3099,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:25.320Z",
-      "lastCheckedAt": "2026-08-24T11:04:25.320Z",
+      "baselineAt": "2026-08-24T11:12:52.203Z",
+      "lastCheckedAt": "2026-08-24T11:12:52.203Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -3268,7 +3268,7 @@
       "sourceUrl": "https://www.leapsome.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:27.602Z",
+    "builtAt": "2026-08-24T11:12:54.264Z",
     "oldestEvidenceAt": "2026-08-24T07:34:24.885Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -3438,7 +3438,7 @@
             "quote": "js.hs-scripts.com/5468055.js",
             "sourceUrl": "https://leapsome.com/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:27.602Z",
+            "retrievedAt": "2026-08-24T11:12:54.264Z",
             "strength": "confirmed",
             "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
             "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
@@ -3448,13 +3448,13 @@
             "quote": "js.hsforms.net",
             "sourceUrl": "https://leapsome.com/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:27.602Z",
+            "retrievedAt": "2026-08-24T11:12:54.264Z",
             "strength": "confirmed",
             "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
             "doesNotProve": "that opportunities and partner deals are managed there"
           }
         ],
-        "note": "hubspot evidence at confirmed (hs_tracking_portal)"
+        "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
       },
       "prm": {
         "state": "unknown",
@@ -3470,8 +3470,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:27.602Z",
-      "lastCheckedAt": "2026-08-24T11:04:27.602Z",
+      "baselineAt": "2026-08-24T11:12:54.264Z",
+      "lastCheckedAt": "2026-08-24T11:12:54.264Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -3648,7 +3648,7 @@
       "sourceUrl": "https://www.mews.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:26.105Z",
+    "builtAt": "2026-08-24T11:12:52.835Z",
     "oldestEvidenceAt": "2026-08-24T07:33:51.138Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -3705,7 +3705,7 @@
             "quote": "Partner werden Partner werden Schließe dich uns an und werde Mews",
             "sourceUrl": "https://www.mews.com/de/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.105Z",
+            "retrievedAt": "2026-08-24T11:12:52.835Z",
             "strength": "strong_proxy",
             "proves": "the company invites organisations to join a programme it runs",
             "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -3717,7 +3717,7 @@
             "quote": "See partner resources Refer a property Your customers chose you for a good reason: they",
             "sourceUrl": "https://www.mews.com/en/partnerships",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.105Z",
+            "retrievedAt": "2026-08-24T11:12:52.835Z",
             "strength": "strong_proxy",
             "proves": "the company supplies partners with resources, enablement or a named contact",
             "doesNotProve": "that partners use them",
@@ -3766,7 +3766,7 @@
             "quote": "Become a partner Become a partner Join us and become a Mews integration partner. Start your journey with Mews and scale your business with our global customers.",
             "sourceUrl": "https://www.mews.com/en/partnerships",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.105Z",
+            "retrievedAt": "2026-08-24T11:12:52.835Z",
             "strength": "strong_proxy",
             "proves": "the company uses integration partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -3787,7 +3787,7 @@
             "quote": "Partner werden Partner werden Schließe dich uns an und werde Mews Integrationspartner.",
             "sourceUrl": "https://www.mews.com/de/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.105Z",
+            "retrievedAt": "2026-08-24T11:12:52.835Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -3799,7 +3799,7 @@
             "quote": "Become a partner Become a partner Join us and become a Mews integration partner.",
             "sourceUrl": "https://www.mews.com/en/partnerships",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.105Z",
+            "retrievedAt": "2026-08-24T11:12:52.835Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -3827,7 +3827,7 @@
             "quote": "Explore all the resources created to help partners like you succeed. See partner resources Refer a property Your customers chose you for a good reason: they trust you.",
             "sourceUrl": "https://www.mews.com/en/partnerships",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.105Z",
+            "retrievedAt": "2026-08-24T11:12:52.835Z",
             "strength": "strong_proxy",
             "proves": "material is produced specifically for partners",
             "doesNotProve": "that partners consume it",
@@ -3904,7 +3904,7 @@
         "quote": "Unsere technischen Partner Schau dir einige der erstaunlichen Innovatoren an, die sich für eine Partnerschaft mit Mews entschieden haben, um ihren Einfluss auf das Gastgewerbe zu vergrößern. Akia Amadeus Bowo Breezeway Canary Technologies Cendyn Customer allia",
         "sourceUrl": "https://www.mews.com/de/partnerschaften/partner",
         "sourceType": "partner_directory",
-        "retrievedAt": "2026-08-24T11:04:26.105Z",
+        "retrievedAt": "2026-08-24T11:12:52.835Z",
         "strength": "confirmed",
         "proves": "the company publicly lists at least 11 partner organisations",
         "doesNotProve": "the true number of partners, that they transact, or that the list is current — a directory is a lower bound and usually a filtered view"
@@ -3919,13 +3919,13 @@
             "quote": "js.hs-scripts.com/5255565.js",
             "sourceUrl": "https://mews.com/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:26.105Z",
+            "retrievedAt": "2026-08-24T11:12:52.835Z",
             "strength": "confirmed",
             "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
             "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
           }
         ],
-        "note": "hubspot evidence at confirmed (hs_tracking_portal)"
+        "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
       },
       "prm": {
         "state": "unknown",
@@ -3941,8 +3941,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:26.105Z",
-      "lastCheckedAt": "2026-08-24T11:04:26.105Z",
+      "baselineAt": "2026-08-24T11:12:52.835Z",
+      "lastCheckedAt": "2026-08-24T11:12:52.835Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -4119,7 +4119,7 @@
       "sourceUrl": "https://www.weglot.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:26.675Z",
+    "builtAt": "2026-08-24T11:12:53.619Z",
     "oldestEvidenceAt": "2026-08-24T07:34:06.389Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -4155,11 +4155,11 @@
         "state": "confirmed",
         "evidence": [
           {
-            "id": "o63",
+            "id": "o61",
             "quote": "Weglot | Become a Reseller Partner Product Integrations Pricing Solutions Resources Contact",
             "sourceUrl": "https://www.weglot.com/partner/reseller",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.675Z",
+            "retrievedAt": "2026-08-24T11:12:53.619Z",
             "strength": "confirmed",
             "proves": "the company describes partners selling or reselling its product",
             "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -4167,11 +4167,11 @@
             "alsoSeenAt": []
           },
           {
-            "id": "o64",
+            "id": "o62",
             "quote": "to your clients and scaling your business, creating a new revenue stream on auto-pilot.",
             "sourceUrl": "https://www.weglot.com/partner/reseller",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.675Z",
+            "retrievedAt": "2026-08-24T11:12:53.619Z",
             "strength": "confirmed",
             "proves": "the company pitches partner participation as revenue for the partner",
             "doesNotProve": "that any partner earns it, or that the company tracks it",
@@ -4197,11 +4197,11 @@
         "state": "direct",
         "evidence": [
           {
-            "id": "o65",
+            "id": "o63",
             "quote": "Our vetted partners Join our partner program Technology partners Integrate Weglot into your platform so",
             "sourceUrl": "https://www.weglot.com/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.675Z",
+            "retrievedAt": "2026-08-24T11:12:53.619Z",
             "strength": "strong_proxy",
             "proves": "the company invites organisations to join a programme it runs",
             "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -4209,11 +4209,11 @@
             "alsoSeenAt": []
           },
           {
-            "id": "o66",
+            "id": "o64",
             "quote": "Priority Support Faster response times and dedicated partner success managers to assist you.",
             "sourceUrl": "https://www.weglot.com/partner/reseller",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.675Z",
+            "retrievedAt": "2026-08-24T11:12:53.619Z",
             "strength": "strong_proxy",
             "proves": "the company supplies partners with resources, enablement or a named contact",
             "doesNotProve": "that partners use them",
@@ -4239,11 +4239,11 @@
         "state": "moderate",
         "evidence": [
           {
-            "id": "o67",
+            "id": "o65",
             "quote": "Attractive Commission Structure Competitive commission rates for each client you onboard.",
             "sourceUrl": "https://www.weglot.com/partner/reseller",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.675Z",
+            "retrievedAt": "2026-08-24T11:12:53.619Z",
             "strength": "strong_proxy",
             "proves": "the company pays partners for commercial outcomes",
             "doesNotProve": "the size of the payments or how they are calculated",
@@ -4271,11 +4271,11 @@
         "publishedName": null,
         "evidence": [
           {
-            "id": "o68",
+            "id": "o66",
             "quote": "Weglot | Become a Reseller Partner Product Integrations Pricing Solutions Resources Contact sales Login Try for free EN Product Integrations Pricing Solutions",
             "sourceUrl": "https://www.weglot.com/partner/reseller",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.675Z",
+            "retrievedAt": "2026-08-24T11:12:53.619Z",
             "strength": "strong_proxy",
             "proves": "the company uses reseller partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -4283,11 +4283,11 @@
             "alsoSeenAt": []
           },
           {
-            "id": "o69",
+            "id": "o67",
             "quote": "Offer multilingual websites and expansion services while growing your own business. Become an agency partner Resellers Empower your clients to reach global audiences while adding a valuable revenue stream to your business.",
             "sourceUrl": "https://www.weglot.com/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.675Z",
+            "retrievedAt": "2026-08-24T11:12:53.619Z",
             "strength": "strong_proxy",
             "proves": "the company uses reseller partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -4302,11 +4302,11 @@
         "publishedName": null,
         "evidence": [
           {
-            "id": "o70",
+            "id": "o68",
             "quote": "Educate, inspire, and help your audience grow internationally with us. Become an influencer partner Agencies and freelancers Support your clients’ international growth.",
             "sourceUrl": "https://www.weglot.com/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.675Z",
+            "retrievedAt": "2026-08-24T11:12:53.619Z",
             "strength": "strong_proxy",
             "proves": "the company uses agency partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -4321,11 +4321,11 @@
         "publishedName": null,
         "evidence": [
           {
-            "id": "o71",
+            "id": "o69",
             "quote": "Become a technology partner Influencers Create content that resonates across markets. Educate, inspire, and help your audience grow internationally with us.",
             "sourceUrl": "https://www.weglot.com/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.675Z",
+            "retrievedAt": "2026-08-24T11:12:53.619Z",
             "strength": "strong_proxy",
             "proves": "the company uses technology partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -4340,11 +4340,11 @@
         "publishedName": "Partner Program",
         "evidence": [
           {
-            "id": "o72",
+            "id": "o70",
             "quote": "Benefits vary depending on the type of partnership — whether you’re looking for an affiliate program, a technology integration, or an agency partnership.",
             "sourceUrl": "https://www.weglot.com/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.675Z",
+            "retrievedAt": "2026-08-24T11:12:53.619Z",
             "strength": "strong_proxy",
             "proves": "the company uses affiliate partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -4352,11 +4352,11 @@
             "alsoSeenAt": []
           },
           {
-            "id": "o73",
+            "id": "o71",
             "quote": "Boost Your Revenue Weglot stands out as a highly desirable product. Join our affiliate program today to receive a 20% commission per sale, with lifetime revenue shares.",
             "sourceUrl": "https://www.weglot.com/partner/technology",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.675Z",
+            "retrievedAt": "2026-08-24T11:12:53.619Z",
             "strength": "strong_proxy",
             "proves": "the company uses affiliate partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -4371,11 +4371,11 @@
         "publishedName": "Partner Program",
         "evidence": [
           {
-            "id": "o74",
+            "id": "o72",
             "quote": "Do you want to partner with us? Embark on your partnership journey today by joining our network as an integration partner, unlocking exclusive perks, and gaining visibility among our extensive customer base.",
             "sourceUrl": "https://www.weglot.com/partner/technology",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.675Z",
+            "retrievedAt": "2026-08-24T11:12:53.619Z",
             "strength": "strong_proxy",
             "proves": "the company uses integration partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -4392,11 +4392,35 @@
         "state": "confirmed",
         "evidence": [
           {
-            "id": "o75",
+            "id": "o73",
             "quote": "Weglot | Become a Reseller Partner Product Integrations Pricing Solutions Resources Contact sales Login Try for free EN Product",
             "sourceUrl": "https://www.weglot.com/partner/reseller",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.675Z",
+            "retrievedAt": "2026-08-24T11:12:53.619Z",
+            "strength": "strong_proxy",
+            "proves": "the company publicly invites organisations to join a programme",
+            "doesNotProve": "that anyone joins, or how many",
+            "duplicateCount": 1,
+            "alsoSeenAt": []
+          },
+          {
+            "id": "o74",
+            "quote": "Our vetted partners Join our partner program Technology partners Integrate Weglot into your platform so users can go multilingual instantly, and",
+            "sourceUrl": "https://www.weglot.com/partners",
+            "sourceType": "partner_surface",
+            "retrievedAt": "2026-08-24T11:12:53.619Z",
+            "strength": "strong_proxy",
+            "proves": "the company publicly invites organisations to join a programme",
+            "doesNotProve": "that anyone joins, or how many",
+            "duplicateCount": 1,
+            "alsoSeenAt": []
+          },
+          {
+            "id": "o75",
+            "quote": "Co-Branded Activities Partner with us and start maximizing brand exposure and collaboration opportunities today.",
+            "sourceUrl": "https://www.weglot.com/partner/technology",
+            "sourceType": "partner_surface",
+            "retrievedAt": "2026-08-24T11:12:53.619Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -4405,34 +4429,10 @@
           },
           {
             "id": "o76",
-            "quote": "Our vetted partners Join our partner program Technology partners Integrate Weglot into your platform so users can go multilingual instantly, and",
-            "sourceUrl": "https://www.weglot.com/partners",
-            "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.675Z",
-            "strength": "strong_proxy",
-            "proves": "the company publicly invites organisations to join a programme",
-            "doesNotProve": "that anyone joins, or how many",
-            "duplicateCount": 1,
-            "alsoSeenAt": []
-          },
-          {
-            "id": "o77",
-            "quote": "Co-Branded Activities Partner with us and start maximizing brand exposure and collaboration opportunities today.",
-            "sourceUrl": "https://www.weglot.com/partner/technology",
-            "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.675Z",
-            "strength": "strong_proxy",
-            "proves": "the company publicly invites organisations to join a programme",
-            "doesNotProve": "that anyone joins, or how many",
-            "duplicateCount": 1,
-            "alsoSeenAt": []
-          },
-          {
-            "id": "o78",
             "quote": "A saying they truly stick to. Do you want to partner with us too? Do you want to partner with us and get more visibility from thousands of users around the world?",
             "sourceUrl": "https://www.weglot.com/partners/a2-hosting",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.675Z",
+            "retrievedAt": "2026-08-24T11:12:53.619Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -4446,11 +4446,11 @@
         "state": "confirmed",
         "evidence": [
           {
-            "id": "o79",
+            "id": "o77",
             "quote": "Access to a free Weglot Pro plan to translate your own website How It Works 1 Apply to join Fill out the application form to become an official Weglot Reseller Partner.",
             "sourceUrl": "https://www.weglot.com/partner/reseller",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:26.675Z",
+            "retrievedAt": "2026-08-24T11:12:53.619Z",
             "strength": "strong_proxy",
             "proves": "there is an intake step with a form",
             "doesNotProve": "that applications are reviewed or that a pipeline exists",
@@ -4545,8 +4545,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:26.675Z",
-      "lastCheckedAt": "2026-08-24T11:04:26.675Z",
+      "baselineAt": "2026-08-24T11:12:53.619Z",
+      "lastCheckedAt": "2026-08-24T11:12:53.619Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -4723,7 +4723,7 @@
       "sourceUrl": "https://juro.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:26.710Z",
+    "builtAt": "2026-08-24T11:12:53.655Z",
     "oldestEvidenceAt": "2026-08-24T07:34:13.538Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -4889,27 +4889,27 @@
         "state": "hubspot_confirmed",
         "evidence": [
           {
-            "id": "o61",
+            "id": "o78",
             "quote": "js.hs-scripts.com/3786704.js",
             "sourceUrl": "https://juro.com/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:26.710Z",
+            "retrievedAt": "2026-08-24T11:12:53.655Z",
             "strength": "confirmed",
             "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
             "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
           },
           {
-            "id": "o62",
+            "id": "o79",
             "quote": "js.hsforms.net",
             "sourceUrl": "https://juro.com/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:26.710Z",
+            "retrievedAt": "2026-08-24T11:12:53.655Z",
             "strength": "confirmed",
             "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
             "doesNotProve": "that opportunities and partner deals are managed there"
           }
         ],
-        "note": "hubspot evidence at confirmed (hs_tracking_portal)"
+        "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
       },
       "prm": {
         "state": "unknown",
@@ -4925,8 +4925,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:26.710Z",
-      "lastCheckedAt": "2026-08-24T11:04:26.710Z",
+      "baselineAt": "2026-08-24T11:12:53.655Z",
+      "lastCheckedAt": "2026-08-24T11:12:53.655Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -5103,7 +5103,7 @@
       "sourceUrl": "https://www.pleo.io"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:27.865Z",
+    "builtAt": "2026-08-24T11:12:54.943Z",
     "oldestEvidenceAt": "2026-08-24T07:34:36.126Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -5143,7 +5143,7 @@
             "quote": "tevreden klanten op, die op hun beurt andere bedrijven doorverwijzen naar ons bedrijf.\"",
             "sourceUrl": "https://www.pleo.io/nl/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:27.865Z",
+            "retrievedAt": "2026-08-24T11:12:54.943Z",
             "strength": "strong_proxy",
             "proves": "the company describes partners bringing it leads, deals or customers",
             "doesNotProve": "the number of deals, or that a process exists to handle them",
@@ -5173,7 +5173,7 @@
             "quote": "We werken ook samen met: Waarom partner worden van Pleo? Het allerbeste voor je klanten De veiligheid van je",
             "sourceUrl": "https://www.pleo.io/nl/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:27.865Z",
+            "retrievedAt": "2026-08-24T11:12:54.943Z",
             "strength": "strong_proxy",
             "proves": "the company invites organisations to join a programme it runs",
             "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -5185,7 +5185,7 @@
             "quote": "Find your perfect accounting partner We work with trusted accounting partners to make your decision easier.",
             "sourceUrl": "https://www.pleo.io/en/partner-directory",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:27.865Z",
+            "retrievedAt": "2026-08-24T11:12:54.943Z",
             "strength": "strong_proxy",
             "proves": "the company distinguishes and manages more than one kind of partner",
             "doesNotProve": "how many partners exist in each type",
@@ -5197,7 +5197,7 @@
             "quote": "Gold Platinum Chat support Email support Video call support Dedicated Partner Manager \"I would recommend Pleo to every company that wants to save time.",
             "sourceUrl": "https://www.pleo.io/en/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:27.865Z",
+            "retrievedAt": "2026-08-24T11:12:54.943Z",
             "strength": "strong_proxy",
             "proves": "the company supplies partners with resources, enablement or a named contact",
             "doesNotProve": "that partners use them",
@@ -5227,7 +5227,7 @@
             "quote": "Get started Explore Product Explore our Partner Portal Everything you need, in one place With Pleo’s Partner Portal, you",
             "sourceUrl": "https://www.pleo.io/en/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:27.865Z",
+            "retrievedAt": "2026-08-24T11:12:54.943Z",
             "strength": "strong_proxy",
             "proves": "a partner-specific operational surface exists",
             "doesNotProve": "adoption, or that partners log into it",
@@ -5239,7 +5239,7 @@
             "quote": "plan for your clients Listing on Pleo Partner directory Revenue share 10% 20% Marketing New Partner Bronze Silver Gold Platinum Marketing",
             "sourceUrl": "https://www.pleo.io/en/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:27.865Z",
+            "retrievedAt": "2026-08-24T11:12:54.943Z",
             "strength": "strong_proxy",
             "proves": "the company pays partners for commercial outcomes",
             "doesNotProve": "the size of the payments or how they are calculated",
@@ -5271,7 +5271,7 @@
             "quote": "Become a Pleo Technology Partner First name Last name Your email I'm interested in becoming a… Company size Select Country I agree to receive more information about the",
             "sourceUrl": "https://www.pleo.io/en/become_tech_partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:27.865Z",
+            "retrievedAt": "2026-08-24T11:12:54.943Z",
             "strength": "strong_proxy",
             "proves": "the company uses technology partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -5337,7 +5337,7 @@
             "quote": "Get started Explore Product Explore our Partner Portal Everything you need, in one place With Pleo’s Partner Portal, you can onboard and manage your clients and",
             "sourceUrl": "https://www.pleo.io/en/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:27.865Z",
+            "retrievedAt": "2026-08-24T11:12:54.943Z",
             "strength": "strong_proxy",
             "proves": "partners have an authenticated destination",
             "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -5349,7 +5349,7 @@
             "quote": "Aan de slag Product verkennen Ontdek ons Partnerportaal Alles wat je nodig hebt op één plek Met het Partnerportaal van Pleo kun je je klanten en hun uitgaven op",
             "sourceUrl": "https://www.pleo.io/nl/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:27.865Z",
+            "retrievedAt": "2026-08-24T11:12:54.943Z",
             "strength": "strong_proxy",
             "proves": "partners have an authenticated destination",
             "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -5394,7 +5394,7 @@
         "quote": "Find your perfect accounting partner We work with trusted accounting partners to make your decision easier. Explore Pleo-approved accountants and bookkeepers below. Find your perfect partner Virgate Count on us to be your full service finance team supported by",
         "sourceUrl": "https://www.pleo.io/en/partner-directory",
         "sourceType": "partner_directory",
-        "retrievedAt": "2026-08-24T11:04:27.865Z",
+        "retrievedAt": "2026-08-24T11:12:54.943Z",
         "strength": "confirmed",
         "proves": "the company publicly lists at least 15 partner organisations",
         "doesNotProve": "the true number of partners, that they transact, or that the list is current — a directory is a lower bound and usually a filtered view"
@@ -5420,8 +5420,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:27.865Z",
-      "lastCheckedAt": "2026-08-24T11:04:27.865Z",
+      "baselineAt": "2026-08-24T11:12:54.943Z",
+      "lastCheckedAt": "2026-08-24T11:12:54.943Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -5619,7 +5619,7 @@
       "sourceUrl": "https://www.spendesk.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:28.076Z",
+    "builtAt": "2026-08-24T11:12:55.099Z",
     "oldestEvidenceAt": "2026-08-24T07:35:00.978Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -5676,7 +5676,7 @@
             "quote": "Become a partner Why become a Spendesk partner Implement the best tool for spend",
             "sourceUrl": "https://www.spendesk.com/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.076Z",
+            "retrievedAt": "2026-08-24T11:12:55.099Z",
             "strength": "strong_proxy",
             "proves": "the company invites organisations to join a programme it runs",
             "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -5688,7 +5688,7 @@
             "quote": "Become a partner Technology partners Complement your offering with best-in-class spend management and",
             "sourceUrl": "https://www.spendesk.com/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.076Z",
+            "retrievedAt": "2026-08-24T11:12:55.099Z",
             "strength": "strong_proxy",
             "proves": "the company distinguishes and manages more than one kind of partner",
             "doesNotProve": "how many partners exist in each type",
@@ -5700,7 +5700,7 @@
             "quote": "via early access to new product releases and exclusive partner enablement from our dedicated teams.",
             "sourceUrl": "https://www.spendesk.com/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.076Z",
+            "retrievedAt": "2026-08-24T11:12:55.099Z",
             "strength": "strong_proxy",
             "proves": "the company supplies partners with resources, enablement or a named contact",
             "doesNotProve": "that partners use them",
@@ -5730,7 +5730,7 @@
             "quote": "Rewards for you and your clients Earn generous revenue share, while your clients benefit from special pricing and access to our",
             "sourceUrl": "https://www.spendesk.com/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.076Z",
+            "retrievedAt": "2026-08-24T11:12:55.099Z",
             "strength": "strong_proxy",
             "proves": "the company pays partners for commercial outcomes",
             "doesNotProve": "the size of the payments or how they are calculated",
@@ -5763,7 +5763,7 @@
             "quote": "Become a partner Why become a Spendesk partner Implement the best tool for spend management Your clients' spend is scattered",
             "sourceUrl": "https://www.spendesk.com/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.076Z",
+            "retrievedAt": "2026-08-24T11:12:55.099Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -5775,7 +5775,7 @@
             "quote": "Devenir partenaire Pourquoi devenir partenaire Spendesk Déployez une solution complète de gestion des dépenses Les dépenses de",
             "sourceUrl": "https://www.spendesk.com/fr/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.076Z",
+            "retrievedAt": "2026-08-24T11:12:55.099Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -5803,7 +5803,7 @@
             "quote": "Rewards for you and your clients Earn generous revenue share, while your clients",
             "sourceUrl": "https://www.spendesk.com/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.076Z",
+            "retrievedAt": "2026-08-24T11:12:55.099Z",
             "strength": "strong_proxy",
             "proves": "material is produced specifically for partners",
             "doesNotProve": "that partners consume it",
@@ -5888,8 +5888,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:28.076Z",
-      "lastCheckedAt": "2026-08-24T11:04:28.076Z",
+      "baselineAt": "2026-08-24T11:12:55.099Z",
+      "lastCheckedAt": "2026-08-24T11:12:55.099Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -6046,7 +6046,7 @@
       "sourceUrl": "https://payfit.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:28.229Z",
+    "builtAt": "2026-08-24T11:12:55.239Z",
     "oldestEvidenceAt": "2026-08-24T07:35:07.147Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -6103,7 +6103,7 @@
             "quote": "Whether you're a point solution or strategic advisor, partner with us to share leads and grow together.",
             "sourceUrl": "https://payfit.com/partnerships/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.229Z",
+            "retrievedAt": "2026-08-24T11:12:55.239Z",
             "strength": "strong_proxy",
             "proves": "the company invites organisations to join a programme it runs",
             "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -6115,7 +6115,7 @@
             "quote": "Integration Partners Integrate with us or join our Open API program to help our clients",
             "sourceUrl": "https://payfit.com/partnerships/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.229Z",
+            "retrievedAt": "2026-08-24T11:12:55.239Z",
             "strength": "strong_proxy",
             "proves": "the company distinguishes and manages more than one kind of partner",
             "doesNotProve": "how many partners exist in each type",
@@ -6127,7 +6127,7 @@
             "quote": "more about becoming a PayFit partner, please complete the partner form on this page and a member of our partnerships team will be in",
             "sourceUrl": "https://payfit.com/partnerships/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.229Z",
+            "retrievedAt": "2026-08-24T11:12:55.239Z",
             "strength": "strong_proxy",
             "proves": "the company runs its own intake for partner applications, leads or deals",
             "doesNotProve": "the volume through it, or that it is automated rather than an inbox",
@@ -6157,7 +6157,7 @@
             "quote": "Features include co-marketing, revenue share and mutual referrals.",
             "sourceUrl": "https://payfit.com/partnerships/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.229Z",
+            "retrievedAt": "2026-08-24T11:12:55.239Z",
             "strength": "strong_proxy",
             "proves": "the company pays partners for commercial outcomes",
             "doesNotProve": "the size of the payments or how they are calculated",
@@ -6190,7 +6190,7 @@
             "quote": "Referral Partners Whether you're a point solution or strategic advisor, partner with us to share leads and grow together.",
             "sourceUrl": "https://payfit.com/partnerships/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.229Z",
+            "retrievedAt": "2026-08-24T11:12:55.239Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -6208,7 +6208,7 @@
             "quote": "Fill out our partnership application form and a partnerships manager will be in touch. Apply today What do our partners say about us?",
             "sourceUrl": "https://payfit.com/partnerships/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.229Z",
+            "retrievedAt": "2026-08-24T11:12:55.239Z",
             "strength": "strong_proxy",
             "proves": "there is an intake step with a form",
             "doesNotProve": "that applications are reviewed or that a pipeline exists",
@@ -6303,8 +6303,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:28.229Z",
-      "lastCheckedAt": "2026-08-24T11:04:28.229Z",
+      "baselineAt": "2026-08-24T11:12:55.239Z",
+      "lastCheckedAt": "2026-08-24T11:12:55.239Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -6471,7 +6471,7 @@
       "sourceUrl": "https://www.foleon.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:29.777Z",
+    "builtAt": "2026-08-24T11:12:56.810Z",
     "oldestEvidenceAt": "2026-08-24T07:35:31.379Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -6644,7 +6644,7 @@
         "quote": "Our Partners – Foleon --> Foleon certified partners Creative organizations that excel in producing first-class interactive content All locations All languages All service types All use cases Tag Agency Each agency in the tag network is uniquely positioned and",
         "sourceUrl": "https://www.foleon.com/partners",
         "sourceType": "partner_directory",
-        "retrievedAt": "2026-08-24T11:04:29.777Z",
+        "retrievedAt": "2026-08-24T11:12:56.810Z",
         "strength": "confirmed",
         "proves": "the company publicly lists at least 82 partner organisations",
         "doesNotProve": "the true number of partners, that they transact, or that the list is current — a directory is a lower bound and usually a filtered view"
@@ -6659,13 +6659,13 @@
             "quote": "js.hsforms.net",
             "sourceUrl": "https://foleon.com/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:29.777Z",
+            "retrievedAt": "2026-08-24T11:12:56.810Z",
             "strength": "confirmed",
             "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
             "doesNotProve": "that opportunities and partner deals are managed there"
           }
         ],
-        "note": "hubspot evidence at confirmed (hs_forms)"
+        "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
       },
       "prm": {
         "state": "unknown",
@@ -6681,8 +6681,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:29.777Z",
-      "lastCheckedAt": "2026-08-24T11:04:29.777Z",
+      "baselineAt": "2026-08-24T11:12:56.810Z",
+      "lastCheckedAt": "2026-08-24T11:12:56.810Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -6819,7 +6819,7 @@
       "sourceUrl": "https://factorialhr.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:28.807Z",
+    "builtAt": "2026-08-24T11:12:55.545Z",
     "oldestEvidenceAt": "2026-08-21T13:56:20.940Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -6859,7 +6859,7 @@
             "quote": "Become our Reseller Partner By joining our program you will elevate your business",
             "sourceUrl": "https://factorialhr.com/partners-distributors",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.807Z",
+            "retrievedAt": "2026-08-24T11:12:55.545Z",
             "strength": "confirmed",
             "proves": "the company describes partners selling or reselling its product",
             "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -6871,7 +6871,7 @@
             "quote": "Expand your service offering, grow your business, and boost your profitability!",
             "sourceUrl": "https://factorialhr.com/partners-distributors",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.807Z",
+            "retrievedAt": "2026-08-24T11:12:55.545Z",
             "strength": "confirmed",
             "proves": "the company pitches partner participation as revenue for the partner",
             "doesNotProve": "that any partner earns it, or that the company tracks it",
@@ -6901,7 +6901,7 @@
             "quote": "Become a partner Find out how to become a Factorial Distributor Partner We explain",
             "sourceUrl": "https://factorialhr.com/partners-distributors",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.807Z",
+            "retrievedAt": "2026-08-24T11:12:55.545Z",
             "strength": "strong_proxy",
             "proves": "the company invites organisations to join a programme it runs",
             "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -6931,7 +6931,7 @@
             "quote": "Take a look at the benefits for each type of Partner. Silver Partner 🥈 Gold Partner 🏅 Platinum Partner 🏆 Partner commission $ $$ $$$",
             "sourceUrl": "https://factorialhr.com/partners-distributors",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.807Z",
+            "retrievedAt": "2026-08-24T11:12:55.545Z",
             "strength": "strong_proxy",
             "proves": "the company differentiates partners by commitment or performance",
             "doesNotProve": "how many partners sit in each tier",
@@ -6943,7 +6943,7 @@
             "quote": "and offers for Partner customers Co-Marketing actions Partner Academy Technical assistance and support Marketing support and materials",
             "sourceUrl": "https://factorialhr.com/partners-distributors",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.807Z",
+            "retrievedAt": "2026-08-24T11:12:55.545Z",
             "strength": "strong_proxy",
             "proves": "the company trains or certifies people outside its own staff",
             "doesNotProve": "that those people transact — customer academies look identical",
@@ -6955,7 +6955,7 @@
             "quote": "Partner 🥈 Gold Partner 🏅 Platinum Partner 🏆 Partner commission $ $$ $$$ Special sales and account support Promotions and offers",
             "sourceUrl": "https://factorialhr.com/partners-distributors",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.807Z",
+            "retrievedAt": "2026-08-24T11:12:55.545Z",
             "strength": "strong_proxy",
             "proves": "the company pays partners for commercial outcomes",
             "doesNotProve": "the size of the payments or how they are calculated",
@@ -6987,7 +6987,7 @@
             "quote": "Become our Reseller Partner By joining our program you will elevate your business potential and seize new revenue opportunities.",
             "sourceUrl": "https://factorialhr.com/partners-distributors",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.807Z",
+            "retrievedAt": "2026-08-24T11:12:55.545Z",
             "strength": "strong_proxy",
             "proves": "the company uses reseller partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -6999,7 +6999,7 @@
             "quote": "Discover Factorial's partnership programs Choose the type of partnership that best suits your company's needs and become a partner.",
             "sourceUrl": "https://factorialhr.com/partnerships",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.807Z",
+            "retrievedAt": "2026-08-24T11:12:55.545Z",
             "strength": "strong_proxy",
             "proves": "the company uses reseller partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -7018,7 +7018,7 @@
             "quote": "Expand your service offering, grow your business, and boost your profitability! Become a partner Find out how to become a Factorial Distributor Partner We explain in detail what our Partner Program is all about and how to become an expert on our platform.",
             "sourceUrl": "https://factorialhr.com/partners-distributors",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.807Z",
+            "retrievedAt": "2026-08-24T11:12:55.545Z",
             "strength": "strong_proxy",
             "proves": "the company uses distributor partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -7039,7 +7039,7 @@
             "quote": "Expand your service offering, grow your business, and boost your profitability!",
             "sourceUrl": "https://factorialhr.com/partners-distributors",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.807Z",
+            "retrievedAt": "2026-08-24T11:12:55.545Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -7051,7 +7051,7 @@
             "quote": "Become a Partner Now! Just want to build a custom solution? Not looking to get listed on our public marketplace? No problem.",
             "sourceUrl": "https://factorialhr.com/integrations-partner-program",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.807Z",
+            "retrievedAt": "2026-08-24T11:12:55.545Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -7063,7 +7063,7 @@
             "quote": "Reseller Referral Product Integration Reseller We partner with companies whose objective is to grow by",
             "sourceUrl": "https://factorialhr.com/partnerships",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.807Z",
+            "retrievedAt": "2026-08-24T11:12:55.545Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -7091,7 +7091,7 @@
             "quote": "$ $$ $$$ Special sales and account support Promotions and offers for Partner customers Co-Marketing actions Partner Academy Technical assistance and support Marketing support and materials Partnerships that lead to success We want",
             "sourceUrl": "https://factorialhr.com/partners-distributors",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.807Z",
+            "retrievedAt": "2026-08-24T11:12:55.545Z",
             "strength": "strong_proxy",
             "proves": "material is produced specifically for partners",
             "doesNotProve": "that partners consume it",
@@ -7144,7 +7144,7 @@
             "quote": "Take a look at the benefits for each type of Partner. Silver Partner 🥈 Gold Partner 🏅 Platinum Partner 🏆 Partner commission $ $$ $$$ Special sales and account support",
             "sourceUrl": "https://factorialhr.com/partners-distributors",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:28.807Z",
+            "retrievedAt": "2026-08-24T11:12:55.545Z",
             "strength": "strong_proxy",
             "proves": "the programme distinguishes partners by level",
             "doesNotProve": "how many sit in each tier",
@@ -7189,8 +7189,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:28.807Z",
-      "lastCheckedAt": "2026-08-24T11:04:28.807Z",
+      "baselineAt": "2026-08-24T11:12:55.545Z",
+      "lastCheckedAt": "2026-08-24T11:12:55.545Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -7362,7 +7362,7 @@
       "sourceUrl": "https://www.upsales.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:30.479Z",
+    "builtAt": "2026-08-24T11:12:57.549Z",
     "oldestEvidenceAt": "2026-08-24T07:35:43.336Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -7543,8 +7543,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:30.479Z",
-      "lastCheckedAt": "2026-08-24T11:04:30.479Z",
+      "baselineAt": "2026-08-24T11:12:57.549Z",
+      "lastCheckedAt": "2026-08-24T11:12:57.549Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -7682,7 +7682,7 @@
       "sourceUrl": "https://www.twikey.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:29.168Z",
+    "builtAt": "2026-08-24T11:12:56.253Z",
     "oldestEvidenceAt": "2026-08-24T07:35:26.251Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -7739,7 +7739,7 @@
             "quote": "Contact us if you would like to become a partner or integrator!",
             "sourceUrl": "https://www.twikey.com/partners.html",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:29.168Z",
+            "retrievedAt": "2026-08-24T11:12:56.253Z",
             "strength": "strong_proxy",
             "proves": "the company invites organisations to join a programme it runs",
             "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -7769,7 +7769,7 @@
             "quote": "relationship No discussions No more administration Faster payout Twikey - Microsoft Dynamics 365 Business Central How it works 1",
             "sourceUrl": "https://www.twikey.com/partner/businesscentral.html",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:29.168Z",
+            "retrievedAt": "2026-08-24T11:12:56.253Z",
             "strength": "strong_proxy",
             "proves": "the company pays partners for commercial outcomes",
             "doesNotProve": "the size of the payments or how they are calculated",
@@ -7802,7 +7802,7 @@
             "quote": "Contact us if you would like to become a partner or integrator!",
             "sourceUrl": "https://www.twikey.com/partners.html",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:29.168Z",
+            "retrievedAt": "2026-08-24T11:12:56.253Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -7814,7 +7814,7 @@
             "quote": "If you would like to become a partner, contact us now! Offer more smart and efficient payment solutions All payment methods and Payment Service",
             "sourceUrl": "https://www.twikey.com/partnerpage.html",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:29.168Z",
+            "retrievedAt": "2026-08-24T11:12:56.253Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -7914,8 +7914,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:29.168Z",
-      "lastCheckedAt": "2026-08-24T11:04:29.168Z",
+      "baselineAt": "2026-08-24T11:12:56.253Z",
+      "lastCheckedAt": "2026-08-24T11:12:56.253Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -8102,7 +8102,7 @@
       "sourceUrl": "https://www.lano.io"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:29.443Z",
+    "builtAt": "2026-08-24T11:12:56.504Z",
     "oldestEvidenceAt": "2026-08-24T07:35:29.968Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -8159,7 +8159,7 @@
             "quote": "Werden Sie Lano Affiliate-Partner Werden Sie Lano Affiliate-Partner Entdecken Sie Ihre Vorteile als",
             "sourceUrl": "https://www.lano.io/de/become-a-partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:29.443Z",
+            "retrievedAt": "2026-08-24T11:12:56.504Z",
             "strength": "strong_proxy",
             "proves": "the company invites organisations to join a programme it runs",
             "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -8208,7 +8208,7 @@
             "quote": "Explore your benefits when you sign up to become a Lano partner. What can Lano do for you?",
             "sourceUrl": "https://www.lano.io/become-a-partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:29.443Z",
+            "retrievedAt": "2026-08-24T11:12:56.504Z",
             "strength": "strong_proxy",
             "proves": "the company uses affiliate partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -8220,7 +8220,7 @@
             "quote": "Möglichkeiten Automatisierte Provisionsauszahlungen Individuelle Reports zu Ihren Provisionen Zugang zu exklusiven Rabatten Werden Sie Lano Affiliate Partner Name E-Mail Unternehmen Website Unternehmenshauptsitz Afghanistan Åland Islands Albania Algeria American Samoa Andorra Angola Anguilla",
             "sourceUrl": "https://www.lano.io/de/become-a-partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:29.443Z",
+            "retrievedAt": "2026-08-24T11:12:56.504Z",
             "strength": "strong_proxy",
             "proves": "the company uses affiliate partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -8232,7 +8232,7 @@
             "quote": "Pricing Resources Company English Français Deutsch Español Login",
             "sourceUrl": "https://www.lano.io/affiliate-partner-program",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:29.443Z",
+            "retrievedAt": "2026-08-24T11:12:56.504Z",
             "strength": "strong_proxy",
             "proves": "the company uses affiliate partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -8244,7 +8244,7 @@
             "quote": "Deutsch English Français Deutsch Español Demo buchen EOR & Payroll Contractor Management 4.7 Sterne bei Capterra Become a Lano Affiliate Partner Join Lano as an affiliate partner, enable your clients to expand internationally and earn generous commissions along the way.",
             "sourceUrl": "https://www.lano.io/de/affiliate-partner-program",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:29.443Z",
+            "retrievedAt": "2026-08-24T11:12:56.504Z",
             "strength": "strong_proxy",
             "proves": "the company uses affiliate partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -8256,7 +8256,7 @@
             "quote": "For Contractors Features Help Center Terms and Conditions Information Legal Notice Privacy Policy Sitemap About Us Careers Lano Academy Affiliate Program Payroll Partner Program GDPR & IT Security Contact Us Resources Hub Podcast HR & Payroll Glossary Blog Legal Legal Notice Privacy Policy",
             "sourceUrl": "https://www.lano.io/become-a-payroll-partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:29.443Z",
+            "retrievedAt": "2026-08-24T11:12:56.504Z",
             "strength": "strong_proxy",
             "proves": "the company uses affiliate partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -8275,7 +8275,7 @@
             "quote": "Become a partner How much can you earn? As Lano affiliate partner, you can earn generous introducer bonuses and recurring commission payments that are equal to the revenue percentage earner by Lano from your referrals in the given month.",
             "sourceUrl": "https://www.lano.io/affiliate-partner-program",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:29.443Z",
+            "retrievedAt": "2026-08-24T11:12:56.504Z",
             "strength": "strong_proxy",
             "proves": "the company uses referral partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -8296,7 +8296,7 @@
             "quote": "Werden Sie Lano Affiliate-Partner Werden Sie Lano Affiliate-Partner Entdecken Sie Ihre Vorteile als Lano-Partner: What can Lano do for you?",
             "sourceUrl": "https://www.lano.io/de/become-a-partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:29.443Z",
+            "retrievedAt": "2026-08-24T11:12:56.504Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -8308,7 +8308,7 @@
             "quote": "It’s free to join, simple to set up and commitment-free. Become a partner How much can you earn?",
             "sourceUrl": "https://www.lano.io/affiliate-partner-program",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:29.443Z",
+            "retrievedAt": "2026-08-24T11:12:56.504Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -8320,7 +8320,7 @@
             "quote": "It’s free to join, simple to set up and commitment-free. Become a partner Wie viel können Sie verdienen?",
             "sourceUrl": "https://www.lano.io/de/affiliate-partner-program",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:29.443Z",
+            "retrievedAt": "2026-08-24T11:12:56.504Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -8420,8 +8420,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:29.443Z",
-      "lastCheckedAt": "2026-08-24T11:04:29.443Z",
+      "baselineAt": "2026-08-24T11:12:56.504Z",
+      "lastCheckedAt": "2026-08-24T11:12:56.504Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -8598,7 +8598,7 @@
       "sourceUrl": "https://www.cegeka.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:30.980Z",
+    "builtAt": "2026-08-24T11:12:58.108Z",
     "oldestEvidenceAt": "2026-08-24T07:35:51.911Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -8768,7 +8768,7 @@
             "quote": "forms.hsforms.com",
             "sourceUrl": "https://cegeka.com/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:30.980Z",
+            "retrievedAt": "2026-08-24T11:12:58.108Z",
             "strength": "confirmed",
             "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
             "doesNotProve": "that opportunities and partner deals are managed there"
@@ -8778,13 +8778,13 @@
             "quote": "hubspotusercontent",
             "sourceUrl": "https://cegeka.com/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:30.980Z",
+            "retrievedAt": "2026-08-24T11:12:58.108Z",
             "strength": "strong_proxy",
             "proves": "HubSpot-hosted assets or analytics are in use",
             "doesNotProve": "which HubSpot products are licensed"
           }
         ],
-        "note": "hubspot evidence at confirmed (hs_forms)"
+        "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
       },
       "prm": {
         "state": "unknown",
@@ -8800,8 +8800,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:30.980Z",
-      "lastCheckedAt": "2026-08-24T11:04:30.980Z",
+      "baselineAt": "2026-08-24T11:12:58.108Z",
+      "lastCheckedAt": "2026-08-24T11:12:58.108Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -8982,7 +8982,7 @@
       "sourceUrl": "https://www.productsup.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:30.329Z",
+    "builtAt": "2026-08-24T11:12:57.161Z",
     "oldestEvidenceAt": "2026-08-24T07:35:41.706Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -9152,7 +9152,7 @@
             "quote": "js.hsforms.net",
             "sourceUrl": "https://productsup.com/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:30.329Z",
+            "retrievedAt": "2026-08-24T11:12:57.161Z",
             "strength": "confirmed",
             "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
             "doesNotProve": "that opportunities and partner deals are managed there"
@@ -9162,13 +9162,13 @@
             "quote": "hubspotusercontent",
             "sourceUrl": "https://productsup.com/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:30.329Z",
+            "retrievedAt": "2026-08-24T11:12:57.161Z",
             "strength": "strong_proxy",
             "proves": "HubSpot-hosted assets or analytics are in use",
             "doesNotProve": "which HubSpot products are licensed"
           }
         ],
-        "note": "hubspot evidence at confirmed (hs_forms)"
+        "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
       },
       "prm": {
         "state": "unknown",
@@ -9184,8 +9184,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:30.329Z",
-      "lastCheckedAt": "2026-08-24T11:04:30.329Z",
+      "baselineAt": "2026-08-24T11:12:57.161Z",
+      "lastCheckedAt": "2026-08-24T11:12:57.161Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -9361,7 +9361,7 @@
       "sourceUrl": "https://www.younium.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:30.833Z",
+    "builtAt": "2026-08-24T11:12:57.986Z",
     "oldestEvidenceAt": "2026-08-24T07:35:48.614Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -9401,7 +9401,7 @@
             "quote": "Built-In Co-Sell Opportunities The marketplace acts as a co-sell engine, allowing",
             "sourceUrl": "https://www.younium.com/partnership",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:30.833Z",
+            "retrievedAt": "2026-08-24T11:12:57.986Z",
             "strength": "strong_proxy",
             "proves": "the company describes partners selling or reselling its product",
             "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -9431,7 +9431,7 @@
             "quote": "Become a Partner in Our Ecosystem Join forces with Younium to help B2B SaaS",
             "sourceUrl": "https://www.younium.com/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:30.833Z",
+            "retrievedAt": "2026-08-24T11:12:57.986Z",
             "strength": "strong_proxy",
             "proves": "the company invites organisations to join a programme it runs",
             "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -9461,7 +9461,7 @@
             "quote": "Why Partner With Younium Earn as You Refer Enjoy a generous revenue share for every qualified lead or customer you bring in.",
             "sourceUrl": "https://www.younium.com/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:30.833Z",
+            "retrievedAt": "2026-08-24T11:12:57.986Z",
             "strength": "strong_proxy",
             "proves": "the company pays partners for commercial outcomes",
             "doesNotProve": "the size of the payments or how they are calculated",
@@ -9494,7 +9494,7 @@
             "quote": "Become a Partner in Our Ecosystem Join forces with Younium to help B2B SaaS companies run smarter subscription operations.",
             "sourceUrl": "https://www.younium.com/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:30.833Z",
+            "retrievedAt": "2026-08-24T11:12:57.986Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -9506,7 +9506,7 @@
             "quote": "Partner with us | Marketplace Expose Your App Where Subscription Finance Teams Work Join the Younium Marketplace and",
             "sourceUrl": "https://www.younium.com/partnership",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:30.833Z",
+            "retrievedAt": "2026-08-24T11:12:57.986Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -9559,7 +9559,7 @@
             "quote": "Built-In Co-Sell Opportunities The marketplace acts as a co-sell engine, allowing customers to request direct connections",
             "sourceUrl": "https://www.younium.com/partnership",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:30.833Z",
+            "retrievedAt": "2026-08-24T11:12:57.986Z",
             "strength": "strong_proxy",
             "proves": "the company describes selling alongside partners",
             "doesNotProve": "that co-selling is systematised",
@@ -9608,13 +9608,13 @@
             "quote": "hubspotusercontent",
             "sourceUrl": "https://younium.com/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:30.833Z",
+            "retrievedAt": "2026-08-24T11:12:57.986Z",
             "strength": "strong_proxy",
             "proves": "HubSpot-hosted assets or analytics are in use",
             "doesNotProve": "which HubSpot products are licensed"
           }
         ],
-        "note": "hubspot evidence at strong_proxy (hs_analytics)"
+        "note": "A probable HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
       },
       "prm": {
         "state": "unknown",
@@ -9630,8 +9630,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:30.833Z",
-      "lastCheckedAt": "2026-08-24T11:04:30.833Z",
+      "baselineAt": "2026-08-24T11:12:57.986Z",
+      "lastCheckedAt": "2026-08-24T11:12:57.986Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -9777,7 +9777,7 @@
       "sourceUrl": "https://www.vinted.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:31.306Z",
+    "builtAt": "2026-08-24T11:12:58.690Z",
     "oldestEvidenceAt": "2026-08-24T07:36:10.129Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -9958,8 +9958,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:31.306Z",
-      "lastCheckedAt": "2026-08-24T11:04:31.306Z",
+      "baselineAt": "2026-08-24T11:12:58.690Z",
+      "lastCheckedAt": "2026-08-24T11:12:58.690Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -10127,7 +10127,7 @@
       "sourceUrl": "https://www.kiflo.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:32.454Z",
+    "builtAt": "2026-08-24T11:12:59.549Z",
     "oldestEvidenceAt": "2026-08-23T08:48:52.121Z",
     "category": {
       "whyItMatters": "The company appears on the maintained competitor list AND positions its own product as partner management.",
@@ -10315,8 +10315,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:32.454Z",
-      "lastCheckedAt": "2026-08-24T11:04:32.454Z",
+      "baselineAt": "2026-08-24T11:12:59.549Z",
+      "lastCheckedAt": "2026-08-24T11:12:59.549Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -10514,7 +10514,7 @@
       "sourceUrl": "https://www.archerirm.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:32.089Z",
+    "builtAt": "2026-08-24T11:12:59.310Z",
     "oldestEvidenceAt": "2026-08-21T13:57:33.319Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -10571,7 +10571,7 @@
             "quote": "Consulting partners can earn domain Specializations to unlock preferential deal",
             "sourceUrl": "https://www.archerirm.com/archer-partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.089Z",
+            "retrievedAt": "2026-08-24T11:12:59.310Z",
             "strength": "strong_proxy",
             "proves": "the company distinguishes and manages more than one kind of partner",
             "doesNotProve": "how many partners exist in each type",
@@ -10601,7 +10601,7 @@
             "quote": "Apply Now Partner Portal About the Archer Velocity Partner Program The Velocity Partner",
             "sourceUrl": "https://www.archerirm.com/archer-partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.089Z",
+            "retrievedAt": "2026-08-24T11:12:59.310Z",
             "strength": "strong_proxy",
             "proves": "a partner-specific operational surface exists",
             "doesNotProve": "adoption, or that partners log into it",
@@ -10633,7 +10633,7 @@
             "quote": "Value-added Resellers Sell Archer products and services, including new logos, expansions, and renewals, through authorized distributors in your region.",
             "sourceUrl": "https://www.archerirm.com/archer-partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.089Z",
+            "retrievedAt": "2026-08-24T11:12:59.310Z",
             "strength": "strong_proxy",
             "proves": "the company uses reseller partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -10652,7 +10652,7 @@
             "quote": "EY GLOBAL ALLIANCE Brings leading GRC practices and Archer expertise to help regulated enterprises manage risk and compliance at scale.",
             "sourceUrl": "https://www.archerirm.com/archer-partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.089Z",
+            "retrievedAt": "2026-08-24T11:12:59.310Z",
             "strength": "strong_proxy",
             "proves": "the company uses strategic alliance partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -10688,7 +10688,7 @@
             "quote": "Development & enablement support Dedicated partner resources, enablement content, and Archer team coordination to accelerate your onboarding and ongoing growth.",
             "sourceUrl": "https://www.archerirm.com/archer-partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.089Z",
+            "retrievedAt": "2026-08-24T11:12:59.310Z",
             "strength": "strong_proxy",
             "proves": "material is produced specifically for partners",
             "doesNotProve": "that partners consume it",
@@ -10721,7 +10721,7 @@
             "quote": "Resellers benefit from deal registration protection, tier-based pricing discounts, and Partner of Record renewal rights.",
             "sourceUrl": "https://www.archerirm.com/archer-partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.089Z",
+            "retrievedAt": "2026-08-24T11:12:59.310Z",
             "strength": "strong_proxy",
             "proves": "the company operates opportunity conflict management with partners",
             "doesNotProve": "the number of deals registered",
@@ -10739,7 +10739,7 @@
             "quote": "Consulting partners can earn domain Specializations to unlock preferential deal routing, deeper co-sell support, and additional program benefits.",
             "sourceUrl": "https://www.archerirm.com/archer-partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.089Z",
+            "retrievedAt": "2026-08-24T11:12:59.310Z",
             "strength": "strong_proxy",
             "proves": "the company describes selling alongside partners",
             "doesNotProve": "that co-selling is systematised",
@@ -10757,7 +10757,7 @@
             "quote": "Apply Now Partner Portal About the Archer Velocity Partner Program The Velocity Partner Program is designed to equip our partners",
             "sourceUrl": "https://www.archerirm.com/archer-partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.089Z",
+            "retrievedAt": "2026-08-24T11:12:59.310Z",
             "strength": "strong_proxy",
             "proves": "partners have an authenticated destination",
             "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -10812,8 +10812,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:32.089Z",
-      "lastCheckedAt": "2026-08-24T11:04:32.089Z",
+      "baselineAt": "2026-08-24T11:12:59.310Z",
+      "lastCheckedAt": "2026-08-24T11:12:59.310Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -10965,7 +10965,7 @@
       "sourceUrl": "https://www.magentrix.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:32.805Z",
+    "builtAt": "2026-08-24T11:12:59.962Z",
     "oldestEvidenceAt": "2026-08-23T08:58:54.460Z",
     "category": {
       "whyItMatters": "The company appears on the maintained competitor list AND positions its own product as partner management.",
@@ -11026,7 +11026,7 @@
             "quote": "500K Certifications 2 Onboarding Complete Top tier Gold Top reseller status Qualification Annual revenue $1M Certifications 5 Onboarding",
             "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.805Z",
+            "retrievedAt": "2026-08-24T11:12:59.962Z",
             "strength": "strong_proxy",
             "proves": "the company describes partners selling or reselling its product",
             "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -11073,7 +11073,7 @@
             "quote": "Lead registration integration Deal-registration criteria measure partner-sourced",
             "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.805Z",
+            "retrievedAt": "2026-08-24T11:12:59.962Z",
             "strength": "strong_proxy",
             "proves": "partners participate in the sales process through a defined intake",
             "doesNotProve": "that the company is unhappy with how it handles them today",
@@ -11085,7 +11085,7 @@
             "quote": "library One repository for every reward – assigned by partner tier Define each benefit once in a centralized library, then set",
             "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.805Z",
+            "retrievedAt": "2026-08-24T11:12:59.962Z",
             "strength": "strong_proxy",
             "proves": "the company differentiates partners by commitment or performance",
             "doesNotProve": "how many partners sit in each tier",
@@ -11097,7 +11097,7 @@
             "quote": "Partner Program Tiers Partner classification and benefits by",
             "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.805Z",
+            "retrievedAt": "2026-08-24T11:12:59.962Z",
             "strength": "strong_proxy",
             "proves": "the company trains or certifies people outside its own staff",
             "doesNotProve": "that those people transact — customer academies look identical",
@@ -11109,7 +11109,7 @@
             "quote": "Three benefit types cover everything from access to margin to marketing funds.",
             "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.805Z",
+            "retrievedAt": "2026-08-24T11:12:59.962Z",
             "strength": "strong_proxy",
             "proves": "the company pays partners for commercial outcomes",
             "doesNotProve": "the size of the payments or how they are calculated",
@@ -11121,7 +11121,7 @@
             "quote": "Marketplace & Partner Locator Publicly shareable directory of partner product and service",
             "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.805Z",
+            "retrievedAt": "2026-08-24T11:12:59.962Z",
             "strength": "strong_proxy",
             "proves": "the company publishes named partner organisations",
             "doesNotProve": "that the listed partners are active",
@@ -11153,7 +11153,7 @@
             "quote": "Committed Silver First revenue commitment Qualification Annual revenue $500K Certifications 2 Onboarding Complete Top tier Gold Top reseller status Qualification Annual revenue $1M Certifications 5 Onboarding Complete Six ways to measure a partner Qualification criteria that",
             "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.805Z",
+            "retrievedAt": "2026-08-24T11:12:59.962Z",
             "strength": "strong_proxy",
             "proves": "the company uses reseller partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -11179,7 +11179,7 @@
             "quote": "Apply to partner with Magentrix  Partnering with Magentrix The Magentrix partner ecosystem is built on transparency and",
             "sourceUrl": "https://www.magentrix.com/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.805Z",
+            "retrievedAt": "2026-08-24T11:12:59.962Z",
             "strength": "strong_proxy",
             "proves": "there is an intake step with a form",
             "doesNotProve": "that applications are reviewed or that a pipeline exists",
@@ -11197,7 +11197,7 @@
             "quote": "Partner Program Tiers Partner classification and benefits by assigning tiers with specific rules, access",
             "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.805Z",
+            "retrievedAt": "2026-08-24T11:12:59.962Z",
             "strength": "strong_proxy",
             "proves": "the company describes a defined start process for new partners",
             "doesNotProve": "that it is systematised rather than manual",
@@ -11215,7 +11215,7 @@
             "quote": "For partner training & enablement. Knowledge Base Partners can self-serve if they need support or information.",
             "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.805Z",
+            "retrievedAt": "2026-08-24T11:12:59.962Z",
             "strength": "strong_proxy",
             "proves": "material is produced specifically for partners",
             "doesNotProve": "that partners consume it",
@@ -11248,7 +11248,7 @@
             "quote": "Explore more Related features Deal Registration Capture and protect partner-sourced deals – the same deals that can feed your tier criteria.",
             "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.805Z",
+            "retrievedAt": "2026-08-24T11:12:59.962Z",
             "strength": "strong_proxy",
             "proves": "the company operates opportunity conflict management with partners",
             "doesNotProve": "the number of deals registered",
@@ -11260,7 +11260,7 @@
             "quote": "Training (LMS) Partner Attribution Partner Engagement Pages Cobranding Partner Experience Segmentation AI-Deal Registration Idea Exchange Try for 1 month  We can get you up & running in days (if there are no delays on your side).",
             "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.805Z",
+            "retrievedAt": "2026-08-24T11:12:59.962Z",
             "strength": "strong_proxy",
             "proves": "the company operates opportunity conflict management with partners",
             "doesNotProve": "the number of deals registered",
@@ -11283,7 +11283,7 @@
             "quote": "Support: Access to sales, marketing, and technical resources available through our partner portal.",
             "sourceUrl": "https://www.magentrix.com/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.805Z",
+            "retrievedAt": "2026-08-24T11:12:59.962Z",
             "strength": "strong_proxy",
             "proves": "partners have an authenticated destination",
             "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -11295,7 +11295,7 @@
             "quote": "PRM Pricing All PRM & partner portal features included in each tier are listed below.",
             "sourceUrl": "https://www.magentrix.com/pricing/partner-portal",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.805Z",
+            "retrievedAt": "2026-08-24T11:12:59.962Z",
             "strength": "strong_proxy",
             "proves": "partners have an authenticated destination",
             "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -11318,7 +11318,7 @@
             "quote": "Benefit library One repository for every reward – assigned by partner tier Define each benefit once in a centralized library, then set progressive values across tiers.",
             "sourceUrl": "https://www.magentrix.com/features/partner-program-tiers",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:32.805Z",
+            "retrievedAt": "2026-08-24T11:12:59.962Z",
             "strength": "strong_proxy",
             "proves": "the programme distinguishes partners by level",
             "doesNotProve": "how many sit in each tier",
@@ -11358,7 +11358,7 @@
             "quote": "nt Platform For Partner Management Platform: Click Here For Customer Management Platform: Click Here Our Partner Program Join the Magentrix partner ecosystem. Apply to partner with Magentrix  Partnering with Magentrix The Magentrix partner ecosystem is built on transp",
             "sourceUrl": "https://www.magentrix.com/partners",
             "sourceType": "partner_page_text",
-            "retrievedAt": "2026-08-24T11:04:32.805Z",
+            "retrievedAt": "2026-08-24T11:12:59.962Z",
             "strength": "strong_proxy",
             "proves": "a partner-facing page on this site names Magentrix as a platform in use",
             "doesNotProve": "that it is currently deployed, the only platform, or anything about satisfaction, contract timing or willingness to switch"
@@ -11368,7 +11368,7 @@
             "quote": "connect.magentrix.com → wn05.magentrix.com.",
             "sourceUrl": "dns:connect.magentrix.com",
             "sourceType": "dns_cname",
-            "retrievedAt": "2026-08-24T11:04:35.036Z",
+            "retrievedAt": "2026-08-24T11:13:02.211Z",
             "strength": "confirmed",
             "proves": "the partner surface at connect.magentrix.com is served by Magentrix",
             "doesNotProve": "whether the platform is liked, how many partners use it, when the contract renews, or whether the company would consider replacing it"
@@ -11384,8 +11384,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:32.805Z",
-      "lastCheckedAt": "2026-08-24T11:04:32.805Z",
+      "baselineAt": "2026-08-24T11:12:59.962Z",
+      "lastCheckedAt": "2026-08-24T11:12:59.962Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -11576,7 +11576,7 @@
       "sourceUrl": "https://www.aikido.dev"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:31.822Z",
+    "builtAt": "2026-08-24T11:12:58.919Z",
     "oldestEvidenceAt": "2026-08-21T13:57:18.512Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -11616,7 +11616,7 @@
             "quote": "and get support from our no-nonsense enablement and co-sell motions.",
             "sourceUrl": "https://www.aikido.dev/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:31.822Z",
+            "retrievedAt": "2026-08-24T11:12:58.919Z",
             "strength": "confirmed",
             "proves": "the company describes partners selling or reselling its product",
             "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -11628,7 +11628,7 @@
             "quote": "Scale your business Earn commissions, grow your revenue, and get support from our no-nonsense enablement and co-sell",
             "sourceUrl": "https://www.aikido.dev/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:31.822Z",
+            "retrievedAt": "2026-08-24T11:12:58.919Z",
             "strength": "confirmed",
             "proves": "the company pitches partner participation as revenue for the partner",
             "doesNotProve": "that any partner earns it, or that the company tracks it",
@@ -11658,7 +11658,7 @@
             "quote": "Become a partner Enroll If you fit the partners we’re looking for, we’ll be thrilled",
             "sourceUrl": "https://www.aikido.dev/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:31.822Z",
+            "retrievedAt": "2026-08-24T11:12:58.919Z",
             "strength": "strong_proxy",
             "proves": "the company invites organisations to join a programme it runs",
             "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -11670,7 +11670,7 @@
             "quote": "registration and tracking of commission fees Dedicated Partner Success Manager who will be with you every step of the way – from training",
             "sourceUrl": "https://www.aikido.dev/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:31.822Z",
+            "retrievedAt": "2026-08-24T11:12:58.919Z",
             "strength": "strong_proxy",
             "proves": "the company supplies partners with resources, enablement or a named contact",
             "doesNotProve": "that partners use them",
@@ -11700,7 +11700,7 @@
             "quote": "Benefits Exclusive access to Aikido’s Partner Room for deal registration and tracking of commission fees Dedicated Partner Success Manager",
             "sourceUrl": "https://www.aikido.dev/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:31.822Z",
+            "retrievedAt": "2026-08-24T11:12:58.919Z",
             "strength": "strong_proxy",
             "proves": "partners participate in the sales process through a defined intake",
             "doesNotProve": "that the company is unhappy with how it handles them today",
@@ -11712,7 +11712,7 @@
             "quote": "Aikido’s Partner Room for deal registration and tracking of commission fees Dedicated Partner Success Manager who will be with you every",
             "sourceUrl": "https://www.aikido.dev/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:31.822Z",
+            "retrievedAt": "2026-08-24T11:12:58.919Z",
             "strength": "strong_proxy",
             "proves": "the company pays partners for commercial outcomes",
             "doesNotProve": "the size of the payments or how they are calculated",
@@ -11744,7 +11744,7 @@
             "quote": "Security-first customers that thrive with our partners Ways to partner Reseller Partner As a Reseller, you have the autonomy to build and manage relationships with your customers by owning the full sales cycle and",
             "sourceUrl": "https://www.aikido.dev/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:31.822Z",
+            "retrievedAt": "2026-08-24T11:12:58.919Z",
             "strength": "strong_proxy",
             "proves": "the company uses reseller partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -11763,7 +11763,7 @@
             "quote": "Gain access to an exclusive Admin Portal that lets you manage your customers effectively, and design services that align with their goals Technology Partner As a technology partner, you have the unique opportunity to create a powerful synergy that extends the capabilities of both platforms –",
             "sourceUrl": "https://www.aikido.dev/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:31.822Z",
+            "retrievedAt": "2026-08-24T11:12:58.919Z",
             "strength": "strong_proxy",
             "proves": "the company uses technology partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -11784,7 +11784,7 @@
             "quote": "Become a partner Enroll If you fit the partners we’re looking for, we’ll be thrilled to receive your application!",
             "sourceUrl": "https://www.aikido.dev/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:31.822Z",
+            "retrievedAt": "2026-08-24T11:12:58.919Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -11832,7 +11832,7 @@
             "quote": "Program Benefits Exclusive access to Aikido’s Partner Room for deal registration and tracking of commission fees Dedicated Partner Success Manager who will be with you every step of the",
             "sourceUrl": "https://www.aikido.dev/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:31.822Z",
+            "retrievedAt": "2026-08-24T11:12:58.919Z",
             "strength": "strong_proxy",
             "proves": "the company operates opportunity conflict management with partners",
             "doesNotProve": "the number of deals registered",
@@ -11850,7 +11850,7 @@
             "quote": "Become a trusted advisor Get an exclusive Aikido Partner Badge and position yourself as a trusted",
             "sourceUrl": "https://www.aikido.dev/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:31.822Z",
+            "retrievedAt": "2026-08-24T11:12:58.919Z",
             "strength": "strong_proxy",
             "proves": "the company describes selling alongside partners",
             "doesNotProve": "that co-selling is systematised",
@@ -11868,7 +11868,7 @@
             "quote": "Scale your business Earn commissions, grow your revenue, and get support from",
             "sourceUrl": "https://www.aikido.dev/partner",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:31.822Z",
+            "retrievedAt": "2026-08-24T11:12:58.919Z",
             "strength": "strong_proxy",
             "proves": "partners have an authenticated destination",
             "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -11912,7 +11912,7 @@
             "quote": "js.hs-scripts.com/26076760.js",
             "sourceUrl": "https://aikido.dev/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:31.822Z",
+            "retrievedAt": "2026-08-24T11:12:58.919Z",
             "strength": "confirmed",
             "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
             "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
@@ -11922,13 +11922,13 @@
             "quote": "hubspotusercontent",
             "sourceUrl": "https://aikido.dev/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:31.822Z",
+            "retrievedAt": "2026-08-24T11:12:58.919Z",
             "strength": "strong_proxy",
             "proves": "HubSpot-hosted assets or analytics are in use",
             "doesNotProve": "which HubSpot products are licensed"
           }
         ],
-        "note": "hubspot evidence at confirmed (hs_tracking_portal)"
+        "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
       },
       "prm": {
         "state": "unknown",
@@ -11944,8 +11944,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:31.822Z",
-      "lastCheckedAt": "2026-08-24T11:04:31.822Z",
+      "baselineAt": "2026-08-24T11:12:58.919Z",
+      "lastCheckedAt": "2026-08-24T11:12:58.919Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -12096,7 +12096,7 @@
       "sourceUrl": "https://www.cubbit.io"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:34.772Z",
+    "builtAt": "2026-08-24T11:13:01.983Z",
     "oldestEvidenceAt": "2026-08-21T13:56:22.010Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -12136,7 +12136,7 @@
             "quote": "for Partners’ needs Multi-tenant Enable multiple users (and resellers) to manage their tenants independently, with full control over",
             "sourceUrl": "https://www.cubbit.io/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:34.772Z",
+            "retrievedAt": "2026-08-24T11:13:01.983Z",
             "strength": "strong_proxy",
             "proves": "the company describes partners selling or reselling its product",
             "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -12166,7 +12166,7 @@
             "quote": "Cubbit | Become a partner Product Solutions Case Studies Partners Pricing Docs Contact us Try",
             "sourceUrl": "https://www.cubbit.io/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:34.772Z",
+            "retrievedAt": "2026-08-24T11:13:01.983Z",
             "strength": "strong_proxy",
             "proves": "the company invites organisations to join a programme it runs",
             "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -12178,7 +12178,7 @@
             "quote": "Become a partner Technology Partners Complement your offering by integrating geo-distributed S3 into",
             "sourceUrl": "https://www.cubbit.io/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:34.772Z",
+            "retrievedAt": "2026-08-24T11:13:01.983Z",
             "strength": "strong_proxy",
             "proves": "the company distinguishes and manages more than one kind of partner",
             "doesNotProve": "how many partners exist in each type",
@@ -12208,7 +12208,7 @@
             "quote": "Cubbit Partner Portal - Invite Only The portal is currently invite only, we will contact",
             "sourceUrl": "https://partners.cubbit.io/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:34.772Z",
+            "retrievedAt": "2026-08-24T11:13:01.983Z",
             "strength": "strong_proxy",
             "proves": "a partner-specific operational surface exists",
             "doesNotProve": "adoption, or that partners log into it",
@@ -12240,7 +12240,7 @@
             "quote": "Become a partner up to 50% Cubbit is designed for Partners’ needs Multi-tenant Enable multiple users (and resellers) to manage their tenants independently, with full control over metrics, configurations, billing, and policies.",
             "sourceUrl": "https://www.cubbit.io/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:34.772Z",
+            "retrievedAt": "2026-08-24T11:13:01.983Z",
             "strength": "strong_proxy",
             "proves": "the company uses reseller partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -12259,7 +12259,7 @@
             "quote": "Diventa partner Rivenditore IT Offri Cubbit ai tuoi clienti senza dover gestire alcun hardware. Diventa partner Tech Partner Complementa la tua offerta integrando lo storage S3 geo-distribuito di Cubbit nelle tue soluzioni.",
             "sourceUrl": "https://www.cubbit.io/it/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:34.772Z",
+            "retrievedAt": "2026-08-24T11:13:01.983Z",
             "strength": "strong_proxy",
             "proves": "the company uses technology partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -12278,7 +12278,7 @@
             "quote": "Approfitta di condizioni vantaggiose, incentivi a livelli e prezzi chiari. Tipologie di Partnership Business Alliance Partner Implementa Cubbit nella tua infrastruttura / data center e offri servizi di storage S3 a valore aggiunto ai tuoi clienti.",
             "sourceUrl": "https://www.cubbit.io/it/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:34.772Z",
+            "retrievedAt": "2026-08-24T11:13:01.983Z",
             "strength": "strong_proxy",
             "proves": "the company uses strategic alliance partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -12299,7 +12299,7 @@
             "quote": "Cubbit | Become a partner Product Solutions Case Studies Partners Pricing Docs Contact us Try now Beat any S3 on price and SLA For",
             "sourceUrl": "https://www.cubbit.io/partners",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:34.772Z",
+            "retrievedAt": "2026-08-24T11:13:01.983Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -12357,7 +12357,7 @@
             "quote": "Cubbit Partner Portal - Invite Only The portal is currently invite only, we will contact you when ready!",
             "sourceUrl": "https://partners.cubbit.io/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:34.772Z",
+            "retrievedAt": "2026-08-24T11:13:01.983Z",
             "strength": "strong_proxy",
             "proves": "partners have an authenticated destination",
             "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -12403,13 +12403,13 @@
             "quote": "js.hsforms.net",
             "sourceUrl": "https://cubbit.io/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:34.772Z",
+            "retrievedAt": "2026-08-24T11:13:01.983Z",
             "strength": "confirmed",
             "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
             "doesNotProve": "that opportunities and partner deals are managed there"
           }
         ],
-        "note": "hubspot evidence at confirmed (hs_forms)"
+        "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
       },
       "prm": {
         "state": "introw_confirmed",
@@ -12420,7 +12420,7 @@
             "quote": "partners.cubbit.io → cm0wfr1np01axmhfqqrjbqikk.cname.introw.io.",
             "sourceUrl": "dns:partners.cubbit.io",
             "sourceType": "dns_cname",
-            "retrievedAt": "2026-08-24T11:04:36.043Z",
+            "retrievedAt": "2026-08-24T11:13:03.251Z",
             "strength": "confirmed",
             "proves": "the partner surface at partners.cubbit.io is served by Introw",
             "doesNotProve": "whether the platform is liked, how many partners use it, when the contract renews, or whether the company would consider replacing it"
@@ -12436,8 +12436,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:34.772Z",
-      "lastCheckedAt": "2026-08-24T11:04:34.772Z",
+      "baselineAt": "2026-08-24T11:13:01.983Z",
+      "lastCheckedAt": "2026-08-24T11:13:01.983Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -12598,7 +12598,7 @@
       "sourceUrl": "https://www.datadoghq.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:33.593Z",
+    "builtAt": "2026-08-24T11:13:01.507Z",
     "oldestEvidenceAt": "2026-08-23T07:46:21.999Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -12685,67 +12685,67 @@
     "surfaces": [
       {
         "surface": "partner_recruitment",
-        "state": "unknown",
+        "state": "not_observed",
         "evidence": []
       },
       {
         "surface": "application",
-        "state": "unknown",
+        "state": "not_observed",
         "evidence": []
       },
       {
         "surface": "onboarding",
-        "state": "unknown",
+        "state": "not_observed",
         "evidence": []
       },
       {
         "surface": "enablement",
-        "state": "unknown",
+        "state": "not_observed",
         "evidence": []
       },
       {
         "surface": "certification",
-        "state": "unknown",
+        "state": "not_observed",
         "evidence": []
       },
       {
         "surface": "lead_submission",
-        "state": "unknown",
+        "state": "not_observed",
         "evidence": []
       },
       {
         "surface": "referral_submission",
-        "state": "unknown",
+        "state": "not_observed",
         "evidence": []
       },
       {
         "surface": "deal_registration",
-        "state": "unknown",
+        "state": "not_observed",
         "evidence": []
       },
       {
         "surface": "co_selling",
-        "state": "unknown",
+        "state": "not_observed",
         "evidence": []
       },
       {
         "surface": "portal",
-        "state": "unknown",
+        "state": "not_observed",
         "evidence": []
       },
       {
         "surface": "partner_pipeline",
-        "state": "unknown",
+        "state": "not_observed",
         "evidence": []
       },
       {
         "surface": "programme_tiers",
-        "state": "unknown",
+        "state": "not_observed",
         "evidence": []
       },
       {
         "surface": "partner_resources",
-        "state": "unknown",
+        "state": "not_observed",
         "evidence": []
       }
     ],
@@ -12779,8 +12779,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:33.593Z",
-      "lastCheckedAt": "2026-08-24T11:04:33.593Z",
+      "baselineAt": "2026-08-24T11:13:01.507Z",
+      "lastCheckedAt": "2026-08-24T11:13:01.507Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -12839,11 +12839,6 @@
         "status": 200
       },
       {
-        "url": "https://partner.datadoghq.com/",
-        "health": "not_found",
-        "status": 401
-      },
-      {
         "url": "https://partnerhub.datadoghq.com/",
         "health": "not_found",
         "status": 401
@@ -12854,19 +12849,19 @@
         "status": 401
       },
       {
-        "url": "https://dealer.datadoghq.com/",
+        "url": "https://installers.datadoghq.com/",
         "health": "not_found",
         "status": 401
       },
       {
-        "url": "https://dealers.datadoghq.com/",
+        "url": "https://ecosystem.datadoghq.com/",
         "health": "not_found",
         "status": 401
       },
       {
-        "url": "https://channel.datadoghq.com/",
-        "health": "not_found",
-        "status": 401
+        "url": "https://www.datadoghq.com/free-datadog-trial/partner/",
+        "health": "success",
+        "status": 200
       },
       {
         "url": "https://www.datadoghq.com/resources/technology-partner-program-guide/",
@@ -12965,8 +12960,8 @@
     "companyName": "DoorDash",
     "selfDescription": null,
     "geography": null,
-    "builtAt": "2026-08-24T11:04:35.450Z",
-    "oldestEvidenceAt": "2026-08-24T11:04:35.450Z",
+    "builtAt": "2026-08-24T11:13:02.625Z",
+    "oldestEvidenceAt": "2026-08-24T11:13:02.625Z",
     "category": {
       "whyItMatters": "No identity-bearing surface could be read, so the company category is not established.",
       "whyItMayNotMatter": "This says nothing about the company — only about our retrieval.",
@@ -13131,8 +13126,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:35.450Z",
-      "lastCheckedAt": "2026-08-24T11:04:35.450Z",
+      "baselineAt": "2026-08-24T11:13:02.625Z",
+      "lastCheckedAt": "2026-08-24T11:13:02.625Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -13206,7 +13201,7 @@
       "sourceUrl": "https://www.deloitte.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:35.769Z",
+    "builtAt": "2026-08-24T11:13:03.109Z",
     "oldestEvidenceAt": "2026-08-21T13:59:36.539Z",
     "category": {
       "whyItMatters": "The company is a professional-services firm; its \"partners\" are frequently equity partners or alliance memberships.",
@@ -13380,8 +13375,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:35.769Z",
-      "lastCheckedAt": "2026-08-24T11:04:35.769Z",
+      "baselineAt": "2026-08-24T11:13:03.109Z",
+      "lastCheckedAt": "2026-08-24T11:13:03.109Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -13564,7 +13559,7 @@
       "sourceUrl": "https://glovoapp.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:35.038Z",
+    "builtAt": "2026-08-24T11:13:02.212Z",
     "oldestEvidenceAt": "2026-08-24T07:16:23.377Z",
     "category": {
       "whyItMatters": "The company's \"partners\" appear to be supply — restaurants, drivers, hosts, properties — rather than a route to market for its own product.",
@@ -13678,7 +13673,7 @@
             "quote": "As such, they are continuously audited with certifications from accreditation bodies across geographies and verticals.",
             "sourceUrl": "https://glovoapp.com/en/security",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:35.038Z",
+            "retrievedAt": "2026-08-24T11:13:02.212Z",
             "strength": "strong_proxy",
             "proves": "the company distinguishes qualified partners formally",
             "doesNotProve": "the number certified",
@@ -13758,8 +13753,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:35.038Z",
-      "lastCheckedAt": "2026-08-24T11:04:35.038Z",
+      "baselineAt": "2026-08-24T11:13:02.212Z",
+      "lastCheckedAt": "2026-08-24T11:13:02.212Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -13946,7 +13941,7 @@
       "sourceUrl": "https://www.devoteam.com"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:33.045Z",
+    "builtAt": "2026-08-24T11:13:00.190Z",
     "oldestEvidenceAt": "2026-08-24T07:16:24.961Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -14003,7 +13998,7 @@
             "quote": "of Devoteam’s awarded in-house specialists and leading technology partners like AWS, Microsoft, Google Cloud, ServiceNow, and more.",
             "sourceUrl": "https://www.devoteam.com/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:33.045Z",
+            "retrievedAt": "2026-08-24T11:13:00.190Z",
             "strength": "strong_proxy",
             "proves": "the company distinguishes and manages more than one kind of partner",
             "doesNotProve": "how many partners exist in each type",
@@ -14140,8 +14135,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:33.045Z",
-      "lastCheckedAt": "2026-08-24T11:04:33.045Z",
+      "baselineAt": "2026-08-24T11:13:00.190Z",
+      "lastCheckedAt": "2026-08-24T11:13:00.190Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },
@@ -14333,7 +14328,7 @@
       "sourceUrl": "https://aircall.io"
     },
     "geography": null,
-    "builtAt": "2026-08-24T11:04:36.044Z",
+    "builtAt": "2026-08-24T11:13:03.251Z",
     "oldestEvidenceAt": "2026-08-23T07:45:56.222Z",
     "category": {
       "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -14373,7 +14368,7 @@
             "quote": "and Demo Environment so you can be fully armed when you resell our industry-leading communications platform. and more...",
             "sourceUrl": "https://aircall.io/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:36.044Z",
+            "retrievedAt": "2026-08-24T11:13:03.251Z",
             "strength": "strong_proxy",
             "proves": "the company describes partners selling or reselling its product",
             "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -14385,7 +14380,7 @@
             "quote": "04 Reach new customers and scale. Featured on our App Marketplace and surfaced inside the",
             "sourceUrl": "https://aircall.io/en-au/partners/technology/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:36.044Z",
+            "retrievedAt": "2026-08-24T11:13:03.251Z",
             "strength": "strong_proxy",
             "proves": "the company describes partners reaching customers it would not reach directly",
             "doesNotProve": "that the reach is exclusive, managed, or measured",
@@ -14415,7 +14410,7 @@
             "quote": "Why join the Partner Collective? You’ll become part of a collaborative partner community",
             "sourceUrl": "https://aircall.io/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:36.044Z",
+            "retrievedAt": "2026-08-24T11:13:03.251Z",
             "strength": "strong_proxy",
             "proves": "the company invites organisations to join a programme it runs",
             "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -14427,7 +14422,7 @@
             "quote": "Collective is our way of investing back into our core channel partners like you.",
             "sourceUrl": "https://aircall.io/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:36.044Z",
+            "retrievedAt": "2026-08-24T11:13:03.251Z",
             "strength": "strong_proxy",
             "proves": "the company distinguishes and manages more than one kind of partner",
             "doesNotProve": "how many partners exist in each type",
@@ -14457,7 +14452,7 @@
             "quote": "to partner? We are. Join the Partner Collective Log in to Partner",
             "sourceUrl": "https://aircall.io/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:36.044Z",
+            "retrievedAt": "2026-08-24T11:13:03.251Z",
             "strength": "strong_proxy",
             "proves": "a partner-specific operational surface exists",
             "doesNotProve": "adoption, or that partners log into it",
@@ -14469,7 +14464,7 @@
             "quote": "Retail and E-commerce Travel and Hospitality All Partners Gold Partner Fileroom Fileroom is a full-stack growth agency and HubSpot",
             "sourceUrl": "https://aircall.io/en-au/partner-services/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:36.044Z",
+            "retrievedAt": "2026-08-24T11:13:03.251Z",
             "strength": "strong_proxy",
             "proves": "the company differentiates partners by commitment or performance",
             "doesNotProve": "how many partners sit in each tier",
@@ -14481,7 +14476,7 @@
             "quote": "Commission Earn more as you progress! Your share of revenue increases as you",
             "sourceUrl": "https://aircall.io/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:36.044Z",
+            "retrievedAt": "2026-08-24T11:13:03.251Z",
             "strength": "strong_proxy",
             "proves": "the company pays partners for commercial outcomes",
             "doesNotProve": "the size of the payments or how they are calculated",
@@ -14513,7 +14508,7 @@
             "quote": "French German Spanish Dutch Portuguese Romanian Hindi Chinese Certifications Aircall Administrator Aircall Agents Aircall AI Aircall Solutions Partner Aircall Workspace Aircall x HubSpot Integration Aircall x Salesforce Integration Analytics Building Services around Aircall Live",
             "sourceUrl": "https://aircall.io/en-au/partner-services/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:36.044Z",
+            "retrievedAt": "2026-08-24T11:13:03.251Z",
             "strength": "strong_proxy",
             "proves": "the company uses services partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -14532,7 +14527,7 @@
             "quote": "Configuration Aircall Dashboard Aircall Phone App Aircall Integrations Pricing and Packaging Services Monitor and Review Aircall + Zendesk Integration Partner Foundations Porting Essentials Aircall Services Onboarding - Configuration and Training Advanced Aircall Solutions Ecosystem Solutions",
             "sourceUrl": "https://aircall.io/en-au/partner-services/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:36.044Z",
+            "retrievedAt": "2026-08-24T11:13:03.251Z",
             "strength": "strong_proxy",
             "proves": "the company uses integration partner vocabulary about itself",
             "doesNotProve": "that the programme is active, staffed or material",
@@ -14553,7 +14548,7 @@
             "quote": "HubSpot Want to become a partner? Join the Collective Ready to build better conversations?",
             "sourceUrl": "https://aircall.io/en-au/partner-services/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:36.044Z",
+            "retrievedAt": "2026-08-24T11:13:03.251Z",
             "strength": "strong_proxy",
             "proves": "the company publicly invites organisations to join a programme",
             "doesNotProve": "that anyone joins, or how many",
@@ -14611,7 +14606,7 @@
             "quote": "Ready to partner? We are. Join the Partner Collective Log in to Partner",
             "sourceUrl": "https://aircall.io/partners/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:36.044Z",
+            "retrievedAt": "2026-08-24T11:13:03.251Z",
             "strength": "strong_proxy",
             "proves": "partners have an authenticated destination",
             "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -14634,7 +14629,7 @@
             "quote": "and Services Marketing and Advertising Other Retail and E-commerce Travel and Hospitality All Partners Gold Partner Fileroom Fileroom is a full-stack growth agency and HubSpot Platinum Partner.",
             "sourceUrl": "https://aircall.io/en-au/partner-services/",
             "sourceType": "partner_surface",
-            "retrievedAt": "2026-08-24T11:04:36.044Z",
+            "retrievedAt": "2026-08-24T11:13:03.251Z",
             "strength": "strong_proxy",
             "proves": "the programme distinguishes partners by level",
             "doesNotProve": "how many sit in each tier",
@@ -14668,13 +14663,13 @@
             "quote": "js.hs-scripts.com/48407761.js",
             "sourceUrl": "https://aircall.io/",
             "sourceType": "html_artifact",
-            "retrievedAt": "2026-08-24T11:04:36.044Z",
+            "retrievedAt": "2026-08-24T11:13:03.251Z",
             "strength": "confirmed",
             "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
             "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
           }
         ],
-        "note": "hubspot evidence at confirmed (hs_tracking_portal)"
+        "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
       },
       "prm": {
         "state": "unknown",
@@ -14690,8 +14685,8 @@
     },
     "temporal": {
       "state": "first_observation",
-      "baselineAt": "2026-08-24T11:04:36.044Z",
-      "lastCheckedAt": "2026-08-24T11:04:36.044Z",
+      "baselineAt": "2026-08-24T11:13:03.251Z",
+      "lastCheckedAt": "2026-08-24T11:13:03.251Z",
       "changes": [],
       "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
     },

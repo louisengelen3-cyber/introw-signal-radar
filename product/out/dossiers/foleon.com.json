@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.foleon.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:04:29.777Z",
+  "builtAt": "2026-08-24T11:12:56.810Z",
   "oldestEvidenceAt": "2026-08-24T07:35:31.379Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -179,7 +179,7 @@
       "quote": "Our Partners – Foleon --> Foleon certified partners Creative organizations that excel in producing first-class interactive content All locations All languages All service types All use cases Tag Agency Each agency in the tag network is uniquely positioned and",
       "sourceUrl": "https://www.foleon.com/partners",
       "sourceType": "partner_directory",
-      "retrievedAt": "2026-08-24T11:04:29.777Z",
+      "retrievedAt": "2026-08-24T11:12:56.810Z",
       "strength": "confirmed",
       "proves": "the company publicly lists at least 82 partner organisations",
       "doesNotProve": "the true number of partners, that they transact, or that the list is current — a directory is a lower bound and usually a filtered view"
@@ -194,13 +194,13 @@
           "quote": "js.hsforms.net",
           "sourceUrl": "https://foleon.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T11:04:29.777Z",
+          "retrievedAt": "2026-08-24T11:12:56.810Z",
           "strength": "confirmed",
           "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
           "doesNotProve": "that opportunities and partner deals are managed there"
         }
       ],
-      "note": "hubspot evidence at confirmed (hs_forms)"
+      "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
     },
     "prm": {
       "state": "unknown",
@@ -216,8 +216,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:04:29.777Z",
-    "lastCheckedAt": "2026-08-24T11:04:29.777Z",
+    "baselineAt": "2026-08-24T11:12:56.810Z",
+    "lastCheckedAt": "2026-08-24T11:12:56.810Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

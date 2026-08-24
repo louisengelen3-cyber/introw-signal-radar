@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-24T11:04:45.537Z",
+ "generatedAt": "2026-08-24T11:13:51.229Z",
  "count": 35,
  "monitoringSince": "2026-08-23",
  "accounts": [
@@ -172,7 +172,7 @@
    "contradictions": 1,
    "researchTasks": 4,
    "topUnknown": "What does this company sell?",
-   "retrievedAt": "2026-08-24T11:04:24.857Z",
+   "retrievedAt": "2026-08-24T11:12:51.959Z",
    "sourceHealthOk": 1,
    "sourceHealthTotal": 3
   },
@@ -231,8 +231,8 @@
    "researchTasks": 3,
    "topUnknown": "Does this company run a partner programme at all?",
    "retrievedAt": "2026-08-23T07:46:21.999Z",
-   "sourceHealthOk": 4,
-   "sourceHealthTotal": 26
+   "sourceHealthOk": 5,
+   "sourceHealthTotal": 25
   },
   {
    "domain": "deloitte.com",
@@ -311,7 +311,7 @@
    "contradictions": 0,
    "researchTasks": 4,
    "topUnknown": "Does this company run a partner programme at all?",
-   "retrievedAt": "2026-08-24T11:04:35.450Z",
+   "retrievedAt": "2026-08-24T11:13:02.625Z",
    "sourceHealthOk": 0,
    "sourceHealthTotal": 2
   },
@@ -338,7 +338,7 @@
    "contradictions": 0,
    "researchTasks": 4,
    "topUnknown": "Does this company run a partner programme at all?",
-   "retrievedAt": "2026-08-24T11:04:25.562Z",
+   "retrievedAt": "2026-08-24T11:12:52.409Z",
    "sourceHealthOk": 0,
    "sourceHealthTotal": 2
   },

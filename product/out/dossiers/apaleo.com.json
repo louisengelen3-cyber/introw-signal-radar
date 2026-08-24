@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.apaleo.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:04:26.445Z",
+  "builtAt": "2026-08-24T11:12:53.389Z",
   "oldestEvidenceAt": "2026-08-24T07:33:59.645Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -187,8 +187,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:04:26.445Z",
-    "lastCheckedAt": "2026-08-24T11:04:26.445Z",
+    "baselineAt": "2026-08-24T11:12:53.389Z",
+    "lastCheckedAt": "2026-08-24T11:12:53.389Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

@@ -6,7 +6,7 @@
     "sourceUrl": "https://juro.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:04:26.710Z",
+  "builtAt": "2026-08-24T11:12:53.655Z",
   "oldestEvidenceAt": "2026-08-24T07:34:13.538Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -172,27 +172,27 @@
       "state": "hubspot_confirmed",
       "evidence": [
         {
-          "id": "o61",
+          "id": "o78",
           "quote": "js.hs-scripts.com/3786704.js",
           "sourceUrl": "https://juro.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T11:04:26.710Z",
+          "retrievedAt": "2026-08-24T11:12:53.655Z",
           "strength": "confirmed",
           "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
           "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
         },
         {
-          "id": "o62",
+          "id": "o79",
           "quote": "js.hsforms.net",
           "sourceUrl": "https://juro.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T11:04:26.710Z",
+          "retrievedAt": "2026-08-24T11:12:53.655Z",
           "strength": "confirmed",
           "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
           "doesNotProve": "that opportunities and partner deals are managed there"
         }
       ],
-      "note": "hubspot evidence at confirmed (hs_tracking_portal)"
+      "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
     },
     "prm": {
       "state": "unknown",
@@ -208,8 +208,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:04:26.710Z",
-    "lastCheckedAt": "2026-08-24T11:04:26.710Z",
+    "baselineAt": "2026-08-24T11:12:53.655Z",
+    "lastCheckedAt": "2026-08-24T11:12:53.655Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.devoteam.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:04:33.045Z",
+  "builtAt": "2026-08-24T11:13:00.190Z",
   "oldestEvidenceAt": "2026-08-24T07:16:24.961Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -63,7 +63,7 @@
           "quote": "of Devoteam’s awarded in-house specialists and leading technology partners like AWS, Microsoft, Google Cloud, ServiceNow, and more.",
           "sourceUrl": "https://www.devoteam.com/partners/",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:04:33.045Z",
+          "retrievedAt": "2026-08-24T11:13:00.190Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -200,8 +200,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:04:33.045Z",
-    "lastCheckedAt": "2026-08-24T11:04:33.045Z",
+    "baselineAt": "2026-08-24T11:13:00.190Z",
+    "lastCheckedAt": "2026-08-24T11:13:00.190Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

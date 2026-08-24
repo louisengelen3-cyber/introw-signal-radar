@@ -122,6 +122,11 @@ export interface CrmAssessment {
 
 const RANK: Record<CrmEvidenceState, number> = { confirmed: 3, strong_proxy: 2, weak_proxy: 1, unknown: 0 };
 
+const VENDOR_NAME: Record<string, string> = {
+  hubspot: 'HubSpot', salesforce: 'Salesforce', pipedrive: 'Pipedrive',
+  zoho: 'Zoho', dynamics: 'Microsoft Dynamics', attio: 'Attio', other: 'another CRM',
+};
+
 /** @param sources raw page bodies / header blobs. Pass HTML, not stripped text — markers live in tags. */
 export function assessCrm(sources: string[]): CrmAssessment {
   const observations: CrmObservation[] = [];
@@ -155,8 +160,9 @@ export function assessCrm(sources: string[]): CrmAssessment {
 
   return {
     observations, vendor: best.vendor, state: best.state, compatibility,
+    // Written for a seller to read, not for a log line.
     rationale: strongestSupported
-      ? `${strongestSupported.vendor} evidence at ${strongestSupported.state} (${strongestSupported.marker})`
-      : `only unsupported-CRM artifacts observed (${[...new Set(observations.map((o) => o.vendor))].join(', ')}); this does not establish that HubSpot or Salesforce is absent`,
+      ? `A ${strongestSupported.state === 'confirmed' ? 'confirmed' : 'probable'} ${VENDOR_NAME[strongestSupported.vendor] ?? strongestSupported.vendor} artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in.`
+      : `Only artifacts for ${[...new Set(observations.map((o) => VENDOR_NAME[o.vendor] ?? o.vendor))].join(' and ')} were found. That does not establish that HubSpot or Salesforce is absent — companies commonly run more than one system.`,
   };
 }

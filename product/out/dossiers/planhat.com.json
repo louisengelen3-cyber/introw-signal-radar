@@ -6,7 +6,7 @@
     "sourceUrl": "https://www.planhat.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:04:24.024Z",
+  "builtAt": "2026-08-24T11:12:50.750Z",
   "oldestEvidenceAt": "2026-08-24T07:33:14.188Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -42,11 +42,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o13",
+          "id": "o1",
           "quote": "As an IT Services Partner, you'll get co-sell support, joint pipeline opportunities, and a platform built for",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:04:24.024Z",
+          "retrievedAt": "2026-08-24T11:12:50.750Z",
           "strength": "confirmed",
           "proves": "the company describes partners selling or reselling its product",
           "doesNotProve": "the volume of resale, or that resale revenue is material",
@@ -54,11 +54,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o14",
+          "id": "o2",
           "quote": "In return, you'll grow your Planhat expertise, win new business, and expand what you can offer.",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:04:24.024Z",
+          "retrievedAt": "2026-08-24T11:12:50.750Z",
           "strength": "confirmed",
           "proves": "the company describes partners bringing it leads, deals or customers",
           "doesNotProve": "the number of deals, or that a process exists to handle them",
@@ -84,11 +84,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o15",
+          "id": "o3",
           "quote": "Planhat | Partner with Us partners We’re stronger together We work with software providers,",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:04:24.024Z",
+          "retrievedAt": "2026-08-24T11:12:50.750Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -96,11 +96,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o16",
+          "id": "o4",
           "quote": "Solution Partners Deliver consulting services — business insight, data mapping,",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:04:24.024Z",
+          "retrievedAt": "2026-08-24T11:12:50.750Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -146,11 +146,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o17",
+          "id": "o5",
           "quote": "Planhat | Partner with Us partners We’re stronger together We work with software providers, consultants, and investors to help",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:04:24.024Z",
+          "retrievedAt": "2026-08-24T11:12:50.750Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -199,11 +199,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o18",
+          "id": "o6",
           "quote": "As an IT Services Partner, you'll get co-sell support, joint pipeline opportunities, and a platform built for scale.",
           "sourceUrl": "https://www.planhat.com/partners",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:04:24.024Z",
+          "retrievedAt": "2026-08-24T11:12:50.750Z",
           "strength": "strong_proxy",
           "proves": "the company describes selling alongside partners",
           "doesNotProve": "that co-selling is systematised",
@@ -263,8 +263,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:04:24.024Z",
-    "lastCheckedAt": "2026-08-24T11:04:24.024Z",
+    "baselineAt": "2026-08-24T11:12:50.750Z",
+    "lastCheckedAt": "2026-08-24T11:12:50.750Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },

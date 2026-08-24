@@ -6,7 +6,7 @@
     "sourceUrl": "https://trengo.com"
   },
   "geography": null,
-  "builtAt": "2026-08-24T11:04:24.031Z",
+  "builtAt": "2026-08-24T11:12:50.756Z",
   "oldestEvidenceAt": "2026-08-24T07:33:14.190Z",
   "category": {
     "whyItMatters": "The company positions itself as selling an ordinary product or service, so a partner programme it runs would be a route to market.",
@@ -59,11 +59,11 @@
       "state": "direct",
       "evidence": [
         {
-          "id": "o1",
+          "id": "o7",
           "quote": "Apply to become a partner value More value for your customers Make customer communication",
           "sourceUrl": "https://trengo.com/partners/tech",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:04:24.031Z",
+          "retrievedAt": "2026-08-24T11:12:50.756Z",
           "strength": "strong_proxy",
           "proves": "the company invites organisations to join a programme it runs",
           "doesNotProve": "that anyone joins, or that the programme is staffed",
@@ -71,11 +71,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o2",
+          "id": "o8",
           "quote": "Learn more For agencies & service partners Your clients need a AI Customer Communication tool.",
           "sourceUrl": "https://trengo.com/partner",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:04:24.031Z",
+          "retrievedAt": "2026-08-24T11:12:50.756Z",
           "strength": "strong_proxy",
           "proves": "the company distinguishes and manages more than one kind of partner",
           "doesNotProve": "how many partners exist in each type",
@@ -101,11 +101,11 @@
       "state": "moderate",
       "evidence": [
         {
-          "id": "o3",
+          "id": "o9",
           "quote": "1.7. Lead Registration Form: means the (electronic) form as provided by Trengo which",
           "sourceUrl": "https://trengo.com/partner-terms-and-conditions",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:04:24.031Z",
+          "retrievedAt": "2026-08-24T11:12:50.756Z",
           "strength": "strong_proxy",
           "proves": "partners participate in the sales process through a defined intake",
           "doesNotProve": "that the company is unhappy with how it handles them today",
@@ -113,11 +113,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o4",
+          "id": "o10",
           "quote": "termination without cause by either party: any applicable Commission accrued in accordance with the terms of the Partner Terms prior to",
           "sourceUrl": "https://trengo.com/partner-terms-and-conditions",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:04:24.031Z",
+          "retrievedAt": "2026-08-24T11:12:50.756Z",
           "strength": "strong_proxy",
           "proves": "the company pays partners for commercial outcomes",
           "doesNotProve": "the size of the payments or how they are calculated",
@@ -145,11 +145,11 @@
       "publishedName": null,
       "evidence": [
         {
-          "id": "o5",
+          "id": "o11",
           "quote": "Apply today Tech Connect with quality Trengo is built to enable top-quality integrations. As an integration partner, you will receive hands-on technical support and be featured on our Integrations Hub.",
           "sourceUrl": "https://trengo.com/partners/tech",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:04:24.031Z",
+          "retrievedAt": "2026-08-24T11:12:50.756Z",
           "strength": "strong_proxy",
           "proves": "the company uses integration partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -164,11 +164,11 @@
       "publishedName": "Trengo Partner Program",
       "evidence": [
         {
-          "id": "o6",
+          "id": "o12",
           "quote": "1. Technology Partners 1.1 No commission applies, unless Trengo and Partner separately agree otherwise in writing",
           "sourceUrl": "https://trengo.com/partner-terms-and-conditions",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:04:24.031Z",
+          "retrievedAt": "2026-08-24T11:12:50.756Z",
           "strength": "strong_proxy",
           "proves": "the company uses technology partner vocabulary about itself",
           "doesNotProve": "that the programme is active, staffed or material",
@@ -187,11 +187,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o7",
+          "id": "o13",
           "quote": "Apply to become a partner value More value for your customers Make customer communication easy for your customers.",
           "sourceUrl": "https://trengo.com/partners/tech",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:04:24.031Z",
+          "retrievedAt": "2026-08-24T11:12:50.756Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -199,11 +199,11 @@
           "alsoSeenAt": []
         },
         {
-          "id": "o8",
+          "id": "o14",
           "quote": "1.3 Provided that the Partner has successfully completed the registration procedure to become a partner of Trengo, followed by acceptance by Trengo, the Partner shall be granted the rights associated with",
           "sourceUrl": "https://trengo.com/partner-terms-and-conditions",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:04:24.031Z",
+          "retrievedAt": "2026-08-24T11:12:50.756Z",
           "strength": "strong_proxy",
           "proves": "the company publicly invites organisations to join a programme",
           "doesNotProve": "that anyone joins, or how many",
@@ -259,11 +259,11 @@
       "state": "confirmed",
       "evidence": [
         {
-          "id": "o9",
+          "id": "o15",
           "quote": "1.10. Affiliate Partner Portal: means the Kiflo portal the Affiliate Partner has acquired an account for. 2. How to refer Leads 2.1.",
           "sourceUrl": "https://trengo.com/partner-terms-and-conditions",
           "sourceType": "partner_surface",
-          "retrievedAt": "2026-08-24T11:04:24.031Z",
+          "retrievedAt": "2026-08-24T11:12:50.756Z",
           "strength": "strong_proxy",
           "proves": "partners have an authenticated destination",
           "doesNotProve": "what is inside it — the portal is invisible to us by design",
@@ -305,38 +305,38 @@
       "state": "hubspot_confirmed",
       "evidence": [
         {
-          "id": "o10",
+          "id": "o16",
           "quote": "js.hs-scripts.com/7219685.js",
           "sourceUrl": "https://trengo.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T11:04:24.031Z",
+          "retrievedAt": "2026-08-24T11:12:50.756Z",
           "strength": "confirmed",
           "proves": "a HubSpot tracking script with a numeric portal id is served from this site",
           "doesNotProve": "that HubSpot is the CRM of record, or that sales uses it at all"
         },
         {
-          "id": "o11",
+          "id": "o17",
           "quote": "js.hsforms.net",
           "sourceUrl": "https://trengo.com/",
           "sourceType": "html_artifact",
-          "retrievedAt": "2026-08-24T11:04:24.031Z",
+          "retrievedAt": "2026-08-24T11:12:50.756Z",
           "strength": "confirmed",
           "proves": "HubSpot forms are embedded, so leads land in a HubSpot portal",
           "doesNotProve": "that opportunities and partner deals are managed there"
         }
       ],
-      "note": "hubspot evidence at confirmed (hs_tracking_portal)"
+      "note": "A confirmed HubSpot artifact was found on this site. It shows which tools the site serves, not necessarily what the partner team works in."
     },
     "prm": {
       "state": "competitor_prm_confirmed",
       "vendor": "Kiflo",
       "evidence": [
         {
-          "id": "o12",
+          "id": "o18",
           "quote": "c) all required information regarding the Lead has been submitted by Affiliate Partner. 1.10. Affiliate Partner Portal: means the Kiflo portal the Affiliate Partner has acquired an account for. 2. How to refer Leads 2.1. During the term and subject to the terms the",
           "sourceUrl": "https://trengo.com/partner-terms-and-conditions",
           "sourceType": "partner_page_text",
-          "retrievedAt": "2026-08-24T11:04:24.031Z",
+          "retrievedAt": "2026-08-24T11:12:50.756Z",
           "strength": "strong_proxy",
           "proves": "a partner-facing page on this site names Kiflo as a platform in use",
           "doesNotProve": "that it is currently deployed, the only platform, or anything about satisfaction, contract timing or willingness to switch"
@@ -352,8 +352,8 @@
   },
   "temporal": {
     "state": "first_observation",
-    "baselineAt": "2026-08-24T11:04:24.031Z",
-    "lastCheckedAt": "2026-08-24T11:04:24.031Z",
+    "baselineAt": "2026-08-24T11:12:50.756Z",
+    "lastCheckedAt": "2026-08-24T11:12:50.756Z",
     "changes": [],
     "note": "First observation; no second dated observation exists to compare against, so no change can be reported. A first observation is never a change."
   },
@@ -364,11 +364,11 @@
         "claim": "A competitor PRM serves the partner surface.",
         "evidence": [
           {
-            "id": "o12",
+            "id": "o18",
             "quote": "c) all required information regarding the Lead has been submitted by Affiliate Partner. 1.10. Affiliate Partner Portal: means the Kiflo portal the Affiliate Partner has acquired an account for. 2. How to refer Leads 2.1. During the term and subject to the terms the",
             "sourceUrl": "https://trengo.com/partner-terms-and-conditions",
             "sourceType": "partner_page_text",
-            "retrievedAt": "2026-08-24T11:04:24.031Z",
+            "retrievedAt": "2026-08-24T11:12:50.756Z",
             "strength": "strong_proxy",
             "proves": "a partner-facing page on this site names Kiflo as a platform in use",
             "doesNotProve": "that it is currently deployed, the only platform, or anything about satisfaction, contract timing or willingness to switch"

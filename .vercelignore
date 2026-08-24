@@ -1,0 +1,16 @@
+# Research provenance and local caches — kept in git, not needed to build the app.
+phase0/
+phase1/
+phase2/
+phase3/
+phase4/
+corpus/
+Design/
+docs/
+.cache/
+data/snapshots/
+product/out/
+product/dev/
+tests/
+node_modules/
+dist/
