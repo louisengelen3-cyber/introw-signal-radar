@@ -458,7 +458,8 @@ export function DossierView({ domain, onBack, onNext, remaining, onReviewed }: {
             <dd className="kv-note">{d.people.note}</dd>
           </dl>
           {d.systems.prm.evidence.length > 0 && <EvidenceList items={d.systems.prm.evidence} domain={d.domain} limit={1} />}
-          {d.systems.crm.evidence.length > 0 && <EvidenceList items={d.systems.crm.evidence} domain={d.domain} limit={1} />}
+          {/* CRM evidence is rendered inside CrmPanel with its level and provenance; repeating
+              the flat list here showed the same artifact twice at two different strengths. */}
         </Panel>
       </div>
 
