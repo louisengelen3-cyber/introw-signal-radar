@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-24T19:41:16.912Z",
+ "generatedAt": "2026-08-24T19:44:39.421Z",
  "count": 35,
  "monitoringSince": "2026-08-23",
  "accounts": [
@@ -53,7 +53,9 @@
     "sourceType": "company_ats_vacancy",
     "publishedAt": "2026-06-23 11:55:04 UTC",
     "conflict": null,
-    "vacanciesRead": 40
+    "vacanciesRead": 40,
+    "atsBoardFound": true,
+    "nonPartnerTitlesRead": 35
    }
   },
   {
@@ -106,7 +108,9 @@
     "sourceType": "company_ats_vacancy",
     "publishedAt": "2026-08-17T08:11:39-04:00",
     "conflict": "multiple_systems",
-    "vacanciesRead": 40
+    "vacanciesRead": 40,
+    "atsBoardFound": true,
+    "nonPartnerTitlesRead": 38
    }
   },
   {
@@ -147,7 +151,17 @@
     "domainsSearched": 3,
     "pagesRead": 0
    },
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 10,
+    "atsBoardFound": true,
+    "nonPartnerTitlesRead": 10
+   }
   },
   {
    "domain": "archerirm.com",
@@ -190,7 +204,17 @@
     "domainsSearched": 2,
     "pagesRead": 0
    },
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 3,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 3
+   }
   },
   {
    "domain": "cegeka.com",
@@ -237,7 +261,9 @@
     "sourceType": "website_fingerprint",
     "publishedAt": null,
     "conflict": null,
-    "vacanciesRead": 0
+    "vacanciesRead": 0,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 0
    }
   },
   {
@@ -275,7 +301,17 @@
    "sourceHealthOk": 1,
    "sourceHealthTotal": 3,
    "recovery": null,
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 1,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 1
+   }
   },
   {
    "domain": "cubbit.io",
@@ -327,7 +363,9 @@
     "sourceType": "company_current_vacancy",
     "publishedAt": null,
     "conflict": null,
-    "vacanciesRead": 9
+    "vacanciesRead": 9,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 9
    }
   },
   {
@@ -368,7 +406,17 @@
     "domainsSearched": 1,
     "pagesRead": 3
    },
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 3,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 3
+   }
   },
   {
    "domain": "deloitte.com",
@@ -408,7 +456,17 @@
     "domainsSearched": 1,
     "pagesRead": 8
    },
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 0,
+    "atsBoardFound": true,
+    "nonPartnerTitlesRead": 0
+   }
   },
   {
    "domain": "devoteam.com",
@@ -450,7 +508,17 @@
     "domainsSearched": 1,
     "pagesRead": 2
    },
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 4,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 4
+   }
   },
   {
    "domain": "doordash.com",
@@ -485,7 +553,17 @@
    "sourceHealthOk": 0,
    "sourceHealthTotal": 2,
    "recovery": null,
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 1,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 1
+   }
   },
   {
    "domain": "efficy.com",
@@ -520,7 +598,17 @@
    "sourceHealthOk": 0,
    "sourceHealthTotal": 2,
    "recovery": null,
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 10,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 9
+   }
   },
   {
    "domain": "factorialhr.com",
@@ -563,7 +651,17 @@
     "domainsSearched": 4,
     "pagesRead": 10
    },
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 2,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 2
+   }
   },
   {
    "domain": "foleon.com",
@@ -610,7 +708,9 @@
     "sourceType": "website_fingerprint",
     "publishedAt": null,
     "conflict": null,
-    "vacanciesRead": 3
+    "vacanciesRead": 3,
+    "atsBoardFound": true,
+    "nonPartnerTitlesRead": 3
    }
   },
   {
@@ -658,7 +758,9 @@
     "sourceType": "company_current_vacancy",
     "publishedAt": "2026-07-10T05:54:22.000Z",
     "conflict": null,
-    "vacanciesRead": 4
+    "vacanciesRead": 4,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 4
    }
   },
   {
@@ -699,7 +801,17 @@
     "domainsSearched": 1,
     "pagesRead": 0
    },
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 3,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 3
+   }
   },
   {
    "domain": "juro.com",
@@ -746,7 +858,9 @@
     "sourceType": "website_fingerprint",
     "publishedAt": null,
     "conflict": null,
-    "vacanciesRead": 1
+    "vacanciesRead": 1,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 1
    }
   },
   {
@@ -789,7 +903,17 @@
     "domainsSearched": 1,
     "pagesRead": 4
    },
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 0,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 0
+   }
   },
   {
    "domain": "lano.io",
@@ -832,7 +956,17 @@
     "domainsSearched": 1,
     "pagesRead": 2
    },
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 2,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 2
+   }
   },
   {
    "domain": "leapsome.com",
@@ -879,7 +1013,9 @@
     "sourceType": "website_fingerprint",
     "publishedAt": null,
     "conflict": null,
-    "vacanciesRead": 1
+    "vacanciesRead": 1,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 1
    }
   },
   {
@@ -923,7 +1059,17 @@
     "domainsSearched": 1,
     "pagesRead": 5
    },
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 2,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 2
+   }
   },
   {
    "domain": "mews.com",
@@ -967,7 +1113,9 @@
     "sourceType": "website_fingerprint",
     "publishedAt": null,
     "conflict": null,
-    "vacanciesRead": 2
+    "vacanciesRead": 2,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 2
    }
   },
   {
@@ -1010,7 +1158,17 @@
     "domainsSearched": 2,
     "pagesRead": 3
    },
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 7,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 6
+   }
   },
   {
    "domain": "payfit.com",
@@ -1057,7 +1215,9 @@
     "sourceType": "company_current_vacancy",
     "publishedAt": "2026-05-18T12:20:53.000Z",
     "conflict": null,
-    "vacanciesRead": 18
+    "vacanciesRead": 18,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 18
    }
   },
   {
@@ -1107,7 +1267,9 @@
     "sourceType": "company_careers_index",
     "publishedAt": null,
     "conflict": null,
-    "vacanciesRead": 12
+    "vacanciesRead": 12,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 12
    }
   },
   {
@@ -1152,7 +1314,9 @@
     "sourceType": "company_ats_vacancy",
     "publishedAt": "2026-08-21T10:11:26.744+00:00",
     "conflict": null,
-    "vacanciesRead": 34
+    "vacanciesRead": 34,
+    "atsBoardFound": true,
+    "nonPartnerTitlesRead": 34
    }
   },
   {
@@ -1203,7 +1367,9 @@
     "sourceType": "website_fingerprint",
     "publishedAt": null,
     "conflict": null,
-    "vacanciesRead": 3
+    "vacanciesRead": 3,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 3
    }
   },
   {
@@ -1242,7 +1408,17 @@
    "sourceHealthOk": 9,
    "sourceHealthTotal": 23,
    "recovery": null,
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 2,
+    "atsBoardFound": true,
+    "nonPartnerTitlesRead": 2
+   }
   },
   {
    "domain": "spendesk.com",
@@ -1284,7 +1460,17 @@
     "domainsSearched": 1,
     "pagesRead": 1
    },
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 7,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 7
+   }
   },
   {
    "domain": "trengo.com",
@@ -1336,7 +1522,9 @@
     "sourceType": "website_fingerprint",
     "publishedAt": null,
     "conflict": null,
-    "vacanciesRead": 1
+    "vacanciesRead": 1,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 1
    }
   },
   {
@@ -1377,7 +1565,17 @@
     "domainsSearched": 1,
     "pagesRead": 3
    },
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 10,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 10
+   }
   },
   {
    "domain": "upsales.com",
@@ -1417,7 +1615,17 @@
     "domainsSearched": 1,
     "pagesRead": 0
    },
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 0,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 0
+   }
   },
   {
    "domain": "vinted.com",
@@ -1457,7 +1665,17 @@
     "domainsSearched": 4,
     "pagesRead": 0
    },
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 3,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 3
+   }
   },
   {
    "domain": "weglot.com",
@@ -1504,7 +1722,17 @@
     "domainsSearched": 2,
     "pagesRead": 2
    },
-   "crmForensic": null
+   "crmForensic": {
+    "vendor": null,
+    "level": "unknown",
+    "jobTitle": null,
+    "sourceType": null,
+    "publishedAt": null,
+    "conflict": null,
+    "vacanciesRead": 4,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 4
+   }
   },
   {
    "domain": "younium.com",
@@ -1551,7 +1779,9 @@
     "sourceType": "website_fingerprint",
     "publishedAt": null,
     "conflict": null,
-    "vacanciesRead": 2
+    "vacanciesRead": 2,
+    "atsBoardFound": false,
+    "nonPartnerTitlesRead": 2
    }
   }
  ]

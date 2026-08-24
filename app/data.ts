@@ -44,8 +44,9 @@ export interface IndexRow {
   recovery: { ran: boolean; added: number; domainsSearched: number; pagesRead: number } | null;
   /** Forensic CRM finding, carrying its level and date so history reads as history (§40). */
   crmForensic: {
-    vendor: string; level: string; jobTitle: string | null; sourceType: string | null;
-    publishedAt: string | null; conflict: string | null; vacanciesRead: number;
+    vendor: string | null; level: string; jobTitle: string | null; sourceType: string | null;
+    publishedAt: string | null; conflict: string | null;
+    vacanciesRead: number; atsBoardFound: boolean; nonPartnerTitlesRead: number;
   } | null;
 }
 

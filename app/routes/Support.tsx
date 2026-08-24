@@ -102,7 +102,8 @@ export function DataHealth({ index }: { index: SiteIndex }) {
       recoveryPages: a.reduce((n, r) => n + (r.recovery?.pagesRead ?? 0), 0),
       multiDomain: cover((r) => (r.recovery?.domainsSearched ?? 0) > 1),
       crmVacancies: a.reduce((n, r) => n + (r.crmForensic?.vacanciesRead ?? 0), 0),
-      crmNoBoard: cover((r) => (r.crmForensic?.vacanciesRead ?? 0) > 0 && r.crmForensic?.sourceType !== 'company_ats_vacancy'),
+      crmNoBoard: cover((r) => (r.crmForensic?.vacanciesRead ?? 0) > 0 && r.crmForensic?.atsBoardFound === false),
+      crmNonPartner: a.reduce((n, r) => n + (r.crmForensic?.nonPartnerTitlesRead ?? 0), 0),
       crmConfirmed: cover((r) => /^confirmed_/.test(r.crmForensic?.level ?? '')),
       crmConflicts: cover((r) => !!r.crmForensic?.conflict),
     };
@@ -146,7 +147,7 @@ export function DataHealth({ index }: { index: SiteIndex }) {
         cannot be read as current.
       </p>
       <ul className="tiles tiles-static">
-        <li><div className="tile tile-plain"><span className="tile-n display">{stats.crmVacancies}</span><span className="tile-l">Vacancies read</span><span className="tile-note">Across all job families, not only partnerships</span></div></li>
+        <li><div className="tile tile-plain"><span className="tile-n display">{stats.crmVacancies}</span><span className="tile-l">Vacancies read</span><span className="tile-note">{stats.crmNonPartner} of them in roles unrelated to partnerships</span></div></li>
         <li><div className="tile tile-plain"><span className="tile-n display">{stats.crmNoBoard}</span><span className="tile-l">Accounts reached without an ATS board</span><span className="tile-note">A missing board no longer ends CRM research</span></div></li>
         <li><div className="tile tile-plain"><span className="tile-n display">{stats.crmConfirmed}</span><span className="tile-l">CRM confirmed from a live advert</span><span className="tile-note">Each traced to one sentence a company wrote about its own system</span></div></li>
         <li><div className="tile tile-plain"><span className="tile-n display">{stats.crmConflicts}</span><span className="tile-l">Multi-system environments</span><span className="tile-note">Reported, never resolved to one vendor</span></div></li>

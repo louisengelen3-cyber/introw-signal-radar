@@ -61,8 +61,10 @@ export interface IndexRow {
    * must not be presentable as a current one (§40).
    */
   crmForensic: {
-    vendor: string; level: string; jobTitle: string | null; sourceType: string | null;
-    publishedAt: string | null; conflict: string | null; vacanciesRead: number;
+    /** Null when research ran and established nothing — which is not the same as not running. */
+    vendor: string | null; level: string; jobTitle: string | null; sourceType: string | null;
+    publishedAt: string | null; conflict: string | null;
+    vacanciesRead: number; atsBoardFound: boolean; nonPartnerTitlesRead: number;
   } | null;
 }
 
@@ -114,16 +116,23 @@ const row = (d: Dossier): IndexRow => ({
     ? { ran: true, added: d.recovery.addedMotions.length + d.recovery.addedSurfaces.length + (d.recovery.addedDirectoryType ? 1 : 0),
         domainsSearched: d.recovery.domainsSearched.length, pagesRead: d.recovery.pagesRead }
     : null,
+  /**
+   * Emitted whenever forensics RAN, even when it established nothing. Returning null on a
+   * null result made the health tiles count only accounts with a finding, so "vacancies read"
+   * understated the work by a third and "reached without a board" measured the wrong thing.
+   */
   crmForensic: (() => {
     const f = (d as any).crmForensics;
-    const top = f?.vendors?.[0];
-    if (!top) return null;
+    if (!f) return null;
+    const top = f.vendors?.[0];
     return {
-      vendor: top.vendor, level: top.level,
-      jobTitle: top.basis?.jobTitle ?? null, sourceType: top.basis?.sourceType ?? null,
-      publishedAt: top.basis?.sourcePublishedAt ?? null,
+      vendor: top?.vendor ?? null, level: top?.level ?? 'unknown',
+      jobTitle: top?.basis?.jobTitle ?? null, sourceType: top?.basis?.sourceType ?? null,
+      publishedAt: top?.basis?.sourcePublishedAt ?? null,
       conflict: f.conflict?.kind ?? null,
       vacanciesRead: f.coverage?.vacanciesRead ?? 0,
+      atsBoardFound: f.coverage?.atsBoardFound === true,
+      nonPartnerTitlesRead: f.coverage?.nonPartnerTitlesRead ?? 0,
     };
   })(),
 });
