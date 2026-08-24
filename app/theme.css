@@ -14,6 +14,11 @@
  *      reserved for real blockers. An account is never tinted by how good a prospect it is,
  *      because the system does not know that.
  *
+ *   1b. CONTRAST IS MEASURED, NOT eyeballed. Every text token clears 4.5:1 against every
+ *      ground it is used on, and non-text tokens clear 3:1. The values below are the result
+ *      of that audit rather than of picking pleasant hex codes — six of them failed on first
+ *      pass and were darkened until they passed.
+ *
  *   2. UNKNOWN IS NOT A GAP. Unknown states get the same size, weight and border as confirmed
  *      ones. If unknown looks like an error, a reader slides from "we didn't see it" to
  *      "they don't have it" — the failure this whole product exists to avoid.
@@ -30,28 +35,28 @@
   /* ink */
   --ink:        #1C1611;
   --body:       #4A4239;
-  --muted:      #857A6C;
-  --faint:      #A2988A;
+  --muted:      #696055;   /* darkened for 4.5:1 on both cream and card */
+  --faint:      #8F8679;   /* 3:1 minimum for non-text UI */
 
   /* structure */
   --line:       #DCCFB4;
   --line-soft:  #E5DAC3;
 
   /* accent — attention and action */
-  --accent:      #A65A26;
+  --accent:      #955122;  /* 4.5:1 on cream; white on accent 5.5:1 */
   --accent-deep: #8A4A1E;
   --accent-soft: #F3E4D3;
 
   /* semantic — kind, never quality */
-  --verified:     #4A7A2A;
+  --verified:     #487629;
   --verified-bg:  #E6F0D6;
   --verified-line:#C6DCA9;
 
-  --uncertain:     #96701A;
+  --uncertain:     #866417;
   --uncertain-bg:  #F6EBCF;
   --uncertain-line:#E2CE9B;
 
-  --neutral:      #6B6255;
+  --neutral:      #696154;
   --neutral-bg:   #E7DFD0;
   --neutral-line: #D5C9B3;
 

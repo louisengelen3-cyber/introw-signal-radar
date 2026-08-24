@@ -90,7 +90,7 @@ export function AccountsTable({ rows, reviews, onOpen, filters, setFilters, orde
           <Select label="Category" value={filters.category} onChange={(v) => set({ category: v })}
             options={[['all', 'Any category'], ...Object.entries(CATEGORY_LABEL)]} />
           <Select label="Evidence" value={filters.coverage} onChange={(v) => set({ coverage: v })}
-            options={[['all', 'Any evidence'], ['rich', 'Rich'], ['moderate', 'Moderate'], ['sparse', 'Sparse'], ['none', 'None']]} />
+            options={[['all', 'Any evidence'], ['rich', 'Rich'], ['moderate', 'Moderate'], ['sparse', 'Sparse'], ['none', 'None retrieved']]} />
           <Select label="CRM" value={filters.crm} onChange={(v) => set({ crm: v })}
             options={[['all', 'CRM any'], ['known', 'CRM identified'], ['unknown', 'CRM unknown']]} />
           <Select label="Platform" value={filters.prm} onChange={(v) => set({ prm: v })}

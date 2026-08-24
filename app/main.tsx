@@ -134,7 +134,7 @@ function App() {
       <a className="skip-link" href="#main">Skip to content</a>
 
       <header className="topbar">
-        <a className="brand" href="#/overview">
+        <a className="brand" href="#/overview" aria-label="Introw Signal Radar — go to overview">
           <span className="brand-mark display">introw</span>
           <span className="brand-sub">Signal Radar</span>
         </a>
@@ -147,8 +147,9 @@ function App() {
         <nav id="mainnav" className={`nav ${navOpen ? 'open' : ''}`} aria-label="Main">
           {NAV.map((n) => (
             <a key={n.id} href={`#/${n.id}`} className={`nav-i ${current === n.id ? 'on' : ''}`}
-              aria-current={current === n.id ? 'page' : undefined} title={n.job}>
+              aria-current={current === n.id ? 'page' : undefined} aria-describedby={`navjob-${n.id}`}>
               {n.label}
+              <span className="sr-only" id={`navjob-${n.id}`}>{n.job}</span>
             </a>
           ))}
         </nav>

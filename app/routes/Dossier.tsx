@@ -33,6 +33,11 @@ const constructTone = (state: string): Tone => {
   return 'verified';
 };
 
+/** "None evidence" is not English. Coverage reads as a phrase, not an enum. */
+const COVERAGE_LABEL: Record<string, string> = {
+  rich: 'Rich evidence', moderate: 'Moderate evidence', sparse: 'Sparse evidence', none: 'No evidence retrieved',
+};
+
 const CONSTRUCT_QUESTION: Record<string, string> = {
   commercial_materiality: 'Do partners visibly take part in winning customers or revenue?',
   operational_ownership: 'Does the company itself operate the partner motion?',
@@ -238,7 +243,7 @@ export function DossierView({ domain, onBack, onNext, remaining, onReviewed }: {
         <div className="dh-chips">
           <StateChip label={WORKFLOW_LABEL[workflowState(mi.state, review)]} tone={review ? 'accent' : 'neutral'} />
           <StateChip label={CATEGORY_LABEL[d.category.state] ?? humanise(d.category.state)} tone={categoryTone(d.category.state)} />
-          <StateChip label={humanise(d.evidenceCoverage) + ' evidence'} tone="neutral"
+          <StateChip label={COVERAGE_LABEL[d.evidenceCoverage] ?? humanise(d.evidenceCoverage)} tone="neutral"
             title="How much public evidence was found. This reflects what the company publishes, not commercial fit." />
         </div>
       </header>
