@@ -1,0 +1,239 @@
+{
+  "purpose": "Part 22 stratified sample, frozen with the Radar output captured BEFORE any deeper manual research.",
+  "discipline": "Selection is deterministic (alphabetical within stratum). Nothing may be tuned against these accounts. The Radar output below is the comparison baseline and is not re-run.",
+  "frozenAt": "2026-08-25",
+  "n": 11,
+  "sample": [
+    {
+      "domain": "avast.com",
+      "stratum": "plausible_fit",
+      "radarOutput": {
+        "partner_motion": "established",
+        "programme_types": "reseller|referral|distributor|msp",
+        "ownership": "direct",
+        "deal_registration": "confirmed",
+        "partner_portal": "confirmed",
+        "partner_tiers": "not_observed",
+        "partner_directory": "not_observed",
+        "crm_level": "unknown",
+        "crm_vendor": null,
+        "informal_signature": "not_attempted",
+        "programme_scale": "not_attempted",
+        "partner_people": "not_attempted",
+        "prm": "unknown",
+        "evidence_sufficiency": "sufficient_for_review",
+        "failure_stage": "P1_NOT_PUBLIC"
+      }
+    },
+    {
+      "domain": "ebp.com",
+      "stratum": "plausible_fit",
+      "radarOutput": {
+        "partner_motion": "established",
+        "programme_types": "reseller",
+        "ownership": "direct",
+        "deal_registration": "not_observed",
+        "partner_portal": "not_observed",
+        "partner_tiers": "not_observed",
+        "partner_directory": "not_observed",
+        "crm_level": "strong_supporting",
+        "crm_vendor": "HubSpot",
+        "informal_signature": "not_attempted",
+        "programme_scale": "not_attempted",
+        "partner_people": "not_attempted",
+        "prm": "unknown",
+        "evidence_sufficiency": "sufficient_for_review",
+        "failure_stage": "P4_SOURCE_TOO_WEAK"
+      }
+    },
+    {
+      "domain": "2bit.it",
+      "stratum": "under_observed",
+      "radarOutput": {
+        "partner_motion": "unknown",
+        "programme_types": "",
+        "ownership": "unknown",
+        "deal_registration": "not_observed",
+        "partner_portal": "not_observed",
+        "partner_tiers": "not_observed",
+        "partner_directory": "not_observed",
+        "crm_level": "unknown",
+        "crm_vendor": null,
+        "informal_signature": "not_attempted",
+        "programme_scale": "not_attempted",
+        "partner_people": "not_attempted",
+        "prm": "unknown",
+        "evidence_sufficiency": "under_observed",
+        "failure_stage": "R1_PAGE_NOT_RETRIEVED"
+      }
+    },
+    {
+      "domain": "apaleo.com",
+      "stratum": "under_observed",
+      "radarOutput": {
+        "partner_motion": "unknown",
+        "programme_types": "",
+        "ownership": "unknown",
+        "deal_registration": "not_observed",
+        "partner_portal": "not_observed",
+        "partner_tiers": "not_observed",
+        "partner_directory": "not_observed",
+        "crm_level": "unknown",
+        "crm_vendor": null,
+        "informal_signature": "not_attempted",
+        "programme_scale": "not_attempted",
+        "partner_people": "not_attempted",
+        "prm": "unknown",
+        "evidence_sufficiency": "under_observed",
+        "failure_stage": "E1_EVIDENCE_NOT_EXTRACTED"
+      }
+    },
+    {
+      "domain": "appelit.com",
+      "stratum": "software_established",
+      "radarOutput": {
+        "partner_motion": "established",
+        "programme_types": "technology|msp",
+        "ownership": "unknown",
+        "deal_registration": "not_observed",
+        "partner_portal": "not_observed",
+        "partner_tiers": "not_observed",
+        "partner_directory": "not_observed",
+        "crm_level": "unknown",
+        "crm_vendor": null,
+        "informal_signature": "not_attempted",
+        "programme_scale": "not_attempted",
+        "partner_people": "not_attempted",
+        "prm": "unknown",
+        "evidence_sufficiency": "sufficient_for_review",
+        "failure_stage": "R1_NO_CAREERS_SURFACE"
+      }
+    },
+    {
+      "domain": "3mdeutschland.de",
+      "stratum": "physical_manufacturing",
+      "radarOutput": {
+        "partner_motion": "established",
+        "programme_types": "reseller",
+        "ownership": "unknown",
+        "deal_registration": "not_observed",
+        "partner_portal": "not_observed",
+        "partner_tiers": "not_observed",
+        "partner_directory": "confirmed",
+        "crm_level": "unknown",
+        "crm_vendor": null,
+        "informal_signature": "not_attempted",
+        "programme_scale": "not_attempted",
+        "partner_people": "not_attempted",
+        "prm": "unknown",
+        "evidence_sufficiency": "partial",
+        "failure_stage": "P1_NOT_PUBLIC"
+      }
+    },
+    {
+      "domain": "allisontransmission.com",
+      "stratum": "physical_manufacturing",
+      "radarOutput": {
+        "partner_motion": "established",
+        "programme_types": "distributor|dealer|oem_partner",
+        "ownership": "direct",
+        "deal_registration": "not_observed",
+        "partner_portal": "not_observed",
+        "partner_tiers": "not_observed",
+        "partner_directory": "not_observed",
+        "crm_level": "unknown",
+        "crm_vendor": null,
+        "informal_signature": "not_attempted",
+        "programme_scale": "not_attempted",
+        "partner_people": "not_attempted",
+        "prm": "unknown",
+        "evidence_sufficiency": "sufficient_for_review",
+        "failure_stage": "P1_NOT_PUBLIC"
+      }
+    },
+    {
+      "domain": "aftersell.com",
+      "stratum": "proxy_positive_smb",
+      "radarOutput": {
+        "partner_motion": "established",
+        "programme_types": "agency|technology|affiliate|solution_partner",
+        "ownership": "direct",
+        "deal_registration": "not_attempted",
+        "partner_portal": "not_attempted",
+        "partner_tiers": "not_attempted",
+        "partner_directory": "not_attempted",
+        "crm_level": "unknown",
+        "crm_vendor": null,
+        "informal_signature": "formalised_programme",
+        "programme_scale": "not_attempted",
+        "partner_people": "not_attempted",
+        "prm": "not_attempted",
+        "evidence_sufficiency": "unknown",
+        "failure_stage": null
+      }
+    },
+    {
+      "domain": "chainlane.io",
+      "stratum": "proxy_positive_smb",
+      "radarOutput": {
+        "partner_motion": "established",
+        "programme_types": "reseller",
+        "ownership": "direct",
+        "deal_registration": "not_attempted",
+        "partner_portal": "not_attempted",
+        "partner_tiers": "not_attempted",
+        "partner_directory": "not_attempted",
+        "crm_level": "unknown",
+        "crm_vendor": null,
+        "informal_signature": "informal_programme",
+        "programme_scale": "not_attempted",
+        "partner_people": "not_attempted",
+        "prm": "not_attempted",
+        "evidence_sufficiency": "unknown",
+        "failure_stage": null
+      }
+    },
+    {
+      "domain": "3ds.com",
+      "stratum": "inversion_surfaced",
+      "radarOutput": {
+        "partner_motion": "established",
+        "programme_types": "reseller",
+        "ownership": "unknown",
+        "deal_registration": "not_attempted",
+        "partner_portal": "not_attempted",
+        "partner_tiers": "not_attempted",
+        "partner_directory": "not_attempted",
+        "crm_level": "unknown",
+        "crm_vendor": null,
+        "informal_signature": "not_attempted",
+        "programme_scale": "not_attempted",
+        "partner_people": "not_attempted",
+        "prm": "not_attempted",
+        "evidence_sufficiency": "strong_evidence",
+        "failure_stage": null
+      }
+    },
+    {
+      "domain": "accruent.com",
+      "stratum": "inversion_surfaced",
+      "radarOutput": {
+        "partner_motion": "established",
+        "programme_types": "reseller|referral|system_integrator|solution_partner",
+        "ownership": "unknown",
+        "deal_registration": "not_attempted",
+        "partner_portal": "not_attempted",
+        "partner_tiers": "not_attempted",
+        "partner_directory": "not_attempted",
+        "crm_level": "unknown",
+        "crm_vendor": null,
+        "informal_signature": "not_attempted",
+        "programme_scale": "not_attempted",
+        "partner_people": "not_attempted",
+        "prm": "not_attempted",
+        "evidence_sufficiency": "research",
+        "failure_stage": null
+      }
+    }
+  ]
+}

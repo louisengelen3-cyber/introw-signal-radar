@@ -1,4 +1,5 @@
-field,total_unknown,good_unknown,bad_unknown,untested_unknown,good_reason,bad_reason,untested_reason
-CRM,50,17,17,16,vacancies were read and none named a CRM — the company does not publish it,a careers surface existed but produced no readable vacancy (JS-rendered or listing-only),no ATS board and no readable careers page — the question was never properly asked
-Partner motion,30,12,12,6,five or more pages read and no partner vocabulary found,between one and four pages read — too little to conclude,zero pages retrieved — nothing was asked
-Deal registration,71,10,31,30,"a partner portal exists, so deal registration is expected to sit behind the login",motion established but no portal and no deal-reg language — plausibly on a page we did not read,"no partner motion established, so the question does not yet arise"
+field,total_unknown,good,bad,untested,blocked,good_pct,bad_pct,untested_pct,blocked_pct
+CRM,148,29,42,74,3,19.6,28.4,50,2
+Partner motion,48,16,14,18,0,33.3,29.2,37.5,0
+Deal registration,140,17,75,48,0,12.1,53.6,34.3,0
+Partner people,144,0,1,143,0,0,0.7,99.3,0

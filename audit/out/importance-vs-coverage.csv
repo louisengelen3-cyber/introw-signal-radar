@@ -1,0 +1,26 @@
+field,commercial_importance,coverage_pct,known,denominator,reliability,best_source,biggest_failure_mode,fixability
+Partner motion,CRITICAL,68.2,103,151,high,company partner page + recovery,R1 partner page not retrieved,ENGINEERING_FIXABLE
+Programme ownership,CRITICAL,55,83,151,high,operator resolution on the company domain,C3 operator/participant ambiguity,HUMAN_RESEARCH_MAY_HELP
+Commercial partner motion,CRITICAL,19.9,30,151,medium,partner page prose,P1 not published,ENGINEERING_FIXABLE
+Programme type,HIGH_VALUE,65.6,99,151,high,partner page vocabulary,E2 vocabulary miss,ENGINEERING_FIXABLE
+Referral,HIGH_VALUE,0.7,1,151,low,partner page prose,"""E2 named as a partner TYPE, not a workflow""",ENGINEERING_FIXABLE
+Lead sharing,HIGH_VALUE,0.7,1,151,low,—,E2 vocabulary sits inside programme prose we rarely reach,ENGINEERING_FIXABLE
+Co-selling,USEFUL,7.3,11,151,low,partner page prose,P1 not published,ENGINEERING_FIXABLE
+Deal registration,CRITICAL,7.3,11,151,low,partner page prose,P1 behind the partner login by design,PUBLIC_DATA_LIMIT
+Partner pipeline,CRITICAL,0,0,151,low,—,P1 behind the partner login by design,PUBLIC_DATA_LIMIT
+Partner onboarding,USEFUL,1.3,2,151,low,partner page prose,P1 behind the application step,PUBLIC_DATA_LIMIT
+Partner enablement,HIGH_VALUE,10.6,16,151,medium,partner page prose,E3 often in a PDF,ENGINEERING_FIXABLE
+Partner tiers,HIGH_VALUE,6.6,10,151,low,partner page prose,C1 navigation menus read as tier evidence,ENGINEERING_FIXABLE
+Partner incentives,HIGH_VALUE,0,0,151,NOT MEASURABLE — no detector,—,no detector exists,ENGINEERING_FIXABLE
+Partner attribution,CRITICAL,0,0,151,NOT MEASURABLE — no detector,—,no detector exists,PUBLIC_DATA_LIMIT
+Partner portal,HIGH_VALUE,18.5,28,151,medium,partner login link,R1 login page not reached,ENGINEERING_FIXABLE
+Partner directory,USEFUL,15.2,23,151,medium,outbound-link density,E3 JS locators score zero,ENGINEERING_FIXABLE
+Programme scale,USEFUL,6,9,151,low,prose claim on a partner page,P1 most companies never publish a count,PUBLIC_DATA_LIMIT
+Informal signature,HIGH_VALUE,12.6,19,151,medium,first-person recruitment + named types,R1 partner page not retrieved,ENGINEERING_FIXABLE
+CRM any evidence (incl. supporting),USEFUL,17.2,26,151,medium,website fingerprint (mostly),P1 companies do not name their CRM,PUBLIC_DATA_LIMIT
+CRM decisive,CRITICAL,1.3,2,151,low,"""company vacancy"," operational-duty language"",P1 companies do not name their CRM",PUBLIC_DATA_LIMIT
+Current CRM,CRITICAL,2,3,151,low,"""company vacancy"," operational-duty language"",P1 companies do not name their CRM",PUBLIC_DATA_LIMIT
+Historical CRM,OPTIONAL,0,0,151,low,—,R5 no archived-vacancy source is wired in,LICENSED_DATA_MAY_HELP
+Partner people,HIGH_VALUE,4.6,7,151,low,indexed LinkedIn profiles,not attempted on most accounts,SOURCE_COVERAGE_FIXABLE
+PRM,USEFUL,0,0,151,low,DNS fingerprint,P1 portals served from the customer domain,PUBLIC_DATA_LIMIT
+Temporal change / Why Now,USEFUL,0,0,151,NOT MEASURABLE — no detector,—,needs a second dated observation,ENGINEERING_FIXABLE

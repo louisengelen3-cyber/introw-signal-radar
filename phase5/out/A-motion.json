@@ -11,6 +11,76 @@
     ],
     "motion": true,
     "claims": 4,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "confirmed"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": true,
     "pagesOk": 11
   },
   {
@@ -26,6 +96,76 @@
     "surfaces": [],
     "motion": true,
     "claims": 5,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "confirmed"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": false,
     "pagesOk": 9
   },
   {
@@ -48,6 +188,76 @@
     ],
     "motion": true,
     "claims": 5,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "strong_proxy"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "rich"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "confirmed"
+      },
+      {
+        "surface": "certification",
+        "state": "confirmed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "confirmed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "competitor_prm_confirmed",
+    "directoryIsDirectory": false,
     "pagesOk": 9
   },
   {
@@ -65,6 +275,76 @@
     ],
     "motion": true,
     "claims": 6,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "weak_proxy"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "light"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "confirmed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "confirmed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": true,
     "pagesOk": 6
   },
   {
@@ -75,6 +355,76 @@
     "surfaces": [],
     "motion": false,
     "claims": 0,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": true,
     "pagesOk": 7
   },
   {
@@ -90,6 +440,76 @@
     ],
     "motion": true,
     "claims": 4,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": true,
     "pagesOk": 11
   },
   {
@@ -106,6 +526,76 @@
     ],
     "motion": true,
     "claims": 6,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "confirmed"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "confirmed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": false,
     "pagesOk": 5
   },
   {
@@ -124,6 +614,76 @@
     ],
     "motion": true,
     "claims": 5,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "confirmed"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "confirmed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": false,
     "pagesOk": 8
   },
   {
@@ -136,6 +696,76 @@
     ],
     "motion": true,
     "claims": 2,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": false,
     "pagesOk": 5
   },
   {
@@ -155,6 +785,76 @@
     ],
     "motion": true,
     "claims": 4,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "confirmed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "confirmed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": false,
     "pagesOk": 12
   },
   {
@@ -165,6 +865,76 @@
     "surfaces": [],
     "motion": false,
     "claims": 0,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": true,
     "pagesOk": 9
   },
   {
@@ -175,6 +945,76 @@
     "surfaces": [],
     "motion": false,
     "claims": 0,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "unknown"
+      },
+      {
+        "surface": "application",
+        "state": "unknown"
+      },
+      {
+        "surface": "onboarding",
+        "state": "unknown"
+      },
+      {
+        "surface": "enablement",
+        "state": "unknown"
+      },
+      {
+        "surface": "certification",
+        "state": "unknown"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "unknown"
+      },
+      {
+        "surface": "co_selling",
+        "state": "unknown"
+      },
+      {
+        "surface": "portal",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "unknown"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "unknown"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": false,
     "pagesOk": 16
   },
   {
@@ -197,6 +1037,76 @@
     ],
     "motion": true,
     "claims": 4,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "weak_proxy"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "confirmed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "confirmed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": false,
     "pagesOk": 11
   },
   {
@@ -211,6 +1121,76 @@
     ],
     "motion": true,
     "claims": 1,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": false,
     "pagesOk": 9
   },
   {
@@ -223,6 +1203,76 @@
     ],
     "motion": true,
     "claims": 2,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "weak_proxy"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "competitor_prm_confirmed",
+    "directoryIsDirectory": false,
     "pagesOk": 6
   },
   {
@@ -240,6 +1290,76 @@
     ],
     "motion": true,
     "claims": 4,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "confirmed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": false,
     "pagesOk": 8
   },
   {
@@ -257,6 +1377,76 @@
     ],
     "motion": true,
     "claims": 6,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "confirmed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": false,
     "pagesOk": 7
   },
   {
@@ -272,6 +1462,76 @@
     ],
     "motion": true,
     "claims": 1,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "confirmed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": true,
     "pagesOk": 12
   },
   {
@@ -282,6 +1542,76 @@
     "surfaces": [],
     "motion": false,
     "claims": 0,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "unknown"
+      },
+      {
+        "surface": "application",
+        "state": "unknown"
+      },
+      {
+        "surface": "onboarding",
+        "state": "unknown"
+      },
+      {
+        "surface": "enablement",
+        "state": "unknown"
+      },
+      {
+        "surface": "certification",
+        "state": "unknown"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "unknown"
+      },
+      {
+        "surface": "co_selling",
+        "state": "unknown"
+      },
+      {
+        "surface": "portal",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "unknown"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "unknown"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": false,
     "pagesOk": 0
   },
   {
@@ -298,6 +1628,76 @@
     ],
     "motion": true,
     "claims": 4,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "confirmed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "confirmed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": false,
     "pagesOk": 11
   },
   {
@@ -316,6 +1716,76 @@
     ],
     "motion": true,
     "claims": 9,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "confirmed"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "rich"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "confirmed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": true,
     "pagesOk": 10
   },
   {
@@ -326,6 +1796,76 @@
     "surfaces": [],
     "motion": false,
     "claims": 0,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "unknown"
+      },
+      {
+        "surface": "application",
+        "state": "unknown"
+      },
+      {
+        "surface": "onboarding",
+        "state": "unknown"
+      },
+      {
+        "surface": "enablement",
+        "state": "unknown"
+      },
+      {
+        "surface": "certification",
+        "state": "unknown"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "unknown"
+      },
+      {
+        "surface": "co_selling",
+        "state": "unknown"
+      },
+      {
+        "surface": "portal",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "unknown"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "unknown"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": false,
     "pagesOk": 3
   },
   {
@@ -336,6 +1876,76 @@
     "surfaces": [],
     "motion": false,
     "claims": 0,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "unknown"
+      },
+      {
+        "surface": "application",
+        "state": "unknown"
+      },
+      {
+        "surface": "onboarding",
+        "state": "unknown"
+      },
+      {
+        "surface": "enablement",
+        "state": "unknown"
+      },
+      {
+        "surface": "certification",
+        "state": "unknown"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "unknown"
+      },
+      {
+        "surface": "co_selling",
+        "state": "unknown"
+      },
+      {
+        "surface": "portal",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "unknown"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "unknown"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": false,
     "pagesOk": 1
   },
   {
@@ -357,6 +1967,76 @@
     ],
     "motion": true,
     "claims": 3,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "confirmed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "confirmed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": false,
     "pagesOk": 7
   },
   {
@@ -370,6 +2050,76 @@
     ],
     "motion": true,
     "claims": 4,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "weak_proxy"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "confirmed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": true,
     "pagesOk": 8
   },
   {
@@ -385,6 +2135,76 @@
     ],
     "motion": true,
     "claims": 2,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "weak_proxy"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "confirmed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": true,
     "pagesOk": 13
   },
   {
@@ -395,6 +2215,76 @@
     "surfaces": [],
     "motion": false,
     "claims": 0,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "unknown"
+      },
+      {
+        "surface": "application",
+        "state": "unknown"
+      },
+      {
+        "surface": "onboarding",
+        "state": "unknown"
+      },
+      {
+        "surface": "enablement",
+        "state": "unknown"
+      },
+      {
+        "surface": "certification",
+        "state": "unknown"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "unknown"
+      },
+      {
+        "surface": "co_selling",
+        "state": "unknown"
+      },
+      {
+        "surface": "portal",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "unknown"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "unknown"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": false,
     "pagesOk": 0
   },
   {
@@ -412,6 +2302,76 @@
     ],
     "motion": true,
     "claims": 3,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "confirmed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "confirmed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "competitor_prm_confirmed",
+    "directoryIsDirectory": false,
     "pagesOk": 5
   },
   {
@@ -426,6 +2386,76 @@
     ],
     "motion": true,
     "claims": 3,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "confirmed"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": true,
     "pagesOk": 6
   },
   {
@@ -436,6 +2466,76 @@
     "surfaces": [],
     "motion": false,
     "claims": 0,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "unknown"
+      },
+      {
+        "surface": "application",
+        "state": "unknown"
+      },
+      {
+        "surface": "onboarding",
+        "state": "unknown"
+      },
+      {
+        "surface": "enablement",
+        "state": "unknown"
+      },
+      {
+        "surface": "certification",
+        "state": "unknown"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "unknown"
+      },
+      {
+        "surface": "co_selling",
+        "state": "unknown"
+      },
+      {
+        "surface": "portal",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "unknown"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "unknown"
+      }
+    ],
+    "prmState": "unknown",
+    "directoryIsDirectory": false,
     "pagesOk": 4
   }
 ]

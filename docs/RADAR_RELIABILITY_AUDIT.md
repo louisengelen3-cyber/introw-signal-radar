@@ -1,752 +1,624 @@
-# Radar Reliability & Data-Coverage Audit
+# Radar Reliability & Data-Coverage Audit — completed
 
-**Observational. No system was changed to improve these numbers.**
-Corpus: 77 companies — 35 existing production accounts + 42 autonomously discovered · 2026-08-25
+**Observational. No detector was tuned to improve any number here.**
+Population: **151 researched companies** across four discovery mechanisms · 2026-08-25
 
-Machine-derived outputs: `audit/out/introw-radar-reliability-audit.{json,csv}` ·
-`field-coverage.csv` · `failure-analysis.csv` · `source-yield.csv` · `crm-forensics.csv` ·
-`account-completeness.csv` · `unknown-audit.csv`
+Machine-derived outputs in `audit/out/`: `introw-radar-reliability-audit.{json,csv}` ·
+`field-coverage.csv` · `segment-coverage.csv` · `failure-analysis.csv` · `failure-ranking.csv` ·
+`unknown-audit.csv` · `crm-forensics.csv` · `ats-coverage.csv` · `discovery-funnel.csv` ·
+`source-yield.csv` · `account-completeness.csv` · `false-negatives.csv` · `false-positives.csv` ·
+`importance-vs-coverage.csv` · `bottom-10-fields.csv` · `compliance-audit.json` ·
+`people-linkedin.json` · `manual-research-gap.json` · `tiers-utility.json`
 
 ---
 
-## 1. The Central Question
+## 01 Executive Verdict
 
-> If an Introw AE relied on this system, what would it systematically see, systematically miss,
-> sometimes misinterpret, and be unable to know?
+The audit required by the original mandate was **not complete**. Of 24 requirements inspected
+against their artifacts: **1 completed, 22 partial, 1 missing entirely.** The dataset behind
+the 25 August report was written before Phase 5 and covers 77 accounts; Phase 5 then researched
+75 more and added two fields the schema had no column for. This mandate completed the missing
+work and rebuilt every derived output over the full 151-company population.
 
-**Systematically sees** — that a company operates a partner motion, and what kind. 61% of the
-corpus. This is the Radar's one genuinely reliable capability.
+Three findings dominate.
 
-**Systematically misses** — how the programme *works*. Deal registration 7.8%. Partner tiers
-10.4%. Onboarding 2.6%. Referral 1.3%. Lead sharing, partner pipeline, incentives and
-attribution: **0%**. The Radar can tell you a company has resellers. It almost never tells you
-how those resellers are managed, which is the part Introw actually sells into.
+**The Radar does not reach Introw's actual customers.** Of 19 known Introw customers, **15 were
+never surfaced by any discovery mechanism**. The four that appear in the corpus do so because
+they were seeded by hand in an earlier phase, not because discovery found them. Combined with
+the Phase 5 recall measurement — query families 0/18, counterparty inversion 3/18 on a
+hand-built Belgian segment — discovery is not currently a mechanism that finds prospects.
 
-**Sometimes misinterprets** — tier vocabulary. EXPO.e's partner page says *"we don't use tiered
-services — you are automatically a Platinum Partner"*, and the Radar recorded
-`partner_tiers = confirmed` from the word "Platinum". One in ten tier findings is a claim the
-page explicitly denies.
+**The Radar establishes THAT a programme exists and misses HOW it works.** Partner motion 66.2%.
+Every field describing the programme's operation sits below 11%: deal registration 4%, partner
+tiers 5.3%, referral 0.7%, lead sharing 0%, partner pipeline 0%, incentives and attribution
+never attempted. On a frozen six-account manual comparison the Radar missed **17 publicly
+available facts, 5 of them critical**, and every miss was operational detail — certification
+levels, tier requirements, incentive structures, margin mechanics.
 
-**Cannot know** — current CRM, for 96% of companies. And partner headcount, partner counts,
-programme activity and internal ownership, none of which were ever attempted.
+**One frozen assumption was wrong and is now corrected.** Public person discovery was measured
+at 2/18 in an earlier phase and dropped as non-viable. Measured again through search-engine
+**indexed** LinkedIn rather than direct access: **7 of 8 accounts yield a named partner person,
+4 of 8 yield two or more, and 0 of 8 were blocked.** The earlier failure was an access failure,
+not an availability failure.
 
-### The four failure classes, measured separately
+---
 
-| class | share of corpus | meaning |
+## 02 Compliance Audit
+
+Full detail in `audit/out/compliance-audit.json`. Classified by inspecting artifacts.
+
+| status | n | notable |
 |---|---|---|
-| **PUBLIC-DATA LIMIT** (P1, P4) | **45.5%** | we looked properly and the information is not public |
-| **RETRIEVAL FAILURE** (R1, R3) | **35.1%** | the page or vacancy exists and we did not get it |
-| **EXTRACTION FAILURE** (E1) | **16.9%** | we retrieved the page and got nothing off it |
-| **DISCOVERY FAILURE** (D) | 1 case | wrong domain resolved at discovery time |
-| **CLASSIFICATION FAILURE** (C) | 2 confirmed | tier false positive; CRM possession false positive |
-| **fully complete** | **2.6%** | both motion and CRM established |
+| COMPLETED | 1 | discovery recall (Part 11) |
+| PARTIAL | 22 | dataset, field coverage, CRM funnel, ATS, failure taxonomy, unknown audit, source yield, manual comparison |
+| MISSING | 1 | **people coverage (Part 28)** — never attempted on any account |
 
-**Only two accounts in 77 have both a partner motion and a CRM conclusion.**
+The largest single defect: the failure taxonomy required 18 named classes and only 6 were ever
+assigned, so twelve classes had no count. The second: the unknown audit had no BLOCKED class,
+so a site returning 403 was recorded as "genuinely not public".
 
----
+**Two measurement-instrument bugs were found and fixed during this mandate** (disclosed per
+Part 35, and both are now covered by tests):
 
-## 2. Account-Level Export
+1. `build-dataset` read the file it writes. On its second run it consumed its own output and
+   reclassified 42 search-discovered accounts as manual seeds. Fixed by reading a frozen copy
+   of the prior dataset from commit `d773b61`.
+2. The "CRM any evidence" coverage row reused the decisive-level set and reported 1.3% where
+   the true figure including supporting evidence is 17.2%.
 
-`audit/out/introw-radar-reliability-audit.json` and `.csv` — 77 rows × 54 fields.
-
-Three values are used and they are not interchangeable:
-
-- `unknown` — we asked and could not establish it
-- `not_observed` — we read the relevant pages and the thing was not there
-- `not_attempted` — no detector exists, or the question was never reached
-
-`partner_incentives_state`, `partner_attribution_state` and `partner_people_state` are
-`not_attempted` on every row. No detector exists for the first two, and person discovery was
-measured non-viable in an earlier phase. Reporting them as "0% coverage" would imply we tried.
+A third instrument gap produced a false zero: constructs were never persisted for the 30
+inversion-surfaced accounts, so all 30 read "ownership unknown" and "0 commercially reviewable".
+Re-run with constructs persisted, the true figures are 21 with motion and 20 review-ready.
 
 ---
 
-## 3. Field Coverage Matrix
+## 03 Population & Denominators
 
-n = 77. Full file: `audit/out/field-coverage.csv`.
+| mechanism | n | how these companies entered |
+|---|---|---|
+| PRM customer harvest | 45 | named as a customer by a PRM vendor |
+| search query family | 42 | 12 generic multilingual queries |
+| manual seed | 34 | supplied by hand in earlier phases |
+| counterparty inversion | 30 | named as a vendor by a consultancy, VAR or marketplace |
+| **total** | **151** | |
 
-| field | known | unknown | conflicting | not attempted | coverage | source that most often establishes it |
-|---|---|---|---|---|---|---|
-| Partner motion | 47 | 30 | 0 | 0 | **61.0%** | company partner page + recovery |
-| Programme type | 46 | 31 | 0 | 0 | **59.7%** | partner page vocabulary |
-| Programme ownership | 36 | 41 | 0 | 0 | **46.8%** | operator resolution |
-| CRM — any evidence | 27 | 50 | 0 | 0 | 35.1% | website fingerprint (mostly) |
-| Partner portal | 16 | 61 | 0 | 0 | 20.8% | partner page / login link |
-| Partner directory | 13 | 64 | 0 | 0 | 16.9% | outbound-link density |
-| Partner enablement | 10 | 67 | 0 | 0 | 13.0% | partner page prose |
-| Partner tiers | 8 | 69 | 0 | 0 | 10.4% | partner page prose |
-| Deal registration | 6 | 71 | 0 | 0 | 7.8% | partner page prose |
-| Co-selling | 6 | 71 | 0 | 0 | 7.8% | partner page prose |
-| Partner onboarding | 2 | 75 | 0 | 0 | 2.6% | partner page prose |
-| **CRM — decisive** | **2** | 74 | **1** | 0 | **2.6%** (3.9% incl. conflict) | company vacancy |
-| Referral | 1 | 76 | 0 | 0 | 1.3% | partner page prose |
-| Lead sharing | 0 | 77 | 0 | 0 | **0%** | — |
-| Partner pipeline | 0 | 77 | 0 | 0 | **0%** | — |
-| CRM historical | 0 | 77 | 0 | 0 | **0%** | — |
-| PRM | 0 | 77 | 0 | 0 | **0%** | DNS fingerprint (never fired) |
-| Partner incentives | 0 | — | — | 77 | not attempted | no detector |
-| Partner attribution | 0 | — | — | 77 | not attempted | no detector |
-| Partner people | 0 | — | — | 77 | not attempted | measured non-viable |
+Every coverage percentage in this report uses **151** as its denominator, asserted by test.
+Cells below n=6 carry an explicit warning in `segment-coverage.csv` and should not be compared.
 
-**Which commercially important fields does the Radar almost never establish?** Deal
-registration, lead sharing, partner pipeline, attribution and incentives — the entire
-operational layer Introw exists to manage. Partner motion is well covered; *partner operations*
-is not covered at all.
+Two denominators are deliberately smaller and are never mixed into corpus rates: the CRM
+forensic funnel runs on the **77** accounts that received full CRM research, and people/LinkedIn
+was measured on a bounded **8**.
 
 ---
 
-## 4. Coverage by Segment
+## 04 Discovery Reliability
 
-### By sector
+`audit/out/discovery-funnel.csv`.
 
-| sector | n | motion | CRM any | CRM decisive | deal reg |
+| mechanism | surfaced | resolved | researched | motion established | review-ready |
 |---|---|---|---|---|---|
-| cybersecurity | 2 | 100% | 100% | 0% | 0% |
-| IoT / hardware | 6 | 100% | 66.7% | 0% | 16.7% |
-| industrial | 3 | 66.7% | 33.3% | 0% | 0% |
-| software | 24 | 62.5% | 20.8% | 0% | 8.3% |
-| *existing corpus (sector unrecorded)* | 35 | 57.1% | 42.9% | 8.6% | 8.6% |
-| **manufacturing** | 7 | **28.6%** | **0%** | 0% | 0% |
+| search query family | 99 results → 94 domains | 74 companies | 42 | 27 (64.3%) | 15 (35.7%) |
+| counterparty inversion | 363 mentions | 153 domains | 30 | 21 (70%) | 20 (66.7%) |
+| PRM customer harvest | 133 mentions | 78 domains | 45 | 35 (77.8%) | 26 (57.8%) |
 
-Manufacturing is the weakest sector on every measure. This is the same physical-sector
-observability gap earlier mandates measured, and recovery narrows but does not close it.
+**Counterparty inversion and PRM-customer harvest both outperform query families** on every
+downstream measure. The query-family funnel loses 25 of 99 results to things that are not
+companies at all — trade press, registries, listicles, a securities regulator.
 
-### By region
+## 05 Discovery Recall
 
-| region | n | motion | CRM any | deal reg |
-|---|---|---|---|---|
-| US/CA | 2 | 100% | 100% | 0% |
-| US/global | 6 | 100% | 66.7% | 16.7% |
-| UK | 6 | 100% | 16.7% | 16.7% |
-| Benelux | 2 | 100% | 0% | 50% |
-| DACH | 11 | 54.5% | 18.2% | 0% |
-| France | 6 | 50% | 33.3% | 0% |
-| Italy | 5 | **20%** | 20% | 0% |
-| Nordics | 2 | **0%** | 0% | 0% |
+Measured on one bounded segment (Belgian B2B software with a public partner page, 18 verified
+members): **query families 0/18 (0%), counterparty inversion 3/18 (17%), union 17%.** Excluding
+one circular hit, 2/18 = 11% from non-circular sources.
 
-### By discovery language
+Against known Introw customers: **15 of 19 never discovered by any mechanism.**
 
-English 93.8% motion · German 54.5% · French 50% · Italian 20% · Swedish 0% (n=2).
+**Candidate-generation precision and market recall are different things and only the first is
+good.** Precision on resolved companies is 57%; recall is 0–17% on the one segment where it has
+been measured. **Nothing in this project supports a claim about market coverage.**
 
-The Radar is materially more reliable on English-language, US/UK, software and IoT companies.
-It is weakest on Italian and Nordic manufacturers. Sample sizes below 6 are too small to carry
-weight and are shown for completeness, not inference.
+## 06 Entity Resolution
 
----
+151 accounts: 78 resolved by first-party name match (PRM harvest), 30 by outbound link, 43
+supplied with a domain. Zero wrong-company dossiers were built. Two resolution risks are
+recorded: 58% of inversion mentions arrive as slug names with no domain, and one people result
+(DataCore) names a person at a subsidiary brand — a D3 brand-resolution risk, not a clean match.
 
-## 5. CRM Forensics Funnel
+## 07 Partner Motion Coverage
 
-Real numbers, whole corpus:
+**103 of 151 = 68.2% established** (`partner_motion_state`), 66.2% by the stricter
+field-coverage rule. This remains the Radar's one strong capability.
+
+## 08 Commercial Workflow Coverage
+
+The layer Introw sells into.
+
+| field | known | coverage | importance |
+|---|---|---|---|
+| Partner portal | 16 | 10.6% | HIGH_VALUE |
+| Partner enablement | 10 | 6.6% | HIGH_VALUE |
+| Partner tiers | 8 | 5.3% | HIGH_VALUE |
+| Deal registration | 6 | 4.0% | **CRITICAL** |
+| Co-selling | 6 | 4.0% | USEFUL |
+| Partner onboarding | 2 | 1.3% | USEFUL |
+| Referral | 1 | 0.7% | HIGH_VALUE |
+| Lead sharing | 0 | **0%** | HIGH_VALUE |
+| Partner pipeline | 0 | **0%** | **CRITICAL** |
+| Partner incentives | 0 | not attempted | HIGH_VALUE |
+| Partner attribution | 0 | not attempted | **CRITICAL** |
+
+## 09 CRM Coverage
+
+**3 of 151 accounts have a defensible current CRM conclusion — 2.0%.** Any CRM evidence
+including supporting: 26 (17.2%). Blocked: 3. Not attempted: 74.
+
+## 10 CRM Forensics Funnel
+
+`audit/out/crm-forensics.csv`, n=77 (the accounts that received full CRM research).
 
 ```
 77  accounts researched
-77  received CRM research
-59  had a reachable careers surface (ATS board or readable careers page)
-54  had at least one readable vacancy
-27  produced any vendor-specific observation
- 9  produced vendor language in a JOB source (not a fingerprint)
- 4  produced possession or operational-duty language
- 3  established a decisive CRM conclusion
- 3  established CURRENT CRM
- 0  historical only
+77  CRM research attempted
+59  careers surface reachable
+54  jobs found (>=1 readable vacancy)
+54  relevant non-partner jobs read
+27  vendor-specific evidence, any source
+ 9  CRM language in a JOB source (not a fingerprint)
+ 4  operational possession evidence
+ 3  current CRM established
+ 0  historical CRM established
  1  conflict
-74  remained current-CRM unknown  (96.1%)
+74  remains unknown  (96.1%)
 ```
 
-**The collapse is between 54 and 9.** Fifty-four companies served us readable adverts and
-forty-five of them never named a CRM. That is not a retrieval failure; it is what companies
-choose to publish.
+The collapse is 54 → 9. Fifty-four companies served readable adverts and forty-five never named
+a CRM. That is publication behaviour, not retrieval failure.
 
-Decisive conclusions by source: **company ATS vacancy 2, company careers page 1**. Every other
-source family contributed zero decisive conclusions: historical vacancies 0, LinkedIn 0, job
-boards 0, search snippets 0, website fingerprints 0, company documentation 0.
+Unique accounts unlocked, by source: `company_ats_vacancy` 2, `company_current_vacancy` 1,
+`company_careers_index` 1. By job family: **AE/Sales 2, other/untitled 1.**
 
----
+## 11 Non-Partner Vacancy Contribution
 
-## 6. Random-Vacancy Contribution
+**5 of 5 decisive CRM observations came from non-partnership roles.** Partnership titles
+produced 3 observations and **zero** conclusions. Restricting research to partner roles would
+have produced no CRM evidence at all. The absolute gain is 3 accounts in 151 — going from 0% to
+2.0%, not from poor to good.
 
-37 CRM observations came from job sources. By family:
+## 12 Historical Vacancy Contribution
 
-| family | observations | decisive |
-|---|---|---|
-| General / other | 9 | 0 |
-| **AE / Sales** | **7** | **3** |
-| Unknown / untitled | 6 | 1 |
-| Marketing Ops | 5 | 0 |
-| Technical presales | 4 | 0 |
-| Partnership / Channel | 3 | **0** |
-| **RevOps / Sales Ops** | 2 | **1** |
-| Customer Success | 1 | 0 |
+**Zero.** No account has CRM evidence only because historical vacancies were searched. Every job
+observation is under six months old or undated. No source that serves genuinely archived
+vacancies is wired in, so the temporal classification machinery — which is holdout-verified in
+both directions — is carrying no load.
 
-**Decisive conclusions from non-partnership roles: 5 of 5.** Partnership titles produced three
-observations and zero conclusions.
+## 13 LinkedIn Contribution
 
-**Does broad vacancy research create meaningful incremental coverage?** Yes — it is the *only*
-thing that produced any current-CRM evidence at all. Restricting research to partnership titles
-would have yielded zero. But the absolute gain is 3 accounts in 77, so "meaningful incremental
-coverage" means going from 0% to 3.9%, not from poor to good.
-
----
-
-## 7. Historical Vacancy Contribution
-
-**Zero.** No account had CRM evidence only because historical vacancies were searched.
-
-Evidence age across all 37 job observations:
-
-| age | n |
-|---|---|
-| < 6 months | 26 |
-| 6–12 months | 0 |
-| 1–2 years | 0 |
-| 2–3 years | 0 |
-| > 3 years | 0 |
-| undated | 11 |
-
-Conflicts with current evidence: 0. Possible migrations claimed: 0.
-
-**Why:** companies' own careers surfaces serve *current* adverts. Genuinely archived vacancies
-live on mirrors and search indexes, which this pipeline reaches only through search — and
-search contributed nothing (§8). The temporal machinery is holdout-verified in both directions
-and is currently carrying no load.
-
-**Recommendation:** do not invest further in historical-vacancy handling until a source that
-actually serves archived vacancies is wired in. The classification logic already works; there
-is nothing for it to classify.
-
----
-
-## 8. LinkedIn Contribution
+`audit/out/people-linkedin.json`, n=8.
 
 | measure | value |
 |---|---|
-| accounts where LinkedIn was searched as a distinct source | **0** |
-| accounts reached through public indexed search | 4 |
-| blocked | 0 (never attempted directly) |
-| useful evidence found | **0** |
-| unique CRM evidence | **0** |
-| unique people evidence | **0** |
-| unique partner evidence | **0** |
+| attempted | 8 |
+| accessible via search index | 8 |
+| **blocked** | **0** |
+| useful evidence (any named person) | 7 (87.5%) |
+| two or more people | 4 (50%) |
+| **unique CRM evidence** | **0** |
+| **unique partner-programme evidence** | **0** |
+| accounts where LinkedIn was the only source | 4 |
 
-**Does LinkedIn materially improve the Radar?** On this evidence, no — and it was not properly
-tested as a standalone source, which I state rather than dress up. What *was* tested is targeted
-public search including LinkedIn-indexed pages, on four accounts. It produced zero new
-conclusions and surfaced three would-be false positives:
+**Does LinkedIn materially improve the Radar? For people, yes and it is the only source that
+does. For everything else, no.** Across the entire project, indexed search including LinkedIn
+has produced zero CRM conclusions and zero partner-programme facts, and on one occasion would
+have attributed another company's HubSpot (Kore.ai to KORE Wireless).
 
-- Factorial: *"CRM tool familiarity with Salesforce **or** HubSpot"* — names two, proves neither
-- Apaleo: *"Apaleo **integrates with** HubSpot"* — a product connector, not internal use
-- Efficy: comparison pages, because Efficy **is** a CRM vendor
+## 14 ATS Coverage
 
-One further case makes the point sharply. Searching *"KORE Wireless careers Salesforce OR
-HubSpot"* returns a Sales Ops Director role saying *"administer **HubSpot**"* — belonging to
-**Kore.ai**, an unrelated company. A search-driven CRM detector would have attributed it. The
-Radar did not, because it only reads first-party sources. **The strongest argument for the
-first-party-only rule is that search actively supplies wrong answers.**
+`audit/out/ats-coverage.csv`, n=77.
 
----
-
-## 9. ATS Coverage
-
-| state | n | share |
+| state | n | % |
 |---|---|---|
-| attributable ATS board | 9 | 11.7% |
+| supported ATS board attributed | 9 | 11.7% |
 | **no board, vacancies read anyway** | **46** | **59.7%** |
-| careers page but no readable vacancy | 4 | 5.2% |
-| no careers surface at all | 18 | 23.4% |
+| careers page found, no readable vacancy (JS-only or listing) | 4 | 5.2% |
+| no careers surface reached at all | 18 | 23.4% |
+| blocked (403) | 3 | 3.9% |
+| historical vacancies despite no board | 0 | 0% |
+| indexed jobs used despite unsupported ATS | 0 | 0% |
 
-**Is ATS coverage still a structural bottleneck?** **No — it has been replaced by a different
-one.** Board reach fell to 11.7% (the new corpus is smaller and more European), yet vacancies
-were read for 71% of companies. The bottleneck moved from "no ATS adapter" to "no readable
-careers surface at all" (23.4%) and "careers page that serves nothing" (5.2%).
+**ATS reach is no longer the bottleneck.** It has been replaced by "no careers surface reachable
+at all" (23.4%) and by the fact that reaching vacancies does not produce CRM evidence.
 
----
+## 15 People Coverage
 
-## 10. Discovery Funnel
+Measured for the first time. n=8, chosen as the **most favourable** population (established
+partner motion).
 
-```
-12  queries (6 languages, 8 families)
-99  search results
-94  unique domains
-74  resolved to a company            — dropped 25 non-companies: trade press, registries,
-                                        legal references, listicles, a securities regulator
-52  after removing duplicates        — dropped 22 already-known or same-group
-42  channel operators                — dropped 4 partner-tech vendors/consultancies,
-                                        6 participants (distributors, dealers, an agency)
-42  dossiers built                   — no cheap gate; every operator researched
-29  with sufficient or partial evidence — 13 under-observed
- 7  plausible Introw fit
-```
-
-**Drop-off causes, largest first:** non-companies 25 (the web's SEO layer around channel
-vocabulary), duplicates 22, under-observed after research 13, participants 6, partner-tech
-vendors 4.
-
----
-
-## 11–12. Failure Taxonomy and Counts
-
-Full file: `audit/out/failure-analysis.csv`.
-
-| stage | companies | % corpus | commercial consequence | fixability |
-|---|---|---|---|---|
-| **P1 — information not public** | 18 | 23.4% | vacancies read, no CRM named; nothing left to retrieve | PUBLIC_DATA_LIMIT |
-| **R1 — relevant page not retrieved** | 17 | 22.1% | company looks like it has no partner motion when it may | ENGINEERING_FIXABLE |
-| **P4 — source authority too weak** | 17 | 22.1% | a CRM is suggested but not establishable; seller must verify | PUBLIC_DATA_LIMIT |
-| **E1 — page found, evidence not extracted** | 13 | 16.9% | a partner surface was read and produced nothing | ENGINEERING_FIXABLE |
-| **R1b — no careers surface reachable** | 8 | 10.4% | CRM can never be established by hiring evidence | SOURCE_COVERAGE_FIXABLE |
-| **R3 — JS-rendered careers page** | 2 | 2.6% | vacancies exist and are invisible | ENGINEERING_FIXABLE |
-| none — fully established | 2 | 2.6% | — | — |
-
-Observed but not corpus-wide countable:
-
-| class | instances | evidence |
-|---|---|---|
-| **D3 — wrong domain resolved** | 1 | `machineering.de` does not resolve (HTTP 000); the company is `machineering.com`. Discovery took the domain from a trade-press article. |
-| **C1 — wrong classification** | 1 | EXPO.e `partner_tiers = confirmed` from the word "Platinum" on a page that says *"we don't use tiered services"*. |
-| **C2 — possession vs experience** | 1 | Planhat confirmed from *"Salesforce Admin knowledge is a plus"* — caught in the mandate's audit and fixed. |
-| **C4/C5** | 0 confirmed | Guarded and holdout-verified; no instance survived to production. |
-
-**Split:** 45.5% public-data limit, 35.1% retrieval, 16.9% extraction. Roughly **half of all
-failures are ours**.
-
----
-
-## 13. False Negative Audit
-
-From deep manual research (§26) on a stratified sample.
-
-| expected fact | Radar output | failure stage | root cause | would this architecture ever find it? | fix |
-|---|---|---|---|---|---|
-| **myfactory** runs a two-tier programme (Vertriebspartner / Fachhandelspartner) with NFR licences, training, workshops and partner events | motion ✓, tiers `not_observed`, enablement `not_observed`, portal `not_observed` | E3 structure | the programme detail is in a **PDF** (`myfactory_Partnerprogramm_m.pdf`) and on `/de/unternehmen/partner-werden`, which the surface finder did not read | Not as built — PDFs are deliberately out of scope | bounded PDF read for pages linked from a partner page |
-| **machineering** operates a sales-partner network across several countries | 0 pages read, motion `unknown` | D3 wrong entity | discovery took `machineering.de` from a trade-press article; the company is `machineering.com` | No — the domain is dead | verify the domain resolves before dossier build; prefer the domain the article links to |
-| **Allison Transmission** has ~1,600 dealer/distributor locations and 6,200 certified technicians | motion ✓ (`distributor\|dealer\|oem_partner`), directory `not_observed` | E3 extraction | the count is prose on a Channel page, not a linked directory; the detector counts outbound links | Partially — a numeric-scale extractor would find it | extract stated network sizes as a lower bound |
-| **EXPO.e** runs a Referral partner track | referral `not_observed` | E2 vocabulary | the page names "Carrier, Reseller, or Referral partner" as *partner types*, not as a workflow | Yes, with a partner-type extractor | treat enumerated partner types as evidence |
-| **Apaleo** operates a certified app marketplace with a Tech Partnerships team | `under_observed`, motion `unknown` | E1 extraction | the store and certification live on `apaleo.dev` and `/apaleo-store`, off the main partner path | Possibly, via recovery on developer subdomains | add `*.dev` and `/store` to surface vocabulary |
-
-**A pattern:** four of five misses are *extraction*, not retrieval. The page was reachable; the
-detector was looking for different words or a different structure.
-
----
-
-## 14. False Positive Audit
-
-| account | machine output | what is actually true | error class |
-|---|---|---|---|
-| **expo-e.uk** | `partner_tiers = confirmed` | the page states *"we don't use tiered services — you are automatically a Platinum Partner"* | **generic partner language** — tier vocabulary matched a denial of tiers |
-| **planhat.com** | Salesforce `confirmed_current` (during the mandate) | *"Salesforce Admin knowledge is a plus"* — candidate experience | **wrong CRM inference**, caught and fixed |
-| **canonical.com** | Salesforce `confirmed_current` (during the mandate) | a careers **feed** concatenating every role; the sentence belonged to a different advert | **wrong CRM inference**, caught and fixed |
-| **mews.com** | `plausible`, motion via `integration` programme + directory confirmed | an integration marketplace, not a reseller channel | **integration ecosystem** read as partner motion |
-
-Not observed in this corpus: partner-tech vendor slipping through (4 were caught at discovery),
-affiliate-only programmes, dead programmes, distributor participants reaching a dossier (6 were
-caught at labelling).
-
-**Publication-density bias remains structurally present**: a company that writes more about its
-partner programme scores as more evidenced, regardless of what it actually operates.
-
----
-
-## 15. Unknown Audit
-
-The most important table in this report. Full file: `audit/out/unknown-audit.csv`.
-
-| field | unknown | GOOD | BAD | UNTESTED |
-|---|---|---|---|---|
-| CRM | 50 | 17 (34%) | 17 (34%) | 16 (32%) |
-| Partner motion | 30 | 12 (40%) | 12 (40%) | 6 (20%) |
-| Deal registration | 71 | 10 (14%) | 31 (44%) | 30 (42%) |
-
-Across the three fields that matter most:
-
-- **GOOD unknown — 25.8%.** We asked properly; the information is not public.
-- **BAD unknown — 39.7%.** It probably exists publicly and our retrieval failed.
-- **UNTESTED unknown — 34.4%.** We stopped before asking properly.
-
-> **74.2% of unknowns are ours to fix, not the web's fault.**
-
-This reframes the whole audit. The Radar's low coverage is *mostly not* a public-data problem.
-It is a retrieval-and-extraction problem wearing a public-data problem's clothing.
-
----
-
-## 16. Source Yield
-
-Full file: `audit/out/source-yield.csv`.
-
-| source family | accounts touched | unique useful facts | false facts caught | verdict |
-|---|---|---|---|---|
-| **company website (base partner research)** | 77 | 47 motions | — | **the backbone** |
-| **recovery (regional + subdomains)** | 27 | 27 accounts gained evidence | — | **high yield** |
-| **search engine (discovery)** | 99 results | 42 new companies | — | **the entire new universe** |
-| company careers pages (non-ATS) | 46 | 1 decisive CRM | 1 | modest but the only route for 60% |
-| ATS boards | 9 | 2 decisive CRM | 0 | high precision, low reach |
-| website fingerprints | 23 | **0 decisive** | 10 over-claims corrected | supporting only |
-| historical / cached vacancies | 0 | **0** | 0 | **carrying no load** |
-| careers index / feed | few | **0** by design | 1 | correctly cannot confirm |
-| **search engine (targeted CRM)** | 4 | **0** | **3** | **negative value for establishing facts** |
-| **LinkedIn as a distinct source** | 0 | **0** | 0 | **not run** |
-| third-party directories | 1 | 1 candidate | 0 | marginal |
-
-**Which sources make the Radar materially better?** Three: the company's own website, recovery
-across regional domains and subdomains, and search *for discovery*. Everything else is either
-supporting-only or currently contributing nothing.
-
----
-
-## 17. Information Gain
-
-| layer | incremental contribution |
+| measure | value |
 |---|---|
-| base website partner research | partner motion on **47 of 77 (61%)** |
-| **+ recovery** (regional domains, programme subdomains) | added evidence on **27 accounts** — 14 existing, 13 new |
-| + current jobs (ATS + careers pages) | **3** decisive CRM conclusions |
-| + historical jobs | **0** |
-| + LinkedIn / indexed search | **0** |
-| + website fingerprints | 23 supporting-only, **0** decisive |
+| any relevant partner person found | **7/8 (87.5%)** |
+| two or more found | 4/8 (50%) |
+| role evidence without a named person | 1 (Canonical) |
+| never attempted (rest of corpus) | 143 |
 
-**Where engineering effort belongs:** recovery returned by far the most information per unit of
-work and should be extended (PDFs, developer subdomains, deeper careers-subdomain fallback).
-Historical-job handling and search-based CRM forensics both returned nothing and should be
-frozen, not extended.
+Named examples: Aikido (Jake Vogt, Thomas Segura), Aircall (Adam Bailes, Frédéric Viet), Cubbit
+(Raffaele Giustini, Enrico Signoretti), Bytes (Andy Walker, Penelope Bridger).
 
----
+**This overturns a frozen assumption.** The earlier 2/18 result measured a different route.
+Absence still means UNKNOWN and team size is never inferred from no results.
 
-## 18. Introw-Critical Field Analysis
+## 16 PRM Coverage
 
-Commercial importance assigned from the CRO/AE perspective; coverage and reliability measured.
+**0%.** No account has a confirmed PRM vendor. PRM portals are served from the customer's own
+domain behind a login, so DNS fingerprints find nothing. This is a public-data limit.
 
-| field | importance | coverage | reliability | biggest source | biggest failure mode |
+## 17 Programme Scale
+
+**9 of 151 = 6.0%** publish a claimed programme size (19% of the 47 accounts with an established
+motion, which is the honest denominator for this field). Four distinct quantities are kept
+separate and never converted into one another: `directory_entries_observed`,
+`programme_scale_claimed`, unique partner entities (not measured), and estimated size (never
+estimated). A published count is stored as a **claim the company makes about itself**.
+
+## 18 Informal Signature
+
+Fires on **8 of 151 (5.3%)** across the whole population; 19 accounts have any informal verdict.
+Phase 5 validation stands: 4/4 known positives, 0/14 clean negatives, 0/5 partner-tech,
+0/15 matched-unlabelled, and 26.3% SMB / 16.7% mid / 0% enterprise / 0% control.
+
+**It is not presented as generalised.** The detector was fitted across three iterations and one
+of those consumed the matched-unlabelled cohort. Its only genuinely independent test is the
+proxy-positive population, where it fired at 26.3% on SMB and 0% on control.
+
+## 19 Sector Coverage
+
+| sector | n | motion | ownership | CRM | review-ready |
 |---|---|---|---|---|---|
-| Partner motion | **CRITICAL** | 61.0% | high — quoted and attributed | company partner page | R1 page not retrieved |
-| Programme ownership | **CRITICAL** | 46.8% | medium — inferred from vocabulary | operator resolution | operator/participant ambiguity |
-| Deal registration | **CRITICAL** | **7.8%** | high when found | partner page prose | sits behind partner login |
-| Partner pipeline / attribution | **CRITICAL** | **0%** | — | none | never public |
-| CRM (current) | **CRITICAL** | **3.9%** | **very high** — holdout 20/20, 0 false confirmations | company vacancy | companies don't name it |
-| Partner tiers | HIGH VALUE | 10.4% | **low** — one confirmed false positive in 8 | partner page prose | tier vocabulary without tiers |
-| Partner portal | HIGH VALUE | 20.8% | high — a login link is unambiguous | partner page | — |
-| Partner enablement | HIGH VALUE | 13.0% | medium | partner page prose | PDF programme docs |
-| Partner people | HIGH VALUE | **not attempted** | — | — | measured non-viable |
-| Partner directory | USEFUL | 16.9% | medium — lower bound only | link density | prose counts not extracted |
-| PRM in use | USEFUL | **0%** | — | DNS fingerprint | vendors serve from customer domains |
-| Partner count | USEFUL | ~0% | unreliable | — | public-data limit |
-| Programme activity / recency | USEFUL | **0%** | — | — | needs elapsed time |
+| unclassified | 109 | 69.7% | 60.6% | 2.8% | 57.8% |
+| software | 24 | 62.5% | 45.8% | 0% | 37.5% |
+| manufacturing | 7 | **28.6%** | 14.3% | 0% | 14.3% |
+| IoT / hardware | 6 | 100% | 50% | 0% | 50% |
+| industrial | 3 | 66.7% | 0% | 0% | 0% ⚠ |
+| cybersecurity | 2 | 100% | 100% | 0% | 100% ⚠ |
 
-**The damning row is deal registration**: CRITICAL importance, 7.8% coverage. And partner
-pipeline and attribution — equally critical to Introw's pitch — are at zero.
+⚠ cells below n=6 — do not compare. **109 of 151 accounts have no recorded sector**, because
+sector was never captured for the manual-seed and Phase 5 populations. That is a data-model
+gap, not a research gap, and it makes the sector analysis weak.
 
----
+## 20 Geography Coverage
 
-## 19. Reliability Scorecard — no composite score
+DACH 11 (motion 54.5%, ownership 9.1%) · US/global 6 (100%) · UK 6 (100%) · FR 6 (50%) ·
+IT 5 ⚠ (20%) · US 2 ⚠ · Benelux 2 ⚠ · Nordics 2 ⚠. Canada: **0 accounts** — the region was
+never reached. 109 accounts have no region recorded.
 
-| dimension | status | supporting numbers |
-|---|---|---|
-| Discovery precision | **MEASURED** | 42 operators / 74 resolved companies = 57%; 76% on the earlier shadow run |
-| Discovery recall | **UNMEASURED** | no denominator exists; 5/34 on an 11-query budget previously, not re-tested |
-| Entity resolution | **PARTIALLY MEASURED** | 0 wrong-entity dossiers in 77; but 1 dead domain reached dossier build |
-| Partner-motion coverage | **MEASURED** | 61.0% (47/77) |
-| Partner-operations coverage | **MEASURED** | deal reg 7.8%, tiers 10.4%, pipeline 0%, attribution 0% |
-| CRM coverage | **MEASURED** | 3.9% decisive, 35.1% any evidence |
-| CRM precision | **MEASURED** | holdout 20/20, 0 false confirmations; 2 real false positives caught and fixed |
-| Currentness | **PARTIALLY MEASURED** | all evidence <6 months or undated; no historical corpus to test decay against |
-| People coverage | **UNMEASURED** | never attempted |
-| PRM coverage | **MEASURED** | 0% |
-| Evidence attribution | **MEASURED** | every claim carries quote, URL, date, proves/does-not-prove |
-| Cross-industry robustness | **MEASURED** | manufacturing 28.6% motion vs cybersecurity/IoT 100% |
-| Geographic robustness | **PARTIALLY MEASURED** | US/UK 100%, Italy 20%, Nordics 0% — but n<6 in most buckets |
+## 21 Language Coverage
 
----
+English 16 (motion 93.8%) · German 11 (54.5%) · French 6 (50%) · Italian 5 ⚠ (20%) ·
+Dutch 2 ⚠ · Swedish 2 ⚠ (0%). Language is recorded as the **discovery query language**, not the
+company's publication language — a proxy, and a weak one.
 
-## 20. Reliable Today
+## 22 Failure Taxonomy
 
-Stated with both precision and coverage, as required.
+`audit/out/failure-analysis.csv`. All classes now assigned.
 
-1. **"This company operates a partner motion, and here is the quote."** 61% coverage, high
-   precision, every claim attributed to a URL. Reliable when the partner page is on a domain we
-   can reach.
-2. **"This company's programme is of type X"** (reseller / dealer / installer / MSP / solution
-   partner). 59.7% coverage, multilingual, holdout-tested.
-3. **"When a company names its CRM in a live advert, we will read it correctly."** Holdout 20/20,
-   zero false confirmations, zero over-current classifications. **This is precision, not
-   coverage — it applies to the 3.9% of accounts where it fires.**
-4. **"This company is a partner-tech vendor / competitor."** Caught 4 at discovery, 0 reached a
-   dossier; the maintained list is asserted reference data.
-5. **"A partner surface exists on a regional domain or subdomain the main site does not link."**
-   Recovery added evidence on 27 of 77 accounts.
-6. **"We did not establish this, and here is exactly what we consulted."** Every unknown carries
-   its coverage record.
+| class | n | % | consequence | fixability |
+|---|---|---|---|---|
+| **R1** page not retrieved | 73 | 48.3% | company looks like it has no motion when it may | ENGINEERING_FIXABLE |
+| **E1** evidence not extracted | 19 | 12.6% | page read, produced nothing — silent | ENGINEERING_FIXABLE |
+| **R4** search index failure | 18 | 11.9% | CRM never establishable from hiring | SOURCE_COVERAGE_FIXABLE |
+| **P4** source authority too weak | 17 | 11.3% | CRM suggested, not establishable | PUBLIC_DATA_LIMIT |
+| **P1** not public | 12 | 7.9% | vacancies read, no CRM named | PUBLIC_DATA_LIMIT |
+| **C1** wrong classification | 8 | 5.3% | asserts a workflow the page does not support | ENGINEERING_FIXABLE |
+| **R3** JS / access blocked | 3 | 2.0% | no evidence either way | ENGINEERING_FIXABLE |
+| NONE | 1 | 0.7% | motion and CRM both established | — |
 
-## 21. Not Reliable Today
+Classes with a count of zero in this corpus, recorded rather than omitted: D1 (measured
+separately against customers: 15), D2, D3 (1 risk case), R2, R5, E2, E3 (both observed in the
+manual comparison but not machine-assignable), C2, C4, C5 (all caught and fixed in earlier
+phases), P2, P3.
 
-1. **Current CRM.** 3.9%. Do not build a workflow that assumes it.
-2. **Deal registration, lead sharing, partner pipeline, attribution, incentives.** 7.8% / 0% /
-   0% / 0% / not attempted. The operational layer is effectively invisible.
-3. **Partner tiers.** 10.4% coverage and a confirmed false positive rate of 1 in 8 in the
-   audited sample.
-4. **Partner team size, partner headcount, partner counts.** Never attempted or ~0%.
-5. **Programme activity or recency.** No temporal evidence exists yet.
-6. **Manufacturing and Nordic/Italian companies.** 28.6% / 0% / 20% motion coverage.
-7. **Market completeness.** Discovery recall is unmeasured; nothing here supports a claim about
-   how much of any market has been seen.
+**Roughly two thirds of failures are ours.** 68.2% engineering or source-coverage fixable,
+19.2% public-data limit.
 
-## 22. Almost Never Found — bottom 10 by coverage
+## 23 Unknown Taxonomy
 
-| field | coverage | why missing | fixable? |
-|---|---|---|---|
-| Lead sharing | 0% | vocabulary sits inside programme prose we mostly don't reach | ENGINEERING (E2) |
-| Partner pipeline | 0% | behind the partner login by design | PUBLIC-DATA LIMIT |
-| Partner incentives | not attempted | no detector written | ENGINEERING |
-| Partner attribution | not attempted | no detector written | ENGINEERING |
-| CRM historical | 0% | no source serving archived vacancies is wired in | SOURCE COVERAGE |
-| Partner people | not attempted | public person discovery measured at 2/18 | PAID DATA |
-| PRM in use | 0% | vendors serve portals from the customer's own domain | PUBLIC-DATA LIMIT |
-| Referral | 1.3% | named as a partner *type*, not as a workflow | ENGINEERING (E2) |
-| Partner onboarding | 2.6% | described on pages behind the application step | PUBLIC-DATA LIMIT |
-| CRM decisive | 2.6% | companies do not name their CRM in adverts | PUBLIC-DATA LIMIT |
+`audit/out/unknown-audit.csv`. Four classes, `partner_people` excluded from the aggregate
+because it was measured on a deliberately bounded n=8.
 
-## 23. What Fails Most Often
+| field | unknown | good | bad | untested | blocked |
+|---|---|---|---|---|---|
+| CRM | 148 | 29 | 42 | 74 | 3 |
+| Partner motion | 48 | 16 | 14 | 18 | 0 |
+| Deal registration | 140 | 17 | 75 | 48 | 0 |
+| *partner people* | *144* | *0* | *1* | *143* | *0* |
 
-**By frequency:**
+**Full population (n=336):** good 18.5% · bad 39.0% · untested 41.7% · blocked 0.9% →
+**"ours to fix" 80.7%.**
 
-1. P1 information not public — 18 (23.4%)
-2. R1 relevant page not retrieved — 17 (22.1%)
-3. P4 source authority too weak — 17 (22.1%)
-4. E1 page found, evidence not extracted — 13 (16.9%)
-5. R1b no careers surface reachable — 8 (10.4%)
-6. R3 JS-rendered careers page — 2 (2.6%)
-7. C1 wrong classification (tiers) — 1 confirmed
-8. D3 wrong domain resolved — 1
-9. C2 possession vs experience — 1 (fixed in-mandate)
-10. C5 internal use vs customer integration — 0 surviving
+**Comparable 76-account subset:** good 28.5% · bad 49.4% · untested 20.3% · blocked 1.7% →
+**"ours to fix" 69.8%.**
 
-**By commercial impact:**
+The headline has now been computed three ways: **74.2%** (25 Aug), **66.2%** (Phase 5 F1
+correction), **69.8%** (this audit, comparable subset), **80.7%** (full population). It is
+sensitive both to population and to classification rule. **It should be quoted as a range of
+roughly 66–81%, never as a point estimate**, and the higher full-population figure is inflated
+by newly added accounts that were researched less deeply.
 
-1. **C2/C4 false CRM confirmation** — rare but catastrophic: a seller opens a call with a wrong
-   system claim. Two occurred and were caught only by manual audit.
-2. **C1 tier false positive** — a dossier asserting tiers on a page that denies them.
-3. **D3 wrong domain** — an entire account researched against a dead domain.
-4. **R1 page not retrieved** — an operator recorded as having no motion.
-5. **E1 evidence not extracted** — the highest-volume silent failure; a page is read and reports
-   nothing, indistinguishable from a page that says nothing.
-6. **C3 operator vs participant** — guarded, but a well-written participant page could pass.
-7. **Publication-density bias** — verbose companies systematically outscore operational ones.
-8. **P4 supporting-only CRM** — invites a seller to assume a system that was never established.
-9. **P1 genuine absence** — costly in volume, but honest.
-10. **R3 JS careers** — small today, will grow as more sites render client-side.
+## 24 False Negatives
 
-## 24. Reliability by Account
+`audit/out/false-negatives.csv`, against the 19 known Introw customers.
 
-`audit/out/account-completeness.csv` — one profile per account, no score. Example rows:
+- **15 of 19 never discovered** — failure class D1. Root cause: no discovery mechanism reaches
+  them. Would the current architecture ever find them? **No.**
+- Of the 4 present in the corpus, **4/4 are review-ready** and **1/4 has a CRM conclusion**.
 
-```
-aircall.io       motion ESTABLISHED · ownership ESTABLISHED · CRM ESTABLISHED (conflict)
-                 people NOT_ATTEMPTED · PRM UNKNOWN · currentness PARTIAL
-                 → SUFFICIENT_FOR_REVIEW
+So: when a customer is handed to the Radar, it researches them adequately. It does not find them.
 
-korewireless.com motion ESTABLISHED · ownership ESTABLISHED · CRM PARTIAL
-                 people NOT_ATTEMPTED · PRM UNKNOWN · currentness UNKNOWN
-                 → SUFFICIENT_FOR_REVIEW
+## 25 False Positives
 
-machineering.de  motion UNKNOWN · ownership UNKNOWN · CRM UNKNOWN
-                 people NOT_ATTEMPTED · PRM UNKNOWN · currentness UNKNOWN
-                 → UNDER_OBSERVED
-```
+`audit/out/false-positives.csv`, 18 flagged items.
 
-Corpus totals: **45 sufficient for review (58.4%)**, 10 partial (13.0%), 22 under-observed
-(28.6%).
-
----
-
-## 25. "Would I Trust This?" Red Team
-
-Four reviewers, stratified sample (aircall.io, korewireless.com, expo-e.uk, machineering.de).
-
-**Reviewer A — Introw AE.**
-*Trusts:* the partner-motion quotes, because each is a sentence with a link. Aircall's Salesforce
-line is worth opening a call with.
-*Needs verified:* the tier claim on EXPO.e — "I'd check that before I said it out loud."
-*Missing:* who owns partnerships, how many partners, whether the programme is active.
-*Could decide?* Yes for aircall and korewireless; no for machineering.
-*Would search next:* LinkedIn for a Head of Partnerships, then the partner portal login page.
-
-**Reviewer B — OSINT researcher.**
-*Trusts:* first-party sourcing throughout — no claim rests on a third-party page.
-*Needs verified:* nothing, given the URLs are there.
-*Missing:* the PDF layer. "Half these companies put the real programme in a PDF and you're not
-reading them."
-*Notes:* machineering.de not resolving should have been caught before a dossier existed.
-*Would search next:* `site:domain filetype:pdf partner`.
-
-**Reviewer C — Data quality auditor.**
-*Trusts:* the CRM layer's precision — the holdout and the two caught false positives are more
-convincing than the coverage number.
-*Distrusts:* `not_observed`. "It reads like a finding and it usually means we didn't look
-properly." The unknown audit proves it: 74% of unknowns are retrieval failures.
-*Missing:* per-field confidence. Motion at 61% and tiers at 10.4% render identically.
-*Would want:* the tier detector suspended until it is re-measured.
-
-**Reviewer D — Skeptical RevOps lead.**
-*Trusts:* very little as a system of record. "Three CRMs in seventy-seven accounts is not a
-data source, it's an anecdote."
-*Values:* the honesty. "It tells me what it didn't find, which is more than most tools do."
-*Missing:* everything operational — pipeline, attribution, incentives.
-*Verdict:* "This is a research assistant. Anyone who calls it a prospecting engine hasn't read
-the coverage table."
-
-**Where they agree:** the evidence that exists is trustworthy and well-attributed; the *volume*
-is too low to run a process on; `not_observed` is dangerously reassuring.
-**Where they disagree:** A would act on a plausible-fit dossier today; D would not act on any of
-it without manual verification.
-
----
-
-## 26. Manual Research Gap
-
-Deep manual investigation on six accounts, performed **after** the Radar finished. Nothing was
-tuned as a result.
-
-| account | Radar found | manual research found | gap |
-|---|---|---|---|
-| **myfactory.com** | motion, reseller + distributor | two partner tracks (Vertriebspartner / Fachhandelspartner), NFR licences, training, workshops, partner events, a full programme **PDF**, named partners | tiers, enablement, portal — **all missed** |
-| **apaleo.com** | `under_observed`, no motion | Apaleo Store marketplace, formal app **certification** process, pre-certification call, Tech Partnerships team | entire ecosystem missed; correct read is integration-only, i.e. *likely not fit* — more useful than "unknown" |
-| **machineering.de** | 0 pages, nothing | company is `machineering.com`; sales-partner network across several countries, partner programme covered in trade press | **wrong domain** — everything missed |
-| **allisontransmission.com** | motion (distributor/dealer/OEM), no CRM | ~1,600 dealer and distributor locations, 6,200 certified technicians; **still no public CRM** | network scale missed; **CRM absence confirmed genuine** |
-| **expo-e.uk** | motion, portal ✓, tiers ✓ | 600+ channel partners, deals £5k–£1M, Carrier/Reseller/**Referral** tracks, partner hub login; page explicitly says **no tiers** | referral missed; **tiers is a false positive** |
-| **korewireless.com** | motion, HubSpot *supporting* (fingerprint) | search surfaces a "administer HubSpot" role that belongs to **Kore.ai**, a different company | **Radar correctly avoided the trap** |
-
-**How much public information is the Radar leaving on the table?** On this sample, a great deal
-of *partner-operations* detail — tiers, enablement, partner types, network scale — was publicly
-available and not captured. But **CRM absence was confirmed genuine** where the Radar said so.
-
-The gap is concentrated in one place: **partner programme detail published as prose or PDF on
-pages adjacent to the ones we read.** That is an extraction and surface-coverage problem, and it
-is fixable.
-
----
-
-## 27. Three Types of Limit
-
-**A — ENGINEERING LIMIT (likely fixable)**
-- R1 page not retrieved (22.1%) — deeper surface discovery
-- E1 evidence not extracted (16.9%) — the largest silent failure
-- PDF programme documents — never read
-- Developer/store subdomains (`apaleo.dev`) — outside surface vocabulary
-- Partner **types** not treated as workflow evidence
-- Network scale stated in prose, not extracted
-- Dead-domain check before dossier build
-- Tier detector precision
-- JS-rendered careers pages (2.6% today, structurally growing)
-
-**B — DATA-ACCESS LIMIT (another source could help)**
-- Archived/historical vacancies — no source currently serves them
-- Partner people — public discovery measured at 2/18
-- Technographics — a paid vendor claims a CRM for Allison where public sources have none
-
-**C — FUNDAMENTAL PUBLIC-DATA LIMIT**
-- Deal registration mechanics, partner pipeline, attribution — behind the partner login by design
-- Partner counts and programme activity — not published
-- **Current CRM for most companies** — 45 of 54 companies whose adverts we read never named one
-- Internal programme ownership and headcount
-
----
-
-## 28. Paid Data Question
-
-**Would licensed data materially improve this Radar?** For two fields, clearly yes. For the
-rest, no.
-
-| category | verdict | why |
-|---|---|---|
-| **People** | **YES — the strongest case** | `partner_people_state` is not attempted on all 77 accounts. "Is there a Head of Partnerships?" is a §31 promotion signal we cannot answer at all. A licensed people source turns a 0%-coverage CRITICAL-adjacent field into a usable one. |
-| **Technographics** | **QUALIFIED YES** | CRM decisive is 3.9%, and 34% of CRM unknowns are GOOD unknowns — genuinely unpublished. Only a vendor with non-public telemetry closes that. **But** their precision is unmeasured, and this project's whole discipline is that unverified confidence is worse than unknown. Buy only with the right to see the evidence per record. |
-| Historical jobs | **NO, not yet** | The classification logic works and has nothing to classify. Wire a free archived-vacancy source first and measure before paying. |
-| Company metadata | NO | Country and sector are missing for the existing 35 because we never recorded them — a data-model gap, not a data-availability one. |
-| Current jobs | NO | 71% reach already; the gap is JS rendering, which is an engineering fix. |
-| CRM (as a purchased field) | NO | Buying "company X uses Salesforce" without the sentence behind it reintroduces exactly the over-claim this mandate spent its effort removing. |
-
----
-
-## 29. Output Files
-
-All derived from the run; no hand-written numbers where machine derivation was possible.
-
-| file | contents |
+| category | n |
 |---|---|
-| `audit/out/introw-radar-reliability-audit.json` | 77 accounts × 54 fields |
-| `audit/out/introw-radar-reliability-audit.csv` | same, flat |
-| `audit/out/field-coverage.csv` | §3 matrix |
-| `audit/out/failure-analysis.csv` | §11–12 taxonomy with fixability |
-| `audit/out/source-yield.csv` | §16 per-source yield |
-| `audit/out/crm-forensics.csv` | per-account CRM funnel detail |
-| `audit/out/account-completeness.csv` | §24 profiles |
-| `audit/out/unknown-audit.csv` | §15 good/bad/untested |
-| `audit/out/unknown-audit-detail.json` | per-account unknown classification |
+| generic partner language (tier evidence) | 10 |
+| partner-tech vendor (caught by the guard) | 4 |
+| uses a competitor PRM (recorded, not an error) | 2 |
+| integration/finder read as a programme | 1 |
+| integration ecosystem read as motion | 1 |
+
+The one new case from the manual comparison: **3M's robotics integrator FINDER is recorded as
+an established partner motion.** It is a buyer-facing directory, not a programme 3M recruits
+into — the operator/participant distinction at divisional granularity inside a conglomerate.
+
+## 26 Source Yield
+
+`audit/out/source-yield.csv`.
+
+| source family | accounts touched | unique useful facts | verdict |
+|---|---|---|---|
+| company website (base) | 151 | 103 motions | **the backbone** |
+| counterparty inversion | 19 counterparties | 30 researched, 150 domains surfaced | **highest discovery yield** |
+| PRM customer harvest | 13 vendors | 45 researched | **highest review-ready rate (57.8%)** |
+| recovery (regional/subdomains) | 77 | 27 | high |
+| LinkedIn / public indexed | 8 | 7 people | **people only** |
+| partner directories | 151 | 13 | low, lower-bound only |
+| programme-scale prose | 47 | 9 | low |
+| current jobs | 77 | 3 | very low |
+| website fingerprints | 151 | **0 decisive** | supporting only |
+| historical jobs | 77 | **0** | **carrying no load** |
+| targeted CRM search | 4 | **0** | **negative value** — 3 false positives avoided |
+
+## 27 Information Gain
+
+Base company website establishes motion on 103 of 151. Then, without double counting:
+**+ counterparty inversion** 30 accounts that no other mechanism reached ·
+**+ PRM harvest** 45 accounts · **+ recovery** 27 accounts gained evidence ·
+**+ non-partner jobs** 3 CRM conclusions (all of them) ·
+**+ LinkedIn** 7 people, 0 anything else ·
+**+ historical jobs** 0 · **+ fingerprints** 0 decisive · **+ directories** 13 lower bounds.
+
+## 28 Manual Research Gap
+
+`audit/out/manual-research-gap.json`. Sample frozen at sha256 `fddda63cb7268661` **before** any
+research, Radar output captured at freeze time, six of eleven researched.
+
+| account | facts missed | critical | false claims |
+|---|---|---|---|
+| ebp.com | 4 | 2 | 0 |
+| avast.com | 4 | 2 | 0 |
+| appelit.com | 4 | 1 | 0 |
+| aftersell.com | 3 | 0 | 0 |
+| 3mdeutschland.de | 2 | 0 | **1** |
+| accruent.com | 0 | 0 | 0 |
+| **total** | **17** | **5** | **1** |
+
+EBP alone: two named programmes, four certification levels, a selective-distribution contract
+and a reseller-versus-integrator distinction — all on a sub-page of the partner page the Radar
+did read. Avast: tiered programme with revenue and training requirements, tiered discounts,
+quarterly incentives. **Every miss is operational detail.**
+
+## 29 Commercial Importance vs Observability
+
+`audit/out/importance-vs-coverage.csv`. The rows that matter:
+
+| field | importance | coverage | fixability |
+|---|---|---|---|
+| Partner motion | CRITICAL | 66.2% | ENGINEERING_FIXABLE |
+| Programme ownership | CRITICAL | 41.1% | HUMAN_RESEARCH_MAY_HELP |
+| Commercial partner motion | CRITICAL | 15.9% | ENGINEERING_FIXABLE |
+| **Deal registration** | **CRITICAL** | **4.0%** | PUBLIC_DATA_LIMIT |
+| **Partner pipeline** | **CRITICAL** | **0%** | PUBLIC_DATA_LIMIT |
+| **Partner attribution** | **CRITICAL** | **not attempted** | PUBLIC_DATA_LIMIT |
+| **Current CRM** | **CRITICAL** | **2.0%** | PUBLIC_DATA_LIMIT |
+| Partner people | HIGH_VALUE | 4.6% measured, 87.5% on the sample | SOURCE_COVERAGE_FIXABLE |
+
+**Five of seven CRITICAL fields sit below 16%, and four of those are public-data limits.**
+
+## 30 Bottom 10 Fields
+
+| field | coverage | importance | harms qualification? |
+|---|---|---|---|
+| Partner pipeline | 0% | CRITICAL | **YES** |
+| Partner attribution | not attempted | CRITICAL | **YES** |
+| Partner incentives | not attempted | HIGH_VALUE | **YES** |
+| Historical CRM | 0% | OPTIONAL | no |
+| PRM | 0% | USEFUL | no |
+| Temporal / Why Now | not attempted | USEFUL | no |
+| Referral | 0.7% | HIGH_VALUE | **YES** |
+| Lead sharing | 0.7% | HIGH_VALUE | **YES** |
+| Partner onboarding | 1.3% | USEFUL | no |
+| **CRM decisive** | **1.3%** | **CRITICAL** | **YES** |
+
+## 31 Top Failure Modes
+
+**By frequency:** R1 (73) · E1 (19) · R4 (18) · P4 (17) · P1 (12) · C1 (8) · R3 (3).
+
+**By commercial impact:** C2 possession-vs-experience and C4 current-vs-historical (both
+catastrophic, both caught and fixed, both now regression-tested) · C1 wrong classification (8
+live) · C3 operator-vs-participant (1 live, 3M) · D3 brand resolution (1 risk) · R1 volume ·
+E1 silence · R4 · P4 · P1.
+
+## 32 Paid Data Assessment
+
+Based only on measured gaps.
+
+| category | verdict | reasoning |
+|---|---|---|
+| **People** | **NO — and this is a reversal** | Public indexed LinkedIn returns a named partner person on 7 of 8. The gap was access, not availability. Build the search path before buying the data. |
+| **Technographics / CRM** | **QUALIFIED YES** | Current CRM 2.0%; 29 of 148 CRM unknowns are GOOD unknowns — genuinely unpublished. Only non-public telemetry closes those. Buy only with per-record evidence visible; a vendor assertion without a sentence reintroduces the over-claim this project spent three phases removing. |
+| **Historical jobs** | **NO, not yet** | The classification machinery works and has nothing to classify. Wire a free archived-vacancy source and measure first. |
+| **Company metadata** | **NO** | 109 of 151 accounts have no sector and no region because we never recorded them. That is a schema fix, not a purchase. |
+| **Current jobs** | **NO** | 71% reach already; the gap is JS rendering and 23% of companies having no careers surface at all. |
+
+## 33 Production Reliability
+
+Production ships recovery and CRM forensics. Neither was changed in this mandate. 277 tests
+across 19 files, typecheck clean, build clean. The live product still renders partner tiers,
+which §27 below recommends retiring.
+
+## 34 What Is Reliable Today
+
+1. **"A partner motion exists and here is the quote."** 66.2% coverage, quoted and attributed.
+2. **"The programme is of type X."** 65.6%, multilingual, holdout-tested.
+3. **"This company is a partner-tech vendor."** 4 caught, 0 promoted; guard is unconditional.
+4. **"A named CRM in a quoted live advert is real."** 2.0% coverage, holdout 20/20, zero false
+   confirmations.
+5. **"A named partner person exists."** 7/8 on the measured sample — the strongest new result.
+6. **"We did not establish this, and here is what we consulted."** Now with four distinct
+   unknown states.
+
+## 35 What Is NOT Reliable Today
+
+1. **Discovery.** 15/19 known customers never found; recall 0–17% on the one measured segment.
+2. **Every commercial workflow field.** Deal registration 4%, pipeline 0%, attribution and
+   incentives never attempted.
+3. **Current CRM.** 2.0%.
+4. **Partner tiers.** 67% menu-like; see §27 recommendation.
+5. **PRM, temporal, historical CRM.** All 0%.
+6. **Sector and geography analysis.** 109 of 151 accounts carry neither.
+7. **Any claim of market coverage.**
+
+### programme_tiers — KEEP / REWORK / **RETIRE**
+
+`audit/out/tiers-utility.json`. 8 accounts carry a confirmed tier finding; 67% of tier evidence
+in the audited sample is navigation-menu text; and tiers is the **only** workflow found on just
+**2** accounts. It is the least reliable surface in the system and contributes almost nothing
+unique. **RETIRE.** It is not retired in this mandate, because that is product optimisation and
+Part 35 forbids it here.
+
+## 36 Recommended Next Engineering Priorities
+
+In measured-value order. **None implemented here.**
+
+1. **Deeper partner-page traversal.** R1 is 48.3% of failures and the manual comparison shows
+   the missing facts sit on sub-pages of pages already read.
+2. **Navigation-chrome exclusion.** 22.7% of surface evidence is menu text; it is the true
+   cause of the tier false positives.
+3. **Wire indexed-LinkedIn people search into the pipeline.** 7/8 on the sample; currently a
+   manual method with zero production integration.
+4. **Record sector, region and language at ingest.** 109 accounts lack them, which is why the
+   segment analysis is weak.
+5. **Read PDFs linked from partner pages.** Two manual-comparison misses lived in PDFs.
+6. **Detectors for incentives and attribution.** Both CRITICAL-adjacent, both at zero because
+   nothing looks for them.
+
+## 37 Final Verdict
+
+**The Radar is a competent research assistant with no working discovery and almost no
+visibility into partner operations.**
+
+It establishes that a company runs a partner programme, in 66% of cases, with quoted
+first-party evidence and honest unknowns. It cannot find the companies Introw sells to, cannot
+describe how a programme works, and cannot establish a CRM. Two thirds of what it does not know
+is its own retrieval and extraction failure, not a limit of the public web.
 
 ---
 
-## 30. Final Executive Output
+## Red Team
 
-1. **Sufficient for commercial review?** **58.4%** (45/77).
-2. **Under-observed?** **28.6%** (22/77); 13.0% partial.
-3. **Best-covered Introw facts:** partner motion 61.0% · programme type 59.7% · programme
-   ownership 46.8% · CRM any evidence 35.1% · partner portal 20.8%.
-4. **Worst-covered important facts:** partner pipeline 0% · lead sharing 0% · partner
-   attribution 0% (not attempted) · PRM 0% · deal registration 7.8%.
-5. **Defensible current CRM:** **3.9%** (3/77).
-6. **From random/non-partner vacancies:** **5 of 5 decisive observations — 100%.** Partnership
-   titles produced zero.
-7. **From historical vacancies:** **0%.**
-8. **Uniquely from LinkedIn/indexed evidence:** **0%.**
-9. **Biggest discovery failure:** the web's SEO layer — 25 of 99 results were trade press,
-   registries, listicles and legal references, not companies. Plus one dead domain reaching
-   dossier build.
-10. **Biggest retrieval failure:** R1, 22.1% — the partner page exists and we did not reach it;
-    plus 23.4% of accounts with no reachable careers surface at all.
-11. **Biggest extraction/classification failure:** E1, 16.9% — a partner page was read and
-    yielded nothing. It is silent: indistinguishable from a page that genuinely says nothing.
-12. **Biggest genuine public-data limitation:** companies do not name their CRM. 45 of 54
-    companies whose adverts we read never mentioned one.
-13. **Source creating the most unique useful evidence:** recovery across regional domains and
-    programme subdomains — 27 of 77 accounts.
-14. **Source consuming effort and adding little:** targeted CRM search (0 facts, 3 false
-    positives avoided) and historical-vacancy handling (0 facts). Website fingerprints produce
-    volume but zero decisive conclusions.
-15. **Most reliable where:** English-language US/UK software, cybersecurity and IoT companies
-    with a live ATS board — 100% motion coverage in those buckets.
-16. **Least reliable where:** manufacturing (28.6% motion), Nordics (0%), Italy (20%), and any
-    company serving careers or programme content through JavaScript or PDF.
-17. **What an AE must still research manually:** who owns partnerships; whether the programme is
-    active; partner counts; deal-registration mechanics; the CRM for 96% of accounts; and any
-    tier claim.
-18. **What engineering could realistically fix next**, in measured-value order: extraction on
-    pages already retrieved (E1, 16.9%); deeper partner-surface discovery (R1, 22.1%); bounded
-    PDF reading; partner *types* as workflow evidence; a dead-domain check; tier-detector
-    precision.
-19. **Probably requires licensed data:** partner people (0% and CRITICAL-adjacent), and CRM for
-    the 34% of unknowns that are genuinely unpublished.
-20. **Probably unsolvable from public data:** deal-registration mechanics, partner pipeline,
-    attribution, partner counts, programme activity, internal ownership.
-21. **What an AE should trust tomorrow:** that a partner motion exists and what type it is, when
-    a quote and URL are shown; that a named CRM in a quoted live advert is real; that a
-    competitor flag is real; that "unknown" is honest.
-22. **What they should NOT trust:** any `not_observed` field as evidence of absence; partner
-    tiers; that CRM unknown means no CRM; that the absence of a discovered company means it does
-    not exist.
-23. **Verdicts by role:**
+**Are denominators honest?** Now yes, and asserted by test: every coverage figure uses 151.
+Three smaller denominators (77 CRM, 8 people, 6 manual) are stated at each use. The previous
+report's field coverage silently used 77 while describing a corpus that had grown.
+
+**Did we reuse tuning populations as validation?** Yes, and it is disclosed. The informal
+detector was fitted across three iterations, consuming the matched-unlabelled cohort. Its only
+clean test is the proxy population. The people sample was chosen to be maximally favourable.
+
+**Are any claims based on known labels?** The false-negative audit uses the 19 known customers —
+appropriate, since it measures misses. No detector was tuned against them in this mandate.
+
+**Are we confusing publication with commercial suitability?** Structurally, yes, and it is
+unfixed. A company that writes more about its programme scores as better evidenced. The 3M case
+shows the sharper version: a buyer-facing finder read as an operated programme.
+
+**Are we confusing inability to retrieve with absence?** This is what the four-state unknown
+audit exists to prevent, and it says 39% BAD and 42% UNTESTED — so the honest answer is that we
+were, extensively, and now we can quantify it.
+
+**Are historical jobs being overstated?** No. Zero, reported as zero, with a recommendation not
+to invest further.
+
+**Are CRM mentions being overstated?** No. 27 accounts have vendor-specific evidence and only 3
+have a defensible conclusion; the gap between those numbers is the whole point.
+
+**Are proxy positives being mistaken for customers?** No. 88% verified, labelled a distinct
+class, stratified and never pooled. But 45 of 151 accounts — 30% of the population — are proxy
+positives, and their higher review-ready rate (57.8%) partly reflects that PRM buyers publish
+more.
+
+**Are informal signatures overfit?** Yes, and stated. 8 firings in 151.
+
+**Is discovery recall actually known?** Only for one hand-built segment of 18 companies. That is
+not market recall and is not presented as it.
+
+**Would an Introw seller trust this?** For the 78 review-ready accounts, the motion evidence and
+the quotes, yes. The tier fields, no. The absence of a CRM, no — it means nothing.
+
+---
+
+## Answers
+
+1. **Sufficient for commercial review:** 78/151 = **51.7%**
+2. **Insufficient / under-observed:** 73/151 = **48.3%**
+3. **Best covered:** partner motion 66.2% · programme type 65.6% · programme ownership 41.1% ·
+   CRM any evidence 17.2% · commercial partner motion 15.9%
+4. **Worst covered:** partner pipeline 0% · lead sharing 0.7% · referral 0.7% ·
+   partner attribution (not attempted) · partner incentives (not attempted)
+5. **Defensible current CRM:** 3/151 = **2.0%**
+6. **From non-partner vacancies:** **5 of 5 decisive observations — 100% of all CRM evidence**
+7. **From historical vacancies:** **0%**
+8. **Uniquely from LinkedIn/indexed:** **0% for CRM and partner facts; 7/8 for people**
+9. **Largest discovery failure:** 15 of 19 known Introw customers never surfaced (D1)
+10. **Largest retrieval failure:** R1 — relevant page not retrieved, 48.3%
+11. **Largest extraction/classification failure:** E1 — page read, nothing extracted, 12.6%;
+    C1 wrong classification, 5.3%, concentrated in tiers
+12. **Largest genuine public-data limit:** companies do not name their CRM — 45 of 54 companies
+    whose adverts were read never mentioned one
+13. **Most unique useful information:** the company's own website for facts; **counterparty
+    inversion** for discovery
+14. **Most effort for least gain:** historical vacancies (0), targeted CRM search (0, 3 false
+    positives avoided), website fingerprints (0 decisive)
+15. **Strongest:** English-language UK and US/global software, cybersecurity and IoT with a live
+    ATS board
+16. **Weakest:** manufacturing (28.6% motion), Italian (20%), Nordic (0%), and anything served
+    through JavaScript or PDF
+17. **AE must still research manually:** every workflow detail (deal registration, tiers,
+    incentives, attribution), the CRM for 98% of accounts, whether a programme is active, and
+    partner counts
+18. **Engineering can fix:** deeper partner-page traversal, navigation-chrome exclusion, indexed
+    people search, sector/region capture at ingest, PDF reading
+19. **Probably needs licensed data:** technographics for the 29 GOOD CRM unknowns — and **not**
+    people, which is the reversal in this audit
+20. **Probably unsolvable publicly:** deal-registration mechanics, partner pipeline, attribution,
+    partner counts, programme activity, internal ownership
+21. **Trust tomorrow:** the quoted motion evidence, the programme type, the competitor flag, a
+    quoted CRM sentence, a named partner person, and every stated unknown
+22. **Do NOT trust:** partner tiers · any `not_observed` as absence · CRM unknown as "no CRM" ·
+    any implication of market coverage · sector and geography breakdowns below n=6
+23. **Verdicts:**
 
 | role | verdict | basis |
 |---|---|---|
-| **Discovery engine** | **YES, with human triage** | 42 real operators from 12 queries; 57% precision on resolved companies; recall unmeasured |
-| **Research assistant** | **YES — this is what it is** | 58.4% of accounts reach a reviewable dossier with attributed evidence, and every gap is stated |
-| **Qualification assistant** | **NO** | the fields that qualify an Introw prospect — deal registration, pipeline, attribution, CRM — are at 7.8%, 0%, 0% and 3.9% |
-| **Autonomous prospecting engine** | **NO** | 74.2% of unknowns are our own retrieval failures; nothing should run unattended on that base |
-
----
-
-### Closing observation
-
-The single most actionable finding is not a coverage number. It is that **74.2% of what the
-Radar does not know is not the web's fault.** A quarter of the gap is a genuine public-data
-limit and would survive any amount of engineering. Three quarters is pages we did not reach,
-PDFs we did not open, and prose we read without extracting.
-
-That is the opposite of the comfortable conclusion, and it is the one the measurements support.
+| **Discovery engine** | **NO** | 15/19 known customers never found; recall 0–17% |
+| **Research assistant** | **YES** | 51.7% review-ready with attributed evidence and honest unknowns |
+| **Qualification assistant** | **NO** | five of seven CRITICAL fields below 16% |
+| **Autonomous prospecting engine** | **NO** | no discovery, and ~69–81% of unknowns are our own failures |

@@ -1,21 +1,26 @@
-field,known,unknown,conflicting,blocked_or_not_attempted,coverage_pct,source_that_most_often_establishes_it
-Partner motion,47,30,0,0,61,company partner page (base) + recovery
-Programme ownership,36,41,0,0,46.8,operator resolution on company domain
-Programme type,46,31,0,0,59.7,partner page vocabulary
-Partner directory,13,64,0,0,16.9,outbound-link density on a locator page
-Partner portal,16,61,0,0,20.8,partner page / login link
-Deal registration,6,71,0,0,7.8,partner page prose
-Lead sharing,0,77,0,0,0,partner page prose
-Referral,1,76,0,0,1.3,partner page prose
-Co-selling,6,71,0,0,7.8,partner page prose
-Partner pipeline,0,77,0,0,0,partner page prose
-Partner onboarding,2,75,0,0,2.6,partner page prose
-Partner enablement,10,67,0,0,13,partner page prose
-Partner tiers,8,69,0,0,10.4,partner page prose
-Partner incentives,0,0,0,77,0,NOT ATTEMPTED — no detector exists
-Partner attribution,0,0,0,77,0,NOT ATTEMPTED — no detector exists
-CRM any evidence,27,50,0,0,35.1,website fingerprint or company vacancy
-CRM decisive,2,74,1,0,2.6,"company vacancy, operational-duty language"
-CRM historical,0,77,0,0,0,dated cached vacancy
-Partner people,0,0,0,77,0,NOT ATTEMPTED — measured non-viable earlier
-PRM,0,77,0,0,0,DNS fingerprint / partner-page text
+field,known,unknown,not_attempted,blocked,conflicting,coverage_pct,denominator,primary_successful_source,primary_failure_mode
+Partner motion,103,48,0,0,0,68.2,151,company partner page + recovery,R1 partner page not retrieved
+Programme ownership,83,68,0,0,0,55,151,operator resolution on the company domain,C3 operator/participant ambiguity
+Commercial partner motion,30,121,0,0,0,19.9,151,partner page prose,P1 not published
+Programme type,99,52,0,0,0,65.6,151,partner page vocabulary,E2 vocabulary miss
+Referral,1,134,16,0,0,0.7,151,partner page prose,"E2 named as a partner TYPE, not a workflow"
+Lead sharing,1,134,16,0,0,0.7,151,—,E2 vocabulary sits inside programme prose we rarely reach
+Co-selling,11,124,16,0,0,7.3,151,partner page prose,P1 not published
+Deal registration,11,124,16,0,0,7.3,151,partner page prose,P1 behind the partner login by design
+Partner pipeline,0,135,16,0,0,0,151,—,P1 behind the partner login by design
+Partner onboarding,2,133,16,0,0,1.3,151,partner page prose,P1 behind the application step
+Partner enablement,16,119,16,0,0,10.6,151,partner page prose,E3 often in a PDF
+Partner tiers,10,125,16,0,0,6.6,151,partner page prose,C1 navigation menus read as tier evidence
+Partner incentives,0,0,151,0,0,0,151,—,no detector exists
+Partner attribution,0,0,151,0,0,0,151,—,no detector exists
+Partner portal,28,107,16,0,0,18.5,151,partner login link,R1 login page not reached
+Partner directory,23,83,45,0,0,15.2,151,outbound-link density,E3 JS locators score zero
+Programme scale,9,38,104,0,0,6,151,prose claim on a partner page,P1 most companies never publish a count
+Informal signature,19,31,101,0,0,12.6,151,first-person recruitment + named types,R1 partner page not retrieved
+CRM any evidence (incl. supporting),26,47,74,3,1,17.2,151,website fingerprint (mostly),P1 companies do not name their CRM
+CRM decisive,2,148,0,0,1,1.3,151,"company vacancy, operational-duty language",P1 companies do not name their CRM
+Current CRM,3,74,74,0,0,2,151,"company vacancy, operational-duty language",P1 companies do not name their CRM
+Historical CRM,0,77,74,0,0,0,151,—,R5 no archived-vacancy source is wired in
+Partner people,7,1,143,0,0,4.6,151,indexed LinkedIn profiles,not attempted on most accounts
+PRM,0,106,45,0,0,0,151,DNS fingerprint,P1 portals served from the customer domain
+Temporal change / Why Now,0,0,151,0,0,0,151,—,needs a second dated observation

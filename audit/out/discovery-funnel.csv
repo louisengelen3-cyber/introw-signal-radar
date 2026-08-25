@@ -1,0 +1,17 @@
+mechanism,stage,n,dominant_dropoff_reason
+search_query_family,search results,99,"non-companies: trade press, registries, listicles, law"
+search_query_family,unique domains,94,duplicates across queries
+search_query_family,valid companies,74,25 were not companies
+search_query_family,channel operators,42,"6 participants, 4 partner-tech vendors removed"
+search_query_family,researched,42,"all fresh operators researched, no cheap gate"
+search_query_family,commercially reviewable,15,ownership or motion not established
+counterparty_inversion,vendor mentions,363,—
+counterparty_inversion,resolved to a domain,153,58% arrive as slug names with no domain
+counterparty_inversion,researched sample,30,bounded sample of fresh non-giant vendors
+counterparty_inversion,partner motion established,21,R1/E1
+counterparty_inversion,commercially reviewable,20,ownership not established
+prm_customer_harvest,customer mentions,133,—
+prm_customer_harvest,resolved to a domain,78,41% unresolvable from a name alone
+prm_customer_harvest,researched sample,45,stratified across SMB/mid/enterprise
+prm_customer_harvest,partner motion established,35,R1/E1
+prm_customer_harvest,commercially reviewable,26,ownership not established

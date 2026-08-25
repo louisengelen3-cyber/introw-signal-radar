@@ -1,0 +1,20 @@
+domain,expected_fact,radar_output,failure_stage,root_cause,possible_fix,would_current_architecture_find_it
+aikido.dev,KNOWN INTROW CUSTOMER,"Radar established motion, ownership and CRM",NONE,Motion and CRM both established.,deeper partner-page traversal,already does
+archerirm.com,KNOWN INTROW CUSTOMER,Radar did not establish: CRM,P1_NOT_PUBLIC,3 vacancies read and none named a CRM. The company does not publish it.,no public fix — companies do not name their CRM,not from public data
+coder.com,KNOWN INTROW CUSTOMER,not in the researched corpus,D1_NOT_DISCOVERED,the customer was never surfaced by any discovery mechanism,seed from the customer list,no — discovery does not reach it
+cubbit.io,KNOWN INTROW CUSTOMER,"Radar did not establish: CRM, deal registration",P4_SOURCE_TOO_WEAK,"Only a website artifact: proves a script is installed, not that sales runs on it.",no public fix — companies do not name their CRM,not from public data
+epiphan.com,KNOWN INTROW CUSTOMER,not in the researched corpus,D1_NOT_DISCOVERED,the customer was never surfaced by any discovery mechanism,seed from the customer list,no — discovery does not reach it
+factorialhr.com,KNOWN INTROW CUSTOMER,"Radar did not establish: CRM, deal registration",P1_NOT_PUBLIC,2 vacancies read and none named a CRM. The company does not publish it.,no public fix — companies do not name their CRM,not from public data
+payflip.be,KNOWN INTROW CUSTOMER,not in the researched corpus,D1_NOT_DISCOVERED,the customer was never surfaced by any discovery mechanism,seed from the customer list,no — discovery does not reach it
+quatt.io,KNOWN INTROW CUSTOMER,not in the researched corpus,D1_NOT_DISCOVERED,the customer was never surfaced by any discovery mechanism,seed from the customer list,no — discovery does not reach it
+ringover.com,KNOWN INTROW CUSTOMER,not in the researched corpus,D1_NOT_DISCOVERED,the customer was never surfaced by any discovery mechanism,seed from the customer list,no — discovery does not reach it
+safebreach.com,KNOWN INTROW CUSTOMER,not in the researched corpus,D1_NOT_DISCOVERED,the customer was never surfaced by any discovery mechanism,seed from the customer list,no — discovery does not reach it
+sharegate.com,KNOWN INTROW CUSTOMER,not in the researched corpus,D1_NOT_DISCOVERED,the customer was never surfaced by any discovery mechanism,seed from the customer list,no — discovery does not reach it
+storyblok.com,KNOWN INTROW CUSTOMER,not in the researched corpus,D1_NOT_DISCOVERED,the customer was never surfaced by any discovery mechanism,seed from the customer list,no — discovery does not reach it
+zenity.io,KNOWN INTROW CUSTOMER,not in the researched corpus,D1_NOT_DISCOVERED,the customer was never surfaced by any discovery mechanism,seed from the customer list,no — discovery does not reach it
+axon.com,KNOWN INTROW CUSTOMER,not in the researched corpus,D1_NOT_DISCOVERED,the customer was never surfaced by any discovery mechanism,seed from the customer list,no — discovery does not reach it
+cumulocity.com,KNOWN INTROW CUSTOMER,not in the researched corpus,D1_NOT_DISCOVERED,the customer was never surfaced by any discovery mechanism,seed from the customer list,no — discovery does not reach it
+parloa.com,KNOWN INTROW CUSTOMER,not in the researched corpus,D1_NOT_DISCOVERED,the customer was never surfaced by any discovery mechanism,seed from the customer list,no — discovery does not reach it
+reversinglabs.com,KNOWN INTROW CUSTOMER,not in the researched corpus,D1_NOT_DISCOVERED,the customer was never surfaced by any discovery mechanism,seed from the customer list,no — discovery does not reach it
+sedai.io,KNOWN INTROW CUSTOMER,not in the researched corpus,D1_NOT_DISCOVERED,the customer was never surfaced by any discovery mechanism,seed from the customer list,no — discovery does not reach it
+xelix.com,KNOWN INTROW CUSTOMER,not in the researched corpus,D1_NOT_DISCOVERED,the customer was never surfaced by any discovery mechanism,seed from the customer list,no — discovery does not reach it

@@ -1,0 +1,73 @@
+{
+  "purpose": "Part 28/29 — bounded people + LinkedIn measurement sample. Accounts with an ESTABLISHED partner motion, i.e. where a partner person is most likely to exist. Choosing the most favourable population is deliberate: if people evidence is not findable here it is not findable anywhere.",
+  "frozenAt": "2026-08-25",
+  "n": 11,
+  "accounts": [
+    {
+      "domain": "aikido.dev",
+      "region": "unknown",
+      "sector": "unknown",
+      "corpus": "existing_corpus"
+    },
+    {
+      "domain": "aircall.io",
+      "region": "unknown",
+      "sector": "unknown",
+      "corpus": "existing_corpus"
+    },
+    {
+      "domain": "archerirm.com",
+      "region": "unknown",
+      "sector": "unknown",
+      "corpus": "existing_corpus"
+    },
+    {
+      "domain": "channable.com",
+      "region": "unknown",
+      "sector": "unknown",
+      "corpus": "existing_corpus"
+    },
+    {
+      "domain": "cubbit.io",
+      "region": "unknown",
+      "sector": "unknown",
+      "corpus": "existing_corpus"
+    },
+    {
+      "domain": "3mdeutschland.de",
+      "region": "DACH",
+      "sector": "industrial",
+      "corpus": "discovery_batch"
+    },
+    {
+      "domain": "comarch.de",
+      "region": "DACH",
+      "sector": "software",
+      "corpus": "discovery_batch"
+    },
+    {
+      "domain": "bytes.co.uk",
+      "region": "UK",
+      "sector": "software",
+      "corpus": "discovery_batch"
+    },
+    {
+      "domain": "canonical.com",
+      "region": "UK",
+      "sector": "software",
+      "corpus": "discovery_batch"
+    },
+    {
+      "domain": "datacore.com",
+      "region": "FR",
+      "sector": "software",
+      "corpus": "discovery_batch"
+    },
+    {
+      "domain": "ebp.com",
+      "region": "FR",
+      "sector": "software",
+      "corpus": "discovery_batch"
+    }
+  ]
+}

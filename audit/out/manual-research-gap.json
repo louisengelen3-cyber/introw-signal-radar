@@ -1,0 +1,91 @@
+{
+  "purpose": "Part 22 — Radar output versus deep manual public research, on a sample frozen BEFORE the research (audit/phase6/manual-sample.v1.json, sha256 fddda63cb7268661).",
+  "discipline": "The Radar output was captured at freeze time and is not re-run. Nothing was tuned against these accounts. Six of the eleven frozen accounts were researched; the six were taken to span strata, and the remaining five are disclosed as unresearched rather than dropped.",
+  "n": 6,
+  "unresearched": ["2bit.it", "apaleo.com", "allisontransmission.com", "chainlane.io", "3ds.com"],
+  "unresearchedNote": "apaleo.com and allisontransmission.com were researched in the 25 Aug audit and those findings stand; they were not re-researched here. The other three were not reached within this mandate's research budget.",
+  "comparisons": [
+    { "domain": "ebp.com", "stratum": "plausible_fit",
+      "radarFound": { "motion": "established", "types": "reseller", "tiers": "not_observed", "portal": "not_observed", "deal_registration": "not_observed", "crm": "strong_supporting/HubSpot" },
+      "manualFound": [
+        "TWO named partner programmes: 'Alliance' and 'certification'",
+        "FOUR certification levels: Centre de Compétences Gamme PRO, Centre agréé Solutions ELITE, Centre Expert Paie, Centre Expert Bâtiment",
+        "a selective distribution contract ('contrat de distribution sélective') governing the top tiers",
+        "an explicit reseller-versus-integrator distinction, with the integrator certified both technically and commercially"
+      ],
+      "factsMissed": 4, "criticalFactsMissed": 2, "falseClaims": 0,
+      "criticalNote": "tiers and a formal partner contract are both CRITICAL fields the Radar reported as not_observed",
+      "whereItLives": "https://www.ebp.com/partenaires-revendeur-integrateur-ebp/programme/ — a sub-page of the partner page the Radar did read",
+      "failureClass": "R1" },
+
+    { "domain": "avast.com", "stratum": "plausible_fit",
+      "radarFound": { "motion": "established", "types": "reseller", "deal_registration": "confirmed", "portal": "confirmed", "tiers": "not_observed", "incentives": "not_attempted" },
+      "manualFound": [
+        "a tiered programme with revenue AND training requirements per tier, entry level named 'Registered'",
+        "tiered discounts that increase with revenue and completed training",
+        "quarterly incentive programmes",
+        "MSP-specific pricing with cumulative discounts and monthly billing"
+      ],
+      "factsMissed": 4, "criticalFactsMissed": 2, "falseClaims": 0,
+      "criticalNote": "tiers and incentives; incentives has no detector at all",
+      "failureClass": "E2/no-detector" },
+
+    { "domain": "appelit.com", "stratum": "software_established",
+      "radarFound": { "motion": "established", "types": "reseller", "tiers": "not_observed", "portal": "not_observed" },
+      "manualFound": [
+        "a white-label reseller programme where the partner invoices the client directly",
+        "a SEPARATE affiliate programme",
+        "partner-set margin: APPelit charges a low service rate and the partner chooses its own margin",
+        "recurring revenue for the partner against a one-off fee to APPelit"
+      ],
+      "factsMissed": 4, "criticalFactsMissed": 1, "falseClaims": 0,
+      "criticalNote": "the commercial mechanics — who invoices, who sets margin — are exactly the operational detail Introw sells into",
+      "failureClass": "E2" },
+
+    { "domain": "3mdeutschland.de", "stratum": "physical_manufacturing",
+      "radarFound": { "motion": "established", "types": "system_integrator", "portal": "not_observed", "ownership": "unknown" },
+      "manualFound": [
+        "a Partnerportal exists — but for a DIFFERENT product line (display protection), not for the robotics SI network",
+        "an 'Offizielle Partner' page for the vehicle-repair division",
+        "the robotics SI network is a FINDER addressed to buyers, with selection guides and a checklist"
+      ],
+      "factsMissed": 2, "criticalFactsMissed": 0, "falseClaims": 1,
+      "falseClaimDetail": "the Radar records an established partner motion, but the robotics surface is a consumer-facing integrator FINDER rather than a programme 3M recruits into. This is the operator-versus-participant distinction, at divisional granularity within one very large company.",
+      "failureClass": "C3" },
+
+    { "domain": "aftersell.com", "stratum": "proxy_positive_smb",
+      "radarFound": { "motion": "established", "informal": "formalised_programme", "tiers": "not_observed", "crm": "unknown" },
+      "manualFound": [
+        "a named Agency Partner Program",
+        "a dedicated partner manager and priority product/CS support",
+        "co-marketing: collaborative content, case studies, webinars"
+      ],
+      "factsMissed": 3, "criticalFactsMissed": 0, "falseClaims": 0,
+      "note": "no deal registration, tiers or commission was found publicly either — the Radar's not_observed is correct here, not a miss",
+      "failureClass": "E2" },
+
+    { "domain": "accruent.com", "stratum": "inversion_surfaced",
+      "radarFound": { "motion": "established", "crm": "unknown", "tiers": "not_observed", "deal_registration": "not_observed" },
+      "manualFound": [],
+      "factsMissed": 0, "criticalFactsMissed": 0, "falseClaims": 0,
+      "note": "targeted search returned nothing about Accruent's partner programme at all — only generic PRM-vendor content. The Radar's unknowns are GOOD unknowns here.",
+      "failureClass": "P1" }
+  ],
+  "measurement": {
+    "accountsCompared": 6,
+    "totalFactsMissed": 17,
+    "criticalFactsMissed": 5,
+    "accountsWithAtLeastOneMiss": 5,
+    "accountsWithNoMiss": 1,
+    "falseClaims": 1,
+    "falseClaimRate": "1/6",
+    "meanFactsMissedPerAccount": 2.8
+  },
+  "finding": "The Radar reliably establishes THAT a partner programme exists. It systematically misses HOW the programme works — certification levels, tier requirements, incentive structures, margin mechanics and who invoices whom. Five of six accounts had at least one publicly available fact the Radar did not capture, and the missing facts cluster in exactly the operational layer Introw sells into.",
+  "againstInterest": [
+    "n=6, and only six of the eleven frozen accounts were researched. The five unresearched accounts are named rather than quietly dropped.",
+    "One false claim in six: 3M's robotics integrator FINDER is recorded as an established partner motion. At divisional granularity inside a conglomerate the operator/participant distinction is harder than the corpus average, so this is not a representative false-positive rate.",
+    "'Facts missed' counts what a targeted search surfaced, which is itself a bounded method. A deeper investigation would very likely find more, so 2.8 facts per account is a floor.",
+    "One account (Accruent) had NOTHING to find. Treating every unknown as a Radar failure would be wrong, and this case is the counter-example."
+  ]
+}

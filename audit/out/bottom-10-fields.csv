@@ -1,0 +1,11 @@
+field,coverage_pct,known,denominator,commercial_importance,why_missing,fixability,harms_qualification
+Partner pipeline,0,0,151,CRITICAL,P1 behind the partner login by design,PUBLIC_DATA_LIMIT,YES — materially harms qualification
+Partner incentives,0,0,151,HIGH_VALUE,no detector exists,ENGINEERING_FIXABLE,YES — materially harms qualification
+Partner attribution,0,0,151,CRITICAL,no detector exists,PUBLIC_DATA_LIMIT,YES — materially harms qualification
+Historical CRM,0,0,151,OPTIONAL,R5 no archived-vacancy source is wired in,LICENSED_DATA_MAY_HELP,no — informative but not qualifying
+PRM,0,0,151,USEFUL,P1 portals served from the customer domain,PUBLIC_DATA_LIMIT,no — informative but not qualifying
+Temporal change / Why Now,0,0,151,USEFUL,needs a second dated observation,ENGINEERING_FIXABLE,no — informative but not qualifying
+Referral,0.7,1,151,HIGH_VALUE,"""E2 named as a partner TYPE, not a workflow""",ENGINEERING_FIXABLE,YES — materially harms qualification
+Lead sharing,0.7,1,151,HIGH_VALUE,E2 vocabulary sits inside programme prose we rarely reach,ENGINEERING_FIXABLE,YES — materially harms qualification
+Partner onboarding,1.3,2,151,USEFUL,P1 behind the application step,PUBLIC_DATA_LIMIT,no — informative but not qualifying
+CRM decisive,1.3,2,151,CRITICAL," operational-duty language"",P1 companies do not name their CRM",PUBLIC_DATA_LIMIT,YES — materially harms qualification

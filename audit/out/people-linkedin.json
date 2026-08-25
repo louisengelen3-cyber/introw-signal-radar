@@ -1,0 +1,53 @@
+{
+  "purpose": "Parts 28 and 29 — measure partner-people evidence and the LinkedIn/public-indexed source family, rather than assuming either.",
+  "method": "One name-scoped public web search per account combining the company name with partner/channel/alliance role vocabulary. No LinkedIn login, no scraping, no bypassing of access controls — only what a search engine has indexed and returns publicly.",
+  "populationChoice": "Accounts with an ESTABLISHED partner motion. This is deliberately the MOST FAVOURABLE population: if a company runs a partner programme, a partner person is most likely to exist. A result here is therefore an upper bound on what this method achieves across the corpus, and is reported as such.",
+  "n": 8,
+  "priorBelief": "An earlier phase measured public person discovery at 2 of 18 and the capability was dropped as non-viable. That measurement is on the frozen list. This test does not tune anything; it measures whether the conclusion holds for the INDEXED-LinkedIn route as opposed to direct access.",
+  "accounts": [
+    { "domain": "aikido.dev", "namedPeople": ["Jake Vogt — Partner Manager, East", "Thomas Segura — Partnerships Manager"], "count": 2, "twoOrMore": true,
+      "roleEvidence": "open Channel Business Manager vacancy", "source": "indexed LinkedIn profiles + company ATS", "blocked": false },
+    { "domain": "aircall.io", "namedPeople": ["Adam Bailes — Partnerships Manager UKI & Nordics", "Frédéric Viet — international sales, indirect channel"], "count": 2, "twoOrMore": true,
+      "roleEvidence": "Director of Partnerships NA; Alliance Manager and Strategic PAM vacancies", "source": "indexed LinkedIn + company press room + job boards", "blocked": false },
+    { "domain": "cubbit.io", "namedPeople": ["Raffaele Giustini — Channel Account Manager", "Enrico Signoretti — VP Product and Partnerships"], "count": 2, "twoOrMore": true,
+      "roleEvidence": "open Channel & Partner Account Manager Italy vacancy; partners.cubbit.io portal", "source": "indexed LinkedIn", "blocked": false },
+    { "domain": "bytes.co.uk", "namedPeople": ["Andy Walker — Partner Alliance Manager", "Penelope Bridger — Vendor Alliance & Commercial Operations Director"], "count": 2, "twoOrMore": true,
+      "roleEvidence": null, "source": "indexed LinkedIn", "blocked": false },
+    { "domain": "comarch.de", "namedPeople": ["Joanna Rudek — Partner Channel Manager"], "count": 1, "twoOrMore": false,
+      "roleEvidence": "open Partnership Manager vacancy", "source": "indexed LinkedIn (PL profile)", "blocked": false },
+    { "domain": "datacore.com", "namedPeople": ["Pam Athwal — Channel Partner Manager, Pixitmedia by DataCore"], "count": 1, "twoOrMore": false,
+      "roleEvidence": "channel executive named to leadership team in company news",
+      "entityCaveat": "the named person sits at a subsidiary brand, so this is a D3 brand-resolution risk rather than a clean company match",
+      "source": "indexed LinkedIn + company news", "blocked": false },
+    { "domain": "channable.com", "namedPeople": ["Danielle Pierson — partnerships involvement, title not stated"], "count": 1, "twoOrMore": false,
+      "roleEvidence": null, "confidence": "low — the snippet describes partnership activity rather than a stated partner title",
+      "source": "indexed LinkedIn", "blocked": false },
+    { "domain": "canonical.com", "namedPeople": [], "count": 0, "twoOrMore": false,
+      "roleEvidence": "a dedicated Alliances & Channels careers category; Partner Sales Director IHV Alliances, APAC Channel Partner Manager, Partner Marketing Manager vacancies; Partner Account Manager reports to Director, Global Channel Sales",
+      "note": "ROLE evidence is strong and NAMED-PERSON evidence is absent. These are different facts and are not collapsed.",
+      "source": "company careers + ATS + job boards", "blocked": false }
+  ],
+  "measurement": {
+    "accountsResearched": 8,
+    "anyRelevantPersonFound": 7,
+    "anyRelevantPersonPct": 87.5,
+    "twoOrMoreFound": 4,
+    "twoOrMorePct": 50.0,
+    "roleEvidenceWithoutNamedPerson": 1,
+    "linkedinAttempted": 8,
+    "linkedinBlocked": 0,
+    "linkedinAccessibleViaIndex": 8,
+    "accountsWhereLinkedInWasTheONLYSource": 4,
+    "uniqueCrmEvidenceFromLinkedIn": 0,
+    "uniquePartnerEvidenceFromLinkedIn": 0
+  },
+  "finding": "Public INDEXED LinkedIn yields named partner people on 7 of 8 accounts, and two or more on 4 of 8. The frozen belief that public person discovery is non-viable was measured at 2/18 — but that measurement is not comparable to this one, because the failure mode there was ACCESS and the route here is a search index that returns LinkedIn profile summaries without ever touching LinkedIn directly. Zero of eight were blocked.",
+  "againstInterest": [
+    "n=8, and the population was chosen to be the most favourable available. This is an upper bound, not a corpus rate.",
+    "Four of the eight yield only ONE person, and the mandate's prior rule of thumb was two or more. At the 2+ threshold the rate is 50%, not 87.5%.",
+    "One result (Channable) is a snippet describing partnership activity without a stated title — counted as found, which is generous.",
+    "One result (DataCore) names a person at a subsidiary brand, which is a brand-resolution risk rather than a clean match.",
+    "This measures FINDING a person. It does not measure whether the person is current, still in role, or reachable — none of which was checked.",
+    "LinkedIn contributed ZERO unique CRM evidence and ZERO unique partner-programme evidence across the whole project. Its entire measured value is people."
+  ]
+}

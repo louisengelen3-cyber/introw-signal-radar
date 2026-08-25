@@ -28,6 +28,13 @@ await Promise.all(Array.from({ length: 4 }, async () => {
         programmes: progs, surfaces: surf,
         motion: progs.length > 0 || surf.length > 0,
         claims: dos.machineInterpretation.diagnostics.distinctClaimCount,
+        // Measurement instrument: constructs were not persisted on the first run, which made
+        // every inversion-surfaced account read as "ownership unknown" and produced a false
+        // zero for commercial-review readiness in the audit.
+        constructs: (dos.constructs ?? []).map((c: any) => ({ construct: c.construct, state: c.state })),
+        surfaceStates: (dos.surfaces ?? []).map((s: any) => ({ surface: s.surface, state: s.state })),
+        prmState: dos.systems?.prm?.state ?? 'unknown',
+        directoryIsDirectory: dos.partnerDirectory?.isDirectory === true,
         pagesOk: (dos.sourceHealth ?? []).filter((h: any) => h.health === 'success').length,
       });
       const r = rows[rows.length - 1];

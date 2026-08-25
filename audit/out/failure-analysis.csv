@@ -1,8 +1,9 @@
-failure_stage,companies_affected,pct_of_corpus,commercial_consequence,fixability
-P1_NOT_PUBLIC,18,23.4,Vacancies were read and no CRM named. Nothing more to retrieve.,PUBLIC_DATA_LIMIT
-R1_PAGE_NOT_RETRIEVED,17,22.1,Company looks like it has no partner motion when it may have one.,ENGINEERING_FIXABLE
-P4_SOURCE_TOO_WEAK,17,22.1,A CRM is suggested but not establishable; a seller must verify.,PUBLIC_DATA_LIMIT
-E1_EVIDENCE_NOT_EXTRACTED,13,16.9,A partner page was read and produced nothing — likely vocabulary or structure miss.,ENGINEERING_FIXABLE
-R1_NO_CAREERS_SURFACE,8,10.4,CRM can never be established for this account by hiring evidence.,SOURCE_COVERAGE_FIXABLE
-R3_JS_CAREERS,2,2.6,Vacancies exist and are invisible; CRM reads unknown despite evidence existing.,ENGINEERING_FIXABLE
-NONE,2,2.6,-,-
+failure_class,companies_affected,pct_of_corpus,commercial_consequence,examples,fixability
+R1,73,48.3,a company looks like it has no partner motion when it may have one,2bit.it acumatica.com aftersell.com,ENGINEERING_FIXABLE
+R4,19,12.6,CRM can never be established from hiring evidence for this account,3ds.com accruent.com acquia.com,SOURCE_COVERAGE_FIXABLE
+P4,17,11.3,a CRM is suggested but not establishable; a seller must verify,allthingstalk.com canonical.com cubbit.io,PUBLIC_DATA_LIMIT
+E1,16,10.6,"a partner page was read and produced nothing — silent, indistinguishable from a page that says nothing",anthropic.com arisglobal.com avature.net,ENGINEERING_FIXABLE
+P1,12,7.9,vacancies were read and no CRM named; nothing left to retrieve,3mdeutschland.de allisontransmission.com archerirm.com,PUBLIC_DATA_LIMIT
+C1,10,6.6,a dossier asserts a workflow the page does not support,aircall.io camunda.com channable.com,ENGINEERING_FIXABLE
+R3,3,2,no evidence either way; the account is uninformative,saas-partner.de sage.com vectorsecurity.com,ENGINEERING_FIXABLE
+NONE,1,0.7,—,aikido.dev,-

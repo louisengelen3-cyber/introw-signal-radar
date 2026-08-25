@@ -1,78 +1,29 @@
-domain,corpus,crm_vendor,crm_level,source_type,job_title,job_family,published_at,conflict,vacancies_read,historical_read,ats_board,careers_pages,observations,decisive_observations
-2bit.it,discovery_batch,,unknown,,,Unknown / untitled,,,0,0,false,0,0,0
-3mdeutschland.de,discovery_batch,,unknown,,,Unknown / untitled,,,2,0,false,1,0,0
-allisontransmission.com,discovery_batch,,unknown,,,Unknown / untitled,,,7,0,false,1,0,0
-allthingstalk.com,discovery_batch,HubSpot,strong_supporting,website_fingerprint,,Unknown / untitled,,,1,0,false,1,2,0
-apicbase.com,discovery_batch,HubSpot,strong_supporting,website_fingerprint,,Unknown / untitled,,,5,0,false,5,2,0
-appelit.com,discovery_batch,,unknown,,,Unknown / untitled,,,0,0,false,0,0,0
-atomsenses.com,discovery_batch,,unknown,,,Unknown / untitled,,,5,0,false,1,0,0
-attachmentwarehouse.eu,discovery_batch,,unknown,,,Unknown / untitled,,,2,0,false,2,0,0
-avast.com,discovery_batch,,unknown,,,Unknown / untitled,,,2,0,true,4,0,0
-bytes.co.uk,discovery_batch,,unknown,,,Unknown / untitled,,,0,0,false,1,0,0
-canonical.com,discovery_batch,Salesforce,strong_supporting,company_careers_index,,Unknown / untitled,,,15,0,true,1,1,1
-cloud.ionos.co.uk,discovery_batch,,unknown,,,Unknown / untitled,,,0,0,false,0,0,0
-comarch.de,discovery_batch,,unknown,,,Unknown / untitled,,,1,0,false,1,0,0
-conwex.de,discovery_batch,,unknown,,,Unknown / untitled,,,2,0,false,1,0,0
-datacore.com,discovery_batch,Salesforce,strong_supporting,website_fingerprint,,Unknown / untitled,,,6,0,false,1,1,0
-ebp.com,discovery_batch,HubSpot,strong_supporting,website_fingerprint,,Unknown / untitled,,,0,0,false,0,1,0
-edisoftware.it,discovery_batch,,unknown,,,Unknown / untitled,,,8,0,false,8,0,0
-ei3.com,discovery_batch,HubSpot,strong_supporting,website_fingerprint,,Unknown / untitled,,,2,0,false,2,2,0
-expo-e.uk,discovery_batch,,unknown,,,Unknown / untitled,,,0,0,false,0,0,0
-fb-automation.com,discovery_batch,HubSpot,strong_supporting,website_fingerprint,,Unknown / untitled,,,3,0,false,1,3,0
-firstcomeurope.co.uk,discovery_batch,,unknown,,,Unknown / untitled,,,2,0,false,1,0,0
-fortinet.com,discovery_batch,Salesforce,strong_supporting,website_fingerprint,,Unknown / untitled,,,3,0,false,1,1,0
-gestan.fr,discovery_batch,,unknown,,,Unknown / untitled,,,8,0,false,8,0,0
-giersch.de,discovery_batch,,unknown,,,Unknown / untitled,,,0,0,false,0,0,0
-gofilemaker.de,discovery_batch,,unknown,,,Unknown / untitled,,,0,0,false,0,0,0
-heidenhain.com,discovery_batch,,unknown,,,Unknown / untitled,,,2,0,false,2,0,0
-iotopen.io,discovery_batch,,unknown,,,Unknown / untitled,,,0,0,false,6,0,0
-korewireless.com,discovery_batch,HubSpot,strong_supporting,website_fingerprint,,Unknown / untitled,,,8,0,false,1,1,0
-lumen.com,discovery_batch,,unknown,,,Unknown / untitled,,,3,0,false,2,0,0
-machineering.de,discovery_batch,,unknown,,,Unknown / untitled,,,0,0,false,0,0,0
-motorolasolutions.com,discovery_batch,Salesforce,strong_supporting,website_fingerprint,,Unknown / untitled,,,0,0,false,3,1,0
-myfactory.com,discovery_batch,,unknown,,,Unknown / untitled,,,0,0,false,0,0,0
-nordfarm.se,discovery_batch,,unknown,,,Unknown / untitled,,,0,0,false,0,0,0
-ositalia.com,discovery_batch,,unknown,,,Unknown / untitled,,,2,0,false,1,0,0
-paloaltonetworks.com,discovery_batch,Salesforce,strong_supporting,website_fingerprint,,Unknown / untitled,,,1,0,false,1,1,0
-saas-partner.de,discovery_batch,,unknown,,,Unknown / untitled,,,0,0,false,0,0,0
-sage.com,discovery_batch,,unknown,,,Unknown / untitled,,,0,0,false,0,0,0
-softwaresemplice.it,discovery_batch,,unknown,,,Unknown / untitled,,,5,0,false,5,0,0
-start-platform.com,discovery_batch,,unknown,,,Unknown / untitled,,,0,0,false,0,0,0
-stesi.it,discovery_batch,HubSpot,strong_supporting,website_fingerprint,,Unknown / untitled,,,0,0,false,0,1,0
-vectorsecurity.com,discovery_batch,,unknown,,,Unknown / untitled,,,0,0,false,0,0,0
-yesicd.com,discovery_batch,,unknown,,,Unknown / untitled,,,0,0,false,0,0,0
-aikido.dev,existing_corpus,HubSpot,confirmed_current,company_ats_vacancy,Account Executive Enterprise UK,AE / Sales,2026-06-23 11:55:04 UTC,,40,7,true,0,3,1
-aircall.io,existing_corpus,Salesforce,confirmed_current,company_ats_vacancy,"Business Development Representative (BDR), DACH Market",AE / Sales,2026-08-17T08:11:39-04:00,multiple_systems,40,0,true,0,16,2
-apaleo.com,existing_corpus,,unknown,,,Unknown / untitled,,,10,0,true,3,0,0
-archerirm.com,existing_corpus,,unknown,,,Unknown / untitled,,,3,0,false,3,0,0
-cegeka.com,existing_corpus,HubSpot,strong_supporting,website_fingerprint,,Unknown / untitled,,,0,0,false,1,2,0
-channable.com,existing_corpus,,unknown,,,Unknown / untitled,,,1,0,false,1,0,0
-cubbit.io,existing_corpus,HubSpot,strong_supporting,company_current_vacancy,Performance Marketer (Freelance),General / other,,,9,0,false,1,5,0
-datadoghq.com,existing_corpus,,unknown,,,Unknown / untitled,,,3,0,false,3,0,0
-deloitte.com,existing_corpus,,unknown,,,Unknown / untitled,,,0,0,true,0,0,0
-devoteam.com,existing_corpus,,unknown,,,Unknown / untitled,,,4,0,false,1,0,0
-doordash.com,existing_corpus,,unknown,,,Unknown / untitled,,,1,0,false,1,0,0
-efficy.com,existing_corpus,,unknown,,,Unknown / untitled,,,10,0,false,1,0,0
-factorialhr.com,existing_corpus,,unknown,,,Unknown / untitled,,,2,0,false,1,0,0
-foleon.com,existing_corpus,HubSpot,strong_supporting,website_fingerprint,,Unknown / untitled,,,3,0,true,3,1,0
-getaccept.com,existing_corpus,HubSpot,strong_supporting,company_current_vacancy,Web Editor - Internship - GetAccept,General / other,2026-07-10T05:54:22.000Z,,4,0,false,2,3,0
-glovoapp.com,existing_corpus,,unknown,,,Unknown / untitled,,,3,0,false,1,0,0
-juro.com,existing_corpus,HubSpot,strong_supporting,website_fingerprint,,Unknown / untitled,,,1,0,false,1,2,0
-kiflo.com,existing_corpus,,unknown,,,Unknown / untitled,,,0,0,false,0,0,0
-lano.io,existing_corpus,,unknown,,,Unknown / untitled,,,2,0,false,7,0,0
-leapsome.com,existing_corpus,HubSpot,strong_supporting,website_fingerprint,,Unknown / untitled,,,1,0,false,1,2,0
-magentrix.com,existing_corpus,,unknown,,,Unknown / untitled,,,2,0,false,3,0,0
-mews.com,existing_corpus,HubSpot,strong_supporting,website_fingerprint,,Unknown / untitled,,,2,0,false,1,1,0
-oneflow.com,existing_corpus,,unknown,,,Unknown / untitled,,,7,0,false,1,0,0
-payfit.com,existing_corpus,Salesforce,confirmed_current,company_current_vacancy,Sales/SDR Barcelona - English Speaker - PayFit,AE / Sales,2026-05-18T12:20:53.000Z,,18,0,false,9,4,1
-planhat.com,existing_corpus,Salesforce,strong_supporting,company_careers_index,,Unknown / untitled,,,12,0,false,1,4,0
-pleo.io,existing_corpus,HubSpot,mention_only,company_ats_vacancy,"Senior Manager, Customer Success",Customer Success,2026-08-21T10:11:26.744+00:00,,38,2,true,4,4,0
-productsup.com,existing_corpus,HubSpot,strong_supporting,website_fingerprint,,Unknown / untitled,,,3,0,false,1,2,0
-sana-commerce.com,existing_corpus,,unknown,,,Unknown / untitled,,,2,0,true,1,0,0
-spendesk.com,existing_corpus,,unknown,,,Unknown / untitled,,,7,0,false,1,0,0
-trengo.com,existing_corpus,HubSpot,strong_supporting,website_fingerprint,,Unknown / untitled,,,1,0,false,1,2,0
-twikey.com,existing_corpus,,unknown,,,Unknown / untitled,,,10,0,false,1,0,0
-upsales.com,existing_corpus,,unknown,,,Unknown / untitled,,,0,0,false,0,0,0
-vinted.com,existing_corpus,,unknown,,,Unknown / untitled,,,3,0,false,3,0,0
-weglot.com,existing_corpus,,unknown,,,Unknown / untitled,,,4,0,false,2,0,0
-younium.com,existing_corpus,HubSpot,strong_supporting,website_fingerprint,,Unknown / untitled,,,2,0,false,2,1,0
+dimension,bucket,observations,decisive_observations,accounts_uniquely_unlocked
+funnel,accounts researched,77,,
+funnel,CRM research attempted,77,,
+funnel,careers surface reachable,59,,
+funnel,jobs found (>=1 readable vacancy),54,,
+funnel,relevant (non-partner) jobs read,54,,
+funnel,any CRM language in a job source,9,,
+funnel,vendor-specific evidence (any source),27,,
+funnel,operational possession evidence,4,,
+funnel,current CRM established,3,,
+funnel,historical CRM established,0,,
+funnel,conflicts,1,,
+funnel,remains unknown,74,,
+job_family,partner/channel,3,0,0
+job_family,RevOps / Sales Ops,2,1,0
+job_family,Marketing Ops,5,0,0
+job_family,Customer Success,1,0,0
+job_family,AE / Sales,7,3,2
+job_family,other / untitled,19,1,1
+source,company_ats_vacancy,20,3,2
+source,company_current_vacancy,11,1,1
+source,company_cached_vacancy,0,0,0
+source,company_careers_index,6,1,1
+source,recruiting_mirror,0,0,0
+source,job_board_reproduction,0,0,0
+source,public_linkedin_job,0,0,0
+source,search_snippet,0,0,0
+source,website_fingerprint,32,0,0
+source,company_documentation,0,0,0

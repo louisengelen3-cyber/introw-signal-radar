@@ -1,0 +1,17 @@
+rank_type,failure_class,n,pct,impact_weight
+by_frequency,R1,73,48.3,6
+by_frequency,R4,19,12.6,5
+by_frequency,P4,17,11.3,4
+by_frequency,E1,16,10.6,6
+by_frequency,P1,12,7.9,2
+by_frequency,C1,10,6.6,9
+by_frequency,R3,3,2,4
+by_frequency,NONE,1,0.7,0
+by_commercial_impact,C1,10,6.6,9
+by_commercial_impact,R1,73,48.3,6
+by_commercial_impact,E1,16,10.6,6
+by_commercial_impact,R4,19,12.6,5
+by_commercial_impact,P4,17,11.3,4
+by_commercial_impact,R3,3,2,4
+by_commercial_impact,P1,12,7.9,2
+by_commercial_impact,NONE,1,0.7,0
