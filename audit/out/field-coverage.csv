@@ -1,0 +1,21 @@
+field,known,unknown,conflicting,blocked_or_not_attempted,coverage_pct,source_that_most_often_establishes_it
+Partner motion,47,30,0,0,61,company partner page (base) + recovery
+Programme ownership,36,41,0,0,46.8,operator resolution on company domain
+Programme type,46,31,0,0,59.7,partner page vocabulary
+Partner directory,13,64,0,0,16.9,outbound-link density on a locator page
+Partner portal,16,61,0,0,20.8,partner page / login link
+Deal registration,6,71,0,0,7.8,partner page prose
+Lead sharing,0,77,0,0,0,partner page prose
+Referral,1,76,0,0,1.3,partner page prose
+Co-selling,6,71,0,0,7.8,partner page prose
+Partner pipeline,0,77,0,0,0,partner page prose
+Partner onboarding,2,75,0,0,2.6,partner page prose
+Partner enablement,10,67,0,0,13,partner page prose
+Partner tiers,8,69,0,0,10.4,partner page prose
+Partner incentives,0,0,0,77,0,NOT ATTEMPTED — no detector exists
+Partner attribution,0,0,0,77,0,NOT ATTEMPTED — no detector exists
+CRM any evidence,27,50,0,0,35.1,website fingerprint or company vacancy
+CRM decisive,2,74,1,0,2.6,"company vacancy, operational-duty language"
+CRM historical,0,77,0,0,0,dated cached vacancy
+Partner people,0,0,0,77,0,NOT ATTEMPTED — measured non-viable earlier
+PRM,0,77,0,0,0,DNS fingerprint / partner-page text

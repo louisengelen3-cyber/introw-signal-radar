@@ -49,6 +49,8 @@ export async function researchCrm(bareDomain: string, opts: ResearchOptions = {}
   let historicalRead = 0;
   let nonPartnerTitlesRead = 0;
   let atsBoardFound = false;
+  let careersPagesFound = 0;
+  let careersDocsFound = 0;
 
   const note = (o: CrmObservation, title: string | null) => {
     observations.push(o);
@@ -93,6 +95,8 @@ export async function researchCrm(bareDomain: string, opts: ResearchOptions = {}
     try {
       const res = await findCareersVacancies(domain, { maxRequests: Math.max(10, budget - requests), maxPages: 14 });
       requests += res.requests;
+      careersPagesFound = res.careersPagesFound;
+      careersDocsFound = res.documents.length;
       for (const d of res.documents) {
         jobsInspected++;
         vacanciesRead++;
@@ -134,6 +138,8 @@ export async function researchCrm(bareDomain: string, opts: ResearchOptions = {}
     nonPartnerTitlesRead,
     searchQueriesRun: (opts.searchObservations ?? []).length > 0 ? 1 : 0,
     linkedinBlocked: false,
+    careersPagesFound,
+    careersDocsFound,
     sourcesConsulted: [...sourcesConsulted],
   }, { queries: 0, sourcesInspected: requests, jobsInspected }, now);
 

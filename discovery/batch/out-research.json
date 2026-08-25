@@ -7,6 +7,80 @@
     "sector": "software",
     "discoveryNote": "three partnership programmes",
     "machineState": "under_observed",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 3,
+    "pagesFetched": 22,
+    "distinctClaims": 0,
     "category": "likely_target_category",
     "programmes": [],
     "surfaces": [],
@@ -20,7 +94,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -29,6 +104,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -49,6 +126,80 @@
     "sector": "industrial",
     "discoveryNote": "system integrator network for robot cells",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": true,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 4,
+    "pagesFetched": 23,
+    "distinctClaims": 0,
     "category": "likely_target_category",
     "programmes": [
       "reseller"
@@ -64,7 +215,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -73,6 +225,8 @@
       "nonPartnerTitlesRead": 2,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 2,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -91,6 +245,80 @@
     "sector": "manufacturing",
     "discoveryNote": "become an Allison authorised dealer, aftermarket channel",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "weak_proxy"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 9,
+    "pagesFetched": 26,
+    "distinctClaims": 2,
     "category": "likely_target_category",
     "programmes": [
       "distributor",
@@ -111,7 +339,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -120,6 +349,8 @@
       "nonPartnerTitlesRead": 7,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 7,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -142,6 +373,80 @@
     "sector": "iot_hardware",
     "discoveryNote": "IoT reseller programme",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 7,
+    "pagesFetched": 24,
+    "distinctClaims": 0,
     "category": "likely_target_category",
     "programmes": [
       "reseller"
@@ -159,7 +464,25 @@
       "allVendors": [
         "HubSpot/strong_supporting"
       ],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": [
+        {
+          "vendor": "HubSpot",
+          "basis": "fingerprint",
+          "sourceType": "website_fingerprint",
+          "jobTitle": null,
+          "publishedAt": null,
+          "rule": "website_artifact"
+        },
+        {
+          "vendor": "HubSpot",
+          "basis": "fingerprint",
+          "sourceType": "website_fingerprint",
+          "jobTitle": null,
+          "publishedAt": null,
+          "rule": "website_artifact"
+        }
+      ]
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -168,6 +491,8 @@
       "nonPartnerTitlesRead": 1,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 1,
       "sourcesConsulted": [
         "website_fingerprint"
       ]
@@ -183,7 +508,7 @@
       "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
       "Whether partners actually influence revenue, or the programme is a directory listing."
     ],
-    "seconds": 1
+    "seconds": 2
   },
   {
     "domain": "apicbase.com",
@@ -193,6 +518,80 @@
     "sector": "software",
     "discoveryNote": "seeking DACH sales partners with recurring revenue — surfaced through a third-party pinboard, so identity is counterparty-sourced (§9 lower entity confidence)",
     "machineState": "under_observed",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "unknown"
+      },
+      {
+        "surface": "application",
+        "state": "unknown"
+      },
+      {
+        "surface": "onboarding",
+        "state": "unknown"
+      },
+      {
+        "surface": "enablement",
+        "state": "unknown"
+      },
+      {
+        "surface": "certification",
+        "state": "unknown"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "unknown"
+      },
+      {
+        "surface": "co_selling",
+        "state": "unknown"
+      },
+      {
+        "surface": "portal",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "unknown"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "unknown"
+      }
+    ],
+    "pagesOk": 3,
+    "pagesFetched": 21,
+    "distinctClaims": 0,
     "category": "likely_target_category",
     "programmes": [],
     "surfaces": [],
@@ -208,7 +607,25 @@
       "allVendors": [
         "HubSpot/strong_supporting"
       ],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": [
+        {
+          "vendor": "HubSpot",
+          "basis": "fingerprint",
+          "sourceType": "website_fingerprint",
+          "jobTitle": null,
+          "publishedAt": null,
+          "rule": "website_artifact"
+        },
+        {
+          "vendor": "HubSpot",
+          "basis": "fingerprint",
+          "sourceType": "website_fingerprint",
+          "jobTitle": null,
+          "publishedAt": null,
+          "rule": "website_artifact"
+        }
+      ]
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -217,6 +634,8 @@
       "nonPartnerTitlesRead": 5,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 5,
+      "careersDocsFound": 5,
       "sourcesConsulted": [
         "website_fingerprint"
       ]
@@ -241,6 +660,80 @@
     "sector": "software",
     "discoveryNote": "white-label ICT reseller programme, NL and BE offices",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "weak_proxy"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 5,
+    "pagesFetched": 23,
+    "distinctClaims": 1,
     "category": "likely_target_category",
     "programmes": [
       "technology",
@@ -259,7 +752,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -268,6 +762,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -290,6 +786,80 @@
     "sector": "iot_hardware",
     "discoveryNote": "LoRaWAN partner network, distributor/reseller/technology tracks",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": true,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "confirmed"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 7,
+    "pagesFetched": 23,
+    "distinctClaims": 4,
     "category": "likely_target_category",
     "programmes": [
       "reseller",
@@ -308,7 +878,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -317,6 +888,8 @@
       "nonPartnerTitlesRead": 5,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 5,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -338,6 +911,80 @@
     "sector": "manufacturing",
     "discoveryNote": "contractor/reseller partner programme with exclusive pricing and joint marketing",
     "machineState": "under_observed",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 3,
+    "pagesFetched": 20,
+    "distinctClaims": 0,
     "category": "likely_target_category",
     "programmes": [],
     "surfaces": [],
@@ -351,7 +998,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -360,6 +1008,8 @@
       "nonPartnerTitlesRead": 2,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 2,
+      "careersDocsFound": 2,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -380,6 +1030,80 @@
     "sector": "software",
     "discoveryNote": "Avast Business partner programme for MSSPs, resellers, VARs, distributors",
     "machineState": "strong_evidence",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "confirmed"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "confirmed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 12,
+    "pagesFetched": 26,
+    "distinctClaims": 7,
     "category": "likely_target_category",
     "programmes": [
       "reseller",
@@ -404,7 +1128,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": true,
@@ -413,6 +1138,8 @@
       "nonPartnerTitlesRead": 2,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 4,
+      "careersDocsFound": 2,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -423,7 +1150,7 @@
       "CRM is unknown. That is the expected state for most companies and is not a reason to deprioritise (§34)."
     ],
     "wouldResolve": [],
-    "seconds": 2
+    "seconds": 1
   },
   {
     "domain": "bytes.co.uk",
@@ -433,6 +1160,80 @@
     "sector": "software",
     "discoveryNote": "partner programs, 35 years in the UK channel",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "confirmed"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 11,
+    "pagesFetched": 23,
+    "distinctClaims": 2,
     "category": "likely_target_category",
     "programmes": [
       "reseller",
@@ -451,7 +1252,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -460,6 +1262,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -481,6 +1285,80 @@
     "sector": "software",
     "discoveryNote": "channel / reseller programme",
     "machineState": "strong_evidence",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": true,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "confirmed"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "rich"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "confirmed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "confirmed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 7,
+    "pagesFetched": 23,
+    "distinctClaims": 8,
     "category": "likely_target_category",
     "programmes": [
       "reseller"
@@ -503,7 +1381,17 @@
       "allVendors": [
         "Salesforce/strong_supporting"
       ],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": [
+        {
+          "vendor": "Salesforce",
+          "basis": "operational_duty",
+          "sourceType": "company_careers_index",
+          "jobTitle": null,
+          "publishedAt": null,
+          "rule": "operational_duty"
+        }
+      ]
     },
     "crmCoverage": {
       "atsBoardFound": true,
@@ -512,6 +1400,8 @@
       "nonPartnerTitlesRead": 14,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 15,
       "sourcesConsulted": [
         "company_careers_index"
       ]
@@ -524,7 +1414,7 @@
       "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
     ],
     "wouldResolve": [],
-    "seconds": 2
+    "seconds": 1
   },
   {
     "domain": "cloud.ionos.co.uk",
@@ -534,6 +1424,80 @@
     "sector": "software",
     "discoveryNote": "cloud channel partner programme",
     "machineState": "plausible",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": true,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "participant_only"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "confirmed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "confirmed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 9,
+    "pagesFetched": 26,
+    "distinctClaims": 3,
     "category": "likely_target_category",
     "programmes": [
       "reseller",
@@ -554,7 +1518,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -563,6 +1528,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -584,6 +1551,80 @@
     "sector": "software",
     "discoveryNote": "ERP partner programme across DACH",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "light"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 2,
+    "pagesFetched": 21,
+    "distinctClaims": 1,
     "category": "likely_target_category",
     "programmes": [
       "service_partner",
@@ -608,7 +1649,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -617,6 +1659,8 @@
       "nonPartnerTitlesRead": 1,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 1,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -629,7 +1673,7 @@
       "Which CRM the commercial team runs on — ask on the first call; public detection resolved this for a minority of accounts.",
       "Whether partners actually influence revenue, or the programme is a directory listing."
     ],
-    "seconds": 2
+    "seconds": 1
   },
   {
     "domain": "conwex.de",
@@ -639,6 +1683,80 @@
     "sector": "manufacturing",
     "discoveryNote": "Maschinenbau Partner network",
     "machineState": "under_observed",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 2,
+    "pagesFetched": 21,
+    "distinctClaims": 0,
     "category": "likely_target_category",
     "programmes": [],
     "surfaces": [],
@@ -652,7 +1770,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -661,6 +1780,8 @@
       "nonPartnerTitlesRead": 2,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 2,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -681,6 +1802,80 @@
     "sector": "software",
     "discoveryNote": "software reseller programme",
     "machineState": "strong_evidence",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": true,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "confirmed"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "rich"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "confirmed"
+      },
+      {
+        "surface": "certification",
+        "state": "confirmed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 7,
+    "pagesFetched": 24,
+    "distinctClaims": 8,
     "category": "likely_target_category",
     "programmes": [
       "reseller",
@@ -704,7 +1899,17 @@
       "allVendors": [
         "Salesforce/strong_supporting"
       ],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": [
+        {
+          "vendor": "Salesforce",
+          "basis": "fingerprint",
+          "sourceType": "website_fingerprint",
+          "jobTitle": null,
+          "publishedAt": null,
+          "rule": "website_artifact"
+        }
+      ]
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -713,6 +1918,8 @@
       "nonPartnerTitlesRead": 6,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 6,
       "sourcesConsulted": [
         "website_fingerprint"
       ]
@@ -725,7 +1932,7 @@
       "A company-owned partner motion is evidenced, but too little of its operation is visible to judge relevance."
     ],
     "wouldResolve": [],
-    "seconds": 4
+    "seconds": 45
   },
   {
     "domain": "ebp.com",
@@ -735,6 +1942,80 @@
     "sector": "software",
     "discoveryNote": "Alliance partner programme with certification",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "weak_proxy"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "confirmed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 9,
+    "pagesFetched": 27,
+    "distinctClaims": 4,
     "category": "likely_target_category",
     "programmes": [
       "reseller"
@@ -758,7 +2039,17 @@
       "allVendors": [
         "HubSpot/strong_supporting"
       ],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": [
+        {
+          "vendor": "HubSpot",
+          "basis": "fingerprint",
+          "sourceType": "website_fingerprint",
+          "jobTitle": null,
+          "publishedAt": null,
+          "rule": "website_artifact"
+        }
+      ]
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -767,6 +2058,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": [
         "website_fingerprint"
       ]
@@ -780,7 +2073,7 @@
       "HubSpot evidenced at strong supporting — a CRM Introw connects to."
     ],
     "wouldResolve": [],
-    "seconds": 2
+    "seconds": 3
   },
   {
     "domain": "edisoftware.it",
@@ -790,6 +2083,80 @@
     "sector": "software",
     "discoveryNote": "reseller certification programme, pre/post-sale duties",
     "machineState": "under_observed",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 2,
+    "pagesFetched": 21,
+    "distinctClaims": 0,
     "category": "likely_target_category",
     "programmes": [],
     "surfaces": [],
@@ -803,7 +2170,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -812,6 +2180,8 @@
       "nonPartnerTitlesRead": 8,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 8,
+      "careersDocsFound": 8,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -832,6 +2202,80 @@
     "sector": "iot_hardware",
     "discoveryNote": "authorised IIoT reseller programme with support and training",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "weak_proxy"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 4,
+    "pagesFetched": 21,
+    "distinctClaims": 1,
     "category": "likely_target_category",
     "programmes": [
       "reseller"
@@ -849,7 +2293,25 @@
       "allVendors": [
         "HubSpot/strong_supporting"
       ],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": [
+        {
+          "vendor": "HubSpot",
+          "basis": "fingerprint",
+          "sourceType": "website_fingerprint",
+          "jobTitle": null,
+          "publishedAt": null,
+          "rule": "website_artifact"
+        },
+        {
+          "vendor": "HubSpot",
+          "basis": "fingerprint",
+          "sourceType": "website_fingerprint",
+          "jobTitle": null,
+          "publishedAt": null,
+          "rule": "website_artifact"
+        }
+      ]
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -858,6 +2320,8 @@
       "nonPartnerTitlesRead": 2,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 2,
+      "careersDocsFound": 2,
       "sourcesConsulted": [
         "website_fingerprint"
       ]
@@ -883,6 +2347,80 @@
     "sector": "software",
     "discoveryNote": "reseller partner programme, IT solutions portfolio",
     "machineState": "strong_evidence",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "confirmed"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "confirmed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 6,
+    "pagesFetched": 25,
+    "distinctClaims": 9,
     "category": "likely_target_category",
     "programmes": [
       "reseller"
@@ -903,7 +2441,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -912,6 +2451,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -932,6 +2473,80 @@
     "sector": "industrial",
     "discoveryNote": "system integrator network, intralogistics",
     "machineState": "under_observed",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 8,
+    "pagesFetched": 27,
+    "distinctClaims": 0,
     "category": "likely_target_category",
     "programmes": [],
     "surfaces": [],
@@ -947,7 +2562,33 @@
       "allVendors": [
         "HubSpot/strong_supporting"
       ],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": [
+        {
+          "vendor": "HubSpot",
+          "basis": "alternatives_list",
+          "sourceType": "company_careers_index",
+          "jobTitle": null,
+          "publishedAt": null,
+          "rule": "bare_mention"
+        },
+        {
+          "vendor": "HubSpot",
+          "basis": "alternatives_list",
+          "sourceType": "company_current_vacancy",
+          "jobTitle": "Starten Sie Ihre Karriere bei Fb Industry Automation",
+          "publishedAt": null,
+          "rule": "bare_mention"
+        },
+        {
+          "vendor": "HubSpot",
+          "basis": "fingerprint",
+          "sourceType": "website_fingerprint",
+          "jobTitle": null,
+          "publishedAt": null,
+          "rule": "website_artifact"
+        }
+      ]
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -956,6 +2597,8 @@
       "nonPartnerTitlesRead": 3,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 3,
       "sourcesConsulted": [
         "company_careers_index",
         "company_current_vacancy",
@@ -982,6 +2625,80 @@
     "sector": "software",
     "discoveryNote": "channel partners programme",
     "machineState": "strong_evidence",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "confirmed"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "rich"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "confirmed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "confirmed"
+      }
+    ],
+    "pagesOk": 8,
+    "pagesFetched": 26,
+    "distinctClaims": 7,
     "category": "likely_target_category",
     "programmes": [
       "reseller",
@@ -1008,7 +2725,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1017,6 +2735,8 @@
       "nonPartnerTitlesRead": 2,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 2,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -1037,6 +2757,80 @@
     "sector": "cybersecurity",
     "discoveryNote": "MSSP programme, multitenancy, custom portals",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": true,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "weak_proxy"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 8,
+    "pagesFetched": 26,
+    "distinctClaims": 4,
     "category": "likely_target_category",
     "programmes": [
       "reseller"
@@ -1056,7 +2850,17 @@
       "allVendors": [
         "Salesforce/strong_supporting"
       ],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": [
+        {
+          "vendor": "Salesforce",
+          "basis": "fingerprint",
+          "sourceType": "website_fingerprint",
+          "jobTitle": null,
+          "publishedAt": null,
+          "rule": "website_artifact"
+        }
+      ]
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1065,6 +2869,8 @@
       "nonPartnerTitlesRead": 3,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 3,
       "sourcesConsulted": [
         "website_fingerprint"
       ]
@@ -1080,7 +2886,7 @@
       "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
       "Whether partners actually influence revenue, or the programme is a directory listing."
     ],
-    "seconds": 15
+    "seconds": 17
   },
   {
     "domain": "gestan.fr",
@@ -1090,6 +2896,80 @@
     "sector": "software",
     "discoveryNote": "three partner categories: prescripteurs, formateurs, développeurs",
     "machineState": "plausible",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 5,
+    "pagesFetched": 18,
+    "distinctClaims": 1,
     "category": "likely_target_category",
     "programmes": [],
     "surfaces": [
@@ -1105,7 +2985,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1114,6 +2995,8 @@
       "nonPartnerTitlesRead": 8,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 8,
+      "careersDocsFound": 8,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -1127,7 +3010,7 @@
       "Which CRM the commercial team runs on — ask on the first call; public detection resolved this for a minority of accounts.",
       "Whether partners actually influence revenue, or the programme is a directory listing."
     ],
-    "seconds": 2
+    "seconds": 3
   },
   {
     "domain": "giersch.de",
@@ -1137,6 +3020,80 @@
     "sector": "manufacturing",
     "discoveryNote": "Fachpartner werden: four half-day training blocks, exam, certificate",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 2,
+    "pagesFetched": 21,
+    "distinctClaims": 0,
     "category": "likely_target_category",
     "programmes": [
       "dealer"
@@ -1154,7 +3111,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1163,6 +3121,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -1185,6 +3145,80 @@
     "sector": "software",
     "discoveryNote": "B2B software sales partner sought",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 9,
+    "pagesFetched": 27,
+    "distinctClaims": 0,
     "category": "likely_target_category",
     "programmes": [
       "reseller",
@@ -1204,7 +3238,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1213,6 +3248,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -1225,7 +3262,7 @@
       "Which CRM the commercial team runs on — ask on the first call; public detection resolved this for a minority of accounts.",
       "Whether partners actually influence revenue, or the programme is a directory listing."
     ],
-    "seconds": 1
+    "seconds": 2
   },
   {
     "domain": "heidenhain.com",
@@ -1235,6 +3272,80 @@
     "sector": "industrial",
     "discoveryNote": "HEIDENHAIN Partnerprogramm Automatisierung",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": true,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 10,
+    "pagesFetched": 27,
+    "distinctClaims": 0,
     "category": "likely_target_category",
     "programmes": [
       "service_partner"
@@ -1257,7 +3368,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1266,6 +3378,8 @@
       "nonPartnerTitlesRead": 2,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 2,
+      "careersDocsFound": 2,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -1288,6 +3402,80 @@
     "sector": "iot_hardware",
     "discoveryNote": "reseller programme for licences and on-prem",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "confirmed"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 11,
+    "pagesFetched": 22,
+    "distinctClaims": 3,
     "category": "likely_target_category",
     "programmes": [
       "reseller",
@@ -1309,7 +3497,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1318,6 +3507,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 6,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -1329,7 +3520,7 @@
       "Which partner workflows exist — deal registration and pipeline usually sit behind a partner login, so public absence is expected rather than informative.",
       "Which CRM the commercial team runs on — ask on the first call; public detection resolved this for a minority of accounts."
     ],
-    "seconds": 2
+    "seconds": 1
   },
   {
     "domain": "korewireless.com",
@@ -1339,6 +3530,80 @@
     "sector": "iot_hardware",
     "discoveryNote": "KORE Channels for resellers, VARs and MSPs",
     "machineState": "strong_evidence",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "strong_proxy"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "confirmed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "confirmed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "confirmed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 19,
+    "pagesFetched": 19,
+    "distinctClaims": 3,
     "category": "likely_target_category",
     "programmes": [
       "reseller"
@@ -1362,7 +3627,17 @@
       "allVendors": [
         "HubSpot/strong_supporting"
       ],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": [
+        {
+          "vendor": "HubSpot",
+          "basis": "fingerprint",
+          "sourceType": "website_fingerprint",
+          "jobTitle": null,
+          "publishedAt": null,
+          "rule": "website_artifact"
+        }
+      ]
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1371,6 +3646,8 @@
       "nonPartnerTitlesRead": 8,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 8,
       "sourcesConsulted": [
         "website_fingerprint"
       ]
@@ -1394,6 +3671,80 @@
     "sector": "software",
     "discoveryNote": "channel partner programme",
     "machineState": "strong_evidence",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "confirmed"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "confirmed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "confirmed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 6,
+    "pagesFetched": 27,
+    "distinctClaims": 6,
     "category": "likely_target_category",
     "programmes": [
       "reseller",
@@ -1421,7 +3772,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1430,6 +3782,8 @@
       "nonPartnerTitlesRead": 3,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 2,
+      "careersDocsFound": 3,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -1440,7 +3794,7 @@
       "CRM is unknown. That is the expected state for most companies and is not a reason to deprioritise (§34)."
     ],
     "wouldResolve": [],
-    "seconds": 15
+    "seconds": 16
   },
   {
     "domain": "machineering.de",
@@ -1450,6 +3804,80 @@
     "sector": "manufacturing",
     "discoveryNote": "new partner programme for iPhysics simulation software",
     "machineState": "under_observed",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "unknown"
+      },
+      {
+        "surface": "application",
+        "state": "unknown"
+      },
+      {
+        "surface": "onboarding",
+        "state": "unknown"
+      },
+      {
+        "surface": "enablement",
+        "state": "unknown"
+      },
+      {
+        "surface": "certification",
+        "state": "unknown"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "unknown"
+      },
+      {
+        "surface": "co_selling",
+        "state": "unknown"
+      },
+      {
+        "surface": "portal",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "unknown"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "unknown"
+      }
+    ],
+    "pagesOk": 0,
+    "pagesFetched": 1,
+    "distinctClaims": 0,
     "category": "unknown",
     "programmes": [],
     "surfaces": [],
@@ -1463,7 +3891,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1472,6 +3901,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -1482,7 +3913,7 @@
     "wouldResolve": [
       "Find the partner surface — it may be on a regional domain or behind a locator."
     ],
-    "seconds": 2
+    "seconds": 1
   },
   {
     "domain": "motorolasolutions.com",
@@ -1492,6 +3923,80 @@
     "sector": "iot_hardware",
     "discoveryNote": "PartnerEmpower reseller programme",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": true,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "weak_proxy"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 10,
+    "pagesFetched": 26,
+    "distinctClaims": 1,
     "category": "likely_target_category",
     "programmes": [
       "reseller"
@@ -1509,7 +4014,17 @@
       "allVendors": [
         "Salesforce/strong_supporting"
       ],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": [
+        {
+          "vendor": "Salesforce",
+          "basis": "fingerprint",
+          "sourceType": "website_fingerprint",
+          "jobTitle": null,
+          "publishedAt": null,
+          "rule": "website_artifact"
+        }
+      ]
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1518,6 +4033,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 3,
+      "careersDocsFound": 0,
       "sourcesConsulted": [
         "website_fingerprint"
       ]
@@ -1530,7 +4047,7 @@
       "A published directory lists at least 6 partner organisations."
     ],
     "wouldResolve": [],
-    "seconds": 2
+    "seconds": 1
   },
   {
     "domain": "myfactory.com",
@@ -1540,6 +4057,80 @@
     "sector": "software",
     "discoveryNote": "Vertriebspartner gesucht, ERP/business software",
     "machineState": "plausible",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "light"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 4,
+    "pagesFetched": 22,
+    "distinctClaims": 2,
     "category": "likely_target_category",
     "programmes": [
       "reseller",
@@ -1567,7 +4158,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1576,6 +4168,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -1585,7 +4179,7 @@
       "CRM is unknown. That is the expected state for most companies and is not a reason to deprioritise (§34)."
     ],
     "wouldResolve": [],
-    "seconds": 2
+    "seconds": 1
   },
   {
     "domain": "nordfarm.se",
@@ -1595,6 +4189,80 @@
     "sector": "manufacturing",
     "discoveryNote": "operates its own nationwide reseller network; all sales, service and parts run through resellers",
     "machineState": "under_observed",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 4,
+    "pagesFetched": 23,
+    "distinctClaims": 0,
     "category": "likely_target_category",
     "programmes": [],
     "surfaces": [],
@@ -1608,7 +4276,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1617,6 +4286,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -1627,7 +4298,7 @@
     "wouldResolve": [
       "A partner surface on a regional domain, a dealer locator, or a partner page not linked from the main navigation."
     ],
-    "seconds": 2
+    "seconds": 1
   },
   {
     "domain": "ositalia.com",
@@ -1637,6 +4308,80 @@
     "sector": "software",
     "discoveryNote": "reseller and partner programme for management software",
     "machineState": "under_observed",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "not_observed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 7,
+    "pagesFetched": 20,
+    "distinctClaims": 0,
     "category": "likely_target_category",
     "programmes": [],
     "surfaces": [],
@@ -1650,7 +4395,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1659,6 +4405,8 @@
       "nonPartnerTitlesRead": 2,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 2,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -1669,7 +4417,7 @@
     "wouldResolve": [
       "A partner surface on a regional domain, a dealer locator, or a partner page not linked from the main navigation."
     ],
-    "seconds": 2
+    "seconds": 1
   },
   {
     "domain": "paloaltonetworks.com",
@@ -1679,6 +4427,80 @@
     "sector": "cybersecurity",
     "discoveryNote": "MSSP partner programme (PDF)",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "weak_proxy"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "moderate"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 10,
+    "pagesFetched": 26,
+    "distinctClaims": 3,
     "category": "likely_target_category",
     "programmes": [
       "reseller"
@@ -1698,7 +4520,17 @@
       "allVendors": [
         "Salesforce/strong_supporting"
       ],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": [
+        {
+          "vendor": "Salesforce",
+          "basis": "fingerprint",
+          "sourceType": "website_fingerprint",
+          "jobTitle": null,
+          "publishedAt": null,
+          "rule": "website_artifact"
+        }
+      ]
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1707,6 +4539,8 @@
       "nonPartnerTitlesRead": 1,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 1,
       "sourcesConsulted": [
         "website_fingerprint"
       ]
@@ -1732,6 +4566,80 @@
     "sector": "software",
     "discoveryNote": "SaaS vendor partner programme, 20-50% monthly commission",
     "machineState": "under_observed",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "unknown"
+      },
+      {
+        "surface": "application",
+        "state": "unknown"
+      },
+      {
+        "surface": "onboarding",
+        "state": "unknown"
+      },
+      {
+        "surface": "enablement",
+        "state": "unknown"
+      },
+      {
+        "surface": "certification",
+        "state": "unknown"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "unknown"
+      },
+      {
+        "surface": "co_selling",
+        "state": "unknown"
+      },
+      {
+        "surface": "portal",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "unknown"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "unknown"
+      }
+    ],
+    "pagesOk": 0,
+    "pagesFetched": 1,
+    "distinctClaims": 0,
     "category": "unknown",
     "programmes": [],
     "surfaces": [],
@@ -1745,7 +4653,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1754,6 +4663,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -1774,6 +4685,80 @@
     "sector": "software",
     "discoveryNote": "become a Sage reseller",
     "machineState": "plausible",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 2,
+    "pagesFetched": 8,
+    "distinctClaims": 1,
     "category": "unknown",
     "programmes": [],
     "surfaces": [
@@ -1789,7 +4774,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1798,6 +4784,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -1821,6 +4809,80 @@
     "sector": "software",
     "discoveryNote": "white-label reseller programme",
     "machineState": "under_observed",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "unknown"
+      },
+      {
+        "surface": "application",
+        "state": "unknown"
+      },
+      {
+        "surface": "onboarding",
+        "state": "unknown"
+      },
+      {
+        "surface": "enablement",
+        "state": "unknown"
+      },
+      {
+        "surface": "certification",
+        "state": "unknown"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "unknown"
+      },
+      {
+        "surface": "co_selling",
+        "state": "unknown"
+      },
+      {
+        "surface": "portal",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "unknown"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "unknown"
+      }
+    ],
+    "pagesOk": 3,
+    "pagesFetched": 16,
+    "distinctClaims": 0,
     "category": "likely_target_category",
     "programmes": [],
     "surfaces": [],
@@ -1834,7 +4896,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1843,6 +4906,8 @@
       "nonPartnerTitlesRead": 5,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 5,
+      "careersDocsFound": 5,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -1863,6 +4928,80 @@
     "sector": "software",
     "discoveryNote": "platform reseller programme",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": true,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "confirmed"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "direct"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 13,
+    "pagesFetched": 26,
+    "distinctClaims": 4,
     "category": "likely_target_category",
     "programmes": [
       "reseller"
@@ -1880,7 +5019,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1889,6 +5029,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -1910,6 +5052,80 @@
     "sector": "software",
     "discoveryNote": "three-tier affiliation system",
     "machineState": "research",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "weak_proxy"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "confirmed"
+      },
+      {
+        "surface": "application",
+        "state": "not_observed"
+      },
+      {
+        "surface": "onboarding",
+        "state": "not_observed"
+      },
+      {
+        "surface": "enablement",
+        "state": "not_observed"
+      },
+      {
+        "surface": "certification",
+        "state": "not_observed"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "not_observed"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "not_observed"
+      },
+      {
+        "surface": "co_selling",
+        "state": "not_observed"
+      },
+      {
+        "surface": "portal",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "not_observed"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "not_observed"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "not_observed"
+      }
+    ],
+    "pagesOk": 9,
+    "pagesFetched": 25,
+    "distinctClaims": 1,
     "category": "likely_target_category",
     "programmes": [
       "reseller"
@@ -1929,7 +5145,17 @@
       "allVendors": [
         "HubSpot/strong_supporting"
       ],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": [
+        {
+          "vendor": "HubSpot",
+          "basis": "fingerprint",
+          "sourceType": "website_fingerprint",
+          "jobTitle": null,
+          "publishedAt": null,
+          "rule": "website_artifact"
+        }
+      ]
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1938,6 +5164,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": [
         "website_fingerprint"
       ]
@@ -1963,6 +5191,80 @@
     "sector": "manufacturing",
     "discoveryNote": "become a dealer programme",
     "machineState": "under_observed",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "unknown"
+      },
+      {
+        "surface": "application",
+        "state": "unknown"
+      },
+      {
+        "surface": "onboarding",
+        "state": "unknown"
+      },
+      {
+        "surface": "enablement",
+        "state": "unknown"
+      },
+      {
+        "surface": "certification",
+        "state": "unknown"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "unknown"
+      },
+      {
+        "surface": "co_selling",
+        "state": "unknown"
+      },
+      {
+        "surface": "portal",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "unknown"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "unknown"
+      }
+    ],
+    "pagesOk": 0,
+    "pagesFetched": 3,
+    "distinctClaims": 0,
     "category": "unknown",
     "programmes": [],
     "surfaces": [],
@@ -1976,7 +5278,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -1985,6 +5288,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "familiesObserved": {},
@@ -1995,7 +5300,7 @@
     "wouldResolve": [
       "Find the partner surface — it may be on a regional domain or behind a locator."
     ],
-    "seconds": 4
+    "seconds": 6
   },
   {
     "domain": "yesicd.com",
@@ -2005,6 +5310,80 @@
     "sector": "software",
     "discoveryNote": "reseller programme with commission per subscription",
     "machineState": "under_observed",
+    "prmState": "unknown",
+    "prmVendor": null,
+    "directoryIsDirectory": false,
+    "constructs": [
+      {
+        "construct": "commercial_materiality",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_ownership",
+        "state": "unknown"
+      },
+      {
+        "construct": "operational_surface",
+        "state": "unknown"
+      }
+    ],
+    "surfaceStates": [
+      {
+        "surface": "partner_recruitment",
+        "state": "unknown"
+      },
+      {
+        "surface": "application",
+        "state": "unknown"
+      },
+      {
+        "surface": "onboarding",
+        "state": "unknown"
+      },
+      {
+        "surface": "enablement",
+        "state": "unknown"
+      },
+      {
+        "surface": "certification",
+        "state": "unknown"
+      },
+      {
+        "surface": "lead_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "referral_submission",
+        "state": "unknown"
+      },
+      {
+        "surface": "deal_registration",
+        "state": "unknown"
+      },
+      {
+        "surface": "co_selling",
+        "state": "unknown"
+      },
+      {
+        "surface": "portal",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_pipeline",
+        "state": "unknown"
+      },
+      {
+        "surface": "programme_tiers",
+        "state": "unknown"
+      },
+      {
+        "surface": "partner_resources",
+        "state": "unknown"
+      }
+    ],
+    "pagesOk": 0,
+    "pagesFetched": 1,
+    "distinctClaims": 0,
     "category": "unknown",
     "programmes": [],
     "surfaces": [],
@@ -2018,7 +5397,8 @@
       "quote": null,
       "sourceUrl": null,
       "allVendors": [],
-      "conflict": null
+      "conflict": null,
+      "observationDetail": []
     },
     "crmCoverage": {
       "atsBoardFound": false,
@@ -2027,6 +5407,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "familiesObserved": {},

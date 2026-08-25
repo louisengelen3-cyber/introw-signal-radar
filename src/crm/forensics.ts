@@ -135,6 +135,9 @@ export interface CrmForensicResult {
     nonPartnerTitlesRead: number;
     searchQueriesRun: number;
     linkedinBlocked: boolean;
+    /** Careers landing pages that returned readable content — separates 'no page' from 'JS-only'. */
+    careersPagesFound?: number;
+    careersDocsFound?: number;
     sourcesConsulted: CrmSourceType[];
   };
   /** §25 research budget, reported rather than hidden. */

@@ -1,0 +1,12 @@
+source_family,requests_or_searches,accounts_touched,useful_facts,unique_useful_facts,false_facts_caught,coverage_unlocked
+company website (base partner research),516,77,47,47,0,"partner motion, programme type, workflows"
+regional domains + recovery,42,8,27,27,0,partner motion on non-canonical domains
+company careers pages (non-ATS),221,56,1,1,1,CRM where no ATS exists
+ATS boards,9,9,2,2,0,CRM from live adverts
+historical / cached vacancies,9,2,0,0,0,nothing in this run
+careers index / feed,0,3,0,0,1,nothing — cannot confirm by design
+website fingerprints (DNS/technical),23,23,0,0,10,supporting only; never decisive
+search engine (targeted CRM),4,4,0,0,3,nothing — 3 false positives avoided
+search engine (discovery),12,99,42,42,0,the entire new-account universe
+LinkedIn (as a distinct source),0,0,0,0,0,NOT RUN as a separate source family
+third-party directories,0,1,1,0,0,one candidate surfaced via a partner pinboard

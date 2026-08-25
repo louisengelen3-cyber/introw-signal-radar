@@ -48,6 +48,12 @@ await Promise.all(Array.from({ length: 4 }, async () => {
           timeline: v.timeline,
         })),
         conflict: r.conflict,
+        // Measurement instrumentation for the reliability audit: every observation's basis,
+        // source class and role, so the CRM funnel is derived rather than estimated.
+        observationDetail: r.vendors.flatMap((v) => v.observations.map((o) => ({
+          vendor: o.vendor, basis: o.languageBasis, sourceType: o.sourceType,
+          jobTitle: o.jobTitle, publishedAt: o.sourcePublishedAt, rule: o.rule,
+        }))),
         coverage: r.coverage,
         budget: r.budget,
         familiesObserved: r.familiesObserved,

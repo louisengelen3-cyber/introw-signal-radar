@@ -24,6 +24,32 @@
       }
     ],
     "conflict": null,
+    "observationDetail": [
+      {
+        "vendor": "HubSpot",
+        "basis": "operational_duty",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Account Executive Enterprise UK",
+        "publishedAt": "2026-06-23 11:55:04 UTC",
+        "rule": "operational_duty"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      }
+    ],
     "coverage": {
       "atsBoardFound": true,
       "vacanciesRead": 40,
@@ -31,6 +57,8 @@
       "nonPartnerTitlesRead": 35,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": [
         "company_ats_vacancy",
         "website_fingerprint"
@@ -98,6 +126,136 @@
       ],
       "explanation": "Salesforce is evidenced operationally, while HubSpot is present as a website artifact. The common explanation is a split between marketing tooling and the sales system of record, but a migration or a departmental system would look identical. Reported rather than resolved."
     },
+    "observationDetail": [
+      {
+        "vendor": "Salesforce",
+        "basis": "operational_duty",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Business Development Representative (BDR), DACH Market",
+        "publishedAt": "2026-08-17T08:11:39-04:00",
+        "rule": "operational_duty"
+      },
+      {
+        "vendor": "Salesforce",
+        "basis": "candidate_experience",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Confirmed Strategic Account Executive",
+        "publishedAt": "2026-08-20T15:04:37-04:00",
+        "rule": "candidate_requirement"
+      },
+      {
+        "vendor": "Salesforce",
+        "basis": "alternatives_list",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Director, Channel Partnerships",
+        "publishedAt": "2026-07-29T19:27:13-04:00",
+        "rule": "names_multiple_systems"
+      },
+      {
+        "vendor": "Salesforce",
+        "basis": "company_possession",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Director, Revenue Operations",
+        "publishedAt": "2026-07-29T19:27:13-04:00",
+        "rule": "company_possession"
+      },
+      {
+        "vendor": "Salesforce",
+        "basis": "alternatives_list",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+        "publishedAt": "2026-07-29T19:27:13-04:00",
+        "rule": "names_multiple_systems"
+      },
+      {
+        "vendor": "Salesforce",
+        "basis": "alternatives_list",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+        "publishedAt": "2026-07-29T19:27:13-04:00",
+        "rule": "names_multiple_systems"
+      },
+      {
+        "vendor": "Salesforce",
+        "basis": "candidate_experience",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Partnership Intern - UKI & Nordics",
+        "publishedAt": "2026-08-07T08:54:14-04:00",
+        "rule": "candidate_requirement"
+      },
+      {
+        "vendor": "Salesforce",
+        "basis": "alternatives_list",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Performance Marketing Manager",
+        "publishedAt": "2026-07-29T19:27:13-04:00",
+        "rule": "names_multiple_systems"
+      },
+      {
+        "vendor": "Salesforce",
+        "basis": "alternatives_list",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Regional Marketing Manager, Iberia & Italy Markets",
+        "publishedAt": "2026-07-29T19:27:13-04:00",
+        "rule": "names_multiple_systems"
+      },
+      {
+        "vendor": "Salesforce",
+        "basis": "alternatives_list",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Revenue Operations Manager, Planning & Commissions",
+        "publishedAt": "2026-07-30T14:07:41-04:00",
+        "rule": "bare_mention"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "alternatives_list",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Director, Channel Partnerships",
+        "publishedAt": "2026-07-29T19:27:13-04:00",
+        "rule": "names_multiple_systems"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "alternatives_list",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+        "publishedAt": "2026-07-29T19:27:13-04:00",
+        "rule": "names_multiple_systems"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "alternatives_list",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Forward Deployed Engineer - AI Solutions Engineering",
+        "publishedAt": "2026-07-29T19:27:13-04:00",
+        "rule": "names_multiple_systems"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "alternatives_list",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Performance Marketing Manager",
+        "publishedAt": "2026-07-29T19:27:13-04:00",
+        "rule": "names_multiple_systems"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "alternatives_list",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Regional Marketing Manager, Iberia & Italy Markets",
+        "publishedAt": "2026-07-29T19:27:13-04:00",
+        "rule": "names_multiple_systems"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      }
+    ],
     "coverage": {
       "atsBoardFound": true,
       "vacanciesRead": 40,
@@ -105,6 +263,8 @@
       "nonPartnerTitlesRead": 38,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": [
         "company_ats_vacancy",
         "website_fingerprint"
@@ -134,6 +294,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": true,
       "vacanciesRead": 10,
@@ -141,6 +302,8 @@
       "nonPartnerTitlesRead": 10,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 3,
+      "careersDocsFound": 3,
       "sourcesConsulted": []
     },
     "budget": {
@@ -161,6 +324,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 3,
@@ -168,6 +332,8 @@
       "nonPartnerTitlesRead": 3,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 3,
+      "careersDocsFound": 3,
       "sourcesConsulted": []
     },
     "budget": {
@@ -200,6 +366,24 @@
       }
     ],
     "conflict": null,
+    "observationDetail": [
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      }
+    ],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 0,
@@ -207,6 +391,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 0,
       "sourcesConsulted": [
         "website_fingerprint"
       ]
@@ -222,7 +408,7 @@
     "fromNonPartnerRoles": 0,
     "fromHistorical": 0,
     "note": "No source could be read, so nothing was established. This is not evidence that the company has no CRM.",
-    "seconds": 1
+    "seconds": 0
   },
   {
     "domain": "channable.com",
@@ -231,6 +417,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 1,
@@ -238,6 +425,8 @@
       "nonPartnerTitlesRead": 1,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 1,
       "sourcesConsulted": []
     },
     "budget": {
@@ -281,6 +470,48 @@
       }
     ],
     "conflict": null,
+    "observationDetail": [
+      {
+        "vendor": "HubSpot",
+        "basis": "candidate_experience",
+        "sourceType": "company_current_vacancy",
+        "jobTitle": "Performance Marketer (Freelance)",
+        "publishedAt": null,
+        "rule": "candidate_requirement"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "candidate_experience",
+        "sourceType": "company_current_vacancy",
+        "jobTitle": "CAM/PAM– Italy",
+        "publishedAt": null,
+        "rule": "candidate_requirement"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "alternatives_list",
+        "sourceType": "company_current_vacancy",
+        "jobTitle": "Go-to-Market Engineer",
+        "publishedAt": null,
+        "rule": "names_multiple_systems"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      },
+      {
+        "vendor": "Salesforce",
+        "basis": "alternatives_list",
+        "sourceType": "company_current_vacancy",
+        "jobTitle": "Go-to-Market Engineer",
+        "publishedAt": null,
+        "rule": "names_multiple_systems"
+      }
+    ],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 9,
@@ -288,6 +519,8 @@
       "nonPartnerTitlesRead": 9,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 9,
       "sourcesConsulted": [
         "company_current_vacancy",
         "website_fingerprint"
@@ -313,6 +546,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 3,
@@ -320,6 +554,8 @@
       "nonPartnerTitlesRead": 3,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 3,
+      "careersDocsFound": 3,
       "sourcesConsulted": []
     },
     "budget": {
@@ -340,6 +576,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": true,
       "vacanciesRead": 0,
@@ -347,6 +584,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "budget": {
@@ -367,6 +606,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 4,
@@ -374,6 +614,8 @@
       "nonPartnerTitlesRead": 4,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 4,
       "sourcesConsulted": []
     },
     "budget": {
@@ -394,6 +636,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 1,
@@ -401,6 +644,8 @@
       "nonPartnerTitlesRead": 1,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 1,
       "sourcesConsulted": []
     },
     "budget": {
@@ -421,6 +666,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 10,
@@ -428,6 +674,8 @@
       "nonPartnerTitlesRead": 9,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 10,
       "sourcesConsulted": []
     },
     "budget": {
@@ -448,6 +696,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 2,
@@ -455,6 +704,8 @@
       "nonPartnerTitlesRead": 2,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 2,
       "sourcesConsulted": []
     },
     "budget": {
@@ -487,6 +738,16 @@
       }
     ],
     "conflict": null,
+    "observationDetail": [
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      }
+    ],
     "coverage": {
       "atsBoardFound": true,
       "vacanciesRead": 3,
@@ -494,6 +755,8 @@
       "nonPartnerTitlesRead": 3,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 3,
+      "careersDocsFound": 2,
       "sourcesConsulted": [
         "website_fingerprint"
       ]
@@ -530,6 +793,32 @@
       }
     ],
     "conflict": null,
+    "observationDetail": [
+      {
+        "vendor": "HubSpot",
+        "basis": "candidate_experience",
+        "sourceType": "company_current_vacancy",
+        "jobTitle": "Web Editor - Internship - GetAccept",
+        "publishedAt": "2026-07-10T05:54:22.000Z",
+        "rule": "candidate_requirement"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "candidate_experience",
+        "sourceType": "company_current_vacancy",
+        "jobTitle": "Account Executive - GetAccept",
+        "publishedAt": "2026-06-04T10:55:21.000Z",
+        "rule": "candidate_requirement"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      }
+    ],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 4,
@@ -537,6 +826,8 @@
       "nonPartnerTitlesRead": 4,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 2,
+      "careersDocsFound": 4,
       "sourcesConsulted": [
         "company_current_vacancy",
         "website_fingerprint"
@@ -563,6 +854,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 3,
@@ -570,6 +862,8 @@
       "nonPartnerTitlesRead": 3,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 3,
       "sourcesConsulted": []
     },
     "budget": {
@@ -602,6 +896,24 @@
       }
     ],
     "conflict": null,
+    "observationDetail": [
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      }
+    ],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 1,
@@ -609,6 +921,8 @@
       "nonPartnerTitlesRead": 1,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 1,
       "sourcesConsulted": [
         "website_fingerprint"
       ]
@@ -624,7 +938,7 @@
     "fromNonPartnerRoles": 0,
     "fromHistorical": 0,
     "note": "1 vacancies and 0 searches produced no decisive CRM evidence. Unknown never means \"no CRM\".",
-    "seconds": 1
+    "seconds": 0
   },
   {
     "domain": "kiflo.com",
@@ -633,6 +947,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 0,
@@ -640,6 +955,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "budget": {
@@ -660,6 +977,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 2,
@@ -667,6 +985,8 @@
       "nonPartnerTitlesRead": 2,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 7,
+      "careersDocsFound": 2,
       "sourcesConsulted": []
     },
     "budget": {
@@ -699,6 +1019,24 @@
       }
     ],
     "conflict": null,
+    "observationDetail": [
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      }
+    ],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 1,
@@ -706,6 +1044,8 @@
       "nonPartnerTitlesRead": 1,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 1,
       "sourcesConsulted": [
         "website_fingerprint"
       ]
@@ -730,6 +1070,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 2,
@@ -737,6 +1078,8 @@
       "nonPartnerTitlesRead": 2,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 3,
+      "careersDocsFound": 2,
       "sourcesConsulted": []
     },
     "budget": {
@@ -769,6 +1112,16 @@
       }
     ],
     "conflict": null,
+    "observationDetail": [
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      }
+    ],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 2,
@@ -776,6 +1129,8 @@
       "nonPartnerTitlesRead": 2,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 2,
       "sourcesConsulted": [
         "website_fingerprint"
       ]
@@ -800,6 +1155,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 7,
@@ -807,6 +1163,8 @@
       "nonPartnerTitlesRead": 6,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 7,
       "sourcesConsulted": []
     },
     "budget": {
@@ -856,6 +1214,40 @@
       }
     ],
     "conflict": null,
+    "observationDetail": [
+      {
+        "vendor": "Salesforce",
+        "basis": "operational_duty",
+        "sourceType": "company_current_vacancy",
+        "jobTitle": "Sales/SDR Barcelona - English Speaker - PayFit",
+        "publishedAt": "2026-05-18T12:20:53.000Z",
+        "rule": "operational_duty"
+      },
+      {
+        "vendor": "Salesforce",
+        "basis": "alternatives_list",
+        "sourceType": "company_current_vacancy",
+        "jobTitle": "Customer Growth Manager Junior - PayFit",
+        "publishedAt": "2026-07-21T15:11:10.000Z",
+        "rule": "bare_mention"
+      },
+      {
+        "vendor": "Salesforce",
+        "basis": "alternatives_list",
+        "sourceType": "company_current_vacancy",
+        "jobTitle": "Account Executive Mid Market - Paris - PayFit",
+        "publishedAt": "2026-07-17T08:37:41.000Z",
+        "rule": "bare_mention"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "alternatives_list",
+        "sourceType": "company_current_vacancy",
+        "jobTitle": "Growth Marketing Apprentice - starting in November (1 year) - PayFit",
+        "publishedAt": "2026-08-05T09:53:15.000Z",
+        "rule": "category_example"
+      }
+    ],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 18,
@@ -863,6 +1255,8 @@
       "nonPartnerTitlesRead": 18,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 9,
+      "careersDocsFound": 18,
       "sourcesConsulted": [
         "company_current_vacancy"
       ]
@@ -911,6 +1305,40 @@
       }
     ],
     "conflict": null,
+    "observationDetail": [
+      {
+        "vendor": "Salesforce",
+        "basis": "alternatives_list",
+        "sourceType": "company_careers_index",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "names_multiple_systems"
+      },
+      {
+        "vendor": "Salesforce",
+        "basis": "candidate_experience",
+        "sourceType": "company_careers_index",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "candidate_requirement"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "alternatives_list",
+        "sourceType": "company_careers_index",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "names_multiple_systems"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "alternatives_list",
+        "sourceType": "company_careers_index",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "names_multiple_systems"
+      }
+    ],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 12,
@@ -918,6 +1346,8 @@
       "nonPartnerTitlesRead": 12,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 12,
       "sourcesConsulted": [
         "company_careers_index"
       ]
@@ -965,6 +1395,40 @@
       }
     ],
     "conflict": null,
+    "observationDetail": [
+      {
+        "vendor": "HubSpot",
+        "basis": "alternatives_list",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Senior Manager, Customer Success",
+        "publishedAt": "2026-08-21T10:11:26.744+00:00",
+        "rule": "category_example"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "alternatives_list",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Senior Manager, Sales UKI",
+        "publishedAt": "2026-07-24T13:30:02.465+00:00",
+        "rule": "bare_mention"
+      },
+      {
+        "vendor": "Salesforce",
+        "basis": "alternatives_list",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Strategic Programme Manager - Customer Experience",
+        "publishedAt": "2026-05-24T11:48:11.497+00:00",
+        "rule": "category_example"
+      },
+      {
+        "vendor": "Salesforce",
+        "basis": "alternatives_list",
+        "sourceType": "company_ats_vacancy",
+        "jobTitle": "Manager, Digital Scaled Onboarding",
+        "publishedAt": "2026-07-14T14:28:02.121+00:00",
+        "rule": "bare_mention"
+      }
+    ],
     "coverage": {
       "atsBoardFound": true,
       "vacanciesRead": 38,
@@ -972,6 +1436,8 @@
       "nonPartnerTitlesRead": 38,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 4,
+      "careersDocsFound": 4,
       "sourcesConsulted": [
         "company_ats_vacancy"
       ]
@@ -1010,6 +1476,24 @@
       }
     ],
     "conflict": null,
+    "observationDetail": [
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      }
+    ],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 3,
@@ -1017,6 +1501,8 @@
       "nonPartnerTitlesRead": 3,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 3,
       "sourcesConsulted": [
         "website_fingerprint"
       ]
@@ -1041,6 +1527,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": true,
       "vacanciesRead": 2,
@@ -1048,6 +1535,8 @@
       "nonPartnerTitlesRead": 2,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 2,
       "sourcesConsulted": []
     },
     "budget": {
@@ -1068,6 +1557,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 7,
@@ -1075,6 +1565,8 @@
       "nonPartnerTitlesRead": 7,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 7,
       "sourcesConsulted": []
     },
     "budget": {
@@ -1107,6 +1599,24 @@
       }
     ],
     "conflict": null,
+    "observationDetail": [
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      },
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      }
+    ],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 1,
@@ -1114,6 +1624,8 @@
       "nonPartnerTitlesRead": 1,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 1,
       "sourcesConsulted": [
         "website_fingerprint"
       ]
@@ -1138,6 +1650,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 10,
@@ -1145,6 +1658,8 @@
       "nonPartnerTitlesRead": 10,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 1,
+      "careersDocsFound": 10,
       "sourcesConsulted": []
     },
     "budget": {
@@ -1165,6 +1680,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 0,
@@ -1172,6 +1688,8 @@
       "nonPartnerTitlesRead": 0,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 0,
+      "careersDocsFound": 0,
       "sourcesConsulted": []
     },
     "budget": {
@@ -1192,6 +1710,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 3,
@@ -1199,6 +1718,8 @@
       "nonPartnerTitlesRead": 3,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 3,
+      "careersDocsFound": 3,
       "sourcesConsulted": []
     },
     "budget": {
@@ -1219,6 +1740,7 @@
     "previousFingerprints": 0,
     "vendors": [],
     "conflict": null,
+    "observationDetail": [],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 4,
@@ -1226,6 +1748,8 @@
       "nonPartnerTitlesRead": 4,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 2,
+      "careersDocsFound": 4,
       "sourcesConsulted": []
     },
     "budget": {
@@ -1258,6 +1782,16 @@
       }
     ],
     "conflict": null,
+    "observationDetail": [
+      {
+        "vendor": "HubSpot",
+        "basis": "fingerprint",
+        "sourceType": "website_fingerprint",
+        "jobTitle": null,
+        "publishedAt": null,
+        "rule": "website_artifact"
+      }
+    ],
     "coverage": {
       "atsBoardFound": false,
       "vacanciesRead": 2,
@@ -1265,6 +1799,8 @@
       "nonPartnerTitlesRead": 2,
       "searchQueriesRun": 0,
       "linkedinBlocked": false,
+      "careersPagesFound": 2,
+      "careersDocsFound": 2,
       "sourcesConsulted": [
         "website_fingerprint"
       ]

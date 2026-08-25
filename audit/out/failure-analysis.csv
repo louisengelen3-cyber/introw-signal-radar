@@ -1,0 +1,8 @@
+failure_stage,companies_affected,pct_of_corpus,commercial_consequence,fixability
+P1_NOT_PUBLIC,18,23.4,Vacancies were read and no CRM named. Nothing more to retrieve.,PUBLIC_DATA_LIMIT
+R1_PAGE_NOT_RETRIEVED,17,22.1,Company looks like it has no partner motion when it may have one.,ENGINEERING_FIXABLE
+P4_SOURCE_TOO_WEAK,17,22.1,A CRM is suggested but not establishable; a seller must verify.,PUBLIC_DATA_LIMIT
+E1_EVIDENCE_NOT_EXTRACTED,13,16.9,A partner page was read and produced nothing — likely vocabulary or structure miss.,ENGINEERING_FIXABLE
+R1_NO_CAREERS_SURFACE,8,10.4,CRM can never be established for this account by hiring evidence.,SOURCE_COVERAGE_FIXABLE
+R3_JS_CAREERS,2,2.6,Vacancies exist and are invisible; CRM reads unknown despite evidence existing.,ENGINEERING_FIXABLE
+NONE,2,2.6,-,-

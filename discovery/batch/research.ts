@@ -57,6 +57,16 @@ await Promise.all(Array.from({ length: 4 }, async () => {
         domain: t.domain, discoveredVia: t.family, lang: t.lang, geo: t.geo, sector: t.sector,
         discoveryNote: t.note,
         machineState: d.machineInterpretation.state,
+        // Persisted for the reliability audit so batch accounts are not structurally
+        // less measurable than existing ones.
+        prmState: d.systems?.prm?.state ?? 'unknown',
+        prmVendor: d.systems?.prm?.vendor ?? null,
+        directoryIsDirectory: d.partnerDirectory?.isDirectory === true,
+        constructs: (d.constructs ?? []).map((c: any) => ({ construct: c.construct, state: c.state })),
+        surfaceStates: (d.surfaces ?? []).map((s: any) => ({ surface: s.surface, state: s.state })),
+        pagesOk: (d.sourceHealth ?? []).filter((h: any) => h.health === 'success').length,
+        pagesFetched: (d.sourceHealth ?? []).length,
+        distinctClaims: d.machineInterpretation.diagnostics.distinctClaimCount,
         category: ev.category,
         programmes, surfaces,
         recoveryAdded: recovered && !recovered.redundant ? (recovered.addedMotions ?? []).concat(recovered.addedSurfaces ?? []) : [],
@@ -67,6 +77,10 @@ await Promise.all(Array.from({ length: 4 }, async () => {
           quote: topCrm?.basis?.quote?.slice(0, 220) ?? null, sourceUrl: topCrm?.basis?.sourceUrl ?? null,
           allVendors: crm.vendors.map((v) => `${v.vendor}/${v.level}`),
           conflict: crm.conflict?.kind ?? null,
+          observationDetail: crm.vendors.flatMap((v) => v.observations.map((o) => ({
+            vendor: o.vendor, basis: o.languageBasis, sourceType: o.sourceType,
+            jobTitle: o.jobTitle, publishedAt: o.sourcePublishedAt, rule: o.rule,
+          }))),
         },
         crmCoverage: crm.coverage, familiesObserved: crm.familiesObserved,
         fit: fit.state, fitReasons: fit.reasons, wouldResolve: fit.wouldResolve,
