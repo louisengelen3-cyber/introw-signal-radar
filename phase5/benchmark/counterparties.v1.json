@@ -1,0 +1,29 @@
+{
+  "purpose": "Counterparty seed for reseller-side inversion (workstream A). Two arms so the segment-mix comparison the mandate asks for is a real comparison, not an assertion.",
+  "provenanceRule": "Every counterparty here was identified in an EARLIER phase, independently of any vendor Phase 5 is trying to find. None was derived from the workstream-A decisive test. Seeding counterparties from the vendors under test would reproduce the Phase 2 Cohort B error exactly.",
+  "frozenAt": "2026-08-25",
+  "arms": {
+    "reseller_side": {
+      "definition": "VARs, systems integrators, consultancies and MSPs — firms that sell or implement other companies' software.",
+      "provenance": "phase3 controls.v1.json cleanNegatives (labelled negative for being participants, which is precisely what makes them counterparties) plus consultancies already present in the prior 247-domain corpus.",
+      "domains": [
+        "softcat.com", "computacenter.com", "bechtle.com", "insight.com",
+        "deloitte.com", "bain.com",
+        "cegeka.com", "devoteam.com", "sopra-steria.com", "valtech.com",
+        "xebia.com", "nagarro.com", "capgemini.com", "cognizant.com", "wipro.com",
+        "nomios.com"
+      ]
+    },
+    "distributor_side": {
+      "definition": "Two-tier distributors — the counterparty Phase 2 inverted.",
+      "provenance": "Identified as participants during the mandate-8 discovery batch.",
+      "domains": [
+        "exclusive-networks.com", "arrow.com", "scansource.com", "getwirelessllc.com"
+      ]
+    }
+  },
+  "confirmatoryOnly": {
+    "note": "Found BY the decisive test, i.e. by searching for known customers. Excluded from every yield and precision figure because including them would measure the search that produced them. Used only to confirm the crawler extracts the shapes the decisive test found.",
+    "domains": ["smcconsulting.be", "ojc-consulting.com", "hrpartners.securex.be"]
+  }
+}

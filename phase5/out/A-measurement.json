@@ -1,0 +1,4875 @@
+{
+  "reseller": {
+    "reached": 14,
+    "withV": 11,
+    "vendors": 363,
+    "resolved": 153,
+    "nameOnly": 210,
+    "multi": 41,
+    "overlapSeen": 3,
+    "overlap77": 1,
+    "fresh": 150,
+    "mix": {
+      "n": 363,
+      "giants": 55,
+      "eu": 1,
+      "noise": 21,
+      "remainder": 287
+    }
+  },
+  "distributor": {
+    "reached": 3,
+    "withV": 3,
+    "vendors": 125,
+    "resolved": 16,
+    "nameOnly": 109,
+    "multi": 0,
+    "overlapSeen": 0,
+    "overlap77": 0,
+    "fresh": 16,
+    "mix": {
+      "n": 125,
+      "giants": 10,
+      "eu": 1,
+      "noise": 14,
+      "remainder": 101
+    }
+  },
+  "resellerVendors": [
+    {
+      "key": "sogeti.ie",
+      "domain": "sogeti.ie",
+      "name": "Ireland | EN",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "capgemini.com"
+      ],
+      "sourceUrl": "https://www.capgemini.com/partners"
+    },
+    {
+      "key": "sogeti.lu",
+      "domain": "sogeti.lu",
+      "name": "Luxembourg | EN",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "capgemini.com"
+      ],
+      "sourceUrl": "https://www.capgemini.com/partners"
+    },
+    {
+      "key": "integrityline.com",
+      "domain": "integrityline.com",
+      "name": "SpeakUp",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "capgemini.com"
+      ],
+      "sourceUrl": "https://www.capgemini.com/partners"
+    },
+    {
+      "key": "name:hybrid cloud",
+      "domain": null,
+      "name": "hybrid cloud",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cegeka.com"
+      ],
+      "sourceUrl": "https://www.cegeka.com/en/solutions/hybrid-cloud"
+    },
+    {
+      "key": "name:data ai",
+      "domain": null,
+      "name": "data ai",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cegeka.com"
+      ],
+      "sourceUrl": "https://www.cegeka.com/en/solutions/data-ai"
+    },
+    {
+      "key": "name:regulatory compliance",
+      "domain": null,
+      "name": "regulatory compliance",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cegeka.com"
+      ],
+      "sourceUrl": "https://www.cegeka.com/en/solutions/regulatory-compliance"
+    },
+    {
+      "key": "name:cyber security networking",
+      "domain": null,
+      "name": "cyber security networking",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cegeka.com"
+      ],
+      "sourceUrl": "https://www.cegeka.com/en/solutions/cyber-security-networking"
+    },
+    {
+      "key": "name:digital employee experience",
+      "domain": null,
+      "name": "digital employee experience",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cegeka.com"
+      ],
+      "sourceUrl": "https://www.cegeka.com/en/solutions/digital-employee-experience"
+    },
+    {
+      "key": "name:dynamics365",
+      "domain": null,
+      "name": "dynamics365",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cegeka.com"
+      ],
+      "sourceUrl": "https://www.cegeka.com/en/be/solutions/dynamics365"
+    },
+    {
+      "key": "name:products platforms",
+      "domain": null,
+      "name": "products platforms",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cegeka.com"
+      ],
+      "sourceUrl": "https://www.cegeka.com/en/solutions/products-platforms"
+    },
+    {
+      "key": "name:cegeka engineering studio",
+      "domain": null,
+      "name": "cegeka engineering studio",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cegeka.com"
+      ],
+      "sourceUrl": "https://www.cegeka.com/en/solutions/cegeka-engineering-studio"
+    },
+    {
+      "key": "accruent.com",
+      "domain": "accruent.com",
+      "name": "Accruent",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "acquia.com",
+      "domain": "acquia.com",
+      "name": "Acquia",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "alation.com",
+      "domain": "alation.com",
+      "name": "Alation",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "anthropic.com",
+      "domain": "anthropic.com",
+      "name": "Anthropic",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "appdynamics.com",
+      "domain": "appdynamics.com",
+      "name": "AppDynamics",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "appian.com",
+      "domain": "appian.com",
+      "name": "Appian",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "aprimo.com",
+      "domain": "aprimo.com",
+      "name": "Aprimo",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "arisglobal.com",
+      "domain": "arisglobal.com",
+      "name": "Aris Global",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "automationanywhere.com",
+      "domain": "automationanywhere.com",
+      "name": "Automation Anywhere",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "bigid.com",
+      "domain": "bigid.com",
+      "name": "BigID",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "billingplatform.com",
+      "domain": "billingplatform.com",
+      "name": "BillingPlatform",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "blackline.com",
+      "domain": "blackline.com",
+      "name": "BlackLine",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "blueyonder.com",
+      "domain": "blueyonder.com",
+      "name": "Blue Yonder",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "boomi.com",
+      "domain": "boomi.com",
+      "name": "Boomi",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "calabrio.com",
+      "domain": "calabrio.com",
+      "name": "Calabrio",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "calypso.com",
+      "domain": "calypso.com",
+      "name": "Calypso",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "camunda.com",
+      "domain": "camunda.com",
+      "name": "Camunda",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "celonis.com",
+      "domain": "celonis.com",
+      "name": "Celonis",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "chef.io",
+      "domain": "chef.io",
+      "name": "Chef",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "cleo.com",
+      "domain": "cleo.com",
+      "name": "Cleo",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "cognition.ai",
+      "domain": "cognition.ai",
+      "name": "Cognition",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "cohesity.com",
+      "domain": "cohesity.com",
+      "name": "Cohesity",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "collibra.com",
+      "domain": "collibra.com",
+      "name": "Collibra",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "commercetools.com",
+      "domain": "commercetools.com",
+      "name": "commercetools",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "conga.com",
+      "domain": "conga.com",
+      "name": "Conga",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "coupa.com",
+      "domain": "coupa.com",
+      "name": "Coupa",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "csgi.com",
+      "domain": "csgi.com",
+      "name": "CSG",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "cyara.com",
+      "domain": "cyara.com",
+      "name": "Cyara",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "3ds.com",
+      "domain": "3ds.com",
+      "name": "Dassault Systemes",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "datarobot.com",
+      "domain": "datarobot.com",
+      "name": "Data Robot",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "datadoghq.com",
+      "domain": "datadoghq.com",
+      "name": "Datadog",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "dataiku.com",
+      "domain": "dataiku.com",
+      "name": "Dataiku",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "decisions.com",
+      "domain": "decisions.com",
+      "name": "Decisions",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "denodo.com",
+      "domain": "denodo.com",
+      "name": "Denodo",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "docusign.com",
+      "domain": "docusign.com",
+      "name": "Docusign",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "dynatrace.com",
+      "domain": "dynatrace.com",
+      "name": "Dynatrace",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "edifecs.com",
+      "domain": "edifecs.com",
+      "name": "Edifecs",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "eisgroup.com",
+      "domain": "eisgroup.com",
+      "name": "EIS Group",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "esri.com",
+      "domain": "esri.com",
+      "name": "Esri",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "flexrule.com",
+      "domain": "flexrule.com",
+      "name": "FlexRule",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "forcepoint.com",
+      "domain": "forcepoint.com",
+      "name": "Forcepoint",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "genesys.com",
+      "domain": "genesys.com",
+      "name": "Genesys",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "globalscape.com",
+      "domain": "globalscape.com",
+      "name": "Globalscape",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "goto.com",
+      "domain": "goto.com",
+      "name": "GoTo",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "gotransverse.com",
+      "domain": "gotransverse.com",
+      "name": "GoTransverse",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "hpe.com",
+      "domain": "hpe.com",
+      "name": "Hewlett Packard Enterprise",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "highradius.com",
+      "domain": "highradius.com",
+      "name": "HighRadius",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "hyland.com",
+      "domain": "hyland.com",
+      "name": "Hyland",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "icertis.com",
+      "domain": "icertis.com",
+      "name": "Icertis",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "ifs.com",
+      "domain": "ifs.com",
+      "name": "IFS",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "indicodata.ai",
+      "domain": "indicodata.ai",
+      "name": "Indico",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "infor.com",
+      "domain": "infor.com",
+      "name": "Infor",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "johngalt.com",
+      "domain": "johngalt.com",
+      "name": "John Galt",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "kanban.university",
+      "domain": "kanban.university",
+      "name": "Kanban University",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "kibocommerce.com",
+      "domain": "kibocommerce.com",
+      "name": "Kibo Commerce",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "kinaxis.com",
+      "domain": "kinaxis.com",
+      "name": "Kinaxis",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "kissflow.com",
+      "domain": "kissflow.com",
+      "name": "Kissflow",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "konghq.com",
+      "domain": "konghq.com",
+      "name": "Kong",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "koerber.com",
+      "domain": "koerber.com",
+      "name": "Körber",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "kore.ai",
+      "domain": "kore.ai",
+      "name": "Kore.AI",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "liferay.com",
+      "domain": "liferay.com",
+      "name": "Liferay",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "llamasoft.com",
+      "domain": "llamasoft.com",
+      "name": "Llamasoft",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "loftware.com",
+      "domain": "loftware.com",
+      "name": "Loftware",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "logik.io",
+      "domain": "logik.io",
+      "name": "Logik.io",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "manh.com",
+      "domain": "manh.com",
+      "name": "Manhattan Associates",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "medidata.com",
+      "domain": "medidata.com",
+      "name": "Medidata",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "metricstream.com",
+      "domain": "metricstream.com",
+      "name": "MetricStream",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "mongodb.com",
+      "domain": "mongodb.com",
+      "name": "MongoDB",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "netapp.com",
+      "domain": "netapp.com",
+      "name": "NetApp",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "nexthink.com",
+      "domain": "nexthink.com",
+      "name": "Nexthink",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "nice.com",
+      "domain": "nice.com",
+      "name": "NICE",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "o9solutions.com",
+      "domain": "o9solutions.com",
+      "name": "o9 Solutions",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "onetrust.com",
+      "domain": "onetrust.com",
+      "name": "OneTrust",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "openai.com",
+      "domain": "openai.com",
+      "name": "OpenAI",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "opentext.com",
+      "domain": "opentext.com",
+      "name": "OpenText",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "optimizely.com",
+      "domain": "optimizely.com",
+      "name": "Optimizely",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "outsystems.com",
+      "domain": "outsystems.com",
+      "name": "OutSystems",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "palantir.com",
+      "domain": "palantir.com",
+      "name": "Palantir Technologies",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "parasoft.com",
+      "domain": "parasoft.com",
+      "name": "Parasoft",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "perfecto.io",
+      "domain": "perfecto.io",
+      "name": "Perfecto",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "planful.com",
+      "domain": "planful.com",
+      "name": "Planful",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "plutora.com",
+      "domain": "plutora.com",
+      "name": "Plutora",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "puppet.com",
+      "domain": "puppet.com",
+      "name": "Puppet",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "purestorage.com",
+      "domain": "purestorage.com",
+      "name": "Pure Storage",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "quadient.com",
+      "domain": "quadient.com",
+      "name": "Quadient",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "qualys.com",
+      "domain": "qualys.com",
+      "name": "Qualys",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "radware.com",
+      "domain": "radware.com",
+      "name": "Radware",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "redpointglobal.com",
+      "domain": "redpointglobal.com",
+      "name": "Redpoint Global",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "redwood.com",
+      "domain": "redwood.com",
+      "name": "Redwood",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "reltio.com",
+      "domain": "reltio.com",
+      "name": "Reltio",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "resolve.io",
+      "domain": "resolve.io",
+      "name": "Resolve",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "rsa.com",
+      "domain": "rsa.com",
+      "name": "RSA",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "rubrik.com",
+      "domain": "rubrik.com",
+      "name": "Rubrik",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "rws.com",
+      "domain": "rws.com",
+      "name": "RWS",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "saba.com",
+      "domain": "saba.com",
+      "name": "Saba Software",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "sagitec.com",
+      "domain": "sagitec.com",
+      "name": "Sagitec Solutions",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "sailpoint.com",
+      "domain": "sailpoint.com",
+      "name": "SailPoint",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "salsify.com",
+      "domain": "salsify.com",
+      "name": "Salsify",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "sap.com",
+      "domain": "sap.com",
+      "name": "SAP",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "securiti.ai",
+      "domain": "securiti.ai",
+      "name": "Securiti.ai",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "seeburger.com",
+      "domain": "seeburger.com",
+      "name": "SEEBURGER",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "semarchy.com",
+      "domain": "semarchy.com",
+      "name": "Semarchy",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "sharedien.com",
+      "domain": "sharedien.com",
+      "name": "Sharedien",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "shopify.com",
+      "domain": "shopify.com",
+      "name": "Shopify",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "siemens.com",
+      "domain": "siemens.com",
+      "name": "Siemens",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "sinequa.com",
+      "domain": "sinequa.com",
+      "name": "Sinequa",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "sisense.com",
+      "domain": "sisense.com",
+      "name": "Sisense",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "sitecore.com",
+      "domain": "sitecore.com",
+      "name": "Sitecore",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "smartcommunications.com",
+      "domain": "smartcommunications.com",
+      "name": "Smart Communications",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "snaplogic.com",
+      "domain": "snaplogic.com",
+      "name": "SnapLogic",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "snowflake.com",
+      "domain": "snowflake.com",
+      "name": "Snowflake",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "softeon.com",
+      "domain": "softeon.com",
+      "name": "Softeon",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "sparklinglogic.com",
+      "domain": "sparklinglogic.com",
+      "name": "Sparkling Logic",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "spryker.com",
+      "domain": "spryker.com",
+      "name": "Spryker",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "spscommerce.com",
+      "domain": "spscommerce.com",
+      "name": "SPS Commerce",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "stibosystems.com",
+      "domain": "stibosystems.com",
+      "name": "Stibo Systems",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "sumtotalsystems.com",
+      "domain": "sumtotalsystems.com",
+      "name": "SumTotal Systems",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "symphonyindustrial.ai",
+      "domain": "symphonyindustrial.ai",
+      "name": "SymphonyAI Industrial",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "talkdesk.com",
+      "domain": "talkdesk.com",
+      "name": "Talkdesk",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "tatacommunications.com",
+      "domain": "tatacommunications.com",
+      "name": "Tata Communications",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "tealium.com",
+      "domain": "tealium.com",
+      "name": "Tealium",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "thalesgroup.com",
+      "domain": "thalesgroup.com",
+      "name": "Thales eSecurity",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "thomsonreuters.com",
+      "domain": "thomsonreuters.com",
+      "name": "Thomson Reuters",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "trendmicro.com",
+      "domain": "trendmicro.com",
+      "name": "Trend Micro",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "tricentis.com",
+      "domain": "tricentis.com",
+      "name": "Tricentis",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "ukg.com",
+      "domain": "ukg.com",
+      "name": "UKG",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "unqork.com",
+      "domain": "unqork.com",
+      "name": "Unqork",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "vian.ai",
+      "domain": "vian.ai",
+      "name": "Vianai Systems",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "vitechinc.com",
+      "domain": "vitechinc.com",
+      "name": "Vitech",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "werum.de",
+      "domain": "werum.de",
+      "name": "Werum IT Solutions",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "wpvip.com",
+      "domain": "wpvip.com",
+      "name": "WordPress VIP",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "workato.com",
+      "domain": "workato.com",
+      "name": "Workato",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "workiva.com",
+      "domain": "workiva.com",
+      "name": "Workiva",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "worksoft.com",
+      "domain": "worksoft.com",
+      "name": "Worksoft",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "xceptor.com",
+      "domain": "xceptor.com",
+      "name": "Xceptor",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "zenoss.com",
+      "domain": "zenoss.com",
+      "name": "Zenoss",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "zilliant.com",
+      "domain": "zilliant.com",
+      "name": "Zilliant",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "zoho.com",
+      "domain": "zoho.com",
+      "name": "Zoho",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/partners"
+    },
+    {
+      "key": "name:adobe",
+      "domain": null,
+      "name": "adobe",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "softcat.com",
+        "valtech.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/adobe"
+    },
+    {
+      "key": "name:aws",
+      "domain": null,
+      "name": "aws",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "softcat.com",
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/aws"
+    },
+    {
+      "key": "name:cisco",
+      "domain": null,
+      "name": "cisco",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "computacenter.com",
+        "nomios.com",
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/cisco"
+    },
+    {
+      "key": "name:crowdstrike",
+      "domain": null,
+      "name": "crowdstrike",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "computacenter.com",
+        "nomios.com",
+        "softcat.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/crowdstrike"
+    },
+    {
+      "key": "name:cyberark",
+      "domain": null,
+      "name": "cyberark",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/cyberark"
+    },
+    {
+      "key": "name:databricks",
+      "domain": null,
+      "name": "databricks",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "valtech.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/databricks"
+    },
+    {
+      "key": "name:dell technologies",
+      "domain": null,
+      "name": "dell technologies",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "computacenter.com",
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/dell-technologies"
+    },
+    {
+      "key": "name:delphix",
+      "domain": null,
+      "name": "delphix",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/delphix"
+    },
+    {
+      "key": "name:duck creek technologies",
+      "domain": null,
+      "name": "duck creek technologies",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/duck-creek-technologies"
+    },
+    {
+      "key": "name:finastra",
+      "domain": null,
+      "name": "finastra",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/finastra"
+    },
+    {
+      "key": "name:genrocket",
+      "domain": null,
+      "name": "genrocket",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/genrocket"
+    },
+    {
+      "key": "name:google cloud",
+      "domain": null,
+      "name": "google cloud",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/google-cloud"
+    },
+    {
+      "key": "name:guidewire",
+      "domain": null,
+      "name": "guidewire",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/guidewire"
+    },
+    {
+      "key": "name:hitachi vantara",
+      "domain": null,
+      "name": "hitachi vantara",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/hitachi-vantara"
+    },
+    {
+      "key": "name:ibm",
+      "domain": null,
+      "name": "ibm",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "computacenter.com",
+        "softcat.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/ibm"
+    },
+    {
+      "key": "name:informatica",
+      "domain": null,
+      "name": "informatica",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/informatica"
+    },
+    {
+      "key": "name:micro focus",
+      "domain": null,
+      "name": "micro focus",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/micro-focus"
+    },
+    {
+      "key": "name:microsoft",
+      "domain": null,
+      "name": "microsoft",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "computacenter.com",
+        "softcat.com",
+        "valtech.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/microsoft"
+    },
+    {
+      "key": "name:mulesoft",
+      "domain": null,
+      "name": "mulesoft",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/mulesoft"
+    },
+    {
+      "key": "name:nutanix",
+      "domain": null,
+      "name": "nutanix",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "computacenter.com",
+        "softcat.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/nutanix"
+    },
+    {
+      "key": "name:nvidia",
+      "domain": null,
+      "name": "nvidia",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "computacenter.com",
+        "softcat.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/nvidia"
+    },
+    {
+      "key": "name:omron",
+      "domain": null,
+      "name": "omron",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/omron"
+    },
+    {
+      "key": "name:oracle",
+      "domain": null,
+      "name": "oracle",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "computacenter.com",
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/oracle"
+    },
+    {
+      "key": "name:palo alto networks",
+      "domain": null,
+      "name": "palo alto networks",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "computacenter.com",
+        "nomios.com",
+        "softcat.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/palo-alto-networks"
+    },
+    {
+      "key": "name:pega",
+      "domain": null,
+      "name": "pega",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/pega"
+    },
+    {
+      "key": "name:ptc",
+      "domain": null,
+      "name": "ptc",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/ptc"
+    },
+    {
+      "key": "name:qlik",
+      "domain": null,
+      "name": "qlik",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/qlik"
+    },
+    {
+      "key": "name:red hat",
+      "domain": null,
+      "name": "red hat",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "computacenter.com",
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/red-hat"
+    },
+    {
+      "key": "name:salesforce",
+      "domain": null,
+      "name": "salesforce",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/salesforce"
+    },
+    {
+      "key": "name:software ag",
+      "domain": null,
+      "name": "software ag",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/software-ag"
+    },
+    {
+      "key": "name:tableau",
+      "domain": null,
+      "name": "tableau",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/tableau"
+    },
+    {
+      "key": "name:temenos",
+      "domain": null,
+      "name": "temenos",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/temenos"
+    },
+    {
+      "key": "name:tibco",
+      "domain": null,
+      "name": "tibco",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/tibco"
+    },
+    {
+      "key": "name:typeface",
+      "domain": null,
+      "name": "typeface",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/typeface"
+    },
+    {
+      "key": "name:uipath",
+      "domain": null,
+      "name": "uipath",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/uipath"
+    },
+    {
+      "key": "name:veeva",
+      "domain": null,
+      "name": "veeva",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/veeva"
+    },
+    {
+      "key": "name:vmware",
+      "domain": null,
+      "name": "vmware",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "computacenter.com",
+        "softcat.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/vmware"
+    },
+    {
+      "key": "name:zscaler",
+      "domain": null,
+      "name": "zscaler",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "cognizant.com",
+        "computacenter.com",
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/us/en/about-cognizant/partners/zscaler"
+    },
+    {
+      "key": "belcan.com",
+      "domain": "belcan.com",
+      "name": "Aerospace & defense",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "cognizant.com"
+      ],
+      "sourceUrl": "https://www.cognizant.com/"
+    },
+    {
+      "key": "name:apple",
+      "domain": null,
+      "name": "apple",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com",
+        "softcat.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/apple"
+    },
+    {
+      "key": "name:hewlett packard enterprise",
+      "domain": null,
+      "name": "hewlett packard enterprise",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/hewlett-packard-enterprise"
+    },
+    {
+      "key": "name:hp",
+      "domain": null,
+      "name": "hp",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/hp"
+    },
+    {
+      "key": "name:lenovo",
+      "domain": null,
+      "name": "lenovo",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com",
+        "softcat.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/lenovo"
+    },
+    {
+      "key": "name:netapp",
+      "domain": null,
+      "name": "netapp",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com",
+        "softcat.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/netapp"
+    },
+    {
+      "key": "name:amd",
+      "domain": null,
+      "name": "amd",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/amd"
+    },
+    {
+      "key": "name:arista",
+      "domain": null,
+      "name": "arista",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/arista"
+    },
+    {
+      "key": "name:aruba",
+      "domain": null,
+      "name": "aruba",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/aruba"
+    },
+    {
+      "key": "name:check point",
+      "domain": null,
+      "name": "check point",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/check-point"
+    },
+    {
+      "key": "name:citrix",
+      "domain": null,
+      "name": "citrix",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com",
+        "softcat.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/citrix"
+    },
+    {
+      "key": "name:cohesity",
+      "domain": null,
+      "name": "cohesity",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com",
+        "softcat.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/cohesity"
+    },
+    {
+      "key": "name:dynatrace",
+      "domain": null,
+      "name": "dynatrace",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/dynatrace"
+    },
+    {
+      "key": "name:everpure",
+      "domain": null,
+      "name": "everpure",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/everpure"
+    },
+    {
+      "key": "name:f5",
+      "domain": null,
+      "name": "f5",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/f5"
+    },
+    {
+      "key": "name:fortinet",
+      "domain": null,
+      "name": "fortinet",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com",
+        "nomios.com",
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/fortinet"
+    },
+    {
+      "key": "name:gitlab",
+      "domain": null,
+      "name": "gitlab",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/gitlab"
+    },
+    {
+      "key": "name:google",
+      "domain": null,
+      "name": "google",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com",
+        "valtech.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/google"
+    },
+    {
+      "key": "name:intel",
+      "domain": null,
+      "name": "intel",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/intel"
+    },
+    {
+      "key": "name:jabra",
+      "domain": null,
+      "name": "jabra",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/jabra"
+    },
+    {
+      "key": "name:juniper",
+      "domain": null,
+      "name": "juniper",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/juniper"
+    },
+    {
+      "key": "name:lexmark",
+      "domain": null,
+      "name": "lexmark",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/lexmark"
+    },
+    {
+      "key": "name:logitech",
+      "domain": null,
+      "name": "logitech",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/logitech"
+    },
+    {
+      "key": "name:mmd philips",
+      "domain": null,
+      "name": "mmd philips",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/mmd-philips"
+    },
+    {
+      "key": "name:omnissa",
+      "domain": null,
+      "name": "omnissa",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/omnissa"
+    },
+    {
+      "key": "name:qualcomm",
+      "domain": null,
+      "name": "qualcomm",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/qualcomm"
+    },
+    {
+      "key": "name:samsung",
+      "domain": null,
+      "name": "samsung",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com",
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/samsung"
+    },
+    {
+      "key": "name:splunk",
+      "domain": null,
+      "name": "splunk",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com",
+        "nomios.com",
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/splunk"
+    },
+    {
+      "key": "name:suse",
+      "domain": null,
+      "name": "suse",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/suse"
+    },
+    {
+      "key": "name:veeam",
+      "domain": null,
+      "name": "veeam",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com",
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/veeam"
+    },
+    {
+      "key": "name:wiz",
+      "domain": null,
+      "name": "wiz",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "computacenter.com"
+      ],
+      "sourceUrl": "https://www.computacenter.com/partners/wiz"
+    },
+    {
+      "key": "avature.net",
+      "domain": "avature.net",
+      "name": "Job search",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "deloitte.com"
+      ],
+      "sourceUrl": "https://www.deloitte.com/"
+    },
+    {
+      "key": "ubertasconsulting.com",
+      "domain": "ubertasconsulting.com",
+      "name": "Ubertas",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "devoteam.com"
+      ],
+      "sourceUrl": "https://www.devoteam.com/partners"
+    },
+    {
+      "key": "procori.com",
+      "domain": "procori.com",
+      "name": "ProCori",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "devoteam.com"
+      ],
+      "sourceUrl": "https://www.devoteam.com/partners"
+    },
+    {
+      "key": "integrity.pt",
+      "domain": "integrity.pt",
+      "name": "Integrity",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "devoteam.com"
+      ],
+      "sourceUrl": "https://www.devoteam.com/partners"
+    },
+    {
+      "key": "singularityde.com",
+      "domain": "singularityde.com",
+      "name": "Singularity",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "devoteam.com"
+      ],
+      "sourceUrl": "https://www.devoteam.com/partners"
+    },
+    {
+      "key": "intragen.com",
+      "domain": "intragen.com",
+      "name": "Intragen",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners"
+    },
+    {
+      "key": "dionach.com",
+      "domain": "dionach.com",
+      "name": "Dionach",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners"
+    },
+    {
+      "key": "name:abnormal security",
+      "domain": null,
+      "name": "abnormal security",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/abnormal-security/"
+    },
+    {
+      "key": "name:adtran",
+      "domain": null,
+      "name": "adtran",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/adtran/"
+    },
+    {
+      "key": "name:arista networks",
+      "domain": null,
+      "name": "arista networks",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/arista-networks/"
+    },
+    {
+      "key": "name:broadforward",
+      "domain": null,
+      "name": "broadforward",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/broadforward/"
+    },
+    {
+      "key": "name:cybereason",
+      "domain": null,
+      "name": "cybereason",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/cybereason/"
+    },
+    {
+      "key": "name:digicert",
+      "domain": null,
+      "name": "digicert",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/digicert/"
+    },
+    {
+      "key": "name:dionach",
+      "domain": null,
+      "name": "dionach",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/dionach/"
+    },
+    {
+      "key": "name:efficientip",
+      "domain": null,
+      "name": "efficientip",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/efficientip/"
+    },
+    {
+      "key": "name:f5 networks",
+      "domain": null,
+      "name": "f5 networks",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/f5-networks/"
+    },
+    {
+      "key": "name:forcepoint",
+      "domain": null,
+      "name": "forcepoint",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com",
+        "softcat.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/forcepoint/"
+    },
+    {
+      "key": "name:hpe",
+      "domain": null,
+      "name": "hpe",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com",
+        "softcat.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/hpe/"
+    },
+    {
+      "key": "name:imperva",
+      "domain": null,
+      "name": "imperva",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/imperva/"
+    },
+    {
+      "key": "name:infoblox",
+      "domain": null,
+      "name": "infoblox",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/infoblox/"
+    },
+    {
+      "key": "name:ip fabric",
+      "domain": null,
+      "name": "ip fabric",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/ip-fabric/"
+    },
+    {
+      "key": "name:juniper networks",
+      "domain": null,
+      "name": "juniper networks",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/juniper-networks/"
+    },
+    {
+      "key": "name:keyfactor",
+      "domain": null,
+      "name": "keyfactor",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/keyfactor/"
+    },
+    {
+      "key": "name:netskope",
+      "domain": null,
+      "name": "netskope",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/netskope/"
+    },
+    {
+      "key": "name:nokia networks",
+      "domain": null,
+      "name": "nokia networks",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/nokia-networks/"
+    },
+    {
+      "key": "name:proofpoint",
+      "domain": null,
+      "name": "proofpoint",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/proofpoint/"
+    },
+    {
+      "key": "name:radware",
+      "domain": null,
+      "name": "radware",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/radware/"
+    },
+    {
+      "key": "name:tehtris",
+      "domain": null,
+      "name": "tehtris",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/tehtris/"
+    },
+    {
+      "key": "name:tenable",
+      "domain": null,
+      "name": "tenable",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com",
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/tenable/"
+    },
+    {
+      "key": "name:thales",
+      "domain": null,
+      "name": "thales",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/thales/"
+    },
+    {
+      "key": "name:trellix",
+      "domain": null,
+      "name": "trellix",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/trellix/"
+    },
+    {
+      "key": "name:trend ai",
+      "domain": null,
+      "name": "trend ai",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/trend-ai/"
+    },
+    {
+      "key": "name:tufin",
+      "domain": null,
+      "name": "tufin",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/tufin/"
+    },
+    {
+      "key": "name:vectra",
+      "domain": null,
+      "name": "vectra",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/vectra/"
+    },
+    {
+      "key": "name:xm cyber",
+      "domain": null,
+      "name": "xm cyber",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "nomios.com"
+      ],
+      "sourceUrl": "https://www.nomios.com/partners/xm-cyber/"
+    },
+    {
+      "key": "microsoft.com",
+      "domain": "microsoft.com",
+      "name": "Employee Portal",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners"
+    },
+    {
+      "key": "name:digital workspace",
+      "domain": null,
+      "name": "digital workspace",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/solutions/digital-workspace"
+    },
+    {
+      "key": "name:cyber security",
+      "domain": null,
+      "name": "cyber security",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/solutions/cyber-security"
+    },
+    {
+      "key": "name:networking and connectivity",
+      "domain": null,
+      "name": "networking and connectivity",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/solutions/networking-and-connectivity"
+    },
+    {
+      "key": "name:data automation and ai",
+      "domain": null,
+      "name": "data automation and ai",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/solutions/data-automation-and-ai"
+    },
+    {
+      "key": "name:checkpoint",
+      "domain": null,
+      "name": "checkpoint",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/checkpoint"
+    },
+    {
+      "key": "name:mimecast",
+      "domain": null,
+      "name": "mimecast",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/mimecast"
+    },
+    {
+      "key": "name:hp inc",
+      "domain": null,
+      "name": "hp inc",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/hp-inc"
+    },
+    {
+      "key": "name:rubrik",
+      "domain": null,
+      "name": "rubrik",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/rubrik"
+    },
+    {
+      "key": "name:pure storage",
+      "domain": null,
+      "name": "pure storage",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com",
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/pure-storage"
+    },
+    {
+      "key": "name:commvault",
+      "domain": null,
+      "name": "commvault",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/commvault"
+    },
+    {
+      "key": "name:druva",
+      "domain": null,
+      "name": "druva",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/druva"
+    },
+    {
+      "key": "name:snapdragon",
+      "domain": null,
+      "name": "snapdragon",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/snapdragon"
+    },
+    {
+      "key": "name:jamf",
+      "domain": null,
+      "name": "jamf",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/jamf"
+    },
+    {
+      "key": "name:ring central",
+      "domain": null,
+      "name": "ring central",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/ring-central"
+    },
+    {
+      "key": "name:amd 2",
+      "domain": null,
+      "name": "amd 2",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/amd-2"
+    },
+    {
+      "key": "name:8x8",
+      "domain": null,
+      "name": "8x8",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/8x8"
+    },
+    {
+      "key": "name:arctic wolf",
+      "domain": null,
+      "name": "arctic wolf",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/arctic-wolf"
+    },
+    {
+      "key": "name:sentinelone",
+      "domain": null,
+      "name": "sentinelone",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/sentinelone"
+    },
+    {
+      "key": "name:at t cybersecurity",
+      "domain": null,
+      "name": "at t cybersecurity",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/at-t-cybersecurity"
+    },
+    {
+      "key": "name:trend micro",
+      "domain": null,
+      "name": "trend micro",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/trend-micro"
+    },
+    {
+      "key": "name:varonis",
+      "domain": null,
+      "name": "varonis",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/varonis"
+    },
+    {
+      "key": "name:rapid7",
+      "domain": null,
+      "name": "rapid7",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/rapid7"
+    },
+    {
+      "key": "name:sophos",
+      "domain": null,
+      "name": "sophos",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/sophos"
+    },
+    {
+      "key": "name:intel corporation",
+      "domain": null,
+      "name": "intel corporation",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/partners/intel-corporation"
+    },
+    {
+      "key": "name:cloud",
+      "domain": null,
+      "name": "cloud",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/solutions/cloud"
+    },
+    {
+      "key": "name:collaboration",
+      "domain": null,
+      "name": "collaboration",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/solutions/collaboration"
+    },
+    {
+      "key": "name:data centre and private cloud",
+      "domain": null,
+      "name": "data centre and private cloud",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/solutions/data-centre-and-private-cloud"
+    },
+    {
+      "key": "name:devices",
+      "domain": null,
+      "name": "devices",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/solutions/devices"
+    },
+    {
+      "key": "name:modern management",
+      "domain": null,
+      "name": "modern management",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/solutions/modern-management"
+    },
+    {
+      "key": "name:software licensing",
+      "domain": null,
+      "name": "software licensing",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/solutions/software-licensing"
+    },
+    {
+      "key": "name:virtual desktop and applications",
+      "domain": null,
+      "name": "virtual desktop and applications",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/solutions/virtual-desktop-and-applications"
+    },
+    {
+      "key": "name:hybrid infrastructure",
+      "domain": null,
+      "name": "hybrid infrastructure",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/solutions/hybrid-infrastructure"
+    },
+    {
+      "key": "name:connectivity",
+      "domain": null,
+      "name": "connectivity",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/solutions/connectivity"
+    },
+    {
+      "key": "name:it asset management",
+      "domain": null,
+      "name": "it asset management",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/solutions/it-asset-management"
+    },
+    {
+      "key": "name:security",
+      "domain": null,
+      "name": "security",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "softcat.com"
+      ],
+      "sourceUrl": "https://www.softcat.com/solutions/security"
+    },
+    {
+      "key": "soundcloud.com",
+      "domain": "soundcloud.com",
+      "name": "soundcloud",
+      "basis": "logo_alt_link",
+      "publishedBy": [
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.valtech.com/partners"
+    },
+    {
+      "key": "spotify.com",
+      "domain": "spotify.com",
+      "name": "spotify",
+      "basis": "logo_alt_link",
+      "publishedBy": [
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.valtech.com/partners"
+    },
+    {
+      "key": "name:akeneo",
+      "domain": null,
+      "name": "akeneo",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.valtech.com/partners/akeneo/"
+    },
+    {
+      "key": "name:bloomreach",
+      "domain": null,
+      "name": "bloomreach",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.valtech.com/partners/bloomreach/"
+    },
+    {
+      "key": "name:commercetools",
+      "domain": null,
+      "name": "commercetools",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.valtech.com/partners/commercetools/"
+    },
+    {
+      "key": "name:contentful",
+      "domain": null,
+      "name": "contentful",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.valtech.com/partners/contentful/"
+    },
+    {
+      "key": "name:contentstack",
+      "domain": null,
+      "name": "contentstack",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.valtech.com/partners/contentstack/"
+    },
+    {
+      "key": "name:fluent commerce",
+      "domain": null,
+      "name": "fluent commerce",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.valtech.com/partners/fluent-commerce/"
+    },
+    {
+      "key": "name:inriver",
+      "domain": null,
+      "name": "inriver",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.valtech.com/partners/inriver/"
+    },
+    {
+      "key": "name:optimizely",
+      "domain": null,
+      "name": "optimizely",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.valtech.com/partners/optimizely/"
+    },
+    {
+      "key": "name:salsify",
+      "domain": null,
+      "name": "salsify",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.valtech.com/partners/salsify/"
+    },
+    {
+      "key": "name:sap hybris",
+      "domain": null,
+      "name": "sap hybris",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.valtech.com/partners/sap-hybris/"
+    },
+    {
+      "key": "name:sitecore",
+      "domain": null,
+      "name": "sitecore",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.valtech.com/partners/sitecore/"
+    },
+    {
+      "key": "name:vercel",
+      "domain": null,
+      "name": "vercel",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.valtech.com/partners/vercel/"
+    },
+    {
+      "key": "name:vtex",
+      "domain": null,
+      "name": "vtex",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.valtech.com/partners/vtex/"
+    },
+    {
+      "key": "name:shopify",
+      "domain": null,
+      "name": "shopify",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "valtech.com"
+      ],
+      "sourceUrl": "https://www.valtech.com/partners/shopify/"
+    },
+    {
+      "key": "servicenow.com",
+      "domain": "servicenow.com",
+      "name": "Watch Now",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners"
+    },
+    {
+      "key": "name:dell",
+      "domain": null,
+      "name": "dell",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/dell/"
+    },
+    {
+      "key": "name:snowflake",
+      "domain": null,
+      "name": "snowflake",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/snowflake/"
+    },
+    {
+      "key": "name:flexera",
+      "domain": null,
+      "name": "flexera",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/flexera/"
+    },
+    {
+      "key": "name:alight",
+      "domain": null,
+      "name": "alight",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/alight/"
+    },
+    {
+      "key": "name:appian",
+      "domain": null,
+      "name": "appian",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/appian/"
+    },
+    {
+      "key": "name:att",
+      "domain": null,
+      "name": "att",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/att/"
+    },
+    {
+      "key": "name:avo automation",
+      "domain": null,
+      "name": "avo automation",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/avo-automation/"
+    },
+    {
+      "key": "name:blackline",
+      "domain": null,
+      "name": "blackline",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/blackline/"
+    },
+    {
+      "key": "name:blue yonder",
+      "domain": null,
+      "name": "blue yonder",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/blue-yonder/"
+    },
+    {
+      "key": "name:boomi",
+      "domain": null,
+      "name": "boomi",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/boomi/"
+    },
+    {
+      "key": "name:board",
+      "domain": null,
+      "name": "board",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/board/"
+    },
+    {
+      "key": "name:bmc",
+      "domain": null,
+      "name": "bmc",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/bmc/"
+    },
+    {
+      "key": "name:calypso",
+      "domain": null,
+      "name": "calypso",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/calypso/"
+    },
+    {
+      "key": "name:cloudera",
+      "domain": null,
+      "name": "cloudera",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/cloudera/"
+    },
+    {
+      "key": "name:cloudflare",
+      "domain": null,
+      "name": "cloudflare",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/cloudflare/"
+    },
+    {
+      "key": "name:datadog",
+      "domain": null,
+      "name": "datadog",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/datadog/"
+    },
+    {
+      "key": "name:doxis",
+      "domain": null,
+      "name": "doxis",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/doxis/"
+    },
+    {
+      "key": "name:denodo",
+      "domain": null,
+      "name": "denodo",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/denodo/"
+    },
+    {
+      "key": "name:elastic",
+      "domain": null,
+      "name": "elastic",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/elastic/"
+    },
+    {
+      "key": "name:equinix",
+      "domain": null,
+      "name": "equinix",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/equinix/"
+    },
+    {
+      "key": "name:five9",
+      "domain": null,
+      "name": "five9",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/five9/"
+    },
+    {
+      "key": "name:functionize",
+      "domain": null,
+      "name": "functionize",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/functionize/"
+    },
+    {
+      "key": "name:genesys",
+      "domain": null,
+      "name": "genesys",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/genesys/"
+    },
+    {
+      "key": "name:grafana labs",
+      "domain": null,
+      "name": "grafana labs",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/grafana-labs/"
+    },
+    {
+      "key": "name:harness",
+      "domain": null,
+      "name": "harness",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/harness/"
+    },
+    {
+      "key": "name:healthedge",
+      "domain": null,
+      "name": "healthedge",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/healthedge/"
+    },
+    {
+      "key": "name:hclsoftware",
+      "domain": null,
+      "name": "hclsoftware",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/hclsoftware/"
+    },
+    {
+      "key": "name:hitachi",
+      "domain": null,
+      "name": "hitachi",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/hitachi/"
+    },
+    {
+      "key": "name:ifs",
+      "domain": null,
+      "name": "ifs",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/ifs/"
+    },
+    {
+      "key": "name:incorta",
+      "domain": null,
+      "name": "incorta",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/incorta/"
+    },
+    {
+      "key": "name:infor",
+      "domain": null,
+      "name": "infor",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/infor/"
+    },
+    {
+      "key": "name:kibo",
+      "domain": null,
+      "name": "kibo",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/kibo/"
+    },
+    {
+      "key": "name:kinaxis",
+      "domain": null,
+      "name": "kinaxis",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/kinaxis/"
+    },
+    {
+      "key": "name:krypton",
+      "domain": null,
+      "name": "krypton",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/krypton/"
+    },
+    {
+      "key": "name:kognitos",
+      "domain": null,
+      "name": "kognitos",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/kognitos/"
+    },
+    {
+      "key": "name:liferay",
+      "domain": null,
+      "name": "liferay",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/liferay/"
+    },
+    {
+      "key": "name:nexthink",
+      "domain": null,
+      "name": "nexthink",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/nexthink/"
+    },
+    {
+      "key": "name:opsramp",
+      "domain": null,
+      "name": "opsramp",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/opsramp/"
+    },
+    {
+      "key": "name:plexis",
+      "domain": null,
+      "name": "plexis",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/plexis/"
+    },
+    {
+      "key": "name:pricefx",
+      "domain": null,
+      "name": "pricefx",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/pricefx/"
+    },
+    {
+      "key": "name:recorded future",
+      "domain": null,
+      "name": "recorded future",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/recorded-future/"
+    },
+    {
+      "key": "name:redhat",
+      "domain": null,
+      "name": "redhat",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/redhat/"
+    },
+    {
+      "key": "name:reltio",
+      "domain": null,
+      "name": "reltio",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/reltio/"
+    },
+    {
+      "key": "name:sailpoint",
+      "domain": null,
+      "name": "sailpoint",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/sailpoint/"
+    },
+    {
+      "key": "name:totara",
+      "domain": null,
+      "name": "totara",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/totara/"
+    },
+    {
+      "key": "name:tricentis",
+      "domain": null,
+      "name": "tricentis",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/tricentis/"
+    },
+    {
+      "key": "name:united layer",
+      "domain": null,
+      "name": "united layer",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/united-layer/"
+    },
+    {
+      "key": "name:veritas",
+      "domain": null,
+      "name": "veritas",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/veritas/"
+    },
+    {
+      "key": "name:vfunction.",
+      "domain": null,
+      "name": "vfunction.",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/vfunction./"
+    },
+    {
+      "key": "name:walkme",
+      "domain": null,
+      "name": "walkme",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/walkme/"
+    },
+    {
+      "key": "name:webomates",
+      "domain": null,
+      "name": "webomates",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/webomates/"
+    },
+    {
+      "key": "name:worksoft",
+      "domain": null,
+      "name": "worksoft",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/worksoft/"
+    },
+    {
+      "key": "name:wiz cloud security",
+      "domain": null,
+      "name": "wiz cloud security",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/wiz-cloud-security/"
+    },
+    {
+      "key": "name:yugabyte",
+      "domain": null,
+      "name": "yugabyte",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "wipro.com"
+      ],
+      "sourceUrl": "https://www.wipro.com/partners/yugabyte/"
+    },
+    {
+      "key": "name:monday com",
+      "domain": null,
+      "name": "monday com",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "xebia.com"
+      ],
+      "sourceUrl": "https://xebia.com/partners/monday-com/"
+    },
+    {
+      "key": "name:agentic data pipeline migrator",
+      "domain": null,
+      "name": "agentic data pipeline migrator",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "xebia.com"
+      ],
+      "sourceUrl": "https://xebia.com/solutions/agentic-data-pipeline-migrator/"
+    },
+    {
+      "key": "name:agentic os platform",
+      "domain": null,
+      "name": "agentic os platform",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "xebia.com"
+      ],
+      "sourceUrl": "https://xebia.com/solutions/agentic-os-platform/"
+    }
+  ],
+  "distributorVendors": [
+    {
+      "key": "x-od.com",
+      "domain": "x-od.com",
+      "name": "Partner Portal login",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "ignition-technology.com",
+      "domain": "ignition-technology.com",
+      "name": "Visit site",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "nuaware.com",
+      "domain": "nuaware.com",
+      "name": "Visit site",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "cloudrise.com",
+      "domain": "cloudrise.com",
+      "name": "Visit site",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "bridgingminds.net",
+      "domain": "bridgingminds.net",
+      "name": "Visit site",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "compendium.pl",
+      "domain": "compendium.pl",
+      "name": "Visit site",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "consigas.com",
+      "domain": "consigas.com",
+      "name": "Visit site",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "nextgen.group",
+      "domain": "nextgen.group",
+      "name": "nextgen",
+      "basis": "logo_alt_link",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "nxtds.com",
+      "domain": "nxtds.com",
+      "name": "Web development by NXT Digital Solutions",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "aboutcookies.org",
+      "domain": "aboutcookies.org",
+      "name": "www.aboutcookies.org",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "allaboutcookies.org",
+      "domain": "allaboutcookies.org",
+      "name": "www.allaboutcookies.org",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:endpoint security",
+      "domain": null,
+      "name": "endpoint security",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:cloud security",
+      "domain": null,
+      "name": "cloud security",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:ot and iot security",
+      "domain": null,
+      "name": "ot and iot security",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:application security",
+      "domain": null,
+      "name": "application security",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:network detection and response",
+      "domain": null,
+      "name": "network detection and response",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:cybersecurity risk assessment",
+      "domain": null,
+      "name": "cybersecurity risk assessment",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:human factor security",
+      "domain": null,
+      "name": "human factor security",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:identity access management",
+      "domain": null,
+      "name": "identity access management",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:vulnerability and security analytics",
+      "domain": null,
+      "name": "vulnerability and security analytics",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:data security",
+      "domain": null,
+      "name": "data security",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:web and email security",
+      "domain": null,
+      "name": "web and email security",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:network security",
+      "domain": null,
+      "name": "network security",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:anomali",
+      "domain": null,
+      "name": "anomali",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:arista networks",
+      "domain": null,
+      "name": "arista networks",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:axonius",
+      "domain": null,
+      "name": "axonius",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:azul",
+      "domain": null,
+      "name": "azul",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:beyondtrust",
+      "domain": null,
+      "name": "beyondtrust",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:claroty",
+      "domain": null,
+      "name": "claroty",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:cloudflare",
+      "domain": null,
+      "name": "cloudflare",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:cloudian",
+      "domain": null,
+      "name": "cloudian",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:corelight",
+      "domain": null,
+      "name": "corelight",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:crowdstrike",
+      "domain": null,
+      "name": "crowdstrike",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:cubbit",
+      "domain": null,
+      "name": "cubbit",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:cyberark",
+      "domain": null,
+      "name": "cyberark",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:cyble",
+      "domain": null,
+      "name": "cyble",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:docker",
+      "domain": null,
+      "name": "docker",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:drata",
+      "domain": null,
+      "name": "drata",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:druva",
+      "domain": null,
+      "name": "druva",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:exabeam",
+      "domain": null,
+      "name": "exabeam",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:extrahop",
+      "domain": null,
+      "name": "extrahop",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:extreme networks",
+      "domain": null,
+      "name": "extreme networks",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:f5",
+      "domain": null,
+      "name": "f5",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:firemon",
+      "domain": null,
+      "name": "firemon",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:forcepoint",
+      "domain": null,
+      "name": "forcepoint",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:forescout technologies",
+      "domain": null,
+      "name": "forescout technologies",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:fortinet",
+      "domain": null,
+      "name": "fortinet",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:fujitsu",
+      "domain": null,
+      "name": "fujitsu",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:gigamon",
+      "domain": null,
+      "name": "gigamon",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:greenbone",
+      "domain": null,
+      "name": "greenbone",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:hashicorp",
+      "domain": null,
+      "name": "hashicorp",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:hpe aruba",
+      "domain": null,
+      "name": "hpe aruba",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:huawei",
+      "domain": null,
+      "name": "huawei",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:hycu",
+      "domain": null,
+      "name": "hycu",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:imperva networks",
+      "domain": null,
+      "name": "imperva networks",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:infoblox",
+      "domain": null,
+      "name": "infoblox",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:iqsol",
+      "domain": null,
+      "name": "iqsol",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:juniper networks",
+      "domain": null,
+      "name": "juniper networks",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:mimecast",
+      "domain": null,
+      "name": "mimecast",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:mirantis with nuaware",
+      "domain": null,
+      "name": "mirantis with nuaware",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:netapp",
+      "domain": null,
+      "name": "netapp",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:netskope",
+      "domain": null,
+      "name": "netskope",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:nokia",
+      "domain": null,
+      "name": "nokia",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:gsi",
+      "domain": null,
+      "name": "gsi",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:mssp",
+      "domain": null,
+      "name": "mssp",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:nozomi networks",
+      "domain": null,
+      "name": "nozomi networks",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:nutanix",
+      "domain": null,
+      "name": "nutanix",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:okta",
+      "domain": null,
+      "name": "okta",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:one identity",
+      "domain": null,
+      "name": "one identity",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:palo alto networks",
+      "domain": null,
+      "name": "palo alto networks",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:proofpoint",
+      "domain": null,
+      "name": "proofpoint",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:rackmountit",
+      "domain": null,
+      "name": "rackmountit",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:rubrik",
+      "domain": null,
+      "name": "rubrik",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:ruckus networks",
+      "domain": null,
+      "name": "ruckus networks",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:sailpoint",
+      "domain": null,
+      "name": "sailpoint",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:sentinelone",
+      "domain": null,
+      "name": "sentinelone",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:sysdig",
+      "domain": null,
+      "name": "sysdig",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:tenable",
+      "domain": null,
+      "name": "tenable",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:thales",
+      "domain": null,
+      "name": "thales",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:vectra",
+      "domain": null,
+      "name": "vectra",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:xm cyber networks",
+      "domain": null,
+      "name": "xm cyber networks",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:ridge security",
+      "domain": null,
+      "name": "ridge security",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:semperis",
+      "domain": null,
+      "name": "semperis",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:solarwinds",
+      "domain": null,
+      "name": "solarwinds",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:spycloud",
+      "domain": null,
+      "name": "spycloud",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:onespan",
+      "domain": null,
+      "name": "onespan",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:opengear",
+      "domain": null,
+      "name": "opengear",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:red hat",
+      "domain": null,
+      "name": "red hat",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:rpost",
+      "domain": null,
+      "name": "rpost",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:thrivedx lucy",
+      "domain": null,
+      "name": "thrivedx lucy",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:trellix",
+      "domain": null,
+      "name": "trellix",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:wasabi technologies",
+      "domain": null,
+      "name": "wasabi technologies",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:zero networks",
+      "domain": null,
+      "name": "zero networks",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:aws",
+      "domain": null,
+      "name": "aws",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:bitsight",
+      "domain": null,
+      "name": "bitsight",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:jamf",
+      "domain": null,
+      "name": "jamf",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "name:tufin",
+      "domain": null,
+      "name": "tufin",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "exclusive-networks.com"
+      ]
+    },
+    {
+      "key": "browsehappy.com",
+      "domain": "browsehappy.com",
+      "name": "upgrade",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:semtech",
+      "domain": null,
+      "name": "semtech",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:peplink",
+      "domain": null,
+      "name": "peplink",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:option cloudgate",
+      "domain": null,
+      "name": "option cloudgate",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:cubic",
+      "domain": null,
+      "name": "cubic",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:simplifi",
+      "domain": null,
+      "name": "simplifi",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:cellular path",
+      "domain": null,
+      "name": "cellular path",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:panorama antennas",
+      "domain": null,
+      "name": "panorama antennas",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:parsec technologies",
+      "domain": null,
+      "name": "parsec technologies",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:taoglas antennas",
+      "domain": null,
+      "name": "taoglas antennas",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:2j antennas",
+      "domain": null,
+      "name": "2j antennas",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:netgear",
+      "domain": null,
+      "name": "netgear",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:nextivity",
+      "domain": null,
+      "name": "nextivity",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:telit cinterion",
+      "domain": null,
+      "name": "telit cinterion",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:bipom",
+      "domain": null,
+      "name": "bipom",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:frontier iot",
+      "domain": null,
+      "name": "frontier iot",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:value added resellers",
+      "domain": null,
+      "name": "value added resellers",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:end users",
+      "domain": null,
+      "name": "end users",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:vendors",
+      "domain": null,
+      "name": "vendors",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:mobile network operators",
+      "domain": null,
+      "name": "mobile network operators",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:iot hardware for end users",
+      "domain": null,
+      "name": "iot hardware for end users",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "name:airgain",
+      "domain": null,
+      "name": "airgain",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "getwirelessllc.com"
+      ]
+    },
+    {
+      "key": "intelisys.com",
+      "domain": "intelisys.com",
+      "name": "Intelisys",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "scansource.com"
+      ]
+    },
+    {
+      "key": "resourcive.com",
+      "domain": "resourcive.com",
+      "name": "Resourcive",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "scansource.com"
+      ]
+    },
+    {
+      "key": "rpmtelco.com",
+      "domain": "rpmtelco.com",
+      "name": "RPM",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "scansource.com"
+      ]
+    },
+    {
+      "key": "flippingbook.com",
+      "domain": "flippingbook.com",
+      "name": "View Our Line Card",
+      "basis": "outbound_link",
+      "publishedBy": [
+        "scansource.com"
+      ]
+    },
+    {
+      "key": "name:intelisys and advisory",
+      "domain": null,
+      "name": "intelisys and advisory",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "scansource.com"
+      ]
+    },
+    {
+      "key": "name:suppliers",
+      "domain": null,
+      "name": "suppliers",
+      "basis": "vendor_page_slug",
+      "publishedBy": [
+        "scansource.com"
+      ]
+    }
+  ]
+}

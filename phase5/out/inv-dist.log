@@ -1,0 +1,5 @@
+[1/4] arrow.com                  surfaces=0 vendors=0 req=16 18s
+[2/4] exclusive-networks.com     surfaces=3 vendors=97 req=16 19s
+[3/4] getwirelessllc.com         surfaces=3 vendors=22 req=16 19s
+[4/4] scansource.com             surfaces=2 vendors=6 req=16 21s
+DONE distributor_side — 4 counterparties, 125 vendor mentions, 125 distinct vendors

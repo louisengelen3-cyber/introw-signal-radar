@@ -1,0 +1,589 @@
+[
+  {
+    "cohort": "positive_recovered_customer",
+    "domain": "xelix.com",
+    "verdict": "informal_programme",
+    "category": "likely_target_category",
+    "recruitmentHits": 1,
+    "types": [
+      "consultancy",
+      "outsourcing/BPO",
+      "other named type"
+    ],
+    "artefacts": [],
+    "pagesRead": 2,
+    "rationale": "First-person recruitment found 1 time(s) and 3 partner type(s) named (consultancy, outsourcing/BPO, other named type), with no formal artefact on any retrieved page. Under the ICP thesis this is the signature of a programme managed by hand.",
+    "quote": "ded partners to deliver expertise, ongoing value and real business outcomes for enterprises across the globe. Become a partner PARTNERING WITH THE BEST Genpact and Xelix Hear from "
+  },
+  {
+    "cohort": "positive_recovered_customer",
+    "domain": "zenity.io",
+    "verdict": "informal_programme",
+    "category": "likely_target_category",
+    "recruitmentHits": 1,
+    "types": [
+      "agency",
+      "reseller/VAR",
+      "systems integrator",
+      "technology partner"
+    ],
+    "artefacts": [],
+    "pagesRead": 2,
+    "rationale": "First-person recruitment found 1 time(s) and 4 partner type(s) named (agency, reseller/VAR, systems integrator, technology partner), with no formal artefact on any retrieved page. Under the ICP thesis this is the signature of a programme managed by hand.",
+    "quote": "AI. Our mission is to enable innovation with strong security and we seek partners who share this commitment. Become a Partner Technology Partners Our technology partners drive inno"
+  },
+  {
+    "cohort": "positive_recovered_customer",
+    "domain": "ringover.com",
+    "verdict": "informal_programme",
+    "category": "likely_target_category",
+    "recruitmentHits": 1,
+    "types": [
+      "consultancy",
+      "agency"
+    ],
+    "artefacts": [],
+    "pagesRead": 2,
+    "rationale": "First-person recruitment found 1 time(s) and 2 partner type(s) named (consultancy, agency), with no formal artefact on any retrieved page. Under the ICP thesis this is the signature of a programme managed by hand.",
+    "quote": "d deploy! Increase your revenue and keep clients loyal while preserving an exclusive commercial relationship. Become a partner Already a partner? Contact us"
+  },
+  {
+    "cohort": "positive_recovered_customer",
+    "domain": "payflip.be",
+    "verdict": "informal_programme",
+    "category": "likely_target_category",
+    "recruitmentHits": 1,
+    "types": [
+      "vertical service partner"
+    ],
+    "artefacts": [],
+    "pagesRead": 1,
+    "rationale": "First-person recruitment found 1 time(s) and 1 partner type(s) named (vertical service partner), with no formal artefact on any retrieved page. Under the ICP thesis this is the signature of a programme managed by hand.",
+    "quote": "oft in de power van partnerships. Alone you go faster, together you go further! In het ecosysteem van Payflip is er daarom plaats voor payroll, hr, accounting én benefit-partners o"
+  },
+  {
+    "cohort": "clean_negative",
+    "domain": "deloitte.com",
+    "verdict": "not_informal",
+    "category": "professional_services",
+    "recruitmentHits": 0,
+    "types": [
+      "agency"
+    ],
+    "artefacts": [],
+    "pagesRead": 6,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "clean_negative",
+    "domain": "bain.com",
+    "verdict": "not_informal",
+    "category": "unknown",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "pagesRead": 0,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "clean_negative",
+    "domain": "freshfields.com",
+    "verdict": "not_informal",
+    "category": "professional_services",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "pagesRead": 0,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "clean_negative",
+    "domain": "sequoiacap.com",
+    "verdict": "not_informal",
+    "category": "professional_services",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "pagesRead": 0,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "clean_negative",
+    "domain": "indexventures.com",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [
+      "systems integrator",
+      "agency",
+      "distributor",
+      "consultancy",
+      "technology partner"
+    ],
+    "artefacts": [
+      "published eligibility criteria"
+    ],
+    "pagesRead": 6,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "clean_negative",
+    "domain": "posthog.com",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [
+      "agency"
+    ],
+    "artefacts": [],
+    "pagesRead": 4,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "clean_negative",
+    "domain": "semrush.com",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [
+      "agency",
+      "other named type"
+    ],
+    "artefacts": [],
+    "pagesRead": 1,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "clean_negative",
+    "domain": "linear.app",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "pagesRead": 0,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "clean_negative",
+    "domain": "sentry.io",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "pagesRead": 6,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "clean_negative",
+    "domain": "softcat.com",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [
+      "tier structure"
+    ],
+    "pagesRead": 1,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "clean_negative",
+    "domain": "computacenter.com",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [
+      "systems integrator",
+      "MSP/MSSP"
+    ],
+    "artefacts": [],
+    "pagesRead": 3,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "clean_negative",
+    "domain": "kinsta.com",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [
+      "agency"
+    ],
+    "artefacts": [],
+    "pagesRead": 3,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "clean_negative",
+    "domain": "bechtle.com",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [
+      "reseller/VAR"
+    ],
+    "artefacts": [],
+    "pagesRead": 3,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "clean_negative",
+    "domain": "insight.com",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "pagesRead": 0,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "partner_tech_guard",
+    "domain": "kiflo.com",
+    "verdict": "suppressed_partner_tech",
+    "category": "direct_introw_competitor",
+    "recruitmentHits": 2,
+    "types": [
+      "consultancy",
+      "agency",
+      "referral partner",
+      "other named type",
+      "reseller/VAR",
+      "distributor"
+    ],
+    "artefacts": [
+      "deal registration",
+      "formal partner agreement"
+    ],
+    "pagesRead": 6,
+    "rationale": "Partner-technology vendors publish first-person partner recruitment and name partner types as product copy. The category classifier suppressed this before the signature was evaluated.",
+    "quote": "aS company and thrive with us. Your First Name Your Last Name Your Email Your Company Name Why do you want to partner with us? Thank you for applying to our Partner Program. We wil"
+  },
+  {
+    "cohort": "partner_tech_guard",
+    "domain": "magentrix.com",
+    "verdict": "suppressed_partner_tech",
+    "category": "direct_introw_competitor",
+    "recruitmentHits": 1,
+    "types": [
+      "reseller/VAR",
+      "consultancy",
+      "distributor"
+    ],
+    "artefacts": [
+      "deal registration",
+      "partner portal",
+      "market development funds",
+      "tier structure"
+    ],
+    "pagesRead": 6,
+    "rationale": "Partner-technology vendors publish first-person partner recruitment and name partner types as product copy. The category classifier suppressed this before the signature was evaluated.",
+    "quote": "For Partner Management Platform: Click Here For Customer Management Platform: Click Here Our Partner Program Join the Magentrix partner ecosystem. Apply to partner with Magentrix "
+  },
+  {
+    "cohort": "partner_tech_guard",
+    "domain": "ziftsolutions.com",
+    "verdict": "suppressed_partner_tech",
+    "category": "direct_introw_competitor",
+    "recruitmentHits": 1,
+    "types": [
+      "reseller/VAR",
+      "referral partner",
+      "MSP/MSSP",
+      "distributor",
+      "systems integrator",
+      "agency",
+      "consultancy",
+      "technology partner"
+    ],
+    "artefacts": [
+      "deal registration",
+      "tier structure",
+      "partner portal",
+      "market development funds"
+    ],
+    "pagesRead": 6,
+    "rationale": "Partner-technology vendors publish first-person partner recruitment and name partner types as product copy. The category classifier suppressed this before the signature was evaluated.",
+    "quote": "form, processing more than $50 billion in annual transactions. Submit a partner inquiry Our partner ecosystem We work with resellers, strategists, consultants, and technologists wh"
+  },
+  {
+    "cohort": "partner_tech_guard",
+    "domain": "mindmatrix.net",
+    "verdict": "suppressed_partner_tech",
+    "category": "direct_introw_competitor",
+    "recruitmentHits": 0,
+    "types": [
+      "MSP/MSSP",
+      "reseller/VAR",
+      "distributor",
+      "systems integrator",
+      "consultancy",
+      "agency",
+      "other named type",
+      "technology partner",
+      "referral partner"
+    ],
+    "artefacts": [
+      "deal registration",
+      "tier structure",
+      "partner portal",
+      "market development funds",
+      "programme levels",
+      "certification programme"
+    ],
+    "pagesRead": 6,
+    "rationale": "Partner-technology vendors publish first-person partner recruitment and name partner types as product copy. The category classifier suppressed this before the signature was evaluated.",
+    "quote": null
+  },
+  {
+    "cohort": "partner_tech_guard",
+    "domain": "partnerstack.com",
+    "verdict": "suppressed_partner_tech",
+    "category": "direct_introw_competitor",
+    "recruitmentHits": 0,
+    "types": [
+      "reseller/VAR",
+      "distributor",
+      "referral partner"
+    ],
+    "artefacts": [
+      "application process"
+    ],
+    "pagesRead": 6,
+    "rationale": "Partner-technology vendors publish first-person partner recruitment and name partner types as product copy. The category classifier suppressed this before the signature was evaluated.",
+    "quote": null
+  },
+  {
+    "cohort": "matched_unlabelled",
+    "domain": "nedap.com",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [
+      "reseller/VAR",
+      "systems integrator"
+    ],
+    "artefacts": [],
+    "pagesRead": 2,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "matched_unlabelled",
+    "domain": "aircall.io",
+    "verdict": "formalised_programme",
+    "category": "likely_target_category",
+    "recruitmentHits": 1,
+    "types": [
+      "systems integrator",
+      "consultancy",
+      "agency",
+      "solution provider"
+    ],
+    "artefacts": [
+      "tier structure"
+    ],
+    "pagesRead": 3,
+    "rationale": "Recruitment and 4 partner type(s) found, alongside tier structure. The formal artefacts place this outside the informal signature — a different class, not a worse one.",
+    "quote": "r and RevOps consultancy helping ambitious revenue teams push HubSpot to the innovative edge. HubSpot Want to become a partner? Join the Collective Ready to build better conversati"
+  },
+  {
+    "cohort": "matched_unlabelled",
+    "domain": "wiz.io",
+    "verdict": "formalised_programme",
+    "category": "likely_target_category",
+    "recruitmentHits": 1,
+    "types": [
+      "other named type"
+    ],
+    "artefacts": [
+      "formal partner agreement",
+      "partner tracks",
+      "published eligibility criteria"
+    ],
+    "pagesRead": 3,
+    "rationale": "Recruitment and 1 partner type(s) found, alongside formal partner agreement, partner tracks, published eligibility criteria. The formal artefacts place this outside the informal signature — a different class, not a worse one.",
+    "quote": "e program levels within Resell and Services tracks? How do I get started as a Wiz partner? Who is eligible to join the Wiz Partner Alliance? What if I want to integrate with Wiz? I"
+  },
+  {
+    "cohort": "matched_unlabelled",
+    "domain": "personio.com",
+    "verdict": "not_informal",
+    "category": "unknown",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "pagesRead": 0,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "matched_unlabelled",
+    "domain": "silverfin.com",
+    "verdict": "not_informal",
+    "category": "unknown",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "pagesRead": 0,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "matched_unlabelled",
+    "domain": "snyk.io",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [
+      "partner tracks"
+    ],
+    "pagesRead": 2,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "matched_unlabelled",
+    "domain": "vectra.ai",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "pagesRead": 1,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "matched_unlabelled",
+    "domain": "basware.com",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [
+      "reseller/VAR",
+      "systems integrator",
+      "consultancy"
+    ],
+    "artefacts": [],
+    "pagesRead": 3,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "matched_unlabelled",
+    "domain": "datadoghq.com",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "pagesRead": 3,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "matched_unlabelled",
+    "domain": "wasabi.com",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [
+      "reseller/VAR",
+      "technology partner",
+      "MSP/MSSP",
+      "distributor",
+      "systems integrator"
+    ],
+    "artefacts": [],
+    "pagesRead": 4,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "matched_unlabelled",
+    "domain": "contentful.com",
+    "verdict": "not_informal",
+    "category": "unknown",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "pagesRead": 0,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "matched_unlabelled",
+    "domain": "yuki.nl",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "pagesRead": 1,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "matched_unlabelled",
+    "domain": "teamleader.eu",
+    "verdict": "formalised_programme",
+    "category": "likely_target_category",
+    "recruitmentHits": 1,
+    "types": [
+      "consultancy",
+      "agency"
+    ],
+    "artefacts": [
+      "partner portal"
+    ],
+    "pagesRead": 1,
+    "rationale": "Recruitment and 2 partner type(s) found, alongside partner portal. The formal artefacts place this outside the informal signature — a different class, not a worse one.",
+    "quote": "in business software. Let's join forces ! Additional revenue Satisfied customers Teamleader Partner Community Become a partner Schedule a 30-minute meeting with a local partner man"
+  },
+  {
+    "cohort": "matched_unlabelled",
+    "domain": "loxone.com",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [
+      "tier structure"
+    ],
+    "pagesRead": 2,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  },
+  {
+    "cohort": "matched_unlabelled",
+    "domain": "enphase.com",
+    "verdict": "not_informal",
+    "category": "likely_target_category",
+    "recruitmentHits": 0,
+    "types": [
+      "systems integrator"
+    ],
+    "artefacts": [],
+    "pagesRead": 6,
+    "rationale": "No first-person recruitment invitation was found. Absence of formal artefacts alone is never a promotion.",
+    "quote": null
+  }
+]

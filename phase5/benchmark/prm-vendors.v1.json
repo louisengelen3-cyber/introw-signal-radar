@@ -1,0 +1,20 @@
+{
+  "purpose": "PRM vendors whose public customer pages are harvested for the proxy-positive population (workstream B).",
+  "stratificationRule": "Segment tier assigned from each vendor's own positioning and published pricing BEFORE any harvest ran, never from what the harvest returned. Kiflo and PartnerPortal.io price and position for SMB; Impartner, ZINFI and Zift sell enterprise. A Kiflo customer is a much closer Introw ICP proxy than a ZINFI customer, so results are reported per stratum and never pooled.",
+  "frozenAt": "2026-08-25",
+  "vendors": [
+    { "domain": "kiflo.com", "name": "Kiflo", "segment": "smb" },
+    { "domain": "partnerportal.io", "name": "PartnerPortal.io", "segment": "smb" },
+    { "domain": "journeybee.io", "name": "JourneyBee", "segment": "smb" },
+    { "domain": "unifyr.com", "name": "Unifyr", "segment": "smb" },
+    { "domain": "kademi.co", "name": "Kademi", "segment": "mid_market" },
+    { "domain": "partnerstack.com", "name": "PartnerStack", "segment": "mid_market" },
+    { "domain": "allbound.com", "name": "Allbound", "segment": "mid_market" },
+    { "domain": "channeltivity.com", "name": "Channeltivity", "segment": "mid_market" },
+    { "domain": "magentrix.com", "name": "Magentrix", "segment": "mid_market" },
+    { "domain": "impartner.com", "name": "Impartner", "segment": "enterprise" },
+    { "domain": "zinfi.com", "name": "ZINFI", "segment": "enterprise" },
+    { "domain": "ziftsolutions.com", "name": "Zift Solutions", "segment": "enterprise" },
+    { "domain": "mindmatrix.net", "name": "MindMatrix", "segment": "enterprise" }
+  ]
+}

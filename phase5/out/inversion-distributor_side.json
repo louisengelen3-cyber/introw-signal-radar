@@ -1,0 +1,1333 @@
+[
+  {
+    "counterparty": "arrow.com",
+    "surfacesRead": [],
+    "mentions": [],
+    "distinctVendors": [],
+    "requests": 16,
+    "note": "No vendor-listing surface was readable on this counterparty. Not evidence that it names no vendors.",
+    "arm": "distributor_side",
+    "seconds": 18
+  },
+  {
+    "counterparty": "exclusive-networks.com",
+    "surfacesRead": [
+      {
+        "url": "https://www.exclusive-networks.com/partners",
+        "chars": 8428
+      },
+      {
+        "url": "https://www.exclusive-networks.com/vendors",
+        "chars": 3643
+      },
+      {
+        "url": "https://www.exclusive-networks.com/",
+        "chars": 125
+      }
+    ],
+    "mentions": [
+      {
+        "vendorDomain": "x-od.com",
+        "vendorName": "Partner Portal login",
+        "label": "Partner Portal login",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/partners",
+        "quote": "Channel Partner Portal | Streamline with Exclusive Access Partners Partnership that meets all your cybersecurity needs Powered by high-performing technology, supported by an extensive partner ecosystem, delivered by indu",
+        "basis": "outbound_link"
+      },
+      {
+        "vendorDomain": "ignition-technology.com",
+        "vendorName": "Visit site",
+        "label": "Visit site",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/partners",
+        "quote": "Channel Partner Portal | Streamline with Exclusive Access Partners Partnership that meets all your cybersecurity needs Powered by high-performing technology, supported by an extensive partner ecosystem, delivered by indu",
+        "basis": "outbound_link"
+      },
+      {
+        "vendorDomain": "nuaware.com",
+        "vendorName": "Visit site",
+        "label": "Visit site",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/partners",
+        "quote": "Channel Partner Portal | Streamline with Exclusive Access Partners Partnership that meets all your cybersecurity needs Powered by high-performing technology, supported by an extensive partner ecosystem, delivered by indu",
+        "basis": "outbound_link"
+      },
+      {
+        "vendorDomain": "cloudrise.com",
+        "vendorName": "Visit site",
+        "label": "Visit site",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/partners",
+        "quote": "Channel Partner Portal | Streamline with Exclusive Access Partners Partnership that meets all your cybersecurity needs Powered by high-performing technology, supported by an extensive partner ecosystem, delivered by indu",
+        "basis": "outbound_link"
+      },
+      {
+        "vendorDomain": "bridgingminds.net",
+        "vendorName": "Visit site",
+        "label": "Visit site",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/partners",
+        "quote": "Channel Partner Portal | Streamline with Exclusive Access Partners Partnership that meets all your cybersecurity needs Powered by high-performing technology, supported by an extensive partner ecosystem, delivered by indu",
+        "basis": "outbound_link"
+      },
+      {
+        "vendorDomain": "compendium.pl",
+        "vendorName": "Visit site",
+        "label": "Visit site",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/partners",
+        "quote": "Channel Partner Portal | Streamline with Exclusive Access Partners Partnership that meets all your cybersecurity needs Powered by high-performing technology, supported by an extensive partner ecosystem, delivered by indu",
+        "basis": "outbound_link"
+      },
+      {
+        "vendorDomain": "consigas.com",
+        "vendorName": "Visit site",
+        "label": "Visit site",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/partners",
+        "quote": "Channel Partner Portal | Streamline with Exclusive Access Partners Partnership that meets all your cybersecurity needs Powered by high-performing technology, supported by an extensive partner ecosystem, delivered by indu",
+        "basis": "outbound_link"
+      },
+      {
+        "vendorDomain": "nextgen.group",
+        "vendorName": "nextgen",
+        "label": "",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/partners",
+        "quote": "uaware is the first organisation in the world that is building an integrated ecosystem for cloud, cloud native, and DevSecOps technologies. NextGen We combine our suite of sales enablement, marketing, advisory and billing services to help you manage, deliver and grow your company in APAC. TESTIMONIALS Explore What Part",
+        "basis": "logo_alt_link"
+      },
+      {
+        "vendorDomain": "nxtds.com",
+        "vendorName": "Web development by NXT Digital Solutions",
+        "label": "Web development by NXT Digital Solutions",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/partners",
+        "quote": "Channel Partner Portal | Streamline with Exclusive Access Partners Partnership that meets all your cybersecurity needs Powered by high-performing technology, supported by an extensive partner ecosystem, delivered by indu",
+        "basis": "outbound_link"
+      },
+      {
+        "vendorDomain": "aboutcookies.org",
+        "vendorName": "www.aboutcookies.org",
+        "label": "www.aboutcookies.org",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/partners",
+        "quote": "Channel Partner Portal | Streamline with Exclusive Access Partners Partnership that meets all your cybersecurity needs Powered by high-performing technology, supported by an extensive partner ecosystem, delivered by indu",
+        "basis": "outbound_link"
+      },
+      {
+        "vendorDomain": "allaboutcookies.org",
+        "vendorName": "www.allaboutcookies.org",
+        "label": "www.allaboutcookies.org",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/partners",
+        "quote": "Channel Partner Portal | Streamline with Exclusive Access Partners Partnership that meets all your cybersecurity needs Powered by high-performing technology, supported by an extensive partner ecosystem, delivered by indu",
+        "basis": "outbound_link"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "endpoint security",
+        "label": "endpoint security",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/cybersecurity/solutions/endpoint-security",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "cloud security",
+        "label": "cloud security",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/cybersecurity/solutions/cloud-security",
+        "quote": "-based service wrappers in exactly the way your customers want to buy. TECHNOLOGY PARTNERS Leading network of cyber and cloud security vendors We hand-pick best of breed vendors to create an optimum balance of products that help define, develop and drive new market opportunities.",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "ot and iot security",
+        "label": "ot and iot security",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/cybersecurity/solutions/ot-and-iot-security",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "application security",
+        "label": "application security",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/cybersecurity/solutions/application-security",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "network detection and response",
+        "label": "network detection and response",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/cybersecurity/solutions/network-detection-and-response",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "cybersecurity risk assessment",
+        "label": "cybersecurity risk assessment",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/cybersecurity/solutions/cybersecurity-risk-assessment",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "human factor security",
+        "label": "human factor security",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/cybersecurity/solutions/human-factor-security",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "identity access management",
+        "label": "identity access management",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/cybersecurity/solutions/identity-access-management",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "vulnerability and security analytics",
+        "label": "vulnerability and security analytics",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/cybersecurity/solutions/vulnerability-and-security-analytics",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "data security",
+        "label": "data security",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/cybersecurity/solutions/data-security",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "web and email security",
+        "label": "web and email security",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/cybersecurity/solutions/web-and-email-security",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "network security",
+        "label": "network security",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/cybersecurity/solutions/network-security",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "anomali",
+        "label": "anomali",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/anomali",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "arista networks",
+        "label": "arista networks",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/arista-networks",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "axonius",
+        "label": "axonius",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/axonius",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "azul",
+        "label": "azul",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/azul",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "beyondtrust",
+        "label": "beyondtrust",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/beyondtrust",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "claroty",
+        "label": "claroty",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/claroty",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "cloudflare",
+        "label": "cloudflare",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/cloudflare",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "cloudian",
+        "label": "cloudian",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/cloudian",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "corelight",
+        "label": "corelight",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/corelight",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "crowdstrike",
+        "label": "crowdstrike",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/crowdstrike",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "cubbit",
+        "label": "cubbit",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/cubbit",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "cyberark",
+        "label": "cyberark",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/cyberark",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "cyble",
+        "label": "cyble",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/cyble",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "docker",
+        "label": "docker",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/docker",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "drata",
+        "label": "drata",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/drata",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "druva",
+        "label": "druva",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/druva",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "exabeam",
+        "label": "exabeam",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/exabeam",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "extrahop",
+        "label": "extrahop",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/extrahop",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "extreme networks",
+        "label": "extreme networks",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/extreme-networks",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "f5",
+        "label": "f5",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/f5",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "firemon",
+        "label": "firemon",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/firemon",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "forcepoint",
+        "label": "forcepoint",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/forcepoint",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "forescout technologies",
+        "label": "forescout technologies",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/forescout-technologies",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "fortinet",
+        "label": "fortinet",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/fortinet",
+        "quote": "the Tri Partie payment solution was invaluable in supporting the end customer with their significant investment in the Fortinet technology and support services. We found the team at Exclusive Networks from those on the ground to Director level, supportive and helpful whatever ti",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "fujitsu",
+        "label": "fujitsu",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/fujitsu",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "gigamon",
+        "label": "gigamon",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/gigamon",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "greenbone",
+        "label": "greenbone",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/greenbone",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "hashicorp",
+        "label": "hashicorp",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/hashicorp",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "hpe aruba",
+        "label": "hpe aruba",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/hpe-aruba",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "huawei",
+        "label": "huawei",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/huawei",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "hycu",
+        "label": "hycu",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/hycu",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "imperva networks",
+        "label": "imperva networks",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/imperva-networks",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "infoblox",
+        "label": "infoblox",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/infoblox",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "iqsol",
+        "label": "iqsol",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/iqsol",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "juniper networks",
+        "label": "juniper networks",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/juniper-networks",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "mimecast",
+        "label": "mimecast",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/mimecast",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "mirantis with nuaware",
+        "label": "mirantis with nuaware",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/mirantis-with-nuaware",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "netapp",
+        "label": "netapp",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/netapp",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "netskope",
+        "label": "netskope",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/netskope",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "nokia",
+        "label": "nokia",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/nokia",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "gsi",
+        "label": "gsi",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/partners/gsi",
+        "quote": "from the changing technology landscape. Your business is our business. Around the world we are trusted by thousands of GSIs, MSPs & MSSPs, CSPs, VARs, SIs, MNOs and Telco Operators, Cybersecurity Boutiques, DevOps and SecOps consultancies and Global professional services organis",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "mssp",
+        "label": "mssp",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/partners/mssp",
+        "quote": "nging technology landscape. Your business is our business. Around the world we are trusted by thousands of GSIs, MSPs & MSSPs, CSPs, VARs, SIs, MNOs and Telco Operators, Cybersecurity Boutiques, DevOps and SecOps consultancies and Global professional services organisations. Partn",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "nozomi networks",
+        "label": "nozomi networks",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/nozomi-networks",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "nutanix",
+        "label": "nutanix",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/nutanix",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "okta",
+        "label": "okta",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/okta",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "one identity",
+        "label": "one identity",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/one-identity",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "palo alto networks",
+        "label": "palo alto networks",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/palo-alto-networks",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "proofpoint",
+        "label": "proofpoint",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/proofpoint",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "rackmountit",
+        "label": "rackmountit",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/rackmountit",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "rubrik",
+        "label": "rubrik",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/rubrik",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "ruckus networks",
+        "label": "ruckus networks",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/ruckus-networks",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "sailpoint",
+        "label": "sailpoint",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/sailpoint",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "sentinelone",
+        "label": "sentinelone",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/sentinelone",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "sysdig",
+        "label": "sysdig",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/sysdig",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "tenable",
+        "label": "tenable",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/tenable",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "thales",
+        "label": "thales",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/thales",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "vectra",
+        "label": "vectra",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/vectra",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "xm cyber networks",
+        "label": "xm cyber networks",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/xm-cyber-networks",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "ridge security",
+        "label": "ridge security",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/ridge-security",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "semperis",
+        "label": "semperis",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/semperis",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "solarwinds",
+        "label": "solarwinds",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/solarwinds",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "spycloud",
+        "label": "spycloud",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/spycloud",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "onespan",
+        "label": "onespan",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/onespan",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "opengear",
+        "label": "opengear",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/opengear",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "red hat",
+        "label": "red hat",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/red-hat",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "rpost",
+        "label": "rpost",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/rpost",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "thrivedx lucy",
+        "label": "thrivedx lucy",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/thrivedx-lucy",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "trellix",
+        "label": "trellix",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/trellix",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "wasabi technologies",
+        "label": "wasabi technologies",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/wasabi-technologies",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "zero networks",
+        "label": "zero networks",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/zero-networks",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "aws",
+        "label": "aws",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/aws",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "bitsight",
+        "label": "bitsight",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/bitsight",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "jamf",
+        "label": "jamf",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/jamf",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "tufin",
+        "label": "tufin",
+        "publishedBy": "exclusive-networks.com",
+        "sourceUrl": "https://www.exclusive-networks.com/ecosystem/vendors/tufin",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      }
+    ],
+    "distinctVendors": [
+      "x-od.com",
+      "ignition-technology.com",
+      "nuaware.com",
+      "cloudrise.com",
+      "bridgingminds.net",
+      "compendium.pl",
+      "consigas.com",
+      "nextgen.group",
+      "nxtds.com",
+      "aboutcookies.org",
+      "allaboutcookies.org",
+      "name:endpoint security",
+      "name:cloud security",
+      "name:ot and iot security",
+      "name:application security",
+      "name:network detection and response",
+      "name:cybersecurity risk assessment",
+      "name:human factor security",
+      "name:identity access management",
+      "name:vulnerability and security analytics",
+      "name:data security",
+      "name:web and email security",
+      "name:network security",
+      "name:anomali",
+      "name:arista networks",
+      "name:axonius",
+      "name:azul",
+      "name:beyondtrust",
+      "name:claroty",
+      "name:cloudflare",
+      "name:cloudian",
+      "name:corelight",
+      "name:crowdstrike",
+      "name:cubbit",
+      "name:cyberark",
+      "name:cyble",
+      "name:docker",
+      "name:drata",
+      "name:druva",
+      "name:exabeam",
+      "name:extrahop",
+      "name:extreme networks",
+      "name:f5",
+      "name:firemon",
+      "name:forcepoint",
+      "name:forescout technologies",
+      "name:fortinet",
+      "name:fujitsu",
+      "name:gigamon",
+      "name:greenbone",
+      "name:hashicorp",
+      "name:hpe aruba",
+      "name:huawei",
+      "name:hycu",
+      "name:imperva networks",
+      "name:infoblox",
+      "name:iqsol",
+      "name:juniper networks",
+      "name:mimecast",
+      "name:mirantis with nuaware",
+      "name:netapp",
+      "name:netskope",
+      "name:nokia",
+      "name:gsi",
+      "name:mssp",
+      "name:nozomi networks",
+      "name:nutanix",
+      "name:okta",
+      "name:one identity",
+      "name:palo alto networks",
+      "name:proofpoint",
+      "name:rackmountit",
+      "name:rubrik",
+      "name:ruckus networks",
+      "name:sailpoint",
+      "name:sentinelone",
+      "name:sysdig",
+      "name:tenable",
+      "name:thales",
+      "name:vectra",
+      "name:xm cyber networks",
+      "name:ridge security",
+      "name:semperis",
+      "name:solarwinds",
+      "name:spycloud",
+      "name:onespan",
+      "name:opengear",
+      "name:red hat",
+      "name:rpost",
+      "name:thrivedx lucy",
+      "name:trellix",
+      "name:wasabi technologies",
+      "name:zero networks",
+      "name:aws",
+      "name:bitsight",
+      "name:jamf",
+      "name:tufin"
+    ],
+    "requests": 16,
+    "note": "3 listing page(s) read; 97 distinct vendor domain(s) named.",
+    "arm": "distributor_side",
+    "seconds": 19
+  },
+  {
+    "counterparty": "getwirelessllc.com",
+    "surfacesRead": [
+      {
+        "url": "https://www.getwirelessllc.com/partners",
+        "chars": 19130
+      },
+      {
+        "url": "https://www.getwirelessllc.com/vendors",
+        "chars": 286
+      },
+      {
+        "url": "https://www.getwirelessllc.com/",
+        "chars": 19130
+      }
+    ],
+    "mentions": [
+      {
+        "vendorDomain": "browsehappy.com",
+        "vendorName": "upgrade",
+        "label": "upgrade",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/partners",
+        "quote": "s Acquires Sure Antennas to Strengthen Public Safety and Critical Infrastructure Portfolio Read More Press Releases June 18, 2026 Nextivity Upgrades 5G Enterprise DAS Systems, Improving Private 5G and IoT Network Capabilities Read More",
+        "basis": "outbound_link"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "semtech",
+        "label": "semtech",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/vendors/semtech/",
+        "quote": "am has to offer. Gateways & Routers Antenna Solutions Signal Boosters Modules & Modems POTS Replacement Mobile Hotspots Semtech Engineered to thrive in extreme conditions, AirLink® Routers are highly ruggedized devices purpose-built for the most demanding applications – whether i",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "peplink",
+        "label": "peplink",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/vendors/peplink/",
+        "quote": "de intelligent and secure management with remote and real-time monitoring and expert technical support. Explore Semtech Peplink From the company’s inception, Peplink set out to create the most reliable and easiest-to-use routers. Since then, they have developed a potent combinati",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "option cloudgate",
+        "label": "option cloudgate",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/vendors/option-cloudgate/",
+        "quote": "rrent radio systems, and ensures secure, seamless interoperability between diverse technologies. Explore Cubic Vocality Option CloudGate Headquartered in Belgium, Option specializes in wireless IoT solutions enabling Machine to Machine (M2M) communication. With more than 25 years",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "cubic",
+        "label": "cubic",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/vendors/cubic/",
+        "quote": "iety of applications from kiosk and ATM connectivity to government and public safety applications. Explore Airgain HPUE Cubic The Cubic Vocality RoIP is a Radio over IP gateway that provides interoperability between disparate radio devices, dispatch solutions, and Push-To-Talk ov",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "simplifi",
+        "label": "simplifi",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/vendors/simplifi/",
+        "quote": "Streamline the process to GetConnected through our Activate Where You Buy program. When you activate where you buy, it simplifies the process. Strategic Financing The amount of financing is based on the end customer’s credit worthiness, not our resellers. Which means as a partne",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "cellular path",
+        "label": "cellular path",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/vendors/cellular-path/",
+        "quote": "a variety of applications from kiosk and ATM connectivity to government and public safety applications. Explore Airgain Cellular Path Cellular Path manufactures advanced self-optimizing cellular antenna solutions that automatically align directional antennas for the strongest 5G",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "panorama antennas",
+        "label": "panorama antennas",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/vendors/panorama-antennas/",
+        "quote": "WAN to our SD-WAN solutions, resulting in increased bandwidth, higher WAN reliability, and lower costs. Explore Peplink Panorama Antennas Panorama Antennas is a world leader in the design and manufacture of radio communication antennas. Founded in London, England in 1947, Panoram",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "parsec technologies",
+        "label": "parsec technologies",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/vendors/parsec-technologies/",
+        "quote": "vering best-in-class solutions that customers can 100% rely on in deployment. Explore Panorama Antennas Parsec Antennas Parsec Technologies provide a wide variety of antennas to fit your needs, including low profile cellular antennas ideal for vehicles, wall mounted or pole-mount",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "taoglas antennas",
+        "label": "taoglas antennas",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/vendors/taoglas-antennas/",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "2j antennas",
+        "label": "2j antennas",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/vendors/2j-antennas/",
+        "quote": "ell as for mobile broadband, fixed wireless, utilities resource management, failover, and more! Explore Parsec Antennas 2J Antennas 2J Antennas is a global supplier of antenna solutions that aims to deliver innovative technologies for the connected world. Their New Catalogue feat",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "netgear",
+        "label": "netgear",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/vendors/netgear/",
+        "quote": "d software to deliver easy-to-use tools and interfaces that meet any business’s needs. Simplifi – POTS Line Replacement NETGEAR In the business world, confidence is crucial, especially regarding network solutions. NETGEAR understands this need, providing networking, storage, and",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "nextivity",
+        "label": "nextivity",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/vendors/nextivity/",
+        "quote": "3D rapid prototyping printers to reduce design phases and enable prompt response to customer needs. Explore 2J Antennas Nextivity Nextivity’s CEL-FI products are built with the revolutionary IntelliBoost processor and WAVE software, delivering industry-leading signal gain with 3x",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "telit cinterion",
+        "label": "telit cinterion",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/vendors/telit-cinterion/",
+        "quote": "s as well as manage your connectivity, devices, and data to build your future in the IoT. Explore Semtech Modules Telit Telit Cinterion is a global enabler of the intelligent edge providing complete solutions that reduce time to market and costs, delivering custom designed, ready",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "bipom",
+        "label": "bipom",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/vendors/bipom/",
+        "quote": "rd-winning and highly secure IoT solutions, modules and services for the industry’s top brands. Explore Telit Cinterion BiPOM BiPOM Electronics, Inc. is one of the world’s leading providers of Microcontroller and Wireless systems and specific applications, including hardware, fir",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "frontier iot",
+        "label": "frontier iot",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/vendors/frontier-iot/",
+        "quote": "-WAN solutions, resulting in increased bandwidth, higher WAN reliability, and lower costs. Explore Peplink POTS Adapter Frontier IoT Frontier IoT is a leading provider and equipment manufacturer specializing in innovative voice hardware with integrated wireless solutions. Leverag",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "value added resellers",
+        "label": "value added resellers",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/partners/value-added-resellers/",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "end users",
+        "label": "end users",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/partners/end-users/",
+        "quote": "des professional guidance on hardware selection, network certification, and solution design. OEM and Solution Providers End Users Are you searching for a local or specialized supplier of IoT solutions? Our community of experienced resale partners offer sales consultation, install",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "vendors",
+        "label": "vendors",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/partners/vendors/",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "mobile network operators",
+        "label": "mobile network operators",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/partners/mobile-network-operators/",
+        "quote": "butor in the IoT arena! Our channel programs fuel collaborative growth, together with our partners. VAR and Integrators Mobile Network Operators Are you a Network Operator looking to source the latest IoT hardware? Partner with us and gain access to our comprehensive portfolio of",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "iot hardware for end users",
+        "label": "iot hardware for end users",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/partners/iot-hardware-for-end-users/",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "airgain",
+        "label": "airgain",
+        "publishedBy": "getwirelessllc.com",
+        "sourceUrl": "https://www.getwirelessllc.com/vendors/airgain/",
+        "quote": "WAN to our SD-WAN solutions, resulting in increased bandwidth, higher WAN reliability, and lower costs. Explore Peplink Airgain Explore Airgain’s portfolio of advanced wireless connectivity products for mobile, automotive fleet, and industrial IoT and M2M applications. Their high",
+        "basis": "vendor_page_slug"
+      }
+    ],
+    "distinctVendors": [
+      "browsehappy.com",
+      "name:semtech",
+      "name:peplink",
+      "name:option cloudgate",
+      "name:cubic",
+      "name:simplifi",
+      "name:cellular path",
+      "name:panorama antennas",
+      "name:parsec technologies",
+      "name:taoglas antennas",
+      "name:2j antennas",
+      "name:netgear",
+      "name:nextivity",
+      "name:telit cinterion",
+      "name:bipom",
+      "name:frontier iot",
+      "name:value added resellers",
+      "name:end users",
+      "name:vendors",
+      "name:mobile network operators",
+      "name:iot hardware for end users",
+      "name:airgain"
+    ],
+    "requests": 16,
+    "note": "3 listing page(s) read; 22 distinct vendor domain(s) named.",
+    "arm": "distributor_side",
+    "seconds": 19
+  },
+  {
+    "counterparty": "scansource.com",
+    "surfacesRead": [
+      {
+        "url": "https://scansource.com/solutions",
+        "chars": 390
+      },
+      {
+        "url": "https://scansource.com/technologies",
+        "chars": 390
+      }
+    ],
+    "mentions": [
+      {
+        "vendorDomain": "intelisys.com",
+        "vendorName": "Intelisys",
+        "label": "Intelisys",
+        "publishedBy": "scansource.com",
+        "sourceUrl": "https://scansource.com/solutions",
+        "quote": "Suppliers One of our main priorities is partnering with quality suppliers who want to help our sales partners as much as we do. That's why we created a broad and strategic line card of industry-leading suppliers— allowin",
+        "basis": "outbound_link"
+      },
+      {
+        "vendorDomain": "resourcive.com",
+        "vendorName": "Resourcive",
+        "label": "Resourcive",
+        "publishedBy": "scansource.com",
+        "sourceUrl": "https://scansource.com/solutions",
+        "quote": "Suppliers One of our main priorities is partnering with quality suppliers who want to help our sales partners as much as we do. That's why we created a broad and strategic line card of industry-leading suppliers— allowin",
+        "basis": "outbound_link"
+      },
+      {
+        "vendorDomain": "rpmtelco.com",
+        "vendorName": "RPM",
+        "label": "RPM",
+        "publishedBy": "scansource.com",
+        "sourceUrl": "https://scansource.com/solutions",
+        "quote": "Suppliers One of our main priorities is partnering with quality suppliers who want to help our sales partners as much as we do. That's why we created a broad and strategic line card of industry-leading suppliers— allowin",
+        "basis": "outbound_link"
+      },
+      {
+        "vendorDomain": "flippingbook.com",
+        "vendorName": "View Our Line Card",
+        "label": "View Our Line Card",
+        "publishedBy": "scansource.com",
+        "sourceUrl": "https://scansource.com/solutions",
+        "quote": "Suppliers One of our main priorities is partnering with quality suppliers who want to help our sales partners as much as we do. That's why we created a broad and strategic line card of industry-leading suppliers— allowin",
+        "basis": "outbound_link"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "intelisys and advisory",
+        "label": "intelisys and advisory",
+        "publishedBy": "scansource.com",
+        "sourceUrl": "https://scansource.com/technologies/intelisys-and-advisory",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "suppliers",
+        "label": "suppliers",
+        "publishedBy": "scansource.com",
+        "sourceUrl": "https://scansource.com/technologies/suppliers",
+        "quote": "Suppliers One of our main priorities is partnering with quality suppliers who want to help our sales partners as much as we do. That's why we created a broad an",
+        "basis": "vendor_page_slug"
+      }
+    ],
+    "distinctVendors": [
+      "intelisys.com",
+      "resourcive.com",
+      "rpmtelco.com",
+      "flippingbook.com",
+      "name:intelisys and advisory",
+      "name:suppliers"
+    ],
+    "requests": 16,
+    "note": "2 listing page(s) read; 6 distinct vendor domain(s) named.",
+    "arm": "distributor_side",
+    "seconds": 21
+  }
+]

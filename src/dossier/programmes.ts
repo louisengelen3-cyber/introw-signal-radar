@@ -14,6 +14,7 @@
 
 import { snapToSentences } from '../lib/http.js';
 import type { ProgrammeKind } from './types.js';
+import { matchUnnegated } from '../lib/negation.js';
 
 export const PROGRAMME_PATTERNS: { kind: ProgrammeKind; label: string; re: RegExp }[] = [
   // `VAR` is NOT in this pattern. Under /i, `\bVAR\b` matches the bare word "var", which is
@@ -49,11 +50,11 @@ export function detectProgrammes(pages: { url: string; text: string }[]): Progra
   const out: ProgrammeHit[] = [];
   for (const p of pages) {
     for (const def of PROGRAMME_PATTERNS) {
-      const m = p.text.match(def.re);
+      const m = matchUnnegated(p.text, def.re);
       if (!m || m.index === undefined) continue;
       const start = Math.max(0, m.index - 140);
       const window = snapToSentences(p.text.slice(start, m.index + m[0].length + 140));
-      const named = p.text.match(NAMED);
+      const named = matchUnnegated(p.text, NAMED);
       out.push({ kind: def.kind, label: def.label, quote: window, sourceUrl: p.url, publishedName: named?.[1] ?? null });
     }
   }

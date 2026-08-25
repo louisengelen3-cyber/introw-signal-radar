@@ -1,0 +1,204 @@
+[
+  {
+    "domain": "billit.be",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://billit.be/nl-nl/partners/",
+    "reason": "verified"
+  },
+  {
+    "domain": "bothive.io",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://www.bothive.io/partners",
+    "reason": "verified"
+  },
+  {
+    "domain": "clearfacts.be",
+    "alive": true,
+    "hasPartnerPage": false,
+    "partnerUrl": null,
+    "reason": "no retrievable partner page"
+  },
+  {
+    "domain": "codabox.com",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://codabox.com/fr/produits/partenaires/",
+    "reason": "verified"
+  },
+  {
+    "domain": "collibra.com",
+    "alive": true,
+    "hasPartnerPage": false,
+    "partnerUrl": null,
+    "reason": "no retrievable partner page"
+  },
+  {
+    "domain": "deliverect.com",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://deliverect.com/en/become-a-partner",
+    "reason": "verified"
+  },
+  {
+    "domain": "efficy.com",
+    "alive": false,
+    "hasPartnerPage": false,
+    "reason": "domain did not resolve"
+  },
+  {
+    "domain": "guardsquare.com",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://www.guardsquare.com/partners",
+    "reason": "verified"
+  },
+  {
+    "domain": "henchman.io",
+    "alive": false,
+    "hasPartnerPage": false,
+    "reason": "domain did not resolve"
+  },
+  {
+    "domain": "intuo.io",
+    "alive": false,
+    "hasPartnerPage": false,
+    "reason": "domain did not resolve"
+  },
+  {
+    "domain": "isabel.eu",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://www.isabel.eu/en/our-partners/become-a-partner",
+    "reason": "verified"
+  },
+  {
+    "domain": "januari.io",
+    "alive": false,
+    "hasPartnerPage": false,
+    "reason": "domain did not resolve"
+  },
+  {
+    "domain": "lansweeper.com",
+    "alive": false,
+    "hasPartnerPage": false,
+    "reason": "domain did not resolve"
+  },
+  {
+    "domain": "mobilexpense.com",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://www.mobilexpense.com/de/partner-werden",
+    "reason": "verified"
+  },
+  {
+    "domain": "ngdata.com",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://ngdata.com/partners",
+    "reason": "verified"
+  },
+  {
+    "domain": "odoo.com",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://www.odoo.com/certification-faq",
+    "reason": "verified"
+  },
+  {
+    "domain": "officient.io",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://officient.io/benl/partners",
+    "reason": "verified"
+  },
+  {
+    "domain": "payflip.be",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://payflip.be/nl/partners",
+    "reason": "verified"
+  },
+  {
+    "domain": "pieter.io",
+    "alive": true,
+    "hasPartnerPage": false,
+    "partnerUrl": null,
+    "reason": "no retrievable partner page"
+  },
+  {
+    "domain": "protime.eu",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://www.protime.eu/en/about-us/partners",
+    "reason": "verified"
+  },
+  {
+    "domain": "salonkee.be",
+    "alive": true,
+    "hasPartnerPage": false,
+    "partnerUrl": null,
+    "reason": "no retrievable partner page"
+  },
+  {
+    "domain": "sentiance.com",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://www.sentiance.com/partners",
+    "reason": "verified"
+  },
+  {
+    "domain": "showpad.com",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://www.showpad.com/partners-old-2",
+    "reason": "verified"
+  },
+  {
+    "domain": "silverfin.be",
+    "alive": false,
+    "hasPartnerPage": false,
+    "reason": "domain did not resolve"
+  },
+  {
+    "domain": "silverfin.com",
+    "alive": false,
+    "hasPartnerPage": false,
+    "reason": "domain did not resolve"
+  },
+  {
+    "domain": "teamleader.eu",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://www.teamleader.eu/become-a-partner",
+    "reason": "verified"
+  },
+  {
+    "domain": "trustcloud.be",
+    "alive": false,
+    "hasPartnerPage": false,
+    "reason": "domain did not resolve"
+  },
+  {
+    "domain": "twikey.com",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://www.twikey.com/be/partner/aangetekend.html",
+    "reason": "verified"
+  },
+  {
+    "domain": "unifiedpost.com",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://unifiedpost.com/partnerships/accountants",
+    "reason": "verified"
+  },
+  {
+    "domain": "yuki.nl",
+    "alive": true,
+    "hasPartnerPage": true,
+    "partnerUrl": "https://yuki.nl/nl-nl/partners/",
+    "reason": "verified"
+  }
+]

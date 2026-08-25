@@ -1,0 +1,50 @@
+[
+  {
+    "domain": "allisontransmission.com",
+    "expected": "~1,600 dealer/distributor locations and 6,200 certified technicians",
+    "pagesRead": 3,
+    "claims": [
+      {
+        "claimed": 1600,
+        "noun": "Dealer",
+        "approximate": true,
+        "quote": "Allison Authorized Channel Our network of approximately 1,600 Authorized Dealer and Distributor locations provides customers with unrivaled sales and service support. Watch Video Our Service Commitment For ove",
+        "sourceUrl": "https://allisontransmission.com/aftermarket-and-channel/channel",
+        "proves": "the company publicly claims 1,600 Dealer",
+        "doesNotProve": "that the figure is current, verified, or that the partners are active — it is a claim the company makes about itself"
+      }
+    ]
+  },
+  {
+    "domain": "expo-e.uk",
+    "expected": "600+ organisations in the Channel community",
+    "pagesRead": 8,
+    "claims": [
+      {
+        "claimed": 600,
+        "noun": "organisations",
+        "approximate": true,
+        "quote": "xperience enabling other organisations to grow, innovate, and drive positive change. We’re already trusted by more than 600 organisations who have joined our Channel community, ranging from ambitious start-ups to industry leaders. These Channel Partners work closely",
+        "sourceUrl": "https://www.expo-e.uk/about-us",
+        "proves": "the company publicly claims 600 organisations",
+        "doesNotProve": "that the figure is current, verified, or that the partners are active — it is a claim the company makes about itself"
+      }
+    ]
+  },
+  {
+    "domain": "myfactory.com",
+    "expected": "named partners in a programme PDF",
+    "pagesRead": 3,
+    "claims": [
+      {
+        "claimed": 100,
+        "noun": "Partner",
+        "approximate": false,
+        "quote": "ert in der Myfactory-Unternehmensphilosophie. Und so kann sich das Partnernetzwerk wirklich sehen lassen: Rund 100 Partner aus dem deutschsprachigen Raum bilden mittlerweile die Myfactory-Community – Beratungsunternehmen und Systemhäuser mit erfahrenen",
+        "sourceUrl": "https://www.myfactory.com/de/unternehmen/partner-werden",
+        "proves": "the company publicly claims 100 Partner",
+        "doesNotProve": "that the figure is current, verified, or that the partners are active — it is a claim the company makes about itself"
+      }
+    ]
+  }
+]

@@ -19,6 +19,8 @@
  *   merged.
  */
 
+import { matchUnnegated } from '../lib/negation.js';
+
 export type DirectoryType =
   | 'reseller_directory' | 'dealer_locator' | 'installer_locator' | 'service_network'
   | 'solution_partner_directory' | 'msp_directory' | 'distributor_directory'
@@ -195,7 +197,7 @@ export function scanTrade(pages: { url: string; text: string }[]): TradeScan {
   for (const p of pages) {
     if (PRODUCT_NOISE.test(p.text)) continue;
     for (const def of MOTIONS) {
-      const m = p.text.match(def.re);
+      const m = matchUnnegated(p.text, def.re);
       if (!m) continue;
       if (motions.has(def.kind)) continue;   // one fact per kind, whatever language matched
       motions.set(def.kind, {
@@ -205,7 +207,7 @@ export function scanTrade(pages: { url: string; text: string }[]): TradeScan {
       });
     }
     for (const def of SURFACES) {
-      const m = p.text.match(def.re);
+      const m = matchUnnegated(p.text, def.re);
       if (!m) continue;
       if (surfaces.has(def.kind)) continue;
       surfaces.set(def.kind, {

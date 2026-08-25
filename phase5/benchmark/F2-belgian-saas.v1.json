@@ -1,0 +1,15 @@
+{
+  "purpose": "Recall reference list for ONE bounded segment (workstream F2): Belgian B2B software companies with a publicly reachable partner page.",
+  "segment": "Belgian-headquartered B2B software vendors, any size, with a partner/reseller page on their own domain.",
+  "constructionRule": "Assembled by hand from sector knowledge of the Belgian B2B software market, WITHOUT running discovery and without consulting any discovery output. Every entry is then verified mechanically: it counts as a reference member only if a partner page is actually retrievable on its own domain. Companies that fail verification are dropped from the denominator rather than counted as misses, because a company with no public partner page is not something discovery could be expected to find.",
+  "limits": "This is a convenience list, not an enumeration of the segment. It cannot support a claim about the true size of the Belgian B2B software population, so recall here is recall against THIS list and nothing more.",
+  "frozenAt": "2026-08-25",
+  "candidates": [
+    "teamleader.eu", "silverfin.com", "efficy.com", "unifiedpost.com", "isabel.eu",
+    "payflip.be", "officient.io", "protime.eu", "twikey.com", "odoo.com",
+    "lansweeper.com", "showpad.com", "mobilexpense.com", "deliverect.com", "henchman.io",
+    "sentiance.com", "guardsquare.com", "collibra.com", "ngdata.com", "intuo.io",
+    "pieter.io", "billit.be", "yuki.nl", "clearfacts.be", "codabox.com",
+    "silverfin.be", "trustcloud.be", "salonkee.be", "bothive.io", "januari.io"
+  ]
+}

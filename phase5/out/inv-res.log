@@ -1,0 +1,17 @@
+[1/16] softcat.com                surfaces=3 vendors=60 req=16 16s
+[2/16] computacenter.com          surfaces=2 vendors=44 req=16 17s
+[3/16] insight.com                surfaces=1 vendors=0 req=16 17s
+[4/16] bechtle.com                surfaces=1 vendors=0 req=16 20s
+[5/16] devoteam.com               surfaces=5 vendors=4 req=8 7s
+[6/16] deloitte.com               surfaces=1 vendors=1 req=16 13s
+[7/16] cegeka.com                 surfaces=2 vendors=8 req=16 14s
+[8/16] bain.com                   surfaces=0 vendors=0 req=16 16s
+[9/16] valtech.com                surfaces=2 vendors=23 req=16 16s
+[10/16] nagarro.com                surfaces=1 vendors=0 req=16 16s
+[11/16] capgemini.com              surfaces=3 vendors=3 req=16 16s
+[12/16] xebia.com                  surfaces=3 vendors=3 req=16 31s
+[13/16] cognizant.com              surfaces=2 vendors=177 req=16 17s
+[14/16] nomios.com                 surfaces=2 vendors=36 req=16 15s
+[15/16] wipro.com                  surfaces=2 vendors=82 req=16 23s
+[16/16] sopra-steria.com           surfaces=0 vendors=0 req=16 147s
+DONE reseller_side — 16 counterparties, 441 vendor mentions, 363 distinct vendors

@@ -1,0 +1,104 @@
+[
+  {
+    "domain": "myfactory.com",
+    "before": [
+      "partner_recruitment"
+    ],
+    "after": [
+      "partner_recruitment"
+    ],
+    "dropped": [],
+    "added": [],
+    "programmesBefore": [
+      "reseller",
+      "distributor"
+    ],
+    "programmesAfter": [
+      "reseller",
+      "distributor"
+    ]
+  },
+  {
+    "domain": "apaleo.com",
+    "before": [],
+    "after": [],
+    "dropped": [],
+    "added": [],
+    "programmesBefore": [],
+    "programmesAfter": []
+  },
+  {
+    "domain": "machineering.de",
+    "before": [],
+    "after": [],
+    "dropped": [],
+    "added": [],
+    "programmesBefore": [],
+    "programmesAfter": []
+  },
+  {
+    "domain": "allisontransmission.com",
+    "before": [],
+    "after": [],
+    "dropped": [],
+    "added": [],
+    "programmesBefore": [
+      "distributor",
+      "dealer",
+      "oem_partner"
+    ],
+    "programmesAfter": [
+      "distributor",
+      "dealer",
+      "oem_partner"
+    ]
+  },
+  {
+    "domain": "korewireless.com",
+    "before": [
+      "partner_recruitment",
+      "application",
+      "enablement",
+      "deal_registration",
+      "portal"
+    ],
+    "after": [
+      "partner_recruitment",
+      "application",
+      "enablement",
+      "deal_registration",
+      "portal"
+    ],
+    "dropped": [],
+    "added": [],
+    "programmesBefore": [
+      "reseller"
+    ],
+    "programmesAfter": [
+      "reseller"
+    ]
+  },
+  {
+    "domain": "expo-e.uk",
+    "before": [
+      "partner_recruitment",
+      "onboarding",
+      "portal",
+      "programme_tiers"
+    ],
+    "after": [
+      "partner_recruitment",
+      "onboarding",
+      "portal",
+      "programme_tiers"
+    ],
+    "dropped": [],
+    "added": [],
+    "programmesBefore": [
+      "reseller"
+    ],
+    "programmesAfter": [
+      "reseller"
+    ]
+  }
+]

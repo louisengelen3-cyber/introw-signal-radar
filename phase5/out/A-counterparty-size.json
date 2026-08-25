@@ -1,0 +1,136 @@
+{
+  "buckets": {
+    "global systems integrator": {
+      "cps": [
+        "capgemini.com",
+        "cognizant.com",
+        "deloitte.com",
+        "devoteam.com",
+        "valtech.com",
+        "wipro.com",
+        "xebia.com"
+      ],
+      "total": 293,
+      "giants": 65
+    },
+    "national VAR / MSP": {
+      "cps": [
+        "cegeka.com",
+        "computacenter.com",
+        "nomios.com",
+        "softcat.com"
+      ],
+      "total": 148,
+      "giants": 68
+    },
+    "local consultancy / marketplace": {
+      "cps": [
+        "hrpartners.securex.be",
+        "ojc-consulting.com",
+        "smcconsulting.be"
+      ],
+      "total": 60,
+      "giants": 0
+    }
+  },
+  "perCp": [
+    {
+      "counterparty": "computacenter.com",
+      "bucket": "national VAR / MSP",
+      "vendors": 44,
+      "giants": 25,
+      "giantPct": 56.8
+    },
+    {
+      "counterparty": "softcat.com",
+      "bucket": "national VAR / MSP",
+      "vendors": 60,
+      "giants": 31,
+      "giantPct": 51.7
+    },
+    {
+      "counterparty": "valtech.com",
+      "bucket": "global systems integrator",
+      "vendors": 23,
+      "giants": 8,
+      "giantPct": 34.8
+    },
+    {
+      "counterparty": "nomios.com",
+      "bucket": "national VAR / MSP",
+      "vendors": 36,
+      "giants": 12,
+      "giantPct": 33.3
+    },
+    {
+      "counterparty": "wipro.com",
+      "bucket": "global systems integrator",
+      "vendors": 82,
+      "giants": 27,
+      "giantPct": 32.9
+    },
+    {
+      "counterparty": "cognizant.com",
+      "bucket": "global systems integrator",
+      "vendors": 177,
+      "giants": 30,
+      "giantPct": 16.9
+    },
+    {
+      "counterparty": "capgemini.com",
+      "bucket": "global systems integrator",
+      "vendors": 3,
+      "giants": 0,
+      "giantPct": 0
+    },
+    {
+      "counterparty": "cegeka.com",
+      "bucket": "national VAR / MSP",
+      "vendors": 8,
+      "giants": 0,
+      "giantPct": 0
+    },
+    {
+      "counterparty": "deloitte.com",
+      "bucket": "global systems integrator",
+      "vendors": 1,
+      "giants": 0,
+      "giantPct": 0
+    },
+    {
+      "counterparty": "devoteam.com",
+      "bucket": "global systems integrator",
+      "vendors": 4,
+      "giants": 0,
+      "giantPct": 0
+    },
+    {
+      "counterparty": "xebia.com",
+      "bucket": "global systems integrator",
+      "vendors": 3,
+      "giants": 0,
+      "giantPct": 0
+    },
+    {
+      "counterparty": "hrpartners.securex.be",
+      "bucket": "local consultancy / marketplace",
+      "vendors": 50,
+      "giants": 0,
+      "giantPct": 0
+    },
+    {
+      "counterparty": "ojc-consulting.com",
+      "bucket": "local consultancy / marketplace",
+      "vendors": 8,
+      "giants": 0,
+      "giantPct": 0
+    },
+    {
+      "counterparty": "smcconsulting.be",
+      "bucket": "local consultancy / marketplace",
+      "vendors": 2,
+      "giants": 0,
+      "giantPct": 0
+    }
+  ]
+}

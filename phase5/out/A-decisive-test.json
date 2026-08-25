@@ -1,0 +1,36 @@
+{
+  "workstream": "A — reseller-side inversion as a discovery seed",
+  "test": "Do the recovered Introw customers appear on counterparty-side surfaces (reseller / consultancy / MSP / implementation-partner sites) that the current discovery structurally misses?",
+  "runBeforeBuilding": true,
+  "method": "One name-scoped web search per company, then first-party retrieval of any counterparty page found, to confirm the page exists and is readable rather than trusting the snippet.",
+  "n": 4,
+  "results": [
+    { "company": "ringover.com", "found": true,
+      "counterpartyUrl": "https://www.smcconsulting.be/ringover-certified-partner/ringover-enterprise-business-telephony/",
+      "counterpartyType": "consultancy", "counterpartyCountry": "BE",
+      "retrieved": { "status": 200, "chars": 9243 },
+      "quote": "Ringover Certified Partner — Ringover Enterprise Business Telephony. Discover the Ringover Enterprise Business Telephony solution with SMC Consulting" },
+    { "company": "xelix.com", "found": true,
+      "counterpartyUrl": "https://www.ojc-consulting.com/Page/Xelix",
+      "counterpartyType": "consultancy", "counterpartyCountry": "BE",
+      "retrieved": { "status": 200, "chars": 3504 },
+      "quote": "Solution expertise: Ivalua · GEP · Ecovadis · iGrafx · Lemon Learning · Xelix",
+      "note": "The page carries OJC's entire vendor portfolio as a list, which is the exact shape the crawler must extract." },
+    { "company": "payflip.be", "found": true,
+      "counterpartyUrl": "https://hrpartners.securex.be/nl/partners/payflip",
+      "counterpartyType": "hr_services_partner_marketplace", "counterpartyCountry": "BE",
+      "retrieved": { "status": 200, "chars": 3374 },
+      "quote": "Payflip partners — Payflip: De gamechanger in flexibel verlonen.",
+      "note": "Dutch-language. Securex is a Belgian social secretariat publishing a partner page for Payflip on its own domain." },
+    { "company": "zenity.io", "found": false,
+      "counterpartyUrl": null, "counterpartyType": null,
+      "note": "No counterparty-published page found. Search returned only Zenity's own pages, press releases, trade press and LinkedIn. Zenity's own newsroom references 'government resellers supported by the Zenity Partner Program', but no reseller publishes a Zenity page that surfaced." }
+  ],
+  "verdict": "SUPPORTED",
+  "finding": "3 of 4 recovered customers are published by a counterparty on the counterparty's own domain, in three different shapes: a certified-partner page (SMC/Ringover), a vendor-portfolio list (OJC/Xelix) and a partner-marketplace entry (Securex/Payflip). All three retrieve cleanly as first-party content on the counterparty's domain. Two of three are Belgian and one is Dutch-language, consistent with the ICP thesis that the EU mid-market publishes locally.",
+  "limits": [
+    "n=4. This establishes that the surface EXISTS and is readable; it does not establish yield, precision or segment mix. Those are measured by the crawler run.",
+    "The search was name-scoped, i.e. it asked 'does a counterparty page exist for THIS company'. That is the correct decisive test but it is the inverse of how the seed operates in production, which starts from a counterparty and discovers unknown vendors.",
+    "Zenity's absence is a real negative and is not explained away: a company can sell through resellers whose pages never surface."
+  ]
+}

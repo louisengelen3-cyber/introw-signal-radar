@@ -1,0 +1,1336 @@
+[
+  {
+    "prmVendor": "kiflo.com",
+    "prmSegment": "smb",
+    "surfacesRead": [
+      "https://www.kiflo.com/customers",
+      "https://www.kiflo.com/success-stories"
+    ],
+    "mentions": [
+      {
+        "customerDomain": null,
+        "customerName": "totalsoft",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/totalsoft",
+        "quote": "You're in good company Discover how businesses like yours build and scale successful partnership strategies with Kiflo. TotalSoft How TotalSoft turned an ad-hoc partner motion into a structured revenue channel, built to scale across Europe, DACH and MENA. Read Success Story Donorbox Find out how Kif"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "donorbox",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/donorbox",
+        "quote": "d-hoc partner motion into a structured revenue channel, built to scale across Europe, DACH and MENA. Read Success Story Donorbox Find out how Kiflo helped Donorbox gain unified visibility into both partner-driven revenue and partner activity. Read Success Story Surfe Learn how Surfe manages differen"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "surfe",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/surfe",
+        "quote": "Kiflo helped Donorbox gain unified visibility into both partner-driven revenue and partner activity. Read Success Story Surfe Learn how Surfe manages different types partners and scales its partner program with Kiflo. Read Success Story Shoppingfeed Discover how Shoppingfeed swiftly manages differen"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "shoppingfeed",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/shoppingfeed",
+        "quote": "ry Surfe Learn how Surfe manages different types partners and scales its partner program with Kiflo. Read Success Story Shoppingfeed Discover how Shoppingfeed swiftly manages different types and number of partners using Kiflo. Read Success Story Judy Security Discover how Kiflo helped Judy Security"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "judy security",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/judy-security",
+        "quote": "ngfeed Discover how Shoppingfeed swiftly manages different types and number of partners using Kiflo. Read Success Story Judy Security Discover how Kiflo helped Judy Security streamline deal registration and enable resource sharing. Read Success Story Superchat Find out how Kiflo helped Superchat sca"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "superchat",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/superchat",
+        "quote": "ty Discover how Kiflo helped Judy Security streamline deal registration and enable resource sharing. Read Success Story Superchat Find out how Kiflo helped Superchat scale its partner program performance. Read Success Story Holded Learn how Kiflo helped Holded simplify their partner program and rewa"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "holded",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/holded",
+        "quote": "d Success Story Superchat Find out how Kiflo helped Superchat scale its partner program performance. Read Success Story Holded Learn how Kiflo helped Holded simplify their partner program and reward structure. Read Success Story AfterSell Discover more how Kiflo aided AfterSell put a formal structur"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "aftersell",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/aftersell",
+        "quote": "cess Story Holded Learn how Kiflo helped Holded simplify their partner program and reward structure. Read Success Story AfterSell Discover more how Kiflo aided AfterSell put a formal structure and scale their partner program. Read Success Story Intershop Find out how Kiflo helped Intershop Communica"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "intershop",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/intershop",
+        "quote": "Sell Discover more how Kiflo aided AfterSell put a formal structure and scale their partner program. Read Success Story Intershop Find out how Kiflo helped Intershop Communications organize and better manage their strong partner program. Read Success Story PARTNERNOMICS Learn how Kiflo helped PARTNE"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "partnernomics",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/partnernomics",
+        "quote": "t how Kiflo helped Intershop Communications organize and better manage their strong partner program. Read Success Story PARTNERNOMICS Learn how Kiflo helped PARTNERNOMICS efficiently manage their robust partner programs Read Success Story International Development Academy How International Developme"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "international development academy",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/international-development-academy",
+        "quote": "PARTNERNOMICS Learn how Kiflo helped PARTNERNOMICS efficiently manage their robust partner programs Read Success Story International Development Academy How International Development Academy Increased Partner Engagement. Read Success Story Efecte Find out how Efecte Automated & Scaled Their Success"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "efecte",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/efecte",
+        "quote": "nternational Development Academy How International Development Academy Increased Partner Engagement. Read Success Story Efecte Find out how Efecte Automated & Scaled Their Successful Partner Program with Kiflo. Read Success Story IPSytems How Kiflo Helped IPSYSTEMS Increase Partner Trust & Alignment"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "ipsystems",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/ipsystems",
+        "quote": "how Efecte Automated & Scaled Their Successful Partner Program with Kiflo. Read Success Story IPSytems How Kiflo Helped IPSYSTEMS Increase Partner Trust & Alignment. Read Success Story EffectConnect How EffectConnect Grew a Thriving Partner Program With Kiflo. Read Success Story Container xChange Ho"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "effectconnect",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/effectconnect",
+        "quote": "th Kiflo. Read Success Story IPSytems How Kiflo Helped IPSYSTEMS Increase Partner Trust & Alignment. Read Success Story EffectConnect How EffectConnect Grew a Thriving Partner Program With Kiflo. Read Success Story Container xChange How Container xChange Streamlined & Scaled Operations with Kiflo. R"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "container xchange",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/container-xchange",
+        "quote": "ment. Read Success Story EffectConnect How EffectConnect Grew a Thriving Partner Program With Kiflo. Read Success Story Container xChange How Container xChange Streamlined & Scaled Operations with Kiflo. Read Success Story Chainlane How Chainlaine Streamlined Partner Communication & Improved Partner"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "chainlane",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/chainlane",
+        "quote": "ad Success Story Container xChange How Container xChange Streamlined & Scaled Operations with Kiflo. Read Success Story Chainlane How Chainlaine Streamlined Partner Communication & Improved Partner Engagement. Read Success Story PPC Protect How PPC Protect Grew a Successful SaaS Partner Program. Rea"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "ppc protect",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/ppc-protect",
+        "quote": "cess Story Chainlane How Chainlaine Streamlined Partner Communication & Improved Partner Engagement. Read Success Story PPC Protect How PPC Protect Grew a Successful SaaS Partner Program. Read Success Story PerceptionPredict How PerceptionPredict Built a Partner Program from the Ground Up. Read Succ"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "perception predict",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/perception-predict",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "rotageek",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/rotageek",
+        "quote": "ad Success Story PerceptionPredict How PerceptionPredict Built a Partner Program from the Ground Up. Read Success Story Rotageek How Rotageek used a Partner Program to Increase their Demand Generation. Read Success Story Toucan Toco How Toucan Toco Simplified Partnership Management & Improved the Pa"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "toucan toco",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/toucan-toco",
+        "quote": "Read Success Story Rotageek How Rotageek used a Partner Program to Increase their Demand Generation. Read Success Story Toucan Toco How Toucan Toco Simplified Partnership Management & Improved the Partner Experience. Read Success Story Halodata How Halodata Improved Partnership Management & Indirect"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "halodata",
+        "prmVendor": "kiflo.com",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.kiflo.com/customers/halodata",
+        "quote": "ory Toucan Toco How Toucan Toco Simplified Partnership Management & Improved the Partner Experience. Read Success Story Halodata How Halodata Improved Partnership Management & Indirect Sales. Read Success Story Join the Companies Growing with Kiflo Experience how Kiflo helps companies like yours sca"
+      }
+    ],
+    "requests": 11,
+    "note": "2 customer surface(s); 21 mention(s)."
+  },
+  {
+    "prmVendor": "partnerportal.io",
+    "prmSegment": "smb",
+    "surfacesRead": [
+      "https://www.partnerportal.io/case-studies"
+    ],
+    "mentions": [
+      {
+        "customerDomain": null,
+        "customerName": "crossbeam",
+        "prmVendor": "partnerportal.io",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerportal.io/case-studies/crossbeam",
+        "quote": "t like yours launched, scaled, and tracked their partner programs with PartnerPortal — all while staying within budget. Crossbeam Why Crossbeam chose PartnerPortal as their PRM Crossbeam's two-person ecosystem team needed to automate payouts and bring order to partner-submitted leads. With PartnerPo"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "skio",
+        "prmVendor": "partnerportal.io",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerportal.io/case-studies/skio",
+        "quote": "ust table stakes. Finding a system to automate that for us was key to kickstart the whole program.\" Read the case study Skio How a two-person team manages 250+ partners Skio helps brands sell subscriptions in the Shopify ecosystem. PartnerPortal became the administrative backbone of their program —"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "searchspring",
+        "prmVendor": "partnerportal.io",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerportal.io/case-studies/searchspring",
+        "quote": "to the infrastructure of our program. Executing payouts would be a whole job in itself without it.\" Read the case study Searchspring How Searchspring doubled their partner-sourced revenue As Searchspring's partner channel grew faster than expected, they replaced spreadsheets with PartnerPortal — for"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "flipcx",
+        "prmVendor": "partnerportal.io",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerportal.io/case-studies/flipcx",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "events.com",
+        "prmVendor": "partnerportal.io",
+        "prmSegment": "smb",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerportal.io/case-studies/events.com",
+        "quote": "preadsheet together, whereas PartnerPortal.io is ready to go and very quick to get up and running.\" Read the case study Events.com How Events.com automated payouts to investors and advisors Events.com used PartnerPortal's white-label portal to reinvest in their network — paying dividends to investor"
+      }
+    ],
+    "requests": 11,
+    "note": "1 customer surface(s); 5 mention(s)."
+  },
+  {
+    "prmVendor": "unifyr.com",
+    "prmSegment": "smb",
+    "surfacesRead": [],
+    "mentions": [],
+    "requests": 11,
+    "note": "No customer surface was readable. Not evidence that the vendor names no customers."
+  },
+  {
+    "prmVendor": "journeybee.io",
+    "prmSegment": "smb",
+    "surfacesRead": [],
+    "mentions": [],
+    "requests": 12,
+    "note": "No customer surface was readable. Not evidence that the vendor names no customers."
+  },
+  {
+    "prmVendor": "allbound.com",
+    "prmSegment": "mid_market",
+    "surfacesRead": [
+      "https://www.allbound.com/customers",
+      "https://www.allbound.com/case-studies",
+      "https://www.allbound.com/case-study"
+    ],
+    "mentions": [
+      {
+        "customerDomain": "channelscaler.com",
+        "customerName": "channelscaler",
+        "prmVendor": "allbound.com",
+        "prmSegment": "mid_market",
+        "artefactType": "testimonial_link",
+        "sourceUrl": "https://www.allbound.com/customers",
+        "quote": "Partner Ecosystem Expertise Meets AI-Powered Execution Enterprise AI Partner Relationship Management Software (PRM) that transforms channel complexity into intelligent automation, better partner exper"
+      }
+    ],
+    "requests": 4,
+    "note": "3 customer surface(s); 1 mention(s)."
+  },
+  {
+    "prmVendor": "channeltivity.com",
+    "prmSegment": "mid_market",
+    "surfacesRead": [
+      "https://www.channeltivity.com/customers",
+      "https://www.channeltivity.com/case-studies",
+      "https://www.channeltivity.com/testimonials"
+    ],
+    "mentions": [
+      {
+        "customerDomain": null,
+        "customerName": "black box boosts customer driven pipeline with channeltivity",
+        "prmVendor": "channeltivity.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.channeltivity.com/customers/black-box-boosts-customer-driven-pipeline-with-channeltivity/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "versity",
+        "prmVendor": "channeltivity.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.channeltivity.com/customers/versity/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "openpath channeltivity case study",
+        "prmVendor": "channeltivity.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.channeltivity.com/customers/openpath-channeltivity-case-study/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "lauren robinette channel rockstar",
+        "prmVendor": "channeltivity.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.channeltivity.com/customers/lauren-robinette-channel-rockstar/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "security innovation",
+        "prmVendor": "channeltivity.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.channeltivity.com/customers/security-innovation/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "infocus",
+        "prmVendor": "channeltivity.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.channeltivity.com/customers/infocus/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "chequed",
+        "prmVendor": "channeltivity.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.channeltivity.com/customers/chequed/",
+        "quote": "s. ” Case Study “ Channeltivity is easy to use, flexible, scalable, and the customer service is amazing. ” Case Study “ Chequed implemented Channeltivity and within less than a year have grown their partner base over 300% without the addition of staff. ” Case Study “ Channeltivity plays an active ro"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "ctera",
+        "prmVendor": "channeltivity.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.channeltivity.com/customers/ctera/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "greg harris",
+        "prmVendor": "channeltivity.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.channeltivity.com/customers/greg-harris/",
+        "quote": "ing factors that we will look at when making a selection in terms of whether we go to market with that vendor or not. ” Greg Harris Cofounder and Managing Director Channel Champion “ Stay organized, communicate often, and always understand the needs of the market so you can best adjust your benefits"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "suzanne parent",
+        "prmVendor": "channeltivity.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.channeltivity.com/customers/suzanne-parent/",
+        "quote": "ized, communicate often, and always understand the needs of the market so you can best adjust your benefits or offer. ” Suzanne Parent Manager of Partner Programs and Sales Channel Champion “ The strategy that you have on day one for your partner program is most likely not going to be the strategy t"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "whitney ondrejcka",
+        "prmVendor": "channeltivity.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.channeltivity.com/customers/whitney-ondrejcka/",
+        "quote": "your partners, do a gut check, and make sure that the strategy that you're taking to move forward is the correct one. ” Whitney Ondrejcka Director, Partner Strategy Channel Champion “ Organizations tend to look at the customer journey only. But we must do the same for our partners and analyze the to"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "jayme kiester",
+        "prmVendor": "channeltivity.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.channeltivity.com/customers/jayme-kiester/",
+        "quote": "om the moment we onboard them to the support of that first sale, we must make sure we are equipping them for success. ” Jayme Kiester VP of Channel Partnerships Channel Champion “ If I had to give any advice to a channel manager looking to grow their program, I'd say highlight your top three, four,"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "matt moriarty",
+        "prmVendor": "channeltivity.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.channeltivity.com/customers/matt-moriarty/",
+        "quote": "ve areas that you really want to get done and start with those. And select a platform that can grow with you as well. ” Matt Moriarty Digital and Channel Marketing Manager Channel Champion “ Make your partners smart people. Make them understand the buying circumstances, or the market conditions and"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "jeff miller",
+        "prmVendor": "channeltivity.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.channeltivity.com/customers/jeff-miller/",
+        "quote": "ing circumstances, or the market conditions and objections, so when they're in a sales conversation they're powerful. ” Jeff Miller Channel Manager Channel Champion “ You have to ask yourselves: Do we have to have the right foundation that allows us to do one-to-many, and do we have the right people"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "theresa caragol",
+        "prmVendor": "channeltivity.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.channeltivity.com/customers/theresa-caragol/",
+        "quote": "that allows us to do one-to-many, and do we have the right people with the right skill set so they can be successful? ” Theresa Caragol Founder and Principal Consultant Ready to get started? Explore how Channeltivity can support your partner ecosystem, streamline operations, and drive channel growth"
+      }
+    ],
+    "requests": 9,
+    "note": "3 customer surface(s); 15 mention(s)."
+  },
+  {
+    "prmVendor": "kademi.co",
+    "prmSegment": "mid_market",
+    "surfacesRead": [
+      "https://www.kademi.co/testimonials"
+    ],
+    "mentions": [],
+    "requests": 11,
+    "note": "1 customer surface(s); 0 mention(s)."
+  },
+  {
+    "prmVendor": "partnerstack.com",
+    "prmSegment": "mid_market",
+    "surfacesRead": [
+      "https://www.partnerstack.com/customers"
+    ],
+    "mentions": [
+      {
+        "customerDomain": "appdirect.com",
+        "customerName": "Register now ->",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "testimonial_link",
+        "sourceUrl": "https://www.partnerstack.com/customers",
+        "quote": "How our customers do great things with partnerships GROWTH ↑ Growth in revenue seen by the average PartnerStack customer Revenue + In revenue driven by partners on PartnerStack in the past year Acquis"
+      },
+      {
+        "customerDomain": "greenhouse.io",
+        "customerName": "Hiring",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "testimonial_link",
+        "sourceUrl": "https://www.partnerstack.com/customers",
+        "quote": "How our customers do great things with partnerships GROWTH ↑ Growth in revenue seen by the average PartnerStack customer Revenue + In revenue driven by partners on PartnerStack in the past year Acquis"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "monday com",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/monday-com",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "semantic labs and keap",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/semantic-labs-and-keap",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "lemlist",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/lemlist",
+        "quote": "ount Management Read partner story Read customer story Watch video cus-reseller, cus-referral cus-full cus-software How lemlist scaled partner-driven MRR by 211% YoY Julia Guenier Partnership Manager Read partner story Read customer story Watch video Marketing cus-full cus-software How Foxit scaled"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "foxit",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/foxit",
+        "quote": "ulia Guenier Partnership Manager Read partner story Read customer story Watch video Marketing cus-full cus-software How Foxit scaled its affiliate program 5x in 18 months — and turned it into a top digital revenue driver — with PartnerStack TJ Chen Demand Generation Manager Read partner story Read c"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "omnisend full",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/omnisend-full",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "bolt",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/bolt",
+        "quote": "ales and Partnerships Read partner story Read customer story Watch video cus-affiliate cus-full online-marketplaces How Bolt Business scaled partner-driven revenue 30% MoM Roisin Kirk B2B Strategic Partnerships Manager Read partner story Read customer story Watch video How ClickUp saw 30% year over"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "clickup",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/clickup",
+        "quote": "n revenue 30% MoM Roisin Kirk B2B Strategic Partnerships Manager Read partner story Read customer story Watch video How ClickUp saw 30% year over year of predictive lifetime value growth from affiliates Ben Jolly Global Affiliate Marketing Lead Read partner story Read customer story Watch video cus-"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "linkbux",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/linkbux",
+        "quote": "Lead Read partner story Read customer story Watch video cus-affiliate, cus-referral cus-full cus-business-services How Linkbux saw 300% growth in their B2B-focused affiliate partner program Regis Ferreira Account Manager Read partner story Read customer story Watch video How Demandbase grew partner"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "demandbase",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/demandbase",
+        "quote": "focused affiliate partner program Regis Ferreira Account Manager Read partner story Read customer story Watch video How Demandbase grew partner-sourced revenue from 2% to 20% of their business in 18 months Kim Tremblay Director, Partner Programs Read partner story Read customer story Watch video How"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "fiverr video",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/fiverr-video",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "getresponse",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/getresponse",
+        "quote": "ities in the B2B space Eran Bombgart Senior Partnerships Manager Read partner story Read customer story Watch video How GetResponse generates 20% of their company revenue through affiliates Erica Grodin Head of Affiliate and Partnerships Read partner story Read customer story Watch video cus-marketi"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "fundraise up",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/fundraise-up",
+        "quote": "Read partner story Read customer story Watch video cus-marketing, cus-reseller, cus-referral cus-full cus-software How Fundraise Up closes deals 20% faster with a best-in-class tech stack Salvatore Salpietro Chief Community Officer Read partner story Read customer story Watch video cus-marketing, c"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "apollo video",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/apollo-video",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "junglescout",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/junglescout",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "genesys",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/genesys",
+        "quote": "nager Read partner story Read customer story Watch video cus-marketing, cus-referral cus-full cus-business-services How Genesys fuels partnership growth at scale with operating efficiencies supported by PartnerStack Stephen Procopi Director of Global Partner Strategy and Development Read partner sto"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "freshworks video",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/freshworks-video",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "pandadoc",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/pandadoc",
+        "quote": "& Growth Read partner story Read customer story Watch video cus-referral, cus-reseller cus-full cus-content-collab How PandaDoc grew monthly recurring revenue by 47% YoY with PartnerStack Bernardo Castañeda Senior Manager, Affiliates and Partnerships, PandaDoc Read partner story Read customer story"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "fiverr",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/fiverr",
+        "quote": "ir business in 18 months Kim Tremblay Director, Partner Programs Read partner story Read customer story Watch video How Fiverr uses PartnerStack to create new opportunitities in the B2B space Eran Bombgart Senior Partnerships Manager Read partner story Read customer story Watch video How GetResponse"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "glide video",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/glide-video",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "omnisend video",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/omnisend-video",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "pipedrive",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/pipedrive",
+        "quote": "partner story Read customer story Watch video cus-reseller, cus-referral cus-video cus-software How PartnerStack helps Pipedrive manage its partner program effectively Rafael de Carvalho Head of Paid Media Partnerships Read partner story Read customer story Watch video cus-affiliate cus-full cus-so"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "drip",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/drip",
+        "quote": "d of Paid Media Partnerships Read partner story Read customer story Watch video cus-affiliate cus-full cus-software How Drip earns 12.5% of revenue through partners Joe Vargas Partnerships Development Representative Read partner story Read customer story Watch video cus-marketing cus-short cus-softw"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "freshworks",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/freshworks",
+        "quote": "er Strategy and Development Read partner story Read customer story Watch video cus-marketing cus-video cus-software How Freshworks achieved a 300% increase in their qualified sign ups Anitha Sridharan Affiliate Partnerships & Growth Read partner story Read customer story Watch video cus-referral, cu"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "glide",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/glide",
+        "quote": "tomer story Watch video cus-marketing, cus-referral cus-video cus-software How PartnerStack unlocks revenue-sharing for Glide's partner program Brett Haralson Head of Experts Program Read partner story Read customer story Watch video cus-marketing, cus-referral cus-video cus-content-collab How Omnis"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "apollo",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/apollo",
+        "quote": "Read partner story Read customer story Watch video cus-marketing, cus-referral cus-video cus-business-intelligence How Apollo.io earns 10% of revenue through their partner program Jennifer Rhima Director of Partnerships Read partner story Read customer story Watch video cus-marketing cus-full cus-b"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "callrail network",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/callrail-network",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "sellfy",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/sellfy",
+        "quote": "Read partner story Read customer story Watch video cus-marketing cus-full cus-telecommunications How ecommerce platform Sellfy drives 30% of new customers through affiliate marketing Maris Dagis CEO and Co-Founder, Sellfy Read partner story Read customer story Watch video cus-marketing cus-full cus-"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "breezyhr",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/breezyhr",
+        "quote": "Co-Founder, Sellfy Read partner story Read customer story Watch video cus-marketing cus-full cus-business-services How BreezyHR had 45% YoY growth in partnerships-driven revenue Eric Semon Partner Development Manager Read partner story Read customer story Watch video cus-marketing cus-full cus-ad-m"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "unbounce and aim",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/unbounce-and-aim",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "bombbomb",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/bombbomb",
+        "quote": "Unbounce Read partner story Read customer story Watch video cus-referral, cus-reseller cus-full cus-content-collab How BombBomb drives 41% of net new partner revenue through affiliates Todd Burleson Partnerships Manager Read partner story Read customer story Watch video cus-marketing cus-full cus-l"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "riipen",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/riipen",
+        "quote": "artnerships Manager Read partner story Read customer story Watch video cus-marketing cus-full cus-learning-software How Riipen builds enablement for their four different partner personas Kaitlyn Crocker Channel Acquisitions Manager, Riipen Read partner story Read customer story Watch video cus-marke"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "socialbee",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/socialbee",
+        "quote": "sitions Manager, Riipen Read partner story Read customer story Watch video cus-marketing cus-video cus-ad-marketing How SocialBee drives 40% of all partnerships revenue through the PartnerStack Marketplace Ovi Negrean Co-founder and Chief Executive Read partner story Read customer story Watch video"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "teamwork",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/teamwork",
+        "quote": "er and Chief Executive Read partner story Read customer story Watch video cus-marketing cus-full cus-content-collab How Teamwork grew partner revenue by 65% with PartnerStack Nancy Mai Harnett Partner Marketing Specialist, Teamwork Read partner story Read customer story Watch video cus-marketing cus"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "unbounce",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/unbounce",
+        "quote": "tner Development Manager Read partner story Read customer story Watch video cus-marketing cus-full cus-ad-marketing How Unbounce grew their mature partner program 18% YoY with AIM Alex Nazarevich VP of Growth, Unbounce Read partner story Read customer story Watch video cus-referral, cus-reseller cus"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "maropost",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/maropost",
+        "quote": "Read partner story Read customer story Watch video cus-marketing, cus-referral cus-full cus-relationship-management How Maropost launched 3 partner programs in just 3 weeks Cory Snyder VP Sales and Partnerships, Maropost Read partner story Read customer story Watch video cus-marketing cus-full cus-b"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "looka",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/looka",
+        "quote": "tnerships, Maropost Read partner story Read customer story Watch video cus-marketing cus-full cus-business-services How Looka grew its affiliate program to drive one-third of profits Matthew Sison Growth Manager, Looka Read partner story Read customer story Watch video cus-marketing, cus-referral cu"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "oyster",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/oyster",
+        "quote": "ooka Read partner story Read customer story Watch video cus-marketing, cus-referral cus-short cus-consumer-services How Oyster created 500% program growth over the past two years Adrienne Coburn Director, Global Partner Programs Read partner story Read customer story Watch video cus-marketing cus-fu"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "jungle scout",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/jungle-scout",
+        "quote": "of Partnerships Read partner story Read customer story Watch video cus-marketing cus-full cus-business-intelligence How Jungle Scout drove 30% net new annual company revenue through their affiliate program Kieva Amante Affiliate and Partnerships Manager Read partner story Read customer story Watch v"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "formstack",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/formstack",
+        "quote": "Scout Read partner story Read customer story Watch video cus-marketing, cus-referral cus-full cus-business-services How Formstack drives 50% of new mid-market and enterprise business with partnerships Zak Pines VP Partnerships, Formstack Read partner story Read customer story Watch video cus-marketi"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "keap",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/keap",
+        "quote": "ad customer story Watch video cus-marketing cus-full cus-business-services How Semantic Labs drove $2.5M in revenue for Keap with PartnerStack Tali Chester Senior Director, Account Management Read partner story Read customer story Watch video cus-reseller, cus-referral cus-full cus-software How leml"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "katana",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/katana",
+        "quote": "gh Channel Programs Manager Read partner story Read customer story Watch video cus-marketing cus-video cus-software How Katana scaled for rapid growth with PartnerStack Shawn Coultice Head Of Channel Partnerships Read partner story Read customer story Watch video cus-referral cus-full cus-software H"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "gorgias",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/gorgias",
+        "quote": "Head Of Channel Partnerships Read partner story Read customer story Watch video cus-referral cus-full cus-software How Gorgias drives 50% of company revenue through partnerships Philippe Roireau VP Business Development & Partnerships, Gorgias Read partner story Read customer story Watch video cus-m"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "interact",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/interact",
+        "quote": "ent & Partnerships, Gorgias Read partner story Read customer story Watch video cus-marketing cus-short cus-software How Interact drove 20% company revenue through affiliate partners Jackie Quiz Coach Read partner story Read customer story Watch video cus-marketing cus-short cus-software How Carbon6"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "carbon6",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/carbon6",
+        "quote": "partners Jackie Quiz Coach Read partner story Read customer story Watch video cus-marketing cus-short cus-software How Carbon6 uses PartnerStack to scale for efficiency Kristine Brum Partnerships Program Manager Read partner story Read customer story Watch video cus-marketing cus-short cus-consumer"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "printify",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/printify",
+        "quote": "ps Program Manager Read partner story Read customer story Watch video cus-marketing cus-short cus-consumer-services How Printify saves 10 hours a month with PartnerStack Sofija Aleksejeva Affiliate Marketing Manager Read partner story Read customer story Watch video cus-marketing, cus-referral cus-s"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "spocket",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/spocket",
+        "quote": "ager Read partner story Read customer story Watch video cus-marketing, cus-referral cus-short cus-department-stores How Spocket had 122% YoY growth in partner-sourced revenue Vaughn Wong Director of Operations Read partner story Read customer story Watch video cus-marketing cus-short cus-ad-marketin"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "leadpages",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/leadpages",
+        "quote": "Director of Operations Read partner story Read customer story Watch video cus-marketing cus-short cus-ad-marketing How Leadpages achieved 19% of ARR through partnerships Bob Sparkins Manager, Affiliates & Education Read partner story Read customer story Watch video cus-marketing cus-short cus-ad-ma"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "moosend",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/moosend",
+        "quote": "Affiliates & Education Read partner story Read customer story Watch video cus-marketing cus-short cus-ad-marketing How Moosend generated 10.6% of ARR from partnerships Marina Retziou Affiliate Marketing Manager Read partner story Read customer story Watch video cus-marketing, cus-reseller cus-short"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "postscript",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/postscript",
+        "quote": "g Manager Read partner story Read customer story Watch video cus-marketing, cus-reseller cus-short cus-ad-marketing How Postscript drove 20% growth in partner-driven revenue in 2023 Wassim Dakik Senior Manager of Partnerships Read partner story Read customer story Watch video cus-marketing cus-short"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "pushowl",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/pushowl",
+        "quote": "Manager of Partnerships Read partner story Read customer story Watch video cus-marketing cus-short cus-ad-marketing How PushOwl achieved 19.5% YoY in partner-driven revenue Dulé Stojnic Head of Sales and Marketing Read partner story Read customer story Watch video cus-marketing, cus-referral cus-sho"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "close",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/close",
+        "quote": "story Read customer story Watch video cus-marketing, cus-reseller, cus-referral cus-full cus-software How Fundraise Up closes deals 20% faster with a best-in-class tech stack Salvatore Salpietro Chief Community Officer Read partner story Read customer story Watch video cus-marketing, cus-referral c"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "whatconvert",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/whatconvert",
+        "quote": "or Partnerships Manager Read partner story Read customer story Watch video cus-marketing cus-short cus-ad-marketing How WhatConverts landed 100+ customers in less than 10 months Jeremy Helms Co-founder Read partner story Read customer story Watch video cus-marketing, cus-referral, cus-reseller cus-v"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "callrail platform",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/callrail-platform",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "aircall",
+        "prmVendor": "partnerstack.com",
+        "prmSegment": "mid_market",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.partnerstack.com/customers/aircall",
+        "quote": "Rail Read partner story Read customer story Watch video cus-marketing. cus-referral cus-video cus-business-services How Aircall scaled its partnerships by 3900% Anthony Tobelaim Director of Partnership EMEA & APAC, Aircall Read partner story Read customer story Watch video View more The people say i"
+      }
+    ],
+    "requests": 11,
+    "note": "1 customer surface(s); 56 mention(s)."
+  },
+  {
+    "prmVendor": "magentrix.com",
+    "prmSegment": "mid_market",
+    "surfacesRead": [],
+    "mentions": [],
+    "requests": 11,
+    "note": "No customer surface was readable. Not evidence that the vendor names no customers."
+  },
+  {
+    "prmVendor": "impartner.com",
+    "prmSegment": "enterprise",
+    "surfacesRead": [
+      "https://www.impartner.com/case-studies"
+    ],
+    "mentions": [
+      {
+        "customerDomain": "treehousei.com",
+        "customerName": "Marketing",
+        "prmVendor": "impartner.com",
+        "prmSegment": "enterprise",
+        "artefactType": "testimonial_link",
+        "sourceUrl": "https://www.impartner.com/case-studies",
+        "quote": "ge and measure their entire partner journey end-to-end. Here’s how: Learn more about PRM Recruit Partner Identification Marketing Automation  Enroll Partner Application Terms Management  Onboard Activation Journey Orchestration Marketplace  Engage & Communicate News on Demand Personalized Alerts"
+      },
+      {
+        "customerDomain": "teamwalnut.com",
+        "customerName": "Product Tour",
+        "prmVendor": "impartner.com",
+        "prmSegment": "enterprise",
+        "artefactType": "testimonial_link",
+        "sourceUrl": "https://www.impartner.com/case-studies",
+        "quote": "orkflows, automation and AI to help organizations recruit, activate, enable and grow high-performing partners at scale. Product Tour Product Tour PRM 3.0 solves these challenges by orchestrating the entire partner revenue lifecycle Today’s partner ecosystem leaders must be able to drive trackable, R"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "impartner and palo alto networks testimonial",
+        "prmVendor": "impartner.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://impartner.com/resources/case-studies/impartner-and-palo-alto-networks-testimonial",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "impartner and avepoint",
+        "prmVendor": "impartner.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://impartner.com/resources/case-studies/impartner-and-avepoint",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "pfu fujitsu case study",
+        "prmVendor": "impartner.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://impartner.com/resources/case-study/pfu-fujitsu-case-study",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "snyk scales secure developer program with impartner",
+        "prmVendor": "impartner.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://impartner.com/resources/case-study/snyk-scales-secure-developer-program-with-impartner",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "siemens impartner",
+        "prmVendor": "impartner.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://impartner.com/resources/case-study/case-study-siemens-impartner",
+        "quote": ""
+      }
+    ],
+    "requests": 11,
+    "note": "1 customer surface(s); 7 mention(s)."
+  },
+  {
+    "prmVendor": "ziftsolutions.com",
+    "prmSegment": "enterprise",
+    "surfacesRead": [],
+    "mentions": [],
+    "requests": 11,
+    "note": "No customer surface was readable. Not evidence that the vendor names no customers."
+  },
+  {
+    "prmVendor": "mindmatrix.net",
+    "prmSegment": "enterprise",
+    "surfacesRead": [
+      "https://www.mindmatrix.net/case-studies",
+      "https://www.mindmatrix.net/case-study",
+      "https://www.mindmatrix.net/clients"
+    ],
+    "mentions": [
+      {
+        "customerDomain": "acumatica.com",
+        "customerName": "Acumatica",
+        "prmVendor": "mindmatrix.net",
+        "prmSegment": "enterprise",
+        "artefactType": "testimonial_link",
+        "sourceUrl": "https://www.mindmatrix.net/case-studies",
+        "quote": "Acumatica - Empowering Global Partners with Comprehensive Marketing Tools Learn how Mindmatrix enabled a cloud ERP leader, Acumatica to empower its partners, achieve high adoption"
+      },
+      {
+        "customerDomain": "avalara.com",
+        "customerName": "Avalara",
+        "prmVendor": "mindmatrix.net",
+        "prmSegment": "enterprise",
+        "artefactType": "testimonial_link",
+        "sourceUrl": "https://www.mindmatrix.net/case-studies",
+        "quote": "Acumatica - Empowering Global Partners with Comprehensive Marketing Tools Learn how Mindmatrix enabled a cloud ERP leader, Acumatica to empower its partners, achieve high adoption rates, and optimize"
+      },
+      {
+        "customerDomain": "litera.com",
+        "customerName": "Litera",
+        "prmVendor": "mindmatrix.net",
+        "prmSegment": "enterprise",
+        "artefactType": "testimonial_link",
+        "sourceUrl": "https://www.mindmatrix.net/case-studies",
+        "quote": "Acumatica - Empowering Global Partners with Comprehensive Marketing Tools Learn how Mindmatrix enabled a cloud ERP leader, Acumatica to empower its partners, achieve high adoption rates, and optimize"
+      }
+    ],
+    "requests": 7,
+    "note": "3 customer surface(s); 3 mention(s)."
+  },
+  {
+    "prmVendor": "zinfi.com",
+    "prmSegment": "enterprise",
+    "surfacesRead": [
+      "https://www.zinfi.com/blog/success-stories/"
+    ],
+    "mentions": [
+      {
+        "customerDomain": "spotify.com",
+        "customerName": "spotify",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "testimonial_link",
+        "sourceUrl": "https://www.zinfi.com/blog/success-stories/",
+        "quote": "Success Stories All Success Stories Appointment Setting Channel marketing automation platform Demand Generation Email Marketing Lead Generation Lead Qualification Multi-Touch Marketing Partner Marketi"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "erinware",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/success-stories/partner-portal-erinware/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "fvc",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/success-stories/partner-portal-fvc/",
+        "quote": "ly, Esinware is a fast-growing technology company with 12 dedicated... ZINFI Partner Portal Helps IT Solutions Provider FVC Automate a Broad Range of Marketing and Technical Functions as It Pursues Opportunities across the Middle East and North Africa Deal registration, training and certifications,"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "system integrator n able",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/success-stories/partner-portal-system-integrator-n-able/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "blue gorilla digital",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/success-stories/partner-portal-blue-gorilla-digital/",
+        "quote": "-guided training and certification programs Download Success Story PDF » Overview N-able Private Limited (N-able), a... Blue Gorilla Digital Uses ZINFI Partner Portal to Help Clients Track the Results of Their Advertising ZINFI technology helps Blue Gorilla more transparency to clients, a better und"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "illumine energy",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/success-stories/channel-marketing-automation-illumine-energy/",
+        "quote": "campaigns Download Success Story PDF » Overview Headquartered in Jupiter, Florida, Blue Gorilla Digital is a digital... Illumine Energy Wins Confidence of Prospective Customers by Implementing ZINFI Channel Marketing Automation Platform Renewable energy market in India places a premium on long-term"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "yoursix",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/success-stories/partner-portal-yoursix/",
+        "quote": "l marketing automation software Download Success Story PDF » Overview Illumine Energy, headquartered in Kochi, India... YourSix Deploys ZINFI Partner Portal Software to Provide Its Partner Network with a One-Stop Resource Center Leading Provider of Cloud-based Physical Security Software Solutions Ha"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "beamex",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/success-stories/partner-relationship-management-software-beamex/",
+        "quote": "sical Security as a Service (PSaaS) software to enterprises and... ZINFI Partner Relationship Management Software helps Beamex transform its partner sales process by enabling integration of HubSpot CRM data with the ZINFI platform Leading calibration solutions provider can now monitor the progress o"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "versatex marketing tools",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/success-stories/partner-portal-versatex-marketing-tools/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "teleplus cloud services",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/success-stories/partner-portal-teleplus-cloud-services/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "partner marketing management red hat ipcom",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/success-stories/partner-marketing-management-red-hat-ipcom",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "nec central telephone",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/resources/success-stories/partner-portal-nec-central-telephone",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "genesys datanet",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/resources/success-stories/partner-portal-genesys-datanet/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "genesys econtact",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/resources/success-stories/partner-portal-genesys-econtact/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "entel systems nec",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/resources/success-stories/partner-portal-entel-systems-nec/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "eti red hat",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/resources/success-stories/partner-portal-eti-red-hat/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "360 profit masters",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/resources/success-stories/partner-portal-360-profit-masters/",
+        "quote": "Campaigns Download Success Story PDF » Challenges The main challenge ETI faces in marketing its solutions is finding... 360 Profit Masters Generates Promising New Leads with the Help of the ZINFI Partner Portal and ZINFI’s Partner Marketing Concierge Service Partner marketing concierge service helps"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "c square genesys",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/resources/success-stories/partner-portal-c-square-genesys",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "red hat converge technologies",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/resources/success-stories/partner-portal-red-hat-converge-technologies",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "partner marketing concierge yash solutions",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/resources/success-stories/partner-marketing-concierge-yash-solutions/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "email marketing nec partner national telesystems",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/resources/success-stories/email-marketing-nec-partner-national-telesystems/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "audeo barco zinfi",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/resources/success-stories/partner-portal-audeo-barco-zinfi/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "nec teleco",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/resources/success-stories/channel-marketing-automation-nec-teleco/",
+        "quote": "ses the ZINFI partner portal to send thousands of emails at a time to increase brand awareness and generate interest in NEC telecommunications solutions Download Success Story PDF » Challenges Entel faces a relatively saturated market for telephone... Enterprise Technology International Uses the ZIN"
+      },
+      {
+        "customerDomain": null,
+        "customerName": "reseller using zinfi partner portal for partner assets",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/resources/success-stories/reseller-using-zinfi-partner-portal-for-partner-assets/",
+        "quote": ""
+      },
+      {
+        "customerDomain": null,
+        "customerName": "clarktel telecommunications uses nec",
+        "prmVendor": "zinfi.com",
+        "prmSegment": "enterprise",
+        "artefactType": "case_study_slug",
+        "sourceUrl": "https://www.zinfi.com/resources/success-stories/partner-portal-clarktel-telecommunications-uses-nec",
+        "quote": "ory PDF » Challenges Sometimes the best way to sell is to focus on your prospects’ and customers’ needs, rather than... Clarktel Telecommunications Uses NEC Partner Portal to Generate Leads, Build Pipeline and Close Sales Clarktel began using NEC’s Channel Marketing Automation partner portal to Gene"
+      }
+    ],
+    "requests": 12,
+    "note": "1 customer surface(s); 25 mention(s)."
+  }
+]

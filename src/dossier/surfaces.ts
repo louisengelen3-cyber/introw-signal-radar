@@ -33,6 +33,7 @@
 
 import { snapToSentences } from '../lib/http.js';
 import type { SurfaceKind } from './types.js';
+import { matchUnnegated } from '../lib/negation.js';
 
 interface SurfaceDef {
   surface: SurfaceKind;
@@ -129,7 +130,9 @@ export function scanSurfaces(pages: { url: string; text: string }[]): SurfaceSca
   for (const p of pages) {
     for (const def of SURFACE_DEFS) {
       for (const re of def.patterns) {
-        const m = p.text.match(re);
+        // A denied workflow is not a workflow. "We don't use tiered services" produced a
+        // CONFIRMED tier finding before this guard existed.
+        const m = matchUnnegated(p.text, re);
         if (!m || m.index === undefined) continue;
         const start = Math.max(0, m.index - CONTEXT);
         const end = m.index + m[0].length + CONTEXT;

@@ -1,0 +1,661 @@
+[
+  {
+    "counterparty": "hrpartners.securex.be",
+    "surfacesRead": [
+      {
+        "url": "https://hrpartners.securex.be/",
+        "chars": 5159
+      }
+    ],
+    "mentions": [
+      {
+        "vendorDomain": "apideck.com",
+        "vendorName": "Powered by Apideck",
+        "label": "Powered by Apideck",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/",
+        "quote": "Welcome to the Securex App Store Search and discover your favorite Securex apps See all → New New Arval Securex en Arval: slimme mobiliteit voor zelfstandigen en kleine ondernemingen View details CrewPlanner De meest com",
+        "basis": "outbound_link"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "arval",
+        "label": "arval",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/arval",
+        "quote": "Welcome to the Securex App Store Search and discover your favorite Securex apps See all → New New Arval Securex en Arval: slimme mobiliteit voor zelfstandigen en kleine ondernemingen View details CrewPlanner De meest complete personeelsplanning View details",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "crewplanner",
+        "label": "crewplanner",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/crewplanner",
+        "quote": "pps See all → New New Arval Securex en Arval: slimme mobiliteit voor zelfstandigen en kleine ondernemingen View details CrewPlanner De meest complete personeelsplanning View details EMAsphere Om je data om te zetten in groeimotoren, ten dienste van de CFO’s van morgen View detail",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "emasphere",
+        "label": "emasphere",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/emasphere",
+        "quote": "t voor zelfstandigen en kleine ondernemingen View details CrewPlanner De meest complete personeelsplanning View details EMAsphere Om je data om te zetten in groeimotoren, ten dienste van de CFO’s van morgen View details o2o - Company bike lease Fietsleasing View details OBS GmbH",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "o2o company bike lease",
+        "label": "o2o company bike lease",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/o2o-company-bike-lease",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "obs",
+        "label": "obs",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/obs",
+        "quote": "en in groeimotoren, ten dienste van de CFO’s van morgen View details o2o - Company bike lease Fietsleasing View details OBS GmbH Experten Zeiterfassung, Personaleinsatzplanung, Zutrittskontrolle View details Odoo HR HR platform met performance management|ERP en CRM op 1 plek View",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "odoohr",
+        "label": "odoohr",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/odoohr",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "payflip",
+        "label": "payflip",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/payflip",
+        "quote": "lanung, Zutrittskontrolle View details Odoo HR HR platform met performance management|ERP en CRM op 1 plek View details Payflip Payflip, de gamechanger in flexibel verlonen. View details Prevom de partner voor totale ontzorging View details Rollit Loonverwerking voor tijdelijke m",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "prevom",
+        "label": "prevom",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/prevom",
+        "quote": "ormance management|ERP en CRM op 1 plek View details Payflip Payflip, de gamechanger in flexibel verlonen. View details Prevom de partner voor totale ontzorging View details Rollit Loonverwerking voor tijdelijke medewerkers View details SBEP Haal uw loonkost naar beneden View det",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "rollit payroll",
+        "label": "rollit payroll",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/rollit-payroll",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "sbep",
+        "label": "sbep",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/sbep",
+        "quote": "ls Prevom de partner voor totale ontzorging View details Rollit Loonverwerking voor tijdelijke medewerkers View details SBEP Haal uw loonkost naar beneden View details See all → Popular/Spotlight Popular/Spotlight Accountable Maak een einde aan belastingstress View details Billit",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "billit",
+        "label": "billit",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/billit",
+        "quote": "View details See all → Popular/Spotlight Popular/Spotlight Accountable Maak een einde aan belastingstress View details Billit E-facturatie View details Fevia Federatie van de Belgische voedingsbedrijven View details See all → Preferred partnerships Preferred partnerships Account",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "fevia",
+        "label": "fevia",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/fevia",
+        "quote": "potlight Popular/Spotlight Accountable Maak een einde aan belastingstress View details Billit E-facturatie View details Fevia Federatie van de Belgische voedingsbedrijven View details See all → Preferred partnerships Preferred partnerships Accountable Maak een einde aan belasting",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "bvi eu",
+        "label": "bvi eu",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/bvi-eu",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "feweb",
+        "label": "feweb",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/feweb",
+        "quote": "planning en de uitvoering van uw KMO-gebouw View details CrewPlanner De meest complete personeelsplanning View details Feweb Federatie van webbedrijven View details Hive5 Coworking space Brussel View details KBC Professionele rekening KBC View details Odoo Online facturatie vere",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "hive5",
+        "label": "hive5",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/hive5",
+        "quote": "iew details CrewPlanner De meest complete personeelsplanning View details Feweb Federatie van webbedrijven View details Hive5 Coworking space Brussel View details KBC Professionele rekening KBC View details Odoo Online facturatie vereenvoudigd View details Officient HR platform V",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "kbc",
+        "label": "kbc",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/kbc",
+        "quote": "ersoneelsplanning View details Feweb Federatie van webbedrijven View details Hive5 Coworking space Brussel View details KBC Professionele rekening KBC View details Odoo Online facturatie vereenvoudigd View details Officient HR platform View details Payflip Payflip, de gamechanger",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "odoo",
+        "label": "odoo",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/odoo",
+        "quote": "lease Fietsleasing View details OBS GmbH Experten Zeiterfassung, Personaleinsatzplanung, Zutrittskontrolle View details Odoo HR HR platform met performance management|ERP en CRM op 1 plek View details Payflip Payflip, de gamechanger in flexibel verlonen. View details Prevom de pa",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "officient io",
+        "label": "officient io",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/officient-io",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "pluxee",
+        "label": "pluxee",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/pluxee",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "syntegro be",
+        "label": "syntegro be",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/syntegro-be",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "doccle",
+        "label": "doccle",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/doccle",
+        "quote": "ke medewerkers View details Syntegro Management tool View details See all → Technical integration Technical integration Doccle Digitaal administratieplatform View details Edenred Extralegale voordelen View details Forganiser View details See all → All Accountable Maak een einde a",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "edenred",
+        "label": "edenred",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/edenred",
+        "quote": "l View details See all → Technical integration Technical integration Doccle Digitaal administratieplatform View details Edenred Extralegale voordelen View details Forganiser View details See all → All Accountable Maak een einde aan belastingstress View details Novaprime Nr.1 Prem",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "forganiser",
+        "label": "forganiser",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/forganiser",
+        "quote": "ion Technical integration Doccle Digitaal administratieplatform View details Edenred Extralegale voordelen View details Forganiser View details See all → All Accountable Maak een einde aan belastingstress View details Novaprime Nr.1 Premies en subsidies in uw regio View details A",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "bizzy",
+        "label": "bizzy",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/bizzy",
+        "quote": "ex en Arval: slimme mobiliteit voor zelfstandigen en kleine ondernemingen View details Billit E-facturatie View details bizzy B2B sales intelligence platform View details BNP Paribas Reken op het Easy Starters Team van BNP View details BVI.EU Met een complete dienstverlening ontz",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "bnp paribas",
+        "label": "bnp paribas",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/bnp-paribas",
+        "quote": "n kleine ondernemingen View details Billit E-facturatie View details bizzy B2B sales intelligence platform View details BNP Paribas Reken op het Easy Starters Team van BNP View details BVI.EU Met een complete dienstverlening ontzorgt BVI.EU u tijdens de planning en de uitvoering",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "cyclobility",
+        "label": "cyclobility",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/cyclobility",
+        "quote": "planning en de uitvoering van uw KMO-gebouw View details CrewPlanner De meest complete personeelsplanning View details Cyclobility Fietsleasingtraject View details Doccle Digitaal administratieplatform View details Edenred Extralegale voordelen View details EMAsphere Om je data",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "freelancers in belgium",
+        "label": "freelancers in belgium",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/freelancers-in-belgium",
+        "quote": "e van de Belgische voedingsbedrijven View details Feweb Federatie van webbedrijven View details Forganiser View details Freelancers in Belgium Freelance community View details Funkey Meer dan 600 teambuildings View details GAP Informatique Werktijd optimaliseren View details GeoD",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "funkey",
+        "label": "funkey",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/funkey",
+        "quote": "Federatie van webbedrijven View details Forganiser View details Freelancers in Belgium Freelance community View details Funkey Meer dan 600 teambuildings View details GAP Informatique Werktijd optimaliseren View details GeoDynamics Bereken de mobiliteitsvergoeding View details Ge",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "gapinformatique be",
+        "label": "gapinformatique be",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/gapinformatique-be",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "geodynamics be mobility calculator",
+        "label": "geodynamics be mobility calculator",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/geodynamics-be-mobility-calculator",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "geodynamics be track trace",
+        "label": "geodynamics be track trace",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/geodynamics-be-track-trace",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "geodynamics cleaning",
+        "label": "geodynamics cleaning",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/geodynamics-cleaning",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "gocomply whistleblowing",
+        "label": "gocomply whistleblowing",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/gocomply-whistleblowing",
+        "quote": "details GeoDynamics Beheer je werf efficiënter View details GeoDynamics Tijds- en aanwezigheidsregistratie View details GoComply Whistleblowing Creëer jouw klokkenluiderskanaal View details GPS Tools efficiënt personeelsbeheer View details Health2Work De kennispartner op het gebi",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "gps time be",
+        "label": "gps time be",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/gps-time-be",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "health2work",
+        "label": "health2work",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/health2work",
+        "quote": "GoComply Whistleblowing Creëer jouw klokkenluiderskanaal View details GPS Tools efficiënt personeelsbeheer View details Health2Work De kennispartner op het gebied van ergonomie View details HelloFresh Welkomskorting View details Hive5 Coworking space Brussel View details ING Het",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "hellofresh welcome reduction",
+        "label": "hellofresh welcome reduction",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/hellofresh-welcome-reduction",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "ing",
+        "label": "ing",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/ing",
+        "quote": "favorite Securex apps See all → New New Arval Securex en Arval: slimme mobiliteit voor zelfstandigen en kleine ondernemingen View details CrewPlanner De meest complete personeelsplanning View details EMAsphere Om je data om te zetten in groeimotoren, ten dienste van de CFO’s van",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "isypass",
+        "label": "isypass",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/isypass",
+        "quote": "loFresh Welkomskorting View details Hive5 Coworking space Brussel View details ING Het ING Starterspakket! View details Isypass Tool op payroll kalenders View details Joule Fietsleasing View details Kameo bikes Fietsleasing - Brussels/Wallonïe View details het Kantoor van Morgen",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "joule",
+        "label": "joule",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/joule",
+        "quote": "king space Brussel View details ING Het ING Starterspakket! View details Isypass Tool op payroll kalenders View details Joule Fietsleasing View details Kameo bikes Fietsleasing - Brussels/Wallonïe View details het Kantoor van Morgen Interieurarchitectuur voor kantoren View detail",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "kameo bikes",
+        "label": "kameo bikes",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/kameo-bikes",
+        "quote": "ING Het ING Starterspakket! View details Isypass Tool op payroll kalenders View details Joule Fietsleasing View details Kameo bikes Fietsleasing - Brussels/Wallonïe View details het Kantoor van Morgen Interieurarchitectuur voor kantoren View details KBC Professionele rekening KBC",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "kantoor van morgen",
+        "label": "kantoor van morgen",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/kantoor-van-morgen",
+        "quote": "ll kalenders View details Joule Fietsleasing View details Kameo bikes Fietsleasing - Brussels/Wallonïe View details het Kantoor van Morgen Interieurarchitectuur voor kantoren View details KBC Professionele rekening KBC View details Mbrella Platform flexibele mobiliteit View detai",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "mbrella",
+        "label": "mbrella",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/mbrella",
+        "quote": "ils het Kantoor van Morgen Interieurarchitectuur voor kantoren View details KBC Professionele rekening KBC View details Mbrella Platform flexibele mobiliteit View details Metrilio e-HR Software View details Metrilio (FLA solution made easy) Metrilio en de Federal Learning Account",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "metrilio",
+        "label": "metrilio",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/metrilio",
+        "quote": "or kantoren View details KBC Professionele rekening KBC View details Mbrella Platform flexibele mobiliteit View details Metrilio e-HR Software View details Metrilio (FLA solution made easy) Metrilio en de Federal Learning Account: Een kant-en-klare oplossing View details Monizze",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "monizze be",
+        "label": "monizze be",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/monizze-be",
+        "quote": "ils Metrilio (FLA solution made easy) Metrilio en de Federal Learning Account: Een kant-en-klare oplossing View details Monizze Betalingen van de voordelen View details o2o - Company bike lease Fietsleasing View details OBS GmbH Experten Zeiterfassung, Personaleinsatzplanung, Zut",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "obs reinigungssektor",
+        "label": "obs reinigungssektor",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/obs-reinigungssektor",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "outkept",
+        "label": "outkept",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/outkept",
+        "quote": "ils Odoo HR HR platform met performance management|ERP en CRM op 1 plek View details Officient HR platform View details outkept Voorkom phishing View details Payflip Payflip, de gamechanger in flexibel verlonen. View details Sodexo Extralegale voordelen View details Prevom de par",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "prounity",
+        "label": "prounity",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/prounity",
+        "quote": "verlonen. View details Sodexo Extralegale voordelen View details Prevom de partner voor totale ontzorging View details proUnity Matchmaking freelancer-bedrijf View details Rollit Loonverwerking voor tijdelijke medewerkers View details SBEP Haal uw loonkost naar beneden View deta",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "shyfter cleaning",
+        "label": "shyfter cleaning",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partners/shyfter-cleaning",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "request",
+        "label": "request",
+        "publishedBy": "securex.be",
+        "sourceUrl": "https://hrpartners.securex.be/partner/request",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      }
+    ],
+    "distinctVendors": [
+      "apideck.com",
+      "name:arval",
+      "name:crewplanner",
+      "name:emasphere",
+      "name:o2o company bike lease",
+      "name:obs",
+      "name:odoohr",
+      "name:payflip",
+      "name:prevom",
+      "name:rollit payroll",
+      "name:sbep",
+      "name:billit",
+      "name:fevia",
+      "name:bvi eu",
+      "name:feweb",
+      "name:hive5",
+      "name:kbc",
+      "name:odoo",
+      "name:officient io",
+      "name:pluxee",
+      "name:syntegro be",
+      "name:doccle",
+      "name:edenred",
+      "name:forganiser",
+      "name:bizzy",
+      "name:bnp paribas",
+      "name:cyclobility",
+      "name:freelancers in belgium",
+      "name:funkey",
+      "name:gapinformatique be",
+      "name:geodynamics be mobility calculator",
+      "name:geodynamics be track trace",
+      "name:geodynamics cleaning",
+      "name:gocomply whistleblowing",
+      "name:gps time be",
+      "name:health2work",
+      "name:hellofresh welcome reduction",
+      "name:ing",
+      "name:isypass",
+      "name:joule",
+      "name:kameo bikes",
+      "name:kantoor van morgen",
+      "name:mbrella",
+      "name:metrilio",
+      "name:monizze be",
+      "name:obs reinigungssektor",
+      "name:outkept",
+      "name:prounity",
+      "name:shyfter cleaning",
+      "name:request"
+    ],
+    "requests": 16,
+    "note": "1 listing page(s) read; 50 distinct vendor domain(s) named.",
+    "arm": "confirmatory",
+    "seconds": 0
+  },
+  {
+    "counterparty": "ojc-consulting.com",
+    "surfacesRead": [
+      {
+        "url": "https://www.ojc-consulting.com/",
+        "chars": 4673
+      }
+    ],
+    "mentions": [
+      {
+        "vendorDomain": "ojc-conseil.com",
+        "vendorName": "ojc-conseil",
+        "label": "",
+        "publishedBy": "ojc-consulting.com",
+        "sourceUrl": "https://www.ojc-consulting.com/",
+        "quote": "OJC Consulting - Home Services Consulting Business consulting Data and IT Consulting Change management Integration Analysis and design Project management Implementation Expertise Business domains Procurement and Supply C",
+        "basis": "logo_alt_link"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "Ivalua",
+        "label": "Ivalua",
+        "publishedBy": "ojc-consulting.com",
+        "sourceUrl": "https://www.ojc-consulting.com/Page/Ivalua",
+        "quote": "and design Project management Implementation Expertise Business domains Procurement and Supply Chain Solution expertise Ivalua GEP Ecovadis iGrafx Lemon Learning Xelix Clients About OJC Consulting The OJC Group Our offices Careers News Contact Log on OJC Consulting helps organiza",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "GEP",
+        "label": "GEP",
+        "publishedBy": "ojc-consulting.com",
+        "sourceUrl": "https://www.ojc-consulting.com/Page/GEP",
+        "quote": "ign Project management Implementation Expertise Business domains Procurement and Supply Chain Solution expertise Ivalua GEP Ecovadis iGrafx Lemon Learning Xelix Clients About OJC Consulting The OJC Group Our offices Careers News Contact Log on OJC Consulting helps organizations d",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "Ecovadis",
+        "label": "Ecovadis",
+        "publishedBy": "ojc-consulting.com",
+        "sourceUrl": "https://www.ojc-consulting.com/Page/Ecovadis",
+        "quote": "Project management Implementation Expertise Business domains Procurement and Supply Chain Solution expertise Ivalua GEP Ecovadis iGrafx Lemon Learning Xelix Clients About OJC Consulting The OJC Group Our offices Careers News Contact Log on OJC Consulting helps organizations desig",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "iGrafx",
+        "label": "iGrafx",
+        "publishedBy": "ojc-consulting.com",
+        "sourceUrl": "https://www.ojc-consulting.com/Page/iGrafx",
+        "quote": "anagement Implementation Expertise Business domains Procurement and Supply Chain Solution expertise Ivalua GEP Ecovadis iGrafx Lemon Learning Xelix Clients About OJC Consulting The OJC Group Our offices Careers News Contact Log on OJC Consulting helps organizations design, struct",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "Lemon Learning",
+        "label": "Lemon Learning",
+        "publishedBy": "ojc-consulting.com",
+        "sourceUrl": "https://www.ojc-consulting.com/Page/Lemon-Learning",
+        "quote": "nt Implementation Expertise Business domains Procurement and Supply Chain Solution expertise Ivalua GEP Ecovadis iGrafx Lemon Learning Xelix Clients About OJC Consulting The OJC Group Our offices Careers News Contact Log on OJC Consulting helps organizations design, structure and",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "Xelix",
+        "label": "Xelix",
+        "publishedBy": "ojc-consulting.com",
+        "sourceUrl": "https://www.ojc-consulting.com/Page/Xelix",
+        "quote": "on Expertise Business domains Procurement and Supply Chain Solution expertise Ivalua GEP Ecovadis iGrafx Lemon Learning Xelix Clients About OJC Consulting The OJC Group Our offices Careers News Contact Log on OJC Consulting helps organizations design, structure and deliver transf",
+        "basis": "vendor_page_slug"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "Kemira",
+        "label": "Kemira",
+        "publishedBy": "ojc-consulting.com",
+        "sourceUrl": "https://www.ojc-consulting.com/Page/Kemira",
+        "quote": "methodology, and tailored support to ensure your Ivalua platform delivers its full potential. 1/12/2026 - Case Study : Kemira Kemira, with the help of OJC Consulting, successfully implemented a solution that systematically collects Product Carbon Footprint (PCF) data from raw ma",
+        "basis": "vendor_page_slug"
+      }
+    ],
+    "distinctVendors": [
+      "ojc-conseil.com",
+      "name:ivalua",
+      "name:gep",
+      "name:ecovadis",
+      "name:igrafx",
+      "name:lemon learning",
+      "name:xelix",
+      "name:kemira"
+    ],
+    "requests": 16,
+    "note": "1 listing page(s) read; 8 distinct vendor domain(s) named.",
+    "arm": "confirmatory",
+    "seconds": 0
+  },
+  {
+    "counterparty": "smcconsulting.be",
+    "surfacesRead": [
+      {
+        "url": "https://www.smcconsulting.be/solutions",
+        "chars": 4843
+      },
+      {
+        "url": "https://www.smcconsulting.be/oplossingen",
+        "chars": 4843
+      },
+      {
+        "url": "https://www.smcconsulting.be/",
+        "chars": 13086
+      }
+    ],
+    "mentions": [
+      {
+        "vendorDomain": "wrike.com",
+        "vendorName": "market environment",
+        "label": "market environment",
+        "publishedBy": "smcconsulting.be",
+        "sourceUrl": "https://www.smcconsulting.be/solutions",
+        "quote": "offer bespoke solutions that drive success. Our expertise spans across pivotal areas of business operations to help you thrive in a dynamic market environment. Business Solutions at SMC Consulting harness the synergy of technology and strategy to offer bespoke solutions that drive success. Our expertise spans across pi",
+        "basis": "outbound_link"
+      },
+      {
+        "vendorDomain": null,
+        "vendorName": "ringover",
+        "label": "ringover",
+        "publishedBy": "smcconsulting.be",
+        "sourceUrl": "https://www.smcconsulting.be/ringover-certified-partner",
+        "quote": "",
+        "basis": "vendor_page_slug"
+      }
+    ],
+    "distinctVendors": [
+      "wrike.com",
+      "name:ringover"
+    ],
+    "requests": 16,
+    "note": "3 listing page(s) read; 2 distinct vendor domain(s) named.",
+    "arm": "confirmatory",
+    "seconds": 0
+  }
+]

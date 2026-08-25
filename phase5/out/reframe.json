@@ -1,0 +1,321 @@
+{
+  "rho": 0.31176470588235294,
+  "n": 35,
+  "byCost": [
+    {
+      "domain": "sana-commerce.com",
+      "density": 7,
+      "hasInvitation": true,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 2,
+      "cost": -1
+    },
+    {
+      "domain": "factorialhr.com",
+      "density": 6,
+      "hasInvitation": true,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 2,
+      "cost": -1
+    },
+    {
+      "domain": "aikido.dev",
+      "density": 6,
+      "hasInvitation": true,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 1,
+      "cost": -1
+    },
+    {
+      "domain": "aircall.io",
+      "density": 7,
+      "hasInvitation": true,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 2,
+      "cost": -1
+    },
+    {
+      "domain": "oneflow.com",
+      "density": 5,
+      "hasInvitation": true,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 2,
+      "cost": 0
+    },
+    {
+      "domain": "weglot.com",
+      "density": 5,
+      "hasInvitation": true,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 2,
+      "cost": 0
+    },
+    {
+      "domain": "kiflo.com",
+      "density": 0,
+      "hasInvitation": false,
+      "ownership": false,
+      "competitor": true,
+      "blocking": 3,
+      "cost": 0
+    },
+    {
+      "domain": "magentrix.com",
+      "density": 6,
+      "hasInvitation": false,
+      "ownership": false,
+      "competitor": true,
+      "blocking": 1,
+      "cost": 0
+    },
+    {
+      "domain": "planhat.com",
+      "density": 4,
+      "hasInvitation": true,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 2,
+      "cost": 1
+    },
+    {
+      "domain": "trengo.com",
+      "density": 4,
+      "hasInvitation": true,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 1,
+      "cost": 1
+    },
+    {
+      "domain": "spendesk.com",
+      "density": 4,
+      "hasInvitation": true,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 2,
+      "cost": 1
+    },
+    {
+      "domain": "payfit.com",
+      "density": 4,
+      "hasInvitation": true,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 2,
+      "cost": 1
+    },
+    {
+      "domain": "cubbit.io",
+      "density": 4,
+      "hasInvitation": true,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 1,
+      "cost": 1
+    },
+    {
+      "domain": "channable.com",
+      "density": 3,
+      "hasInvitation": true,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 4,
+      "cost": 2
+    },
+    {
+      "domain": "pleo.io",
+      "density": 6,
+      "hasInvitation": false,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 3,
+      "cost": 2
+    },
+    {
+      "domain": "younium.com",
+      "density": 3,
+      "hasInvitation": true,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 2,
+      "cost": 2
+    },
+    {
+      "domain": "mews.com",
+      "density": 2,
+      "hasInvitation": true,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 1,
+      "cost": 3
+    },
+    {
+      "domain": "twikey.com",
+      "density": 2,
+      "hasInvitation": true,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 3,
+      "cost": 3
+    },
+    {
+      "domain": "lano.io",
+      "density": 1,
+      "hasInvitation": true,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 2,
+      "cost": 4
+    },
+    {
+      "domain": "getaccept.com",
+      "density": 2,
+      "hasInvitation": true,
+      "ownership": false,
+      "competitor": false,
+      "blocking": 2,
+      "cost": 5
+    },
+    {
+      "domain": "archerirm.com",
+      "density": 2,
+      "hasInvitation": false,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 2,
+      "cost": 6
+    },
+    {
+      "domain": "devoteam.com",
+      "density": 1,
+      "hasInvitation": false,
+      "ownership": true,
+      "competitor": false,
+      "blocking": 3,
+      "cost": 7
+    },
+    {
+      "domain": "efficy.com",
+      "density": 0,
+      "hasInvitation": false,
+      "ownership": false,
+      "competitor": false,
+      "blocking": 4,
+      "cost": 10
+    },
+    {
+      "domain": "apaleo.com",
+      "density": 0,
+      "hasInvitation": false,
+      "ownership": false,
+      "competitor": false,
+      "blocking": 3,
+      "cost": 10
+    },
+    {
+      "domain": "leapsome.com",
+      "density": 0,
+      "hasInvitation": false,
+      "ownership": false,
+      "competitor": false,
+      "blocking": 2,
+      "cost": 10
+    },
+    {
+      "domain": "juro.com",
+      "density": 0,
+      "hasInvitation": false,
+      "ownership": false,
+      "competitor": false,
+      "blocking": 2,
+      "cost": 10
+    },
+    {
+      "domain": "foleon.com",
+      "density": 0,
+      "hasInvitation": false,
+      "ownership": false,
+      "competitor": false,
+      "blocking": 1,
+      "cost": 10
+    },
+    {
+      "domain": "upsales.com",
+      "density": 0,
+      "hasInvitation": false,
+      "ownership": false,
+      "competitor": false,
+      "blocking": 3,
+      "cost": 10
+    },
+    {
+      "domain": "cegeka.com",
+      "density": 0,
+      "hasInvitation": false,
+      "ownership": false,
+      "competitor": false,
+      "blocking": 1,
+      "cost": 10
+    },
+    {
+      "domain": "productsup.com",
+      "density": 0,
+      "hasInvitation": false,
+      "ownership": false,
+      "competitor": false,
+      "blocking": 1,
+      "cost": 10
+    },
+    {
+      "domain": "vinted.com",
+      "density": 0,
+      "hasInvitation": false,
+      "ownership": false,
+      "competitor": false,
+      "blocking": 3,
+      "cost": 10
+    },
+    {
+      "domain": "datadoghq.com",
+      "density": 0,
+      "hasInvitation": false,
+      "ownership": false,
+      "competitor": false,
+      "blocking": 3,
+      "cost": 10
+    },
+    {
+      "domain": "doordash.com",
+      "density": 0,
+      "hasInvitation": false,
+      "ownership": false,
+      "competitor": false,
+      "blocking": 4,
+      "cost": 10
+    },
+    {
+      "domain": "deloitte.com",
+      "density": 0,
+      "hasInvitation": false,
+      "ownership": false,
+      "competitor": false,
+      "blocking": 3,
+      "cost": 10
+    },
+    {
+      "domain": "glovoapp.com",
+      "density": 0,
+      "hasInvitation": false,
+      "ownership": false,
+      "competitor": false,
+      "blocking": 2,
+      "cost": 10
+    }
+  ]
+}

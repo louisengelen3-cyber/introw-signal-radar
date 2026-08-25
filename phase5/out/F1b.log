@@ -1,0 +1,17 @@
+cloud.ionos.co.uk        GOOD_no_public_careers_surface
+expo-e.uk                GOOD_no_public_careers_surface
+appelit.com              GOOD_no_public_careers_surface
+giersch.de               GOOD_no_public_careers_surface
+kiflo.com                GOOD_no_public_careers_surface
+myfactory.com            BAD_nested_careers_missed  https://www.myfactory.com/unternehmen/karriere
+gofilemaker.de           GOOD_no_public_careers_surface
+machineering.de          GOOD_no_public_careers_surface
+saas-partner.de          BLOCKED_cannot_establish_either_way
+sage.com                 BLOCKED_cannot_establish_either_way
+vectorsecurity.com       BLOCKED_cannot_establish_either_way
+yesicd.com               GOOD_no_public_careers_surface
+2bit.it                  GOOD_no_public_careers_surface
+
+GOOD    9/16   genuinely no public careers surface
+BAD     4/16   a real surface existed and we missed it
+BLOCKED 3/16   site refuses retrieval; neither class

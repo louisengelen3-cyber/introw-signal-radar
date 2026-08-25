@@ -1,0 +1,174 @@
+[
+  {
+    "domain": "2bit.it",
+    "verdict": "GOOD_no_public_careers_surface",
+    "hits": [],
+    "requests": 40,
+    "finalVerdict": "GOOD_no_public_careers_surface",
+    "nested": null,
+    "blocked": false,
+    "nestedProbes": 18
+  },
+  {
+    "domain": "appelit.com",
+    "verdict": "GOOD_no_public_careers_surface",
+    "hits": [],
+    "requests": 40,
+    "finalVerdict": "GOOD_no_public_careers_surface",
+    "nested": null,
+    "blocked": false,
+    "nestedProbes": 18
+  },
+  {
+    "domain": "cloud.ionos.co.uk",
+    "verdict": "GOOD_no_public_careers_surface",
+    "hits": [],
+    "requests": 40,
+    "finalVerdict": "GOOD_no_public_careers_surface",
+    "nested": null,
+    "blocked": false,
+    "nestedProbes": 18
+  },
+  {
+    "domain": "expo-e.uk",
+    "verdict": "GOOD_no_public_careers_surface",
+    "hits": [],
+    "requests": 40,
+    "finalVerdict": "GOOD_no_public_careers_surface",
+    "nested": null,
+    "blocked": false,
+    "nestedProbes": 18
+  },
+  {
+    "domain": "giersch.de",
+    "verdict": "GOOD_no_public_careers_surface",
+    "hits": [],
+    "requests": 40,
+    "finalVerdict": "GOOD_no_public_careers_surface",
+    "nested": null,
+    "blocked": false,
+    "nestedProbes": 18
+  },
+  {
+    "domain": "gofilemaker.de",
+    "verdict": "GOOD_no_public_careers_surface",
+    "hits": [],
+    "requests": 40,
+    "finalVerdict": "GOOD_no_public_careers_surface",
+    "nested": null,
+    "blocked": false,
+    "nestedProbes": 18
+  },
+  {
+    "domain": "kiflo.com",
+    "verdict": "GOOD_no_public_careers_surface",
+    "hits": [],
+    "requests": 40,
+    "finalVerdict": "GOOD_no_public_careers_surface",
+    "nested": null,
+    "blocked": false,
+    "nestedProbes": 18
+  },
+  {
+    "domain": "machineering.de",
+    "verdict": "GOOD_no_public_careers_surface",
+    "hits": [],
+    "requests": 40,
+    "finalVerdict": "GOOD_no_public_careers_surface",
+    "nested": null,
+    "blocked": false,
+    "nestedProbes": 18
+  },
+  {
+    "domain": "myfactory.com",
+    "verdict": "GOOD_no_public_careers_surface",
+    "hits": [],
+    "requests": 40,
+    "finalVerdict": "BAD_nested_careers_missed",
+    "nested": {
+      "url": "https://www.myfactory.com/unternehmen/karriere",
+      "chars": 9656
+    },
+    "blocked": false,
+    "nestedProbes": 1
+  },
+  {
+    "domain": "nordfarm.se",
+    "verdict": "BAD_careers_with_vacancies_missed",
+    "hits": [
+      {
+        "url": "https://www.nordfarm.se/lediga-jobb",
+        "chars": 656,
+        "jobLinks": 2
+      }
+    ],
+    "requests": 13,
+    "finalVerdict": "BAD_careers_with_vacancies_missed"
+  },
+  {
+    "domain": "saas-partner.de",
+    "verdict": "GOOD_no_public_careers_surface",
+    "hits": [],
+    "requests": 40,
+    "finalVerdict": "BLOCKED_cannot_establish_either_way",
+    "nested": null,
+    "blocked": true,
+    "nestedProbes": 18
+  },
+  {
+    "domain": "sage.com",
+    "verdict": "GOOD_no_public_careers_surface",
+    "hits": [],
+    "requests": 40,
+    "finalVerdict": "BLOCKED_cannot_establish_either_way",
+    "nested": null,
+    "blocked": true,
+    "nestedProbes": 18
+  },
+  {
+    "domain": "start-platform.com",
+    "verdict": "BAD_careers_with_vacancies_missed",
+    "hits": [
+      {
+        "url": "https://www.start-platform.com/vacatures",
+        "chars": 1016,
+        "jobLinks": 1
+      }
+    ],
+    "requests": 5,
+    "finalVerdict": "BAD_careers_with_vacancies_missed"
+  },
+  {
+    "domain": "upsales.com",
+    "verdict": "BAD_careers_with_vacancies_missed",
+    "hits": [
+      {
+        "url": "https://www.upsales.com/team",
+        "chars": 1903,
+        "jobLinks": 2
+      }
+    ],
+    "requests": 27,
+    "finalVerdict": "BAD_careers_with_vacancies_missed"
+  },
+  {
+    "domain": "vectorsecurity.com",
+    "verdict": "GOOD_no_public_careers_surface",
+    "hits": [],
+    "requests": 40,
+    "finalVerdict": "BLOCKED_cannot_establish_either_way",
+    "nested": null,
+    "blocked": true,
+    "nestedProbes": 18
+  },
+  {
+    "domain": "yesicd.com",
+    "verdict": "GOOD_no_public_careers_surface",
+    "hits": [],
+    "requests": 40,
+    "finalVerdict": "GOOD_no_public_careers_surface",
+    "nested": null,
+    "blocked": false,
+    "nestedProbes": 18
+  }
+]

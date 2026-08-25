@@ -1,0 +1,134 @@
+{
+  "total": 66,
+  "fromChromeUrl": 0,
+  "fromMenuQuote": 15,
+  "either": 15,
+  "bySurface": {
+    "partner_recruitment": 8,
+    "programme_tiers": 4,
+    "enablement": 1,
+    "portal": 2
+  },
+  "offenders": [
+    {
+      "domain": "oneflow.com",
+      "surface": "partner_recruitment",
+      "url": "https://oneflow.com/partner/",
+      "chromeUrl": false,
+      "menuQuote": true,
+      "quote": "Let’s create wonders, together. Become a partner Integration Partners Salesforce Q2C automation in Salesforce "
+    },
+    {
+      "domain": "oneflow.com",
+      "surface": "programme_tiers",
+      "url": "https://oneflow.com/partner/",
+      "chromeUrl": false,
+      "menuQuote": true,
+      "quote": "Aron Gosselin Partner Manager, HubSpot Solution Partners Bonana HubSpot Elite Partner Fluido Leading European "
+    },
+    {
+      "domain": "channable.com",
+      "surface": "partner_recruitment",
+      "url": "https://partners.channable.com/",
+      "chromeUrl": false,
+      "menuQuote": true,
+      "quote": "Support Demo Center Channable Academy Help Center Contact Us Success Stories See all success stories Partners "
+    },
+    {
+      "domain": "channable.com",
+      "surface": "programme_tiers",
+      "url": "https://partners.channable.com/",
+      "chromeUrl": false,
+      "menuQuote": true,
+      "quote": "Meet our team, your Agency Partnerships Manager Get matched Gold Partner nextlane® A Channable Gold Partner of"
+    },
+    {
+      "domain": "sana-commerce.com",
+      "surface": "partner_recruitment",
+      "url": "https://www.sana-commerce.com/de/partner/",
+      "chromeUrl": false,
+      "menuQuote": true,
+      "quote": "Sie können natürlich auch Selling Partner werden. Sie fügen Sana Commerce zu Ihrem Produktportfolio hinzu, ohn"
+    },
+    {
+      "domain": "sana-commerce.com",
+      "surface": "partner_recruitment",
+      "url": "https://www.sana-commerce.com/partners/partner-resources/",
+      "chromeUrl": false,
+      "menuQuote": true,
+      "quote": "Become a Partner Watch Sana Commerce Cloud Demo Interested in co-marketing with Sana Commerce?"
+    },
+    {
+      "domain": "sana-commerce.com",
+      "surface": "enablement",
+      "url": "https://www.sana-commerce.com/partners/",
+      "chromeUrl": false,
+      "menuQuote": true,
+      "quote": "Image Image Image Watch demo video View Partner Resources Learn more Make the most out of a partnership with S"
+    },
+    {
+      "domain": "sana-commerce.com",
+      "surface": "programme_tiers",
+      "url": "https://www.sana-commerce.com/our-partners/",
+      "chromeUrl": false,
+      "menuQuote": true,
+      "quote": "United States Uruguay Vietnam ERP system - ERP - Microsoft Dynamics SAP Partner status - Partner status - Gold"
+    },
+    {
+      "domain": "weglot.com",
+      "surface": "partner_recruitment",
+      "url": "https://www.weglot.com/partner/reseller",
+      "chromeUrl": false,
+      "menuQuote": true,
+      "quote": "Weglot | Become a Reseller Partner Product Integrations Pricing Solutions Resources Contact sales Login Try fo"
+    },
+    {
+      "domain": "lano.io",
+      "surface": "partner_recruitment",
+      "url": "https://www.lano.io/de/become-a-partner",
+      "chromeUrl": false,
+      "menuQuote": true,
+      "quote": "Werden Sie Lano Affiliate-Partner Werden Sie Lano Affiliate-Partner Entdecken Sie Ihre Vorteile als Lano-Partn"
+    },
+    {
+      "domain": "younium.com",
+      "surface": "partner_recruitment",
+      "url": "https://www.younium.com/partnership",
+      "chromeUrl": false,
+      "menuQuote": true,
+      "quote": "Partner with us | Marketplace Expose Your App Where Subscription Finance Teams Work Join the Younium Marketpla"
+    },
+    {
+      "domain": "archerirm.com",
+      "surface": "portal",
+      "url": "https://www.archerirm.com/archer-partners",
+      "chromeUrl": false,
+      "menuQuote": true,
+      "quote": "Apply Now Partner Portal About the Archer Velocity Partner Program The Velocity Partner Program is designed to"
+    },
+    {
+      "domain": "aikido.dev",
+      "surface": "portal",
+      "url": "https://www.aikido.dev/partner",
+      "chromeUrl": false,
+      "menuQuote": true,
+      "quote": "EN Login Start for Free No CC required Aikido Partner Program Let's Partner Login to Partner Room Why partner?"
+    },
+    {
+      "domain": "cubbit.io",
+      "surface": "partner_recruitment",
+      "url": "https://www.cubbit.io/partners",
+      "chromeUrl": false,
+      "menuQuote": true,
+      "quote": "Cubbit | Become a partner Product Solutions Case Studies Partners Pricing Docs Contact us Try now Beat any S3 "
+    },
+    {
+      "domain": "aircall.io",
+      "surface": "programme_tiers",
+      "url": "https://aircall.io/en-au/partner-services/",
+      "chromeUrl": false,
+      "menuQuote": true,
+      "quote": "and Services Marketing and Advertising Other Retail and E-commerce Travel and Hospitality All Partners Gold Pa"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "resolved": {
+    "good": 9,
+    "bad": 4,
+    "blocked": 3
+  },
+  "original": {
+    "good": 39,
+    "bad": 60,
+    "untested": 52
+  },
+  "corrected": {
+    "good": 48,
+    "bad": 64,
+    "blocked": 3,
+    "untested": 36
+  },
+  "oursOriginalPct": 74.2,
+  "oursCorrectedPct": 66.2,
+  "projectionPct": 49.7
+}

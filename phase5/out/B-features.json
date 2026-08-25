@@ -1,0 +1,1126 @@
+[
+  {
+    "domain": "crossbeam.com",
+    "name": "crossbeam",
+    "prmVendor": "partnerportal.io",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "direct",
+    "surface": "unknown",
+    "programmes": [
+      "services",
+      "technology"
+    ],
+    "motion": true,
+    "informal": "suppressed_partner_tech",
+    "recruitmentHits": 1,
+    "types": [
+      "reseller/VAR",
+      "systems integrator",
+      "consultancy",
+      "agency",
+      "technology partner"
+    ],
+    "artefacts": [
+      "deal registration"
+    ],
+    "category": "direct_introw_competitor",
+    "state": "suppression_candidate",
+    "claims": 1
+  },
+  {
+    "domain": "chainlane.io",
+    "name": "chainlane",
+    "prmVendor": "kiflo.com",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "weak_proxy",
+    "ownership": "direct",
+    "surface": "unknown",
+    "programmes": [
+      "reseller"
+    ],
+    "motion": true,
+    "informal": "informal_programme",
+    "recruitmentHits": 2,
+    "types": [
+      "reseller/VAR",
+      "technology partner"
+    ],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 3
+  },
+  {
+    "domain": "effectconnect.com",
+    "name": "effectconnect",
+    "prmVendor": "kiflo.com",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "direct",
+    "surface": "unknown",
+    "programmes": [
+      "distributor"
+    ],
+    "motion": true,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [
+      "agency"
+    ],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "plausible",
+    "claims": 1
+  },
+  {
+    "domain": "aftersell.com",
+    "name": "aftersell",
+    "prmVendor": "kiflo.com",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "weak_proxy",
+    "ownership": "direct",
+    "surface": "moderate",
+    "programmes": [
+      "agency",
+      "technology",
+      "affiliate",
+      "solution_partner"
+    ],
+    "motion": true,
+    "informal": "formalised_programme",
+    "recruitmentHits": 1,
+    "types": [
+      "agency",
+      "technology partner"
+    ],
+    "artefacts": [
+      "partner portal"
+    ],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 4
+  },
+  {
+    "domain": "intershop.com",
+    "name": "intershop",
+    "prmVendor": "kiflo.com",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "direct",
+    "surface": "moderate",
+    "programmes": [
+      "distributor",
+      "solution_partner",
+      "system_integrator"
+    ],
+    "motion": true,
+    "informal": "formalised_programme",
+    "recruitmentHits": 4,
+    "types": [
+      "technology partner"
+    ],
+    "artefacts": [
+      "partner portal",
+      "tier structure"
+    ],
+    "category": "likely_target_category",
+    "state": "plausible",
+    "claims": 3
+  },
+  {
+    "domain": "holded.com",
+    "name": "holded",
+    "prmVendor": "kiflo.com",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "unknown",
+    "surface": "unknown",
+    "programmes": [
+      "services",
+      "solution_partner"
+    ],
+    "motion": true,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [
+      "consultancy",
+      "agency"
+    ],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 0
+  },
+  {
+    "domain": "flipcx.ai",
+    "name": "flipcx",
+    "prmVendor": "partnerportal.io",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "unknown",
+    "surface": "unknown",
+    "programmes": [],
+    "motion": false,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "under_observed",
+    "claims": 0
+  },
+  {
+    "domain": "donorbox.com",
+    "name": "donorbox",
+    "prmVendor": "kiflo.com",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "direct",
+    "surface": "light",
+    "programmes": [
+      "affiliate",
+      "distributor"
+    ],
+    "motion": true,
+    "informal": "not_informal",
+    "recruitmentHits": 1,
+    "types": [],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "plausible",
+    "claims": 2
+  },
+  {
+    "domain": "judysecurity.com",
+    "name": "judy security",
+    "prmVendor": "kiflo.com",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "confirmed",
+    "ownership": "unknown",
+    "surface": "unknown",
+    "programmes": [
+      "reseller"
+    ],
+    "motion": true,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 2
+  },
+  {
+    "domain": "rotageek.com",
+    "name": "rotageek",
+    "prmVendor": "kiflo.com",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "unknown",
+    "surface": "light",
+    "programmes": [],
+    "motion": false,
+    "informal": "informal_programme",
+    "recruitmentHits": 1,
+    "types": [
+      "consultancy"
+    ],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 1
+  },
+  {
+    "domain": "ppc-protect.com",
+    "name": "ppc protect",
+    "prmVendor": "kiflo.com",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "unknown",
+    "surface": "unknown",
+    "programmes": [],
+    "motion": false,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "under_observed",
+    "claims": 0
+  },
+  {
+    "domain": "shoppingfeed.com",
+    "name": "shoppingfeed",
+    "prmVendor": "kiflo.com",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "direct",
+    "surface": "moderate",
+    "programmes": [
+      "referral"
+    ],
+    "motion": true,
+    "informal": "not_informal",
+    "recruitmentHits": 4,
+    "types": [],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "plausible",
+    "claims": 2
+  },
+  {
+    "domain": "searchspring.com",
+    "name": "searchspring",
+    "prmVendor": "partnerportal.io",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "direct",
+    "surface": "light",
+    "programmes": [
+      "solution_partner"
+    ],
+    "motion": true,
+    "informal": "formalised_programme",
+    "recruitmentHits": 1,
+    "types": [
+      "technology partner"
+    ],
+    "artefacts": [
+      "partner portal"
+    ],
+    "category": "likely_target_category",
+    "state": "plausible",
+    "claims": 4
+  },
+  {
+    "domain": "ipsystems.com",
+    "name": "ipsystems",
+    "prmVendor": "kiflo.com",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "unknown",
+    "surface": "unknown",
+    "programmes": [],
+    "motion": false,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "under_observed",
+    "claims": 0
+  },
+  {
+    "domain": "partnernomics.com",
+    "name": "partnernomics",
+    "prmVendor": "kiflo.com",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "unknown",
+    "surface": "unknown",
+    "programmes": [
+      "referral"
+    ],
+    "motion": true,
+    "informal": "not_informal",
+    "recruitmentHits": 1,
+    "types": [],
+    "artefacts": [],
+    "category": "professional_services",
+    "state": "suppression_candidate",
+    "claims": 0
+  },
+  {
+    "domain": "surfe.com",
+    "name": "surfe",
+    "prmVendor": "kiflo.com",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "confirmed",
+    "ownership": "direct",
+    "surface": "light",
+    "programmes": [
+      "reseller",
+      "referral",
+      "services",
+      "technology",
+      "integration",
+      "solution_partner"
+    ],
+    "motion": true,
+    "informal": "informal_programme",
+    "recruitmentHits": 1,
+    "types": [
+      "reseller/VAR",
+      "consultancy",
+      "agency",
+      "technology partner",
+      "referral partner",
+      "other named type"
+    ],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 6
+  },
+  {
+    "domain": "skio.com",
+    "name": "skio",
+    "prmVendor": "partnerportal.io",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "strong_proxy",
+    "ownership": "direct",
+    "surface": "light",
+    "programmes": [
+      "technology",
+      "solution_partner"
+    ],
+    "motion": true,
+    "informal": "informal_programme",
+    "recruitmentHits": 1,
+    "types": [
+      "agency",
+      "technology partner"
+    ],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "strong_evidence",
+    "claims": 6
+  },
+  {
+    "domain": "superchat.com",
+    "name": "superchat",
+    "prmVendor": "kiflo.com",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "weak_proxy",
+    "ownership": "direct",
+    "surface": "unknown",
+    "programmes": [
+      "reseller",
+      "affiliate",
+      "agency"
+    ],
+    "motion": true,
+    "informal": "informal_programme",
+    "recruitmentHits": 2,
+    "types": [
+      "reseller/VAR",
+      "consultancy",
+      "agency"
+    ],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 2
+  },
+  {
+    "domain": "totalsoft.co",
+    "name": "totalsoft",
+    "prmVendor": "kiflo.com",
+    "stratum": "smb",
+    "cohort": "proxy_positive",
+    "materiality": "weak_proxy",
+    "ownership": "unknown",
+    "surface": "light",
+    "programmes": [
+      "technology",
+      "reseller",
+      "solution_partner"
+    ],
+    "motion": true,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [
+      "consultancy",
+      "technology partner",
+      "solution provider"
+    ],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 3
+  },
+  {
+    "domain": "aircall.com",
+    "name": "aircall",
+    "prmVendor": "partnerstack.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "strong_proxy",
+    "ownership": "direct",
+    "surface": "moderate",
+    "programmes": [
+      "services",
+      "integration",
+      "system_integrator",
+      "solution_partner"
+    ],
+    "motion": true,
+    "informal": "formalised_programme",
+    "recruitmentHits": 1,
+    "types": [
+      "systems integrator",
+      "consultancy",
+      "agency",
+      "solution provider"
+    ],
+    "artefacts": [
+      "tier structure"
+    ],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 7
+  },
+  {
+    "domain": "apollo.com",
+    "name": "apollo",
+    "prmVendor": "partnerstack.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "unknown",
+    "surface": "unknown",
+    "programmes": [],
+    "motion": false,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "under_observed",
+    "claims": 0
+  },
+  {
+    "domain": "carbon6.io",
+    "name": "carbon6",
+    "prmVendor": "partnerstack.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "strong_proxy",
+    "ownership": "direct",
+    "surface": "light",
+    "programmes": [
+      "reseller",
+      "affiliate"
+    ],
+    "motion": true,
+    "informal": "informal_programme",
+    "recruitmentHits": 1,
+    "types": [
+      "reseller/VAR",
+      "agency",
+      "other named type"
+    ],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "strong_evidence",
+    "claims": 4
+  },
+  {
+    "domain": "appdirect.com",
+    "name": "Register now ->",
+    "prmVendor": "partnerstack.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "confirmed",
+    "ownership": "direct",
+    "surface": "rich",
+    "programmes": [
+      "reseller"
+    ],
+    "motion": true,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [
+      "other named type"
+    ],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "strong_evidence",
+    "claims": 5
+  },
+  {
+    "domain": "bombbomb.com",
+    "name": "bombbomb",
+    "prmVendor": "partnerstack.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "unknown",
+    "surface": "unknown",
+    "programmes": [
+      "dealer"
+    ],
+    "motion": true,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 0
+  },
+  {
+    "domain": "bolt.io",
+    "name": "bolt",
+    "prmVendor": "partnerstack.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "unknown",
+    "surface": "unknown",
+    "programmes": [],
+    "motion": false,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "category": "professional_services",
+    "state": "suppression_candidate",
+    "claims": 0
+  },
+  {
+    "domain": "channelscaler.com",
+    "name": "channelscaler",
+    "prmVendor": "allbound.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "confirmed",
+    "ownership": "direct",
+    "surface": "rich",
+    "programmes": [
+      "reseller",
+      "services",
+      "technology",
+      "strategic_alliance",
+      "implementation",
+      "distributor",
+      "service_partner"
+    ],
+    "motion": true,
+    "informal": "suppressed_partner_tech",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [
+      "formal partner agreement",
+      "tier structure",
+      "partner portal",
+      "market development funds",
+      "published eligibility criteria",
+      "deal registration",
+      "programme levels"
+    ],
+    "category": "partner_tech_vendor",
+    "state": "suppression_candidate",
+    "claims": 11
+  },
+  {
+    "domain": "close.com",
+    "name": "close",
+    "prmVendor": "partnerstack.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "strong_proxy",
+    "ownership": "direct",
+    "surface": "moderate",
+    "programmes": [
+      "services",
+      "affiliate",
+      "implementation",
+      "solution_partner"
+    ],
+    "motion": true,
+    "informal": "formalised_programme",
+    "recruitmentHits": 1,
+    "types": [
+      "consultancy",
+      "agency"
+    ],
+    "artefacts": [
+      "published eligibility criteria"
+    ],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 5
+  },
+  {
+    "domain": "clickup.com",
+    "name": "clickup",
+    "prmVendor": "partnerstack.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "strong_proxy",
+    "ownership": "direct",
+    "surface": "unknown",
+    "programmes": [
+      "reseller",
+      "implementation",
+      "services",
+      "service_partner",
+      "system_integrator",
+      "solution_partner"
+    ],
+    "motion": true,
+    "informal": "formalised_programme",
+    "recruitmentHits": 1,
+    "types": [
+      "reseller/VAR",
+      "systems integrator",
+      "consultancy",
+      "agency",
+      "distributor"
+    ],
+    "artefacts": [
+      "tier structure"
+    ],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 4
+  },
+  {
+    "domain": "ctera.com",
+    "name": "ctera",
+    "prmVendor": "channeltivity.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "strong_proxy",
+    "ownership": "direct",
+    "surface": "moderate",
+    "programmes": [
+      "reseller",
+      "strategic_alliance",
+      "system_integrator",
+      "solution_partner"
+    ],
+    "motion": true,
+    "informal": "formalised_programme",
+    "recruitmentHits": 1,
+    "types": [
+      "reseller/VAR",
+      "systems integrator",
+      "technology partner",
+      "MSP/MSSP",
+      "solution provider"
+    ],
+    "artefacts": [
+      "partner portal"
+    ],
+    "category": "likely_target_category",
+    "state": "strong_evidence",
+    "claims": 4
+  },
+  {
+    "domain": "demandbase.com",
+    "name": "demandbase",
+    "prmVendor": "partnerstack.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "confirmed",
+    "ownership": "direct",
+    "surface": "light",
+    "programmes": [
+      "referral",
+      "services",
+      "technology",
+      "integration",
+      "reseller",
+      "service_partner",
+      "solution_partner"
+    ],
+    "motion": true,
+    "informal": "formalised_programme",
+    "recruitmentHits": 2,
+    "types": [
+      "agency",
+      "technology partner",
+      "reseller/VAR",
+      "referral partner",
+      "consultancy"
+    ],
+    "artefacts": [
+      "formal partner agreement"
+    ],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 6
+  },
+  {
+    "domain": "foxit.com",
+    "name": "foxit",
+    "prmVendor": "partnerstack.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "confirmed",
+    "ownership": "direct",
+    "surface": "moderate",
+    "programmes": [
+      "reseller",
+      "msp"
+    ],
+    "motion": true,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [
+      "reseller/VAR",
+      "MSP/MSSP",
+      "distributor"
+    ],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "strong_evidence",
+    "claims": 6
+  },
+  {
+    "domain": "drip.eu",
+    "name": "drip",
+    "prmVendor": "partnerstack.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "unknown",
+    "surface": "unknown",
+    "programmes": [],
+    "motion": false,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "under_observed",
+    "claims": 0
+  },
+  {
+    "domain": "formstack.com",
+    "name": "formstack",
+    "prmVendor": "partnerstack.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "weak_proxy",
+    "ownership": "direct",
+    "surface": "rich",
+    "programmes": [
+      "reseller",
+      "services",
+      "integration",
+      "distributor",
+      "service_partner"
+    ],
+    "motion": true,
+    "informal": "informal_programme",
+    "recruitmentHits": 1,
+    "types": [
+      "consultancy",
+      "other named type",
+      "reseller/VAR",
+      "agency",
+      "distributor"
+    ],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 9
+  },
+  {
+    "domain": "fundraiseup.com",
+    "name": "fundraise up",
+    "prmVendor": "partnerstack.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "weak_proxy",
+    "ownership": "direct",
+    "surface": "moderate",
+    "programmes": [
+      "reseller",
+      "services",
+      "agency",
+      "service_partner",
+      "solution_partner"
+    ],
+    "motion": true,
+    "informal": "informal_programme",
+    "recruitmentHits": 1,
+    "types": [
+      "reseller/VAR",
+      "agency",
+      "technology partner",
+      "other named type"
+    ],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 6
+  },
+  {
+    "domain": "fiverr.co",
+    "name": "fiverr",
+    "prmVendor": "partnerstack.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "unknown",
+    "surface": "unknown",
+    "programmes": [],
+    "motion": false,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "under_observed",
+    "claims": 0
+  },
+  {
+    "domain": "acumatica.com",
+    "name": "Acumatica",
+    "prmVendor": "mindmatrix.net",
+    "stratum": "enterprise",
+    "cohort": "proxy_positive",
+    "materiality": "confirmed",
+    "ownership": "unknown",
+    "surface": "moderate",
+    "programmes": [
+      "reseller",
+      "referral"
+    ],
+    "motion": true,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [
+      "reseller/VAR"
+    ],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 5
+  },
+  {
+    "domain": "genesys.com",
+    "name": "genesys",
+    "prmVendor": "partnerstack.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "weak_proxy",
+    "ownership": "unknown",
+    "surface": "light",
+    "programmes": [
+      "referral",
+      "distributor"
+    ],
+    "motion": true,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [
+      "consultancy"
+    ],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 2
+  },
+  {
+    "domain": "avalara.com",
+    "name": "Avalara",
+    "prmVendor": "mindmatrix.net",
+    "stratum": "enterprise",
+    "cohort": "proxy_positive",
+    "materiality": "strong_proxy",
+    "ownership": "direct",
+    "surface": "light",
+    "programmes": [
+      "reseller",
+      "referral"
+    ],
+    "motion": true,
+    "informal": "formalised_programme",
+    "recruitmentHits": 1,
+    "types": [
+      "reseller/VAR",
+      "consultancy"
+    ],
+    "artefacts": [
+      "partner portal"
+    ],
+    "category": "likely_target_category",
+    "state": "strong_evidence",
+    "claims": 5
+  },
+  {
+    "domain": "getresponse.com",
+    "name": "getresponse",
+    "prmVendor": "partnerstack.com",
+    "stratum": "mid_market",
+    "cohort": "proxy_positive",
+    "materiality": "confirmed",
+    "ownership": "direct",
+    "surface": "moderate",
+    "programmes": [
+      "reseller",
+      "agency",
+      "affiliate"
+    ],
+    "motion": true,
+    "informal": "formalised_programme",
+    "recruitmentHits": 2,
+    "types": [
+      "reseller/VAR",
+      "consultancy",
+      "agency",
+      "referral partner",
+      "other named type"
+    ],
+    "artefacts": [
+      "certification programme",
+      "market development funds"
+    ],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 8
+  },
+  {
+    "domain": "fvc.com",
+    "name": "fvc",
+    "prmVendor": "zinfi.com",
+    "stratum": "enterprise",
+    "cohort": "proxy_positive",
+    "materiality": "weak_proxy",
+    "ownership": "direct",
+    "surface": "unknown",
+    "programmes": [
+      "distributor"
+    ],
+    "motion": true,
+    "informal": "not_informal",
+    "recruitmentHits": 1,
+    "types": [],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 3
+  },
+  {
+    "domain": "illumineenergy.com",
+    "name": "illumine energy",
+    "prmVendor": "zinfi.com",
+    "stratum": "enterprise",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "unknown",
+    "surface": "unknown",
+    "programmes": [],
+    "motion": false,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "under_observed",
+    "claims": 0
+  },
+  {
+    "domain": "litera.com",
+    "name": "Litera",
+    "prmVendor": "mindmatrix.net",
+    "stratum": "enterprise",
+    "cohort": "proxy_positive",
+    "materiality": "confirmed",
+    "ownership": "direct",
+    "surface": "light",
+    "programmes": [
+      "reseller"
+    ],
+    "motion": true,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [
+      "reseller/VAR",
+      "consultancy",
+      "referral partner"
+    ],
+    "artefacts": [],
+    "category": "professional_services",
+    "state": "suppression_candidate",
+    "claims": 5
+  },
+  {
+    "domain": "bluegorilladigital.com",
+    "name": "blue gorilla digital",
+    "prmVendor": "zinfi.com",
+    "stratum": "enterprise",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "unknown",
+    "surface": "unknown",
+    "programmes": [
+      "dealer"
+    ],
+    "motion": true,
+    "informal": "not_informal",
+    "recruitmentHits": 1,
+    "types": [],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 0
+  },
+  {
+    "domain": "beamex.com",
+    "name": "beamex",
+    "prmVendor": "zinfi.com",
+    "stratum": "enterprise",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "unknown",
+    "surface": "unknown",
+    "programmes": [
+      "distributor"
+    ],
+    "motion": true,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [
+      "reseller/VAR",
+      "systems integrator"
+    ],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "research",
+    "claims": 0
+  },
+  {
+    "domain": "spotify.com",
+    "name": "spotify",
+    "prmVendor": "zinfi.com",
+    "stratum": "enterprise",
+    "cohort": "proxy_positive",
+    "materiality": "unknown",
+    "ownership": "unknown",
+    "surface": "unknown",
+    "programmes": [],
+    "motion": false,
+    "informal": "not_informal",
+    "recruitmentHits": 0,
+    "types": [],
+    "artefacts": [],
+    "category": "likely_target_category",
+    "state": "under_observed",
+    "claims": 0
+  }
+]

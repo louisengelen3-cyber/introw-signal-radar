@@ -1,0 +1,441 @@
+[
+  {
+    "domain": "3ds.com",
+    "state": "strong_evidence",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller"
+    ],
+    "surfaces": [
+      "partner_recruitment"
+    ],
+    "motion": true,
+    "claims": 4,
+    "pagesOk": 11
+  },
+  {
+    "domain": "accruent.com",
+    "state": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller",
+      "referral",
+      "system_integrator",
+      "solution_partner"
+    ],
+    "surfaces": [],
+    "motion": true,
+    "claims": 5,
+    "pagesOk": 9
+  },
+  {
+    "domain": "acquia.com",
+    "state": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "implementation",
+      "services",
+      "reseller",
+      "system_integrator",
+      "solution_partner"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "enablement",
+      "certification",
+      "deal_registration",
+      "portal"
+    ],
+    "motion": true,
+    "claims": 5,
+    "pagesOk": 9
+  },
+  {
+    "domain": "alation.com",
+    "state": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller",
+      "technology"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "certification",
+      "co_selling"
+    ],
+    "motion": true,
+    "claims": 6,
+    "pagesOk": 6
+  },
+  {
+    "domain": "anthropic.com",
+    "state": "research",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [],
+    "motion": false,
+    "claims": 0,
+    "pagesOk": 7
+  },
+  {
+    "domain": "appdynamics.com",
+    "state": "plausible",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "portal"
+    ],
+    "motion": true,
+    "claims": 4,
+    "pagesOk": 11
+  },
+  {
+    "domain": "appian.com",
+    "state": "strong_evidence",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "deal_registration",
+      "portal"
+    ],
+    "motion": true,
+    "claims": 6,
+    "pagesOk": 5
+  },
+  {
+    "domain": "aprimo.com",
+    "state": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "technology",
+      "services",
+      "solution_partner",
+      "system_integrator"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "co_selling"
+    ],
+    "motion": true,
+    "claims": 5,
+    "pagesOk": 8
+  },
+  {
+    "domain": "arisglobal.com",
+    "state": "plausible",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [
+      "partner_recruitment"
+    ],
+    "motion": true,
+    "claims": 2,
+    "pagesOk": 5
+  },
+  {
+    "domain": "automationanywhere.com",
+    "state": "plausible",
+    "category": "likely_target_category",
+    "programmes": [
+      "services",
+      "system_integrator",
+      "solution_partner"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "deal_registration",
+      "portal",
+      "partner_resources"
+    ],
+    "motion": true,
+    "claims": 4,
+    "pagesOk": 12
+  },
+  {
+    "domain": "avature.net",
+    "state": "research",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [],
+    "motion": false,
+    "claims": 0,
+    "pagesOk": 9
+  },
+  {
+    "domain": "belcan.com",
+    "state": "under_observed",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [],
+    "motion": false,
+    "claims": 0,
+    "pagesOk": 16
+  },
+  {
+    "domain": "bigid.com",
+    "state": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller",
+      "services",
+      "distributor",
+      "service_partner",
+      "system_integrator",
+      "msp"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "enablement",
+      "co_selling",
+      "portal"
+    ],
+    "motion": true,
+    "claims": 4,
+    "pagesOk": 11
+  },
+  {
+    "domain": "billingplatform.com",
+    "state": "plausible",
+    "category": "likely_target_category",
+    "programmes": [
+      "solution_partner"
+    ],
+    "surfaces": [
+      "partner_recruitment"
+    ],
+    "motion": true,
+    "claims": 1,
+    "pagesOk": 9
+  },
+  {
+    "domain": "blackline.com",
+    "state": "research",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [
+      "portal"
+    ],
+    "motion": true,
+    "claims": 2,
+    "pagesOk": 6
+  },
+  {
+    "domain": "blueyonder.com",
+    "state": "plausible",
+    "category": "likely_target_category",
+    "programmes": [
+      "technology",
+      "solution_partner"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "enablement",
+      "portal"
+    ],
+    "motion": true,
+    "claims": 4,
+    "pagesOk": 8
+  },
+  {
+    "domain": "boomi.com",
+    "state": "plausible",
+    "category": "likely_target_category",
+    "programmes": [
+      "system_integrator",
+      "solution_partner"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "enablement",
+      "portal"
+    ],
+    "motion": true,
+    "claims": 6,
+    "pagesOk": 7
+  },
+  {
+    "domain": "calabrio.com",
+    "state": "plausible",
+    "category": "likely_target_category",
+    "programmes": [
+      "strategic_alliance"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "application"
+    ],
+    "motion": true,
+    "claims": 1,
+    "pagesOk": 12
+  },
+  {
+    "domain": "calypso.com",
+    "state": "under_observed",
+    "category": "unknown",
+    "programmes": [],
+    "surfaces": [],
+    "motion": false,
+    "claims": 0,
+    "pagesOk": 0
+  },
+  {
+    "domain": "camunda.com",
+    "state": "plausible",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [
+      "partner_recruitment",
+      "co_selling",
+      "portal",
+      "programme_tiers",
+      "partner_resources"
+    ],
+    "motion": true,
+    "claims": 4,
+    "pagesOk": 11
+  },
+  {
+    "domain": "chef.io",
+    "state": "strong_evidence",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller",
+      "distributor"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "deal_registration",
+      "portal",
+      "programme_tiers"
+    ],
+    "motion": true,
+    "claims": 9,
+    "pagesOk": 10
+  },
+  {
+    "domain": "cleo.com",
+    "state": "under_observed",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [],
+    "motion": false,
+    "claims": 0,
+    "pagesOk": 3
+  },
+  {
+    "domain": "cognition.ai",
+    "state": "under_observed",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [],
+    "motion": false,
+    "claims": 0,
+    "pagesOk": 1
+  },
+  {
+    "domain": "cohesity.com",
+    "state": "plausible",
+    "category": "likely_target_category",
+    "programmes": [
+      "distributor",
+      "solution_partner",
+      "system_integrator",
+      "msp",
+      "oem_partner"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "deal_registration",
+      "portal",
+      "partner_resources"
+    ],
+    "motion": true,
+    "claims": 3,
+    "pagesOk": 7
+  },
+  {
+    "domain": "collibra.com",
+    "state": "research",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [
+      "partner_recruitment",
+      "enablement"
+    ],
+    "motion": true,
+    "claims": 4,
+    "pagesOk": 8
+  },
+  {
+    "domain": "conga.com",
+    "state": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "co_selling"
+    ],
+    "motion": true,
+    "claims": 2,
+    "pagesOk": 13
+  },
+  {
+    "domain": "coupa.com",
+    "state": "under_observed",
+    "category": "unknown",
+    "programmes": [],
+    "surfaces": [],
+    "motion": false,
+    "claims": 0,
+    "pagesOk": 0
+  },
+  {
+    "domain": "csgi.com",
+    "state": "plausible",
+    "category": "likely_target_category",
+    "programmes": [
+      "strategic_alliance"
+    ],
+    "surfaces": [
+      "partner_recruitment",
+      "enablement",
+      "lead_submission",
+      "portal"
+    ],
+    "motion": true,
+    "claims": 3,
+    "pagesOk": 5
+  },
+  {
+    "domain": "cyara.com",
+    "state": "research",
+    "category": "likely_target_category",
+    "programmes": [
+      "reseller"
+    ],
+    "surfaces": [
+      "partner_recruitment"
+    ],
+    "motion": true,
+    "claims": 3,
+    "pagesOk": 6
+  },
+  {
+    "domain": "datadoghq.com",
+    "state": "under_observed",
+    "category": "likely_target_category",
+    "programmes": [],
+    "surfaces": [],
+    "motion": false,
+    "claims": 0,
+    "pagesOk": 4
+  }
+]
